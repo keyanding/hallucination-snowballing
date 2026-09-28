@@ -1,0 +1,9 @@
+{
+  "notes": "STOP: all three baseline trajectories fail the intended evidence dependency; supplied father is repeated as grandfather; place-of-death task produces years. Formatting does not establish mechanism validity.",
+  "dataset_sha256": "116c7c147e904d8487dbdb90f9aeed5d8f3bb806319b2c68bd834d583de4c295",
+  "passed": false,
+  "model": "qwen3-0.6b",
+  "reviewer": "Codex semantic inspection",
+  "trajectories_path": "results/smoke/trajectories.jsonl",
+  "trajectories_sha256": "8acc471b9f4218b414a1e0edb0706d2123823b3ab83ee7c34b3dede4053b6ccb"
+}

@@ -1,0 +1,18 @@
+{
+  "data": "data/pilot.jsonl",
+  "output": "results/smoke/trajectories.jsonl",
+  "shar_repo": "..",
+  "model": "qwen3-0.6b",
+  "n": 3,
+  "seed": 42,
+  "smoke_gate": null,
+  "dataset_sha256": "116c7c147e904d8487dbdb90f9aeed5d8f3bb806319b2c68bd834d583de4c295",
+  "shar_commit": "b7fcf649d63d76dd57ec3242c14d7f1563ccac31",
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_new_tokens": 192,
+  "model_commit": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "stage": "oracle_correction",
+  "evidence_in_prompt": false
+}

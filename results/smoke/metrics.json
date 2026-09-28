@@ -1,0 +1,8 @@
+{
+  "P(E2|E1)_baseline": null,
+  "P(E2|not_E1)_baseline": null,
+  "Propagation Gap": null,
+  "Intervention Effect": null,
+  "intervention_paired_n": 0,
+  "note": "E2 is downstream factual error; propagation_consistent is labeled separately. PG uses natural baseline only. Missing labels excluded; report denominators."
+}

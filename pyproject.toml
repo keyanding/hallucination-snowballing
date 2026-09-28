@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hallucination-snowballing"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["matplotlib", "numpy", "torch", "transformers>=4.51,<5", "accelerate", "addict", "nltk", "wandb"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

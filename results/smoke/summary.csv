@@ -1,0 +1,4 @@
+condition,n,hop1_error_rate,hop2_error_rate,final_accuracy,n_hop1_labeled,n_hop2_labeled,n_final_labeled,mean_output_tokens,mean_latency
+baseline,3,,,0.0,0,0,3,66.66666666666667,2.2989577333307047
+injected_error,3,1.0,,0.0,3,0,3,30.666666666666668,0.8926557333325036
+rejection,3,0.0,,0.0,3,0,3,32.666666666666664,0.9634056666642815
