@@ -1,0 +1,39 @@
+WARNING: Package(s) not found: bitsandbytes
+Name: torch
+Version: 2.7.1+cu128
+Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+Home-page: https://pytorch.org/
+Author: PyTorch Team
+Author-email: packages@pytorch.org
+License: BSD-3-Clause
+Location: C:\Users\kding\Documents\Git_Projects\hallucination-rejection-sampling\.venv\Lib\site-packages
+Requires: filelock, fsspec, jinja2, networkx, sympy, typing-extensions
+Required-by: accelerate
+---
+Name: transformers
+Version: 4.51.3
+Summary: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+Home-page: https://github.com/huggingface/transformers
+Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)
+Author-email: transformers@huggingface.co
+License: Apache 2.0 License
+Location: C:\Users\kding\Documents\Git_Projects\hallucination-rejection-sampling\.venv\Lib\site-packages
+Requires: filelock, huggingface-hub, numpy, packaging, pyyaml, regex, requests, safetensors, tokenizers, tqdm
+Required-by: 
+---
+Name: accelerate
+Version: 1.15.0
+Summary: Accelerate
+Home-page: https://github.com/huggingface/accelerate
+Author: The Hugging Face team
+Author-email: transformers@huggingface.co
+License: Apache
+Location: C:\Users\kding\Documents\Git_Projects\hallucination-rejection-sampling\.venv\Lib\site-packages
+Requires: huggingface_hub, numpy, packaging, psutil, pyyaml, safetensors, torch
+Required-by: 
+3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+torch 2.7.1+cu128
+cuda 12.8
+available True
+gpu NVIDIA GeForce RTX 5070 Laptop GPU
+memory_GiB 7.95953369140625

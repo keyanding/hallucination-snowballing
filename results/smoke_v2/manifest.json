@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "seed": 42,
+  "candidates_sha256": "0e035c3a1ec1449bd7443d777ea70aa579147bcda65b9a8163cd59a3d5a7de05",
+  "load_test_sha256": "5baebbc9cba878e447ebfa5177f42cbcf878fb4fafa059a30c927c5a7d1fc641",
+  "quantization": "4bit-nf4",
+  "compute_dtype": "torch.bfloat16",
+  "cpu_offload": false,
+  "device_map": {
+    "": "0"
+  },
+  "generation_config": {
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_new_tokens": 128,
+    "enable_thinking": false
+  },
+  "source_code_sha256": {
+    "experiment_v2.py": "39c42e2c4e466bedf10c98b6f2dca9409a0547aa768e11c2f1137c0a5e523c5c",
+    "prepare.py": "5b548b17329f1ce84b9c1f612e771aa5065445096c8dbdceb4b00b703ff49eeb",
+    "generation/local_hf_adapter.py": "ac6edf9792b87ffce59dc44f713b62f43e1bd3f8dae4c8b73748e63c291286b6"
+  }
+}

@@ -1,0 +1,21 @@
+metric,value
+candidates_considered,5
+number_passing_all_gates,0
+baseline_chain_success,0.0
+oracle_downstream_success,0.0
+donor_downstream_success,0.0
+injected_n,0
+pending_review_n,0
+invalid_output_n,0
+denominator,"all eligible injected trajectories, including invalid; rates unavailable until pending labels are reviewed"
+PROPAGATE_count,0
+PROPAGATE_rate,
+RECOVER_count,0
+RECOVER_rate,
+NEW_HALLUCINATION_count,0
+NEW_HALLUCINATION_rate,
+REJECT_UNCERTAIN_count,0
+REJECT_UNCERTAIN_rate,
+INVALID_OUTPUT_count,0
+INVALID_OUTPUT_rate,
+propagation_rate,

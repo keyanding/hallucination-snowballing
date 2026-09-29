@@ -1,0 +1,22 @@
+{
+  "requested_quantization": "4bit-nf4",
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "raw_generation": "4",
+  "input_tokens": 21,
+  "output_tokens": 2,
+  "latency_seconds": 0.6431175999896368,
+  "quantization": "4bit-nf4",
+  "compute_dtype": "torch.bfloat16",
+  "truncated": false,
+  "peak_allocated_bytes": 3430942720,
+  "peak_reserved_bytes": 3495952384,
+  "free_bytes": 3716153344,
+  "total_bytes": 8546484224,
+  "device_map": {
+    "": "0"
+  },
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "cpu_offload": false,
+  "success": true,
+  "comfortable": true
+}

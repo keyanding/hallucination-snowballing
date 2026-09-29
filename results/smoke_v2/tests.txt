@@ -1,0 +1,16 @@
+test_chain_requires_link_and_answer (test_pipeline.PipelineTests.test_chain_requires_link_and_answer) ... ok
+test_raw_structure_failures_are_not_hidden (test_pipeline.PipelineTests.test_raw_structure_failures_are_not_hidden) ... ok
+test_unknown_labels_do_not_become_zero (test_pipeline.PipelineTests.test_unknown_labels_do_not_become_zero) ... ok
+test_classification_preserves_unknowns_and_invalid (test_v2.V2Tests.test_classification_preserves_unknowns_and_invalid) ... ok
+test_exact_entities_not_substrings_or_repeated_labels (test_v2.V2Tests.test_exact_entities_not_substrings_or_repeated_labels) ... ok
+test_failed_gate_prevents_injection_and_zero_denominator (test_v2.V2Tests.test_failed_gate_prevents_injection_and_zero_denominator) ... ok
+test_native_automatic_offload_does_not_bypass_nf4_gate (test_v2.V2Tests.test_native_automatic_offload_does_not_bypass_nf4_gate) ... ok
+test_prepare_keeps_evidence_donors_and_rejects_shortcuts (test_v2.V2Tests.test_prepare_keeps_evidence_donors_and_rejects_shortcuts) ... ok
+test_prompts_define_relations_without_gold_leakage (test_v2.V2Tests.test_prompts_define_relations_without_gold_leakage) ... ok
+test_review_requires_evidence_for_new_hallucination (test_v2.V2Tests.test_review_requires_evidence_for_new_hallucination) ... ok
+test_successful_gates_allow_one_injection (test_v2.V2Tests.test_successful_gates_allow_one_injection) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.057s
+
+OK

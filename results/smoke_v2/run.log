@@ -1,0 +1,48 @@
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  3.00s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.11s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.09s/it]
+{"id": "25bc868a0bdd11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: Kerala  \nStep 2: Kochi  \nFinal answer: Kochi", "baseline_gate": false, "oracle_gate": null, "donor_gate": null, "trajectory_label": null}
+{"id": "0ca2e9f80bda11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: James Marsh  \nStep 2: London, England  \nFinal answer: London, England", "baseline_gate": false, "oracle_gate": null, "donor_gate": null, "trajectory_label": null}
+{"id": "f1a04d600bdb11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: John Ford  \nStep 2: Wisconsin  \nFinal answer: Wisconsin", "baseline_gate": false, "oracle_gate": null, "donor_gate": null, "trajectory_label": null}
+{"id": "e61479860bda11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: Pluto (song) → performer → Bruno Mars  \nStep 2: Bruno Mars → place of birth → White Plains, New York  \nFinal answer: White Plains, New York", "baseline_gate": false, "oracle_gate": null, "donor_gate": null, "trajectory_label": null}
+{"id": "5b1e1f240bdc11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: Alonso Cánovas  \nStep 2: José Cánovas  \nFinal answer: José Cánovas", "baseline_gate": false, "oracle_gate": null, "donor_gate": null, "trajectory_label": null}
+{"id": "25bc868a0bdd11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Chennai  \nFinal answer: Chennai", "baseline_gate": false, "oracle_gate": false, "donor_gate": null, "trajectory_label": null}
+{"id": "0ca2e9f80bda11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Germany  \nFinal answer: Germany", "baseline_gate": false, "oracle_gate": false, "donor_gate": null, "trajectory_label": null}
+{"id": "f1a04d600bdb11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Stockholm, Sweden  \nFinal answer: Stockholm, Sweden", "baseline_gate": false, "oracle_gate": false, "donor_gate": null, "trajectory_label": null}
+{"id": "e61479860bda11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Iceland  \nFinal answer: Iceland", "baseline_gate": false, "oracle_gate": false, "donor_gate": null, "trajectory_label": null}
+{"id": "5b1e1f240bdc11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Leopoldo Torre Nilsson\n\nFinal answer: Leopoldo Torre Nilsson", "baseline_gate": false, "oracle_gate": false, "donor_gate": null, "trajectory_label": null}
+{"id": "25bc868a0bdd11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Unknown", "baseline_gate": false, "oracle_gate": false, "donor_gate": false, "trajectory_label": null}
+{"id": "0ca2e9f80bda11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Sweden", "baseline_gate": false, "oracle_gate": false, "donor_gate": false, "trajectory_label": null}
+{"id": "f1a04d600bdb11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Germany", "baseline_gate": false, "oracle_gate": false, "donor_gate": false, "trajectory_label": null}
+{"id": "e61479860bda11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Rock Island, Illinois", "baseline_gate": false, "oracle_gate": false, "donor_gate": false, "trajectory_label": null}
+{"id": "5b1e1f240bdc11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Unknown", "baseline_gate": false, "oracle_gate": false, "donor_gate": false, "trajectory_label": null}
+{
+  "candidates_considered": 5,
+  "number_passing_all_gates": 0,
+  "eligible_ids": [],
+  "baseline_chain_success": 0.0,
+  "oracle_downstream_success": 0.0,
+  "donor_downstream_success": 0.0,
+  "injected_n": 0,
+  "pending_review_n": 0,
+  "invalid_output_n": 0,
+  "denominator": "all eligible injected trajectories, including invalid; rates unavailable until pending labels are reviewed",
+  "PROPAGATE_count": 0,
+  "PROPAGATE_rate": null,
+  "RECOVER_count": 0,
+  "RECOVER_rate": null,
+  "NEW_HALLUCINATION_count": 0,
+  "NEW_HALLUCINATION_rate": null,
+  "REJECT_UNCERTAIN_count": 0,
+  "REJECT_UNCERTAIN_rate": null,
+  "INVALID_OUTPUT_count": 0,
+  "INVALID_OUTPUT_rate": null,
+  "propagation_rate": null,
+  "eligible_subset_gate_success": {
+    "baseline": null,
+    "oracle": null,
+    "donor_probe": null
+  }
+}

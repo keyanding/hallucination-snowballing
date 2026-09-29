@@ -1,0 +1,9 @@
+# Pre-generation candidate review
+
+Initial candidates are preserved as `data/candidates_v2_initial.jsonl`; no model probe was run on them. Evidence inspection found (1) birth-state vs birth-town granularity ambiguity, (2) location mentions that did not express the annotated death relation, and (3) a proposed composer born only three years before the song. Selection rules were refined before seeing any model outputs.
+
+The final fixed five candidates are `data/candidates_v2.jsonl`. Their original and donor triples are grounded in explicit dataset evidence. Birth/death support must express the relation, with the canonical birth location immediately following the relevant preposition; this intentionally excludes ambiguous state-vs-city examples. Creative-work donors must share the work domain and be 18–85 years old at the work's first recorded year; the intermediate birth-era proxy difference is at most 40 years. These are conservative filters, not a claim of complete historical/genre plausibility.
+
+The final set has composer→death place, director→birth place (two samples), performer→birth place, and director→father. Helsinki/Helsingfors is an evidence-corroborated alias. Some donors are from different countries/genres; the experiment measures response to supplied controlled states and should not be generalized to naturally plausible mistakes. This limitation is retained rather than hidden by selecting examples after model outcomes.
+
+Selection favors recurring dataset entities and uses distinct gold intermediates. The two director→birth-place examples reuse intermediates in opposite roles, so even this tiny set is not independent for statistical inference. Only the five final fixed candidates count in capability-gate metrics; the five initial candidates are a construction audit, not attempted capability trials.

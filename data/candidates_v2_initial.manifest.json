@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "n": 5,
+  "seed": 42,
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "candidates_sha256": "e489cd004ecdd304e6e35b43cd6637f4dcca224d1458fe4a6476950a30c218ba",
+  "selection": "highest recurring intermediate entities, distinct B; same r1/r2 donor within 40-year era proxy; no model-based selection",
+  "structural_pool": 2743,
+  "exclusions": {
+    "not_explicit_compositional_chain": 7570,
+    "potentially_multivalued_relation": 1196,
+    "no_intermediate_era_anchor": 956,
+    "conflicting_or_multiple_dataset_objects": 22,
+    "entities_not_explicit": 58,
+    "invalid_support": 31
+  },
+  "alias_source_sha256": "95df2bf56fdabe034e27aebc580e02264232203cf52552f9efe8a919e5529eef"
+}

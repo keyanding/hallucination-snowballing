@@ -1,0 +1,9 @@
+Collecting bitsandbytes
+  Downloading bitsandbytes-0.50.2-py3-none-win_amd64.whl.metadata (11 kB)
+Downloading bitsandbytes-0.50.2-py3-none-win_amd64.whl (39.1 MB)
+   ---------------------------------------- 39.1/39.1 MB 1.1 MB/s eta 0:00:00
+Installing collected packages: bitsandbytes
+Successfully installed bitsandbytes-0.50.2
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\kding\Documents\Git_Projects\hallucination-rejection-sampling\.venv\Scripts\python.exe -m pip install --upgrade pip

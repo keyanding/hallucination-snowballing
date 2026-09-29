@@ -1,0 +1,34 @@
+[
+  {
+    "source": "huggingface",
+    "system_proxy": true,
+    "status": 206,
+    "bytes": 1048576,
+    "seconds": 4.97,
+    "MiB_per_second": 0.201
+  },
+  {
+    "source": "huggingface",
+    "system_proxy": false,
+    "error_type": "ConnectTimeout",
+    "bytes": 0,
+    "seconds": 8.03,
+    "MiB_per_second": 0.0
+  },
+  {
+    "source": "modelscope",
+    "system_proxy": true,
+    "status": 206,
+    "bytes": 1048576,
+    "seconds": 1.64,
+    "MiB_per_second": 0.609
+  },
+  {
+    "source": "modelscope",
+    "system_proxy": false,
+    "error_type": "ReadTimeout",
+    "bytes": 0,
+    "seconds": 8.28,
+    "MiB_per_second": 0.0
+  }
+]

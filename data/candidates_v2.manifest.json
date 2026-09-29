@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "n": 5,
+  "seed": 42,
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "candidates_sha256": "0e035c3a1ec1449bd7443d777ea70aa579147bcda65b9a8163cd59a3d5a7de05",
+  "selection": "highest recurring intermediate entities, distinct B; same r1/r2 and work domain, within 40-year era proxy, adult in work year; birth/death support and granularity checks; no model-based selection",
+  "structural_pool": 1590,
+  "exclusions": {
+    "not_explicit_compositional_chain": 7570,
+    "potentially_multivalued_relation": 1196,
+    "birth_relation_or_location_granularity_unclear": 780,
+    "death_relation_not_explicit_in_support": 608,
+    "no_intermediate_era_anchor": 608,
+    "no_work_year_for_donor_plausibility": 113,
+    "conflicting_or_multiple_dataset_objects": 22,
+    "entities_not_explicit": 58,
+    "invalid_support": 31
+  },
+  "alias_source_sha256": "95df2bf56fdabe034e27aebc580e02264232203cf52552f9efe8a919e5529eef"
+}

@@ -1,5 +1,6 @@
 __pycache__/
 *.egg-info/
 .venv/
+.cache/
 data/source.zip
 data/dev.json

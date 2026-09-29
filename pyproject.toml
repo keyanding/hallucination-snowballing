@@ -8,6 +8,9 @@ version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = ["matplotlib", "numpy", "torch", "transformers>=4.51,<5", "accelerate", "addict", "nltk", "wandb"]
 
+[project.optional-dependencies]
+nf4 = ["bitsandbytes"]
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["src*"]
