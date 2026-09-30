@@ -1,0 +1,47 @@
+{
+  "version": "3.1",
+  "seed": 42,
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "candidates_sha256": "74713eafdf4864bea3e9f1b2afcf2986b3271df26e36e102712837608bbdb191",
+  "context_audit_sha256": "56b3a7992c8fcc21f1f0676b0aa1344061cddcad2ae2a9b37849f81e4bf4c4b0",
+  "load_test_sha256": "5baebbc9cba878e447ebfa5177f42cbcf878fb4fafa059a30c927c5a7d1fc641",
+  "policy": {
+    "H0_min_CLA": 0.9,
+    "H0_min_GSA": 0.9,
+    "H1_H2_min_CLA": 0.8,
+    "H1_H2_min_GSA": 0.8,
+    "min_interpretable_cases": 8,
+    "max_invalid_rate": 0.05,
+    "max_placeholder_copies": 0,
+    "max_unsupported_state_rate": 0.2,
+    "H3_min_CLA": 0.8,
+    "H3_min_GSA": 0.8
+  },
+  "generation_config": {
+    "do_sample": false,
+    "temperature": 0,
+    "temperature_argument": null,
+    "max_new_tokens": 32,
+    "use_cache": false,
+    "enable_thinking": false
+  },
+  "decoding_note": "HF temperature sampling disabled (None) under deterministic greedy decoding.",
+  "source_code_sha256": {
+    "experiment_v3_1.py": "c3adb96e63f4beadc63869d36e52cc07fffa53344575c756fe2af9806e50e040",
+    "prepare_v3_1.py": "42ce4e60ca6c26fb6f32f5a18bf796f7868bb0363099b26356f6f2b45043af1d",
+    "experiment_v3.py": "383340df5054b32090fd707424db92b271c8e003da5bba355b1bcfa9a834b380",
+    "experiment_v2.py": "d2c812544cb7c3836cc9c53952941bc31801af2bf17a82f083219fa129c14bc5",
+    "common.py": "3d9a41efd85336a0b49f75c3ada7921e84e459631c378979dc1f0a77bb635984",
+    "generation/local_hf_adapter.py": "ac6edf9792b87ffce59dc44f713b62f43e1bd3f8dae4c8b73748e63c291286b6"
+  },
+  "call_order": "H0 to H3; all direct B, then direct B prime, then state B, then state B prime at each level",
+  "no_cross_call_history": true,
+  "no_cross_call_kv_cache": true,
+  "quantization": "4bit-nf4",
+  "compute_dtype": "torch.bfloat16",
+  "cpu_offload": false,
+  "device_map": {
+    "": "0"
+  }
+}

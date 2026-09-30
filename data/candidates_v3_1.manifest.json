@@ -1,0 +1,12 @@
+{
+  "version": "3.1",
+  "count": 10,
+  "candidates_sha256": "74713eafdf4864bea3e9f1b2afcf2986b3271df26e36e102712837608bbdb191",
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "source": "2WikiMultiHopQA dev.json, April 2021 release",
+  "selection": "Pre-inference manual evidence review after structural scan; four birth, three death, three father. All first hops are single-director films. Twenty distinct intermediate people. Not a representative sample.",
+  "evidence_order": "fixed alternating 1/2 across cases, held constant across H0-H3; no extra order variants",
+  "aliases": "predeclared spelling/diacritic/qualification variants; never learned from model outputs",
+  "source_code_sha256": "42ce4e60ca6c26fb6f32f5a18bf796f7868bb0363099b26356f6f2b45043af1d",
+  "inference_used_in_selection": false
+}

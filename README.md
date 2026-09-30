@@ -2,7 +2,28 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3 controlled-context synthetic assay
+## Current experiment: v3.1 real-entity context ladder
+
+V3.1 uses ten fixed, evidence-reviewed real 2Wiki cases (four birthplace, three death-place, three father relations), each with twenty distinct intermediate people across the gold/donor branches in total. All first hops identify a single film director. The downstream facts are supplied explicitly; the model is not required to recall them. Candidate selection, aliases, source sentence indices and hashes live in `data/candidates_v3_1.jsonl` and its manifest.
+
+Each case receives four cumulative contexts: H0 has just two downstream facts; H1 adds the original task; H2 adds one neutral sentence from the exact original film article; H3 adds its explicit first-hop evidence. Within each level, paired state prompts differ only in the supplied entity. Two direct context-lookup controls and two state-framed probes give 160 planned independent calls. Reference order is balanced five/five across cases and fixed within each case across levels. This version reuses v3's isolation-tested NF4 adapter and short-answer parser.
+
+```powershell
+python -m src.prepare_v3_1
+python -m src.experiment_v3_1 prepare
+# Inspect context_audit.md and save its hash-bound audit_review.json before inference.
+python -m unittest discover -s tests -v
+$env:HF_HUB_OFFLINE='1'
+python -m src.experiment_v3_1 run
+```
+
+Preparation and execution refuse overwrite of the recorded run. See [context audit](results/smoke_v3_1/context_audit.md) and [pre-run protocol](results/smoke_v3_1/protocol.md). The audit catches partial-name leaks and neutral sentences mistakenly drawn from a same-title remake. The cumulative context blocks, paired prompt identity, thresholds and aliases are fixed before generation. Calibration collapse at H0–H2 stops progression; failed cases are never replaced.
+
+Metrics retain the same ten-case denominator across levels: separate and combined CLA, GSA, PR, OR, conditional SFIR by entity, ΔPR from H0, and secondary outcomes. H3 OVERRIDE_TO_GOLD is a meaningful response to conflicting first-hop evidence and does not fail the assay. Real-entity answer mismatches remain provisional until inspected. The experiment ends after inspection/diagnosis; no natural-trajectory branching, model-family comparison or SHARS/HalluSE integration is included.
+
+Actual v3.1 result: **PR = 100%, 100%, 90%, 20%** across H0–H3; OR = 0%, 0%, 10%, 80%. Direct lookup remains **20/20 at every level**. Gold-state adherence is 10/10, 10/10, 9/10, 10/10; the H2 gold-state failure is retained and documented. The smoke gate passes with nine cross-H0–H2 interpretable cases. See [full inspection](results/smoke_v3_1/inspection.md) and [reviewed diagnosis](results/smoke_v3_1/diagnosis.md). No next experiment is automatically launched.
+
+## Previous experiment: v3 controlled-context synthetic assay
 
 V3 removes closed-book recall from the downstream task. Ten fixed synthetic pairs (seed 42; four birthplace, three death-place, three father) each contain exactly two symmetrical reference facts. The state-framed baseline and injected prompts differ only in the supplied state field. Both evidence orders are tested, and two direct lookups per order establish context capability. The complete smoke comprises 80 independent calls with the same cached Qwen3-4B NF4 model, greedy decoding, a 32-token cap and KV caching explicitly disabled. No full original question or first-hop evidence reaches the model.
 

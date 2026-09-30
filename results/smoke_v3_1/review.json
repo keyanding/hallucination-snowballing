@@ -1,0 +1,89 @@
+{
+  "reviewer": "Codex evidence, prompt and raw-response inspection",
+  "passed": true,
+  "raw_trajectories_sha256": "f3c2579be15f27053b3ce1c8f2abfe732b9d711c6971904206ef6080d50592f7",
+  "candidates_sha256": "74713eafdf4864bea3e9f1b2afcf2986b3271df26e36e102712837608bbdb191",
+  "reviewed_calls": 160,
+  "all_outputs_supported_targets": true,
+  "no_relabeling_or_alias_changes": true,
+  "paired_outcomes": [
+    {
+      "case_id": "real-01",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "OVERRIDE_TO_GOLD",
+      "H3": "OVERRIDE_TO_GOLD"
+    },
+    {
+      "case_id": "real-02",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "OVERRIDE_TO_GOLD"
+    },
+    {
+      "case_id": "real-03",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "OVERRIDE_TO_GOLD"
+    },
+    {
+      "case_id": "real-04",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "OVERRIDE_TO_GOLD"
+    },
+    {
+      "case_id": "real-05",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "OVERRIDE_TO_GOLD"
+    },
+    {
+      "case_id": "real-06",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "PROPAGATE"
+    },
+    {
+      "case_id": "real-07",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "PROPAGATE"
+    },
+    {
+      "case_id": "real-08",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "OVERRIDE_TO_GOLD"
+    },
+    {
+      "case_id": "real-09",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "OVERRIDE_TO_GOLD"
+    },
+    {
+      "case_id": "real-10",
+      "H0": "PROPAGATE",
+      "H1": "PROPAGATE",
+      "H2": "PROPAGATE",
+      "H3": "OVERRIDE_TO_GOLD"
+    }
+  ],
+  "gold_state_failure": {
+    "case_id": "real-04",
+    "level": "H2",
+    "expected": "Rosario",
+    "observed": "Rēzekne"
+  },
+  "interpretability_rule_retains_failure": true,
+  "human_review_still_required": true
+}

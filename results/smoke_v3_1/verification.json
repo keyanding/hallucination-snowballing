@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "calls_verified": 160,
+  "source_sentences_verified": 50,
+  "all_pair_contexts_identical": true,
+  "raw_and_prompt_hashes_verified": true,
+  "code_and_dataset_hashes_unchanged": true,
+  "metrics_recomputed": true,
+  "fresh_single_user_cache_disabled_calls": 160,
+  "prior_artifacts_unchanged": 75,
+  "tests_passed": 36,
+  "audit_sha256": "56b3a7992c8fcc21f1f0676b0aa1344061cddcad2ae2a9b37849f81e4bf4c4b0",
+  "protocol_sha256": "d1d838de3b6f07b51db01b75516f66d47fe7109bb7f71ad314318ed1cc3ab314",
+  "spec_sha256": "7919a25caa21fa886add0bdbaa4f465d10fc9321a7bf8191835ad383dbcedfec"
+}

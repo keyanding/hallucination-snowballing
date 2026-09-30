@@ -1,0 +1,110 @@
+{
+  "candidates_sha256": "74713eafdf4864bea3e9f1b2afcf2986b3271df26e36e102712837608bbdb191",
+  "context_audit_sha256": "56b3a7992c8fcc21f1f0676b0aa1344061cddcad2ae2a9b37849f81e4bf4c4b0",
+  "source_sha256": "c3adb96e63f4beadc63869d36e52cc07fffa53344575c756fe2af9806e50e040",
+  "policy": {
+    "H0_min_CLA": 0.9,
+    "H0_min_GSA": 0.9,
+    "H1_H2_min_CLA": 0.8,
+    "H1_H2_min_GSA": 0.8,
+    "min_interpretable_cases": 8,
+    "max_invalid_rate": 0.05,
+    "max_placeholder_copies": 0,
+    "max_unsupported_state_rate": 0.2,
+    "H3_min_CLA": 0.8,
+    "H3_min_GSA": 0.8
+  },
+  "audits": {
+    "real-01": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-02": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-03": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-04": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-05": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-06": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-07": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-08": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-09": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    },
+    "real-10": {
+      "H0_two_downstream_facts_only": true,
+      "H1_task_frame_only": true,
+      "H2_added_text_no_entity_or_target_leak": true,
+      "H2_article_identity_matches": true,
+      "H3_explicit_first_hop": true,
+      "cumulative_context": true,
+      "paired_context_and_question_identical": true
+    }
+  },
+  "inference_started": false
+}

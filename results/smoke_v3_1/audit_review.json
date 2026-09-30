@@ -1,0 +1,8 @@
+{
+  "context_audit_sha256": "56b3a7992c8fcc21f1f0676b0aa1344061cddcad2ae2a9b37849f81e4bf4c4b0",
+  "protocol_sha256": "d1d838de3b6f07b51db01b75516f66d47fe7109bb7f71ad314318ed1cc3ab314",
+  "passed": true,
+  "reviewer": "Codex pre-inference source and context inspection",
+  "notes": "All ten source/donor chains inspected. Neutral sentences use the exact first-hop article, do not identify either intermediate or target, and contain no first-hop relation statement. H3 cumulatively adds the saved single-director evidence. Counterbalanced downstream order and all aliases fixed before inference.",
+  "candidates_sha256": "74713eafdf4864bea3e9f1b2afcf2986b3271df26e36e102712837608bbdb191"
+}

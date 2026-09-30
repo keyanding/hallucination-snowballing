@@ -1,0 +1,165 @@
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.17s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.24s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.18s/it]
+{"case_id": "real-01", "context_level": "H0", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H0", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H0", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H0", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H0", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H0", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H0", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H0", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H0", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H0", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H0", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H0", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H0", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H0", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H0", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H0", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H0", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H0", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H0", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H0", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H0", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "context_level": "H0", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "context_level": "H1", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H1", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H1", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H1", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H1", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H1", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H1", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H1", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H1", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H1", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H1", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H1", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H1", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H1", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H1", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H1", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H1", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H1", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H1", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H1", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H1", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "context_level": "H1", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "context_level": "H2", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H2", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H2", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H2", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H2", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H2", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H2", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H2", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H2", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H2", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H2", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H2", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H2", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H2", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H2", "condition": "state_B", "raw_generation": "Rēzekne", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-05", "context_level": "H2", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H2", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H2", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H2", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H2", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H2", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-02", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "context_level": "H2", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "context_level": "H3", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H3", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H3", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H3", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H3", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H3", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H3", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H3", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H3", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H3", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H3", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H3", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "context_level": "H3", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "context_level": "H3", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "context_level": "H3", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "context_level": "H3", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "context_level": "H3", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "context_level": "H3", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "context_level": "H3", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "context_level": "H3", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "context_level": "H3", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-02", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Düsseldorf", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-03", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Denver", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-04", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Rosario", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-05", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Yuen Siu-tien", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-06", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Přerov", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-09", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "San Felice Circeo", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-10", "context_level": "H3", "condition": "state_B_prime", "raw_generation": "Madrid", "label": "OVERRIDE_TO_GOLD"}

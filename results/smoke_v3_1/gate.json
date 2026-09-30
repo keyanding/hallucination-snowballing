@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "quantitative_checks": {
+    "complete_160_call_matrix": true,
+    "H0_CLA": true,
+    "H0_GSA": true,
+    "H0_H2_interpretable": true,
+    "H1_H2_CLA": true,
+    "H1_H2_GSA": true,
+    "invalid_rate": true,
+    "no_placeholder_contamination": true,
+    "no_unreviewed_mismatches": true,
+    "H3_controls": true,
+    "no_unsupported_collapse": true
+  },
+  "thresholds": {
+    "H0_min_CLA": 0.9,
+    "H0_min_GSA": 0.9,
+    "H1_H2_min_CLA": 0.8,
+    "H1_H2_min_GSA": 0.8,
+    "min_interpretable_cases": 8,
+    "max_invalid_rate": 0.05,
+    "max_placeholder_copies": 0,
+    "max_unsupported_state_rate": 0.2,
+    "H3_min_CLA": 0.8,
+    "H3_min_GSA": 0.8
+  },
+  "interpretable_cases": 9,
+  "stop_reasons": [],
+  "human_review_required": true,
+  "next_experiment_authorized": false,
+  "scale_authorized": false,
+  "semantic_review": "Codex inspection passed; human review pending",
+  "interpretation": "Externally supplied alternative real-entity state under controlled context; not spontaneous hallucination",
+  "trajectories_sha256": "f3c2579be15f27053b3ce1c8f2abfe732b9d711c6971904206ef6080d50592f7",
+  "inspection_sha256": "cb09f2298cbf6fca779fac44ec56a627b7acb24d523c91baba0d30d7b89942fa",
+  "review_sha256": "d461c11e5a364cecb966b54b23263aa32c1b7d0dc1af19200c6d2e2e58cea056",
+  "diagnosis_sha256": "5053ae89020a04bb983e63a4964673d05fddd59be83c6b3485d77896bbc5eb71",
+  "candidates_sha256": "74713eafdf4864bea3e9f1b2afcf2986b3271df26e36e102712837608bbdb191"
+}
