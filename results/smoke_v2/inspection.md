@@ -44,7 +44,41 @@ C' = Siversky
 
 ### baseline
 
-Supplied intermediate: (none)
+Input: A = Edavazhiyile Poocha Minda Poocha; no intermediate entity is supplied.
+
+Subquestion 1 (A → B): Apply relation "composer" to "Edavazhiyile Poocha Minda Poocha".
+
+Subquestion 2 (generated Step 1 → Step 2): Apply relation "place of death" to the entity returned in Step 1.
+
+Both subquestions are in ONE model call, not two separate calls. The final answer must repeat Step 2.
+
+Observed Step 1 output used by the requested composition: Kerala
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: Where did the composer of film Edavazhiyile Poocha Minda Poocha die?
+
+Solve this using exactly the two specified relations.
+
+Step 1 task:
+Apply relation "composer" to "Edavazhiyile Poocha Minda Poocha".
+Return the resulting entity only.
+
+Step 2 task:
+Apply relation "place of death" to the entity returned in Step 1.
+Return the resulting entity/value only.
+
+Final answer:
+Return the Step 2 result only.
+
+Output exactly:
+Step 1: ...
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 1: Kerala  
@@ -56,7 +90,40 @@ FAIL
 
 ### oracle
 
-Supplied intermediate: M. B. Sreenivasan
+Supplied intermediate (Step 1): M. B. Sreenivasan
+
+Step 1 task shown as context: Apply relation "composer" to "Edavazhiyile Poocha Minda Poocha"; its result is supplied, not requested again.
+
+Subquestion (B → C): Apply relation "place of death" to "M. B. Sreenivasan".
+
+The final answer must repeat Step 2.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: Where did the composer of film Edavazhiyile Poocha Minda Poocha die?
+
+Solve this using exactly the two specified relations.
+
+The result of Step 1 is supplied below.
+
+Step 1 task:
+Apply relation "composer" to "Edavazhiyile Poocha Minda Poocha".
+
+Step 1: M. B. Sreenivasan
+
+Step 2 task:
+Apply relation "place of death" to the entity supplied in Step 1.
+Use the supplied Step 1 entity as the input to Step 2. Return the resulting entity/value only.
+
+Final answer: Return the Step 2 result only.
+
+Output exactly:
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 2: Chennai  
@@ -67,7 +134,21 @@ FAIL
 
 ### donor_probe
 
-Supplied intermediate: (none)
+Input entity for donor probe (B'): Isaac Schwartz
+
+Subquestion (B′ → C′): Apply relation "place of death" to "Isaac Schwartz".
+
+This is an independent one-relation call. B′ is explicitly present in the prompt; no Step 1 result is prefilled.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Apply relation "place of death" to "Isaac Schwartz". Return the resulting entity/value only.
+Output exactly:
+Answer: ...
+```
+
+**Model response**
 
 ```text
 Answer: Unknown
@@ -129,7 +210,41 @@ C' = Helsingfors
 
 ### baseline
 
-Supplied intermediate: (none)
+Input: A = The Last Bridge; no intermediate entity is supplied.
+
+Subquestion 1 (A → B): Apply relation "director" to "The Last Bridge".
+
+Subquestion 2 (generated Step 1 → Step 2): Apply relation "place of birth" to the entity returned in Step 1.
+
+Both subquestions are in ONE model call, not two separate calls. The final answer must repeat Step 2.
+
+Observed Step 1 output used by the requested composition: James Marsh
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: Where was the director of film The Last Bridge born?
+
+Solve this using exactly the two specified relations.
+
+Step 1 task:
+Apply relation "director" to "The Last Bridge".
+Return the resulting entity only.
+
+Step 2 task:
+Apply relation "place of birth" to the entity returned in Step 1.
+Return the resulting entity/value only.
+
+Final answer:
+Return the Step 2 result only.
+
+Output exactly:
+Step 1: ...
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 1: James Marsh  
@@ -141,7 +256,40 @@ FAIL
 
 ### oracle
 
-Supplied intermediate: Helmut Käutner
+Supplied intermediate (Step 1): Helmut Käutner
+
+Step 1 task shown as context: Apply relation "director" to "The Last Bridge"; its result is supplied, not requested again.
+
+Subquestion (B → C): Apply relation "place of birth" to "Helmut Käutner".
+
+The final answer must repeat Step 2.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: Where was the director of film The Last Bridge born?
+
+Solve this using exactly the two specified relations.
+
+The result of Step 1 is supplied below.
+
+Step 1 task:
+Apply relation "director" to "The Last Bridge".
+
+Step 1: Helmut Käutner
+
+Step 2 task:
+Apply relation "place of birth" to the entity supplied in Step 1.
+Use the supplied Step 1 entity as the input to Step 2. Return the resulting entity/value only.
+
+Final answer: Return the Step 2 result only.
+
+Output exactly:
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 2: Germany  
@@ -152,7 +300,21 @@ FAIL
 
 ### donor_probe
 
-Supplied intermediate: (none)
+Input entity for donor probe (B'): Gustaf Molander
+
+Subquestion (B′ → C′): Apply relation "place of birth" to "Gustaf Molander".
+
+This is an independent one-relation call. B′ is explicitly present in the prompt; no Step 1 result is prefilled.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Apply relation "place of birth" to "Gustaf Molander". Return the resulting entity/value only.
+Output exactly:
+Answer: ...
+```
+
+**Model response**
 
 ```text
 Answer: Sweden
@@ -214,7 +376,41 @@ C' = Düsseldorf
 
 ### baseline
 
-Supplied intermediate: (none)
+Input: A = Dollar; no intermediate entity is supplied.
+
+Subquestion 1 (A → B): Apply relation "director" to "Dollar".
+
+Subquestion 2 (generated Step 1 → Step 2): Apply relation "place of birth" to the entity returned in Step 1.
+
+Both subquestions are in ONE model call, not two separate calls. The final answer must repeat Step 2.
+
+Observed Step 1 output used by the requested composition: John Ford
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: What is the place of birth of the director of film Dollar (1938 Film)?
+
+Solve this using exactly the two specified relations.
+
+Step 1 task:
+Apply relation "director" to "Dollar".
+Return the resulting entity only.
+
+Step 2 task:
+Apply relation "place of birth" to the entity returned in Step 1.
+Return the resulting entity/value only.
+
+Final answer:
+Return the Step 2 result only.
+
+Output exactly:
+Step 1: ...
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 1: John Ford  
@@ -226,7 +422,40 @@ FAIL
 
 ### oracle
 
-Supplied intermediate: Gustaf Molander
+Supplied intermediate (Step 1): Gustaf Molander
+
+Step 1 task shown as context: Apply relation "director" to "Dollar"; its result is supplied, not requested again.
+
+Subquestion (B → C): Apply relation "place of birth" to "Gustaf Molander".
+
+The final answer must repeat Step 2.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: What is the place of birth of the director of film Dollar (1938 Film)?
+
+Solve this using exactly the two specified relations.
+
+The result of Step 1 is supplied below.
+
+Step 1 task:
+Apply relation "director" to "Dollar".
+
+Step 1: Gustaf Molander
+
+Step 2 task:
+Apply relation "place of birth" to the entity supplied in Step 1.
+Use the supplied Step 1 entity as the input to Step 2. Return the resulting entity/value only.
+
+Final answer: Return the Step 2 result only.
+
+Output exactly:
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 2: Stockholm, Sweden  
@@ -237,7 +466,21 @@ FAIL
 
 ### donor_probe
 
-Supplied intermediate: (none)
+Input entity for donor probe (B'): Helmut Käutner
+
+Subquestion (B′ → C′): Apply relation "place of birth" to "Helmut Käutner".
+
+This is an independent one-relation call. B′ is explicitly present in the prompt; no Step 1 result is prefilled.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Apply relation "place of birth" to "Helmut Käutner". Return the resulting entity/value only.
+Output exactly:
+Answer: ...
+```
+
+**Model response**
 
 ```text
 Answer: Germany
@@ -299,7 +542,41 @@ C' = St. Louis, Missouri
 
 ### baseline
 
-Supplied intermediate: (none)
+Input: A = Pluto; no intermediate entity is supplied.
+
+Subquestion 1 (A → B): Apply relation "performer" to "Pluto".
+
+Subquestion 2 (generated Step 1 → Step 2): Apply relation "place of birth" to the entity returned in Step 1.
+
+Both subquestions are in ONE model call, not two separate calls. The final answer must repeat Step 2.
+
+Observed Step 1 output used by the requested composition: Pluto (song) → performer → Bruno Mars
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: What is the place of birth of the performer of song Pluto (Song)?
+
+Solve this using exactly the two specified relations.
+
+Step 1 task:
+Apply relation "performer" to "Pluto".
+Return the resulting entity only.
+
+Step 2 task:
+Apply relation "place of birth" to the entity returned in Step 1.
+Return the resulting entity/value only.
+
+Final answer:
+Return the Step 2 result only.
+
+Output exactly:
+Step 1: ...
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 1: Pluto (song) → performer → Bruno Mars  
@@ -311,7 +588,40 @@ FAIL
 
 ### oracle
 
-Supplied intermediate: Björk
+Supplied intermediate (Step 1): Björk
+
+Step 1 task shown as context: Apply relation "performer" to "Pluto"; its result is supplied, not requested again.
+
+Subquestion (B → C): Apply relation "place of birth" to "Björk".
+
+The final answer must repeat Step 2.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: What is the place of birth of the performer of song Pluto (Song)?
+
+Solve this using exactly the two specified relations.
+
+The result of Step 1 is supplied below.
+
+Step 1 task:
+Apply relation "performer" to "Pluto".
+
+Step 1: Björk
+
+Step 2 task:
+Apply relation "place of birth" to the entity supplied in Step 1.
+Use the supplied Step 1 entity as the input to Step 2. Return the resulting entity/value only.
+
+Final answer: Return the Step 2 result only.
+
+Output exactly:
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 2: Iceland  
@@ -322,7 +632,21 @@ FAIL
 
 ### donor_probe
 
-Supplied intermediate: (none)
+Input entity for donor probe (B'): Chuck Berry
+
+Subquestion (B′ → C′): Apply relation "place of birth" to "Chuck Berry".
+
+This is an independent one-relation call. B′ is explicitly present in the prompt; no Step 1 result is prefilled.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Apply relation "place of birth" to "Chuck Berry". Return the resulting entity/value only.
+Output exactly:
+Answer: ...
+```
+
+**Model response**
 
 ```text
 Answer: Rock Island, Illinois
@@ -384,7 +708,41 @@ C' = Daniel Alomía Robles
 
 ### baseline
 
-Supplied intermediate: (none)
+Input: A = La caída; no intermediate entity is supplied.
+
+Subquestion 1 (A → B): Apply relation "director" to "La caída".
+
+Subquestion 2 (generated Step 1 → Step 2): Apply relation "father" to the entity returned in Step 1.
+
+Both subquestions are in ONE model call, not two separate calls. The final answer must repeat Step 2.
+
+Observed Step 1 output used by the requested composition: Alonso Cánovas
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: Who is the father of the director of film La Caída?
+
+Solve this using exactly the two specified relations.
+
+Step 1 task:
+Apply relation "director" to "La caída".
+Return the resulting entity only.
+
+Step 2 task:
+Apply relation "father" to the entity returned in Step 1.
+Return the resulting entity/value only.
+
+Final answer:
+Return the Step 2 result only.
+
+Output exactly:
+Step 1: ...
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 1: Alonso Cánovas  
@@ -396,7 +754,40 @@ FAIL
 
 ### oracle
 
-Supplied intermediate: Leopoldo Torre Nilsson
+Supplied intermediate (Step 1): Leopoldo Torre Nilsson
+
+Step 1 task shown as context: Apply relation "director" to "La caída"; its result is supplied, not requested again.
+
+Subquestion (B → C): Apply relation "father" to "Leopoldo Torre Nilsson".
+
+The final answer must repeat Step 2.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Question: Who is the father of the director of film La Caída?
+
+Solve this using exactly the two specified relations.
+
+The result of Step 1 is supplied below.
+
+Step 1 task:
+Apply relation "director" to "La caída".
+
+Step 1: Leopoldo Torre Nilsson
+
+Step 2 task:
+Apply relation "father" to the entity supplied in Step 1.
+Use the supplied Step 1 entity as the input to Step 2. Return the resulting entity/value only.
+
+Final answer: Return the Step 2 result only.
+
+Output exactly:
+Step 2: ...
+Final answer: ...
+```
+
+**Model response**
 
 ```text
 Step 2: Leopoldo Torre Nilsson
@@ -408,7 +799,21 @@ FAIL
 
 ### donor_probe
 
-Supplied intermediate: (none)
+Input entity for donor probe (B'): Armando Robles Godoy
+
+Subquestion (B′ → C′): Apply relation "father" to "Armando Robles Godoy".
+
+This is an independent one-relation call. B′ is explicitly present in the prompt; no Step 1 result is prefilled.
+
+**Exact prompt sent to the model (from trajectories.jsonl)**
+
+```text
+Apply relation "father" to "Armando Robles Godoy". Return the resulting entity/value only.
+Output exactly:
+Answer: ...
+```
+
+**Model response**
 
 ```text
 Answer: Unknown

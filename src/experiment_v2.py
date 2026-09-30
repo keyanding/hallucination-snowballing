@@ -95,6 +95,38 @@ def validate_load_test(test):
         raise ValueError("Native headroom insufficient or automatically offloaded; test NF4 first")
 
 
+def inspection_call_details(record):
+    """Describe one recorded call; display its saved prompt, never regenerate it."""
+    condition = record["condition"]
+    r1, r2 = record["relation_r1"], record["relation_r2"]
+    if condition == "baseline":
+        details = [
+            "Input: A = " + record["subject_A"] + "; no intermediate entity is supplied.",
+            f'Subquestion 1 (A → B): Apply relation "{r1}" to "{record["subject_A"]}".',
+            f'Subquestion 2 (generated Step 1 → Step 2): Apply relation "{r2}" to the entity returned in Step 1.',
+            "Both subquestions are in ONE model call, not two separate calls. The final answer must repeat Step 2.",
+            "Observed Step 1 output used by the requested composition: " + record["generated_step1"],
+        ]
+    elif condition == "donor_probe":
+        details = [
+            "Input entity for donor probe (B'): " + record["injected_B_prime"],
+            f'Subquestion (B′ → C′): Apply relation "{r2}" to "{record["injected_B_prime"]}".',
+            "This is an independent one-relation call. B′ is explicitly present in the prompt; no Step 1 result is prefilled.",
+        ]
+    else:
+        entity = record["gold_B"] if condition == "oracle" else record["injected_B_prime"]
+        route = "B → C" if condition == "oracle" else "B′ → downstream result (compared with C and C′)"
+        details = [
+            "Supplied intermediate (Step 1): " + entity,
+            f'Step 1 task shown as context: Apply relation "{r1}" to "{record["subject_A"]}"; its result is supplied, not requested again.',
+            f'Subquestion ({route}): Apply relation "{r2}" to "{entity}".',
+            "The final answer must repeat Step 2.",
+        ]
+    details += ["**Exact prompt sent to the model (from trajectories.jsonl)**",
+                "```text\n" + record["prompt"] + "\n```"]
+    return details
+
+
 def export_results(out, candidates, records, manifest):
     groups = {c: [r for r in records if r["condition"] == c] for c in ("baseline", "oracle", "donor_probe", "injected")}
     eligible = [r["id"] for r in candidates if all(next((x.get(k) for x in records if x["id"] == r["id"] and x["condition"] == c), False)
@@ -129,7 +161,8 @@ def export_results(out, candidates, records, manifest):
             lines += [f"### {c}"]
             if record is None:
                 lines += ["NOT RUN — pre-intervention gates not all passed."]; continue
-            lines += [f"Supplied intermediate: {record.get('supplied_step1') or '(none)'}",
+            lines += inspection_call_details(record)
+            lines += ["**Model response**",
                       "```text\n" + record["raw_generation"] + "\n```",
                       ("PASS" if record[key] else "FAIL") if key else f"Classification: {record['trajectory_label'] or 'PENDING_REVIEW'}; {record['classification_reason']}"]
         lines += ["### Supporting evidence", "```json\n" + json.dumps(candidate["supporting_facts"], ensure_ascii=False, indent=2) + "\n```",
