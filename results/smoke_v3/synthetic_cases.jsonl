@@ -1,0 +1,10 @@
+{"case_id": "synthetic-01", "track": "synthetic", "relation": "father", "B": "Lorvi Polven", "C": "Zevra Kelmor", "B_prime": "Peldra Dirvek", "C_prime": "Pavrek Zemrik"}
+{"case_id": "synthetic-02", "track": "synthetic", "relation": "place of death", "B": "Melvo Lumrek", "C": "Nolmeth", "B_prime": "Dazrin Tolvar", "C_prime": "Zalrune"}
+{"case_id": "synthetic-03", "track": "synthetic", "relation": "place of death", "B": "Nelvo Tersiv", "C": "Pelvune", "B_prime": "Vemri Sarniv", "C_prime": "Dorveth"}
+{"case_id": "synthetic-04", "track": "synthetic", "relation": "place of birth", "B": "Delven Belkor", "C": "Vorneth", "B_prime": "Vesro Lurnek", "C_prime": "Kelmora"}
+{"case_id": "synthetic-05", "track": "synthetic", "relation": "place of birth", "B": "Tavrin Zimvek", "C": "Vadrune", "B_prime": "Zalven Renvok", "C_prime": "Livneth"}
+{"case_id": "synthetic-06", "track": "synthetic", "relation": "place of birth", "B": "Zorli Molven", "C": "Kovdara", "B_prime": "Nolvi Parnel", "C_prime": "Mervash"}
+{"case_id": "synthetic-07", "track": "synthetic", "relation": "father", "B": "Romvi Dovrek", "C": "Kervan Vesnal", "B_prime": "Davli Felvik", "C_prime": "Savro Karsel"}
+{"case_id": "synthetic-08", "track": "synthetic", "relation": "place of birth", "B": "Zuvrin Kevnol", "C": "Penvora", "B_prime": "Ruvika Navdel", "C_prime": "Fesdara"}
+{"case_id": "synthetic-09", "track": "synthetic", "relation": "father", "B": "Kovrin Nerzol", "C": "Nuvren Fesmir", "B_prime": "Talvi Sovnal", "C_prime": "Solvek Zurnam"}
+{"case_id": "synthetic-10", "track": "synthetic", "relation": "place of death", "B": "Kirva Ravdek", "C": "Zunarek", "B_prime": "Tivra Moshun", "C_prime": "Relvune"}

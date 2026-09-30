@@ -2,7 +2,27 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v2.1 natural-language prompt diagnosis
+## Current experiment: v3 controlled-context synthetic assay
+
+V3 removes closed-book recall from the downstream task. Ten fixed synthetic pairs (seed 42; four birthplace, three death-place, three father) each contain exactly two symmetrical reference facts. The state-framed baseline and injected prompts differ only in the supplied state field. Both evidence orders are tested, and two direct lookups per order establish context capability. The complete smoke comprises 80 independent calls with the same cached Qwen3-4B NF4 model, greedy decoding, a 32-token cap and KV caching explicitly disabled. No full original question or first-hop evidence reaches the model.
+
+`src.experiment_v3` saves and validates the fixed cases before inference, refuses overwrite, and checks preservation of prior results. A pre-run name review must bind to the saved dataset hash. The direct calls also serve as minimal-lookup controls, and the state calls as framing controls; no extra duplicate calls are needed. Case eligibility requires exact direct answers for both entities in both orders. All state probes run for diagnosis, but only eligible cases enter primary outcome metrics.
+
+```powershell
+python -m unittest discover -s tests -v
+python -m src.experiment_v3 prepare
+# Inspect synthetic_cases.jsonl and save hash-bound name_review.json before inference.
+$env:HF_HUB_OFFLINE='1'
+python -m src.experiment_v3 run
+```
+
+These commands create a fresh run; the recorded `results/smoke_v3/` cannot be overwritten. See [the pre-run protocol](results/smoke_v3/protocol.md) for gate thresholds, name screening, outcome definitions and denominators. In this assay PROPAGATE means following an externally supplied state through provided facts; OVERRIDE_TO_GOLD means returning the other designated target and is not factual recovery. Neither result establishes that the intermediate error was spontaneously generated. The gate does not require a high propagation rate. Both orders are repeated observations of the same ten cases, not independent samples.
+
+After the smoke, stop for human review. The 30–50-pair synthetic pilot and real-entity Track B are later stages, conditional on a valid setup and review. No SHARS/HalluSE integration is included.
+
+Actual v3 Track A outcome: **40/40 direct lookups**, **20/20 baseline state answers**, and **20/20 injected state answers** were exact. All ten pairs passed; there were no evidence-order changes, state-frame failures, invalid outputs or refusals. The quantitative gate passes, with human review still required before scaling. See [full paired inspection](results/smoke_v3/inspection.md) and [reviewed interpretation](results/smoke_v3/diagnosis.md). This is controlled following of an externally set state, not evidence of spontaneous intermediate hallucination.
+
+## Previous experiment: v2.1 natural-language prompt diagnosis
 
 V2.1 reuses the exact five v2 candidates, model revision, NF4/BF16 adapter and greedy decoding. `src.experiment_v2_1` replaces operator wording with relation-specific questions, explicitly fixes the correct Oracle premise, and uses neutral continuation instructions for injection. Birth questions request a city/town; the death questions request a specific location so Lakshadweep is not incorrectly constrained to a city. The performer template uses "performed or recorded" to match the saved song evidence.
 

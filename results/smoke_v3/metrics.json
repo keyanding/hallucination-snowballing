@@ -1,0 +1,148 @@
+{
+  "cases": 10,
+  "total_calls": 80,
+  "eligible_cases": 10,
+  "eligible_case_ids": [
+    "synthetic-01",
+    "synthetic-02",
+    "synthetic-03",
+    "synthetic-04",
+    "synthetic-05",
+    "synthetic-06",
+    "synthetic-07",
+    "synthetic-08",
+    "synthetic-09",
+    "synthetic-10"
+  ],
+  "fully_interpretable_cases": 10,
+  "fully_interpretable_ids": [
+    "synthetic-01",
+    "synthetic-02",
+    "synthetic-03",
+    "synthetic-04",
+    "synthetic-05",
+    "synthetic-06",
+    "synthetic-07",
+    "synthetic-08",
+    "synthetic-09",
+    "synthetic-10"
+  ],
+  "context_lookup_accuracy_all": {
+    "count": 40,
+    "denominator": 40,
+    "rate": 1.0
+  },
+  "context_lookup_accuracy_eligible": {
+    "count": 40,
+    "denominator": 40,
+    "rate": 1.0
+  },
+  "state_adherence_baseline": {
+    "count": 20,
+    "denominator": 20,
+    "rate": 1.0
+  },
+  "state_adherence_injected": {
+    "count": 20,
+    "denominator": 20,
+    "rate": 1.0
+  },
+  "baseline_accuracy_all": {
+    "count": 20,
+    "denominator": 20,
+    "rate": 1.0
+  },
+  "invalid_output": {
+    "count": 0,
+    "denominator": 80,
+    "rate": 0.0
+  },
+  "placeholder_copies": 0,
+  "evidence_order_disagreement": {
+    "direct_B": {
+      "count": 0,
+      "denominator": 10,
+      "rate": 0.0
+    },
+    "direct_B_prime": {
+      "count": 0,
+      "denominator": 10,
+      "rate": 0.0
+    },
+    "state_B": {
+      "count": 0,
+      "denominator": 10,
+      "rate": 0.0
+    },
+    "state_B_prime": {
+      "count": 0,
+      "denominator": 10,
+      "rate": 0.0
+    }
+  },
+  "order_changed_case_ids": {
+    "direct_B": [],
+    "direct_B_prime": [],
+    "state_B": [],
+    "state_B_prime": []
+  },
+  "state_frame_interference": [],
+  "baseline_frame_interference": {
+    "count": 0,
+    "denominator": 20,
+    "rate": 0.0
+  },
+  "nontarget_frame_failure": {
+    "count": 0,
+    "denominator": 40,
+    "rate": 0.0
+  },
+  "denominator_note": "Primary outcomes: both order variants of cases passing all four direct lookups. Orders are repeated measurements, not independent samples. CLA-all is the non-circular capability gate; CLA-eligible is necessarily 1.",
+  "injected_outcomes": {
+    "PROPAGATE": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0
+    },
+    "OVERRIDE_TO_GOLD": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0
+    },
+    "OUT_OF_CONTEXT_HALLUCINATION": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0
+    },
+    "UNKNOWN_REJECT": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0
+    },
+    "INVALID_OUTPUT": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0
+    }
+  },
+  "propagation_rate": {
+    "count": 20,
+    "denominator": 20,
+    "rate": 1.0
+  },
+  "override_rate": {
+    "count": 0,
+    "denominator": 20,
+    "rate": 0.0
+  },
+  "out_of_context_hallucination_rate": {
+    "count": 0,
+    "denominator": 20,
+    "rate": 0.0
+  },
+  "out_of_context_rate_valid_nonrefusal": {
+    "count": 0,
+    "denominator": 20,
+    "rate": 0.0
+  }
+}

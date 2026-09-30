@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "dataset_sha256": "eee4570e511e415b02018c39b822bc5e5c90a107dd8892e88a5f0e457cc7c4fb",
+  "policy": {
+    "min_lookup_accuracy": 0.9,
+    "min_baseline_accuracy": 0.9,
+    "max_order_disagreement_rate": 0.1,
+    "min_fully_interpretable_cases": 8,
+    "max_invalid_rate": 0.05,
+    "max_placeholder_copies": 0,
+    "max_baseline_frame_interference": 0.1,
+    "max_nontarget_frame_failure": 0.1
+  },
+  "source_sha256": "383340df5054b32090fd707424db92b271c8e003da5bba355b1bcfa9a834b380",
+  "name_review": "pending before model execution"
+}

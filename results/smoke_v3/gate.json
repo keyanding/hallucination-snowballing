@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "quantitative_checks": {
+    "complete_matrix": true,
+    "context_lookup": true,
+    "baseline_accuracy": true,
+    "evidence_order": true,
+    "interpretable": true,
+    "formatting": true,
+    "baseline_frame": true,
+    "nontarget_frame": true
+  },
+  "thresholds": {
+    "min_lookup_accuracy": 0.9,
+    "min_baseline_accuracy": 0.9,
+    "max_order_disagreement_rate": 0.1,
+    "min_fully_interpretable_cases": 8,
+    "max_invalid_rate": 0.05,
+    "max_placeholder_copies": 0,
+    "max_baseline_frame_interference": 0.1,
+    "max_nontarget_frame_failure": 0.1
+  },
+  "fully_interpretable_cases": 10,
+  "eligible_cases": 10,
+  "human_review_required": true,
+  "scale_authorized": false,
+  "track_b_authorized": false,
+  "reason": "Quantitative gate passed; stop for human inspection",
+  "semantic_review": "Codex inspection passed; human review pending",
+  "interpretation_scope": "Externally supplied state in fixed synthetic context; not spontaneous hallucination",
+  "inspection_sha256": "4b499341e5bf892357994f3848e1ebf632f11756c2b97da116efd23c75cd7ff9",
+  "trajectories_sha256": "ecb50a757dbf46647874446ccba9dbba7e736fe98cc9c3e392d2db569d5b5da2",
+  "dataset_sha256": "eee4570e511e415b02018c39b822bc5e5c90a107dd8892e88a5f0e457cc7c4fb",
+  "review_sha256": "38895c164c0566b34715fda11d8613cb789b2b3ba493bc490a0ae77514f4091a",
+  "diagnosis_sha256": "069f36c0cac7a515fc4079d0926ba02b575c8fed538009c0f3501678f83a8265"
+}

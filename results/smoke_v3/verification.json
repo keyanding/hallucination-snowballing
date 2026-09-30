@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "calls_verified": 80,
+  "literal_target_matches": 80,
+  "prompt_matching_verified": true,
+  "independent_single_user_calls": 80,
+  "cache_disabled_calls": 80,
+  "model_source_hashes_match": true,
+  "dataset_unchanged_after_preparation": true,
+  "prior_artifacts_unchanged": 55,
+  "no_truncations": true,
+  "metrics_recomputed": true,
+  "tests_passed": 29,
+  "spec_sha256": "2e92f78bb1608d02dc569e10724cf835492d562699dea43c81fed9722d91e780",
+  "protocol_sha256": "05ef6834f0574768833d0e401b6222593b97209743f00399da560a6ae2a8a934"
+}

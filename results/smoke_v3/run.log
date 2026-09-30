@@ -1,0 +1,85 @@
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.24s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.23s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.18s/it]
+{"case_id": "synthetic-01", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Zevra Kelmor", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-01", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Pavrek Zemrik", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-02", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Nolmeth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-02", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Zalrune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-03", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Pelvune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-03", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Dorveth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-04", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Vorneth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-04", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Kelmora", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-05", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Vadrune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-05", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Livneth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-06", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Kovdara", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-06", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Mervash", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-07", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Kervan Vesnal", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-07", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Savro Karsel", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-08", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Penvora", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-08", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Fesdara", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-09", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Nuvren Fesmir", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-09", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Solvek Zurnam", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-10", "condition": "direct_B", "evidence_order": 1, "raw_generation": "Zunarek", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-10", "condition": "direct_B_prime", "evidence_order": 1, "raw_generation": "Relvune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-01", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Zevra Kelmor", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-01", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Pavrek Zemrik", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-02", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Nolmeth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-02", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Zalrune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-03", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Pelvune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-03", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Dorveth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-04", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Vorneth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-04", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Kelmora", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-05", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Vadrune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-05", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Livneth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-06", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Kovdara", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-06", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Mervash", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-07", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Kervan Vesnal", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-07", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Savro Karsel", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-08", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Penvora", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-08", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Fesdara", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-09", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Nuvren Fesmir", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-09", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Solvek Zurnam", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-10", "condition": "direct_B", "evidence_order": 2, "raw_generation": "Zunarek", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-10", "condition": "direct_B_prime", "evidence_order": 2, "raw_generation": "Relvune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-01", "condition": "state_B", "evidence_order": 1, "raw_generation": "Zevra Kelmor", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-01", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Pavrek Zemrik", "label": "PROPAGATE"}
+{"case_id": "synthetic-02", "condition": "state_B", "evidence_order": 1, "raw_generation": "Nolmeth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-02", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Zalrune", "label": "PROPAGATE"}
+{"case_id": "synthetic-03", "condition": "state_B", "evidence_order": 1, "raw_generation": "Pelvune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-03", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Dorveth", "label": "PROPAGATE"}
+{"case_id": "synthetic-04", "condition": "state_B", "evidence_order": 1, "raw_generation": "Vorneth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-04", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Kelmora", "label": "PROPAGATE"}
+{"case_id": "synthetic-05", "condition": "state_B", "evidence_order": 1, "raw_generation": "Vadrune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-05", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Livneth", "label": "PROPAGATE"}
+{"case_id": "synthetic-06", "condition": "state_B", "evidence_order": 1, "raw_generation": "Kovdara", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-06", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Mervash", "label": "PROPAGATE"}
+{"case_id": "synthetic-07", "condition": "state_B", "evidence_order": 1, "raw_generation": "Kervan Vesnal", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-07", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Savro Karsel", "label": "PROPAGATE"}
+{"case_id": "synthetic-08", "condition": "state_B", "evidence_order": 1, "raw_generation": "Penvora", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-08", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Fesdara", "label": "PROPAGATE"}
+{"case_id": "synthetic-09", "condition": "state_B", "evidence_order": 1, "raw_generation": "Nuvren Fesmir", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-09", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Solvek Zurnam", "label": "PROPAGATE"}
+{"case_id": "synthetic-10", "condition": "state_B", "evidence_order": 1, "raw_generation": "Zunarek", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-10", "condition": "state_B_prime", "evidence_order": 1, "raw_generation": "Relvune", "label": "PROPAGATE"}
+{"case_id": "synthetic-01", "condition": "state_B", "evidence_order": 2, "raw_generation": "Zevra Kelmor", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-01", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Pavrek Zemrik", "label": "PROPAGATE"}
+{"case_id": "synthetic-02", "condition": "state_B", "evidence_order": 2, "raw_generation": "Nolmeth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-02", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Zalrune", "label": "PROPAGATE"}
+{"case_id": "synthetic-03", "condition": "state_B", "evidence_order": 2, "raw_generation": "Pelvune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-03", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Dorveth", "label": "PROPAGATE"}
+{"case_id": "synthetic-04", "condition": "state_B", "evidence_order": 2, "raw_generation": "Vorneth", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-04", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Kelmora", "label": "PROPAGATE"}
+{"case_id": "synthetic-05", "condition": "state_B", "evidence_order": 2, "raw_generation": "Vadrune", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-05", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Livneth", "label": "PROPAGATE"}
+{"case_id": "synthetic-06", "condition": "state_B", "evidence_order": 2, "raw_generation": "Kovdara", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-06", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Mervash", "label": "PROPAGATE"}
+{"case_id": "synthetic-07", "condition": "state_B", "evidence_order": 2, "raw_generation": "Kervan Vesnal", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-07", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Savro Karsel", "label": "PROPAGATE"}
+{"case_id": "synthetic-08", "condition": "state_B", "evidence_order": 2, "raw_generation": "Penvora", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-08", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Fesdara", "label": "PROPAGATE"}
+{"case_id": "synthetic-09", "condition": "state_B", "evidence_order": 2, "raw_generation": "Nuvren Fesmir", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-09", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Solvek Zurnam", "label": "PROPAGATE"}
+{"case_id": "synthetic-10", "condition": "state_B", "evidence_order": 2, "raw_generation": "Zunarek", "label": "EXACT_CORRECT"}
+{"case_id": "synthetic-10", "condition": "state_B_prime", "evidence_order": 2, "raw_generation": "Relvune", "label": "PROPAGATE"}

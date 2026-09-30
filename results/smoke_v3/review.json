@@ -1,0 +1,82 @@
+{
+  "reviewer": "Codex prompt, raw-output and control inspection",
+  "passed": true,
+  "dataset_sha256": "eee4570e511e415b02018c39b822bc5e5c90a107dd8892e88a5f0e457cc7c4fb",
+  "trajectories_sha256": "ecb50a757dbf46647874446ccba9dbba7e736fe98cc9c3e392d2db569d5b5da2",
+  "inspected_cases": [
+    {
+      "case_id": "synthetic-01",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-02",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-03",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-04",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-05",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-06",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-07",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-08",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-09",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    },
+    {
+      "case_id": "synthetic-10",
+      "calls": 8,
+      "exact_raw_targets": true,
+      "paired_state_only_change": true,
+      "order_stable": true
+    }
+  ],
+  "quantitative_thresholds_unchanged": true,
+  "raw_generations_unchanged": true,
+  "conclusion": "Valid controlled synthetic state-following assay on these ten cases; no spontaneous hallucination claim",
+  "human_review_still_required": true
+}

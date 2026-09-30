@@ -1,0 +1,7 @@
+{
+  "pairs_checked": 20,
+  "state_field_only_difference": true,
+  "exactly_two_reference_facts": true,
+  "no_answer_placeholders": true,
+  "direct_probes_have_no_state_field": true
+}

@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "track": "synthetic",
+  "seed": 42,
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "dataset_sha256": "eee4570e511e415b02018c39b822bc5e5c90a107dd8892e88a5f0e457cc7c4fb",
+  "load_test_sha256": "5baebbc9cba878e447ebfa5177f42cbcf878fb4fafa059a30c927c5a7d1fc641",
+  "policy": {
+    "min_lookup_accuracy": 0.9,
+    "min_baseline_accuracy": 0.9,
+    "max_order_disagreement_rate": 0.1,
+    "min_fully_interpretable_cases": 8,
+    "max_invalid_rate": 0.05,
+    "max_placeholder_copies": 0,
+    "max_baseline_frame_interference": 0.1,
+    "max_nontarget_frame_failure": 0.1
+  },
+  "generation_config": {
+    "do_sample": false,
+    "temperature": 0,
+    "temperature_argument": null,
+    "max_new_tokens": 32,
+    "use_cache": false,
+    "enable_thinking": false
+  },
+  "decoding_note": "Greedy decoding disables temperature sampling; HF receives temperature=None with do_sample=False.",
+  "source_code_sha256": {
+    "experiment_v3.py": "383340df5054b32090fd707424db92b271c8e003da5bba355b1bcfa9a834b380",
+    "experiment_v2.py": "d2c812544cb7c3836cc9c53952941bc31801af2bf17a82f083219fa129c14bc5",
+    "common.py": "3d9a41efd85336a0b49f75c3ada7921e84e459631c378979dc1f0a77bb635984",
+    "generation/local_hf_adapter.py": "ac6edf9792b87ffce59dc44f713b62f43e1bd3f8dae4c8b73748e63c291286b6"
+  },
+  "no_cross_call_history": true,
+  "no_cross_call_kv_cache": true,
+  "call_order": "all direct lookups for orders 1,2; then all state probes for orders 1,2; B before B prime per case",
+  "controls_reuse": "Direct and state calls are controls A and B; no duplicate calls",
+  "fixed_cases_not_replaced": true,
+  "quantization": "4bit-nf4",
+  "compute_dtype": "torch.bfloat16",
+  "device_map": {
+    "": "0"
+  },
+  "cpu_offload": false
+}
