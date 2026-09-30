@@ -1,0 +1,21 @@
+metric,value
+candidates_considered,5
+number_passing_all_gates,0
+eligible_ids,[]
+exact_gate_counts,"{""baseline"": 0, ""oracle"": 1, ""donor_probe"": 1}"
+injected_n,0
+propagation_interpretation_allowed,false
+semantic_label_counts,"{""baseline"": {""WRONG_LOCATION"": 4, ""INVALID_OUTPUT"": 1}, ""oracle"": {""WRONG_LOCATION"": 3, ""EXACT_CORRECT"": 1, ""WRONG_ENTITY"": 1}, ""donor_probe"": {""INVALID_OUTPUT"": 2, ""EXACT_CORRECT"": 1, ""WRONG_LOCATION"": 2}, ""injected"": {}}"
+baseline_step1_exact_n,0
+pending_semantic_review_n,0
+PROPAGATE_count,0
+PROPAGATE_rate,null
+RECOVER_count,0
+RECOVER_rate,null
+NEW_HALLUCINATION_count,0
+NEW_HALLUCINATION_rate,null
+REJECT_UNCERTAIN_count,0
+REJECT_UNCERTAIN_rate,null
+INVALID_OUTPUT_count,0
+INVALID_OUTPUT_rate,null
+propagation_rate,null

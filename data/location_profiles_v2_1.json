@@ -1,0 +1,38 @@
+{
+  "Lakshadweep": {
+    "granularity": "specific location",
+    "broader": ["India"],
+    "reason": "Lakshadweep is an Indian union territory comprising an archipelago.",
+    "source": "https://lakshadweep.gov.in/about-lakshadweep/"
+  },
+  "Siversky": {
+    "granularity": "specific location",
+    "broader": ["Russia", "Russian Federation"],
+    "reason": "The saved donor support places Siversky near Saint Petersburg in the Russian Federation; nearby Saint Petersburg is not treated as a containing city.",
+    "source": "data/candidates_v2.jsonl: Isaac Schwartz donor supporting sentence 18"
+  },
+  "Düsseldorf": {
+    "granularity": "city or town",
+    "broader": ["Germany"],
+    "reason": "The saved Helmut Käutner birth evidence explicitly places Düsseldorf in Germany.",
+    "source": "data/candidates_v2.jsonl: Helmut Käutner supporting sentence 0"
+  },
+  "Helsingfors": {
+    "granularity": "city or town",
+    "broader": ["Finland", "Grand Duchy of Finland", "Russian Empire"],
+    "reason": "The saved birth evidence identifies Helsingfors as present-day Helsinki and locates it in the Grand Duchy of Finland, then part of the Russian Empire. Russian Empire is historical containment; modern Russia is not an alias.",
+    "source": "data/candidates_v2.jsonl: Gustaf Molander supporting sentence 4"
+  },
+  "Reykjavík": {
+    "granularity": "city or town",
+    "broader": ["Iceland"],
+    "reason": "Reykjavík is Iceland's capital city.",
+    "source": "https://visitreykjavik.is/reykjavik-fourteen-city-areas-one-capital"
+  },
+  "St. Louis, Missouri": {
+    "granularity": "city or town",
+    "broader": ["Missouri", "United States", "United States of America", "USA", "U.S.A.", "US", "U.S."],
+    "reason": "The saved birth evidence places St. Louis in Missouri; the official city government describes its US governmental context. St. Louis County is a separate entity, not a parent location.",
+    "source": "https://www.stlouis-mo.gov/government/about/city-government-structure.cfm; data/candidates_v2.jsonl: Chuck Berry supporting sentence 4"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "2.1",
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "seed": 42,
+  "candidates_sha256": "0e035c3a1ec1449bd7443d777ea70aa579147bcda65b9a8163cd59a3d5a7de05",
+  "location_profiles_sha256": "b512db242385b62a72bda5da9a4a1fe4e3000e57750118bdd5ec70ee3b94cc9d",
+  "prior_trajectories_sha256": "02f3a715e9662a1cda615f2807a20276da6a4c7829cbb30962534db66fcf01da",
+  "load_test_sha256": "5baebbc9cba878e447ebfa5177f42cbcf878fb4fafa059a30c927c5a7d1fc641",
+  "generation_config": {
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_new_tokens": 128,
+    "enable_thinking": false
+  },
+  "source_code_sha256": {
+    "experiment_v2_1.py": "7e6454048ec96b87dad64d0bd1c9ff698fa2fa05f83e8db99bee7ef24f7142ca",
+    "experiment_v2.py": "d2c812544cb7c3836cc9c53952941bc31801af2bf17a82f083219fa129c14bc5",
+    "generation/local_hf_adapter.py": "ac6edf9792b87ffce59dc44f713b62f43e1bd3f8dae4c8b73748e63c291286b6"
+  },
+  "quantization": "4bit-nf4",
+  "compute_dtype": "torch.bfloat16",
+  "cpu_offload": false,
+  "device_map": {
+    "": "0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "passed": false,
+  "capability_criterion_met": false,
+  "eligible_n": 0,
+  "eligible_ids": [],
+  "semantic_review": "evidence-based mismatch confirmation completed",
+  "human_review_required": true,
+  "scale_authorized": false,
+  "stop_conditions": [
+    "baseline: most strict probes failed",
+    "oracle: most strict probes failed",
+    "donor_probe: most strict probes failed"
+  ],
+  "reason": "measurement setup remains insufficiently identified",
+  "candidates_sha256": "0e035c3a1ec1449bd7443d777ea70aa579147bcda65b9a8163cd59a3d5a7de05",
+  "trajectories_sha256": "d3d22c73c91480a6894f991da7fc8fe1f6081007babb94c4b9f2e27d76f65eb8",
+  "inspection_sha256": "e70d239f5c2acd60363c3e15f1a32d1335ba7eeae1a4f61c8f41aa6d0cb12f99",
+  "reviews_sha256": "063704604a3ec8b3bf1a8558bfc986eb84aa2f118ce930c10f67137a26624eec",
+  "reviewed_trajectories_sha256": "722de1d0094809879d6827f2ce539403282c189d0bd27a12bbf2165bfafaa467",
+  "diagnosis_sha256": "343600ed990242cd9021516f84144d3dc817b6ce1bec8cd8cb126c208e33e7d2"
+}

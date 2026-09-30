@@ -12,7 +12,7 @@ The three model shards were SHA-256 verified against official Hugging Face metad
 | All three gates | 0 / 5 |
 | Injected trajectories executed | 0 |
 
-All 15 probe outputs fit the line parser, but formatting did not establish semantic success. Evidence-based inspection confirms that none of the five baselines returned the annotated first entity. The composer query returned **Kerala** as a composer; other baselines named different people. The performer response included relation arrows rather than only an entity and named a different performer.
+All 15 probe outputs fit the original line parser. Revalidation with the stricter format check rejects 1/15 outputs (the Pluto baseline); 14/15 pass syntax checks. Syntax checks detect explicit chains, placeholders, and embedded labels; they do not establish semantic entity-only compliance or factual correctness. Original trajectories and run-time parse flags remain preserved; format_validation.json records the revalidation. Evidence-based inspection confirms that none of the five baselines returned the annotated first entity. The composer query returned **Kerala** as a composer; other baselines named different people. The performer response included relation arrows rather than only an entity and named a different performer.
 
 Oracle failures are heterogeneous. **Chennai** conflicts with the annotated Lakshadweep death location; **Stockholm** conflicts with Helsingfors/Helsinki; the father query repeats Leopoldo Torre Nilsson instead of returning his father. **Germany** for Düsseldorf and **Iceland** for Reykjavík are broader, geographically compatible responses, not automatically false facts. They still fail the required city-level target. This exposes residual answer-granularity ambiguity in the phrase "place of birth" as well as factual-knowledge and instruction-execution limitations.
 
@@ -86,6 +86,8 @@ Step 2: Kochi
 Final answer: Kochi
 ```
 
+Format check: PASS
+
 FAIL
 
 ### oracle
@@ -130,6 +132,8 @@ Step 2: Chennai
 Final answer: Chennai
 ```
 
+Format check: PASS
+
 FAIL
 
 ### donor_probe
@@ -153,6 +157,10 @@ Answer: ...
 ```text
 Answer: Unknown
 ```
+
+Format check: PASS
+
+Format check: PASS
 
 FAIL
 
@@ -252,6 +260,8 @@ Step 2: London, England
 Final answer: London, England
 ```
 
+Format check: PASS
+
 FAIL
 
 ### oracle
@@ -296,6 +306,8 @@ Step 2: Germany
 Final answer: Germany
 ```
 
+Format check: PASS
+
 FAIL
 
 ### donor_probe
@@ -319,6 +331,8 @@ Answer: ...
 ```text
 Answer: Sweden
 ```
+
+Format check: PASS
 
 FAIL
 
@@ -418,6 +432,8 @@ Step 2: Wisconsin
 Final answer: Wisconsin
 ```
 
+Format check: PASS
+
 FAIL
 
 ### oracle
@@ -462,6 +478,8 @@ Step 2: Stockholm, Sweden
 Final answer: Stockholm, Sweden
 ```
 
+Format check: PASS
+
 FAIL
 
 ### donor_probe
@@ -485,6 +503,8 @@ Answer: ...
 ```text
 Answer: Germany
 ```
+
+Format check: PASS
 
 FAIL
 
@@ -584,6 +604,8 @@ Step 2: Bruno Mars → place of birth → White Plains, New York
 Final answer: White Plains, New York
 ```
 
+Format check: FAIL; Step 1: relation-chain arrow; expected entity/value only; Step 2: relation-chain arrow; expected entity/value only
+
 FAIL
 
 ### oracle
@@ -628,6 +650,8 @@ Step 2: Iceland
 Final answer: Iceland
 ```
 
+Format check: PASS
+
 FAIL
 
 ### donor_probe
@@ -651,6 +675,8 @@ Answer: ...
 ```text
 Answer: Rock Island, Illinois
 ```
+
+Format check: PASS
 
 FAIL
 
@@ -750,6 +776,8 @@ Step 2: José Cánovas
 Final answer: José Cánovas
 ```
 
+Format check: PASS
+
 FAIL
 
 ### oracle
@@ -794,6 +822,8 @@ Step 2: Leopoldo Torre Nilsson
 
 Final answer: Leopoldo Torre Nilsson
 ```
+
+Format check: PASS
 
 FAIL
 

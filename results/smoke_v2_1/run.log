@@ -1,0 +1,21 @@
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:05<00:10,  5.02s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:09<00:04,  4.93s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  2.77s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.36s/it]
+{"id": "25bc868a0bdd11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: M. S. Viswanathan  \nStep 2: Chennai  \nFinal answer: Chennai", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "wrong_entity"}
+{"id": "0ca2e9f80bda11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: David O. Russell  \nStep 2: Philadelphia  \nFinal answer: Philadelphia", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "wrong_entity"}
+{"id": "f1a04d600bdb11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: William A. Wellman  \nStep 2: Chicago  \nFinal answer: Chicago", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "wrong_entity"}
+{"id": "e61479860bda11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: The Weeknd  \nStep 2: Sault Ste. Marie  \nFinal answer: Sault Ste. Marie", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "wrong_entity"}
+{"id": "5b1e1f240bdc11eba7f7acde48001122", "condition": "baseline", "raw_generation": "Step 1: Pablo Larrain  \nStep 2: Pablo Larrain's father is not publicly known or relevant to the film industry. However, the question asks for the father of the director of \"La caída\", and Pablo Larrain's father is not a widely documented public figure in film.  \n\nBut upon correction: Pablo Larrain's father is actually **Luis Larrain**, a well-known Chilean filmmaker and director.  \n\nFinal correction:  \n\nStep 1: Pablo Larrain  \nStep 2: Luis Larrain  \nFinal answer: Luis Larrain", "semantic_label": "INVALID_OUTPUT", "gate_pass": false, "failure_type": "format_failure"}
+{"id": "25bc868a0bdd11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Chennai  \nFinal answer: Chennai", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "knowledge_error"}
+{"id": "0ca2e9f80bda11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Berlin  \nFinal answer: Berlin", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "knowledge_error"}
+{"id": "f1a04d600bdb11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Stockholm  \nFinal answer: Stockholm", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "knowledge_error"}
+{"id": "e61479860bda11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: Reykjavík  \nFinal answer: Reykjavík", "semantic_label": "EXACT_CORRECT", "gate_pass": true, "failure_type": null}
+{"id": "5b1e1f240bdc11eba7f7acde48001122", "condition": "oracle", "raw_generation": "Step 2: José Torre Nilsson  \nFinal answer: José Torre Nilsson", "semantic_label": "WRONG_ENTITY", "gate_pass": false, "failure_type": "wrong_entity"}
+{"id": "25bc868a0bdd11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: <specific location>", "semantic_label": "INVALID_OUTPUT", "gate_pass": false, "failure_type": "format_failure"}
+{"id": "0ca2e9f80bda11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Helsinki", "semantic_label": "EXACT_CORRECT", "gate_pass": true, "failure_type": null}
+{"id": "f1a04d600bdb11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Berlin", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "knowledge_error"}
+{"id": "e61479860bda11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: Rock Island", "semantic_label": "WRONG_LOCATION", "gate_pass": false, "failure_type": "knowledge_error"}
+{"id": "5b1e1f240bdc11eba7f7acde48001122", "condition": "donor_probe", "raw_generation": "Answer: <person>", "semantic_label": "INVALID_OUTPUT", "gate_pass": false, "failure_type": "format_failure"}

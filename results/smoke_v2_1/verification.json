@@ -1,0 +1,12 @@
+{
+  "raw_calls": 15,
+  "injected_calls": 0,
+  "prior_files_unchanged": 38,
+  "prompt_and_raw_hash_checks": true,
+  "generation_code_hashes_match": true,
+  "candidate_file_unchanged": true,
+  "reviewed_gates_unchanged": true,
+  "tests_passed": 20,
+  "spec_sha256": "cdda99fcd3f1a6c524730f1ffdb36eccba1e3223f3e12522ce0645a930787056",
+  "review_code_sha256": "50ec12f1f5d86a2eed2f8bb01763c556e64d283f434dd536f508644e8fa9fe18"
+}

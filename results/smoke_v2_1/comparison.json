@@ -1,0 +1,122 @@
+[
+  {
+    "id": "25bc868a0bdd11eba7f7acde48001122",
+    "condition": "baseline",
+    "v2_raw_generation": "Step 1: Kerala  \nStep 2: Kochi  \nFinal answer: Kochi",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 1: M. S. Viswanathan  \nStep 2: Chennai  \nFinal answer: Chennai",
+    "v2_1_gate": false
+  },
+  {
+    "id": "0ca2e9f80bda11eba7f7acde48001122",
+    "condition": "baseline",
+    "v2_raw_generation": "Step 1: James Marsh  \nStep 2: London, England  \nFinal answer: London, England",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 1: David O. Russell  \nStep 2: Philadelphia  \nFinal answer: Philadelphia",
+    "v2_1_gate": false
+  },
+  {
+    "id": "f1a04d600bdb11eba7f7acde48001122",
+    "condition": "baseline",
+    "v2_raw_generation": "Step 1: John Ford  \nStep 2: Wisconsin  \nFinal answer: Wisconsin",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 1: William A. Wellman  \nStep 2: Chicago  \nFinal answer: Chicago",
+    "v2_1_gate": false
+  },
+  {
+    "id": "e61479860bda11eba7f7acde48001122",
+    "condition": "baseline",
+    "v2_raw_generation": "Step 1: Pluto (song) → performer → Bruno Mars  \nStep 2: Bruno Mars → place of birth → White Plains, New York  \nFinal answer: White Plains, New York",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 1: The Weeknd  \nStep 2: Sault Ste. Marie  \nFinal answer: Sault Ste. Marie",
+    "v2_1_gate": false
+  },
+  {
+    "id": "5b1e1f240bdc11eba7f7acde48001122",
+    "condition": "baseline",
+    "v2_raw_generation": "Step 1: Alonso Cánovas  \nStep 2: José Cánovas  \nFinal answer: José Cánovas",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 1: Pablo Larrain  \nStep 2: Pablo Larrain's father is not publicly known or relevant to the film industry. However, the question asks for the father of the director of \"La caída\", and Pablo Larrain's father is not a widely documented public figure in film.  \n\nBut upon correction: Pablo Larrain's father is actually **Luis Larrain**, a well-known Chilean filmmaker and director.  \n\nFinal correction:  \n\nStep 1: Pablo Larrain  \nStep 2: Luis Larrain  \nFinal answer: Luis Larrain",
+    "v2_1_gate": false
+  },
+  {
+    "id": "25bc868a0bdd11eba7f7acde48001122",
+    "condition": "oracle",
+    "v2_raw_generation": "Step 2: Chennai  \nFinal answer: Chennai",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 2: Chennai  \nFinal answer: Chennai",
+    "v2_1_gate": false
+  },
+  {
+    "id": "0ca2e9f80bda11eba7f7acde48001122",
+    "condition": "oracle",
+    "v2_raw_generation": "Step 2: Germany  \nFinal answer: Germany",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 2: Berlin  \nFinal answer: Berlin",
+    "v2_1_gate": false
+  },
+  {
+    "id": "f1a04d600bdb11eba7f7acde48001122",
+    "condition": "oracle",
+    "v2_raw_generation": "Step 2: Stockholm, Sweden  \nFinal answer: Stockholm, Sweden",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 2: Stockholm  \nFinal answer: Stockholm",
+    "v2_1_gate": false
+  },
+  {
+    "id": "e61479860bda11eba7f7acde48001122",
+    "condition": "oracle",
+    "v2_raw_generation": "Step 2: Iceland  \nFinal answer: Iceland",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 2: Reykjavík  \nFinal answer: Reykjavík",
+    "v2_1_gate": true
+  },
+  {
+    "id": "5b1e1f240bdc11eba7f7acde48001122",
+    "condition": "oracle",
+    "v2_raw_generation": "Step 2: Leopoldo Torre Nilsson\n\nFinal answer: Leopoldo Torre Nilsson",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Step 2: José Torre Nilsson  \nFinal answer: José Torre Nilsson",
+    "v2_1_gate": false
+  },
+  {
+    "id": "25bc868a0bdd11eba7f7acde48001122",
+    "condition": "donor_probe",
+    "v2_raw_generation": "Answer: Unknown",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Answer: <specific location>",
+    "v2_1_gate": false
+  },
+  {
+    "id": "0ca2e9f80bda11eba7f7acde48001122",
+    "condition": "donor_probe",
+    "v2_raw_generation": "Answer: Sweden",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Answer: Helsinki",
+    "v2_1_gate": true
+  },
+  {
+    "id": "f1a04d600bdb11eba7f7acde48001122",
+    "condition": "donor_probe",
+    "v2_raw_generation": "Answer: Germany",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Answer: Berlin",
+    "v2_1_gate": false
+  },
+  {
+    "id": "e61479860bda11eba7f7acde48001122",
+    "condition": "donor_probe",
+    "v2_raw_generation": "Answer: Rock Island, Illinois",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Answer: Rock Island",
+    "v2_1_gate": false
+  },
+  {
+    "id": "5b1e1f240bdc11eba7f7acde48001122",
+    "condition": "donor_probe",
+    "v2_raw_generation": "Answer: Unknown",
+    "v2_gate": false,
+    "v2_1_raw_generation": "Answer: <person>",
+    "v2_1_gate": false
+  }
+]

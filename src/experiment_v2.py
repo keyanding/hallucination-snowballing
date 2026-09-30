@@ -43,18 +43,32 @@ def build_prompt(row, condition):
 
 
 def parse_output(raw, condition):
+    # This is a syntax check, not a factual or semantic entity validator.
+    # Preserve rejected values verbatim; never silently extract an arrow tail.
     expected = {"baseline": ["Step 1", "Step 2", "Final answer"],
                 "oracle": ["Step 2", "Final answer"], "injected": ["Step 2", "Final answer"],
                 "donor_probe": ["Answer"]}[condition]
     lines = [s.strip() for s in raw.strip().splitlines() if s.strip()]
     values = {}
-    valid = len(lines) == len(expected)
+    errors = []
+    if len(lines) != len(expected):
+        errors.append("Expected exactly " + str(len(expected)) + " nonempty lines")
     for index, name in enumerate(expected):
         m = re.fullmatch(re.escape(name) + r"\s*:\s*(.+)", lines[index], re.I) if index < len(lines) else None
-        valid &= m is not None
+        if m is None:
+            errors.append(name + ": missing, empty, or out-of-order field")
         values[name] = m[1].strip() if m else ""
+        if m:
+            value = values[name]
+            if re.search(r"(?:[-=]+>|<[-=]+|[\u2190-\u21ff\u27f0-\u27ff\u2900-\u297f])", value):
+                errors.append(name + ": relation-chain arrow; expected entity/value only")
+            if value in {"...", "…"} or re.fullmatch(r"<[^<>]+>", value):
+                errors.append(name + ": unfilled placeholder")
+            if re.search(r"(?:Step\s+[12]|Final answer|Answer)\s*:", value, re.I):
+                errors.append(name + ": embedded output label")
     return dict(generated_step1=values.get("Step 1", ""), generated_step2=values.get("Step 2", values.get("Answer", "")),
-                final_answer=values.get("Final answer", values.get("Answer", "")), parse_valid=valid)
+                final_answer=values.get("Final answer", values.get("Answer", "")),
+                parse_valid=not errors, format_errors=errors)
 
 
 def gate_success(row, condition):
@@ -164,6 +178,8 @@ def export_results(out, candidates, records, manifest):
             lines += inspection_call_details(record)
             lines += ["**Model response**",
                       "```text\n" + record["raw_generation"] + "\n```",
+                      "Format check: " + ("PASS" if record["parse_valid"] else "FAIL")
+                      + ("; " + "; ".join(record["format_errors"]) if record.get("format_errors") else ""),
                       ("PASS" if record[key] else "FAIL") if key else f"Classification: {record['trajectory_label'] or 'PENDING_REVIEW'}; {record['classification_reason']}"]
         lines += ["### Supporting evidence", "```json\n" + json.dumps(candidate["supporting_facts"], ensure_ascii=False, indent=2) + "\n```",
                   "### Donor evidence", "```json\n" + json.dumps(candidate["donor_supporting_facts"], ensure_ascii=False, indent=2) + "\n```"]

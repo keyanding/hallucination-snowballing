@@ -2,7 +2,25 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v2 controlled composition
+## Current experiment: v2.1 natural-language prompt diagnosis
+
+V2.1 reuses the exact five v2 candidates, model revision, NF4/BF16 adapter and greedy decoding. `src.experiment_v2_1` replaces operator wording with relation-specific questions, explicitly fixes the correct Oracle premise, and uses neutral continuation instructions for injection. Birth questions request a city/town; the death questions request a specific location so Lakshadweep is not incorrectly constrained to a city. The performer template uses "performed or recorded" to match the saved song evidence.
+
+Outputs live exclusively in `results/smoke_v2_1/`. Existing v1/v2 artifacts are hash-checked for preservation, including the previous turn's format revalidation. The runner refuses any existing output directory and verifies the candidate file against the original v2 manifest. It runs five baseline, five Oracle and five independent donor calls, then injects only individual candidates passing all three exact gates. Fewer than three eligible candidates keeps propagation rates null and precludes propagation interpretation. Every run stops for human review; no scaling or SHARS integration is included.
+
+Each record stores strict eligibility separately from downstream semantic labels, with per-field diagnoses for Step 1, Step 2 and the final answer. Explicit non-answers, copied input, invalid format, broader-compatible locations and mismatches are distinguished. `data/location_profiles_v2_1.json` contains a small evidence-linked containment map; no geographic containment is inferred from substring matching. Unmatched aliases/locations are provisional and require evidence review rather than being declared hallucinations. A correct city remains required for city-level eligibility even if the country is compatible. Syntax validation cannot establish that arbitrary prose is a valid entity or that an answer is true.
+
+```powershell
+$env:HF_HUB_OFFLINE='1'
+python -m unittest discover -s tests -v
+python -m src.experiment_v2_1
+```
+
+See the new inspection for exact prompts, raw responses, diagnoses and the paired comparison against saved v2 responses. The old prompts are not rerun. Prompt wording, explicit Oracle instructions and granularity guidance change together, so this small comparison cannot attribute any improvement to a single change.
+
+Actual v2.1 result: baseline **0/5**, Oracle **1/5**, donor **1/5**, all-three eligibility **0/5**. No injection was run. Björk's Oracle birthplace and Gustaf Molander's donor birthplace improved to exact answers, but capability remains insufficient. Three outputs failed formatting, including two copied placeholders; no output was truncated. See [the reviewed diagnosis](results/smoke_v2_1/diagnosis.md) and [full inspection](results/smoke_v2_1/inspection.md). Ten provisional mismatches were confirmed against saved evidence in a separate hash-bound review log using `src.review_v2_1`; raw outputs remain unchanged. Work stops for human review.
+
+## Previous experiment: v2 controlled composition
 
 V1's semantic dependency gate failed. V2 explicitly assigns Step 1 to `r1(A)` and Step 2 to `r2(Step 1)`, using **Qwen/Qwen3-4B-Instruct-2507** through a local HF adapter. No original SHARS file is imported or modified by v2. No HalluSE, automatic rejection, or 0.6B fallback is used. Existing `results/smoke/` files are preserved byte-for-byte; v2 artifacts live in `results/smoke_v2/`.
 

@@ -1,0 +1,161 @@
+{
+  "trajectories_sha256": "02f3a715e9662a1cda615f2807a20276da6a4c7829cbb30962534db66fcf01da",
+  "parser_source_sha256": "1d11c1a6c3f6ed827f886b1dddca545240f305c29627a9f6b69d587cd7f2ecc1",
+  "passed_n": 14,
+  "failed_n": 1,
+  "records": [
+    {
+      "id": "25bc868a0bdd11eba7f7acde48001122",
+      "condition": "baseline",
+      "raw_sha256": "7da10913c8b2274eb3292df9b187a5791c183b75e4bceb4717ef9a46ff8791c8",
+      "generated_step1": "Kerala",
+      "generated_step2": "Kochi",
+      "final_answer": "Kochi",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "0ca2e9f80bda11eba7f7acde48001122",
+      "condition": "baseline",
+      "raw_sha256": "6f4adefc1c4123c8a28d8b5e13b77667804f4066cf9014ed0cfab4a962208ed5",
+      "generated_step1": "James Marsh",
+      "generated_step2": "London, England",
+      "final_answer": "London, England",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "f1a04d600bdb11eba7f7acde48001122",
+      "condition": "baseline",
+      "raw_sha256": "9e63fbd23ef2282157fe9cd51c8ed03274f005a806bbed338b88550810ad0115",
+      "generated_step1": "John Ford",
+      "generated_step2": "Wisconsin",
+      "final_answer": "Wisconsin",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "e61479860bda11eba7f7acde48001122",
+      "condition": "baseline",
+      "raw_sha256": "b980182e6ecc793dcfac7cbf85b5310ed89194ec88df0acdd7ea302b9bec090a",
+      "generated_step1": "Pluto (song) → performer → Bruno Mars",
+      "generated_step2": "Bruno Mars → place of birth → White Plains, New York",
+      "final_answer": "White Plains, New York",
+      "parse_valid": false,
+      "format_errors": [
+        "Step 1: relation-chain arrow; expected entity/value only",
+        "Step 2: relation-chain arrow; expected entity/value only"
+      ]
+    },
+    {
+      "id": "5b1e1f240bdc11eba7f7acde48001122",
+      "condition": "baseline",
+      "raw_sha256": "0a764681fd2ab0c5a090c73fe23406fa2acf77ebd3fcb3e801fb56560b359a7d",
+      "generated_step1": "Alonso Cánovas",
+      "generated_step2": "José Cánovas",
+      "final_answer": "José Cánovas",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "25bc868a0bdd11eba7f7acde48001122",
+      "condition": "oracle",
+      "raw_sha256": "74503fae9fa2f487f22627bceac9058a10735c5844ff1837cfe745ac45865f15",
+      "generated_step1": "",
+      "generated_step2": "Chennai",
+      "final_answer": "Chennai",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "0ca2e9f80bda11eba7f7acde48001122",
+      "condition": "oracle",
+      "raw_sha256": "a79870b86728f8a99d44ed7502d7177f5f9469849b3d8afd1cd7f4e80017bb9a",
+      "generated_step1": "",
+      "generated_step2": "Germany",
+      "final_answer": "Germany",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "f1a04d600bdb11eba7f7acde48001122",
+      "condition": "oracle",
+      "raw_sha256": "476ad759133599a9bc9aad7695776a54f5e8f25ff960433fcba893cae65b1511",
+      "generated_step1": "",
+      "generated_step2": "Stockholm, Sweden",
+      "final_answer": "Stockholm, Sweden",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "e61479860bda11eba7f7acde48001122",
+      "condition": "oracle",
+      "raw_sha256": "ab1833d1206b6c289f6b849f2d6969e31369000c777fda3af38c6e4e6040ca18",
+      "generated_step1": "",
+      "generated_step2": "Iceland",
+      "final_answer": "Iceland",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "5b1e1f240bdc11eba7f7acde48001122",
+      "condition": "oracle",
+      "raw_sha256": "644665df35ea9a7566f3876bc534121cc0697d7a97811772dd498130bc1e3231",
+      "generated_step1": "",
+      "generated_step2": "Leopoldo Torre Nilsson",
+      "final_answer": "Leopoldo Torre Nilsson",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "25bc868a0bdd11eba7f7acde48001122",
+      "condition": "donor_probe",
+      "raw_sha256": "d709268d8baac050e3b8d5d114574d52bafc762cdff2b81fd8b7141f8f21300e",
+      "generated_step1": "",
+      "generated_step2": "Unknown",
+      "final_answer": "Unknown",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "0ca2e9f80bda11eba7f7acde48001122",
+      "condition": "donor_probe",
+      "raw_sha256": "8f95a922b037621dbb1d3b41de43647cd328edeafd609d49941ad842ad681e39",
+      "generated_step1": "",
+      "generated_step2": "Sweden",
+      "final_answer": "Sweden",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "f1a04d600bdb11eba7f7acde48001122",
+      "condition": "donor_probe",
+      "raw_sha256": "c52473755eb8066377f40a5f948313035e5089f8ce8534dd63682141792d2fe0",
+      "generated_step1": "",
+      "generated_step2": "Germany",
+      "final_answer": "Germany",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "e61479860bda11eba7f7acde48001122",
+      "condition": "donor_probe",
+      "raw_sha256": "f5c4c9f6170768dcfd3ad4e4b61792bcf59fc98e6db16ecfc02aa52182fa9a51",
+      "generated_step1": "",
+      "generated_step2": "Rock Island, Illinois",
+      "final_answer": "Rock Island, Illinois",
+      "parse_valid": true,
+      "format_errors": []
+    },
+    {
+      "id": "5b1e1f240bdc11eba7f7acde48001122",
+      "condition": "donor_probe",
+      "raw_sha256": "d709268d8baac050e3b8d5d114574d52bafc762cdff2b81fd8b7141f8f21300e",
+      "generated_step1": "",
+      "generated_step2": "Unknown",
+      "final_answer": "Unknown",
+      "parse_valid": true,
+      "format_errors": []
+    }
+  ]
+}

@@ -11,5 +11,6 @@
   "candidates_sha256": "0e035c3a1ec1449bd7443d777ea70aa579147bcda65b9a8163cd59a3d5a7de05",
   "trajectories_sha256": "02f3a715e9662a1cda615f2807a20276da6a4c7829cbb30962534db66fcf01da",
   "reviewer": "Codex evidence-based inspection",
-  "inspection_sha256": "fc4506c06156eb0b8ee818017c593d6259d64d9627af15728b53acf0791b8fde"
+  "inspection_sha256": "476a1b590e587a9b3cc80b85f79408fdb20425af0f21fc2c6b18baf1c885fc94",
+  "format_validation_sha256": "ad3100887f57bfd4ea78e41008e55232e00a9371f0a3453fd4fe74c2511b2a5a"
 }

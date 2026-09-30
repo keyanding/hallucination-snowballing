@@ -29,6 +29,33 @@ class FakeAdapter:
 
 
 class V2Tests(unittest.TestCase):
+    def test_pluto_relation_chain_is_invalid_and_preserved(self):
+        raw = ("Step 1: Pluto (song) → performer → Bruno Mars\n"
+               "Step 2: Bruno Mars → place of birth → White Plains, New York\n"
+               "Final answer: White Plains, New York")
+        parsed = parse_output(raw, "baseline")
+        self.assertFalse(parsed["parse_valid"])
+        self.assertEqual(parsed["generated_step1"], "Pluto (song) → performer → Bruno Mars")
+        self.assertEqual(len(parsed["format_errors"]), 2)
+        self.assertFalse(gate_success(candidate() | parsed, "baseline"))
+
+    def test_entity_syntax_checks_all_conditions_and_fields(self):
+        for condition, fields in (("baseline", ["Step 1", "Step 2", "Final answer"]),
+                                  ("oracle", ["Step 2", "Final answer"]),
+                                  ("injected", ["Step 2", "Final answer"]),
+                                  ("donor_probe", ["Answer"])):
+            for field in fields:
+                for invalid in ("A → B", "A -> B", "A => B", "...", "…", "Answer: C"):
+                    raw = "\n".join(f"{name}: {invalid if name == field else 'C'}" for name in fields)
+                    parsed = parse_output(raw, condition)
+                    self.assertFalse(parsed["parse_valid"], raw)
+                    self.assertTrue(parsed["format_errors"])
+                    if condition == "injected":
+                        self.assertEqual(classify(candidate() | parsed | {"raw_generation": raw})[0], "INVALID_OUTPUT")
+        for value in ("Björk", "M. B. Sreenivasan", "St. Louis, Missouri", "Helmut Käutner",
+                      "Jean-Luc Godard", "Washington, D.C.", "1900-01-01", "Unknown"):
+            self.assertTrue(parse_output("Answer: " + value, "donor_probe")["parse_valid"])
+
     def test_native_automatic_offload_does_not_bypass_nf4_gate(self):
         with self.assertRaises(ValueError):
             validate_load_test(dict(success=True, model_name=MODEL, raw_generation="4",
