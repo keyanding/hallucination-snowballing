@@ -1,0 +1,121 @@
+{
+  "trajectories_sha256": "2efeeb1203a0629a0700e458092488714631886891b9d39c13d2a64393e76018",
+  "no_relabeling_or_alias_changes": true,
+  "reviewed_calls": 320,
+  "reviewer": "Codex prompt, evidence and raw-response inspection",
+  "diagnosis_sha256": "e27276c702482da3e740192810ec208b47c1d905ced8d4b43b284ab0bd68c4f3",
+  "scientific_gate_passed": false,
+  "paired_outcomes": [
+    {
+      "case_id": "real-01",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-02",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-03",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "OVERRIDE_TO_GOLD",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-04",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-05",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "OVERRIDE_TO_GOLD",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-06",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-07",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-08",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-09",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-10",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    }
+  ],
+  "all_outputs_supported_targets": true
+}

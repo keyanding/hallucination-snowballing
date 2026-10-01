@@ -2,7 +2,25 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.1 real-entity context ladder
+## Current experiment: v3.2 contextual evidence ablation
+
+V3.2 freezes all ten v3.1 cases, aliases, reference facts and evidence orders. C0/C1 reuse H0/H1 verbatim. With the user's approved design, C2–C6 share the H1 backbone and omit the old H2 sentence: C2 adds length-matched mundane context, C3 mentions only the gold intermediate, C4 adds original first-hop evidence, C5 substitutes the alternative intermediate in that same evidence, and C6a/C6b present both claims in opposite orders. C4 is therefore not a verbatim H3 replication. Optional C7 is omitted because a third entity would lack a matched downstream fact.
+
+Each condition has two direct lookups and two state-framed probes per case, with at most 320 independent calls. The pre-inference plan uses the cached model's tokenizer: C2/C3 are within one token of C4 for every case. The original C4 evidence retains its film metadata; its contrast with C3 is an evidence-block contrast, not a perfectly isolated relation-predicate effect.
+
+```powershell
+python -m src.experiment_v3_2 prepare
+# Inspect context_ablation_audit.md and save its hash-bound audit_review.json.
+python -m unittest discover -s tests -v
+$env:HF_HUB_OFFLINE='1'
+python -m src.experiment_v3_2 run
+```
+
+These commands refuse to overwrite the recorded preparation or run. See [pre-inference audit](results/smoke_v3_2/context_ablation_audit.md), [protocol](results/smoke_v3_2/protocol.md), and [full inspection](results/smoke_v3_2/inspection.md). Direct lookup below 90%, gold-state adherence below 90% in multiple conditions, or unsupported-output collapse stops further conditions. Missing comparisons remain unavailable. No prompts, aliases or cases are revised after observing outputs. The final gate additionally requires at least eight interpretable cases across C0–C5 and gold-state adherence of at least 90% in every condition; it imposes no propagation-rate threshold.
+
+Actual v3.2 result: all **320 calls** completed. PR across C0/C1/C2/C3/C4/C5/C6a/C6b is **100%, 100%, 100%, 80%, 40%, 100%, 100%, 100%**; direct lookup is 20/20 in every condition. C5 gold-state adherence falls to **4/10** (C2: 9/10; all others: 10/10), leaving only **4/10** cross-C0–C5 interpretable cases. The measurement gate therefore **fails**. Both conflict orders follow the supplied state with no observed order-sensitive answers. These are descriptive controlled-context results, not a fully validated assay or evidence of naturally generated hallucinations. See [diagnosis](results/smoke_v3_2/diagnosis.md) and [verification](results/smoke_v3_2/verification.json). All 42 tests passed and 95 prior artifacts retained their hashes; work ends at this review.
+
+## Previous experiment: v3.1 real-entity context ladder
 
 V3.1 uses ten fixed, evidence-reviewed real 2Wiki cases (four birthplace, three death-place, three father relations), each with twenty distinct intermediate people across the gold/donor branches in total. All first hops identify a single film director. The downstream facts are supplied explicitly; the model is not required to recall them. Candidate selection, aliases, source sentence indices and hashes live in `data/candidates_v3_1.jsonl` and its manifest.
 

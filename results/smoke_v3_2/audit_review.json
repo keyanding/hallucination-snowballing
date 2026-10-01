@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "bda8efb10b1b5822474333b43caa137c58bfea5c1c37e22aada85ffdfdabc5dd",
+  "passed": true,
+  "user_design_choice": "Explicitly approved common H1 backbone for C2-C6, omitting old H2",
+  "plan_sha256": "6a23895176d45ee32c8e430bdf7cde43233120caaffbdcc73c097e2b0d0bcfcd",
+  "reviewer": "Codex pre-inference audit",
+  "audit_sha256": "5a23e47e1344028ce3085d87707c97dd431ea56e2c0894483b32543b1e4e4845",
+  "all_ten_blocks_reviewed": true
+}

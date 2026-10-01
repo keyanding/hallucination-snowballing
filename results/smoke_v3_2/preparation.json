@@ -1,0 +1,127 @@
+{
+  "candidates_sha256": "74713eafdf4864bea3e9f1b2afcf2986b3271df26e36e102712837608bbdb191",
+  "plan_sha256": "6a23895176d45ee32c8e430bdf7cde43233120caaffbdcc73c097e2b0d0bcfcd",
+  "audit_sha256": "5a23e47e1344028ce3085d87707c97dd431ea56e2c0894483b32543b1e4e4845",
+  "source_sha256": "c518f5390307f4e7e4c5a258da9bdc0c2f23bc6b56f06f2d66ae5074a8ebf607",
+  "policy": {
+    "min_CLA": 0.9,
+    "min_GSA": 0.9,
+    "max_invalid_rate": 0.05,
+    "max_unsupported_state_rate": 0.2,
+    "min_interpretable": 8,
+    "max_length_token_difference": 2,
+    "GSA_failed_conditions_to_stop": 2
+  },
+  "checks": {
+    "real-01": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-02": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-03": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-04": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-05": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-06": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-07": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-08": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-09": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    },
+    "real-10": {
+      "C2_no_entity_relation_geographic_leak": true,
+      "C3_B_only_no_first_hop_claim": true,
+      "C4_original_gold_evidence": true,
+      "C5_only_replaces_B": true,
+      "C6_order_only_change": true,
+      "reference_facts_and_questions_unchanged": true,
+      "paired_state_only_change": true,
+      "C0_C1_exact_v31_prompt_reuse": true,
+      "length_matching_within_two_tokens": true
+    }
+  }
+}

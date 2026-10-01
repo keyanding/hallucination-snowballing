@@ -1,0 +1,30 @@
+{
+  "passed": false,
+  "quantitative_checks": {
+    "complete_320_calls": true,
+    "CLA_all": true,
+    "GSA_all": false,
+    "invalid_rate": true,
+    "no_unsupported_collapse": true,
+    "interpretable": false,
+    "no_unreviewed_mismatches": true,
+    "no_placeholder_copies": true
+  },
+  "thresholds": {
+    "min_CLA": 0.9,
+    "min_GSA": 0.9,
+    "max_invalid_rate": 0.05,
+    "max_unsupported_state_rate": 0.2,
+    "min_interpretable": 8,
+    "max_length_token_difference": 2,
+    "GSA_failed_conditions_to_stop": 2
+  },
+  "stop_reasons": [],
+  "interpretable_cases": 4,
+  "human_review_required": true,
+  "scale_authorized": false,
+  "next_experiment_authorized": false,
+  "semantic_review": "Codex complete; human scientific review pending; quantitative failure retained",
+  "trajectories_sha256": "2efeeb1203a0629a0700e458092488714631886891b9d39c13d2a64393e76018",
+  "inspection_sha256": "b03b2534c13b8a448925d080afc2cd4e5d8cba23d6d0b7d54e75fca12cdc7b53"
+}

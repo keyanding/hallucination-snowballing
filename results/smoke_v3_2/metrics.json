@@ -1,0 +1,779 @@
+{
+  "cases": 10,
+  "calls": 320,
+  "conditions": {
+    "C0": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "PR": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "SFIR_B_prime": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    },
+    "C1": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "PR": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "SFIR_B_prime": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    },
+    "C2": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 9,
+        "denominator": 10,
+        "rate": 0.9
+      },
+      "PR": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 1,
+        "denominator": 10,
+        "rate": 0.1
+      },
+      "SFIR_B_prime": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    },
+    "C3": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "PR": {
+        "count": 8,
+        "denominator": 10,
+        "rate": 0.8
+      },
+      "OR": {
+        "count": 2,
+        "denominator": 10,
+        "rate": 0.2
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "SFIR_B_prime": {
+        "count": 2,
+        "denominator": 10,
+        "rate": 0.2
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    },
+    "C4": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "PR": {
+        "count": 4,
+        "denominator": 10,
+        "rate": 0.4
+      },
+      "OR": {
+        "count": 6,
+        "denominator": 10,
+        "rate": 0.6
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "SFIR_B_prime": {
+        "count": 6,
+        "denominator": 10,
+        "rate": 0.6
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    },
+    "C5": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 4,
+        "denominator": 10,
+        "rate": 0.4
+      },
+      "PR": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 6,
+        "denominator": 10,
+        "rate": 0.6
+      },
+      "SFIR_B_prime": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    },
+    "C6a": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "PR": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "SFIR_B_prime": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    },
+    "C6b": {
+      "CLA_B": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA_B_prime": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "CLA": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "PR": {
+        "count": 10,
+        "denominator": 10,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "pending_review_n": 0,
+      "invalid_output": {
+        "count": 0,
+        "denominator": 40,
+        "rate": 0.0
+      },
+      "SFIR_B": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "SFIR_B_prime": {
+        "count": 0,
+        "denominator": 10,
+        "rate": 0.0
+      },
+      "secondary_outcomes": {
+        "OUT_OF_CONTEXT_HALLUCINATION": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "UNKNOWN_REJECT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "INVALID_OUTPUT": {
+          "count": 0,
+          "denominator": 10,
+          "rate": 0.0
+        }
+      },
+      "unsupported_state_rate": {
+        "count": 0,
+        "denominator": 20,
+        "rate": 0.0
+      }
+    }
+  },
+  "primary_contrasts": {
+    "length_effect": 0.0,
+    "gold_entity_activation": -0.2,
+    "gold_relational_evidence": -0.4,
+    "alternative_support": 0.6
+  },
+  "conflict_order_pairs": [
+    {
+      "case_id": "real-01",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-02",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-03",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-04",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-05",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-06",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-07",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-08",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-09",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    },
+    {
+      "case_id": "real-10",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE",
+      "order_sensitive": false,
+      "follows_last_both": false,
+      "follows_first_both": false
+    }
+  ],
+  "interpretable_case_ids": [
+    "real-06",
+    "real-07",
+    "real-08",
+    "real-09"
+  ],
+  "invalid_output": {
+    "count": 0,
+    "denominator": 320,
+    "rate": 0.0
+  },
+  "placeholder_copies": 0,
+  "paired_outcomes": [
+    {
+      "case_id": "real-01",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-02",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-03",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "OVERRIDE_TO_GOLD",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-04",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-05",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "OVERRIDE_TO_GOLD",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-06",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-07",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-08",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-09",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "PROPAGATE",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    },
+    {
+      "case_id": "real-10",
+      "C0": "PROPAGATE",
+      "C1": "PROPAGATE",
+      "C2": "PROPAGATE",
+      "C3": "PROPAGATE",
+      "C4": "OVERRIDE_TO_GOLD",
+      "C5": "PROPAGATE",
+      "C6a": "PROPAGATE",
+      "C6b": "PROPAGATE"
+    }
+  ],
+  "denominator_note": "Same ten cases at each completed condition; direct combined CLA n=20, GSA/PR/OR n=10. SFIR conditional on correct direct lookup. Missing conditions and contrasts are unavailable, not zero."
+}

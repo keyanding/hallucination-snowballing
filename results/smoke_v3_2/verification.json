@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "calls": 320,
+  "checks": {
+    "frozen_data": true,
+    "frozen_plan": true,
+    "frozen_audit": true,
+    "frozen_sources": true,
+    "prior_artifacts": true,
+    "metrics_recomputed": true,
+    "gate_recomputed": true,
+    "raw_hashes": true,
+    "prompt_hashes": true,
+    "exact_frozen_prompts": true,
+    "isolated_calls": true,
+    "raw_gate_binding": true,
+    "inspection_gate_binding": true
+  },
+  "prior_files_checked": 95
+}

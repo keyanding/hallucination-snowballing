@@ -1,0 +1,326 @@
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:05<00:10,  5.44s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:13<00:06,  6.89s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:13<00:00,  3.86s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:13<00:00,  4.54s/it]
+{"case_id": "real-01", "ablation": "C0", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C0", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C0", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C0", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C0", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C0", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C0", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C0", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C0", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C0", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C0", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C0", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C0", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C0", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C0", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C0", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C0", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C0", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C0", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C0", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C0", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C0", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "ablation": "C1", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C1", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C1", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C1", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C1", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C1", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C1", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C1", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C1", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C1", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C1", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C1", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C1", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C1", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C1", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C1", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C1", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C1", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C1", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C1", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C1", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C1", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "ablation": "C2", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C2", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C2", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C2", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C2", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C2", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C2", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C2", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C2", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C2", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C2", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C2", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C2", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C2", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C2", "condition": "state_B", "raw_generation": "Rēzekne", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-05", "ablation": "C2", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C2", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C2", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C2", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C2", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C2", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C2", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "ablation": "C3", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C3", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C3", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C3", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C3", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C3", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C3", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C3", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C3", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C3", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C3", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C3", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C3", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C3", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C3", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C3", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C3", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C3", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C3", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C3", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C3", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Denver", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-04", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Yuen Siu-tien", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-06", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C3", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "ablation": "C4", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C4", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C4", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C4", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C4", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C4", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C4", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C4", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C4", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C4", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C4", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C4", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C4", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C4", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C4", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C4", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C4", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C4", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C4", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C4", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C4", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-02", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Düsseldorf", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-03", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Denver", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-04", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Rosario", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-05", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Přerov", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-09", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C4", "condition": "state_B_prime", "raw_generation": "Madrid", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "real-01", "ablation": "C5", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C5", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C5", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C5", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C5", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C5", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C5", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C5", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C5", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C5", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C5", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C5", "condition": "state_B", "raw_generation": "Stuttgart", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-02", "ablation": "C5", "condition": "state_B", "raw_generation": "Kottayam", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-03", "ablation": "C5", "condition": "state_B", "raw_generation": "Xi'an", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-04", "ablation": "C5", "condition": "state_B", "raw_generation": "Rēzekne", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-05", "ablation": "C5", "condition": "state_B", "raw_generation": "H. S. Rawail", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-06", "ablation": "C5", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C5", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C5", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C5", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C5", "condition": "state_B", "raw_generation": "Mumbai", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "real-01", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C5", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C6a", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C6a", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C6a", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C6a", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C6a", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C6a", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C6a", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C6a", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C6a", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C6a", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C6a", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C6a", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C6a", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C6a", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C6a", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "real-01", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C6b", "condition": "direct_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C6b", "condition": "direct_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C6b", "condition": "direct_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C6b", "condition": "direct_B_prime", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C6b", "condition": "state_B", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "real-02", "ablation": "C6b", "condition": "state_B", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "real-03", "ablation": "C6b", "condition": "state_B", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "real-04", "ablation": "C6b", "condition": "state_B", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "real-05", "ablation": "C6b", "condition": "state_B", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "real-06", "ablation": "C6b", "condition": "state_B", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "real-07", "ablation": "C6b", "condition": "state_B", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "real-08", "ablation": "C6b", "condition": "state_B", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "real-09", "ablation": "C6b", "condition": "state_B", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "real-10", "ablation": "C6b", "condition": "state_B", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "real-01", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "real-02", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "real-03", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "real-04", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "real-05", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "real-06", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "real-07", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "real-08", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "real-09", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "real-10", "ablation": "C6b", "condition": "state_B_prime", "raw_generation": "Mumbai", "label": "PROPAGATE"}
