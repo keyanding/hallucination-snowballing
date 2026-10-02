@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "first_hop_sha256": "3844e277c2378c7e2655b26098164e960fb6584ad81941ae219a3f5fba3cd2dd",
+  "cases": {
+    "natural-01": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Frozen Wang Xiaoshuai article has no birthplace statement; Shanghai occurs only in Shanghai Dreams. Reject annotated mapping as insufficient explicit evidence.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-02": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Andreas Dresen is named as a film director, but no birthplace evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-03": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "No matching entity or downstream evidence found in frozen source; real-entity identity unresolved.",
+      "reviewed_entity_identity_verified": false,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-04": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "John Landis is named as a filmmaker, but no birthplace evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-05": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "James Marsh is named as a director, but no father evidence is present; James Marshall substring hit is another person.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-06": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Sofia Coppola is named, but the Gia Coppola niece/granddaughter sentence is not an explicit Sofia father statement.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-07": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "No matching entity or downstream evidence found in frozen source; identity unresolved under this source.",
+      "reviewed_entity_identity_verified": false,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-08": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "No matching entity or downstream evidence found in frozen source; real-entity identity unresolved.",
+      "reviewed_entity_identity_verified": false,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-09": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Yves Boisset is named as a director, but no death-place evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-10": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Robert F. McGowan biography gives dates, but no death place.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-11": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Peter Weir is named as a director, but no father evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-12": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Jean Renoir is named as a director, but death/birth places in relatives biographies are not his death-place evidence.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    }
+  },
+  "reviewer": "Codex frozen-source sentence and entity review",
+  "evidence_search_sha256": "ffcd9dc0aaed2141003e540e2ad63ce8b889ced42086ef5e17ef05f3f58c01d3"
+}

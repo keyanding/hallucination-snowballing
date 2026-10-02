@@ -1,0 +1,339 @@
+{
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "method": "Exact normalized entity-title or full entity-name occurrence across frozen context sentences; no external lookup",
+  "results": [
+    {
+      "case_id": "natural-01",
+      "entity": "Wang Xiaoshuai",
+      "matches": [
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "Wang Xiaoshuai",
+          "sentence_id": 0,
+          "text": "Wang Xiaoshuai( born May 22, 1966) is a Chinese film director, screenwriter and occasional actor."
+        },
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "Wang Xiaoshuai",
+          "sentence_id": 1,
+          "text": "He is commonly grouped under the loose association of filmmakers known as the\" Sixth Generation\" of the Cinema of China .."
+        },
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "Wang Xiaoshuai",
+          "sentence_id": 2,
+          "text": "Like others in this generation, and in contrast with earlier Chinese filmmakers who produced mostly historical drama, Wang proposed a “ new urban Chinese cinema[ that] has been mainly concerned with bearing witness of a fast- paced transforming China and producing a localized critique of globalization. ”"
+        },
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "Wang Xiaoshuai",
+          "sentence_id": 3,
+          "text": "Many of Wang's works are known for their sensitive portrayal of teens and youths, most notable in films such as\" Beijing BicycleSo Close to ParadiseDrifters\", and\" Shanghai Dreams\"."
+        },
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "Wang Xiaoshuai",
+          "sentence_id": 4,
+          "text": "His 2008 film\" In Love We Trust\" was an exception as it portrays marital strains."
+        },
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "Wang Xiaoshuai",
+          "sentence_id": 5,
+          "text": "In 2010 Wang was appointed a\" chevalier\" of the Ordre des Arts et des Lettres."
+        },
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "Wang Xiaoshuai",
+          "sentence_id": 6,
+          "text": "He also served as a member of the jury of the BigScreen Italia Film Festival 2006, held in Kunming, Yunnan, China."
+        },
+        {
+          "source_id": "7a93fc8a088e11ebbd70ac1f6bf848b6",
+          "title": "11 Flowers",
+          "sentence_id": 0,
+          "text": "11 Flowers is a 2011 film directed by Wang Xiaoshuai centered on a boy named Wang Han who loses his white shirt which shows that he is his school's best gymnast."
+        },
+        {
+          "source_id": "7f33795908a911ebbd80ac1f6bf848b6",
+          "title": "Red Amnesia",
+          "sentence_id": 0,
+          "text": "Red Amnesia is a 2014 Chinese thriller film directed by Wang Xiaoshuai."
+        },
+        {
+          "source_id": "7f33795908a911ebbd80ac1f6bf848b6",
+          "title": "Shanghai Dreams",
+          "sentence_id": 0,
+          "text": "Shanghai Dreams is a 2005 Chinese film directed by Wang Xiaoshuai and starring Gao Yuanyuan, Li Bin, Tang Yang, Wang Xiaoyang, and Yao Anlian."
+        },
+        {
+          "source_id": "bd8229760bdc11eba7f7acde48001122",
+          "title": "Drifters (2003 film)",
+          "sentence_id": 0,
+          "text": "Drifters  is a 2003 Chinese film directed by Wang Xiaoshuai."
+        },
+        {
+          "source_id": "7284db480bdd11eba7f7acde48001122",
+          "title": "Frozen (1997 film)",
+          "sentence_id": 0,
+          "text": "Frozen  is a 1997 Chinese film directed by Wang Xiaoshuai."
+        }
+      ]
+    },
+    {
+      "case_id": "natural-02",
+      "entity": "Andreas Dresen",
+      "matches": [
+        {
+          "source_id": "cc24d99a096c11ebbdafac1f6bf848b6",
+          "title": "Summer in Berlin",
+          "sentence_id": 0,
+          "text": "Summer in Berlin is a 2005 German tragicomic film directed by Andreas Dresen."
+        }
+      ]
+    },
+    {
+      "case_id": "natural-03",
+      "entity": "Samiyeh M. A. Al-Sayed",
+      "matches": []
+    },
+    {
+      "case_id": "natural-04",
+      "entity": "John Landis",
+      "matches": [
+        {
+          "source_id": "b942cafc08c411ebbd8eac1f6bf848b6",
+          "title": "Mario Bava",
+          "sentence_id": 8,
+          "text": "Among the filmmakers Bava and his work have influenced include Dario Argento, Lucio Fulci, Federico Fellini, John Carpenter, Nicolas Winding Refn, Martin Scorsese, Tim Burton, Joe Dante, John Landis, Francis Ford Coppola, Roger Corman, Edgar Wright, Jennifer Kent and Quentin Tarantino."
+        }
+      ]
+    },
+    {
+      "case_id": "natural-05",
+      "entity": "James Marsh",
+      "matches": [
+        {
+          "source_id": "47c32ef1089511ebbd75ac1f6bf848b6",
+          "title": "Man on Wire",
+          "sentence_id": 0,
+          "text": "Man on Wire is a 2008 British- American biographical documentary film directed by James Marsh."
+        },
+        {
+          "source_id": "764039340bde11eba7f7acde48001122",
+          "title": "P. A. Smith",
+          "sentence_id": 1,
+          "text": "He was appointed in place of Sir David Patrick Chalmers and was succeeded by Sir James Marshall in 1880."
+        },
+        {
+          "source_id": "9dde4d9f089811ebbd77ac1f6bf848b6",
+          "title": "The Mercy",
+          "sentence_id": 0,
+          "text": "The Mercy is a 2017 British biographical drama film, directed by James Marsh and written by Scott Z. Burns."
+        }
+      ]
+    },
+    {
+      "case_id": "natural-06",
+      "entity": "Sofia Coppola",
+      "matches": [
+        {
+          "source_id": "fcc0d63a08b411ebbd88ac1f6bf848b6",
+          "title": "Denys Arcand",
+          "sentence_id": 3,
+          "text": "Also for \"The Barbarian Invasions\", he received an Academy Award nomination for Best Original Screenplay, losing to Sofia Coppola for \"Lost in Translation\"."
+        },
+        {
+          "source_id": "cda459160bda11eba7f7acde48001122",
+          "title": "Gia Coppola",
+          "sentence_id": 1,
+          "text": "She is a granddaughter of Francis Ford Coppola, the daughter of Gian-Carlo Coppola and the niece of Roman Coppola and Sofia Coppola."
+        }
+      ]
+    },
+    {
+      "case_id": "natural-07",
+      "entity": "Amit Sharma",
+      "matches": []
+    },
+    {
+      "case_id": "natural-08",
+      "entity": "Tomasz Kowalczyk",
+      "matches": []
+    },
+    {
+      "case_id": "natural-09",
+      "entity": "Yves Boisset",
+      "matches": [
+        {
+          "source_id": "a27e91f1094811ebbdaeac1f6bf848b6",
+          "title": "The Cop (1970 film)",
+          "sentence_id": 0,
+          "text": "The Cop is a 1970 French- Italian crime film directed by Yves Boisset and starring Michel Bouquet."
+        },
+        {
+          "source_id": "6ac2406408a211ebbd7aac1f6bf848b6",
+          "title": "Le prix du danger",
+          "sentence_id": 0,
+          "text": "Le Prix du Danger( The Prize of Peril) is a 1983 French- Yugoslav science fiction movie, directed by Yves Boisset."
+        },
+        {
+          "source_id": "0a2d55960bda11eba7f7acde48001122",
+          "title": "François de Roubaix",
+          "sentence_id": 3,
+          "text": "His first film score was for a 1961 film by Robert Enrico; through the late 1960s and early 1970s he scored films for Enrico, Jose Giovanni, Jean-Pierre Melville, Jean-Pierre Mocky, and Yves Boisset."
+        }
+      ]
+    },
+    {
+      "case_id": "natural-10",
+      "entity": "Robert F. McGowan",
+      "matches": [
+        {
+          "source_id": "4e8195fa095b11ebbdaeac1f6bf848b6",
+          "title": "The First Seven Years",
+          "sentence_id": 0,
+          "text": "The First Seven Years is a 1930\" Our Gang\" short comedy film directed by Robert F. McGowan."
+        },
+        {
+          "source_id": "28946ecc089011ebbd72ac1f6bf848b6",
+          "title": "Robert F. McGowan",
+          "sentence_id": 0,
+          "text": "Robert Francis McGowan( July 11, 1882 – January 27, 1955) was an American film director and producer, best known as the senior director of the\" Our Gang\" short subjects film series from 1922 until 1933."
+        },
+        {
+          "source_id": "28946ecc089011ebbd72ac1f6bf848b6",
+          "title": "One Wild Ride",
+          "sentence_id": 0,
+          "text": "One Wild Ride is a 1925 short silent comedy film directed by Robert F. McGowan."
+        },
+        {
+          "source_id": "2ee7d71408cc11ebbd93ac1f6bf848b6",
+          "title": "Railroadin'",
+          "sentence_id": 0,
+          "text": "Railroadin' is an\" Our Gang\" short comedy film directed by Robert F. McGowan."
+        }
+      ]
+    },
+    {
+      "case_id": "natural-11",
+      "entity": "Peter Weir",
+      "matches": [
+        {
+          "source_id": "49eb50960bdc11eba7f7acde48001122",
+          "title": "Jack Lee (film director)",
+          "sentence_id": 6,
+          "text": "He served as chairman (1976–81) of the South Australian Film Corporation, which started the careers of Bruce Beresford and Peter Weir."
+        },
+        {
+          "source_id": "63a51a37096711ebbdafac1f6bf848b6",
+          "title": "Yellow House Artist Collective",
+          "sentence_id": 10,
+          "text": "These included a range of classic, avant garde and modern works such Luis Bunuel and Salvador Dali's\" Un Chien Andalou\", Fritz Lang's\" Metropolis\", Phil Noyce's\" Better to Reign in Hell\", Leni Riefenstahl's\" Olympia\" and Peter Weir's\" Count Vim's Last Exercise\", as well as works by Albie Thoms, Bruce Petty, Mick Glasheen and Arthur and Corinne Cantrill."
+        },
+        {
+          "source_id": "6aac7fba0bde11eba7f7acde48001122",
+          "title": "Mel Gibson",
+          "sentence_id": 5,
+          "text": "Director Peter Weir cast him as one of the leads in the World War"
+        }
+      ]
+    },
+    {
+      "case_id": "natural-12",
+      "entity": "Jean Renoir",
+      "matches": [
+        {
+          "source_id": "4a9acefe0baf11ebab90acde48001122",
+          "title": "Yves Allégret",
+          "sentence_id": 2,
+          "text": "He was an assistant to film directors such as his brother Marc Allégret, Augusto Genina, and Jean Renoir."
+        },
+        {
+          "source_id": "20a118cc0bde11eba7f7acde48001122",
+          "title": "High (film)",
+          "sentence_id": 2,
+          "text": "In defense, celebrities such as Jean Renoir, Fritz Lang, and even Warren Beatty came to \"High\" 's defense as a film of art, rather than gratuity."
+        },
+        {
+          "source_id": "0ebf83cc08b511ebbd88ac1f6bf848b6",
+          "title": "Julien Duvivier",
+          "sentence_id": 3,
+          "text": "Jean Renoir called him, a\" great technician,[ a] rigorist, a poet\"."
+        },
+        {
+          "source_id": "7c798d620bdb11eba7f7acde48001122",
+          "title": "Jacques Rivette",
+          "sentence_id": 14,
+          "text": "Influenced by the political turmoil of May 68, improvisational theatre and an in-depth interview with filmmaker Jean Renoir, Rivette began working with large groups of actors on character development and allowing events to unfold on camera."
+        },
+        {
+          "source_id": "157c1041088811ebbd6eac1f6bf848b6",
+          "title": "Satyajit Ray",
+          "sentence_id": 2,
+          "text": "Starting his career as a commercial artist, Ray was drawn into independent filmmaking after meeting French filmmaker Jean Renoir and viewing Vittorio De Sica's Italian neorealist film\" Bicycle Thieves\"( 1948) during a visit to London."
+        },
+        {
+          "source_id": "2abfd9ee08c111ebbd8bac1f6bf848b6",
+          "title": "Jacques Becker",
+          "sentence_id": 1,
+          "text": "Becker first worked in the 1930s as an assistant to director Jean Renoir during what is considered the latter's peak period, including such works as\" Partie de campagne\"( 1936) and\" La Grande Illusion\"( 1937)."
+        },
+        {
+          "source_id": "da8fe7f4085a11ebbd5cac1f6bf848b6",
+          "title": "On purge bébé",
+          "sentence_id": 0,
+          "text": "On purge bébé(\" Baby's Laxative\") is Jean Renoir's first sound film, based upon the play by Georges Feydeau."
+        },
+        {
+          "source_id": "339a2e4908f311ebbdaaac1f6bf848b6",
+          "title": "The Rules of the Game (disambiguation)",
+          "sentence_id": 0,
+          "text": "The Rules of the Game is a 1939 French film, directed by Jean Renoir."
+        },
+        {
+          "source_id": "339a2e4908f311ebbdaaac1f6bf848b6",
+          "title": "The Rules of the Game",
+          "sentence_id": 0,
+          "text": "The Rules of the Game( original French title: La Règle du Jeu) is a 1939 French comedy- drama satirical film directed by Jean Renoir."
+        },
+        {
+          "source_id": "339a2e4908f311ebbdaaac1f6bf848b6",
+          "title": "The Rules of the Game",
+          "sentence_id": 1,
+          "text": "It features an ensemble cast of Nora Gregor, Paulette Dubost, Mila Parély, Marcel Dalio, Julien Carette, Roland Toutain, Gaston Modot, Pierre Magnier and Jean Renoir himself."
+        },
+        {
+          "source_id": "57bf31020bdb11eba7f7acde48001122",
+          "title": "Catherine Hessling",
+          "sentence_id": 0,
+          "text": "Catherine Hessling (born Andrée Madeleine Heuschling, 22 June 1900, in Moronvilliers, Marne – 28 September 1979, in La Celle-Saint-Cloud, Yvelines) was a French actress and the first wife of film director Jean Renoir."
+        },
+        {
+          "source_id": "57bf31020bdb11eba7f7acde48001122",
+          "title": "Alain Renoir",
+          "sentence_id": 0,
+          "text": "Alain Renoir (October 31, 1921 – December 12, 2008) was a French-American writer and literature professor, son of filmmaker Jean Renoir and actress Catherine Hessling, and grandson of impressionist painter Pierre-Auguste Renoir."
+        },
+        {
+          "source_id": "57bf31020bdb11eba7f7acde48001122",
+          "title": "Alain Renoir",
+          "sentence_id": 1,
+          "text": "Renoir was born in Cagnes-sur-Mer, the only son of Jean Renoir."
+        },
+        {
+          "source_id": "cf57f2ef087011ebbd63ac1f6bf848b6",
+          "title": "Madame Bovary (1934 film)",
+          "sentence_id": 0,
+          "text": "Madame Bovary is a 1934 French historical drama film directed by Jean Renoir, starring Max Dearly, Valentine Tessier and Pierre Renoir, and adapted from Gustave Flaubert's 1857 novel\" Madame Bovary\"."
+        },
+        {
+          "source_id": "cf57f2ef087011ebbd63ac1f6bf848b6",
+          "title": "Unholy Love",
+          "sentence_id": 2,
+          "text": "The film was quickly forgotten when more successful film adaptations of\" Madame Bovary\" were produced thereafter, such as Jean Renoir's 1934 version and Vincente Minnelli's 1949 version."
+        }
+      ]
+    }
+  ]
+}

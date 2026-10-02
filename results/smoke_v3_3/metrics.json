@@ -1,0 +1,371 @@
+{
+  "first_hop_counts": {
+    "OTHER_WRONG_ENTITY": 12
+  },
+  "NFER": {
+    "count": 12,
+    "denominator": 12,
+    "rate": 1.0
+  },
+  "verified_wrong_entity_rate": {
+    "count": 1,
+    "denominator": 12,
+    "rate": 0.08333333333333333
+  },
+  "UNKNOWN_OR_INVALID": {
+    "count": 0,
+    "denominator": 12,
+    "rate": 0.0
+  },
+  "completed_case_ids": [
+    "natural-01",
+    "natural-02",
+    "natural-03",
+    "natural-04",
+    "natural-05",
+    "natural-06",
+    "natural-07",
+    "natural-08",
+    "natural-09",
+    "natural-10",
+    "natural-11",
+    "natural-12"
+  ],
+  "calls": {
+    "first_hop": 12,
+    "downstream": 156
+  },
+  "CLA_B": {
+    "count": 12,
+    "denominator": 12,
+    "rate": 1.0
+  },
+  "CLA_B_prime": {
+    "count": 12,
+    "denominator": 12,
+    "rate": 1.0
+  },
+  "CLA": {
+    "count": 24,
+    "denominator": 24,
+    "rate": 1.0
+  },
+  "conditions": {
+    "E0": {
+      "CPR": {
+        "count": 11,
+        "denominator": 12,
+        "rate": 0.9166666666666666
+      },
+      "OR": {
+        "count": 1,
+        "denominator": 12,
+        "rate": 0.08333333333333333
+      },
+      "GSA": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "wrong_support_on_gold": {
+        "count": 0,
+        "denominator": 12,
+        "rate": 0.0
+      },
+      "pair_assessments": {
+        "natural-01": "STABLE_STATE_FOLLOWING",
+        "natural-02": "STABLE_STATE_FOLLOWING",
+        "natural-03": "STABLE_STATE_FOLLOWING",
+        "natural-04": "STABLE_STATE_FOLLOWING",
+        "natural-05": "STABLE_STATE_FOLLOWING",
+        "natural-06": "STABLE_STATE_FOLLOWING",
+        "natural-07": "STABLE_STATE_FOLLOWING",
+        "natural-08": "STABLE_STATE_FOLLOWING",
+        "natural-09": "OTHER_SUPPORTED_SELECTION",
+        "natural-10": "STABLE_STATE_FOLLOWING",
+        "natural-11": "STABLE_STATE_FOLLOWING",
+        "natural-12": "STABLE_STATE_FOLLOWING"
+      },
+      "assessment_counts": {
+        "STABLE_STATE_FOLLOWING": 11,
+        "OTHER_SUPPORTED_SELECTION": 1
+      },
+      "wrong_outcomes": {
+        "PROPAGATE": 11,
+        "OVERRIDE_TO_GOLD": 1
+      },
+      "strata": {
+        "natural_wrong": {
+          "count": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "registered_counterfactual": {
+          "count": 11,
+          "denominator": 12,
+          "rate": 0.9166666666666666
+        }
+      }
+    },
+    "E1": {
+      "CPR": {
+        "count": 0,
+        "denominator": 12,
+        "rate": 0.0
+      },
+      "OR": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "GSA": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "wrong_support_on_gold": {
+        "count": 0,
+        "denominator": 12,
+        "rate": 0.0
+      },
+      "pair_assessments": {
+        "natural-01": "STATE_SELECTIVE",
+        "natural-02": "STATE_SELECTIVE",
+        "natural-03": "STATE_SELECTIVE",
+        "natural-04": "STATE_SELECTIVE",
+        "natural-05": "STATE_SELECTIVE",
+        "natural-06": "STATE_SELECTIVE",
+        "natural-07": "STATE_SELECTIVE",
+        "natural-08": "STATE_SELECTIVE",
+        "natural-09": "STATE_SELECTIVE",
+        "natural-10": "STATE_SELECTIVE",
+        "natural-11": "STATE_SELECTIVE",
+        "natural-12": "STATE_SELECTIVE"
+      },
+      "assessment_counts": {
+        "STATE_SELECTIVE": 12
+      },
+      "wrong_outcomes": {
+        "OVERRIDE_TO_GOLD": 12
+      },
+      "strata": {
+        "natural_wrong": {
+          "count": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "registered_counterfactual": {
+          "count": 0,
+          "denominator": 12,
+          "rate": 0.0
+        }
+      }
+    },
+    "E2": {
+      "CPR": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 12,
+        "rate": 0.0
+      },
+      "GSA": {
+        "count": 1,
+        "denominator": 12,
+        "rate": 0.08333333333333333
+      },
+      "wrong_support_on_gold": {
+        "count": 11,
+        "denominator": 12,
+        "rate": 0.9166666666666666
+      },
+      "pair_assessments": {
+        "natural-01": "STATE_SELECTIVE",
+        "natural-02": "STATE_SELECTIVE",
+        "natural-03": "STABLE_STATE_FOLLOWING",
+        "natural-04": "STATE_SELECTIVE",
+        "natural-05": "STATE_SELECTIVE",
+        "natural-06": "STATE_SELECTIVE",
+        "natural-07": "STATE_SELECTIVE",
+        "natural-08": "STATE_SELECTIVE",
+        "natural-09": "STATE_SELECTIVE",
+        "natural-10": "STATE_SELECTIVE",
+        "natural-11": "STATE_SELECTIVE",
+        "natural-12": "STATE_SELECTIVE"
+      },
+      "assessment_counts": {
+        "STATE_SELECTIVE": 11,
+        "STABLE_STATE_FOLLOWING": 1
+      },
+      "wrong_outcomes": {
+        "PROPAGATE": 12
+      },
+      "strata": {
+        "natural_wrong": {
+          "count": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "registered_counterfactual": {
+          "count": 12,
+          "denominator": 12,
+          "rate": 1.0
+        }
+      }
+    },
+    "E3a": {
+      "CPR": {
+        "count": 4,
+        "denominator": 12,
+        "rate": 0.3333333333333333
+      },
+      "OR": {
+        "count": 8,
+        "denominator": 12,
+        "rate": 0.6666666666666666
+      },
+      "GSA": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "wrong_support_on_gold": {
+        "count": 0,
+        "denominator": 12,
+        "rate": 0.0
+      },
+      "pair_assessments": {
+        "natural-01": "OTHER_SUPPORTED_SELECTION",
+        "natural-02": "OTHER_SUPPORTED_SELECTION",
+        "natural-03": "OTHER_SUPPORTED_SELECTION",
+        "natural-04": "STABLE_STATE_FOLLOWING",
+        "natural-05": "STABLE_STATE_FOLLOWING",
+        "natural-06": "STABLE_STATE_FOLLOWING",
+        "natural-07": "OTHER_SUPPORTED_SELECTION",
+        "natural-08": "OTHER_SUPPORTED_SELECTION",
+        "natural-09": "OTHER_SUPPORTED_SELECTION",
+        "natural-10": "OTHER_SUPPORTED_SELECTION",
+        "natural-11": "OTHER_SUPPORTED_SELECTION",
+        "natural-12": "STABLE_STATE_FOLLOWING"
+      },
+      "assessment_counts": {
+        "OTHER_SUPPORTED_SELECTION": 8,
+        "STABLE_STATE_FOLLOWING": 4
+      },
+      "wrong_outcomes": {
+        "OVERRIDE_TO_GOLD": 8,
+        "PROPAGATE": 4
+      },
+      "strata": {
+        "natural_wrong": {
+          "count": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "registered_counterfactual": {
+          "count": 4,
+          "denominator": 12,
+          "rate": 0.3333333333333333
+        }
+      }
+    },
+    "E3b": {
+      "CPR": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "OR": {
+        "count": 0,
+        "denominator": 12,
+        "rate": 0.0
+      },
+      "GSA": {
+        "count": 7,
+        "denominator": 12,
+        "rate": 0.5833333333333334
+      },
+      "wrong_support_on_gold": {
+        "count": 5,
+        "denominator": 12,
+        "rate": 0.4166666666666667
+      },
+      "pair_assessments": {
+        "natural-01": "OTHER_SUPPORTED_SELECTION",
+        "natural-02": "OTHER_SUPPORTED_SELECTION",
+        "natural-03": "STABLE_STATE_FOLLOWING",
+        "natural-04": "OTHER_SUPPORTED_SELECTION",
+        "natural-05": "OTHER_SUPPORTED_SELECTION",
+        "natural-06": "STABLE_STATE_FOLLOWING",
+        "natural-07": "STABLE_STATE_FOLLOWING",
+        "natural-08": "STABLE_STATE_FOLLOWING",
+        "natural-09": "STABLE_STATE_FOLLOWING",
+        "natural-10": "STABLE_STATE_FOLLOWING",
+        "natural-11": "STABLE_STATE_FOLLOWING",
+        "natural-12": "OTHER_SUPPORTED_SELECTION"
+      },
+      "assessment_counts": {
+        "OTHER_SUPPORTED_SELECTION": 5,
+        "STABLE_STATE_FOLLOWING": 7
+      },
+      "wrong_outcomes": {
+        "PROPAGATE": 12
+      },
+      "strata": {
+        "natural_wrong": {
+          "count": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "registered_counterfactual": {
+          "count": 12,
+          "denominator": 12,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "NPR": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "natural_error_eligible_ids": [],
+  "S0_PR": {
+    "count": 12,
+    "denominator": 12,
+    "rate": 1.0
+  },
+  "delta_PR_prefix": -0.0833333333,
+  "symmetry": {
+    "gold_support_on_wrong": {
+      "count": 12,
+      "denominator": 12,
+      "rate": 1.0
+    },
+    "wrong_support_on_gold": {
+      "count": 11,
+      "denominator": 12,
+      "rate": 0.9166666666666666
+    }
+  },
+  "order_sensitive_case_ids": [
+    "natural-01",
+    "natural-02",
+    "natural-03",
+    "natural-07",
+    "natural-08",
+    "natural-09",
+    "natural-10",
+    "natural-11"
+  ],
+  "unsupported_invalid": {
+    "count": 0,
+    "denominator": 132,
+    "rate": 0.0
+  },
+  "denominator_note": "NFER: all 12 including unknown/invalid non-correct answers (reported separately). CPR/OR/GSA/S0: common fully executed, direct-correct cases, split by natural versus registered origin. NPR: eligible natural-error B0 only. No sparse-error requirement."
+}

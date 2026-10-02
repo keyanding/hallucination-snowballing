@@ -1,0 +1,18 @@
+{
+  "reviewer": "Codex frozen-source evidence and complete downstream target review",
+  "downstream_calls_reviewed": 156,
+  "no_relabeling_or_alias_changes": true,
+  "all_downstream_outputs_supported": true,
+  "reviewed_wrong_entity_rate": {
+    "count": 9,
+    "denominator": 12,
+    "rate": 0.75
+  },
+  "identity_note": "This source-backed manual review supersedes the narrow automatic indexed-entity flag for identity assessment only; raw Phase-A fields and recomputed metrics remain unchanged. Nine entities are named in frozen source; three identities remain unverified. No explicit required downstream mapping exists for any of the twelve.",
+  "natural_error_eligible_count": 0,
+  "natural_B0_calls": 0,
+  "first_hop_sha256": "3844e277c2378c7e2655b26098164e960fb6584ad81941ae219a3f5fba3cd2dd",
+  "branch_trajectories_sha256": "95051326146d35b9655b65cba2a8c303668ba5e9874c47f0b69699a0ea9120dd",
+  "eligibility_sha256": "02b32eb370518b2bd6b0455d2093cf3b62d13b5538744c7fc4840429cee45a35",
+  "diagnosis_sha256": "76562ac7b4d0a068d3ad24cb05874b9fb62b27c2718148722bfa571737de9743"
+}

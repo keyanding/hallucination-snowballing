@@ -2,7 +2,29 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.2 contextual evidence ablation
+## Current experiment: v3.3 natural first-hop checkpoints
+
+V3.3 freezes twelve real 2Wiki questions (the previous ten plus two evidence-reviewed additions; four per downstream relation). Phase A asks for the first-hop name without evidence and saves the exact model output and chat-rendered checkpoint. Every downstream call starts fresh, explicitly replays that checkpoint, and changes only the assistant answer span and/or the added first-hop evidence. No hidden-state snapshot or cross-call KV cache is reused. All downstream branches receive a shared pair of reference facts after the checkpoint, so this measures evidence-assisted continuation rather than unrestricted closed-book two-hop generation.
+
+Gold and wrong states are crossed with E0 (no first-hop evidence), E1 (gold support), E2 (matched wrong support), E3a/E3b (both claims in opposite orders). S0 strips the natural task transcript and retains just facts plus state. Two independent direct lookups precede each case's branch matrix. Exact duplicate B0/B1/B2 logical branches reuse one model call. Natural-error eligibility requires a distinct downstream target, explicit frozen-source evidence and successful lookup controls. Per the user's approved case-level stop rule, unavailable natural mappings are preserved as exclusions while registered counterfactual branches may proceed separately; they never enter NPR.
+
+```powershell
+python -m src.prepare_v3_3
+python -m src.experiment_v3_3 prepare
+# Review branch_audit.pre_inference.md and save hash-bound audit_review.json.
+python -m unittest discover -s tests -v
+$env:HF_HUB_OFFLINE='1'
+python -m src.experiment_v3_3 phase-a
+# Review natural entities against frozen evidence; save eligibility_review.json.
+python -m src.experiment_v3_3 phase-b
+python -m results.smoke_v3_3.verify_artifacts
+```
+
+Preparation and phases refuse overwrite. See [protocol](results/smoke_v3_3/protocol.md), [branch audit](results/smoke_v3_3/branch_audit.md), [inspection](results/smoke_v3_3/inspection.md) and [diagnosis](results/smoke_v3_3/diagnosis.md). The gate checks lookup, valid execution, unsupported outputs, exact matched prefixes and isolation. It does not require high propagation, high gold-state adherence under competing evidence, or a minimum number of natural errors. Evidence-driven mirror effects are reported separately from unsupported general interference.
+
+Actual v3.3 result: **168 calls** (12 natural first hops, 24 lookups, 132 counterfactual probes). All twelve first-hop answers were non-gold; none had eligible explicit downstream evidence in the frozen source, so **NPR is unavailable (n=0)** and no natural B0 was run. Counterfactual CPR across E0/E1/E2/E3a/E3b is **11/12, 0/12, 12/12, 4/12, 12/12**; S0 is 12/12. Direct lookup is 24/24 and all state outputs are supported targets. Gold support overrides 12/12 wrong branches; wrong support overrides 11/12 gold branches. Conflict order changes eight wrong-state pairs, consistent with a first-sentence tendency on those cases. The counterfactual measurement gate passes, but the natural-propagation objective remains unmeasured. All 46 tests passed and 116 prior artifacts retain their hashes. See the diagnosis for denominators, exclusions and scope limits.
+
+## Previous experiment: v3.2 contextual evidence ablation
 
 V3.2 freezes all ten v3.1 cases, aliases, reference facts and evidence orders. C0/C1 reuse H0/H1 verbatim. With the user's approved design, C2–C6 share the H1 backbone and omit the old H2 sentence: C2 adds length-matched mundane context, C3 mentions only the gold intermediate, C4 adds original first-hop evidence, C5 substitutes the alternative intermediate in that same evidence, and C6a/C6b present both claims in opposite orders. C4 is therefore not a verbatim H3 replication. Optional C7 is omitted because a third entity would lack a matched downstream fact.
 

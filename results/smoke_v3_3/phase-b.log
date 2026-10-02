@@ -1,0 +1,162 @@
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:05<00:11,  5.98s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:12<00:06,  6.56s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:13<00:00,  3.66s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:13<00:00,  4.39s/it]
+{"case_id": "natural-01", "branch": "direct_gold", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "natural-01", "branch": "direct_wrong", "raw_generation": "Stuttgart", "label": "EXACT_CORRECT"}
+{"case_id": "natural-02", "branch": "direct_gold", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "natural-02", "branch": "direct_wrong", "raw_generation": "Kottayam", "label": "EXACT_CORRECT"}
+{"case_id": "natural-03", "branch": "direct_gold", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "natural-03", "branch": "direct_wrong", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "natural-04", "branch": "direct_gold", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "natural-04", "branch": "direct_wrong", "raw_generation": "Rēzekne", "label": "EXACT_CORRECT"}
+{"case_id": "natural-05", "branch": "direct_gold", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "natural-05", "branch": "direct_wrong", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "natural-06", "branch": "direct_gold", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "natural-06", "branch": "direct_wrong", "raw_generation": "Daniel Alomía Robles", "label": "EXACT_CORRECT"}
+{"case_id": "natural-07", "branch": "direct_gold", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "natural-07", "branch": "direct_wrong", "raw_generation": "Leopoldo Torres Ríos", "label": "EXACT_CORRECT"}
+{"case_id": "natural-08", "branch": "direct_gold", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "natural-08", "branch": "direct_wrong", "raw_generation": "Porterville", "label": "EXACT_CORRECT"}
+{"case_id": "natural-09", "branch": "direct_gold", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-09", "branch": "direct_wrong", "raw_generation": "Shaftsbury, Vermont", "label": "EXACT_CORRECT"}
+{"case_id": "natural-10", "branch": "direct_gold", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "natural-10", "branch": "direct_wrong", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "natural-11", "branch": "direct_gold", "raw_generation": "Zdeněk Svěrák", "label": "EXACT_CORRECT"}
+{"case_id": "natural-11", "branch": "direct_wrong", "raw_generation": "H. S. Rawail", "label": "EXACT_CORRECT"}
+{"case_id": "natural-12", "branch": "direct_gold", "raw_generation": "São Paulo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-12", "branch": "direct_wrong", "raw_generation": "Mumbai", "label": "EXACT_CORRECT"}
+{"case_id": "natural-01", "branch": "gold/E0", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "natural-01", "branch": "wrong/E0", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "natural-01", "branch": "gold/E1", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "natural-01", "branch": "wrong/E1", "raw_generation": "Xi'an", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-01", "branch": "gold/E2", "raw_generation": "Stuttgart", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-01", "branch": "wrong/E2", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "natural-01", "branch": "gold/E3a", "raw_generation": "Xi'an", "label": "EXACT_CORRECT"}
+{"case_id": "natural-01", "branch": "wrong/E3a", "raw_generation": "Xi'an", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-01", "branch": "gold/E3b", "raw_generation": "Stuttgart", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-01", "branch": "wrong/E3b", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "natural-01", "branch": "S0", "raw_generation": "Stuttgart", "label": "PROPAGATE"}
+{"case_id": "natural-02", "branch": "gold/E0", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "natural-02", "branch": "wrong/E0", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "natural-02", "branch": "gold/E1", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "natural-02", "branch": "wrong/E1", "raw_generation": "Düsseldorf", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-02", "branch": "gold/E2", "raw_generation": "Kottayam", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-02", "branch": "wrong/E2", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "natural-02", "branch": "gold/E3a", "raw_generation": "Düsseldorf", "label": "EXACT_CORRECT"}
+{"case_id": "natural-02", "branch": "wrong/E3a", "raw_generation": "Düsseldorf", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-02", "branch": "gold/E3b", "raw_generation": "Kottayam", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-02", "branch": "wrong/E3b", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "natural-02", "branch": "S0", "raw_generation": "Kottayam", "label": "PROPAGATE"}
+{"case_id": "natural-03", "branch": "gold/E0", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "natural-03", "branch": "wrong/E0", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "natural-03", "branch": "gold/E1", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "natural-03", "branch": "wrong/E1", "raw_generation": "Denver", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-03", "branch": "gold/E2", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "natural-03", "branch": "wrong/E2", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "natural-03", "branch": "gold/E3a", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "natural-03", "branch": "wrong/E3a", "raw_generation": "Denver", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-03", "branch": "gold/E3b", "raw_generation": "Denver", "label": "EXACT_CORRECT"}
+{"case_id": "natural-03", "branch": "wrong/E3b", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "natural-03", "branch": "S0", "raw_generation": "Xi'an", "label": "PROPAGATE"}
+{"case_id": "natural-04", "branch": "gold/E0", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "natural-04", "branch": "wrong/E0", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "natural-04", "branch": "gold/E1", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "natural-04", "branch": "wrong/E1", "raw_generation": "Rosario", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-04", "branch": "gold/E2", "raw_generation": "Rēzekne", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-04", "branch": "wrong/E2", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "natural-04", "branch": "gold/E3a", "raw_generation": "Rosario", "label": "EXACT_CORRECT"}
+{"case_id": "natural-04", "branch": "wrong/E3a", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "natural-04", "branch": "gold/E3b", "raw_generation": "Rēzekne", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-04", "branch": "wrong/E3b", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "natural-04", "branch": "S0", "raw_generation": "Rēzekne", "label": "PROPAGATE"}
+{"case_id": "natural-05", "branch": "gold/E0", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "natural-05", "branch": "wrong/E0", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-05", "branch": "gold/E1", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "natural-05", "branch": "wrong/E1", "raw_generation": "Yuen Siu-tien", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-05", "branch": "gold/E2", "raw_generation": "H. S. Rawail", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-05", "branch": "wrong/E2", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-05", "branch": "gold/E3a", "raw_generation": "Yuen Siu-tien", "label": "EXACT_CORRECT"}
+{"case_id": "natural-05", "branch": "wrong/E3a", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-05", "branch": "gold/E3b", "raw_generation": "H. S. Rawail", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-05", "branch": "wrong/E3b", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-05", "branch": "S0", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-06", "branch": "gold/E0", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "natural-06", "branch": "wrong/E0", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "natural-06", "branch": "gold/E1", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "natural-06", "branch": "wrong/E1", "raw_generation": "György Enyedi", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-06", "branch": "gold/E2", "raw_generation": "Daniel Alomía Robles", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-06", "branch": "wrong/E2", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "natural-06", "branch": "gold/E3a", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "natural-06", "branch": "wrong/E3a", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "natural-06", "branch": "gold/E3b", "raw_generation": "György Enyedi", "label": "EXACT_CORRECT"}
+{"case_id": "natural-06", "branch": "wrong/E3b", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "natural-06", "branch": "S0", "raw_generation": "Daniel Alomía Robles", "label": "PROPAGATE"}
+{"case_id": "natural-07", "branch": "gold/E0", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "natural-07", "branch": "wrong/E0", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "natural-07", "branch": "gold/E1", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "natural-07", "branch": "wrong/E1", "raw_generation": "Inder Raj Anand", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-07", "branch": "gold/E2", "raw_generation": "Leopoldo Torres Ríos", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-07", "branch": "wrong/E2", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "natural-07", "branch": "gold/E3a", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "natural-07", "branch": "wrong/E3a", "raw_generation": "Inder Raj Anand", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-07", "branch": "gold/E3b", "raw_generation": "Inder Raj Anand", "label": "EXACT_CORRECT"}
+{"case_id": "natural-07", "branch": "wrong/E3b", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "natural-07", "branch": "S0", "raw_generation": "Leopoldo Torres Ríos", "label": "PROPAGATE"}
+{"case_id": "natural-08", "branch": "gold/E0", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "natural-08", "branch": "wrong/E0", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "natural-08", "branch": "gold/E1", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "natural-08", "branch": "wrong/E1", "raw_generation": "Přerov", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-08", "branch": "gold/E2", "raw_generation": "Porterville", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-08", "branch": "wrong/E2", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "natural-08", "branch": "gold/E3a", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "natural-08", "branch": "wrong/E3a", "raw_generation": "Přerov", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-08", "branch": "gold/E3b", "raw_generation": "Přerov", "label": "EXACT_CORRECT"}
+{"case_id": "natural-08", "branch": "wrong/E3b", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "natural-08", "branch": "S0", "raw_generation": "Porterville", "label": "PROPAGATE"}
+{"case_id": "natural-09", "branch": "gold/E0", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-09", "branch": "wrong/E0", "raw_generation": "San Felice Circeo", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-09", "branch": "gold/E1", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-09", "branch": "wrong/E1", "raw_generation": "San Felice Circeo", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-09", "branch": "gold/E2", "raw_generation": "Shaftsbury, Vermont", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-09", "branch": "wrong/E2", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "natural-09", "branch": "gold/E3a", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-09", "branch": "wrong/E3a", "raw_generation": "San Felice Circeo", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-09", "branch": "gold/E3b", "raw_generation": "San Felice Circeo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-09", "branch": "wrong/E3b", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "natural-09", "branch": "S0", "raw_generation": "Shaftsbury, Vermont", "label": "PROPAGATE"}
+{"case_id": "natural-10", "branch": "gold/E0", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "natural-10", "branch": "wrong/E0", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-10", "branch": "gold/E1", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "natural-10", "branch": "wrong/E1", "raw_generation": "Madrid", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-10", "branch": "gold/E2", "raw_generation": "Mumbai", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-10", "branch": "wrong/E2", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-10", "branch": "gold/E3a", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "natural-10", "branch": "wrong/E3a", "raw_generation": "Madrid", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-10", "branch": "gold/E3b", "raw_generation": "Madrid", "label": "EXACT_CORRECT"}
+{"case_id": "natural-10", "branch": "wrong/E3b", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-10", "branch": "S0", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-11", "branch": "gold/E0", "raw_generation": "Zdeněk Svěrák", "label": "EXACT_CORRECT"}
+{"case_id": "natural-11", "branch": "wrong/E0", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-11", "branch": "gold/E1", "raw_generation": "Zdeněk Svěrák", "label": "EXACT_CORRECT"}
+{"case_id": "natural-11", "branch": "wrong/E1", "raw_generation": "Zdeněk Svěrák", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-11", "branch": "gold/E2", "raw_generation": "H. S. Rawail", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-11", "branch": "wrong/E2", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-11", "branch": "gold/E3a", "raw_generation": "Zdeněk Svěrák", "label": "EXACT_CORRECT"}
+{"case_id": "natural-11", "branch": "wrong/E3a", "raw_generation": "Zdeněk Svěrák", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-11", "branch": "gold/E3b", "raw_generation": "Zdeněk Svěrák", "label": "EXACT_CORRECT"}
+{"case_id": "natural-11", "branch": "wrong/E3b", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-11", "branch": "S0", "raw_generation": "H. S. Rawail", "label": "PROPAGATE"}
+{"case_id": "natural-12", "branch": "gold/E0", "raw_generation": "São Paulo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-12", "branch": "wrong/E0", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-12", "branch": "gold/E1", "raw_generation": "São Paulo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-12", "branch": "wrong/E1", "raw_generation": "São Paulo", "label": "OVERRIDE_TO_GOLD"}
+{"case_id": "natural-12", "branch": "gold/E2", "raw_generation": "Mumbai", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-12", "branch": "wrong/E2", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-12", "branch": "gold/E3a", "raw_generation": "São Paulo", "label": "EXACT_CORRECT"}
+{"case_id": "natural-12", "branch": "wrong/E3a", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-12", "branch": "gold/E3b", "raw_generation": "Mumbai", "label": "OTHER_CONTEXT_TARGET"}
+{"case_id": "natural-12", "branch": "wrong/E3b", "raw_generation": "Mumbai", "label": "PROPAGATE"}
+{"case_id": "natural-12", "branch": "S0", "raw_generation": "Mumbai", "label": "PROPAGATE"}

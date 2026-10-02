@@ -1,0 +1,78 @@
+{
+  "passed": false,
+  "first_hop_sha256": "3844e277c2378c7e2655b26098164e960fb6584ad81941ae219a3f5fba3cd2dd",
+  "cases": {
+    "natural-01": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-02": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-03": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-04": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-05": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-06": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-07": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-08": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-09": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-10": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-11": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    },
+    "natural-12": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Requires explicit evidence/identity review; absent evidence stops this natural branch only"
+    }
+  }
+}

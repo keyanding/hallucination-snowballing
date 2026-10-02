@@ -1,0 +1,4317 @@
+# v3.3 pre-inference branch audit
+
+The following are frozen branch templates instantiated with the registered entities. Natural raw answers are unknown at this stage; post-Phase-A checkpoints and eligibility will be appended without changing this pre-inference section.
+
+Each branch is a fresh chat serialization of user first-hop prompt, assistant first-hop answer, then a user continuation. Only the assistant answer span is replaced. Downstream facts are added after the checkpoint in every continuation; E0 has no added FIRST-HOP evidence. This is evidence-assisted continuation of a naturally generated first hop, not an uninterrupted closed-book trajectory.
+
+## natural-01
+
+```json
+{
+  "case_id": "natural-01",
+  "source_id": "df66ea220bdc11eba7f7acde48001122",
+  "donor_id": "78249bea0bda11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "What is the place of birth of the director of film Lover'S Grief Over The Yellow River?",
+  "A": "Lover's Grief over the Yellow River",
+  "r1": "director",
+  "B": "Feng Xiaoning",
+  "relation": "place of birth",
+  "C": "Xi'an",
+  "B_prime": "Rolf Schübel",
+  "C_prime": "Stuttgart",
+  "aliases_C": [
+    "Xi'an",
+    "Xi'an, China",
+    "Xi'an, Shaanxi"
+  ],
+  "aliases_C_prime": [
+    "Stuttgart",
+    "Stuttgart, Germany"
+  ],
+  "gold_evidence_chain": [
+    [
+      "Lover's Grief over the Yellow River",
+      "director",
+      "Feng Xiaoning"
+    ],
+    [
+      "Feng Xiaoning",
+      "place of birth",
+      "Xi'an"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Walerjan Wrobel's Homesickness",
+      "director",
+      "Rolf Schübel"
+    ],
+    [
+      "Rolf Schübel",
+      "place of birth",
+      "Stuttgart"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "Lover's Grief over the Yellow River",
+    "sentence_id": 0,
+    "text": "Lover's Grief over the Yellow River  is a 1999 Chinese film directed by Feng Xiaoning."
+  },
+  "downstream_evidence": {
+    "title": "Feng Xiaoning",
+    "sentence_id": 4,
+    "text": "Feng was born in Xi'an to a family of teachers."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Walerjan Wrobel's Homesickness",
+    "sentence_id": 0,
+    "text": "Walerjan Wrobel's Homesickness  is a 1991 German drama film directed by Rolf Schübel."
+  },
+  "donor_downstream_evidence": {
+    "title": "Rolf Schübel",
+    "sentence_id": 0,
+    "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+  },
+  "neutral_evidence": {
+    "title": "Lover's Grief over the Yellow River",
+    "sentence_id": 1,
+    "text": "It was China's official Best Foreign Language Film submission at the 72nd Academy Awards, but did not receive a nomination."
+  },
+  "evidence_order": 1,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "explicit named city/town; no country-only aliases",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Feng",
+    "Feng Xiaoning",
+    "Rolf",
+    "Rolf Schübel",
+    "Schübel",
+    "Stuttgart",
+    "Stuttgart, Germany",
+    "Xi'an",
+    "Xi'an, China",
+    "Xi'an, Shaanxi",
+    "Xiaoning"
+  ],
+  "aliases_B": [
+    "Feng Xiaoning"
+  ],
+  "aliases_B_prime": [
+    "Rolf Schubel",
+    "Rolf Schübel"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+What is the place of birth of the director of film Lover'S Grief Over The Yellow River?
+
+First solve only the first step:
+Who directed "Lover's Grief over the Yellow River"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Feng Xiaoning"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rolf Schübel"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Feng Xiaoning"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Feng Xiaoning.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rolf Schübel"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Feng Xiaoning.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Feng Xiaoning"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Rolf Schübel.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rolf Schübel"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Rolf Schübel.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Feng Xiaoning"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Feng Xiaoning.\n\"Lover's Grief over the Yellow River\" was directed by Rolf Schübel.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rolf Schübel"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Feng Xiaoning.\n\"Lover's Grief over the Yellow River\" was directed by Rolf Schübel.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Feng Xiaoning"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Rolf Schübel.\n\"Lover's Grief over the Yellow River\" was directed by Feng Xiaoning.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rolf Schübel"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Feng Xiaoning was born in Xi'an.\n2. Rolf Schübel was born in Stuttgart.\n\nAdditional evidence:\n\"Lover's Grief over the Yellow River\" was directed by Rolf Schübel.\n\"Lover's Grief over the Yellow River\" was directed by Feng Xiaoning.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Feng Xiaoning was born in Xi'an.
+2. Rolf Schübel was born in Stuttgart.
+
+According to the reference facts, where was Feng Xiaoning born?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Feng Xiaoning was born in Xi'an.
+2. Rolf Schübel was born in Stuttgart.
+
+According to the reference facts, where was Rolf Schübel born?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Feng Xiaoning was born in Xi'an.
+2. Rolf Schübel was born in Stuttgart.
+
+Current Step 1 state:
+Rolf Schübel
+
+According to the reference facts, where was the person in the current Step 1 state born?
+
+Answer with only the requested name or location.
+```
+
+## natural-02
+
+```json
+{
+  "case_id": "natural-02",
+  "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+  "donor_id": "35aaea880bdc11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "What is the place of birth of the director of film Große Freiheit Nr. 7?",
+  "A": "Große Freiheit Nr. 7",
+  "r1": "director",
+  "B": "Helmut Käutner",
+  "relation": "place of birth",
+  "C": "Düsseldorf",
+  "B_prime": "Anil Das",
+  "C_prime": "Kottayam",
+  "aliases_C": [
+    "Dusseldorf",
+    "Dusseldorf, Germany",
+    "Düsseldorf",
+    "Düsseldorf, Germany"
+  ],
+  "aliases_C_prime": [
+    "Kottayam"
+  ],
+  "gold_evidence_chain": [
+    [
+      "Große Freiheit Nr. 7",
+      "director",
+      "Helmut Käutner"
+    ],
+    [
+      "Helmut Käutner",
+      "place of birth",
+      "Düsseldorf"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Alice: A True Story",
+      "director",
+      "Anil Das"
+    ],
+    [
+      "Anil Das",
+      "place of birth",
+      "Kottayam"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "Große Freiheit Nr. 7",
+    "sentence_id": 1,
+    "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+  },
+  "downstream_evidence": {
+    "title": "Helmut Käutner",
+    "sentence_id": 0,
+    "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Alice: A True Story",
+    "sentence_id": 1,
+    "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+  },
+  "donor_downstream_evidence": {
+    "title": "Anil Das",
+    "sentence_id": 1,
+    "text": "Born in Kottayam and settled in Kollam."
+  },
+  "neutral_evidence": {
+    "title": "Große Freiheit Nr. 7",
+    "sentence_id": 3,
+    "text": "The film is also known as Port of Freedom in the United Kingdom."
+  },
+  "evidence_order": 2,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "explicit named city/town; no country-only aliases",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Anil",
+    "Anil Das",
+    "Das",
+    "Dusseldorf",
+    "Dusseldorf, Germany",
+    "Düsseldorf",
+    "Düsseldorf, Germany",
+    "Helmut",
+    "Helmut Käutner",
+    "Kottayam",
+    "Käutner"
+  ],
+  "aliases_B": [
+    "Helmut Kautner",
+    "Helmut Käutner"
+  ],
+  "aliases_B_prime": [
+    "Anil Das"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+What is the place of birth of the director of film Große Freiheit Nr. 7?
+
+First solve only the first step:
+Who directed "Große Freiheit Nr. 7"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Helmut Käutner"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Anil Das"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Helmut Käutner"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Helmut Käutner.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Anil Das"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Helmut Käutner.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Helmut Käutner"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Anil Das.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Anil Das"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Anil Das.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Helmut Käutner"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Helmut Käutner.\n\"Große Freiheit Nr. 7\" was directed by Anil Das.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Anil Das"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Helmut Käutner.\n\"Große Freiheit Nr. 7\" was directed by Anil Das.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Helmut Käutner"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Anil Das.\n\"Große Freiheit Nr. 7\" was directed by Helmut Käutner.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Anil Das"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Anil Das was born in Kottayam.\n2. Helmut Käutner was born in Düsseldorf.\n\nAdditional evidence:\n\"Große Freiheit Nr. 7\" was directed by Anil Das.\n\"Große Freiheit Nr. 7\" was directed by Helmut Käutner.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Anil Das was born in Kottayam.
+2. Helmut Käutner was born in Düsseldorf.
+
+According to the reference facts, where was Helmut Käutner born?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Anil Das was born in Kottayam.
+2. Helmut Käutner was born in Düsseldorf.
+
+According to the reference facts, where was Anil Das born?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Anil Das was born in Kottayam.
+2. Helmut Käutner was born in Düsseldorf.
+
+Current Step 1 state:
+Anil Das
+
+According to the reference facts, where was the person in the current Step 1 state born?
+
+Answer with only the requested name or location.
+```
+
+## natural-03
+
+```json
+{
+  "case_id": "natural-03",
+  "source_id": "c22a48e40bd911eba7f7acde48001122",
+  "donor_id": "0bd60cfa0bdd11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "What is the place of birth of the director of film Arabian Love?",
+  "A": "Arabian Love",
+  "r1": "director",
+  "B": "Jerome Storm",
+  "relation": "place of birth",
+  "C": "Denver",
+  "B_prime": "Gu Changwei",
+  "C_prime": "Xi'an",
+  "aliases_C": [
+    "Denver",
+    "Denver, Colorado"
+  ],
+  "aliases_C_prime": [
+    "Xi'an",
+    "Xi'an, China",
+    "Xi'an, Shaanxi"
+  ],
+  "gold_evidence_chain": [
+    [
+      "Arabian Love",
+      "director",
+      "Jerome Storm"
+    ],
+    [
+      "Jerome Storm",
+      "place of birth",
+      "Denver"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Peacock",
+      "director",
+      "Gu Changwei"
+    ],
+    [
+      "Gu Changwei",
+      "place of birth",
+      "Xi'an"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "Arabian Love",
+    "sentence_id": 0,
+    "text": "Arabian Love is a 1922 American silent drama film directed by Jerome Storm."
+  },
+  "downstream_evidence": {
+    "title": "Jerome Storm",
+    "sentence_id": 2,
+    "text": "He was born in Denver, Colorado, and died in Desert Hot Springs, California."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Peacock (2005 film)",
+    "sentence_id": 0,
+    "text": "Peacock  is a 2005 film directed by Gu Changwei, written by Li Qiang."
+  },
+  "donor_downstream_evidence": {
+    "title": "Gu Changwei",
+    "sentence_id": 1,
+    "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+  },
+  "neutral_evidence": {
+    "title": "Arabian Love",
+    "sentence_id": 1,
+    "text": "It is not known whether the film currently survives."
+  },
+  "evidence_order": 1,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "explicit named city/town; no country-only aliases",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Changwei",
+    "Denver",
+    "Denver, Colorado",
+    "Gu Changwei",
+    "Jerome",
+    "Jerome Storm",
+    "Storm",
+    "Xi'an",
+    "Xi'an, China",
+    "Xi'an, Shaanxi"
+  ],
+  "aliases_B": [
+    "Jerome Storm"
+  ],
+  "aliases_B_prime": [
+    "Gu Changwei"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+What is the place of birth of the director of film Arabian Love?
+
+First solve only the first step:
+Who directed "Arabian Love"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jerome Storm"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Gu Changwei"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jerome Storm"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Jerome Storm.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Gu Changwei"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Jerome Storm.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jerome Storm"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Gu Changwei.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Gu Changwei"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Gu Changwei.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jerome Storm"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Jerome Storm.\n\"Arabian Love\" was directed by Gu Changwei.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Gu Changwei"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Jerome Storm.\n\"Arabian Love\" was directed by Gu Changwei.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jerome Storm"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Gu Changwei.\n\"Arabian Love\" was directed by Jerome Storm.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Gu Changwei"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jerome Storm was born in Denver.\n2. Gu Changwei was born in Xi'an.\n\nAdditional evidence:\n\"Arabian Love\" was directed by Gu Changwei.\n\"Arabian Love\" was directed by Jerome Storm.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Jerome Storm was born in Denver.
+2. Gu Changwei was born in Xi'an.
+
+According to the reference facts, where was Jerome Storm born?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Jerome Storm was born in Denver.
+2. Gu Changwei was born in Xi'an.
+
+According to the reference facts, where was Gu Changwei born?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Jerome Storm was born in Denver.
+2. Gu Changwei was born in Xi'an.
+
+Current Step 1 state:
+Gu Changwei
+
+According to the reference facts, where was the person in the current Step 1 state born?
+
+Answer with only the requested name or location.
+```
+
+## natural-04
+
+```json
+{
+  "case_id": "natural-04",
+  "source_id": "c40d35580bda11eba7f7acde48001122",
+  "donor_id": "751ba0980bd911eba7f7acde48001122",
+  "track": "real",
+  "original_question": "Where was the director of film At The End Of The Tunnel born?",
+  "A": "At the End of the Tunnel",
+  "r1": "director",
+  "B": "Rodrigo Grande",
+  "relation": "place of birth",
+  "C": "Rosario",
+  "B_prime": "Fridrikh Ermler",
+  "C_prime": "Rēzekne",
+  "aliases_C": [
+    "Rosario",
+    "Rosario, Santa Fe",
+    "Rosario, Santa Fe Province"
+  ],
+  "aliases_C_prime": [
+    "Rezekne",
+    "Rēzekne"
+  ],
+  "gold_evidence_chain": [
+    [
+      "At the End of the Tunnel",
+      "director",
+      "Rodrigo Grande"
+    ],
+    [
+      "Rodrigo Grande",
+      "place of birth",
+      "Rosario"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "The House in the Snow-Drifts",
+      "director",
+      "Fridrikh Ermler"
+    ],
+    [
+      "Fridrikh Ermler",
+      "place of birth",
+      "Rēzekne"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "At the End of the Tunnel",
+    "sentence_id": 0,
+    "text": "At the End of the Tunnel  is a 2016 Argentine crime thriller film directed by Rodrigo Grande."
+  },
+  "downstream_evidence": {
+    "title": "Rodrigo Grande",
+    "sentence_id": 0,
+    "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+  },
+  "donor_first_hop_evidence": {
+    "title": "The House in the Snow-Drifts",
+    "sentence_id": 0,
+    "text": "The House in the Snow-Drifts  is a 1928 Soviet drama film directed by Fridrikh Ermler."
+  },
+  "donor_downstream_evidence": {
+    "title": "Fridrikh Ermler",
+    "sentence_id": 0,
+    "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+  },
+  "neutral_evidence": {
+    "title": "At the End of the Tunnel",
+    "sentence_id": 1,
+    "text": "The film won best movie at the Seattle International Film Festival in 2017."
+  },
+  "evidence_order": 2,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "explicit named city/town; no country-only aliases",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Ermler",
+    "Fridrikh",
+    "Fridrikh Ermler",
+    "Grande",
+    "Rezekne",
+    "Rodrigo",
+    "Rodrigo Grande",
+    "Rosario",
+    "Rosario, Santa Fe",
+    "Rosario, Santa Fe Province",
+    "Rēzekne"
+  ],
+  "aliases_B": [
+    "Rodrigo Grande"
+  ],
+  "aliases_B_prime": [
+    "Fridrikh Ermler"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Where was the director of film At The End Of The Tunnel born?
+
+First solve only the first step:
+Who directed "At the End of the Tunnel"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rodrigo Grande"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Fridrikh Ermler"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rodrigo Grande"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Rodrigo Grande.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Fridrikh Ermler"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Rodrigo Grande.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rodrigo Grande"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Fridrikh Ermler.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Fridrikh Ermler"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Fridrikh Ermler.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rodrigo Grande"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Rodrigo Grande.\n\"At the End of the Tunnel\" was directed by Fridrikh Ermler.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Fridrikh Ermler"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Rodrigo Grande.\n\"At the End of the Tunnel\" was directed by Fridrikh Ermler.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rodrigo Grande"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Fridrikh Ermler.\n\"At the End of the Tunnel\" was directed by Rodrigo Grande.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Fridrikh Ermler"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Fridrikh Ermler was born in Rēzekne.\n2. Rodrigo Grande was born in Rosario.\n\nAdditional evidence:\n\"At the End of the Tunnel\" was directed by Fridrikh Ermler.\n\"At the End of the Tunnel\" was directed by Rodrigo Grande.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere was that person born?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Fridrikh Ermler was born in Rēzekne.
+2. Rodrigo Grande was born in Rosario.
+
+According to the reference facts, where was Rodrigo Grande born?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Fridrikh Ermler was born in Rēzekne.
+2. Rodrigo Grande was born in Rosario.
+
+According to the reference facts, where was Fridrikh Ermler born?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Fridrikh Ermler was born in Rēzekne.
+2. Rodrigo Grande was born in Rosario.
+
+Current Step 1 state:
+Fridrikh Ermler
+
+According to the reference facts, where was the person in the current Step 1 state born?
+
+Answer with only the requested name or location.
+```
+
+## natural-05
+
+```json
+{
+  "case_id": "natural-05",
+  "source_id": "4772896e0bdd11eba7f7acde48001122",
+  "donor_id": "ba289b440bdb11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "Who is the father of the director of film In The Line Of Duty 4: Witness?",
+  "A": "In the Line of Duty 4: Witness",
+  "r1": "director",
+  "B": "Yuen Woo-ping",
+  "relation": "father",
+  "C": "Yuen Siu-tien",
+  "B_prime": "Rahul Rawail",
+  "C_prime": "H. S. Rawail",
+  "aliases_C": [
+    "Yuen Siu-tien"
+  ],
+  "aliases_C_prime": [
+    "H S Rawail",
+    "H. S. Rawail",
+    "H.S. Rawail"
+  ],
+  "gold_evidence_chain": [
+    [
+      "In the Line of Duty 4: Witness",
+      "director",
+      "Yuen Woo-ping"
+    ],
+    [
+      "Yuen Woo-ping",
+      "father",
+      "Yuen Siu-tien"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Biwi-O-Biwi",
+      "director",
+      "Rahul Rawail"
+    ],
+    [
+      "Rahul Rawail",
+      "father",
+      "H. S. Rawail"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "In the Line of Duty 4: Witness",
+    "sentence_id": 1,
+    "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+  },
+  "downstream_evidence": {
+    "title": "Yuen Woo-ping",
+    "sentence_id": 4,
+    "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Biwi-O-Biwi",
+    "sentence_id": 1,
+    "text": "Produced by Raj Kapoor and directed by Rahul Rawail."
+  },
+  "donor_downstream_evidence": {
+    "title": "Rahul Rawail",
+    "sentence_id": 3,
+    "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+  },
+  "neutral_evidence": {
+    "title": "In the Line of Duty 4: Witness",
+    "sentence_id": 2,
+    "text": "The film was released in the Hong Kong on 21 July 1989."
+  },
+  "evidence_order": 1,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "named person",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "H S Rawail",
+    "H. S. Rawail",
+    "H.S. Rawail",
+    "Rahul",
+    "Rahul Rawail",
+    "Rawail",
+    "Siu",
+    "Woo",
+    "Yuen",
+    "Yuen Siu-tien",
+    "Yuen Woo-ping",
+    "ping",
+    "tien"
+  ],
+  "aliases_B": [
+    "Yuen Woo-ping"
+  ],
+  "aliases_B_prime": [
+    "Rahul Rawail"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Who is the father of the director of film In The Line Of Duty 4: Witness?
+
+First solve only the first step:
+Who directed "In the Line of Duty 4: Witness"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Yuen Woo-ping"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Yuen Woo-ping"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Yuen Woo-ping.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Yuen Woo-ping.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Yuen Woo-ping"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Yuen Woo-ping"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Yuen Woo-ping.\n\"In the Line of Duty 4: Witness\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Yuen Woo-ping.\n\"In the Line of Duty 4: Witness\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Yuen Woo-ping"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Rahul Rawail.\n\"In the Line of Duty 4: Witness\" was directed by Yuen Woo-ping.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Yuen Woo-ping's father was Yuen Siu-tien.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"In the Line of Duty 4: Witness\" was directed by Rahul Rawail.\n\"In the Line of Duty 4: Witness\" was directed by Yuen Woo-ping.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Yuen Woo-ping's father was Yuen Siu-tien.
+2. Rahul Rawail's father was H. S. Rawail.
+
+According to the reference facts, who was the father of Yuen Woo-ping?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Yuen Woo-ping's father was Yuen Siu-tien.
+2. Rahul Rawail's father was H. S. Rawail.
+
+According to the reference facts, who was the father of Rahul Rawail?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Yuen Woo-ping's father was Yuen Siu-tien.
+2. Rahul Rawail's father was H. S. Rawail.
+
+Current Step 1 state:
+Rahul Rawail
+
+According to the reference facts, who was the father of the person in the current Step 1 state?
+
+Answer with only the requested name or location.
+```
+
+## natural-06
+
+```json
+{
+  "case_id": "natural-06",
+  "source_id": "52376a780bdc11eba7f7acde48001122",
+  "donor_id": "b26e04e80bdb11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "Who is the father of the director of film My 20Th Century?",
+  "A": "My 20th Century",
+  "r1": "director",
+  "B": "Ildikó Enyedi",
+  "relation": "father",
+  "C": "György Enyedi",
+  "B_prime": "Armando Robles Godoy",
+  "C_prime": "Daniel Alomía Robles",
+  "aliases_C": [
+    "Gyorgy Enyedi",
+    "György Enyedi"
+  ],
+  "aliases_C_prime": [
+    "Daniel Alomia Robles",
+    "Daniel Alomía Robles"
+  ],
+  "gold_evidence_chain": [
+    [
+      "My 20th Century",
+      "director",
+      "Ildikó Enyedi"
+    ],
+    [
+      "Ildikó Enyedi",
+      "father",
+      "György Enyedi"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Mirage",
+      "director",
+      "Armando Robles Godoy"
+    ],
+    [
+      "Armando Robles Godoy",
+      "father",
+      "Daniel Alomía Robles"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "My 20th Century",
+    "sentence_id": 0,
+    "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+  },
+  "downstream_evidence": {
+    "title": "Ildikó Enyedi",
+    "sentence_id": 2,
+    "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Mirage (1972 film)",
+    "sentence_id": 0,
+    "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+  },
+  "donor_downstream_evidence": {
+    "title": "Armando Robles Godoy",
+    "sentence_id": 1,
+    "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+  },
+  "neutral_evidence": {
+    "title": "My 20th Century",
+    "sentence_id": 1,
+    "text": "It premiered at the Toronto Festival of Festivals."
+  },
+  "evidence_order": 2,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "named person",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Alomía",
+    "Armando",
+    "Armando Robles Godoy",
+    "Daniel",
+    "Daniel Alomia Robles",
+    "Daniel Alomía Robles",
+    "Enyedi",
+    "Godoy",
+    "Gyorgy Enyedi",
+    "György",
+    "György Enyedi",
+    "Ildikó",
+    "Ildikó Enyedi",
+    "Robles"
+  ],
+  "aliases_B": [
+    "Ildiko Enyedi",
+    "Ildikó Enyedi"
+  ],
+  "aliases_B_prime": [
+    "Armando Robles Godoy"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Who is the father of the director of film My 20Th Century?
+
+First solve only the first step:
+Who directed "My 20th Century"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Ildikó Enyedi"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Armando Robles Godoy"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Ildikó Enyedi"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Ildikó Enyedi.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Armando Robles Godoy"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Ildikó Enyedi.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Ildikó Enyedi"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Armando Robles Godoy.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Armando Robles Godoy"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Armando Robles Godoy.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Ildikó Enyedi"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Ildikó Enyedi.\n\"My 20th Century\" was directed by Armando Robles Godoy.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Armando Robles Godoy"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Ildikó Enyedi.\n\"My 20th Century\" was directed by Armando Robles Godoy.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Ildikó Enyedi"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Armando Robles Godoy.\n\"My 20th Century\" was directed by Ildikó Enyedi.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Armando Robles Godoy"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Armando Robles Godoy's father was Daniel Alomía Robles.\n2. Ildikó Enyedi's father was György Enyedi.\n\nAdditional evidence:\n\"My 20th Century\" was directed by Armando Robles Godoy.\n\"My 20th Century\" was directed by Ildikó Enyedi.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Armando Robles Godoy's father was Daniel Alomía Robles.
+2. Ildikó Enyedi's father was György Enyedi.
+
+According to the reference facts, who was the father of Ildikó Enyedi?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Armando Robles Godoy's father was Daniel Alomía Robles.
+2. Ildikó Enyedi's father was György Enyedi.
+
+According to the reference facts, who was the father of Armando Robles Godoy?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Armando Robles Godoy's father was Daniel Alomía Robles.
+2. Ildikó Enyedi's father was György Enyedi.
+
+Current Step 1 state:
+Armando Robles Godoy
+
+According to the reference facts, who was the father of the person in the current Step 1 state?
+
+Answer with only the requested name or location.
+```
+
+## natural-07
+
+```json
+{
+  "case_id": "natural-07",
+  "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+  "donor_id": "5b1e1f240bdc11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "Who is the father of the director of film Duniya Meri Jeb Mein?",
+  "A": "Duniya Meri Jeb Mein",
+  "r1": "director",
+  "B": "Tinnu Anand",
+  "relation": "father",
+  "C": "Inder Raj Anand",
+  "B_prime": "Leopoldo Torre Nilsson",
+  "C_prime": "Leopoldo Torres Ríos",
+  "aliases_C": [
+    "Inder Raj Anand"
+  ],
+  "aliases_C_prime": [
+    "Leopoldo Torres Rios",
+    "Leopoldo Torres Ríos"
+  ],
+  "gold_evidence_chain": [
+    [
+      "Duniya Meri Jeb Mein",
+      "director",
+      "Tinnu Anand"
+    ],
+    [
+      "Tinnu Anand",
+      "father",
+      "Inder Raj Anand"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "La caída",
+      "director",
+      "Leopoldo Torre Nilsson"
+    ],
+    [
+      "Leopoldo Torre Nilsson",
+      "father",
+      "Leopoldo Torres Ríos"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "Duniya Meri Jeb Mein",
+    "sentence_id": 0,
+    "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+  },
+  "downstream_evidence": {
+    "title": "Tinnu Anand",
+    "sentence_id": 1,
+    "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+  },
+  "donor_first_hop_evidence": {
+    "title": "La caída",
+    "sentence_id": 0,
+    "text": "La caída is a 1959 Argentine drama film directed by Leopoldo Torre Nilsson."
+  },
+  "donor_downstream_evidence": {
+    "title": "Leopoldo Torre Nilsson",
+    "sentence_id": 1,
+    "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+  },
+  "neutral_evidence": {
+    "title": "Duniya Meri Jeb Mein",
+    "sentence_id": 1,
+    "text": "The film stars Shashi Kapoor and Rishi Kapoor."
+  },
+  "evidence_order": 1,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "named person",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Anand",
+    "Inder",
+    "Inder Raj Anand",
+    "Leopoldo",
+    "Leopoldo Torre Nilsson",
+    "Leopoldo Torres Rios",
+    "Leopoldo Torres Ríos",
+    "Nilsson",
+    "Raj",
+    "Ríos",
+    "Tinnu",
+    "Tinnu Anand",
+    "Torre",
+    "Torres"
+  ],
+  "aliases_B": [
+    "Tinnu Anand"
+  ],
+  "aliases_B_prime": [
+    "Leopoldo Torre Nilsson"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Who is the father of the director of film Duniya Meri Jeb Mein?
+
+First solve only the first step:
+Who directed "Duniya Meri Jeb Mein"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Tinnu Anand"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Leopoldo Torre Nilsson"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Tinnu Anand"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Tinnu Anand.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Leopoldo Torre Nilsson"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Tinnu Anand.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Tinnu Anand"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Leopoldo Torre Nilsson.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Leopoldo Torre Nilsson"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Leopoldo Torre Nilsson.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Tinnu Anand"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Tinnu Anand.\n\"Duniya Meri Jeb Mein\" was directed by Leopoldo Torre Nilsson.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Leopoldo Torre Nilsson"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Tinnu Anand.\n\"Duniya Meri Jeb Mein\" was directed by Leopoldo Torre Nilsson.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Tinnu Anand"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Leopoldo Torre Nilsson.\n\"Duniya Meri Jeb Mein\" was directed by Tinnu Anand.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Leopoldo Torre Nilsson"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Tinnu Anand's father was Inder Raj Anand.\n2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.\n\nAdditional evidence:\n\"Duniya Meri Jeb Mein\" was directed by Leopoldo Torre Nilsson.\n\"Duniya Meri Jeb Mein\" was directed by Tinnu Anand.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Tinnu Anand's father was Inder Raj Anand.
+2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.
+
+According to the reference facts, who was the father of Tinnu Anand?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Tinnu Anand's father was Inder Raj Anand.
+2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.
+
+According to the reference facts, who was the father of Leopoldo Torre Nilsson?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Tinnu Anand's father was Inder Raj Anand.
+2. Leopoldo Torre Nilsson's father was Leopoldo Torres Ríos.
+
+Current Step 1 state:
+Leopoldo Torre Nilsson
+
+According to the reference facts, who was the father of the person in the current Step 1 state?
+
+Answer with only the requested name or location.
+```
+
+## natural-08
+
+```json
+{
+  "case_id": "natural-08",
+  "source_id": "73def83e0bdd11eba7f7acde48001122",
+  "donor_id": "8dfa2e9e0bda11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "Where was the place of death of the director of film The Pipes?",
+  "A": "The Pipes",
+  "r1": "director",
+  "B": "Vojtěch Jasný",
+  "relation": "place of death",
+  "C": "Přerov",
+  "B_prime": "Robert P. Kerr",
+  "C_prime": "Porterville",
+  "aliases_C": [
+    "Prerov",
+    "Přerov"
+  ],
+  "aliases_C_prime": [
+    "Porterville",
+    "Porterville, California"
+  ],
+  "gold_evidence_chain": [
+    [
+      "The Pipes",
+      "director",
+      "Vojtěch Jasný"
+    ],
+    [
+      "Vojtěch Jasný",
+      "place of death",
+      "Přerov"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "A Trip to Chinatown",
+      "director",
+      "Robert P. Kerr"
+    ],
+    [
+      "Robert P. Kerr",
+      "place of death",
+      "Porterville"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "The Pipes",
+    "sentence_id": 0,
+    "text": "The Pipes  is a 1966 Czechoslovak film directed by Vojtěch Jasný."
+  },
+  "downstream_evidence": {
+    "title": "Vojtěch Jasný",
+    "sentence_id": 8,
+    "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+  },
+  "donor_first_hop_evidence": {
+    "title": "A Trip to Chinatown (film)",
+    "sentence_id": 2,
+    "text": "The movie was scripted by Beatrice Van from Charles Hale Hoyt's hit Broadway musical of the same name and directed by Robert P. Kerr."
+  },
+  "donor_downstream_evidence": {
+    "title": "Robert P. Kerr",
+    "sentence_id": 2,
+    "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+  },
+  "neutral_evidence": {
+    "title": "The Pipes",
+    "sentence_id": 1,
+    "text": "It was entered into the 1966 Cannes Film Festival."
+  },
+  "evidence_order": 2,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "explicit named city/town; no country-only aliases",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Jasný",
+    "Kerr",
+    "Porterville",
+    "Porterville, California",
+    "Prerov",
+    "Přerov",
+    "Robert",
+    "Robert P. Kerr",
+    "Vojtěch",
+    "Vojtěch Jasný"
+  ],
+  "aliases_B": [
+    "Vojtech Jasny",
+    "Vojtěch Jasný"
+  ],
+  "aliases_B_prime": [
+    "Robert P. Kerr"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Where was the place of death of the director of film The Pipes?
+
+First solve only the first step:
+Who directed "The Pipes"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Vojtěch Jasný"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Robert P. Kerr"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Vojtěch Jasný"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Vojtěch Jasný.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Robert P. Kerr"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Vojtěch Jasný.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Vojtěch Jasný"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Robert P. Kerr.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Robert P. Kerr"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Robert P. Kerr.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Vojtěch Jasný"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Vojtěch Jasný.\n\"The Pipes\" was directed by Robert P. Kerr.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Robert P. Kerr"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Vojtěch Jasný.\n\"The Pipes\" was directed by Robert P. Kerr.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Vojtěch Jasný"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Robert P. Kerr.\n\"The Pipes\" was directed by Vojtěch Jasný.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Robert P. Kerr"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Robert P. Kerr died in Porterville.\n2. Vojtěch Jasný died in Přerov.\n\nAdditional evidence:\n\"The Pipes\" was directed by Robert P. Kerr.\n\"The Pipes\" was directed by Vojtěch Jasný.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Robert P. Kerr died in Porterville.
+2. Vojtěch Jasný died in Přerov.
+
+According to the reference facts, where did Vojtěch Jasný die?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Robert P. Kerr died in Porterville.
+2. Vojtěch Jasný died in Přerov.
+
+According to the reference facts, where did Robert P. Kerr die?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Robert P. Kerr died in Porterville.
+2. Vojtěch Jasný died in Přerov.
+
+Current Step 1 state:
+Robert P. Kerr
+
+According to the reference facts, where did the person in the current Step 1 state die?
+
+Answer with only the requested name or location.
+```
+
+## natural-09
+
+```json
+{
+  "case_id": "natural-09",
+  "source_id": "e043b86e0bda11eba7f7acde48001122",
+  "donor_id": "e1cfab340bda11eba7f7acde48001122",
+  "track": "real",
+  "original_question": "Where was the place of death of the director of film The Protagonists (1968 Film)?",
+  "A": "The Protagonists",
+  "r1": "director",
+  "B": "Marcello Fondato",
+  "relation": "place of death",
+  "C": "San Felice Circeo",
+  "B_prime": "James Goldstone",
+  "C_prime": "Shaftsbury, Vermont",
+  "aliases_C": [
+    "San Felice Circeo"
+  ],
+  "aliases_C_prime": [
+    "Shaftsbury",
+    "Shaftsbury, Vermont"
+  ],
+  "gold_evidence_chain": [
+    [
+      "The Protagonists",
+      "director",
+      "Marcello Fondato"
+    ],
+    [
+      "Marcello Fondato",
+      "place of death",
+      "San Felice Circeo"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Red Sky at Morning",
+      "director",
+      "James Goldstone"
+    ],
+    [
+      "James Goldstone",
+      "place of death",
+      "Shaftsbury, Vermont"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "The Protagonists (1968 film)",
+    "sentence_id": 0,
+    "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+  },
+  "downstream_evidence": {
+    "title": "Marcello Fondato",
+    "sentence_id": 4,
+    "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Red Sky at Morning (1971 film)",
+    "sentence_id": 1,
+    "text": "Directed by James Goldstone, it stars Richard Thomas, Catherine Burns, and Desi Arnaz, Jr."
+  },
+  "donor_downstream_evidence": {
+    "title": "James Goldstone",
+    "sentence_id": 0,
+    "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+  },
+  "neutral_evidence": {
+    "title": "The Protagonists (1968 film)",
+    "sentence_id": 1,
+    "text": "It was listed to compete at the 1968 Cannes Film Festival, but the festival was cancelled due to the events of May 1968 in France."
+  },
+  "evidence_order": 1,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "explicit named city/town; no country-only aliases",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Fondato",
+    "Goldstone",
+    "James",
+    "James Goldstone",
+    "Marcello",
+    "Marcello Fondato",
+    "San Felice Circeo",
+    "Shaftsbury",
+    "Shaftsbury, Vermont"
+  ],
+  "aliases_B": [
+    "Marcello Fondato"
+  ],
+  "aliases_B_prime": [
+    "James Goldstone"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Where was the place of death of the director of film The Protagonists (1968 Film)?
+
+First solve only the first step:
+Who directed "The Protagonists"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Marcello Fondato"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "James Goldstone"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Marcello Fondato"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by Marcello Fondato.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "James Goldstone"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by Marcello Fondato.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Marcello Fondato"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by James Goldstone.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "James Goldstone"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by James Goldstone.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Marcello Fondato"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by Marcello Fondato.\n\"The Protagonists\" was directed by James Goldstone.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "James Goldstone"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by Marcello Fondato.\n\"The Protagonists\" was directed by James Goldstone.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Marcello Fondato"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by James Goldstone.\n\"The Protagonists\" was directed by Marcello Fondato.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "James Goldstone"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Marcello Fondato died in San Felice Circeo.\n2. James Goldstone died in Shaftsbury, Vermont.\n\nAdditional evidence:\n\"The Protagonists\" was directed by James Goldstone.\n\"The Protagonists\" was directed by Marcello Fondato.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Marcello Fondato died in San Felice Circeo.
+2. James Goldstone died in Shaftsbury, Vermont.
+
+According to the reference facts, where did Marcello Fondato die?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Marcello Fondato died in San Felice Circeo.
+2. James Goldstone died in Shaftsbury, Vermont.
+
+According to the reference facts, where did James Goldstone die?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Marcello Fondato died in San Felice Circeo.
+2. James Goldstone died in Shaftsbury, Vermont.
+
+Current Step 1 state:
+James Goldstone
+
+According to the reference facts, where did the person in the current Step 1 state die?
+
+Answer with only the requested name or location.
+```
+
+## natural-10
+
+```json
+{
+  "case_id": "natural-10",
+  "source_id": "c5e7570c0bdd11eba7f7acde48001122",
+  "donor_id": "b0a2e8ba0bd911eba7f7acde48001122",
+  "track": "real",
+  "original_question": "Where did the director of film The Marihuana Story die?",
+  "A": "The Marihuana Story",
+  "r1": "director",
+  "B": "León Klimovsky",
+  "relation": "place of death",
+  "C": "Madrid",
+  "B_prime": "Bhappi Sonie",
+  "C_prime": "Mumbai",
+  "aliases_C": [
+    "Madrid"
+  ],
+  "aliases_C_prime": [
+    "Mumbai"
+  ],
+  "gold_evidence_chain": [
+    [
+      "The Marihuana Story",
+      "director",
+      "León Klimovsky"
+    ],
+    [
+      "León Klimovsky",
+      "place of death",
+      "Madrid"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Chalta Purza",
+      "director",
+      "Bhappi Sonie"
+    ],
+    [
+      "Bhappi Sonie",
+      "place of death",
+      "Mumbai"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "The Marihuana Story",
+    "sentence_id": 0,
+    "text": "The Marihuana Story  is a 1950 Argentine film directed by León Klimovsky."
+  },
+  "downstream_evidence": {
+    "title": "León Klimovsky",
+    "sentence_id": 16,
+    "text": "He died the following year in Madrid from a heart attack."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Chalta Purza",
+    "sentence_id": 0,
+    "text": "Chalta Purza  is a 1977 Bollywood action thriller film directed by Bhappi Sonie."
+  },
+  "donor_downstream_evidence": {
+    "title": "Bhappi Sonie",
+    "sentence_id": 1,
+    "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+  },
+  "neutral_evidence": {
+    "title": "The Marihuana Story",
+    "sentence_id": 1,
+    "text": "It was entered into the 1951 Cannes Film Festival."
+  },
+  "evidence_order": 2,
+  "validation": {
+    "single_annotated_r1": true,
+    "single_annotated_r2": true,
+    "first_hop_single_director_explicit": true,
+    "downstream_facts_reviewed": true,
+    "granularity": "explicit named city/town; no country-only aliases",
+    "neutral_article_matches_first_hop_article": true
+  },
+  "neutral_forbidden_terms": [
+    "Bhappi",
+    "Bhappi Sonie",
+    "Klimovsky",
+    "León",
+    "León Klimovsky",
+    "Madrid",
+    "Mumbai",
+    "Sonie"
+  ],
+  "aliases_B": [
+    "Leon Klimovsky",
+    "León Klimovsky"
+  ],
+  "aliases_B_prime": [
+    "Bhappi Sonie"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Where did the director of film The Marihuana Story die?
+
+First solve only the first step:
+Who directed "The Marihuana Story"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "León Klimovsky"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "León Klimovsky"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by León Klimovsky.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by León Klimovsky.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "León Klimovsky"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "León Klimovsky"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by León Klimovsky.\n\"The Marihuana Story\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by León Klimovsky.\n\"The Marihuana Story\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "León Klimovsky"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by Bhappi Sonie.\n\"The Marihuana Story\" was directed by León Klimovsky.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. León Klimovsky died in Madrid.\n\nAdditional evidence:\n\"The Marihuana Story\" was directed by Bhappi Sonie.\n\"The Marihuana Story\" was directed by León Klimovsky.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Bhappi Sonie died in Mumbai.
+2. León Klimovsky died in Madrid.
+
+According to the reference facts, where did León Klimovsky die?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Bhappi Sonie died in Mumbai.
+2. León Klimovsky died in Madrid.
+
+According to the reference facts, where did Bhappi Sonie die?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Bhappi Sonie died in Mumbai.
+2. León Klimovsky died in Madrid.
+
+Current Step 1 state:
+Bhappi Sonie
+
+According to the reference facts, where did the person in the current Step 1 state die?
+
+Answer with only the requested name or location.
+```
+
+## natural-11
+
+```json
+{
+  "source_id": "022a3dd40bdd11eba7f7acde48001122",
+  "donor_id": "ba289b440bdb11eba7f7acde48001122",
+  "original_question": "Who is the father of the director of film The Ride (1994 Film)?",
+  "A": "The Ride",
+  "r1": "director",
+  "B": "Jan Svěrák",
+  "relation": "father",
+  "C": "Zdeněk Svěrák",
+  "B_prime": "Rahul Rawail",
+  "C_prime": "H. S. Rawail",
+  "aliases_C": [
+    "Zdenek Sverak",
+    "Zdeněk Svěrák"
+  ],
+  "aliases_C_prime": [
+    "H S Rawail",
+    "H. S. Rawail",
+    "H.S. Rawail"
+  ],
+  "gold_evidence_chain": [
+    [
+      "The Ride",
+      "director",
+      "Jan Svěrák"
+    ],
+    [
+      "Jan Svěrák",
+      "father",
+      "Zdeněk Svěrák"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Biwi-O-Biwi",
+      "director",
+      "Rahul Rawail"
+    ],
+    [
+      "Rahul Rawail",
+      "father",
+      "H. S. Rawail"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "The Ride (1994 film)",
+    "sentence_id": 0,
+    "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+  },
+  "downstream_evidence": {
+    "title": "Jan Svěrák",
+    "sentence_id": 1,
+    "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Biwi-O-Biwi",
+    "sentence_id": 1,
+    "text": "Produced by Raj Kapoor and directed by Rahul Rawail."
+  },
+  "donor_downstream_evidence": {
+    "title": "Rahul Rawail",
+    "sentence_id": 3,
+    "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+  },
+  "case_id": "natural-11",
+  "evidence_order": 1,
+  "aliases_B": [
+    "Jan Sverak",
+    "Jan Svěrák"
+  ],
+  "aliases_B_prime": [
+    "Rahul Rawail"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Who is the father of the director of film The Ride (1994 Film)?
+
+First solve only the first step:
+Who directed "The Ride"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jan Svěrák"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jan Svěrák"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Jan Svěrák.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Jan Svěrák.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jan Svěrák"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jan Svěrák"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Jan Svěrák.\n\"The Ride\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Jan Svěrák.\n\"The Ride\" was directed by Rahul Rawail.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Jan Svěrák"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Rahul Rawail.\n\"The Ride\" was directed by Jan Svěrák.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Rahul Rawail"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Jan Svěrák's father was Zdeněk Svěrák.\n2. Rahul Rawail's father was H. S. Rawail.\n\nAdditional evidence:\n\"The Ride\" was directed by Rahul Rawail.\n\"The Ride\" was directed by Jan Svěrák.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwho was the father of that person?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Jan Svěrák's father was Zdeněk Svěrák.
+2. Rahul Rawail's father was H. S. Rawail.
+
+According to the reference facts, who was the father of Jan Svěrák?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Jan Svěrák's father was Zdeněk Svěrák.
+2. Rahul Rawail's father was H. S. Rawail.
+
+According to the reference facts, who was the father of Rahul Rawail?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Jan Svěrák's father was Zdeněk Svěrák.
+2. Rahul Rawail's father was H. S. Rawail.
+
+Current Step 1 state:
+Rahul Rawail
+
+According to the reference facts, who was the father of the person in the current Step 1 state?
+
+Answer with only the requested name or location.
+```
+
+## natural-12
+
+```json
+{
+  "source_id": "06c74c8c0bde11eba7f7acde48001122",
+  "donor_id": "b0a2e8ba0bd911eba7f7acde48001122",
+  "original_question": "Where did the director of film The Amorous Ones die?",
+  "A": "The Amorous Ones",
+  "r1": "director",
+  "B": "Walter Hugo Khouri",
+  "relation": "place of death",
+  "C": "São Paulo",
+  "B_prime": "Bhappi Sonie",
+  "C_prime": "Mumbai",
+  "aliases_C": [
+    "Sao Paulo",
+    "São Paulo"
+  ],
+  "aliases_C_prime": [
+    "Mumbai"
+  ],
+  "gold_evidence_chain": [
+    [
+      "The Amorous Ones",
+      "director",
+      "Walter Hugo Khouri"
+    ],
+    [
+      "Walter Hugo Khouri",
+      "place of death",
+      "São Paulo"
+    ]
+  ],
+  "donor_evidence_chain": [
+    [
+      "Chalta Purza",
+      "director",
+      "Bhappi Sonie"
+    ],
+    [
+      "Bhappi Sonie",
+      "place of death",
+      "Mumbai"
+    ]
+  ],
+  "first_hop_evidence": {
+    "title": "The Amorous Ones",
+    "sentence_id": 0,
+    "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+  },
+  "downstream_evidence": {
+    "title": "Walter Hugo Khouri",
+    "sentence_id": 0,
+    "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+  },
+  "donor_first_hop_evidence": {
+    "title": "Chalta Purza",
+    "sentence_id": 0,
+    "text": "Chalta Purza  is a 1977 Bollywood action thriller film directed by Bhappi Sonie."
+  },
+  "donor_downstream_evidence": {
+    "title": "Bhappi Sonie",
+    "sentence_id": 1,
+    "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+  },
+  "case_id": "natural-12",
+  "evidence_order": 2,
+  "aliases_B": [
+    "Walter Hugo Khouri"
+  ],
+  "aliases_B_prime": [
+    "Bhappi Sonie"
+  ]
+}
+```
+
+**First-hop prompt**
+```text
+Question:
+Where did the director of film The Amorous Ones die?
+
+First solve only the first step:
+Who directed "The Amorous Ones"?
+
+Answer with only the person's name.
+```
+
+### E0
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Walter Hugo Khouri"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E1
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Walter Hugo Khouri"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Walter Hugo Khouri.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Walter Hugo Khouri.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E2
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Walter Hugo Khouri"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3a
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Walter Hugo Khouri"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Walter Hugo Khouri.\n\"The Amorous Ones\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Walter Hugo Khouri.\n\"The Amorous Ones\" was directed by Bhappi Sonie.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+### E3b
+
+**Gold state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Walter Hugo Khouri"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Bhappi Sonie.\n\"The Amorous Ones\" was directed by Walter Hugo Khouri.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Wrong state template**
+```json
+[
+  {
+    "role": "user",
+    "content": "Question:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name."
+  },
+  {
+    "role": "assistant",
+    "content": "Bhappi Sonie"
+  },
+  {
+    "role": "user",
+    "content": "Reference facts:\n1. Bhappi Sonie died in Mumbai.\n2. Walter Hugo Khouri died in São Paulo.\n\nAdditional evidence:\n\"The Amorous Ones\" was directed by Bhappi Sonie.\n\"The Amorous Ones\" was directed by Walter Hugo Khouri.\n\nNow continue to the second step.\n\nUsing the first-step result above, answer:\nwhere did that person die?\n\nAnswer with only the requested name or location."
+  }
+]
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Bhappi Sonie died in Mumbai.
+2. Walter Hugo Khouri died in São Paulo.
+
+According to the reference facts, where did Walter Hugo Khouri die?
+
+Answer with only the requested name or location.
+```
+
+**Direct lookup**
+```text
+Reference facts:
+1. Bhappi Sonie died in Mumbai.
+2. Walter Hugo Khouri died in São Paulo.
+
+According to the reference facts, where did Bhappi Sonie die?
+
+Answer with only the requested name or location.
+```
+
+**S0**
+```text
+Reference facts:
+1. Bhappi Sonie died in Mumbai.
+2. Walter Hugo Khouri died in São Paulo.
+
+Current Step 1 state:
+Bhappi Sonie
+
+According to the reference facts, where did the person in the current Step 1 state die?
+
+Answer with only the requested name or location.
+```
+
+# Post-Phase-A review (pre-inference section above unchanged)
+
+These decisions use only Phase-A responses and frozen evidence, before downstream generation. Natural eligibility additionally requires both direct lookups to pass.
+
+```json
+{
+  "passed": true,
+  "first_hop_sha256": "3844e277c2378c7e2655b26098164e960fb6584ad81941ae219a3f5fba3cd2dd",
+  "cases": {
+    "natural-01": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Frozen Wang Xiaoshuai article has no birthplace statement; Shanghai occurs only in Shanghai Dreams. Reject annotated mapping as insufficient explicit evidence.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-02": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Andreas Dresen is named as a film director, but no birthplace evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-03": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "No matching entity or downstream evidence found in frozen source; real-entity identity unresolved.",
+      "reviewed_entity_identity_verified": false,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-04": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "John Landis is named as a filmmaker, but no birthplace evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-05": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "James Marsh is named as a director, but no father evidence is present; James Marshall substring hit is another person.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-06": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Sofia Coppola is named, but the Gia Coppola niece/granddaughter sentence is not an explicit Sofia father statement.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-07": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "No matching entity or downstream evidence found in frozen source; identity unresolved under this source.",
+      "reviewed_entity_identity_verified": false,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-08": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "No matching entity or downstream evidence found in frozen source; real-entity identity unresolved.",
+      "reviewed_entity_identity_verified": false,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-09": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Yves Boisset is named as a director, but no death-place evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-10": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Robert F. McGowan biography gives dates, but no death place.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-11": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Peter Weir is named as a director, but no father evidence is present.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    },
+    "natural-12": {
+      "use_natural_wrong": false,
+      "evidence": null,
+      "execute": true,
+      "reason": "Jean Renoir is named as a director, but death/birth places in relatives biographies are not his death-place evidence.",
+      "reviewed_entity_identity_verified": true,
+      "natural_branch_status": "STOPPED_NO_EXPLICIT_DOWNSTREAM_EVIDENCE",
+      "continuation_origin": "registered_counterfactual_only"
+    }
+  },
+  "reviewer": "Codex frozen-source sentence and entity review",
+  "evidence_search_sha256": "ffcd9dc0aaed2141003e540e2ad63ce8b889ced42086ef5e17ef05f3f58c01d3"
+}
+```
+
+## natural-01
+
+```json
+{
+  "natural_B_hat": "Wang Xiaoshuai",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": true,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhat is the place of birth of the director of film Lover'S Grief Over The Yellow River?\n\nFirst solve only the first step:\nWho directed \"Lover's Grief over the Yellow River\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nWang Xiaoshuai<|im_end|>\n",
+  "prefix_checkpoint_sha256": "b83c7e932215e6758aca5d68bcc6963b5360791c036391f702a596cc324d5718"
+}
+```
+
+## natural-02
+
+```json
+{
+  "natural_B_hat": "Andreas Dresen",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhat is the place of birth of the director of film Große Freiheit Nr. 7?\n\nFirst solve only the first step:\nWho directed \"Große Freiheit Nr. 7\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nAndreas Dresen<|im_end|>\n",
+  "prefix_checkpoint_sha256": "23d9037a493fba1b68b739e4ceef07036d1f3f9f16275e85a28069929a0ec044"
+}
+```
+
+## natural-03
+
+```json
+{
+  "natural_B_hat": "Samiyeh M. A. Al-Sayed",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhat is the place of birth of the director of film Arabian Love?\n\nFirst solve only the first step:\nWho directed \"Arabian Love\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nSamiyeh M. A. Al-Sayed<|im_end|>\n",
+  "prefix_checkpoint_sha256": "24b99374d410db4aba887bdafab8c17de62c7cead519c99802e60a9a5286ae02"
+}
+```
+
+## natural-04
+
+```json
+{
+  "natural_B_hat": "John Landis",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhere was the director of film At The End Of The Tunnel born?\n\nFirst solve only the first step:\nWho directed \"At the End of the Tunnel\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nJohn Landis<|im_end|>\n",
+  "prefix_checkpoint_sha256": "01522bc86f4aef317702f6b98310f2b167b4ca373e17324ce6d7c8c1aaf2e9f1"
+}
+```
+
+## natural-05
+
+```json
+{
+  "natural_B_hat": "James Marsh",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWho is the father of the director of film In The Line Of Duty 4: Witness?\n\nFirst solve only the first step:\nWho directed \"In the Line of Duty 4: Witness\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nJames Marsh<|im_end|>\n",
+  "prefix_checkpoint_sha256": "c421758250fc803aaba546f0592daa6812e6035fdbd2a8a87ac40ebb77307a6c"
+}
+```
+
+## natural-06
+
+```json
+{
+  "natural_B_hat": "Sofia Coppola",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWho is the father of the director of film My 20Th Century?\n\nFirst solve only the first step:\nWho directed \"My 20th Century\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nSofia Coppola<|im_end|>\n",
+  "prefix_checkpoint_sha256": "f63fb83dcbab93dd227a99b691e9c003dbf120d8aa7e60cdc990f96effdac808"
+}
+```
+
+## natural-07
+
+```json
+{
+  "natural_B_hat": "Amit Sharma",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWho is the father of the director of film Duniya Meri Jeb Mein?\n\nFirst solve only the first step:\nWho directed \"Duniya Meri Jeb Mein\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nAmit Sharma<|im_end|>\n",
+  "prefix_checkpoint_sha256": "b06b2c3147e1f16ba7c521c72929c8e4e0bd13e33df807a83e4d7a0124d268c6"
+}
+```
+
+## natural-08
+
+```json
+{
+  "natural_B_hat": "Tomasz Kowalczyk",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhere was the place of death of the director of film The Pipes?\n\nFirst solve only the first step:\nWho directed \"The Pipes\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nTomasz Kowalczyk<|im_end|>\n",
+  "prefix_checkpoint_sha256": "a8cd097d27bd0ede316896212d250e2e68b587acabb65dff5ee51a9fba376587"
+}
+```
+
+## natural-09
+
+```json
+{
+  "natural_B_hat": "Yves Boisset",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhere was the place of death of the director of film The Protagonists (1968 Film)?\n\nFirst solve only the first step:\nWho directed \"The Protagonists\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nYves Boisset<|im_end|>\n",
+  "prefix_checkpoint_sha256": "abb4b0971107435dc5acca188b30ac834d43f586053a927ebf081454d9b38f7f"
+}
+```
+
+## natural-10
+
+```json
+{
+  "natural_B_hat": "Robert F. McGowan",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhere did the director of film The Marihuana Story die?\n\nFirst solve only the first step:\nWho directed \"The Marihuana Story\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nRobert F. McGowan<|im_end|>\n",
+  "prefix_checkpoint_sha256": "d073b12a498e4c173fedfd2f73aa5453376697213017a8733080df4daab836b8"
+}
+```
+
+## natural-11
+
+```json
+{
+  "natural_B_hat": "Peter Weir",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWho is the father of the director of film The Ride (1994 Film)?\n\nFirst solve only the first step:\nWho directed \"The Ride\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nPeter Weir<|im_end|>\n",
+  "prefix_checkpoint_sha256": "3ff7b50dea030bfc362a125b2f773fc56d37d6e4d96bea02a6b521907ed28c59"
+}
+```
+
+## natural-12
+
+```json
+{
+  "natural_B_hat": "Jean Renoir",
+  "classification": "OTHER_WRONG_ENTITY",
+  "entity_identity_verified": false,
+  "prefix_checkpoint": "<|im_start|>user\nQuestion:\nWhere did the director of film The Amorous Ones die?\n\nFirst solve only the first step:\nWho directed \"The Amorous Ones\"?\n\nAnswer with only the person's name.<|im_end|>\n<|im_start|>assistant\nJean Renoir<|im_end|>\n",
+  "prefix_checkpoint_sha256": "5dc98b82cf6bccdeb9200f4ca09eeffe2195de3c46ba77c02d52961c898e104a"
+}
+```

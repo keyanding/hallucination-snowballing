@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "frozen_inputs_and_sources": true,
+    "metrics_recomputed": true,
+    "gate_recomputed": true,
+    "exactly_twelve_first_hops": true,
+    "raw_hashes": true,
+    "prompt_hashes": true,
+    "checkpoint_hashes": true,
+    "first_hop_prefixes": true,
+    "exact_preregistered_messages": true,
+    "exact_reviewed_case_resolution": true,
+    "actual_checkpoint_replay": true,
+    "per_call_isolation": true,
+    "pre_inference_audit_preserved": true,
+    "first_hop_review_binding": true,
+    "raw_gate_binding": true,
+    "inspection_gate_binding": true,
+    "prior_artifacts": true
+  },
+  "prior_files_checked": 116,
+  "model_calls": 168,
+  "logical_B0_calls": 0
+}

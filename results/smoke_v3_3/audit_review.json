@@ -1,0 +1,9 @@
+{
+  "case_count": 12,
+  "protocol_sha256": "35479bd5a6e79dda8e390e08b9a4e86a8f5e14f35a77ec8fc0b9773c35f5faac",
+  "tests_passed": 46,
+  "user_approved": "Stop only affected natural branch when evidence is missing; keep registered fallback separate",
+  "passed": true,
+  "pre_inference_audit_sha256": "12d8ae70d7f24017907af33d84dd0607ec867793ad67056a1fda259062087e39",
+  "reviewer": "Codex pre-inference evidence and prompt audit"
+}

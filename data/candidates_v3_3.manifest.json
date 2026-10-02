@@ -1,0 +1,12 @@
+{
+  "count": 12,
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "candidates_sha256": "bbec2e9476065377152f360516195f5f6335e2fd3fed6bb30a5346a94b6b5bea",
+  "evidence_index_sha256": "9bebb524459bccde7a588761a5e7dc0998edc0c6e1362b5aa824e2ca47814f19",
+  "source": "2WikiMultiHopQA frozen dev.json",
+  "selection": "Previous ten cases retained regardless of outcomes; two additions reviewed before v3.3 inference. Four cases per relation. Donors for additions reuse previously reviewed donors.",
+  "previous_results_known": true,
+  "v33_inference_used_in_selection": false,
+  "evidence_index_note": "Frozen lookup candidates only; substring presence alone does not certify a relation. Natural alternative entries require review.",
+  "source_code_sha256": "2ac2a45d7388f96517086527ac554bf0368815b4bc99205be24b1b50e0d179d9"
+}

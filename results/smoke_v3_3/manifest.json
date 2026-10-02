@@ -1,0 +1,40 @@
+{
+  "version": "3.3",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "policy": {
+    "min_CLA": 0.9,
+    "min_valid_cases": 8,
+    "max_unsupported_invalid": 0.1,
+    "max_bad_first_hop_format": 0.25,
+    "stop_unsupported_majority": 0.5,
+    "missing_natural_evidence": "stop affected natural branch; registered counterfactual fallback",
+    "seed": 42,
+    "max_new_tokens": 32
+  },
+  "data_sha256": "bbec2e9476065377152f360516195f5f6335e2fd3fed6bb30a5346a94b6b5bea",
+  "index_sha256": "9bebb524459bccde7a588761a5e7dc0998edc0c6e1362b5aa824e2ca47814f19",
+  "source_hashes": {
+    "experiment_v3_3.py": "ba30d57ea57932f21b37bec418207eeaecb9b970fd15a2960437e97ee4083bf1",
+    "prepare_v3_3.py": "2ac2a45d7388f96517086527ac554bf0368815b4bc99205be24b1b50e0d179d9",
+    "experiment_v3.py": "383340df5054b32090fd707424db92b271c8e003da5bba355b1bcfa9a834b380",
+    "experiment_v3_1.py": "c3adb96e63f4beadc63869d36e52cc07fffa53344575c756fe2af9806e50e040",
+    "experiment_v2.py": "d2c812544cb7c3836cc9c53952941bc31801af2bf17a82f083219fa129c14bc5",
+    "generation/local_hf_adapter.py": "ac6edf9792b87ffce59dc44f713b62f43e1bd3f8dae4c8b73748e63c291286b6"
+  },
+  "decoding": {
+    "do_sample": false,
+    "temperature_argument": null,
+    "use_cache": false,
+    "enable_thinking": false,
+    "max_new_tokens": 32
+  },
+  "endpoint": "smoke only; no SHARS/HalluSE; no automatic scale-up",
+  "design": "Natural closed-book first-hop answer; explicit text checkpoint replay in isolated fresh calls; downstream facts added after checkpoint; B0 aliases identical E0 calls where possible",
+  "quantization": "4bit-nf4",
+  "compute_dtype": "torch.bfloat16",
+  "device_map": {
+    "": "0"
+  },
+  "cpu_offload": false
+}

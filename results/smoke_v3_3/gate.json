@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": {
+    "CLA": true,
+    "valid_cases": true,
+    "unsupported_invalid": true,
+    "matched_prefixes": true,
+    "isolation": true
+  },
+  "valid_case_ids": [
+    "natural-01",
+    "natural-02",
+    "natural-03",
+    "natural-04",
+    "natural-05",
+    "natural-06",
+    "natural-07",
+    "natural-08",
+    "natural-09",
+    "natural-10",
+    "natural-11",
+    "natural-12"
+  ],
+  "stop_reasons": [],
+  "policy": {
+    "min_CLA": 0.9,
+    "min_valid_cases": 8,
+    "max_unsupported_invalid": 0.1,
+    "max_bad_first_hop_format": 0.25,
+    "stop_unsupported_majority": 0.5,
+    "missing_natural_evidence": "stop affected natural branch; registered counterfactual fallback",
+    "seed": 42,
+    "max_new_tokens": 32
+  },
+  "scale_authorized": false,
+  "human_review_required": true,
+  "semantic_review": "Codex completed; human scientific review pending",
+  "first_hop_sha256": "3844e277c2378c7e2655b26098164e960fb6584ad81941ae219a3f5fba3cd2dd",
+  "trajectories_sha256": "95051326146d35b9655b65cba2a8c303668ba5e9874c47f0b69699a0ea9120dd",
+  "inspection_sha256": "7ff84fcb4c0a9e414f36a554b085c0d39acadf62e28b75ff6717c5bc16c6676d",
+  "review_sha256": "333a05ae65ef8e59cdb107aee184c9e39550d39c0a439e8bc8fb0928d625b416",
+  "scientific_scope": "Counterfactual branching only; NPR unavailable because no natural error has eligible downstream evidence"
+}
