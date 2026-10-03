@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "confirmed_conditions": [],
+  "reason": "No held-out condition satisfies the full gate",
+  "downstream_calls": 0,
+  "all_candidate_mappings_frozen": true,
+  "ambiguous_renderings": 0,
+  "v3.5_authorized": false
+}

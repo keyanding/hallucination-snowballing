@@ -1,0 +1,17 @@
+{
+  "channel_triplets": 96,
+  "source_mapping_checks": 80,
+  "rendered_graphs_checked": 240,
+  "prior_artifact_count": 191,
+  "frozen_inputs_unchanged": true,
+  "prior_artifacts_unchanged": true,
+  "selection_recomputed": true,
+  "prompt_and_token_boundaries_verified": true,
+  "likelihood_arithmetic_verified": true,
+  "output_hashes": {
+    "free_generation.jsonl": "f75ff0170605ca75fa1f77986c3b9604167830d87337d9646734a6082ac92725",
+    "constrained_choice.jsonl": "81eafdfa802f6c7dbe7e3090bbda8e53d2d2b543cf81e3d85a2faa6ca44b88cc",
+    "candidate_likelihoods.jsonl": "d4bd464a6e1f874d11f761464ec27de17859f51dc8f49b7bc9b170c420c97381"
+  },
+  "development_selection_sha256": "41da7bddc645cb3b69ca11256f0229dbe4988f718e5c97f5856122b25dadba9b"
+}

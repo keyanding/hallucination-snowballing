@@ -2,7 +2,40 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.4.1 first-hop calibration
+## Current experiment: v3.4.2 factorial graph calibration
+
+V3.4.2 completed **8 base cases × 4 depths × 3 branch counts × 3 channels = 288 channel evaluations** (96 paired prompts). Twenty anonymous synthetic Film targets were frozen: eight development and twelve held-out, with gold positions balanced 2/slot and 3/slot. Each target has four real candidate directors and audited, distinct downstream targets. Candidate bundles are sampled from the prior frozen datasets without consulting model outputs; graph node IDs and target questions are new. Entities may recur across splits.
+
+The credited-director path has one to four links. Zero, one, or two equally long comparison-director/associated-director paths terminate at other registered candidates. Candidate records, order, vocabulary, question, chat template, and answer contract stay fixed within each base case. The existing F/C/L adapter is reused unchanged: free greedy generation (96 tokens), exact constrained choice, and teacher-forced candidate likelihood. The preregistered near-boundary threshold is **absolute gold margin ≤0.75 nats/token**.
+
+| Depth | Branch 0 errors | Branch 1 errors | Branch 2 errors |
+|---|---|---|---|
+| 1 | 3/8 | 3/8 | 3/8 |
+| 2 | 2/8 | 2/8 | 4/8 |
+| 3 | 3/8 | 4/8 | 4/8 |
+| 4 | 3/8 | 4/8 | 3/8 |
+
+**Gate failed on the preregistered position-bias exclusion.** D3B0 and D4B2 meet the other development criteria, but candidate position 1 is selected **54/96** times and contains **34/38** wrong selections. Two always-wrong base cases contribute 24 of the 38 errors. Fixed within-case order prevents separating index preference from candidate identity or case effects; this is a descriptive exclusion flag, not a causal position-effect finding. No condition was promoted, so all twelve held-out targets remain unqueried and v3.5 is not authorized.
+
+The gold median margin decreases in **7/9** adjacent depth comparisons and **7/8** adjacent branch comparisons; error rates are non-decreasing in **6/9** and **7/8**, respectively. This is partial ordering with recoveries, not a globally monotonic difficulty axis. C validity, free strict compliance, and F/C agreement are 96/96; L/C agreement is 95/96. No downstream continuation was run.
+
+See [diagnosis](results/calibration_v3_4_2/diagnosis.md), [inspection](results/calibration_v3_4_2/inspection.md), [position audit](results/calibration_v3_4_2/position_audit.md), [frontier selection](results/calibration_v3_4_2/frontier_selection.md), and [development grid](results/calibration_v3_4_2/development_grid.png).
+
+```powershell
+# Fresh output directory only; refuses overwrite/retries.
+$env:HF_HUB_OFFLINE='1'
+python -m unittest discover -s tests
+python -m src.calibration_v3_4_2 prepare
+python -m src.calibration_v3_4_2 run
+# Verification and presentation only; no model calls:
+python -m src.calibration_v3_4_2 verify
+python scripts/plot_calibration_v3_4_2.py
+python scripts/present_calibration_v3_4_2.py
+```
+
+All **64 tests** passed. Pre-inference checks covered all **240 possible graph/tokenizer renderings** and **80 candidate mappings**. Post-run verification checks every prompt, token path, likelihood sum/mean/rank, frozen selection, and all **191 prior artifact hashes**. No previous experiment was rewritten. Plotting and the observed-position presentation are separate post-run steps; the frozen inference and selection code remains unchanged.
+
+## Previous experiment: v3.4.1 first-hop calibration
 
 V3.4.1 completed **96 development prompts × three channels = 288 channel evaluations**, using the cached Qwen3-4B-Instruct-2507 NF4/BF16 model. Twenty-four development films (six per mechanism) and twelve disjoint held-out films were frozen before inference. Four real candidate directors and their downstream mappings remain fixed per case. Task-local catalog links implement relation competition, shared-attribute salience, evidence order, and one-to-three-step composition. Those index links are explicit experimental constructs; sourced film credits remain factual.
 

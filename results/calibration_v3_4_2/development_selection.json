@@ -1,0 +1,283 @@
+{
+  "conditions": {
+    "D1B0": {
+      "depth": 1,
+      "branches": 0,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": false,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": false
+      },
+      "qualifies": false,
+      "local_support": [],
+      "failed_checks": [
+        "boundary",
+        "median_margin",
+        "no_position_bias",
+        "local_trend"
+      ]
+    },
+    "D1B1": {
+      "depth": 1,
+      "branches": 1,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D1B0"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D1B2": {
+      "depth": 1,
+      "branches": 2,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D1B1"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D2B0": {
+      "depth": 2,
+      "branches": 0,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D1B0"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D2B1": {
+      "depth": 2,
+      "branches": 1,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D1B1",
+        "D2B0"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D2B2": {
+      "depth": 2,
+      "branches": 2,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D1B2",
+        "D2B1"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D3B0": {
+      "depth": 3,
+      "branches": 0,
+      "checks": {
+        "error_band": true,
+        "boundary": true,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D2B0"
+      ],
+      "failed_checks": [
+        "no_position_bias"
+      ]
+    },
+    "D3B1": {
+      "depth": 3,
+      "branches": 1,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D2B1",
+        "D3B0"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D3B2": {
+      "depth": 3,
+      "branches": 2,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D2B2",
+        "D3B1"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D4B0": {
+      "depth": 4,
+      "branches": 0,
+      "checks": {
+        "error_band": true,
+        "boundary": true,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": false
+      },
+      "qualifies": false,
+      "local_support": [],
+      "failed_checks": [
+        "no_position_bias",
+        "local_trend"
+      ]
+    },
+    "D4B1": {
+      "depth": 4,
+      "branches": 1,
+      "checks": {
+        "error_band": true,
+        "boundary": false,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D3B1",
+        "D4B0"
+      ],
+      "failed_checks": [
+        "boundary",
+        "no_position_bias"
+      ]
+    },
+    "D4B2": {
+      "depth": 4,
+      "branches": 2,
+      "checks": {
+        "error_band": true,
+        "boundary": true,
+        "median_margin": true,
+        "FCA": true,
+        "LCA": true,
+        "no_position_bias": false,
+        "unique_path": true,
+        "C_valid": true,
+        "local_trend": true
+      },
+      "qualifies": false,
+      "local_support": [
+        "D3B2"
+      ],
+      "failed_checks": [
+        "no_position_bias"
+      ]
+    }
+  },
+  "selected": [],
+  "qualifying_not_selected": []
+}

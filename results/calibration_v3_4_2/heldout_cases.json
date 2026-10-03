@@ -1,0 +1,1363 @@
+[
+  {
+    "case_id": "heldout-01",
+    "split": "heldout",
+    "target": "T98300",
+    "gold": "Gu Changwei",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Anil Das": "R71657",
+      "Rodrigo Grande": "R75321",
+      "Gu Changwei": "R26148",
+      "Rolf Schübel": "R18099"
+    },
+    "name_record_order": [
+      "Rolf Schübel",
+      "Gu Changwei",
+      "Rodrigo Grande",
+      "Anil Das"
+    ],
+    "paths": [
+      {
+        "endpoint": "Gu Changwei",
+        "nodes": [
+          "R45973",
+          "R52899",
+          "R24705"
+        ]
+      },
+      {
+        "endpoint": "Rodrigo Grande",
+        "nodes": [
+          "R43335",
+          "R20580",
+          "R77566"
+        ]
+      },
+      {
+        "endpoint": "Anil Das",
+        "nodes": [
+          "R59026",
+          "R42125",
+          "R28831"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      2,
+      1
+    ],
+    "candidate_source_case": "dev-M1-03",
+    "candidate_list_sha256": "ec51ef7058d3d2de34658936ede72e02e347f522b54ec90c5c6127e593cd4cdc"
+  },
+  {
+    "case_id": "heldout-02",
+    "split": "heldout",
+    "target": "T95720",
+    "gold": "Leopoldo Torre Nilsson",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Armando Robles Godoy": "R93280",
+      "Rahul Rawail": "R37208",
+      "Tinnu Anand": "R44407",
+      "Leopoldo Torre Nilsson": "R96533"
+    },
+    "name_record_order": [
+      "Leopoldo Torre Nilsson",
+      "Armando Robles Godoy",
+      "Tinnu Anand",
+      "Rahul Rawail"
+    ],
+    "paths": [
+      {
+        "endpoint": "Leopoldo Torre Nilsson",
+        "nodes": [
+          "R64300",
+          "R42346",
+          "R43946"
+        ]
+      },
+      {
+        "endpoint": "Armando Robles Godoy",
+        "nodes": [
+          "R72192",
+          "R56923",
+          "R10070"
+        ]
+      },
+      {
+        "endpoint": "Tinnu Anand",
+        "nodes": [
+          "R61919",
+          "R66470",
+          "R57672"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      0,
+      2
+    ],
+    "candidate_source_case": "dev-M4-03",
+    "candidate_list_sha256": "2cd5abbb5a87a6b278c95249bcaeb47b6f592153e5662a84b5ca10ecbe85d901"
+  },
+  {
+    "case_id": "heldout-03",
+    "split": "heldout",
+    "target": "T95252",
+    "gold": "Robert P. Kerr",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Robert P. Kerr",
+        "relation": "place of death",
+        "target": "Porterville",
+        "target_aliases": [
+          "Porterville",
+          "Porterville, California"
+        ],
+        "downstream_evidence": {
+          "title": "Robert P. Kerr",
+          "sentence_id": 2,
+          "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+        },
+        "downstream_source_id": "8dfa2e9e0bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "James Goldstone": "R53936",
+      "Vojtěch Jasný": "R57440",
+      "León Klimovsky": "R28712",
+      "Robert P. Kerr": "R31685"
+    },
+    "name_record_order": [
+      "León Klimovsky",
+      "James Goldstone",
+      "Vojtěch Jasný",
+      "Robert P. Kerr"
+    ],
+    "paths": [
+      {
+        "endpoint": "Robert P. Kerr",
+        "nodes": [
+          "R62543",
+          "R28374",
+          "R65686"
+        ]
+      },
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R24873",
+          "R53901",
+          "R30677"
+        ]
+      },
+      {
+        "endpoint": "Vojtěch Jasný",
+        "nodes": [
+          "R93689",
+          "R98783",
+          "R16436"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      0,
+      2
+    ],
+    "candidate_source_case": "dev-M3-05",
+    "candidate_list_sha256": "ef66b5b7f5b8fbc2798b22eb1eaa09f54e00a448f4f8d97d4bea8c6fca20c064"
+  },
+  {
+    "case_id": "heldout-04",
+    "split": "heldout",
+    "target": "T86022",
+    "gold": "Walter Hugo Khouri",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Marcello Fondato": "R13796",
+      "Walter Hugo Khouri": "R32892",
+      "James Goldstone": "R39270",
+      "Bhappi Sonie": "R82941"
+    },
+    "name_record_order": [
+      "Marcello Fondato",
+      "James Goldstone",
+      "Bhappi Sonie",
+      "Walter Hugo Khouri"
+    ],
+    "paths": [
+      {
+        "endpoint": "Walter Hugo Khouri",
+        "nodes": [
+          "R90471",
+          "R76691",
+          "R32404"
+        ]
+      },
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R44920",
+          "R28689",
+          "R75476"
+        ]
+      },
+      {
+        "endpoint": "Bhappi Sonie",
+        "nodes": [
+          "R89424",
+          "R27625",
+          "R57053"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      1,
+      2
+    ],
+    "candidate_source_case": "dev-M2-04",
+    "candidate_list_sha256": "b82dd5c349d237c2729c5e33fa44b779529961af3abbfb3dd98b58f3466e80c9"
+  },
+  {
+    "case_id": "heldout-05",
+    "split": "heldout",
+    "target": "T67908",
+    "gold": "Marcello Fondato",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Walter Hugo Khouri": "R40794",
+      "Vojtěch Jasný": "R32903",
+      "Marcello Fondato": "R10797",
+      "James Goldstone": "R30851"
+    },
+    "name_record_order": [
+      "Walter Hugo Khouri",
+      "Marcello Fondato",
+      "James Goldstone",
+      "Vojtěch Jasný"
+    ],
+    "paths": [
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R31096",
+          "R41300",
+          "R60762"
+        ]
+      },
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R60109",
+          "R84040",
+          "R54443"
+        ]
+      },
+      {
+        "endpoint": "Walter Hugo Khouri",
+        "nodes": [
+          "R41720",
+          "R49464",
+          "R73325"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      0,
+      2
+    ],
+    "candidate_source_case": "dev-M4-01",
+    "candidate_list_sha256": "8ae1319094f47dfbcfed9906abbaacf3291b679f86d8f979f707ba9d61038252"
+  },
+  {
+    "case_id": "heldout-06",
+    "split": "heldout",
+    "target": "T26659",
+    "gold": "Rahul Rawail",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Rahul Rawail": "R87414",
+      "Ildikó Enyedi": "R47323",
+      "Yuen Woo-ping": "R49496",
+      "Jan Svěrák": "R84688"
+    },
+    "name_record_order": [
+      "Ildikó Enyedi",
+      "Jan Svěrák",
+      "Rahul Rawail",
+      "Yuen Woo-ping"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rahul Rawail",
+        "nodes": [
+          "R32272",
+          "R26230",
+          "R58761"
+        ]
+      },
+      {
+        "endpoint": "Yuen Woo-ping",
+        "nodes": [
+          "R95464",
+          "R73859",
+          "R17369"
+        ]
+      },
+      {
+        "endpoint": "Ildikó Enyedi",
+        "nodes": [
+          "R66420",
+          "R51403",
+          "R78397"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      1,
+      0
+    ],
+    "candidate_source_case": "dev-M1-02",
+    "candidate_list_sha256": "5c963744b7beea9746488c6e12a7117c53ea4a1f146ce3685b0c262ebbf0131e"
+  },
+  {
+    "case_id": "heldout-07",
+    "split": "heldout",
+    "target": "T12244",
+    "gold": "Ildikó Enyedi",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Rahul Rawail": "R74277",
+      "Jan Svěrák": "R99693",
+      "Ildikó Enyedi": "R86537",
+      "Yuen Woo-ping": "R54434"
+    },
+    "name_record_order": [
+      "Jan Svěrák",
+      "Ildikó Enyedi",
+      "Rahul Rawail",
+      "Yuen Woo-ping"
+    ],
+    "paths": [
+      {
+        "endpoint": "Ildikó Enyedi",
+        "nodes": [
+          "R36303",
+          "R64010",
+          "R38013"
+        ]
+      },
+      {
+        "endpoint": "Rahul Rawail",
+        "nodes": [
+          "R23194",
+          "R43550",
+          "R34248"
+        ]
+      },
+      {
+        "endpoint": "Yuen Woo-ping",
+        "nodes": [
+          "R29135",
+          "R46633",
+          "R63589"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      0,
+      1
+    ],
+    "candidate_source_case": "heldout-shared-02",
+    "candidate_list_sha256": "306dd90c96272a3b19f69d957a749339d2a2087737c2f44e57289fa4ff58c8e9"
+  },
+  {
+    "case_id": "heldout-08",
+    "split": "heldout",
+    "target": "T43431",
+    "gold": "Armando Robles Godoy",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Armando Robles Godoy": "R25484",
+      "Rahul Rawail": "R50208",
+      "Tinnu Anand": "R38086",
+      "Leopoldo Torre Nilsson": "R69281"
+    },
+    "name_record_order": [
+      "Rahul Rawail",
+      "Tinnu Anand",
+      "Armando Robles Godoy",
+      "Leopoldo Torre Nilsson"
+    ],
+    "paths": [
+      {
+        "endpoint": "Armando Robles Godoy",
+        "nodes": [
+          "R49257",
+          "R51493",
+          "R37993"
+        ]
+      },
+      {
+        "endpoint": "Leopoldo Torre Nilsson",
+        "nodes": [
+          "R97435",
+          "R78356",
+          "R84854"
+        ]
+      },
+      {
+        "endpoint": "Rahul Rawail",
+        "nodes": [
+          "R38532",
+          "R94889",
+          "R26900"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      2,
+      1
+    ],
+    "candidate_source_case": "heldout-shared-03",
+    "candidate_list_sha256": "2cd5abbb5a87a6b278c95249bcaeb47b6f592153e5662a84b5ca10ecbe85d901"
+  },
+  {
+    "case_id": "heldout-09",
+    "split": "heldout",
+    "target": "T86852",
+    "gold": "León Klimovsky",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Marcello Fondato": "R34841",
+      "James Goldstone": "R16070",
+      "Vojtěch Jasný": "R71776",
+      "León Klimovsky": "R73697"
+    },
+    "name_record_order": [
+      "James Goldstone",
+      "León Klimovsky",
+      "Vojtěch Jasný",
+      "Marcello Fondato"
+    ],
+    "paths": [
+      {
+        "endpoint": "León Klimovsky",
+        "nodes": [
+          "R16257",
+          "R68938",
+          "R89084"
+        ]
+      },
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R35370",
+          "R69965",
+          "R65739"
+        ]
+      },
+      {
+        "endpoint": "Vojtěch Jasný",
+        "nodes": [
+          "R89255",
+          "R76709",
+          "R32064"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      2,
+      0
+    ],
+    "candidate_source_case": "dev-M3-06",
+    "candidate_list_sha256": "d052fabff419441735b525ca2211c2af123d88b83bcab9f2fd997146f35ceadc"
+  },
+  {
+    "case_id": "heldout-10",
+    "split": "heldout",
+    "target": "T24647",
+    "gold": "Yuen Woo-ping",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Jan Svěrák": "R17593",
+      "Yuen Woo-ping": "R75464",
+      "Tinnu Anand": "R69020",
+      "Ildikó Enyedi": "R23123"
+    },
+    "name_record_order": [
+      "Tinnu Anand",
+      "Jan Svěrák",
+      "Yuen Woo-ping",
+      "Ildikó Enyedi"
+    ],
+    "paths": [
+      {
+        "endpoint": "Yuen Woo-ping",
+        "nodes": [
+          "R60845",
+          "R23695",
+          "R18811"
+        ]
+      },
+      {
+        "endpoint": "Tinnu Anand",
+        "nodes": [
+          "R13273",
+          "R60034",
+          "R32054"
+        ]
+      },
+      {
+        "endpoint": "Ildikó Enyedi",
+        "nodes": [
+          "R43173",
+          "R36932",
+          "R95682"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      2,
+      1
+    ],
+    "candidate_source_case": "dev-M2-05",
+    "candidate_list_sha256": "d781b7e2dbba4cfdd258f0846f5091e31747f63a0cab013463c45547cec60997"
+  },
+  {
+    "case_id": "heldout-11",
+    "split": "heldout",
+    "target": "T59129",
+    "gold": "James Goldstone",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Walter Hugo Khouri": "R94489",
+      "James Goldstone": "R10316",
+      "León Klimovsky": "R43661",
+      "Marcello Fondato": "R18264"
+    },
+    "name_record_order": [
+      "León Klimovsky",
+      "Marcello Fondato",
+      "Walter Hugo Khouri",
+      "James Goldstone"
+    ],
+    "paths": [
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R36456",
+          "R98266",
+          "R73443"
+        ]
+      },
+      {
+        "endpoint": "Walter Hugo Khouri",
+        "nodes": [
+          "R35889",
+          "R15113",
+          "R86477"
+        ]
+      },
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R74315",
+          "R30060",
+          "R41872"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      0,
+      1
+    ],
+    "candidate_source_case": "heldout-shared-07",
+    "candidate_list_sha256": "ff8ac602985d0dec16843ad8b484450e227f2ee50a1c5d805465352d0fbe8117"
+  },
+  {
+    "case_id": "heldout-12",
+    "split": "heldout",
+    "target": "T86034",
+    "gold": "Rolf Schübel",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Rolf Schübel": "R73316",
+      "Anil Das": "R38919",
+      "Helmut Käutner": "R62809",
+      "Feng Xiaoning": "R65807"
+    },
+    "name_record_order": [
+      "Anil Das",
+      "Feng Xiaoning",
+      "Rolf Schübel",
+      "Helmut Käutner"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rolf Schübel",
+        "nodes": [
+          "R89235",
+          "R94722",
+          "R75179"
+        ]
+      },
+      {
+        "endpoint": "Feng Xiaoning",
+        "nodes": [
+          "R60985",
+          "R29611",
+          "R44004"
+        ]
+      },
+      {
+        "endpoint": "Helmut Käutner",
+        "nodes": [
+          "R94662",
+          "R54131",
+          "R60072"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      2,
+      1
+    ],
+    "candidate_source_case": "dev-M4-05",
+    "candidate_list_sha256": "96264bc2fec1a7cc61bb5e5714b0c0706173159a91dc2254ab1b71394dc0d481"
+  }
+]

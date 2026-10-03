@@ -1,0 +1,4462 @@
+{
+  "development": {
+    "D1B0": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "gold_vs_best_wrong_margins": [
+        0.4828307133942104,
+        3.0249996125724046,
+        -4.0392680435373,
+        -0.21098206639279554,
+        3.0218782186185984,
+        3.2844314017584666,
+        -0.9187503159018704,
+        4.649609091724104
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 5,
+            "denominator": 8,
+            "rate": 0.625
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "GM": 1.7523544660064043,
+      "NBF": {
+        "count": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "depth": 1,
+      "branches": 0,
+      "unique_path_audit": true
+    },
+    "D1B1": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "gold_vs_best_wrong_margins": [
+        0.6676123635786453,
+        2.7937476545839077,
+        -2.297058796271392,
+        -1.3398423403991706,
+        1.2688079083891175,
+        1.7001424700143313,
+        -2.24375157356601,
+        4.560824368062563
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 5,
+            "denominator": 8,
+            "rate": 0.625
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "GM": 0.9682101359838814,
+      "NBF": {
+        "count": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "depth": 1,
+      "branches": 1,
+      "unique_path_audit": true
+    },
+    "D1B2": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "gold_vs_best_wrong_margins": [
+        0.3552602544211865,
+        1.881250808143521,
+        -2.0079359596650077,
+        -1.5390623956940805,
+        0.6512691973479512,
+        4.050077311197788,
+        -1.75624978778809,
+        4.557277023073818
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 5,
+            "denominator": 8,
+            "rate": 0.625
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "GM": 0.5032647258845688,
+      "NBF": {
+        "count": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "depth": 1,
+      "branches": 2,
+      "unique_path_audit": true
+    },
+    "D2B0": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 7,
+        "denominator": 8,
+        "rate": 0.875
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "gold_vs_best_wrong_margins": [
+        0.4392326994800328,
+        2.137503549465657,
+        1.8924977394148015,
+        -0.7771790520752575,
+        1.243817028098127,
+        -0.06757209301131298,
+        -1.043752253482289,
+        3.7072480985096554
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 4,
+            "denominator": 8,
+            "rate": 0.5
+          },
+          "gold_count": 2,
+          "wrong_selections": 2,
+          "wrong_when_gold_elsewhere": {
+            "count": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          },
+          "bias_flag": false
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": false,
+      "ER": {
+        "count": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "GM": 0.84152486378908,
+      "NBF": {
+        "count": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "depth": 2,
+      "branches": 0,
+      "unique_path_audit": true
+    },
+    "D2B1": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 6,
+        "denominator": 8,
+        "rate": 0.75
+      },
+      "gold_vs_best_wrong_margins": [
+        0.04117012332145435,
+        1.6625179687145875,
+        1.2558470386753697,
+        -2.060546821357535,
+        0.24037019312473665,
+        2.703915713239716,
+        -2.243751859653639,
+        4.1077039701597995
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 4,
+            "denominator": 8,
+            "rate": 0.5
+          },
+          "gold_count": 2,
+          "wrong_selections": 2,
+          "wrong_when_gold_elsewhere": {
+            "count": 2,
+            "denominator": 6,
+            "rate": 0.3333333333333333
+          },
+          "bias_flag": false
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": false,
+      "ER": {
+        "count": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "GM": 0.7481086159000532,
+      "NBF": {
+        "count": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "depth": 2,
+      "branches": 1,
+      "unique_path_audit": true
+    },
+    "D2B2": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "gold_vs_best_wrong_margins": [
+        -0.11425118118877364,
+        0.9693380697695858,
+        1.584153066259671,
+        -1.3671864003269796,
+        -1.9375004331374905,
+        2.287700646300821,
+        -1.9937491180962978,
+        4.345771221124697
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 4,
+            "denominator": 8,
+            "rate": 0.5
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 3,
+            "denominator": 8,
+            "rate": 0.375
+          },
+          "gold_count": 2,
+          "wrong_selections": 1,
+          "wrong_when_gold_elsewhere": {
+            "count": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "GM": 0.4275434442904061,
+      "NBF": {
+        "count": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "depth": 2,
+      "branches": 2,
+      "unique_path_audit": true
+    },
+    "D3B0": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "gold_vs_best_wrong_margins": [
+        0.34718188061734023,
+        2.156250381507937,
+        2.62687697965701,
+        -0.4233337670549638,
+        -0.03934584458424198,
+        2.70940576956689,
+        -0.4187534957512568,
+        3.8174354250941964
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 5,
+            "denominator": 8,
+            "rate": 0.625
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "GM": 1.2517161310626386,
+      "NBF": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "depth": 3,
+      "branches": 0,
+      "unique_path_audit": true
+    },
+    "D3B1": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "gold_vs_best_wrong_margins": [
+        -0.16274575782368003,
+        1.6187729775599258,
+        2.26992697065607,
+        -1.6757817417377736,
+        -2.4947923103952747,
+        2.1562999964235394,
+        -2.456249618573679,
+        3.891594278280226
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 4,
+            "denominator": 8,
+            "rate": 0.5
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 3,
+            "denominator": 8,
+            "rate": 0.375
+          },
+          "gold_count": 2,
+          "wrong_selections": 1,
+          "wrong_when_gold_elsewhere": {
+            "count": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "GM": 0.7280136098681229,
+      "NBF": {
+        "count": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "depth": 3,
+      "branches": 1,
+      "unique_path_audit": true
+    },
+    "D3B2": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "gold_vs_best_wrong_margins": [
+        -0.29787614292524295,
+        1.0753487857406128,
+        2.6983648461216605,
+        -2.2812502861024235,
+        -3.3255223472877398,
+        3.062600738020763,
+        -2.306249904646772,
+        3.98227809454713
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 4,
+            "denominator": 8,
+            "rate": 0.5
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 3,
+            "denominator": 8,
+            "rate": 0.375
+          },
+          "gold_count": 2,
+          "wrong_selections": 1,
+          "wrong_when_gold_elsewhere": {
+            "count": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "GM": 0.3887363214076849,
+      "NBF": {
+        "count": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "depth": 3,
+      "branches": 2,
+      "unique_path_audit": true
+    },
+    "D4B0": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "gold_vs_best_wrong_margins": [
+        0.3147310944753329,
+        2.2875003636033853,
+        2.50134031770574,
+        -0.6166491100532092,
+        -1.2965457649881766,
+        2.26251296952308,
+        -0.20625333182764366,
+        3.769134019953865
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 5,
+            "denominator": 8,
+            "rate": 0.625
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "GM": 1.2886220319992066,
+      "NBF": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "depth": 4,
+      "branches": 0,
+      "unique_path_audit": true
+    },
+    "D4B1": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "gold_vs_best_wrong_margins": [
+        -0.12063837579750256,
+        1.1252769935697373,
+        0.0002959280452955737,
+        -1.4570311904266395,
+        -2.54948087135025,
+        2.6595018545776483,
+        -2.931253337798033,
+        3.8720141338450547
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 4,
+            "denominator": 8,
+            "rate": 0.5
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 3,
+            "denominator": 8,
+            "rate": 0.375
+          },
+          "gold_count": 2,
+          "wrong_selections": 1,
+          "wrong_when_gold_elsewhere": {
+            "count": 1,
+            "denominator": 6,
+            "rate": 0.16666666666666666
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "GM": -0.06017122387610349,
+      "NBF": {
+        "count": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "depth": 4,
+      "branches": 1,
+      "unique_path_audit": true
+    },
+    "D4B2": {
+      "count": 8,
+      "C_valid": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FSC": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "FCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "EFCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "LCA": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_coverage": {
+        "count": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "free_outset": {
+        "count": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "free_truncated": 0,
+      "L_gold_top1": {
+        "count": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "gold_vs_best_wrong_margins": [
+        0.01522266789617674,
+        0.356201542179177,
+        0.41287476715777416,
+        -2.566404485790425,
+        -3.377606662094263,
+        2.9250184765042966,
+        -2.8062518119513684,
+        3.9325729063578962
+      ],
+      "positions": {
+        "1": {
+          "selected": {
+            "count": 5,
+            "denominator": 8,
+            "rate": 0.625
+          },
+          "gold_count": 2,
+          "wrong_selections": 3,
+          "wrong_when_gold_elsewhere": {
+            "count": 3,
+            "denominator": 6,
+            "rate": 0.5
+          },
+          "bias_flag": true
+        },
+        "2": {
+          "selected": {
+            "count": 1,
+            "denominator": 8,
+            "rate": 0.125
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "3": {
+          "selected": {
+            "count": 0,
+            "denominator": 8,
+            "rate": 0.0
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        },
+        "4": {
+          "selected": {
+            "count": 2,
+            "denominator": 8,
+            "rate": 0.25
+          },
+          "gold_count": 2,
+          "wrong_selections": 0,
+          "wrong_when_gold_elsewhere": {
+            "count": 0,
+            "denominator": 6,
+            "rate": 0.0
+          },
+          "bias_flag": false
+        }
+      },
+      "POSITION_BIAS": true,
+      "ER": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "GM": 0.18571210503767688,
+      "NBF": {
+        "count": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "depth": 4,
+      "branches": 2,
+      "unique_path_audit": true
+    }
+  },
+  "selection": {
+    "conditions": {
+      "D1B0": {
+        "depth": 1,
+        "branches": 0,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": false,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": false
+        },
+        "qualifies": false,
+        "local_support": [],
+        "failed_checks": [
+          "boundary",
+          "median_margin",
+          "no_position_bias",
+          "local_trend"
+        ]
+      },
+      "D1B1": {
+        "depth": 1,
+        "branches": 1,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D1B0"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D1B2": {
+        "depth": 1,
+        "branches": 2,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D1B1"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D2B0": {
+        "depth": 2,
+        "branches": 0,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D1B0"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D2B1": {
+        "depth": 2,
+        "branches": 1,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D1B1",
+          "D2B0"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D2B2": {
+        "depth": 2,
+        "branches": 2,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D1B2",
+          "D2B1"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D3B0": {
+        "depth": 3,
+        "branches": 0,
+        "checks": {
+          "error_band": true,
+          "boundary": true,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D2B0"
+        ],
+        "failed_checks": [
+          "no_position_bias"
+        ]
+      },
+      "D3B1": {
+        "depth": 3,
+        "branches": 1,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D2B1",
+          "D3B0"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D3B2": {
+        "depth": 3,
+        "branches": 2,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D2B2",
+          "D3B1"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D4B0": {
+        "depth": 4,
+        "branches": 0,
+        "checks": {
+          "error_band": true,
+          "boundary": true,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": false
+        },
+        "qualifies": false,
+        "local_support": [],
+        "failed_checks": [
+          "no_position_bias",
+          "local_trend"
+        ]
+      },
+      "D4B1": {
+        "depth": 4,
+        "branches": 1,
+        "checks": {
+          "error_band": true,
+          "boundary": false,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D3B1",
+          "D4B0"
+        ],
+        "failed_checks": [
+          "boundary",
+          "no_position_bias"
+        ]
+      },
+      "D4B2": {
+        "depth": 4,
+        "branches": 2,
+        "checks": {
+          "error_band": true,
+          "boundary": true,
+          "median_margin": true,
+          "FCA": true,
+          "LCA": true,
+          "no_position_bias": false,
+          "unique_path": true,
+          "C_valid": true,
+          "local_trend": true
+        },
+        "qualifies": false,
+        "local_support": [
+          "D3B2"
+        ],
+        "failed_checks": [
+          "no_position_bias"
+        ]
+      }
+    },
+    "selected": [],
+    "qualifying_not_selected": []
+  },
+  "heldout": {},
+  "monotonicity": {
+    "depth": {
+      "ER": {
+        "count": 6,
+        "denominator": 9,
+        "rate": 0.6666666666666666
+      },
+      "GM": {
+        "count": 7,
+        "denominator": 9,
+        "rate": 0.7777777777777778
+      },
+      "strictly_increasing_ER": 3,
+      "strictly_decreasing_GM": 7,
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "ER_non_decreasing": false,
+          "GM_non_increasing": true,
+          "ER_change": -0.125,
+          "GM_change": -0.9108296022173243
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "ER_non_decreasing": false,
+          "GM_non_increasing": true,
+          "ER_change": -0.125,
+          "GM_change": -0.22010152008382822
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.125,
+          "GM_change": -0.07572128159416275
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": false,
+          "ER_change": 0.125,
+          "GM_change": 0.4101912672735586
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.25,
+          "GM_change": -0.020095006031930263
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.0,
+          "GM_change": -0.0388071228827212
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": false,
+          "ER_change": 0.0,
+          "GM_change": 0.03690590093656798
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.0,
+          "GM_change": -0.7881848337442264
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "ER_non_decreasing": false,
+          "GM_non_increasing": true,
+          "ER_change": -0.125,
+          "GM_change": -0.203024216370008
+        }
+      ]
+    },
+    "branches": {
+      "ER": {
+        "count": 7,
+        "denominator": 8,
+        "rate": 0.875
+      },
+      "GM": {
+        "count": 7,
+        "denominator": 8,
+        "rate": 0.875
+      },
+      "strictly_increasing_ER": 3,
+      "strictly_decreasing_GM": 7,
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.0,
+          "GM_change": -0.7841443300225229
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.0,
+          "GM_change": -0.46494541009931256
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.0,
+          "GM_change": -0.0934162478890268
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.25,
+          "GM_change": -0.3205651716096471
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.125,
+          "GM_change": -0.5237025211945157
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.0,
+          "GM_change": -0.33927728846043803
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "ER_non_decreasing": true,
+          "GM_non_increasing": true,
+          "ER_change": 0.125,
+          "GM_change": -1.34879325587531
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "ER_non_decreasing": false,
+          "GM_non_increasing": false,
+          "ER_change": -0.125,
+          "GM_change": 0.24588332891378037
+        }
+      ]
+    }
+  },
+  "case_consistency": {
+    "dev-01": {
+      "labels": [
+        "CASE_NON_MONOTONIC",
+        "CASE_BOUNDARY_CROSSING"
+      ],
+      "wrong_count": 4,
+      "all_neighbor_comparisons_monotonic": false,
+      "first_near_boundary": "D1B0",
+      "first_margin_compression": {
+        "easier": "D1B1",
+        "harder": "D1B2",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": {
+        "easier": "D1B2",
+        "harder": "D2B2",
+        "factor": "depth",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": true,
+        "correct_to_wrong": true,
+        "boundary_crossing": true,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": false,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": true,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": true,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": false,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": true,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": true,
+          "margin_reversal": true
+        }
+      ]
+    },
+    "dev-02": {
+      "labels": [
+        "CASE_ALWAYS_EASY"
+      ],
+      "wrong_count": 0,
+      "all_neighbor_comparisons_monotonic": false,
+      "first_near_boundary": "D4B2",
+      "first_margin_compression": {
+        "easier": "D1B0",
+        "harder": "D1B1",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": null,
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        }
+      ]
+    },
+    "dev-03": {
+      "labels": [
+        "CASE_NON_MONOTONIC"
+      ],
+      "wrong_count": 3,
+      "all_neighbor_comparisons_monotonic": false,
+      "first_near_boundary": "D4B1",
+      "first_margin_compression": {
+        "easier": "D2B0",
+        "harder": "D2B1",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": {
+        "easier": "D1B0",
+        "harder": "D2B0",
+        "factor": "depth",
+        "error_non_decreasing": false,
+        "margin_non_increasing": false,
+        "margin_compression": false,
+        "choice_flip": true,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": true,
+        "margin_reversal": true
+      },
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": false,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": true,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": true,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": false,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": true,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": true,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": false,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": true,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": true,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        }
+      ]
+    },
+    "dev-04": {
+      "labels": [
+        "CASE_ALWAYS_WRONG"
+      ],
+      "wrong_count": 12,
+      "all_neighbor_comparisons_monotonic": false,
+      "first_near_boundary": "D1B0",
+      "first_margin_compression": {
+        "easier": "D1B0",
+        "harder": "D1B1",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": null,
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        }
+      ]
+    },
+    "dev-05": {
+      "labels": [
+        "CASE_MONOTONIC",
+        "CASE_BOUNDARY_CROSSING"
+      ],
+      "wrong_count": 7,
+      "all_neighbor_comparisons_monotonic": true,
+      "first_near_boundary": "D1B2",
+      "first_margin_compression": {
+        "easier": "D1B0",
+        "harder": "D1B1",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": {
+        "easier": "D1B2",
+        "harder": "D2B2",
+        "factor": "depth",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": true,
+        "correct_to_wrong": true,
+        "boundary_crossing": true,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": true,
+          "correct_to_wrong": true,
+          "boundary_crossing": true,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        }
+      ]
+    },
+    "dev-06": {
+      "labels": [
+        "CASE_ALWAYS_EASY"
+      ],
+      "wrong_count": 0,
+      "all_neighbor_comparisons_monotonic": false,
+      "first_near_boundary": "D2B0",
+      "first_margin_compression": {
+        "easier": "D1B0",
+        "harder": "D1B1",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": null,
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        }
+      ]
+    },
+    "dev-07": {
+      "labels": [
+        "CASE_ALWAYS_WRONG"
+      ],
+      "wrong_count": 12,
+      "all_neighbor_comparisons_monotonic": false,
+      "first_near_boundary": "D3B0",
+      "first_margin_compression": {
+        "easier": "D1B0",
+        "harder": "D1B1",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": null,
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        }
+      ]
+    },
+    "dev-08": {
+      "labels": [
+        "CASE_ALWAYS_EASY"
+      ],
+      "wrong_count": 0,
+      "all_neighbor_comparisons_monotonic": false,
+      "first_near_boundary": null,
+      "first_margin_compression": {
+        "easier": "D1B0",
+        "harder": "D1B1",
+        "factor": "branches",
+        "error_non_decreasing": true,
+        "margin_non_increasing": true,
+        "margin_compression": true,
+        "choice_flip": false,
+        "correct_to_wrong": false,
+        "boundary_crossing": false,
+        "recovery": false,
+        "margin_reversal": false
+      },
+      "first_choice_flip": null,
+      "comparisons": [
+        {
+          "easier": "D1B0",
+          "harder": "D1B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D1B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B0",
+          "harder": "D2B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D1B1",
+          "harder": "D2B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D2B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D1B2",
+          "harder": "D2B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D2B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B0",
+          "harder": "D3B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B1",
+          "harder": "D3B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D3B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D2B2",
+          "harder": "D3B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D3B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B0",
+          "harder": "D4B0",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D3B1",
+          "harder": "D4B1",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B0",
+          "harder": "D4B1",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        },
+        {
+          "easier": "D3B2",
+          "harder": "D4B2",
+          "factor": "depth",
+          "error_non_decreasing": true,
+          "margin_non_increasing": true,
+          "margin_compression": true,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": false
+        },
+        {
+          "easier": "D4B1",
+          "harder": "D4B2",
+          "factor": "branches",
+          "error_non_decreasing": true,
+          "margin_non_increasing": false,
+          "margin_compression": false,
+          "choice_flip": false,
+          "correct_to_wrong": false,
+          "boundary_crossing": false,
+          "recovery": false,
+          "margin_reversal": true
+        }
+      ]
+    }
+  },
+  "development_overall": {
+    "count": 96,
+    "C_valid": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "FSC": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "FCA": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "EFCA": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "LCA": {
+      "count": 95,
+      "denominator": 96,
+      "rate": 0.9895833333333334
+    },
+    "free_coverage": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "free_outset": {
+      "count": 0,
+      "denominator": 96,
+      "rate": 0.0
+    },
+    "free_truncated": 0,
+    "L_gold_top1": {
+      "count": 57,
+      "denominator": 96,
+      "rate": 0.59375
+    },
+    "gold_vs_best_wrong_margins": [
+      0.4828307133942104,
+      3.0249996125724046,
+      -4.0392680435373,
+      -0.21098206639279554,
+      3.0218782186185984,
+      3.2844314017584666,
+      -0.9187503159018704,
+      4.649609091724104,
+      0.6676123635786453,
+      2.7937476545839077,
+      -2.297058796271392,
+      -1.3398423403991706,
+      1.2688079083891175,
+      1.7001424700143313,
+      -2.24375157356601,
+      4.560824368062563,
+      0.3552602544211865,
+      1.881250808143521,
+      -2.0079359596650077,
+      -1.5390623956940805,
+      0.6512691973479512,
+      4.050077311197788,
+      -1.75624978778809,
+      4.557277023073818,
+      0.4392326994800328,
+      2.137503549465657,
+      1.8924977394148015,
+      -0.7771790520752575,
+      1.243817028098127,
+      -0.06757209301131298,
+      -1.043752253482289,
+      3.7072480985096554,
+      0.04117012332145435,
+      1.6625179687145875,
+      1.2558470386753697,
+      -2.060546821357535,
+      0.24037019312473665,
+      2.703915713239716,
+      -2.243751859653639,
+      4.1077039701597995,
+      -0.11425118118877364,
+      0.9693380697695858,
+      1.584153066259671,
+      -1.3671864003269796,
+      -1.9375004331374905,
+      2.287700646300821,
+      -1.9937491180962978,
+      4.345771221124697,
+      0.34718188061734023,
+      2.156250381507937,
+      2.62687697965701,
+      -0.4233337670549638,
+      -0.03934584458424198,
+      2.70940576956689,
+      -0.4187534957512568,
+      3.8174354250941964,
+      -0.16274575782368003,
+      1.6187729775599258,
+      2.26992697065607,
+      -1.6757817417377736,
+      -2.4947923103952747,
+      2.1562999964235394,
+      -2.456249618573679,
+      3.891594278280226,
+      -0.29787614292524295,
+      1.0753487857406128,
+      2.6983648461216605,
+      -2.2812502861024235,
+      -3.3255223472877398,
+      3.062600738020763,
+      -2.306249904646772,
+      3.98227809454713,
+      0.3147310944753329,
+      2.2875003636033853,
+      2.50134031770574,
+      -0.6166491100532092,
+      -1.2965457649881766,
+      2.26251296952308,
+      -0.20625333182764366,
+      3.769134019953865,
+      -0.12063837579750256,
+      1.1252769935697373,
+      0.0002959280452955737,
+      -1.4570311904266395,
+      -2.54948087135025,
+      2.6595018545776483,
+      -2.931253337798033,
+      3.8720141338450547,
+      0.01522266789617674,
+      0.356201542179177,
+      0.41287476715777416,
+      -2.566404485790425,
+      -3.377606662094263,
+      2.9250184765042966,
+      -2.8062518119513684,
+      3.9325729063578962
+    ],
+    "positions": {
+      "1": {
+        "selected": {
+          "count": 54,
+          "denominator": 96,
+          "rate": 0.5625
+        },
+        "gold_count": 24,
+        "wrong_selections": 34,
+        "wrong_when_gold_elsewhere": {
+          "count": 34,
+          "denominator": 72,
+          "rate": 0.4722222222222222
+        },
+        "bias_flag": true
+      },
+      "2": {
+        "selected": {
+          "count": 9,
+          "denominator": 96,
+          "rate": 0.09375
+        },
+        "gold_count": 24,
+        "wrong_selections": 0,
+        "wrong_when_gold_elsewhere": {
+          "count": 0,
+          "denominator": 72,
+          "rate": 0.0
+        },
+        "bias_flag": false
+      },
+      "3": {
+        "selected": {
+          "count": 5,
+          "denominator": 96,
+          "rate": 0.052083333333333336
+        },
+        "gold_count": 24,
+        "wrong_selections": 0,
+        "wrong_when_gold_elsewhere": {
+          "count": 0,
+          "denominator": 72,
+          "rate": 0.0
+        },
+        "bias_flag": false
+      },
+      "4": {
+        "selected": {
+          "count": 28,
+          "denominator": 96,
+          "rate": 0.2916666666666667
+        },
+        "gold_count": 24,
+        "wrong_selections": 4,
+        "wrong_when_gold_elsewhere": {
+          "count": 4,
+          "denominator": 72,
+          "rate": 0.05555555555555555
+        },
+        "bias_flag": false
+      }
+    },
+    "POSITION_BIAS": true,
+    "ER": {
+      "count": 38,
+      "denominator": 96,
+      "rate": 0.3958333333333333
+    },
+    "GM": 0.4260537333189035,
+    "NBF": {
+      "count": 24,
+      "denominator": 96,
+      "rate": 0.25
+    }
+  },
+  "overall": {
+    "count": 96,
+    "C_valid": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "FSC": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "FCA": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "EFCA": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "LCA": {
+      "count": 95,
+      "denominator": 96,
+      "rate": 0.9895833333333334
+    },
+    "free_coverage": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "free_outset": {
+      "count": 0,
+      "denominator": 96,
+      "rate": 0.0
+    },
+    "free_truncated": 0,
+    "L_gold_top1": {
+      "count": 57,
+      "denominator": 96,
+      "rate": 0.59375
+    },
+    "gold_vs_best_wrong_margins": [
+      0.4828307133942104,
+      3.0249996125724046,
+      -4.0392680435373,
+      -0.21098206639279554,
+      3.0218782186185984,
+      3.2844314017584666,
+      -0.9187503159018704,
+      4.649609091724104,
+      0.6676123635786453,
+      2.7937476545839077,
+      -2.297058796271392,
+      -1.3398423403991706,
+      1.2688079083891175,
+      1.7001424700143313,
+      -2.24375157356601,
+      4.560824368062563,
+      0.3552602544211865,
+      1.881250808143521,
+      -2.0079359596650077,
+      -1.5390623956940805,
+      0.6512691973479512,
+      4.050077311197788,
+      -1.75624978778809,
+      4.557277023073818,
+      0.4392326994800328,
+      2.137503549465657,
+      1.8924977394148015,
+      -0.7771790520752575,
+      1.243817028098127,
+      -0.06757209301131298,
+      -1.043752253482289,
+      3.7072480985096554,
+      0.04117012332145435,
+      1.6625179687145875,
+      1.2558470386753697,
+      -2.060546821357535,
+      0.24037019312473665,
+      2.703915713239716,
+      -2.243751859653639,
+      4.1077039701597995,
+      -0.11425118118877364,
+      0.9693380697695858,
+      1.584153066259671,
+      -1.3671864003269796,
+      -1.9375004331374905,
+      2.287700646300821,
+      -1.9937491180962978,
+      4.345771221124697,
+      0.34718188061734023,
+      2.156250381507937,
+      2.62687697965701,
+      -0.4233337670549638,
+      -0.03934584458424198,
+      2.70940576956689,
+      -0.4187534957512568,
+      3.8174354250941964,
+      -0.16274575782368003,
+      1.6187729775599258,
+      2.26992697065607,
+      -1.6757817417377736,
+      -2.4947923103952747,
+      2.1562999964235394,
+      -2.456249618573679,
+      3.891594278280226,
+      -0.29787614292524295,
+      1.0753487857406128,
+      2.6983648461216605,
+      -2.2812502861024235,
+      -3.3255223472877398,
+      3.062600738020763,
+      -2.306249904646772,
+      3.98227809454713,
+      0.3147310944753329,
+      2.2875003636033853,
+      2.50134031770574,
+      -0.6166491100532092,
+      -1.2965457649881766,
+      2.26251296952308,
+      -0.20625333182764366,
+      3.769134019953865,
+      -0.12063837579750256,
+      1.1252769935697373,
+      0.0002959280452955737,
+      -1.4570311904266395,
+      -2.54948087135025,
+      2.6595018545776483,
+      -2.931253337798033,
+      3.8720141338450547,
+      0.01522266789617674,
+      0.356201542179177,
+      0.41287476715777416,
+      -2.566404485790425,
+      -3.377606662094263,
+      2.9250184765042966,
+      -2.8062518119513684,
+      3.9325729063578962
+    ],
+    "positions": {
+      "1": {
+        "selected": {
+          "count": 54,
+          "denominator": 96,
+          "rate": 0.5625
+        },
+        "gold_count": 24,
+        "wrong_selections": 34,
+        "wrong_when_gold_elsewhere": {
+          "count": 34,
+          "denominator": 72,
+          "rate": 0.4722222222222222
+        },
+        "bias_flag": true
+      },
+      "2": {
+        "selected": {
+          "count": 9,
+          "denominator": 96,
+          "rate": 0.09375
+        },
+        "gold_count": 24,
+        "wrong_selections": 0,
+        "wrong_when_gold_elsewhere": {
+          "count": 0,
+          "denominator": 72,
+          "rate": 0.0
+        },
+        "bias_flag": false
+      },
+      "3": {
+        "selected": {
+          "count": 5,
+          "denominator": 96,
+          "rate": 0.052083333333333336
+        },
+        "gold_count": 24,
+        "wrong_selections": 0,
+        "wrong_when_gold_elsewhere": {
+          "count": 0,
+          "denominator": 72,
+          "rate": 0.0
+        },
+        "bias_flag": false
+      },
+      "4": {
+        "selected": {
+          "count": 28,
+          "denominator": 96,
+          "rate": 0.2916666666666667
+        },
+        "gold_count": 24,
+        "wrong_selections": 4,
+        "wrong_when_gold_elsewhere": {
+          "count": 4,
+          "denominator": 72,
+          "rate": 0.05555555555555555
+        },
+        "bias_flag": false
+      }
+    },
+    "POSITION_BIAS": true,
+    "ER": {
+      "count": 38,
+      "denominator": 96,
+      "rate": 0.3958333333333333
+    },
+    "GM": 0.4260537333189035,
+    "NBF": {
+      "count": 24,
+      "denominator": 96,
+      "rate": 0.25
+    }
+  }
+}
