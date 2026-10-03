@@ -1,0 +1,2282 @@
+{
+  "development": {
+    "M1": {
+      "D0": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          6.215630221322614,
+          3.6875959641538145,
+          5.603126319246961,
+          5.103219327982758,
+          3.6944733875559623,
+          5.721935912219367
+        ],
+        "median_gold_margin": 5.353172823614859,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D1": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          5.281254672961666,
+          3.2969118321789392,
+          3.812500079492793,
+          4.1500400354785025,
+          3.5648753539429796,
+          5.318778044727277
+        ],
+        "median_gold_margin": 3.9812700574856477,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D2": {
+        "count": 6,
+        "TWER_C": {
+          "count": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "gold_vs_best_wrong_margins": [
+          -0.8187472984371894,
+          3.47820397220915,
+          3.4791669847058224,
+          5.256311703248263,
+          3.5507980426618593,
+          5.59067190568895
+        ],
+        "median_gold_margin": 3.514982513683841,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 3,
+              "denominator": 6,
+              "rate": 0.5
+            },
+            "gold_count": 2,
+            "wrong_selections": 1,
+            "wrong_when_gold_elsewhere": {
+              "count": 1,
+              "denominator": 4,
+              "rate": 0.25
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D3": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          6.534385394877591,
+          4.0375443884647115,
+          4.952655931313617,
+          4.8156371194019245,
+          3.4740510315407835,
+          5.50313533133425
+        ],
+        "median_gold_margin": 4.884146525357771,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      }
+    },
+    "M2": {
+      "D0": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          5.7968796650022885,
+          2.8554681599127223,
+          5.150000398499299,
+          4.807301540758026,
+          4.136161715639981,
+          4.180806572065244
+        ],
+        "median_gold_margin": 4.494054056411635,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D1": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          5.52812787689606,
+          2.8964851856078395,
+          5.059375510896194,
+          4.804685835051383,
+          4.223215474396262,
+          3.7656250034059795
+        ],
+        "median_gold_margin": 4.513950654723823,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D2": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          5.2187530040504555,
+          2.578125256291088,
+          4.662519106648145,
+          4.796874690055894,
+          4.05580421856303,
+          3.4196428605488345
+        ],
+        "median_gold_margin": 4.359161662605588,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D3": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          5.028134004140403,
+          2.349609157439602,
+          3.9843897371585366,
+          4.651040871940653,
+          4.071429382049022,
+          3.566964210782762
+        ],
+        "median_gold_margin": 4.0279095596037795,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      }
+    },
+    "M3": {
+      "D0": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          5.427643978595685,
+          6.421878901066073,
+          3.9888999909848697,
+          4.981254076934766,
+          3.904298678027372,
+          3.13476736246036
+        ],
+        "median_gold_margin": 4.485077033959818,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D1": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          6.012000731378519,
+          6.309396245849817,
+          3.9625250156116913,
+          5.699662141997967,
+          4.250001609312672,
+          3.9023462831739573
+        ],
+        "median_gold_margin": 4.974831875655319,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D2": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          4.300122883255655,
+          5.146914731950812,
+          3.743339785815786,
+          3.9143987875425132,
+          4.06640751659064,
+          3.306640964742781
+        ],
+        "median_gold_margin": 3.990403152066577,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D3": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          4.994617152213931,
+          5.371986734290187,
+          3.875073495416741,
+          5.120564047246647,
+          4.1269550919383775,
+          3.7617196202192273
+        ],
+        "median_gold_margin": 4.560786122076154,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      }
+    },
+    "M4": {
+      "D0": {
+        "count": 6,
+        "TWER_C": {
+          "count": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "gold_vs_best_wrong_margins": [
+          3.78711002765599,
+          5.228872401080613,
+          -0.19820847213216944,
+          3.9791665872009667,
+          6.3411489685061495,
+          3.8349624027737264
+        ],
+        "median_gold_margin": 3.9070644949873463,
+        "near_boundary": {
+          "count": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 1,
+            "wrong_selections": 1,
+            "wrong_when_gold_elsewhere": {
+              "count": 1,
+              "denominator": 5,
+              "rate": 0.2
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D1": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          3.5820322036582417,
+          4.993101498719899,
+          1.5812775607308365,
+          3.822916547475603,
+          5.958336456583766,
+          3.736332128422579
+        ],
+        "median_gold_margin": 3.779624337949091,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D2": {
+        "count": 6,
+        "TWER_C": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "gold_vs_best_wrong_margins": [
+          3.0605483293337308,
+          4.567020424733928,
+          1.69376557149084,
+          0.0676749726132698,
+          5.600262196844991,
+          3.134768734359241
+        ],
+        "median_gold_margin": 3.097658531846486,
+        "near_boundary": {
+          "count": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      },
+      "D3": {
+        "count": 6,
+        "TWER_C": {
+          "count": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        },
+        "C_valid": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FSC": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "FCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "EFCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "LCA": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_coverage": {
+          "count": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "free_outset": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "free_truncated": 0,
+        "L_gold_top1": {
+          "count": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "gold_vs_best_wrong_margins": [
+          2.3183606445605642,
+          4.447355528763694,
+          -0.5065332110970635,
+          -0.5553328096868119,
+          5.337253867930334,
+          2.5820327401096415
+        ],
+        "median_gold_margin": 2.450196692335103,
+        "near_boundary": {
+          "count": 0,
+          "denominator": 6,
+          "rate": 0.0
+        },
+        "positions": {
+          "1": {
+            "selected": {
+              "count": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "gold_count": 2,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 4,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          },
+          "2": {
+            "selected": {
+              "count": 3,
+              "denominator": 6,
+              "rate": 0.5
+            },
+            "gold_count": 2,
+            "wrong_selections": 1,
+            "wrong_when_gold_elsewhere": {
+              "count": 1,
+              "denominator": 4,
+              "rate": 0.25
+            },
+            "bias_flag": false
+          },
+          "3": {
+            "selected": {
+              "count": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "gold_count": 1,
+            "wrong_selections": 1,
+            "wrong_when_gold_elsewhere": {
+              "count": 1,
+              "denominator": 5,
+              "rate": 0.2
+            },
+            "bias_flag": false
+          },
+          "4": {
+            "selected": {
+              "count": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "gold_count": 1,
+            "wrong_selections": 0,
+            "wrong_when_gold_elsewhere": {
+              "count": 0,
+              "denominator": 5,
+              "rate": 0.0
+            },
+            "bias_flag": false
+          }
+        },
+        "POSITION_BIAS": false
+      }
+    }
+  },
+  "selection": {
+    "M1": {
+      "difficulty": "D2",
+      "provisional": false,
+      "reasons": [
+        "NO_STABLE_FRONTIER_FOUND",
+        "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+      ],
+      "status": "NO_STABLE_FRONTIER_FOUND"
+    },
+    "M2": {
+      "difficulty": "D0",
+      "provisional": false,
+      "reasons": [
+        "NO_STABLE_FRONTIER_FOUND",
+        "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+      ],
+      "status": "NO_STABLE_FRONTIER_FOUND"
+    },
+    "M3": {
+      "difficulty": "D0",
+      "provisional": false,
+      "reasons": [
+        "NO_STABLE_FRONTIER_FOUND",
+        "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+      ],
+      "status": "NO_STABLE_FRONTIER_FOUND"
+    },
+    "M4": {
+      "difficulty": "D3",
+      "provisional": false,
+      "reasons": [
+        "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+      ],
+      "status": "REJECTED"
+    }
+  },
+  "heldout": {},
+  "overall": {
+    "count": 96,
+    "TWER_C": {
+      "count": 4,
+      "denominator": 96,
+      "rate": 0.041666666666666664
+    },
+    "C_valid": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "FSC": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "FCA": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "EFCA": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "LCA": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "free_coverage": {
+      "count": 96,
+      "denominator": 96,
+      "rate": 1.0
+    },
+    "free_outset": {
+      "count": 0,
+      "denominator": 96,
+      "rate": 0.0
+    },
+    "free_truncated": 0,
+    "L_gold_top1": {
+      "count": 92,
+      "denominator": 96,
+      "rate": 0.9583333333333334
+    },
+    "gold_vs_best_wrong_margins": [
+      6.215630221322614,
+      3.6875959641538145,
+      5.603126319246961,
+      5.103219327982758,
+      3.6944733875559623,
+      5.721935912219367,
+      5.281254672961666,
+      3.2969118321789392,
+      3.812500079492793,
+      4.1500400354785025,
+      3.5648753539429796,
+      5.318778044727277,
+      -0.8187472984371894,
+      3.47820397220915,
+      3.4791669847058224,
+      5.256311703248263,
+      3.5507980426618593,
+      5.59067190568895,
+      6.534385394877591,
+      4.0375443884647115,
+      4.952655931313617,
+      4.8156371194019245,
+      3.4740510315407835,
+      5.50313533133425,
+      5.7968796650022885,
+      2.8554681599127223,
+      5.150000398499299,
+      4.807301540758026,
+      4.136161715639981,
+      4.180806572065244,
+      5.52812787689606,
+      2.8964851856078395,
+      5.059375510896194,
+      4.804685835051383,
+      4.223215474396262,
+      3.7656250034059795,
+      5.2187530040504555,
+      2.578125256291088,
+      4.662519106648145,
+      4.796874690055894,
+      4.05580421856303,
+      3.4196428605488345,
+      5.028134004140403,
+      2.349609157439602,
+      3.9843897371585366,
+      4.651040871940653,
+      4.071429382049022,
+      3.566964210782762,
+      5.427643978595685,
+      6.421878901066073,
+      3.9888999909848697,
+      4.981254076934766,
+      3.904298678027372,
+      3.13476736246036,
+      6.012000731378519,
+      6.309396245849817,
+      3.9625250156116913,
+      5.699662141997967,
+      4.250001609312672,
+      3.9023462831739573,
+      4.300122883255655,
+      5.146914731950812,
+      3.743339785815786,
+      3.9143987875425132,
+      4.06640751659064,
+      3.306640964742781,
+      4.994617152213931,
+      5.371986734290187,
+      3.875073495416741,
+      5.120564047246647,
+      4.1269550919383775,
+      3.7617196202192273,
+      3.78711002765599,
+      5.228872401080613,
+      -0.19820847213216944,
+      3.9791665872009667,
+      6.3411489685061495,
+      3.8349624027737264,
+      3.5820322036582417,
+      4.993101498719899,
+      1.5812775607308365,
+      3.822916547475603,
+      5.958336456583766,
+      3.736332128422579,
+      3.0605483293337308,
+      4.567020424733928,
+      1.69376557149084,
+      0.0676749726132698,
+      5.600262196844991,
+      3.134768734359241,
+      2.3183606445605642,
+      4.447355528763694,
+      -0.5065332110970635,
+      -0.5553328096868119,
+      5.337253867930334,
+      2.5820327401096415
+    ],
+    "median_gold_margin": 4.0991922369937,
+    "near_boundary": {
+      "count": 2,
+      "denominator": 96,
+      "rate": 0.020833333333333332
+    },
+    "positions": {
+      "1": {
+        "selected": {
+          "count": 29,
+          "denominator": 96,
+          "rate": 0.3020833333333333
+        },
+        "gold_count": 32,
+        "wrong_selections": 0,
+        "wrong_when_gold_elsewhere": {
+          "count": 0,
+          "denominator": 64,
+          "rate": 0.0
+        },
+        "bias_flag": false
+      },
+      "2": {
+        "selected": {
+          "count": 34,
+          "denominator": 96,
+          "rate": 0.3541666666666667
+        },
+        "gold_count": 32,
+        "wrong_selections": 2,
+        "wrong_when_gold_elsewhere": {
+          "count": 2,
+          "denominator": 64,
+          "rate": 0.03125
+        },
+        "bias_flag": false
+      },
+      "3": {
+        "selected": {
+          "count": 18,
+          "denominator": 96,
+          "rate": 0.1875
+        },
+        "gold_count": 16,
+        "wrong_selections": 2,
+        "wrong_when_gold_elsewhere": {
+          "count": 2,
+          "denominator": 80,
+          "rate": 0.025
+        },
+        "bias_flag": false
+      },
+      "4": {
+        "selected": {
+          "count": 15,
+          "denominator": 96,
+          "rate": 0.15625
+        },
+        "gold_count": 16,
+        "wrong_selections": 0,
+        "wrong_when_gold_elsewhere": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        },
+        "bias_flag": false
+      }
+    },
+    "POSITION_BIAS": false
+  }
+}

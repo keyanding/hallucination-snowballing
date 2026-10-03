@@ -1,0 +1,2264 @@
+[
+  {
+    "case_id": "heldout-shared-01",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "Legend of a Fighter",
+    "B": "Yuen Woo-ping",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 4,
+    "source_A": {
+      "title": "Legend of a Fighter",
+      "source_id": "f2ff844c0bda11eba7f7acde48001122",
+      "director": "Yuen Woo-ping",
+      "year": 1982,
+      "evidence": {
+        "title": "Legend of a Fighter",
+        "sentence_id": 3,
+        "text": "Directed by Yuen Woo-ping, the film starred Bryan Leung as the lead character."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Tinnu Anand",
+    "near_wrong_film": {
+      "title": "Duniya Meri Jeb Mein",
+      "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+      "director": "Tinnu Anand",
+      "year": 1979,
+      "evidence": {
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      },
+      "genre_evidence": [
+        {
+          "genre": "action",
+          "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Tinnu Anand",
+      "genre": "action",
+      "era": "1950–1999",
+      "year_gap": 10,
+      "gold_film": {
+        "title": "In the Line of Duty 4: Witness",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "director": "Yuen Woo-ping",
+        "year": 1989,
+        "evidence": {
+          "title": "In the Line of Duty 4: Witness",
+          "sentence_id": 1,
+          "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "4772896e0bdd11eba7f7acde48001122",
+            "title": "In the Line of Duty 4: Witness",
+            "sentence_id": 1,
+            "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Duniya Meri Jeb Mein",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "director": "Tinnu Anand",
+        "year": 1979,
+        "evidence": {
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+            "title": "Duniya Meri Jeb Mein",
+            "sentence_id": 0,
+            "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "action",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "title": "In the Line of Duty 4: Witness",
+        "sentence_id": 1,
+        "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+      },
+      "wrong_genre_evidence": {
+        "genre": "action",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      }
+    },
+    "nodes": {
+      "Rahul Rawail": "R513",
+      "Tinnu Anand": "R222",
+      "Ildikó Enyedi": "R683",
+      "Yuen Woo-ping": "R352"
+    },
+    "intermediate_nodes": [
+      "Q692",
+      "Q708"
+    ],
+    "leaf_order": [
+      "Tinnu Anand",
+      "Yuen Woo-ping",
+      "Ildikó Enyedi",
+      "Rahul Rawail"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-02",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "My 20th Century",
+    "B": "Ildikó Enyedi",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "My 20th Century",
+      "source_id": "52376a780bdc11eba7f7acde48001122",
+      "director": "Ildikó Enyedi",
+      "year": 1989,
+      "evidence": {
+        "title": "My 20th Century",
+        "sentence_id": 0,
+        "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+      },
+      "genre_evidence": [
+        {
+          "genre": "comedy",
+          "source_id": "52376a780bdc11eba7f7acde48001122",
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        },
+        {
+          "genre": "drama",
+          "source_id": "52376a780bdc11eba7f7acde48001122",
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        }
+      ]
+    },
+    "near_wrong": "Jan Svěrák",
+    "near_wrong_film": {
+      "title": "The Ride (1994 film)",
+      "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+      "director": "Jan Svěrák",
+      "year": 1994,
+      "evidence": {
+        "title": "The Ride (1994 film)",
+        "sentence_id": 0,
+        "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+          "title": "The Ride (1994 film)",
+          "sentence_id": 0,
+          "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Jan Svěrák",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "My 20th Century",
+        "source_id": "52376a780bdc11eba7f7acde48001122",
+        "director": "Ildikó Enyedi",
+        "year": 1989,
+        "evidence": {
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        },
+        "genre_evidence": [
+          {
+            "genre": "comedy",
+            "source_id": "52376a780bdc11eba7f7acde48001122",
+            "title": "My 20th Century",
+            "sentence_id": 0,
+            "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+          },
+          {
+            "genre": "drama",
+            "source_id": "52376a780bdc11eba7f7acde48001122",
+            "title": "My 20th Century",
+            "sentence_id": 0,
+            "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Ride (1994 film)",
+        "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+        "director": "Jan Svěrák",
+        "year": 1994,
+        "evidence": {
+          "title": "The Ride (1994 film)",
+          "sentence_id": 0,
+          "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+            "title": "The Ride (1994 film)",
+            "sentence_id": 0,
+            "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "52376a780bdc11eba7f7acde48001122",
+        "title": "My 20th Century",
+        "sentence_id": 0,
+        "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+        "title": "The Ride (1994 film)",
+        "sentence_id": 0,
+        "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+      }
+    },
+    "nodes": {
+      "Ildikó Enyedi": "R367",
+      "Jan Svěrák": "R309",
+      "Rahul Rawail": "R785",
+      "Yuen Woo-ping": "R833"
+    },
+    "intermediate_nodes": [
+      "Q421",
+      "Q344"
+    ],
+    "leaf_order": [
+      "Yuen Woo-ping",
+      "Ildikó Enyedi",
+      "Jan Svěrák",
+      "Rahul Rawail"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-03",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "Mirage (1972 film)",
+    "B": "Armando Robles Godoy",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Mirage (1972 film)",
+      "source_id": "b26e04e80bdb11eba7f7acde48001122",
+      "director": "Armando Robles Godoy",
+      "year": 1972,
+      "evidence": {
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b26e04e80bdb11eba7f7acde48001122",
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        }
+      ]
+    },
+    "near_wrong": "Leopoldo Torre Nilsson",
+    "near_wrong_film": {
+      "title": "Monday's Child (film)",
+      "source_id": "7b0efff80bda11eba7f7acde48001122",
+      "director": "Leopoldo Torre Nilsson",
+      "year": 1967,
+      "evidence": {
+        "title": "Monday's Child (film)",
+        "sentence_id": 0,
+        "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "7b0efff80bda11eba7f7acde48001122",
+          "title": "Monday's Child (film)",
+          "sentence_id": 0,
+          "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Leopoldo Torre Nilsson",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "Mirage (1972 film)",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "director": "Armando Robles Godoy",
+        "year": 1972,
+        "evidence": {
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b26e04e80bdb11eba7f7acde48001122",
+            "title": "Mirage (1972 film)",
+            "sentence_id": 0,
+            "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Monday's Child (film)",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "director": "Leopoldo Torre Nilsson",
+        "year": 1967,
+        "evidence": {
+          "title": "Monday's Child (film)",
+          "sentence_id": 0,
+          "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "7b0efff80bda11eba7f7acde48001122",
+            "title": "Monday's Child (film)",
+            "sentence_id": 0,
+            "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "title": "Monday's Child (film)",
+        "sentence_id": 0,
+        "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+      }
+    },
+    "nodes": {
+      "Leopoldo Torre Nilsson": "R568",
+      "Armando Robles Godoy": "R423",
+      "Tinnu Anand": "R869",
+      "Rahul Rawail": "R174"
+    },
+    "intermediate_nodes": [
+      "Q109",
+      "Q569"
+    ],
+    "leaf_order": [
+      "Armando Robles Godoy",
+      "Tinnu Anand",
+      "Rahul Rawail",
+      "Leopoldo Torre Nilsson"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-04",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "Homage at Siesta Time",
+    "B": "Leopoldo Torre Nilsson",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Homage at Siesta Time",
+      "source_id": "4a8ffd360bdb11eba7f7acde48001122",
+      "director": "Leopoldo Torre Nilsson",
+      "year": 1962,
+      "evidence": {
+        "title": "Homage at Siesta Time",
+        "sentence_id": 0,
+        "text": "Homage at Siesta Time (also known as \"Four Women for One Hero\") is a 1962 Argentine-French-Brazilian drama film written and directed by Leopoldo Torre Nilsson."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "4a8ffd360bdb11eba7f7acde48001122",
+          "title": "Homage at Siesta Time",
+          "sentence_id": 0,
+          "text": "Homage at Siesta Time (also known as \"Four Women for One Hero\") is a 1962 Argentine-French-Brazilian drama film written and directed by Leopoldo Torre Nilsson."
+        }
+      ]
+    },
+    "near_wrong": "Armando Robles Godoy",
+    "near_wrong_film": {
+      "title": "Mirage (1972 film)",
+      "source_id": "b26e04e80bdb11eba7f7acde48001122",
+      "director": "Armando Robles Godoy",
+      "year": 1972,
+      "evidence": {
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b26e04e80bdb11eba7f7acde48001122",
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Armando Robles Godoy",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "Monday's Child (film)",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "director": "Leopoldo Torre Nilsson",
+        "year": 1967,
+        "evidence": {
+          "title": "Monday's Child (film)",
+          "sentence_id": 0,
+          "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "7b0efff80bda11eba7f7acde48001122",
+            "title": "Monday's Child (film)",
+            "sentence_id": 0,
+            "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Mirage (1972 film)",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "director": "Armando Robles Godoy",
+        "year": 1972,
+        "evidence": {
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b26e04e80bdb11eba7f7acde48001122",
+            "title": "Mirage (1972 film)",
+            "sentence_id": 0,
+            "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "title": "Monday's Child (film)",
+        "sentence_id": 0,
+        "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      }
+    },
+    "nodes": {
+      "Armando Robles Godoy": "R235",
+      "Leopoldo Torre Nilsson": "R457",
+      "Tinnu Anand": "R170",
+      "Rahul Rawail": "R350"
+    },
+    "intermediate_nodes": [
+      "Q478",
+      "Q391"
+    ],
+    "leaf_order": [
+      "Armando Robles Godoy",
+      "Tinnu Anand",
+      "Rahul Rawail",
+      "Leopoldo Torre Nilsson"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-05",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "The Ride (1994 film)",
+    "B": "Jan Svěrák",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 3,
+    "source_A": {
+      "title": "The Ride (1994 film)",
+      "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+      "director": "Jan Svěrák",
+      "year": 1994,
+      "evidence": {
+        "title": "The Ride (1994 film)",
+        "sentence_id": 0,
+        "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+          "title": "The Ride (1994 film)",
+          "sentence_id": 0,
+          "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+        }
+      ]
+    },
+    "near_wrong": "Ildikó Enyedi",
+    "near_wrong_film": {
+      "title": "My 20th Century",
+      "source_id": "52376a780bdc11eba7f7acde48001122",
+      "director": "Ildikó Enyedi",
+      "year": 1989,
+      "evidence": {
+        "title": "My 20th Century",
+        "sentence_id": 0,
+        "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+      },
+      "genre_evidence": [
+        {
+          "genre": "comedy",
+          "source_id": "52376a780bdc11eba7f7acde48001122",
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        },
+        {
+          "genre": "drama",
+          "source_id": "52376a780bdc11eba7f7acde48001122",
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Ildikó Enyedi",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "The Ride (1994 film)",
+        "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+        "director": "Jan Svěrák",
+        "year": 1994,
+        "evidence": {
+          "title": "The Ride (1994 film)",
+          "sentence_id": 0,
+          "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+            "title": "The Ride (1994 film)",
+            "sentence_id": 0,
+            "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "My 20th Century",
+        "source_id": "52376a780bdc11eba7f7acde48001122",
+        "director": "Ildikó Enyedi",
+        "year": 1989,
+        "evidence": {
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        },
+        "genre_evidence": [
+          {
+            "genre": "comedy",
+            "source_id": "52376a780bdc11eba7f7acde48001122",
+            "title": "My 20th Century",
+            "sentence_id": 0,
+            "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+          },
+          {
+            "genre": "drama",
+            "source_id": "52376a780bdc11eba7f7acde48001122",
+            "title": "My 20th Century",
+            "sentence_id": 0,
+            "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "582f4d4c0bdc11eba7f7acde48001122",
+        "title": "The Ride (1994 film)",
+        "sentence_id": 0,
+        "text": "The Ride  is a 1994 Czech drama film directed by Jan Svěrák."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "52376a780bdc11eba7f7acde48001122",
+        "title": "My 20th Century",
+        "sentence_id": 0,
+        "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+      }
+    },
+    "nodes": {
+      "Rahul Rawail": "R783",
+      "Ildikó Enyedi": "R936",
+      "Jan Svěrák": "R667",
+      "Yuen Woo-ping": "R406"
+    },
+    "intermediate_nodes": [
+      "Q779",
+      "Q206"
+    ],
+    "leaf_order": [
+      "Jan Svěrák",
+      "Rahul Rawail",
+      "Yuen Woo-ping",
+      "Ildikó Enyedi"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-06",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "The Palace of Angels",
+    "B": "Walter Hugo Khouri",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "The Palace of Angels",
+      "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1970,
+      "evidence": {
+        "title": "The Palace of Angels",
+        "sentence_id": 0,
+        "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+          "title": "The Palace of Angels",
+          "sentence_id": 0,
+          "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "near_wrong": "Marcello Fondato",
+    "near_wrong_film": {
+      "title": "The Protagonists (1968 film)",
+      "source_id": "e043b86e0bda11eba7f7acde48001122",
+      "director": "Marcello Fondato",
+      "year": 1968,
+      "evidence": {
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "e043b86e0bda11eba7f7acde48001122",
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Marcello Fondato",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 0,
+      "gold_film": {
+        "title": "The Amorous Ones",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "director": "Walter Hugo Khouri",
+        "year": 1968,
+        "evidence": {
+          "title": "The Amorous Ones",
+          "sentence_id": 0,
+          "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "96b455c40bd911eba7f7acde48001122",
+            "title": "The Amorous Ones",
+            "sentence_id": 0,
+            "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Protagonists (1968 film)",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "director": "Marcello Fondato",
+        "year": 1968,
+        "evidence": {
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "e043b86e0bda11eba7f7acde48001122",
+            "title": "The Protagonists (1968 film)",
+            "sentence_id": 0,
+            "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "title": "The Amorous Ones",
+        "sentence_id": 0,
+        "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      }
+    },
+    "nodes": {
+      "Walter Hugo Khouri": "R378",
+      "James Goldstone": "R388",
+      "León Klimovsky": "R719",
+      "Marcello Fondato": "R315"
+    },
+    "intermediate_nodes": [
+      "Q834",
+      "Q451"
+    ],
+    "leaf_order": [
+      "Walter Hugo Khouri",
+      "Marcello Fondato",
+      "León Klimovsky",
+      "James Goldstone"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-07",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "They Only Kill Their Masters",
+    "B": "James Goldstone",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 3,
+    "source_A": {
+      "title": "They Only Kill Their Masters",
+      "source_id": "ae585fc20bd911eba7f7acde48001122",
+      "director": "James Goldstone",
+      "year": 1972,
+      "evidence": {
+        "title": "They Only Kill Their Masters",
+        "sentence_id": 0,
+        "text": "They Only Kill Their Masters is a 1972 American mystery film directed by James Goldstone, written by Lane Slate, and starring James Garner and Katharine Ross, with a supporting cast featuring Hal Holbrook, June Allyson, Tom Ewell, Peter Lawford, Edmond O'Brien, and Arthur O'Connell."
+      },
+      "genre_evidence": [
+        {
+          "genre": "mystery",
+          "source_id": "ae585fc20bd911eba7f7acde48001122",
+          "title": "They Only Kill Their Masters",
+          "sentence_id": 0,
+          "text": "They Only Kill Their Masters is a 1972 American mystery film directed by James Goldstone, written by Lane Slate, and starring James Garner and Katharine Ross, with a supporting cast featuring Hal Holbrook, June Allyson, Tom Ewell, Peter Lawford, Edmond O'Brien, and Arthur O'Connell."
+        }
+      ]
+    },
+    "near_wrong": "Walter Hugo Khouri",
+    "near_wrong_film": {
+      "title": "The Palace of Angels",
+      "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1970,
+      "evidence": {
+        "title": "The Palace of Angels",
+        "sentence_id": 0,
+        "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+          "title": "The Palace of Angels",
+          "sentence_id": 0,
+          "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Walter Hugo Khouri",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 1,
+      "gold_film": {
+        "title": "Red Sky at Morning (1971 film)",
+        "source_id": "e1cfab340bda11eba7f7acde48001122",
+        "director": "James Goldstone",
+        "year": 1971,
+        "evidence": {
+          "title": "Red Sky at Morning (1971 film)",
+          "sentence_id": 1,
+          "text": "Directed by James Goldstone, it stars Richard Thomas, Catherine Burns, and Desi Arnaz, Jr."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "e1cfab340bda11eba7f7acde48001122",
+            "title": "Red Sky at Morning (1971 film)",
+            "sentence_id": 0,
+            "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Palace of Angels",
+        "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+        "director": "Walter Hugo Khouri",
+        "year": 1970,
+        "evidence": {
+          "title": "The Palace of Angels",
+          "sentence_id": 0,
+          "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+            "title": "The Palace of Angels",
+            "sentence_id": 0,
+            "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "e1cfab340bda11eba7f7acde48001122",
+        "title": "Red Sky at Morning (1971 film)",
+        "sentence_id": 0,
+        "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+        "title": "The Palace of Angels",
+        "sentence_id": 0,
+        "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+      }
+    },
+    "nodes": {
+      "Walter Hugo Khouri": "R357",
+      "León Klimovsky": "R966",
+      "James Goldstone": "R152",
+      "Marcello Fondato": "R194"
+    },
+    "intermediate_nodes": [
+      "Q749",
+      "Q533"
+    ],
+    "leaf_order": [
+      "León Klimovsky",
+      "Marcello Fondato",
+      "Walter Hugo Khouri",
+      "James Goldstone"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-08",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "The Female: Seventy Times Seven",
+    "B": "Leopoldo Torre Nilsson",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 3,
+    "source_A": {
+      "title": "The Female: Seventy Times Seven",
+      "source_id": "ab95c9260bdb11eba7f7acde48001122",
+      "director": "Leopoldo Torre Nilsson",
+      "year": 1962,
+      "evidence": {
+        "title": "The Female: Seventy Times Seven",
+        "sentence_id": 0,
+        "text": "The Female: Seventy Times Seven  is a 1962 Argentine drama film directed by Leopoldo Torre Nilsson."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "ab95c9260bdb11eba7f7acde48001122",
+          "title": "The Female: Seventy Times Seven",
+          "sentence_id": 0,
+          "text": "The Female: Seventy Times Seven  is a 1962 Argentine drama film directed by Leopoldo Torre Nilsson."
+        }
+      ]
+    },
+    "near_wrong": "Armando Robles Godoy",
+    "near_wrong_film": {
+      "title": "Mirage (1972 film)",
+      "source_id": "b26e04e80bdb11eba7f7acde48001122",
+      "director": "Armando Robles Godoy",
+      "year": 1972,
+      "evidence": {
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b26e04e80bdb11eba7f7acde48001122",
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Armando Robles Godoy",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "Monday's Child (film)",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "director": "Leopoldo Torre Nilsson",
+        "year": 1967,
+        "evidence": {
+          "title": "Monday's Child (film)",
+          "sentence_id": 0,
+          "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "7b0efff80bda11eba7f7acde48001122",
+            "title": "Monday's Child (film)",
+            "sentence_id": 0,
+            "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Mirage (1972 film)",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "director": "Armando Robles Godoy",
+        "year": 1972,
+        "evidence": {
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b26e04e80bdb11eba7f7acde48001122",
+            "title": "Mirage (1972 film)",
+            "sentence_id": 0,
+            "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "title": "Monday's Child (film)",
+        "sentence_id": 0,
+        "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      }
+    },
+    "nodes": {
+      "Rahul Rawail": "R752",
+      "Armando Robles Godoy": "R368",
+      "Leopoldo Torre Nilsson": "R265",
+      "Tinnu Anand": "R859"
+    },
+    "intermediate_nodes": [
+      "Q552",
+      "Q664"
+    ],
+    "leaf_order": [
+      "Armando Robles Godoy",
+      "Rahul Rawail",
+      "Leopoldo Torre Nilsson",
+      "Tinnu Anand"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-09",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "Redhead (1962 film)",
+    "B": "Helmut Käutner",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 4,
+    "source_A": {
+      "title": "Redhead (1962 film)",
+      "source_id": "56064d800bdd11eba7f7acde48001122",
+      "director": "Helmut Käutner",
+      "year": 1962,
+      "evidence": {
+        "title": "Redhead (1962 film)",
+        "sentence_id": 0,
+        "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "56064d800bdd11eba7f7acde48001122",
+          "title": "Redhead (1962 film)",
+          "sentence_id": 0,
+          "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+        }
+      ]
+    },
+    "near_wrong": "Fridrikh Ermler",
+    "near_wrong_film": {
+      "title": "The Great Citizen",
+      "source_id": "456aadbc0bd911eba7f7acde48001122",
+      "director": "Fridrikh Ermler",
+      "year": 1938,
+      "evidence": {
+        "title": "The Great Citizen",
+        "sentence_id": 0,
+        "text": "The Great Citizen  is a 1938 Soviet biopic film directed by Fridrikh Ermler."
+      },
+      "genre_evidence": []
+    },
+    "shared_attributes": {
+      "wrong": "Fridrikh Ermler",
+      "genre": "drama",
+      "era": "1900–1949",
+      "year_gap": 15,
+      "gold_film": {
+        "title": "Große Freiheit Nr. 7",
+        "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+        "director": "Helmut Käutner",
+        "year": 1944,
+        "evidence": {
+          "title": "Große Freiheit Nr. 7",
+          "sentence_id": 1,
+          "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+        },
+        "genre_evidence": [
+          {
+            "genre": "musical",
+            "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+            "title": "Große Freiheit Nr. 7",
+            "sentence_id": 1,
+            "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+          },
+          {
+            "genre": "drama",
+            "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+            "title": "Große Freiheit Nr. 7",
+            "sentence_id": 1,
+            "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Fragment of an Empire",
+        "source_id": "3011c56a0bdc11eba7f7acde48001122",
+        "director": "Fridrikh Ermler",
+        "year": 1929,
+        "evidence": {
+          "title": "Fragment of an Empire",
+          "sentence_id": 0,
+          "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+        },
+        "genre_evidence": [
+          {
+            "genre": "silent",
+            "source_id": "3011c56a0bdc11eba7f7acde48001122",
+            "title": "Fragment of an Empire",
+            "sentence_id": 0,
+            "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+          },
+          {
+            "genre": "drama",
+            "source_id": "3011c56a0bdc11eba7f7acde48001122",
+            "title": "Fragment of an Empire",
+            "sentence_id": 0,
+            "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+        "title": "Große Freiheit Nr. 7",
+        "sentence_id": 1,
+        "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "3011c56a0bdc11eba7f7acde48001122",
+        "title": "Fragment of an Empire",
+        "sentence_id": 0,
+        "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+      }
+    },
+    "nodes": {
+      "Rolf Schübel": "R807",
+      "Feng Xiaoning": "R252",
+      "Fridrikh Ermler": "R658",
+      "Helmut Käutner": "R136"
+    },
+    "intermediate_nodes": [
+      "Q954",
+      "Q478"
+    ],
+    "leaf_order": [
+      "Fridrikh Ermler",
+      "Rolf Schübel",
+      "Helmut Käutner",
+      "Feng Xiaoning"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-10",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "Summer Skin (film)",
+    "B": "Leopoldo Torre Nilsson",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Summer Skin (film)",
+      "source_id": "9a7f003a0bdb11eba7f7acde48001122",
+      "director": "Leopoldo Torre Nilsson",
+      "year": 1961,
+      "evidence": {
+        "title": "Summer Skin (film)",
+        "sentence_id": 0,
+        "text": "Summer Skin  is a 1961 Argentine film directed by Leopoldo Torre Nilsson."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Armando Robles Godoy",
+    "near_wrong_film": {
+      "title": "Mirage (1972 film)",
+      "source_id": "b26e04e80bdb11eba7f7acde48001122",
+      "director": "Armando Robles Godoy",
+      "year": 1972,
+      "evidence": {
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b26e04e80bdb11eba7f7acde48001122",
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Armando Robles Godoy",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "Monday's Child (film)",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "director": "Leopoldo Torre Nilsson",
+        "year": 1967,
+        "evidence": {
+          "title": "Monday's Child (film)",
+          "sentence_id": 0,
+          "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "7b0efff80bda11eba7f7acde48001122",
+            "title": "Monday's Child (film)",
+            "sentence_id": 0,
+            "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Mirage (1972 film)",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "director": "Armando Robles Godoy",
+        "year": 1972,
+        "evidence": {
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b26e04e80bdb11eba7f7acde48001122",
+            "title": "Mirage (1972 film)",
+            "sentence_id": 0,
+            "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "title": "Monday's Child (film)",
+        "sentence_id": 0,
+        "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      }
+    },
+    "nodes": {
+      "Rahul Rawail": "R473",
+      "Leopoldo Torre Nilsson": "R915",
+      "Tinnu Anand": "R981",
+      "Armando Robles Godoy": "R140"
+    },
+    "intermediate_nodes": [
+      "Q466",
+      "Q315"
+    ],
+    "leaf_order": [
+      "Armando Robles Godoy",
+      "Rahul Rawail",
+      "Tinnu Anand",
+      "Leopoldo Torre Nilsson"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-11",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "Duniya Meri Jeb Mein",
+    "B": "Tinnu Anand",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 4,
+    "source_A": {
+      "title": "Duniya Meri Jeb Mein",
+      "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+      "director": "Tinnu Anand",
+      "year": 1979,
+      "evidence": {
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      },
+      "genre_evidence": [
+        {
+          "genre": "action",
+          "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        }
+      ]
+    },
+    "near_wrong": "Yuen Woo-ping",
+    "near_wrong_film": {
+      "title": "Legend of a Fighter",
+      "source_id": "f2ff844c0bda11eba7f7acde48001122",
+      "director": "Yuen Woo-ping",
+      "year": 1982,
+      "evidence": {
+        "title": "Legend of a Fighter",
+        "sentence_id": 3,
+        "text": "Directed by Yuen Woo-ping, the film starred Bryan Leung as the lead character."
+      },
+      "genre_evidence": []
+    },
+    "shared_attributes": {
+      "wrong": "Yuen Woo-ping",
+      "genre": "action",
+      "era": "1950–1999",
+      "year_gap": 10,
+      "gold_film": {
+        "title": "Duniya Meri Jeb Mein",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "director": "Tinnu Anand",
+        "year": 1979,
+        "evidence": {
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+            "title": "Duniya Meri Jeb Mein",
+            "sentence_id": 0,
+            "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "In the Line of Duty 4: Witness",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "director": "Yuen Woo-ping",
+        "year": 1989,
+        "evidence": {
+          "title": "In the Line of Duty 4: Witness",
+          "sentence_id": 1,
+          "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "4772896e0bdd11eba7f7acde48001122",
+            "title": "In the Line of Duty 4: Witness",
+            "sentence_id": 1,
+            "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "action",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      },
+      "wrong_genre_evidence": {
+        "genre": "action",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "title": "In the Line of Duty 4: Witness",
+        "sentence_id": 1,
+        "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+      }
+    },
+    "nodes": {
+      "Yuen Woo-ping": "R735",
+      "Armando Robles Godoy": "R867",
+      "Rahul Rawail": "R258",
+      "Tinnu Anand": "R342"
+    },
+    "intermediate_nodes": [
+      "Q985",
+      "Q266"
+    ],
+    "leaf_order": [
+      "Rahul Rawail",
+      "Yuen Woo-ping",
+      "Tinnu Anand",
+      "Armando Robles Godoy"
+    ]
+  },
+  {
+    "case_id": "heldout-shared-12",
+    "split": "heldout",
+    "mechanism": null,
+    "A": "In the Line of Duty 4: Witness",
+    "B": "Yuen Woo-ping",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "In the Line of Duty 4: Witness",
+      "source_id": "4772896e0bdd11eba7f7acde48001122",
+      "director": "Yuen Woo-ping",
+      "year": 1989,
+      "evidence": {
+        "title": "In the Line of Duty 4: Witness",
+        "sentence_id": 1,
+        "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+      },
+      "genre_evidence": [
+        {
+          "genre": "action",
+          "source_id": "4772896e0bdd11eba7f7acde48001122",
+          "title": "In the Line of Duty 4: Witness",
+          "sentence_id": 1,
+          "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+        }
+      ]
+    },
+    "near_wrong": "Tinnu Anand",
+    "near_wrong_film": {
+      "title": "Duniya Meri Jeb Mein",
+      "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+      "director": "Tinnu Anand",
+      "year": 1979,
+      "evidence": {
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      },
+      "genre_evidence": [
+        {
+          "genre": "action",
+          "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Tinnu Anand",
+      "genre": "action",
+      "era": "1950–1999",
+      "year_gap": 10,
+      "gold_film": {
+        "title": "In the Line of Duty 4: Witness",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "director": "Yuen Woo-ping",
+        "year": 1989,
+        "evidence": {
+          "title": "In the Line of Duty 4: Witness",
+          "sentence_id": 1,
+          "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "4772896e0bdd11eba7f7acde48001122",
+            "title": "In the Line of Duty 4: Witness",
+            "sentence_id": 1,
+            "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Duniya Meri Jeb Mein",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "director": "Tinnu Anand",
+        "year": 1979,
+        "evidence": {
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+            "title": "Duniya Meri Jeb Mein",
+            "sentence_id": 0,
+            "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "action",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "title": "In the Line of Duty 4: Witness",
+        "sentence_id": 1,
+        "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+      },
+      "wrong_genre_evidence": {
+        "genre": "action",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      }
+    },
+    "nodes": {
+      "Yuen Woo-ping": "R901",
+      "Rahul Rawail": "R521",
+      "Ildikó Enyedi": "R921",
+      "Tinnu Anand": "R785"
+    },
+    "intermediate_nodes": [
+      "Q984",
+      "Q852"
+    ],
+    "leaf_order": [
+      "Ildikó Enyedi",
+      "Yuen Woo-ping",
+      "Tinnu Anand",
+      "Rahul Rawail"
+    ]
+  }
+]

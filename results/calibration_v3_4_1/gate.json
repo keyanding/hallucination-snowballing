@@ -1,0 +1,8 @@
+{
+  "pass_gate": false,
+  "statistical_qualifiers": [],
+  "human_audit_status": "PENDING_INDEPENDENT_HUMAN_REVIEW",
+  "reason": "No stable confirmed frontier",
+  "v35_authorized": false,
+  "downstream_branches_run": 0
+}

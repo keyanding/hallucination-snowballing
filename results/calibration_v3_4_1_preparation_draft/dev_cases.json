@@ -1,0 +1,3665 @@
+[
+  {
+    "case_id": "dev-M1-01",
+    "split": "dev",
+    "mechanism": "M1",
+    "A": "El Hombre que Vino del Odio",
+    "B": "León Klimovsky",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "El Hombre que Vino del Odio",
+      "source_id": "53b662800bde11eba7f7acde48001122",
+      "director": "León Klimovsky",
+      "year": 1971,
+      "evidence": {
+        "title": "El Hombre que Vino del Odio",
+        "sentence_id": 0,
+        "text": "El Hombre que Vino del Odio (also known as The Man Who Came from Hate and Run for Your Life) is a 1971 film directed by León Klimovsky."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "James Goldstone",
+    "near_wrong_film": {
+      "title": "Red Sky at Morning (1971 film)",
+      "source_id": "e1cfab340bda11eba7f7acde48001122",
+      "director": "James Goldstone",
+      "year": 1971,
+      "evidence": {
+        "title": "Red Sky at Morning (1971 film)",
+        "sentence_id": 1,
+        "text": "Directed by James Goldstone, it stars Richard Thomas, Catherine Burns, and Desi Arnaz, Jr."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "e1cfab340bda11eba7f7acde48001122",
+          "title": "Red Sky at Morning (1971 film)",
+          "sentence_id": 0,
+          "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "León Klimovsky": "R489",
+      "Walter Hugo Khouri": "R199",
+      "Marcello Fondato": "R467",
+      "James Goldstone": "R967"
+    },
+    "intermediate_nodes": [
+      "Q452",
+      "Q718"
+    ],
+    "leaf_order": [
+      "James Goldstone",
+      "Walter Hugo Khouri",
+      "León Klimovsky",
+      "Marcello Fondato"
+    ]
+  },
+  {
+    "case_id": "dev-M1-02",
+    "split": "dev",
+    "mechanism": "M1",
+    "A": "Yodha (1991 film)",
+    "B": "Rahul Rawail",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 4,
+    "source_A": {
+      "title": "Yodha (1991 film)",
+      "source_id": "4f9f03660bdc11eba7f7acde48001122",
+      "director": "Rahul Rawail",
+      "year": 1991,
+      "evidence": {
+        "title": "Yodha (1991 film)",
+        "sentence_id": 0,
+        "text": "Yodha is a 1991 Indian Bollywood film directed by Rahul Rawail."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Ildikó Enyedi",
+    "near_wrong_film": {
+      "title": "My 20th Century",
+      "source_id": "52376a780bdc11eba7f7acde48001122",
+      "director": "Ildikó Enyedi",
+      "year": 1989,
+      "evidence": {
+        "title": "My 20th Century",
+        "sentence_id": 0,
+        "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+      },
+      "genre_evidence": [
+        {
+          "genre": "comedy",
+          "source_id": "52376a780bdc11eba7f7acde48001122",
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        },
+        {
+          "genre": "drama",
+          "source_id": "52376a780bdc11eba7f7acde48001122",
+          "title": "My 20th Century",
+          "sentence_id": 0,
+          "text": "My 20th Century  is a 1989 Hungarian comedy-drama film written and directed by Ildikó Enyedi."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Yuen Woo-ping": "R487",
+      "Ildikó Enyedi": "R180",
+      "Jan Svěrák": "R665",
+      "Rahul Rawail": "R400"
+    },
+    "intermediate_nodes": [
+      "Q949",
+      "Q743"
+    ],
+    "leaf_order": [
+      "Ildikó Enyedi",
+      "Yuen Woo-ping",
+      "Rahul Rawail",
+      "Jan Svěrák"
+    ]
+  },
+  {
+    "case_id": "dev-M1-03",
+    "split": "dev",
+    "mechanism": "M1",
+    "A": "Love on the Cloud",
+    "B": "Gu Changwei",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "Love on the Cloud",
+      "source_id": "e9a74ce40bdb11eba7f7acde48001122",
+      "director": "Gu Changwei",
+      "year": 2014,
+      "evidence": {
+        "title": "Love on the Cloud",
+        "sentence_id": 0,
+        "text": "Love on the Cloud  is a 2014 Chinese romantic comedy film directed by Gu Changwei."
+      },
+      "genre_evidence": [
+        {
+          "genre": "comedy",
+          "source_id": "e9a74ce40bdb11eba7f7acde48001122",
+          "title": "Love on the Cloud",
+          "sentence_id": 0,
+          "text": "Love on the Cloud  is a 2014 Chinese romantic comedy film directed by Gu Changwei."
+        }
+      ]
+    },
+    "near_wrong": "Anil Das",
+    "near_wrong_film": {
+      "title": "Alice: A True Story",
+      "source_id": "35aaea880bdc11eba7f7acde48001122",
+      "director": "Anil Das",
+      "year": 2014,
+      "evidence": {
+        "title": "Alice: A True Story",
+        "sentence_id": 1,
+        "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+      },
+      "genre_evidence": [
+        {
+          "genre": "psychological",
+          "source_id": "35aaea880bdc11eba7f7acde48001122",
+          "title": "Alice: A True Story",
+          "sentence_id": 1,
+          "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Gu Changwei": "R146",
+      "Rodrigo Grande": "R777",
+      "Anil Das": "R333",
+      "Rolf Schübel": "R891"
+    },
+    "intermediate_nodes": [
+      "Q396",
+      "Q181"
+    ],
+    "leaf_order": [
+      "Anil Das",
+      "Rolf Schübel",
+      "Gu Changwei",
+      "Rodrigo Grande"
+    ]
+  },
+  {
+    "case_id": "dev-M1-04",
+    "split": "dev",
+    "mechanism": "M1",
+    "A": "Jail Yatra",
+    "B": "Bhappi Sonie",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Jail Yatra",
+      "source_id": "4c17ce2a0bdd11eba7f7acde48001122",
+      "director": "Bhappi Sonie",
+      "year": 1981,
+      "evidence": {
+        "title": "Jail Yatra",
+        "sentence_id": 0,
+        "text": "Jail Yatra is a 1981 Indian Bollywood film directed by Bhappi Sonie."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Walter Hugo Khouri",
+    "near_wrong_film": {
+      "title": "Eros, o Deus do Amor",
+      "source_id": "397b2ab60bdb11eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1981,
+      "evidence": {
+        "title": "Eros, o Deus do Amor",
+        "sentence_id": 0,
+        "text": "Eros, o Deus do Amor (English: \"Eros, the god of love\") is a 1981 Brazilian drama film directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "397b2ab60bdb11eba7f7acde48001122",
+          "title": "Eros, o Deus do Amor",
+          "sentence_id": 0,
+          "text": "Eros, o Deus do Amor (English: \"Eros, the god of love\") is a 1981 Brazilian drama film directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Walter Hugo Khouri": "R750",
+      "Bhappi Sonie": "R954",
+      "León Klimovsky": "R473",
+      "James Goldstone": "R266"
+    },
+    "intermediate_nodes": [
+      "Q479",
+      "Q463"
+    ],
+    "leaf_order": [
+      "Walter Hugo Khouri",
+      "James Goldstone",
+      "León Klimovsky",
+      "Bhappi Sonie"
+    ]
+  },
+  {
+    "case_id": "dev-M1-05",
+    "split": "dev",
+    "mechanism": "M1",
+    "A": "At the End of the Tunnel",
+    "B": "Rodrigo Grande",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "At the End of the Tunnel",
+      "source_id": "c40d35580bda11eba7f7acde48001122",
+      "director": "Rodrigo Grande",
+      "year": 2016,
+      "evidence": {
+        "title": "At the End of the Tunnel",
+        "sentence_id": 0,
+        "text": "At the End of the Tunnel  is a 2016 Argentine crime thriller film directed by Rodrigo Grande."
+      },
+      "genre_evidence": [
+        {
+          "genre": "crime",
+          "source_id": "c40d35580bda11eba7f7acde48001122",
+          "title": "At the End of the Tunnel",
+          "sentence_id": 0,
+          "text": "At the End of the Tunnel  is a 2016 Argentine crime thriller film directed by Rodrigo Grande."
+        },
+        {
+          "genre": "thriller",
+          "source_id": "c40d35580bda11eba7f7acde48001122",
+          "title": "At the End of the Tunnel",
+          "sentence_id": 0,
+          "text": "At the End of the Tunnel  is a 2016 Argentine crime thriller film directed by Rodrigo Grande."
+        }
+      ]
+    },
+    "near_wrong": "Anil Das",
+    "near_wrong_film": {
+      "title": "Alice: A True Story",
+      "source_id": "35aaea880bdc11eba7f7acde48001122",
+      "director": "Anil Das",
+      "year": 2014,
+      "evidence": {
+        "title": "Alice: A True Story",
+        "sentence_id": 1,
+        "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+      },
+      "genre_evidence": [
+        {
+          "genre": "psychological",
+          "source_id": "35aaea880bdc11eba7f7acde48001122",
+          "title": "Alice: A True Story",
+          "sentence_id": 1,
+          "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Gu Changwei": "R723",
+      "Rodrigo Grande": "R750",
+      "Anil Das": "R275",
+      "Rolf Schübel": "R646"
+    },
+    "intermediate_nodes": [
+      "Q846",
+      "Q350"
+    ],
+    "leaf_order": [
+      "Gu Changwei",
+      "Anil Das",
+      "Rolf Schübel",
+      "Rodrigo Grande"
+    ]
+  },
+  {
+    "case_id": "dev-M1-06",
+    "split": "dev",
+    "mechanism": "M1",
+    "A": "Chalta Purza",
+    "B": "Bhappi Sonie",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 3,
+    "source_A": {
+      "title": "Chalta Purza",
+      "source_id": "b0a2e8ba0bd911eba7f7acde48001122",
+      "director": "Bhappi Sonie",
+      "year": 1977,
+      "evidence": {
+        "title": "Chalta Purza",
+        "sentence_id": 0,
+        "text": "Chalta Purza  is a 1977 Bollywood action thriller film directed by Bhappi Sonie."
+      },
+      "genre_evidence": [
+        {
+          "genre": "action",
+          "source_id": "b0a2e8ba0bd911eba7f7acde48001122",
+          "title": "Chalta Purza",
+          "sentence_id": 0,
+          "text": "Chalta Purza  is a 1977 Bollywood action thriller film directed by Bhappi Sonie."
+        },
+        {
+          "genre": "thriller",
+          "source_id": "b0a2e8ba0bd911eba7f7acde48001122",
+          "title": "Chalta Purza",
+          "sentence_id": 0,
+          "text": "Chalta Purza  is a 1977 Bollywood action thriller film directed by Bhappi Sonie."
+        }
+      ]
+    },
+    "near_wrong": "Walter Hugo Khouri",
+    "near_wrong_film": {
+      "title": "Eros, o Deus do Amor",
+      "source_id": "397b2ab60bdb11eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1981,
+      "evidence": {
+        "title": "Eros, o Deus do Amor",
+        "sentence_id": 0,
+        "text": "Eros, o Deus do Amor (English: \"Eros, the god of love\") is a 1981 Brazilian drama film directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "397b2ab60bdb11eba7f7acde48001122",
+          "title": "Eros, o Deus do Amor",
+          "sentence_id": 0,
+          "text": "Eros, o Deus do Amor (English: \"Eros, the god of love\") is a 1981 Brazilian drama film directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "León Klimovsky": "R801",
+      "Walter Hugo Khouri": "R432",
+      "Bhappi Sonie": "R963",
+      "James Goldstone": "R886"
+    },
+    "intermediate_nodes": [
+      "Q894",
+      "Q157"
+    ],
+    "leaf_order": [
+      "Bhappi Sonie",
+      "James Goldstone",
+      "León Klimovsky",
+      "Walter Hugo Khouri"
+    ]
+  },
+  {
+    "case_id": "dev-M2-01",
+    "split": "dev",
+    "mechanism": "M2",
+    "A": "Eros, o Deus do Amor",
+    "B": "Walter Hugo Khouri",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "Eros, o Deus do Amor",
+      "source_id": "397b2ab60bdb11eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1981,
+      "evidence": {
+        "title": "Eros, o Deus do Amor",
+        "sentence_id": 0,
+        "text": "Eros, o Deus do Amor (English: \"Eros, the god of love\") is a 1981 Brazilian drama film directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "397b2ab60bdb11eba7f7acde48001122",
+          "title": "Eros, o Deus do Amor",
+          "sentence_id": 0,
+          "text": "Eros, o Deus do Amor (English: \"Eros, the god of love\") is a 1981 Brazilian drama film directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "near_wrong": "Marcello Fondato",
+    "near_wrong_film": {
+      "title": "The Protagonists (1968 film)",
+      "source_id": "e043b86e0bda11eba7f7acde48001122",
+      "director": "Marcello Fondato",
+      "year": 1968,
+      "evidence": {
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "e043b86e0bda11eba7f7acde48001122",
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Marcello Fondato",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 0,
+      "gold_film": {
+        "title": "The Amorous Ones",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "director": "Walter Hugo Khouri",
+        "year": 1968,
+        "evidence": {
+          "title": "The Amorous Ones",
+          "sentence_id": 0,
+          "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "96b455c40bd911eba7f7acde48001122",
+            "title": "The Amorous Ones",
+            "sentence_id": 0,
+            "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Protagonists (1968 film)",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "director": "Marcello Fondato",
+        "year": 1968,
+        "evidence": {
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "e043b86e0bda11eba7f7acde48001122",
+            "title": "The Protagonists (1968 film)",
+            "sentence_id": 0,
+            "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "title": "The Amorous Ones",
+        "sentence_id": 0,
+        "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      }
+    },
+    "nodes": {
+      "Walter Hugo Khouri": "R505",
+      "James Goldstone": "R758",
+      "Bhappi Sonie": "R569",
+      "Marcello Fondato": "R246"
+    },
+    "intermediate_nodes": [
+      "Q371",
+      "Q242"
+    ],
+    "leaf_order": [
+      "Walter Hugo Khouri",
+      "Marcello Fondato",
+      "Bhappi Sonie",
+      "James Goldstone"
+    ]
+  },
+  {
+    "case_id": "dev-M2-02",
+    "split": "dev",
+    "mechanism": "M2",
+    "A": "Walerjan Wrobel's Homesickness",
+    "B": "Rolf Schübel",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Walerjan Wrobel's Homesickness",
+      "source_id": "78249bea0bda11eba7f7acde48001122",
+      "director": "Rolf Schübel",
+      "year": 1991,
+      "evidence": {
+        "title": "Walerjan Wrobel's Homesickness",
+        "sentence_id": 0,
+        "text": "Walerjan Wrobel's Homesickness  is a 1991 German drama film directed by Rolf Schübel."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "78249bea0bda11eba7f7acde48001122",
+          "title": "Walerjan Wrobel's Homesickness",
+          "sentence_id": 0,
+          "text": "Walerjan Wrobel's Homesickness  is a 1991 German drama film directed by Rolf Schübel."
+        }
+      ]
+    },
+    "near_wrong": "Helmut Käutner",
+    "near_wrong_film": {
+      "title": "Redhead (1962 film)",
+      "source_id": "56064d800bdd11eba7f7acde48001122",
+      "director": "Helmut Käutner",
+      "year": 1962,
+      "evidence": {
+        "title": "Redhead (1962 film)",
+        "sentence_id": 0,
+        "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "56064d800bdd11eba7f7acde48001122",
+          "title": "Redhead (1962 film)",
+          "sentence_id": 0,
+          "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Helmut Käutner",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 29,
+      "gold_film": {
+        "title": "Walerjan Wrobel's Homesickness",
+        "source_id": "78249bea0bda11eba7f7acde48001122",
+        "director": "Rolf Schübel",
+        "year": 1991,
+        "evidence": {
+          "title": "Walerjan Wrobel's Homesickness",
+          "sentence_id": 0,
+          "text": "Walerjan Wrobel's Homesickness  is a 1991 German drama film directed by Rolf Schübel."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "78249bea0bda11eba7f7acde48001122",
+            "title": "Walerjan Wrobel's Homesickness",
+            "sentence_id": 0,
+            "text": "Walerjan Wrobel's Homesickness  is a 1991 German drama film directed by Rolf Schübel."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Redhead (1962 film)",
+        "source_id": "56064d800bdd11eba7f7acde48001122",
+        "director": "Helmut Käutner",
+        "year": 1962,
+        "evidence": {
+          "title": "Redhead (1962 film)",
+          "sentence_id": 0,
+          "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "56064d800bdd11eba7f7acde48001122",
+            "title": "Redhead (1962 film)",
+            "sentence_id": 0,
+            "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "78249bea0bda11eba7f7acde48001122",
+        "title": "Walerjan Wrobel's Homesickness",
+        "sentence_id": 0,
+        "text": "Walerjan Wrobel's Homesickness  is a 1991 German drama film directed by Rolf Schübel."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "56064d800bdd11eba7f7acde48001122",
+        "title": "Redhead (1962 film)",
+        "sentence_id": 0,
+        "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+      }
+    },
+    "nodes": {
+      "Helmut Käutner": "R697",
+      "Rolf Schübel": "R508",
+      "Feng Xiaoning": "R470",
+      "Anil Das": "R324"
+    },
+    "intermediate_nodes": [
+      "Q241",
+      "Q621"
+    ],
+    "leaf_order": [
+      "Rolf Schübel",
+      "Feng Xiaoning",
+      "Helmut Käutner",
+      "Anil Das"
+    ]
+  },
+  {
+    "case_id": "dev-M2-03",
+    "split": "dev",
+    "mechanism": "M2",
+    "A": "Redhead (1962 film)",
+    "B": "Helmut Käutner",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Redhead (1962 film)",
+      "source_id": "56064d800bdd11eba7f7acde48001122",
+      "director": "Helmut Käutner",
+      "year": 1962,
+      "evidence": {
+        "title": "Redhead (1962 film)",
+        "sentence_id": 0,
+        "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "56064d800bdd11eba7f7acde48001122",
+          "title": "Redhead (1962 film)",
+          "sentence_id": 0,
+          "text": "Redhead  is a 1962 German-Italian drama film directed by Helmut Käutner."
+        }
+      ]
+    },
+    "near_wrong": "Fridrikh Ermler",
+    "near_wrong_film": {
+      "title": "The Great Citizen",
+      "source_id": "456aadbc0bd911eba7f7acde48001122",
+      "director": "Fridrikh Ermler",
+      "year": 1938,
+      "evidence": {
+        "title": "The Great Citizen",
+        "sentence_id": 0,
+        "text": "The Great Citizen  is a 1938 Soviet biopic film directed by Fridrikh Ermler."
+      },
+      "genre_evidence": []
+    },
+    "shared_attributes": {
+      "wrong": "Fridrikh Ermler",
+      "genre": "drama",
+      "era": "1900–1949",
+      "year_gap": 15,
+      "gold_film": {
+        "title": "Große Freiheit Nr. 7",
+        "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+        "director": "Helmut Käutner",
+        "year": 1944,
+        "evidence": {
+          "title": "Große Freiheit Nr. 7",
+          "sentence_id": 1,
+          "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+        },
+        "genre_evidence": [
+          {
+            "genre": "musical",
+            "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+            "title": "Große Freiheit Nr. 7",
+            "sentence_id": 1,
+            "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+          },
+          {
+            "genre": "drama",
+            "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+            "title": "Große Freiheit Nr. 7",
+            "sentence_id": 1,
+            "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Fragment of an Empire",
+        "source_id": "3011c56a0bdc11eba7f7acde48001122",
+        "director": "Fridrikh Ermler",
+        "year": 1929,
+        "evidence": {
+          "title": "Fragment of an Empire",
+          "sentence_id": 0,
+          "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+        },
+        "genre_evidence": [
+          {
+            "genre": "silent",
+            "source_id": "3011c56a0bdc11eba7f7acde48001122",
+            "title": "Fragment of an Empire",
+            "sentence_id": 0,
+            "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+          },
+          {
+            "genre": "drama",
+            "source_id": "3011c56a0bdc11eba7f7acde48001122",
+            "title": "Fragment of an Empire",
+            "sentence_id": 0,
+            "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "97d5e6f00bdb11eba7f7acde48001122",
+        "title": "Große Freiheit Nr. 7",
+        "sentence_id": 1,
+        "text": "(Great Freedom No. 7) is a 1944 German musical drama film directed by Helmut Käutner."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "3011c56a0bdc11eba7f7acde48001122",
+        "title": "Fragment of an Empire",
+        "sentence_id": 0,
+        "text": "Fragment of an Empire is a 1929 Soviet silent drama film directed by Fridrikh Ermler."
+      }
+    },
+    "nodes": {
+      "Rolf Schübel": "R742",
+      "Helmut Käutner": "R263",
+      "Feng Xiaoning": "R911",
+      "Fridrikh Ermler": "R796"
+    },
+    "intermediate_nodes": [
+      "Q532",
+      "Q710"
+    ],
+    "leaf_order": [
+      "Fridrikh Ermler",
+      "Feng Xiaoning",
+      "Helmut Käutner",
+      "Rolf Schübel"
+    ]
+  },
+  {
+    "case_id": "dev-M2-04",
+    "split": "dev",
+    "mechanism": "M2",
+    "A": "The Amorous Ones",
+    "B": "Walter Hugo Khouri",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "The Amorous Ones",
+      "source_id": "96b455c40bd911eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1968,
+      "evidence": {
+        "title": "The Amorous Ones",
+        "sentence_id": 0,
+        "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "96b455c40bd911eba7f7acde48001122",
+          "title": "The Amorous Ones",
+          "sentence_id": 0,
+          "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "near_wrong": "Marcello Fondato",
+    "near_wrong_film": {
+      "title": "The Protagonists (1968 film)",
+      "source_id": "e043b86e0bda11eba7f7acde48001122",
+      "director": "Marcello Fondato",
+      "year": 1968,
+      "evidence": {
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "e043b86e0bda11eba7f7acde48001122",
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Marcello Fondato",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 0,
+      "gold_film": {
+        "title": "The Amorous Ones",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "director": "Walter Hugo Khouri",
+        "year": 1968,
+        "evidence": {
+          "title": "The Amorous Ones",
+          "sentence_id": 0,
+          "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "96b455c40bd911eba7f7acde48001122",
+            "title": "The Amorous Ones",
+            "sentence_id": 0,
+            "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Protagonists (1968 film)",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "director": "Marcello Fondato",
+        "year": 1968,
+        "evidence": {
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "e043b86e0bda11eba7f7acde48001122",
+            "title": "The Protagonists (1968 film)",
+            "sentence_id": 0,
+            "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "title": "The Amorous Ones",
+        "sentence_id": 0,
+        "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      }
+    },
+    "nodes": {
+      "Walter Hugo Khouri": "R641",
+      "Marcello Fondato": "R357",
+      "James Goldstone": "R666",
+      "Vojtěch Jasný": "R981"
+    },
+    "intermediate_nodes": [
+      "Q111",
+      "Q796"
+    ],
+    "leaf_order": [
+      "Vojtěch Jasný",
+      "Marcello Fondato",
+      "James Goldstone",
+      "Walter Hugo Khouri"
+    ]
+  },
+  {
+    "case_id": "dev-M2-05",
+    "split": "dev",
+    "mechanism": "M2",
+    "A": "Duniya Meri Jeb Mein",
+    "B": "Tinnu Anand",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 3,
+    "source_A": {
+      "title": "Duniya Meri Jeb Mein",
+      "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+      "director": "Tinnu Anand",
+      "year": 1979,
+      "evidence": {
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      },
+      "genre_evidence": [
+        {
+          "genre": "action",
+          "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        }
+      ]
+    },
+    "near_wrong": "Yuen Woo-ping",
+    "near_wrong_film": {
+      "title": "Legend of a Fighter",
+      "source_id": "f2ff844c0bda11eba7f7acde48001122",
+      "director": "Yuen Woo-ping",
+      "year": 1982,
+      "evidence": {
+        "title": "Legend of a Fighter",
+        "sentence_id": 3,
+        "text": "Directed by Yuen Woo-ping, the film starred Bryan Leung as the lead character."
+      },
+      "genre_evidence": []
+    },
+    "shared_attributes": {
+      "wrong": "Yuen Woo-ping",
+      "genre": "action",
+      "era": "1950–1999",
+      "year_gap": 10,
+      "gold_film": {
+        "title": "Duniya Meri Jeb Mein",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "director": "Tinnu Anand",
+        "year": 1979,
+        "evidence": {
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+            "title": "Duniya Meri Jeb Mein",
+            "sentence_id": 0,
+            "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "In the Line of Duty 4: Witness",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "director": "Yuen Woo-ping",
+        "year": 1989,
+        "evidence": {
+          "title": "In the Line of Duty 4: Witness",
+          "sentence_id": 1,
+          "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "4772896e0bdd11eba7f7acde48001122",
+            "title": "In the Line of Duty 4: Witness",
+            "sentence_id": 1,
+            "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "action",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      },
+      "wrong_genre_evidence": {
+        "genre": "action",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "title": "In the Line of Duty 4: Witness",
+        "sentence_id": 1,
+        "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+      }
+    },
+    "nodes": {
+      "Yuen Woo-ping": "R214",
+      "Rahul Rawail": "R400",
+      "Tinnu Anand": "R545",
+      "Armando Robles Godoy": "R261"
+    },
+    "intermediate_nodes": [
+      "Q564",
+      "Q103"
+    ],
+    "leaf_order": [
+      "Rahul Rawail",
+      "Yuen Woo-ping",
+      "Armando Robles Godoy",
+      "Tinnu Anand"
+    ]
+  },
+  {
+    "case_id": "dev-M2-06",
+    "split": "dev",
+    "mechanism": "M2",
+    "A": "They Only Kill Their Masters",
+    "B": "James Goldstone",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 4,
+    "source_A": {
+      "title": "They Only Kill Their Masters",
+      "source_id": "ae585fc20bd911eba7f7acde48001122",
+      "director": "James Goldstone",
+      "year": 1972,
+      "evidence": {
+        "title": "They Only Kill Their Masters",
+        "sentence_id": 0,
+        "text": "They Only Kill Their Masters is a 1972 American mystery film directed by James Goldstone, written by Lane Slate, and starring James Garner and Katharine Ross, with a supporting cast featuring Hal Holbrook, June Allyson, Tom Ewell, Peter Lawford, Edmond O'Brien, and Arthur O'Connell."
+      },
+      "genre_evidence": [
+        {
+          "genre": "mystery",
+          "source_id": "ae585fc20bd911eba7f7acde48001122",
+          "title": "They Only Kill Their Masters",
+          "sentence_id": 0,
+          "text": "They Only Kill Their Masters is a 1972 American mystery film directed by James Goldstone, written by Lane Slate, and starring James Garner and Katharine Ross, with a supporting cast featuring Hal Holbrook, June Allyson, Tom Ewell, Peter Lawford, Edmond O'Brien, and Arthur O'Connell."
+        }
+      ]
+    },
+    "near_wrong": "Walter Hugo Khouri",
+    "near_wrong_film": {
+      "title": "The Palace of Angels",
+      "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1970,
+      "evidence": {
+        "title": "The Palace of Angels",
+        "sentence_id": 0,
+        "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+          "title": "The Palace of Angels",
+          "sentence_id": 0,
+          "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Walter Hugo Khouri",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 1,
+      "gold_film": {
+        "title": "Red Sky at Morning (1971 film)",
+        "source_id": "e1cfab340bda11eba7f7acde48001122",
+        "director": "James Goldstone",
+        "year": 1971,
+        "evidence": {
+          "title": "Red Sky at Morning (1971 film)",
+          "sentence_id": 1,
+          "text": "Directed by James Goldstone, it stars Richard Thomas, Catherine Burns, and Desi Arnaz, Jr."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "e1cfab340bda11eba7f7acde48001122",
+            "title": "Red Sky at Morning (1971 film)",
+            "sentence_id": 0,
+            "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Palace of Angels",
+        "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+        "director": "Walter Hugo Khouri",
+        "year": 1970,
+        "evidence": {
+          "title": "The Palace of Angels",
+          "sentence_id": 0,
+          "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+            "title": "The Palace of Angels",
+            "sentence_id": 0,
+            "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "e1cfab340bda11eba7f7acde48001122",
+        "title": "Red Sky at Morning (1971 film)",
+        "sentence_id": 0,
+        "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+        "title": "The Palace of Angels",
+        "sentence_id": 0,
+        "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+      }
+    },
+    "nodes": {
+      "León Klimovsky": "R991",
+      "Walter Hugo Khouri": "R740",
+      "Marcello Fondato": "R405",
+      "James Goldstone": "R961"
+    },
+    "intermediate_nodes": [
+      "Q754",
+      "Q619"
+    ],
+    "leaf_order": [
+      "Marcello Fondato",
+      "James Goldstone",
+      "León Klimovsky",
+      "Walter Hugo Khouri"
+    ]
+  },
+  {
+    "case_id": "dev-M3-01",
+    "split": "dev",
+    "mechanism": "M3",
+    "A": "And the Spring Comes",
+    "B": "Gu Changwei",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 4,
+    "source_A": {
+      "title": "And the Spring Comes",
+      "source_id": "c19b72520bdb11eba7f7acde48001122",
+      "director": "Gu Changwei",
+      "year": 2007,
+      "evidence": {
+        "title": "And the Spring Comes",
+        "sentence_id": 1,
+        "text": "is a 2007 film directed by Gu Changwei, written by Li Qiang."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Anil Das",
+    "near_wrong_film": {
+      "title": "Alice: A True Story",
+      "source_id": "35aaea880bdc11eba7f7acde48001122",
+      "director": "Anil Das",
+      "year": 2014,
+      "evidence": {
+        "title": "Alice: A True Story",
+        "sentence_id": 1,
+        "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+      },
+      "genre_evidence": [
+        {
+          "genre": "psychological",
+          "source_id": "35aaea880bdc11eba7f7acde48001122",
+          "title": "Alice: A True Story",
+          "sentence_id": 1,
+          "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Rolf Schübel": "R214",
+      "Anil Das": "R471",
+      "Rodrigo Grande": "R951",
+      "Gu Changwei": "R926"
+    },
+    "intermediate_nodes": [
+      "Q414",
+      "Q345"
+    ],
+    "leaf_order": [
+      "Anil Das",
+      "Rodrigo Grande",
+      "Gu Changwei",
+      "Rolf Schübel"
+    ]
+  },
+  {
+    "case_id": "dev-M3-02",
+    "split": "dev",
+    "mechanism": "M3",
+    "A": "The Thousand Faces of Dunjia",
+    "B": "Yuen Woo-ping",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "The Thousand Faces of Dunjia",
+      "source_id": "ff2926840bd911eba7f7acde48001122",
+      "director": "Yuen Woo-ping",
+      "year": 2017,
+      "evidence": {
+        "title": "The Thousand Faces of Dunjia",
+        "sentence_id": 0,
+        "text": "The Thousand Faces of Dunjia  is a 2017 Chinese fantasy-wuxia film directed by Yuen Woo-ping; scripted and produced by Tsui Hark."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Tinnu Anand",
+    "near_wrong_film": {
+      "title": "Duniya Meri Jeb Mein",
+      "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+      "director": "Tinnu Anand",
+      "year": 1979,
+      "evidence": {
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      },
+      "genre_evidence": [
+        {
+          "genre": "action",
+          "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Tinnu Anand",
+      "genre": "action",
+      "era": "1950–1999",
+      "year_gap": 10,
+      "gold_film": {
+        "title": "In the Line of Duty 4: Witness",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "director": "Yuen Woo-ping",
+        "year": 1989,
+        "evidence": {
+          "title": "In the Line of Duty 4: Witness",
+          "sentence_id": 1,
+          "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "4772896e0bdd11eba7f7acde48001122",
+            "title": "In the Line of Duty 4: Witness",
+            "sentence_id": 1,
+            "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Duniya Meri Jeb Mein",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "director": "Tinnu Anand",
+        "year": 1979,
+        "evidence": {
+          "title": "Duniya Meri Jeb Mein",
+          "sentence_id": 0,
+          "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+        },
+        "genre_evidence": [
+          {
+            "genre": "action",
+            "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+            "title": "Duniya Meri Jeb Mein",
+            "sentence_id": 0,
+            "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "action",
+        "source_id": "4772896e0bdd11eba7f7acde48001122",
+        "title": "In the Line of Duty 4: Witness",
+        "sentence_id": 1,
+        "text": "Witness (aka In the Line of Duty) is a 1989 Hong Kong action film directed by Yuen Woo-ping, starring Donnie Yen, Michael Wong and Cynthia Khan."
+      },
+      "wrong_genre_evidence": {
+        "genre": "action",
+        "source_id": "f0faeb9a0bdb11eba7f7acde48001122",
+        "title": "Duniya Meri Jeb Mein",
+        "sentence_id": 0,
+        "text": "Duniya Meri Jeb Mein is a 1979 Bollywood action film directed by Tinnu Anand."
+      }
+    },
+    "nodes": {
+      "Jan Svěrák": "R935",
+      "Yuen Woo-ping": "R170",
+      "Ildikó Enyedi": "R878",
+      "Tinnu Anand": "R645"
+    },
+    "intermediate_nodes": [
+      "Q884",
+      "Q228"
+    ],
+    "leaf_order": [
+      "Jan Svěrák",
+      "Tinnu Anand",
+      "Ildikó Enyedi",
+      "Yuen Woo-ping"
+    ]
+  },
+  {
+    "case_id": "dev-M3-03",
+    "split": "dev",
+    "mechanism": "M3",
+    "A": "Biwi-O-Biwi",
+    "B": "Rahul Rawail",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 3,
+    "source_A": {
+      "title": "Biwi-O-Biwi",
+      "source_id": "ba289b440bdb11eba7f7acde48001122",
+      "director": "Rahul Rawail",
+      "year": 1981,
+      "evidence": {
+        "title": "Biwi-O-Biwi",
+        "sentence_id": 1,
+        "text": "Produced by Raj Kapoor and directed by Rahul Rawail."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Yuen Woo-ping",
+    "near_wrong_film": {
+      "title": "Legend of a Fighter",
+      "source_id": "f2ff844c0bda11eba7f7acde48001122",
+      "director": "Yuen Woo-ping",
+      "year": 1982,
+      "evidence": {
+        "title": "Legend of a Fighter",
+        "sentence_id": 3,
+        "text": "Directed by Yuen Woo-ping, the film starred Bryan Leung as the lead character."
+      },
+      "genre_evidence": []
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Tinnu Anand": "R371",
+      "Yuen Woo-ping": "R640",
+      "Rahul Rawail": "R993",
+      "Ildikó Enyedi": "R721"
+    },
+    "intermediate_nodes": [
+      "Q533",
+      "Q316"
+    ],
+    "leaf_order": [
+      "Tinnu Anand",
+      "Ildikó Enyedi",
+      "Rahul Rawail",
+      "Yuen Woo-ping"
+    ]
+  },
+  {
+    "case_id": "dev-M3-04",
+    "split": "dev",
+    "mechanism": "M3",
+    "A": "Red Sky at Morning (1971 film)",
+    "B": "James Goldstone",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "Red Sky at Morning (1971 film)",
+      "source_id": "e1cfab340bda11eba7f7acde48001122",
+      "director": "James Goldstone",
+      "year": 1971,
+      "evidence": {
+        "title": "Red Sky at Morning (1971 film)",
+        "sentence_id": 1,
+        "text": "Directed by James Goldstone, it stars Richard Thomas, Catherine Burns, and Desi Arnaz, Jr."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "e1cfab340bda11eba7f7acde48001122",
+          "title": "Red Sky at Morning (1971 film)",
+          "sentence_id": 0,
+          "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+        }
+      ]
+    },
+    "near_wrong": "Walter Hugo Khouri",
+    "near_wrong_film": {
+      "title": "The Palace of Angels",
+      "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1970,
+      "evidence": {
+        "title": "The Palace of Angels",
+        "sentence_id": 0,
+        "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+          "title": "The Palace of Angels",
+          "sentence_id": 0,
+          "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Walter Hugo Khouri",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 1,
+      "gold_film": {
+        "title": "Red Sky at Morning (1971 film)",
+        "source_id": "e1cfab340bda11eba7f7acde48001122",
+        "director": "James Goldstone",
+        "year": 1971,
+        "evidence": {
+          "title": "Red Sky at Morning (1971 film)",
+          "sentence_id": 1,
+          "text": "Directed by James Goldstone, it stars Richard Thomas, Catherine Burns, and Desi Arnaz, Jr."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "e1cfab340bda11eba7f7acde48001122",
+            "title": "Red Sky at Morning (1971 film)",
+            "sentence_id": 0,
+            "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Palace of Angels",
+        "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+        "director": "Walter Hugo Khouri",
+        "year": 1970,
+        "evidence": {
+          "title": "The Palace of Angels",
+          "sentence_id": 0,
+          "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+            "title": "The Palace of Angels",
+            "sentence_id": 0,
+            "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "e1cfab340bda11eba7f7acde48001122",
+        "title": "Red Sky at Morning (1971 film)",
+        "sentence_id": 0,
+        "text": "Red Sky at Morning is a 1971 American drama film based on the 1968 Richard Bradford novel of the same name."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b5f33afa0bdd11eba7f7acde48001122",
+        "title": "The Palace of Angels",
+        "sentence_id": 0,
+        "text": "The Palace of Angels  is a 1970 Brazilian-French drama film directed by Walter Hugo Khouri."
+      }
+    },
+    "nodes": {
+      "James Goldstone": "R548",
+      "Walter Hugo Khouri": "R629",
+      "Marcello Fondato": "R562",
+      "León Klimovsky": "R223"
+    },
+    "intermediate_nodes": [
+      "Q353",
+      "Q330"
+    ],
+    "leaf_order": [
+      "Marcello Fondato",
+      "León Klimovsky",
+      "Walter Hugo Khouri",
+      "James Goldstone"
+    ]
+  },
+  {
+    "case_id": "dev-M3-05",
+    "split": "dev",
+    "mechanism": "M3",
+    "A": "A Trip to Chinatown (film)",
+    "B": "Robert P. Kerr",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Robert P. Kerr",
+        "relation": "place of death",
+        "target": "Porterville",
+        "target_aliases": [
+          "Porterville",
+          "Porterville, California"
+        ],
+        "downstream_evidence": {
+          "title": "Robert P. Kerr",
+          "sentence_id": 2,
+          "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+        },
+        "downstream_source_id": "8dfa2e9e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "A Trip to Chinatown (film)",
+      "source_id": "8dfa2e9e0bda11eba7f7acde48001122",
+      "director": "Robert P. Kerr",
+      "year": 1926,
+      "evidence": {
+        "title": "A Trip to Chinatown (film)",
+        "sentence_id": 2,
+        "text": "The movie was scripted by Beatrice Van from Charles Hale Hoyt's hit Broadway musical of the same name and directed by Robert P. Kerr."
+      },
+      "genre_evidence": [
+        {
+          "genre": "silent",
+          "source_id": "8dfa2e9e0bda11eba7f7acde48001122",
+          "title": "A Trip to Chinatown (film)",
+          "sentence_id": 0,
+          "text": "A Trip to Chinatown is a 1926 silent film produced and distributed by the Fox Film Corporation and starring Margaret Livingston."
+        },
+        {
+          "genre": "musical",
+          "source_id": "8dfa2e9e0bda11eba7f7acde48001122",
+          "title": "A Trip to Chinatown (film)",
+          "sentence_id": 2,
+          "text": "The movie was scripted by Beatrice Van from Charles Hale Hoyt's hit Broadway musical of the same name and directed by Robert P. Kerr."
+        }
+      ]
+    },
+    "near_wrong": "León Klimovsky",
+    "near_wrong_film": {
+      "title": "The Marihuana Story",
+      "source_id": "c5e7570c0bdd11eba7f7acde48001122",
+      "director": "León Klimovsky",
+      "year": 1950,
+      "evidence": {
+        "title": "The Marihuana Story",
+        "sentence_id": 0,
+        "text": "The Marihuana Story  is a 1950 Argentine film directed by León Klimovsky."
+      },
+      "genre_evidence": []
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Robert P. Kerr": "R702",
+      "Vojtěch Jasný": "R325",
+      "León Klimovsky": "R107",
+      "James Goldstone": "R172"
+    },
+    "intermediate_nodes": [
+      "Q824",
+      "Q746"
+    ],
+    "leaf_order": [
+      "Vojtěch Jasný",
+      "León Klimovsky",
+      "James Goldstone",
+      "Robert P. Kerr"
+    ]
+  },
+  {
+    "case_id": "dev-M3-06",
+    "split": "dev",
+    "mechanism": "M3",
+    "A": "The Marihuana Story",
+    "B": "León Klimovsky",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "The Marihuana Story",
+      "source_id": "c5e7570c0bdd11eba7f7acde48001122",
+      "director": "León Klimovsky",
+      "year": 1950,
+      "evidence": {
+        "title": "The Marihuana Story",
+        "sentence_id": 0,
+        "text": "The Marihuana Story  is a 1950 Argentine film directed by León Klimovsky."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Vojtěch Jasný",
+    "near_wrong_film": {
+      "title": "The Pipes",
+      "source_id": "73def83e0bdd11eba7f7acde48001122",
+      "director": "Vojtěch Jasný",
+      "year": 1966,
+      "evidence": {
+        "title": "The Pipes",
+        "sentence_id": 0,
+        "text": "The Pipes  is a 1966 Czechoslovak film directed by Vojtěch Jasný."
+      },
+      "genre_evidence": []
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Marcello Fondato": "R172",
+      "León Klimovsky": "R626",
+      "James Goldstone": "R343",
+      "Vojtěch Jasný": "R385"
+    },
+    "intermediate_nodes": [
+      "Q785",
+      "Q597"
+    ],
+    "leaf_order": [
+      "Vojtěch Jasný",
+      "Marcello Fondato",
+      "James Goldstone",
+      "León Klimovsky"
+    ]
+  },
+  {
+    "case_id": "dev-M4-01",
+    "split": "dev",
+    "mechanism": "M4",
+    "A": "The Protagonists (1968 film)",
+    "B": "Marcello Fondato",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 3,
+    "source_A": {
+      "title": "The Protagonists (1968 film)",
+      "source_id": "e043b86e0bda11eba7f7acde48001122",
+      "director": "Marcello Fondato",
+      "year": 1968,
+      "evidence": {
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "e043b86e0bda11eba7f7acde48001122",
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        }
+      ]
+    },
+    "near_wrong": "Walter Hugo Khouri",
+    "near_wrong_film": {
+      "title": "The Amorous Ones",
+      "source_id": "96b455c40bd911eba7f7acde48001122",
+      "director": "Walter Hugo Khouri",
+      "year": 1968,
+      "evidence": {
+        "title": "The Amorous Ones",
+        "sentence_id": 0,
+        "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "96b455c40bd911eba7f7acde48001122",
+          "title": "The Amorous Ones",
+          "sentence_id": 0,
+          "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Walter Hugo Khouri",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 0,
+      "gold_film": {
+        "title": "The Protagonists (1968 film)",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "director": "Marcello Fondato",
+        "year": 1968,
+        "evidence": {
+          "title": "The Protagonists (1968 film)",
+          "sentence_id": 0,
+          "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "e043b86e0bda11eba7f7acde48001122",
+            "title": "The Protagonists (1968 film)",
+            "sentence_id": 0,
+            "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "The Amorous Ones",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "director": "Walter Hugo Khouri",
+        "year": 1968,
+        "evidence": {
+          "title": "The Amorous Ones",
+          "sentence_id": 0,
+          "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "96b455c40bd911eba7f7acde48001122",
+            "title": "The Amorous Ones",
+            "sentence_id": 0,
+            "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "e043b86e0bda11eba7f7acde48001122",
+        "title": "The Protagonists (1968 film)",
+        "sentence_id": 0,
+        "text": "The Protagonists  is a 1968 Italian drama film directed by Marcello Fondato."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "96b455c40bd911eba7f7acde48001122",
+        "title": "The Amorous Ones",
+        "sentence_id": 0,
+        "text": "The Amorous Ones  is a 1968 Brazilian drama film written and directed by Walter Hugo Khouri."
+      }
+    },
+    "nodes": {
+      "Vojtěch Jasný": "R196",
+      "Walter Hugo Khouri": "R199",
+      "Marcello Fondato": "R774",
+      "James Goldstone": "R541"
+    },
+    "intermediate_nodes": [
+      "Q462",
+      "Q533"
+    ],
+    "leaf_order": [
+      "Marcello Fondato",
+      "Vojtěch Jasný",
+      "Walter Hugo Khouri",
+      "James Goldstone"
+    ]
+  },
+  {
+    "case_id": "dev-M4-02",
+    "split": "dev",
+    "mechanism": "M4",
+    "A": "Peacock (2005 film)",
+    "B": "Gu Changwei",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Peacock (2005 film)",
+      "source_id": "0bd60cfa0bdd11eba7f7acde48001122",
+      "director": "Gu Changwei",
+      "year": 2005,
+      "evidence": {
+        "title": "Peacock (2005 film)",
+        "sentence_id": 0,
+        "text": "Peacock  is a 2005 film directed by Gu Changwei, written by Li Qiang."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "Anil Das",
+    "near_wrong_film": {
+      "title": "Alice: A True Story",
+      "source_id": "35aaea880bdc11eba7f7acde48001122",
+      "director": "Anil Das",
+      "year": 2014,
+      "evidence": {
+        "title": "Alice: A True Story",
+        "sentence_id": 1,
+        "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+      },
+      "genre_evidence": [
+        {
+          "genre": "psychological",
+          "source_id": "35aaea880bdc11eba7f7acde48001122",
+          "title": "Alice: A True Story",
+          "sentence_id": 1,
+          "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Rodrigo Grande": "R162",
+      "Gu Changwei": "R512",
+      "Anil Das": "R845",
+      "Rolf Schübel": "R447"
+    },
+    "intermediate_nodes": [
+      "Q919",
+      "Q982"
+    ],
+    "leaf_order": [
+      "Gu Changwei",
+      "Anil Das",
+      "Rolf Schübel",
+      "Rodrigo Grande"
+    ]
+  },
+  {
+    "case_id": "dev-M4-03",
+    "split": "dev",
+    "mechanism": "M4",
+    "A": "The Female: Seventy Times Seven",
+    "B": "Leopoldo Torre Nilsson",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "The Female: Seventy Times Seven",
+      "source_id": "ab95c9260bdb11eba7f7acde48001122",
+      "director": "Leopoldo Torre Nilsson",
+      "year": 1962,
+      "evidence": {
+        "title": "The Female: Seventy Times Seven",
+        "sentence_id": 0,
+        "text": "The Female: Seventy Times Seven  is a 1962 Argentine drama film directed by Leopoldo Torre Nilsson."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "ab95c9260bdb11eba7f7acde48001122",
+          "title": "The Female: Seventy Times Seven",
+          "sentence_id": 0,
+          "text": "The Female: Seventy Times Seven  is a 1962 Argentine drama film directed by Leopoldo Torre Nilsson."
+        }
+      ]
+    },
+    "near_wrong": "Armando Robles Godoy",
+    "near_wrong_film": {
+      "title": "Mirage (1972 film)",
+      "source_id": "b26e04e80bdb11eba7f7acde48001122",
+      "director": "Armando Robles Godoy",
+      "year": 1972,
+      "evidence": {
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b26e04e80bdb11eba7f7acde48001122",
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Armando Robles Godoy",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "Monday's Child (film)",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "director": "Leopoldo Torre Nilsson",
+        "year": 1967,
+        "evidence": {
+          "title": "Monday's Child (film)",
+          "sentence_id": 0,
+          "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "7b0efff80bda11eba7f7acde48001122",
+            "title": "Monday's Child (film)",
+            "sentence_id": 0,
+            "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Mirage (1972 film)",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "director": "Armando Robles Godoy",
+        "year": 1972,
+        "evidence": {
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b26e04e80bdb11eba7f7acde48001122",
+            "title": "Mirage (1972 film)",
+            "sentence_id": 0,
+            "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "title": "Monday's Child (film)",
+        "sentence_id": 0,
+        "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      }
+    },
+    "nodes": {
+      "Leopoldo Torre Nilsson": "R243",
+      "Rahul Rawail": "R532",
+      "Tinnu Anand": "R287",
+      "Armando Robles Godoy": "R385"
+    },
+    "intermediate_nodes": [
+      "Q573",
+      "Q355"
+    ],
+    "leaf_order": [
+      "Tinnu Anand",
+      "Armando Robles Godoy",
+      "Rahul Rawail",
+      "Leopoldo Torre Nilsson"
+    ]
+  },
+  {
+    "case_id": "dev-M4-04",
+    "split": "dev",
+    "mechanism": "M4",
+    "A": "Alice: A True Story",
+    "B": "Anil Das",
+    "relation": "place of birth",
+    "candidates": [
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 4,
+    "source_A": {
+      "title": "Alice: A True Story",
+      "source_id": "35aaea880bdc11eba7f7acde48001122",
+      "director": "Anil Das",
+      "year": 2014,
+      "evidence": {
+        "title": "Alice: A True Story",
+        "sentence_id": 1,
+        "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+      },
+      "genre_evidence": [
+        {
+          "genre": "psychological",
+          "source_id": "35aaea880bdc11eba7f7acde48001122",
+          "title": "Alice: A True Story",
+          "sentence_id": 1,
+          "text": "A True Story is a Malayalam psychological film scripted and Directed by Anil Das."
+        }
+      ]
+    },
+    "near_wrong": "Gu Changwei",
+    "near_wrong_film": {
+      "title": "Love on the Cloud",
+      "source_id": "e9a74ce40bdb11eba7f7acde48001122",
+      "director": "Gu Changwei",
+      "year": 2014,
+      "evidence": {
+        "title": "Love on the Cloud",
+        "sentence_id": 0,
+        "text": "Love on the Cloud  is a 2014 Chinese romantic comedy film directed by Gu Changwei."
+      },
+      "genre_evidence": [
+        {
+          "genre": "comedy",
+          "source_id": "e9a74ce40bdb11eba7f7acde48001122",
+          "title": "Love on the Cloud",
+          "sentence_id": 0,
+          "text": "Love on the Cloud  is a 2014 Chinese romantic comedy film directed by Gu Changwei."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Rodrigo Grande": "R195",
+      "Rolf Schübel": "R871",
+      "Gu Changwei": "R969",
+      "Anil Das": "R342"
+    },
+    "intermediate_nodes": [
+      "Q270",
+      "Q516"
+    ],
+    "leaf_order": [
+      "Gu Changwei",
+      "Rodrigo Grande",
+      "Rolf Schübel",
+      "Anil Das"
+    ]
+  },
+  {
+    "case_id": "dev-M4-05",
+    "split": "dev",
+    "mechanism": "M4",
+    "A": "The Pipes",
+    "B": "Vojtěch Jasný",
+    "relation": "place of death",
+    "candidates": [
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 1,
+    "source_A": {
+      "title": "The Pipes",
+      "source_id": "73def83e0bdd11eba7f7acde48001122",
+      "director": "Vojtěch Jasný",
+      "year": 1966,
+      "evidence": {
+        "title": "The Pipes",
+        "sentence_id": 0,
+        "text": "The Pipes  is a 1966 Czechoslovak film directed by Vojtěch Jasný."
+      },
+      "genre_evidence": []
+    },
+    "near_wrong": "James Goldstone",
+    "near_wrong_film": {
+      "title": "Jigsaw (1968 film)",
+      "source_id": "e4ee02100bdb11eba7f7acde48001122",
+      "director": "James Goldstone",
+      "year": 1968,
+      "evidence": {
+        "title": "Jigsaw (1968 film)",
+        "sentence_id": 0,
+        "text": "Jigsaw also known as Jigsaw Murder is a 1968 American mystery film directed by James Goldstone."
+      },
+      "genre_evidence": [
+        {
+          "genre": "mystery",
+          "source_id": "e4ee02100bdb11eba7f7acde48001122",
+          "title": "Jigsaw (1968 film)",
+          "sentence_id": 0,
+          "text": "Jigsaw also known as Jigsaw Murder is a 1968 American mystery film directed by James Goldstone."
+        }
+      ]
+    },
+    "shared_attributes": null,
+    "nodes": {
+      "Vojtěch Jasný": "R268",
+      "Walter Hugo Khouri": "R488",
+      "James Goldstone": "R102",
+      "Marcello Fondato": "R499"
+    },
+    "intermediate_nodes": [
+      "Q371",
+      "Q902"
+    ],
+    "leaf_order": [
+      "Vojtěch Jasný",
+      "James Goldstone",
+      "Walter Hugo Khouri",
+      "Marcello Fondato"
+    ]
+  },
+  {
+    "case_id": "dev-M4-06",
+    "split": "dev",
+    "mechanism": "M4",
+    "A": "Homage at Siesta Time",
+    "B": "Leopoldo Torre Nilsson",
+    "relation": "father",
+    "candidates": [
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      }
+    ],
+    "gold_position": 2,
+    "source_A": {
+      "title": "Homage at Siesta Time",
+      "source_id": "4a8ffd360bdb11eba7f7acde48001122",
+      "director": "Leopoldo Torre Nilsson",
+      "year": 1962,
+      "evidence": {
+        "title": "Homage at Siesta Time",
+        "sentence_id": 0,
+        "text": "Homage at Siesta Time (also known as \"Four Women for One Hero\") is a 1962 Argentine-French-Brazilian drama film written and directed by Leopoldo Torre Nilsson."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "4a8ffd360bdb11eba7f7acde48001122",
+          "title": "Homage at Siesta Time",
+          "sentence_id": 0,
+          "text": "Homage at Siesta Time (also known as \"Four Women for One Hero\") is a 1962 Argentine-French-Brazilian drama film written and directed by Leopoldo Torre Nilsson."
+        }
+      ]
+    },
+    "near_wrong": "Armando Robles Godoy",
+    "near_wrong_film": {
+      "title": "Mirage (1972 film)",
+      "source_id": "b26e04e80bdb11eba7f7acde48001122",
+      "director": "Armando Robles Godoy",
+      "year": 1972,
+      "evidence": {
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      },
+      "genre_evidence": [
+        {
+          "genre": "drama",
+          "source_id": "b26e04e80bdb11eba7f7acde48001122",
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        }
+      ]
+    },
+    "shared_attributes": {
+      "wrong": "Armando Robles Godoy",
+      "genre": "drama",
+      "era": "1950–1999",
+      "year_gap": 5,
+      "gold_film": {
+        "title": "Monday's Child (film)",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "director": "Leopoldo Torre Nilsson",
+        "year": 1967,
+        "evidence": {
+          "title": "Monday's Child (film)",
+          "sentence_id": 0,
+          "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "7b0efff80bda11eba7f7acde48001122",
+            "title": "Monday's Child (film)",
+            "sentence_id": 0,
+            "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+          }
+        ]
+      },
+      "wrong_film": {
+        "title": "Mirage (1972 film)",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "director": "Armando Robles Godoy",
+        "year": 1972,
+        "evidence": {
+          "title": "Mirage (1972 film)",
+          "sentence_id": 0,
+          "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+        },
+        "genre_evidence": [
+          {
+            "genre": "drama",
+            "source_id": "b26e04e80bdb11eba7f7acde48001122",
+            "title": "Mirage (1972 film)",
+            "sentence_id": 0,
+            "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+          }
+        ]
+      },
+      "gold_genre_evidence": {
+        "genre": "drama",
+        "source_id": "7b0efff80bda11eba7f7acde48001122",
+        "title": "Monday's Child (film)",
+        "sentence_id": 0,
+        "text": "Monday's Child  is a 1967 Argentine drama film directed by Leopoldo Torre Nilsson, based on a story by André Du Rona."
+      },
+      "wrong_genre_evidence": {
+        "genre": "drama",
+        "source_id": "b26e04e80bdb11eba7f7acde48001122",
+        "title": "Mirage (1972 film)",
+        "sentence_id": 0,
+        "text": "Mirage  is a 1972 Peruvian drama film directed by Armando Robles Godoy."
+      }
+    },
+    "nodes": {
+      "Armando Robles Godoy": "R258",
+      "Leopoldo Torre Nilsson": "R294",
+      "Tinnu Anand": "R403",
+      "Rahul Rawail": "R322"
+    },
+    "intermediate_nodes": [
+      "Q159",
+      "Q693"
+    ],
+    "leaf_order": [
+      "Rahul Rawail",
+      "Leopoldo Torre Nilsson",
+      "Tinnu Anand",
+      "Armando Robles Godoy"
+    ]
+  }
+]

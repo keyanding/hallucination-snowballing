@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "dev_cases": 24,
+  "heldout_cases": 12,
+  "disjoint_target_films": true,
+  "entity_overlap_allowed": true,
+  "heldout_selection": "Twelve shared confirmation cases sampled before inference; each selected mechanism uses all twelve at its selected difficulty once.",
+  "source_selection": "Known reviewed downstream candidates; 36 distinct film questions after explicit exclusions; M2-capable heldout and six development cases require supported era+genre pair.",
+  "exclusions": [
+    "Arabian Love",
+    "El Protegido",
+    "Fragment of an Empire",
+    "Große Freiheit Nr. 7",
+    "La caída",
+    "The Great Citizen",
+    "The House in the Snow-Drifts",
+    "The Last Bridge",
+    "The Original Sin (film)",
+    "The Parisian Cobbler"
+  ],
+  "catalog_status": "Researcher-constructed index and comparison links, not historical film claims; credited endpoints and attributes are source-backed.",
+  "M2_resolution": "User-approved fixed candidate set; manipulate salience of shared era and genre with one designated nearby alternative; not a candidate-replacement study.",
+  "feature_limit": "Era is a fixed 50-year band; genre and era proximity are imperfect biographical similarity controls. Other two candidates remain domain-plausible, not necessarily matched on both attributes.",
+  "future_v35_must_exclude_all_36_base_films": true
+}

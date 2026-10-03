@@ -1,0 +1,20 @@
+{
+  "frozen_inputs_unchanged": true,
+  "prior_artifacts_unchanged": true,
+  "channel_triplets": 96,
+  "output_hashes": {
+    "free_generation.jsonl": "ae009bf3c4afa84030a188f275472445b160bb6135006de8fc20536f5b84f77e",
+    "constrained_choice.jsonl": "e7f0a833a8025193579f6788a774fd464214f9f17809f89938e61b9ca5c983d0",
+    "candidate_likelihoods.jsonl": "1fed2e310a59b474ced6f47b96b7e4da3f06de4843d9a7413094d092b41c206f"
+  },
+  "selection_sha256": "042fc20d41be5d087daab13b32a9a3175de0a0436834d5e2ee0bf8f4136a917c",
+  "independent_recomputation_passed": true,
+  "source_sentence_checks": 160,
+  "checked_triplets": 96,
+  "unique_keys": true,
+  "likelihood_arithmetic_verified": true,
+  "prompt_plan_match": true,
+  "report_generator_sha256": "747f3c3317547977dd40029c89973a2a086984484d9bd5b00327aa52669c1820",
+  "downstream_mapping_checks": 144,
+  "prior_artifact_count": 167
+}

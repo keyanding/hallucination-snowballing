@@ -1,0 +1,37 @@
+{
+  "M1": {
+    "difficulty": "D2",
+    "provisional": false,
+    "reasons": [
+      "NO_STABLE_FRONTIER_FOUND",
+      "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+    ],
+    "status": "NO_STABLE_FRONTIER_FOUND"
+  },
+  "M2": {
+    "difficulty": "D0",
+    "provisional": false,
+    "reasons": [
+      "NO_STABLE_FRONTIER_FOUND",
+      "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+    ],
+    "status": "NO_STABLE_FRONTIER_FOUND"
+  },
+  "M3": {
+    "difficulty": "D0",
+    "provisional": false,
+    "reasons": [
+      "NO_STABLE_FRONTIER_FOUND",
+      "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+    ],
+    "status": "NO_STABLE_FRONTIER_FOUND"
+  },
+  "M4": {
+    "difficulty": "D3",
+    "provisional": false,
+    "reasons": [
+      "INSUFFICIENT_LIKELIHOOD_BOUNDARY_SIGNAL"
+    ],
+    "status": "REJECTED"
+  }
+}

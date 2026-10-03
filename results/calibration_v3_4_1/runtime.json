@@ -1,0 +1,8 @@
+{
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "device_map": {
+    "": "0"
+  },
+  "compute_dtype": "torch.bfloat16",
+  "quantization": "4bit-nf4"
+}

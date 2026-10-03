@@ -5,3 +5,6 @@
 # Preserve recorded artifact bytes: manifests and semantic gates use SHA-256.
 data/** -text
 results/** -text
+# Preserve exact pre-inference source bytes recorded by v3.4.1's manifest.
+src/prepare_v3_4_1.py -text
+src/calibration_v3_4_1.py -text

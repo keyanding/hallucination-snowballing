@@ -2,7 +2,37 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.4 traceable candidate-universe selection
+## Current experiment: v3.4.1 first-hop calibration
+
+V3.4.1 completed **96 development prompts × three channels = 288 channel evaluations**, using the cached Qwen3-4B-Instruct-2507 NF4/BF16 model. Twenty-four development films (six per mechanism) and twelve disjoint held-out films were frozen before inference. Four real candidate directors and their downstream mappings remain fixed per case. Task-local catalog links implement relation competition, shared-attribute salience, evidence order, and one-to-three-step composition. Those index links are explicit experimental constructs; sourced film credits remain factual.
+
+F uses greedy free generation with 96 tokens; C uses an exact candidate-token trie; L teacher-forces each candidate on the identical rendered prompt and reports both sum and mean/token log probability. Candidate reachability and prompt/token boundaries were checked on all 288 possible dev/held-out renderings before inference. The user-approved M2 design keeps candidates fixed and increases shared era/genre salience. Each qualifying mechanism would use all twelve held-out cases once.
+
+| Mechanism | D0 wrong | D1 wrong | D2 wrong | D3 wrong |
+|---|---|---|---|---|
+| M1 relation competition | 0/6 | 0/6 | 1/6 | 0/6 |
+| M2 shared-attribute salience | 0/6 | 0/6 | 0/6 | 0/6 |
+| M3 evidence order | 0/6 | 0/6 | 0/6 | 0/6 |
+| M4 composition length | 1/6 | 0/6 | 0/6 | 2/6 |
+
+**Gate failed.** M4/D3 reaches the 20–40% error-rate band, but only **0/6** cases meet the preregistered likelihood-boundary criterion (absolute gold-vs-best-wrong mean margin ≤0.5 nats/token; at least 4/6 required). No regime qualifies for held-out confirmation; all twelve held-out cases remain unqueried. No downstream branches were run and no v3.5 experiment is authorized. Free strict compliance, F/C agreement, and L/C agreement are all 96/96. No position-bias flag fired under the preregistered rule. Structural uniqueness was checked; independent human ambiguity certification is not claimed.
+
+See [diagnosis](results/calibration_v3_4_1/diagnosis.md), [per-case inspection](results/calibration_v3_4_1/inspection.md), [design audit](results/calibration_v3_4_1/design_audit.md), and [frontier selection](results/calibration_v3_4_1/frontier_selection.md). Six cases per family provide a coarse calibration grid; index traversal, coarse era bands, and entity reuse limit generalization. The format improvement over v3.4 cannot be attributed solely to the token cap because prompts also changed.
+
+```powershell
+# Fresh output directory only; preparation and inference refuse overwrite.
+python -m src.prepare_v3_4_1
+$env:HF_HUB_OFFLINE='1'
+python -m src.calibration_v3_4_1 prepare
+python -m unittest discover -s tests
+python -m src.calibration_v3_4_1 run
+# Recompute and verify recorded outputs without model calls:
+python -m src.verify_calibration_v3_4_1
+```
+
+The independent verifier checks prompt equality, candidate token paths, likelihood arithmetic, all 144 candidate-to-target source mappings, and 167 prior artifact hashes. All 56 unit tests passed. A pre-inference preparation draft is retained separately: source review removed a spurious genre match from a trilogy title before the final split was frozen; no model outputs informed that revision. The inference-source byte hashes are preserved through Git attributes. No existing experiment artifacts were rewritten.
+
+## Previous experiment: v3.4 traceable candidate-universe selection
 
 V3.4 freezes twenty real film questions with four director candidates each. Every candidate has an explicit, previously reviewed downstream fact; all four target values and their aliases are distinct within a case. A shared-director link plus four bridge-film/director facts makes the first hop a composition task without directly stating the target film's director. Alternatives have documented films within thirty years of the target film, and gold positions are balanced five per slot. The twenty questions share eight gold directors and are not independent entity samples.
 
