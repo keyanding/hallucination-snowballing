@@ -1,0 +1,227 @@
+{
+  "policy": {
+    "cases": 20,
+    "seed": 42,
+    "min_CLA": 0.95,
+    "min_valid_first_hops": 15,
+    "min_traceable_errors": 5,
+    "max_OSER": 0.25,
+    "max_invalid_downstream": 0.1,
+    "min_complete_branch_cases": 15,
+    "max_new_tokens": 32
+  },
+  "checks": {
+    "universe-01": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-02": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-03": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-04": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-05": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-06": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-07": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-08": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-09": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-10": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-11": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-12": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-13": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-14": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-15": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-16": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-17": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-18": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-19": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    },
+    "universe-20": {
+      "four_candidates": true,
+      "four_unique_targets": true,
+      "disjoint_target_aliases": true,
+      "source_backed_composition": true,
+      "no_direct_A_to_B_statement": true,
+      "all_names_present_in_bridge_evidence": true,
+      "identical_downstream_facts": true,
+      "answer_span_only_replacement": true
+    }
+  },
+  "frozen_files": {
+    "data/candidates_v3_4.jsonl": "c21adf37012368176ca83462dd10f4ba025b1e21cf32a2c99a90975d8e0c3c3c",
+    "data/candidates_v3_4.manifest.json": "266b525f7d0cb02067913f28e511c95de41eb298f2bbab64846b06a344574886",
+    "results/smoke_v3_4/candidate_audit.md": "e58aa616a3430a4e06feb91170d5a6d0701f02c219078b85db50427c9ecd1e20",
+    "src/prepare_v3_4.py": "eff0816c8f16416eb5388e44a1fedb3e88dcf88befa673a6d914a0703af251cc",
+    "src/experiment_v3_4.py": "e6610012ffaddc28210deccd4ed6656085c9756339b1fcc4fa022ee5cd2e97c5",
+    "src/experiment_v3_3.py": "ba30d57ea57932f21b37bec418207eeaecb9b970fd15a2960437e97ee4083bf1",
+    "src/experiment_v3.py": "383340df5054b32090fd707424db92b271c8e003da5bba355b1bcfa9a834b380",
+    "src/experiment_v2.py": "d2c812544cb7c3836cc9c53952941bc31801af2bf17a82f083219fa129c14bc5",
+    "src/generation/local_hf_adapter.py": "ac6edf9792b87ffce59dc44f713b62f43e1bd3f8dae4c8b73748e63c291286b6",
+    "src/common.py": "3d9a41efd85336a0b49f75c3ada7921e84e459631c378979dc1f0a77bb635984"
+  }
+}

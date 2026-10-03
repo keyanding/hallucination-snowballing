@@ -1,0 +1,35 @@
+{
+  "passed": false,
+  "checks": {
+    "CLA": null,
+    "valid_first_hops": false,
+    "traceable_error_yield": false,
+    "OSER": true,
+    "invalid_downstream": null,
+    "complete_branches": null,
+    "replay": null,
+    "isolation": true,
+    "frozen_mapping": true
+  },
+  "stop_reasons": [
+    "Fewer than five traceable natural errors; stop without candidate redesign or retries",
+    "Fewer than fifteen in-set valid first hops"
+  ],
+  "thresholds": {
+    "cases": 20,
+    "seed": 42,
+    "min_CLA": 0.95,
+    "min_valid_first_hops": 15,
+    "min_traceable_errors": 5,
+    "max_OSER": 0.25,
+    "max_invalid_downstream": 0.1,
+    "min_complete_branch_cases": 15,
+    "max_new_tokens": 32
+  },
+  "scale_authorized": false,
+  "human_review_required": true,
+  "first_hop_sha256": "421c1e61928ad81e95f6538cba110b23cd1c6f00454261d3aac15e4068e135d1",
+  "trajectories_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "inspection_sha256": "1f416b5f84aaefc2d40889fff61911cb63e9ea5abd8260e5b849c3ccabbee5ba",
+  "semantic_review": "Codex completed; failed gate retained; human review pending"
+}

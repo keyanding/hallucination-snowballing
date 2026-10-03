@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "reviewer": "Codex pre-inference source and complete candidate audit",
+  "audit_sha256": "e58aa616a3430a4e06feb91170d5a6d0701f02c219078b85db50427c9ecd1e20",
+  "protocol_sha256": "e10db25b398d102d4d4eab1d4fc3e06c969b446673e9ca5a7208db51f630209c",
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "source_sentence_checks": 200,
+  "manual_overview_reviewed_cases": 20,
+  "unique_targets": true,
+  "no_direct_first_hop_leak": true,
+  "tests_passed": 52
+}

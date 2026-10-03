@@ -1,0 +1,26 @@
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:09,  4.64s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:09<00:04,  4.87s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  2.74s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.29s/it]
+{"case_id": "universe-01", "raw_generation": "Walter Hugo Khouri", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-02", "raw_generation": "Yuen Woo-ping", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-03", "raw_generation": "El Hombre que Vino del Odio and The Marihuana Story have the same director.  \nThe Marihuana Story was directed by León K", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-04", "raw_generation": "Yuen Woo-ping", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-05", "raw_generation": "The films \"My 20th Century\" and \"On Body and Soul\" have the same director.  \n\"On Body and Soul\" was directed by I", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-06", "raw_generation": "James Goldstone", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-07", "raw_generation": "León Klimovsky", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-08", "raw_generation": "The films \"The Amorous Ones\" and \"The Palace of Angels\" have the same director.  \n\"The Palace of Angels\" was directed by Walter Hugo Kh", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-09", "raw_generation": "Yuen Woo-ping", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-10", "raw_generation": "James Goldstone", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-11", "raw_generation": "Bhappi Sonie", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-12", "raw_generation": "Ildikó Enyedi", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-13", "raw_generation": "The films \"Love on the Cloud\" and \"And the Spring Comes\" have the same director.  \n\"And the Spring Comes\" was directed by Gu Changwei", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-14", "raw_generation": "James Goldstone", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-15", "raw_generation": "The films \"Peacock (2005 film)\" and \"And the Spring Comes\" have the same director.  \n\"And the Spring Comes\" was directed", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-16", "raw_generation": "\"Chalta Purza\" and \"Jail Yatra\" have the same director.  \n\"Jail Yatra\" was directed by Bhappi Son", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-17", "raw_generation": "Step 1: Identify the director of \"Biwi-O-Biwi\" based on the evidence.\n\nFrom the evidence:\n- \"Yodha (1", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-18", "raw_generation": "Rahul Rawail", "first_hop_label": "CORRECT_FIRST_HOP"}
+{"case_id": "universe-19", "raw_generation": "The films \"And the Spring Comes\" and \"Peacock (2005 film)\" have the same director.  \n\"Peacock (200", "first_hop_label": "INVALID_OUTPUT"}
+{"case_id": "universe-20", "raw_generation": "Step 1: Identify the director of \"In the Line of Duty 4: Witness\" using the given evidence.\n\nFrom the evidence:\n- \"Legend of", "first_hop_label": "INVALID_OUTPUT"}

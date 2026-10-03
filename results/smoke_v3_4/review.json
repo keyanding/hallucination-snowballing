@@ -1,0 +1,14 @@
+{
+  "note": "No empirical downstream conclusions; failed gate retained",
+  "reviewed_first_hops": 20,
+  "reviewer": "Codex complete first-hop raw-output and evidence audit",
+  "all_invalid_truncated": true,
+  "no_posthoc_name_extraction": true,
+  "correct_name_only": 11,
+  "first_hop_sha256": "421c1e61928ad81e95f6538cba110b23cd1c6f00454261d3aac15e4068e135d1",
+  "no_candidate_or_alias_changes": true,
+  "invalid_explanations": 9,
+  "diagnosis_sha256": "509693d77a71e4f6211b4f91c5d443855f279db6368f7b98973d5294b75ae3b5",
+  "natural_error_count": 0,
+  "downstream_calls": 0
+}

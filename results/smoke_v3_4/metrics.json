@@ -1,0 +1,85 @@
+{
+  "calls": {
+    "first_hop": 20,
+    "lookup": 0,
+    "unique_state_calls": 0
+  },
+  "first_hop_counts": {
+    "CORRECT_FIRST_HOP": 11,
+    "INVALID_OUTPUT": 9
+  },
+  "IFHA": {
+    "count": 11,
+    "denominator": 20,
+    "rate": 0.55
+  },
+  "TNER": {
+    "count": 0,
+    "denominator": 20,
+    "rate": 0.0
+  },
+  "OSER": {
+    "count": 0,
+    "denominator": 20,
+    "rate": 0.0
+  },
+  "first_hop_invalid": {
+    "count": 9,
+    "denominator": 20,
+    "rate": 0.45
+  },
+  "CLA_all": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "NPR": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "NRR": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "CCS": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "CWP": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "SCS": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "S0_NPR": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "invalid_downstream": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "complete_case_ids": [],
+  "eligible_natural_error_ids": [],
+  "natural_other_candidate": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "natural_out_of_universe": {
+    "count": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "delta_NPR_prefix": null,
+  "denominators": "IFHA/TNER/OSER/invalid: all 20. OSER counts parseable out-of-set entities separately from invalid. NPR/NRR/CCS/SCS/S0: complete traceable natural errors with all four direct lookups correct. CWP: complete direct-correct valid cases. Missing measurements are null. Logical duplicate branches do not create additional model calls."
+}

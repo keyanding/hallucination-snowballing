@@ -2,7 +2,26 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.3 natural first-hop checkpoints
+## Current experiment: v3.4 traceable candidate-universe selection
+
+V3.4 freezes twenty real film questions with four director candidates each. Every candidate has an explicit, previously reviewed downstream fact; all four target values and their aliases are distinct within a case. A shared-director link plus four bridge-film/director facts makes the first hop a composition task without directly stating the target film's director. Alternatives have documented films within thirty years of the target film, and gold positions are balanced five per slot. The twenty questions share eight gold directors and are not independent entity samples.
+
+Phase A generates a candidate name naturally and saves its exact chat checkpoint. Only exact listed names qualify; out-of-set answers are preserved. If fewer than five traceable natural errors occur, execution stops before downstream calls and reports NPR/CLA as unmeasured. Otherwise eighty direct lookups precede N0 (natural state), C0 (gold replacement), W0 (natural wrong or registered wrong state), plus S0 for eligible natural errors. All branches share four explicit downstream facts, and only the assistant answer span changes. Identical logical branches reuse one actual call.
+
+```powershell
+python -m src.prepare_v3_4
+python -m src.experiment_v3_4 prepare
+# Inspect candidate_audit.md and record its hash-bound audit_review.json.
+python -m unittest discover -s tests -v
+$env:HF_HUB_OFFLINE='1'
+python -m src.experiment_v3_4 run
+```
+
+Preparation and execution refuse overwrite. See [candidate audit](results/smoke_v3_4/candidate_audit.md), [protocol](results/smoke_v3_4/protocol.md), [inspection](results/smoke_v3_4/inspection.md) and [diagnosis](results/smoke_v3_4/diagnosis.md). The smoke requires CLA ≥95%, at least fifteen valid cases, at least five traceable natural errors, OSER ≤25%, low invalid output and verified replay/isolation. A low NPR does not itself fail the gate. No post-output candidate replacement, richer evidence ablation, new model or automatic pilot is included.
+
+Actual v3.4 outcome: execution **stopped after 20 first-hop calls**. There were **11 correct, 0 traceable wrong, 0 parseable out-of-set and 9 invalid outputs**; every invalid output was an explanation truncated at the fixed 32-token limit. The gate fails both valid-first-hop count (11/20, required ≥15) and traceable error yield (0/20, required ≥5). No lookup or downstream branch was run; **CLA/NPR/NRR/CCS/CWP/SCS remain null**, and the branch log is intentionally empty. No name extraction, retry or candidate replacement was used to rescue the result. All 52 tests passed and 145 prior artifacts retained their hashes. See the diagnosis for the separate format-reliability and error-yield limitations.
+
+## Previous experiment: v3.3 natural first-hop checkpoints
 
 V3.3 freezes twelve real 2Wiki questions (the previous ten plus two evidence-reviewed additions; four per downstream relation). Phase A asks for the first-hop name without evidence and saves the exact model output and chat-rendered checkpoint. Every downstream call starts fresh, explicitly replays that checkpoint, and changes only the assistant answer span and/or the added first-hop evidence. No hidden-state snapshot or cross-call KV cache is reused. All downstream branches receive a shared pair of reference facts after the checkpoint, so this measures evidence-assisted continuation rather than unrestricted closed-book two-hop generation.
 

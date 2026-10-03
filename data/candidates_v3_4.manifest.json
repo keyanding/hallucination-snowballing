@@ -1,0 +1,24 @@
+{
+  "version": "3.4",
+  "seed": 42,
+  "cases": 20,
+  "source_sha256": "79f77ae104088ea8e25b1a65dbece768d45771194663bc5660ec9a98070dadf5",
+  "candidates_sha256": "c21adf37012368176ca83462dd10f4ba025b1e21cf32a2c99a90975d8e0c3c3c",
+  "source_code_sha256": "eff0816c8f16416eb5388e44a1fedb3e88dcf88befa673a6d914a0703af251cc",
+  "source": "Frozen 2WikiMultiHopQA dev.json",
+  "unique_gold_directors": 8,
+  "relation_counts": {
+    "place of birth": 3,
+    "place of death": 9,
+    "father": 8
+  },
+  "selection": "Twenty source films of eight preselected directors with multiple supported films; downstream facts reuse reviewed v3.3 candidate/donor pool. Selection and ordering frozen before v3.4 inference.",
+  "gold_position_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 5,
+    "4": 5
+  },
+  "no_v34_outputs_used": true,
+  "repeated_directors_not_independent": true
+}

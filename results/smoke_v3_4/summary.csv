@@ -1,0 +1,16 @@
+metric,count,denominator,rate
+IFHA,11,20,0.55
+TNER,0,20,0.0
+OSER,0,20,0.0
+first_hop_invalid,9,20,0.45
+CLA_all,0,0,
+NPR,0,0,
+NRR,0,0,
+CCS,0,0,
+CWP,0,0,
+SCS,0,0,
+S0_NPR,0,0,
+invalid_downstream,0,0,
+natural_other_candidate,0,0,
+natural_out_of_universe,0,0,
+delta_NPR_prefix,,,

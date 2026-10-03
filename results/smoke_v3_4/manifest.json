@@ -1,0 +1,41 @@
+{
+  "version": "3.4",
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "policy": {
+    "cases": 20,
+    "seed": 42,
+    "min_CLA": 0.95,
+    "min_valid_first_hops": 15,
+    "min_traceable_errors": 5,
+    "max_OSER": 0.25,
+    "max_invalid_downstream": 0.1,
+    "min_complete_branch_cases": 15,
+    "max_new_tokens": 32
+  },
+  "dataset_sha256": "c21adf37012368176ca83462dd10f4ba025b1e21cf32a2c99a90975d8e0c3c3c",
+  "audit_sha256": "e58aa616a3430a4e06feb91170d5a6d0701f02c219078b85db50427c9ecd1e20",
+  "source_hashes": {
+    "prepare_v3_4.py": "eff0816c8f16416eb5388e44a1fedb3e88dcf88befa673a6d914a0703af251cc",
+    "experiment_v3_4.py": "e6610012ffaddc28210deccd4ed6656085c9756339b1fcc4fa022ee5cd2e97c5",
+    "experiment_v3_3.py": "ba30d57ea57932f21b37bec418207eeaecb9b970fd15a2960437e97ee4083bf1",
+    "experiment_v3.py": "383340df5054b32090fd707424db92b271c8e003da5bba355b1bcfa9a834b380",
+    "experiment_v2.py": "d2c812544cb7c3836cc9c53952941bc31801af2bf17a82f083219fa129c14bc5",
+    "generation/local_hf_adapter.py": "ac6edf9792b87ffce59dc44f713b62f43e1bd3f8dae4c8b73748e63c291286b6",
+    "common.py": "3d9a41efd85336a0b49f75c3ada7921e84e459631c378979dc1f0a77bb635984"
+  },
+  "decoding": {
+    "do_sample": false,
+    "temperature_argument": null,
+    "use_cache": false,
+    "enable_thinking": false,
+    "max_new_tokens": 32
+  },
+  "design": "Closed candidate-set first-hop composition; checkpoint replay with post-checkpoint downstream facts; no context-support ablations",
+  "quantization": "4bit-nf4",
+  "compute_dtype": "torch.bfloat16",
+  "device_map": {
+    "": "0"
+  },
+  "cpu_offload": false
+}
