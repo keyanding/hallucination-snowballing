@@ -1,0 +1,18 @@
+{
+  "measurement_valid": true,
+  "diagnostic_routes": {
+    "route1": false,
+    "route2": false
+  },
+  "descriptive_outcome_flags": {
+    "A_strong_position": true,
+    "B_strong_identity": false,
+    "C_difficulty_dependent_position": true,
+    "D_neither": false
+  },
+  "downstream_calls": 0,
+  "requires_new_clean_development_split": true,
+  "recommendation": "No clean route is supported. Resolve answer-option order sensitivity before any propagation study.",
+  "reason": "Selected six-case control is diagnostic, not a new independent frontier confirmation.",
+  "v3.5_authorized": false
+}

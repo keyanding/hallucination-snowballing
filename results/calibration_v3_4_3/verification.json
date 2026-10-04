@@ -1,0 +1,164 @@
+{
+  "channel_triplets": 72,
+  "repeated_sets": 18,
+  "cases": 6,
+  "mapping_checks": 24,
+  "prior_artifact_count": 214,
+  "prior_artifacts_unchanged": true,
+  "frozen_inputs_unchanged": true,
+  "all_permutations_verified": true,
+  "only_candidate_list_changed": true,
+  "candidate_name_record_order_fixed": true,
+  "token_and_likelihood_checks": true,
+  "prior_P1_replication": [
+    {
+      "case_id": "dev-04",
+      "difficulty": "EASY",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-07",
+      "difficulty": "EASY",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-05",
+      "difficulty": "EASY",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-01",
+      "difficulty": "EASY",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-06",
+      "difficulty": "EASY",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-08",
+      "difficulty": "EASY",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-04",
+      "difficulty": "MID",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-07",
+      "difficulty": "MID",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-05",
+      "difficulty": "MID",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-01",
+      "difficulty": "MID",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-06",
+      "difficulty": "MID",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-08",
+      "difficulty": "MID",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-04",
+      "difficulty": "HARD",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-07",
+      "difficulty": "HARD",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-05",
+      "difficulty": "HARD",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-01",
+      "difficulty": "HARD",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-06",
+      "difficulty": "HARD",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    },
+    {
+      "case_id": "dev-08",
+      "difficulty": "HARD",
+      "prompt_identical": true,
+      "free_raw_identical": true,
+      "C_identical": true,
+      "maximum_mean_score_difference": 0.0
+    }
+  ],
+  "output_hashes": {
+    "free_generation.jsonl": "662a596231dc0a9df280d28a59c0c41c13c5991780ed0010a42163007153dd33",
+    "constrained_choice.jsonl": "21cd7893bb91e77e71557683200c99230bf28ebcba4dcfe7fb698791ec89e975",
+    "candidate_likelihoods.jsonl": "66a640359c5496a46f79ce28f476d84bcffd15bbdb530cbd1f2030beb2ecf61a"
+  }
+}

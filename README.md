@@ -2,7 +2,41 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.4.2 factorial graph calibration
+## Current experiment: v3.4.3 candidate-order counterfactual control
+
+V3.4.3 completed **6 specified cases × 3 frozen difficulties × 4 cyclic candidate-list rotations × 3 channels = 216 channel evaluations** (72 prompts). The repeated units are eighteen case-condition sets nested within six deliberately selected cases, not 72 independent observations. The graphs, candidate-name record order, questions, relation labels, IDs, template, and decoding settings are unchanged. Only the four numbered candidate options rotate. All eighteen P1 prompts, new free outputs, constrained choices, and mean candidate scores exactly reproduce v3.4.2.
+
+The result supports **a candidate-position effect that increases with difficulty**, within these selected inputs. It does not establish an internal cognitive mechanism or equate candidate-list order with v3.3 evidence order.
+
+| Difficulty | Position-1 selection | Literal PFR | Mean identity-matched Delta at position 1 |
+|---|---|---|---|
+| EASY (D1B0) | 8/24 (33.3%) | 4/18 (22.2%) | +1.6109 nats/token |
+| MID (D3B0) | 13/24 (54.2%) | 8/18 (44.4%) | +2.0694 nats/token |
+| HARD (D4B2) | 16/24 (66.7%) | 11/18 (61.1%) | +2.8259 nats/token |
+
+Across all sets, PSR1 is **37/72 (51.4%)**. Eleven of eighteen sets change selected identity with order; six are POSITION_1_LOCKED, seven GOLD_STABLE, one MIXED_POSITION_IDENTITY and four UNSTABLE_OTHER. None is IDENTITY_LOCKED to a non-gold candidate. The original first/wrong identity remains selected after moving away only **1/9** times for dev-04 and **0/9** for dev-07. This is not a universal always-first strategy: individual identity/case effects and stable gold choices remain.
+
+Dev-05 has decreasing EASY→MID→HARD gold margins in all four fixed-order trajectories and is always wrong at HARD, but its original MID error survives in only one ordering. The complexity effect persists while the error boundary depends on option order. Dev-08 remains gold-stable everywhere; dev-06 has one order-induced MID error. C validity and L/C agreement are 72/72. Free strict compliance is **68/72**, with **four truncated reconsideration/explanation outputs**; FCA is 68/68 among strict outputs. Auxiliary extraction does not convert those four outputs into completed natural answers.
+
+**v3.5 is not authorized.** MID retains diagnostic frontier-like averages (equal-case error 29.2%, median of case median margins +0.6427, near-boundary fraction 50%), but PSR1 remains 54.2%. HARD has error 50% and only 8.3% near-boundary coverage. Counterbalancing equalizes identity exposure but does not remove the observed first-position preference. A new clean calibration/confirmation design is required before any propagation recommendation.
+
+See [diagnosis](results/calibration_v3_4_3/diagnosis.md), [inspection](results/calibration_v3_4_3/inspection.md), [prompt diff audit](results/calibration_v3_4_3/prompt_diff_audit.md), [frontier salvage](results/calibration_v3_4_3/frontier_salvage.md), and [position-control figure](results/calibration_v3_4_3/position_controls.png). PFR is reported both literally (new first option selected) and strictly (previous first was selected and the selected identity changes); only adjacent P1→P2→P3→P4 comparisons enter the 54-transition denominator, with no wrap-around. The stricter conditional rate is 16/31; literal PFR alone is not evidence of position following.
+
+```powershell
+# Fresh output directory only; refuses overwrite and silent retries.
+$env:HF_HUB_OFFLINE='1'
+python -m unittest discover -s tests
+python -m src.calibration_v3_4_3 prepare
+python -m src.calibration_v3_4_3 run
+# Verification and presentation only, with no model calls:
+python -m src.calibration_v3_4_3 verify
+python scripts/plot_calibration_v3_4_3.py
+python scripts/present_calibration_v3_4_3.py
+```
+
+All **72 tests** passed. The audit verifies all 72 order-only prompts, twenty-four frozen downstream mappings, token paths, likelihood arithmetic/ranks, paired Delta zero-sums, and eighteen prior-input replications. All **214 prior artifact hashes** are unchanged. The preregistered inference/analysis code and thresholds were not modified after inference began. No downstream continuation, propagation metric, or automatic v3.5 run was added.
+
+## Previous experiment: v3.4.2 factorial graph calibration
 
 V3.4.2 completed **8 base cases × 4 depths × 3 branch counts × 3 channels = 288 channel evaluations** (96 paired prompts). Twenty anonymous synthetic Film targets were frozen: eight development and twelve held-out, with gold positions balanced 2/slot and 3/slot. Each target has four real candidate directors and audited, distinct downstream targets. Candidate bundles are sampled from the prior frozen datasets without consulting model outputs; graph node IDs and target questions are new. Entities may recur across splits.
 
