@@ -1,0 +1,866 @@
+[
+  {
+    "case_id": "v351-01",
+    "A": "T377240",
+    "B": "Rolf Schübel",
+    "Bp": "Rodrigo Grande",
+    "C": "Stuttgart",
+    "Cp": "Rosario",
+    "C_aliases": [
+      "Stuttgart"
+    ],
+    "Cp_aliases": [
+      "Rosario"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "Bp",
+      "B"
+    ],
+    "sources": {
+      "B": {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T377240",
+        "credited director",
+        "Rolf Schübel"
+      ],
+      [
+        "Rolf Schübel",
+        "place of birth",
+        "Stuttgart"
+      ],
+      [
+        "Rodrigo Grande",
+        "place of birth",
+        "Rosario"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-02",
+    "A": "T381657",
+    "B": "Rolf Schübel",
+    "Bp": "Helmut Käutner",
+    "C": "Stuttgart",
+    "Cp": "Düsseldorf",
+    "C_aliases": [
+      "Stuttgart"
+    ],
+    "Cp_aliases": [
+      "Dusseldorf",
+      "Düsseldorf"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "B",
+      "Bp"
+    ],
+    "sources": {
+      "B": {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T381657",
+        "credited director",
+        "Rolf Schübel"
+      ],
+      [
+        "Rolf Schübel",
+        "place of birth",
+        "Stuttgart"
+      ],
+      [
+        "Helmut Käutner",
+        "place of birth",
+        "Düsseldorf"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-03",
+    "A": "T366143",
+    "B": "Fridrikh Ermler",
+    "Bp": "Helmut Käutner",
+    "C": "Rēzekne",
+    "Cp": "Düsseldorf",
+    "C_aliases": [
+      "Rezekne",
+      "Rēzekne"
+    ],
+    "Cp_aliases": [
+      "Dusseldorf",
+      "Düsseldorf"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "Bp",
+      "B"
+    ],
+    "sources": {
+      "B": {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T366143",
+        "credited director",
+        "Fridrikh Ermler"
+      ],
+      [
+        "Fridrikh Ermler",
+        "place of birth",
+        "Rēzekne"
+      ],
+      [
+        "Helmut Käutner",
+        "place of birth",
+        "Düsseldorf"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-04",
+    "A": "T368981",
+    "B": "Fridrikh Ermler",
+    "Bp": "Gu Changwei",
+    "C": "Rēzekne",
+    "Cp": "Xi'an",
+    "C_aliases": [
+      "Rezekne",
+      "Rēzekne"
+    ],
+    "Cp_aliases": [
+      "Xi'an"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "Bp",
+      "B"
+    ],
+    "sources": {
+      "B": {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T368981",
+        "credited director",
+        "Fridrikh Ermler"
+      ],
+      [
+        "Fridrikh Ermler",
+        "place of birth",
+        "Rēzekne"
+      ],
+      [
+        "Gu Changwei",
+        "place of birth",
+        "Xi'an"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-05",
+    "A": "T399418",
+    "B": "Rodrigo Grande",
+    "Bp": "Feng Xiaoning",
+    "C": "Rosario",
+    "Cp": "Xi'an",
+    "C_aliases": [
+      "Rosario"
+    ],
+    "Cp_aliases": [
+      "Xi'an"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "Bp",
+      "B"
+    ],
+    "sources": {
+      "B": {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T399418",
+        "credited director",
+        "Rodrigo Grande"
+      ],
+      [
+        "Rodrigo Grande",
+        "place of birth",
+        "Rosario"
+      ],
+      [
+        "Feng Xiaoning",
+        "place of birth",
+        "Xi'an"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-06",
+    "A": "T368478",
+    "B": "Rolf Schübel",
+    "Bp": "Anil Das",
+    "C": "Stuttgart",
+    "Cp": "Kottayam",
+    "C_aliases": [
+      "Stuttgart"
+    ],
+    "Cp_aliases": [
+      "Kottayam"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "B",
+      "Bp"
+    ],
+    "sources": {
+      "B": {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T368478",
+        "credited director",
+        "Rolf Schübel"
+      ],
+      [
+        "Rolf Schübel",
+        "place of birth",
+        "Stuttgart"
+      ],
+      [
+        "Anil Das",
+        "place of birth",
+        "Kottayam"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-07",
+    "A": "T394378",
+    "B": "Helmut Käutner",
+    "Bp": "Rodrigo Grande",
+    "C": "Düsseldorf",
+    "Cp": "Rosario",
+    "C_aliases": [
+      "Dusseldorf",
+      "Düsseldorf"
+    ],
+    "Cp_aliases": [
+      "Rosario"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "B",
+      "Bp"
+    ],
+    "sources": {
+      "B": {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T394378",
+        "credited director",
+        "Helmut Käutner"
+      ],
+      [
+        "Helmut Käutner",
+        "place of birth",
+        "Düsseldorf"
+      ],
+      [
+        "Rodrigo Grande",
+        "place of birth",
+        "Rosario"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-08",
+    "A": "T392529",
+    "B": "Anil Das",
+    "Bp": "Rodrigo Grande",
+    "C": "Kottayam",
+    "Cp": "Rosario",
+    "C_aliases": [
+      "Kottayam"
+    ],
+    "Cp_aliases": [
+      "Rosario"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "B",
+      "Bp"
+    ],
+    "sources": {
+      "B": {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T392529",
+        "credited director",
+        "Anil Das"
+      ],
+      [
+        "Anil Das",
+        "place of birth",
+        "Kottayam"
+      ],
+      [
+        "Rodrigo Grande",
+        "place of birth",
+        "Rosario"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-09",
+    "A": "T399350",
+    "B": "Rolf Schübel",
+    "Bp": "Feng Xiaoning",
+    "C": "Stuttgart",
+    "Cp": "Xi'an",
+    "C_aliases": [
+      "Stuttgart"
+    ],
+    "Cp_aliases": [
+      "Xi'an"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "B",
+      "Bp"
+    ],
+    "sources": {
+      "B": {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T399350",
+        "credited director",
+        "Rolf Schübel"
+      ],
+      [
+        "Rolf Schübel",
+        "place of birth",
+        "Stuttgart"
+      ],
+      [
+        "Feng Xiaoning",
+        "place of birth",
+        "Xi'an"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-10",
+    "A": "T367568",
+    "B": "Feng Xiaoning",
+    "Bp": "Helmut Käutner",
+    "C": "Xi'an",
+    "Cp": "Düsseldorf",
+    "C_aliases": [
+      "Xi'an"
+    ],
+    "Cp_aliases": [
+      "Dusseldorf",
+      "Düsseldorf"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "Bp",
+      "B"
+    ],
+    "sources": {
+      "B": {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T367568",
+        "credited director",
+        "Feng Xiaoning"
+      ],
+      [
+        "Feng Xiaoning",
+        "place of birth",
+        "Xi'an"
+      ],
+      [
+        "Helmut Käutner",
+        "place of birth",
+        "Düsseldorf"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-11",
+    "A": "T373560",
+    "B": "Fridrikh Ermler",
+    "Bp": "Feng Xiaoning",
+    "C": "Rēzekne",
+    "Cp": "Xi'an",
+    "C_aliases": [
+      "Rezekne",
+      "Rēzekne"
+    ],
+    "Cp_aliases": [
+      "Xi'an"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "B",
+      "Bp"
+    ],
+    "sources": {
+      "B": {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T373560",
+        "credited director",
+        "Fridrikh Ermler"
+      ],
+      [
+        "Fridrikh Ermler",
+        "place of birth",
+        "Rēzekne"
+      ],
+      [
+        "Feng Xiaoning",
+        "place of birth",
+        "Xi'an"
+      ]
+    ]
+  },
+  {
+    "case_id": "v351-12",
+    "A": "T387137",
+    "B": "Helmut Käutner",
+    "Bp": "Anil Das",
+    "C": "Düsseldorf",
+    "Cp": "Kottayam",
+    "C_aliases": [
+      "Dusseldorf",
+      "Düsseldorf"
+    ],
+    "Cp_aliases": [
+      "Kottayam"
+    ],
+    "r1": "credited director",
+    "r2": "place of birth",
+    "record_order": [
+      "Bp",
+      "B"
+    ],
+    "sources": {
+      "B": {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      "Bp": {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      }
+    },
+    "seed": 351,
+    "gold_graph": [
+      [
+        "T387137",
+        "credited director",
+        "Helmut Käutner"
+      ],
+      [
+        "Helmut Käutner",
+        "place of birth",
+        "Düsseldorf"
+      ],
+      [
+        "Anil Das",
+        "place of birth",
+        "Kottayam"
+      ]
+    ]
+  }
+]

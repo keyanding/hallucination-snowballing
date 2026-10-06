@@ -1,0 +1,7 @@
+{
+  "cases": 12,
+  "unique_gold_paths": 12,
+  "verified_real_mappings": 24,
+  "aliases_disjoint": true,
+  "main_prompts": 72
+}

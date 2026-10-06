@@ -1,0 +1,17 @@
+{
+  "recommendation": "STOP_INVALID",
+  "checks": {
+    "complete": true,
+    "capability": true,
+    "C0": false,
+    "S0": true,
+    "framing_format": true
+  },
+  "framing_signal": false,
+  "evidence_dominance": true,
+  "wrong_state_dominance": false,
+  "manipulation_failed": true,
+  "v3_5_2_executed": false,
+  "independent_confirmation_executed": false,
+  "identification_boundary": "Same fact, same semantic relevance, different task-role heading; perceived authority not independently isolated."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "main_calls": 72,
+  "auxiliary_calls": 16,
+  "capability_pass": true,
+  "last": {
+    "case_id": "v351-08",
+    "condition": "G-BACKGROUND"
+  },
+  "memory": {
+    "peak_allocated_bytes": 3430942720,
+    "peak_reserved_bytes": 3500146688,
+    "free_bytes": 3711959040,
+    "total_bytes": 8546484224
+  }
+}

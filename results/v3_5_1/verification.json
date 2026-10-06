@@ -1,0 +1,41 @@
+{
+  "required_files": [
+    "README.md",
+    "pre_registration.md",
+    "design_audit.md",
+    "cases.json",
+    "model_manifest.json",
+    "prompt_plan.json",
+    "prompt_diff_audit.md",
+    "capability_checks.jsonl",
+    "outputs.jsonl",
+    "parsed_outcomes.jsonl",
+    "metrics.json",
+    "inspection.md",
+    "diagnosis.md",
+    "gate.json",
+    "CHANGELOG.md"
+  ],
+  "output_hashes": {
+    "README.md": "94a11dde8944e927c6364dc8945281ada87b050e785755fa9167e43bcbf942c7",
+    "pre_registration.md": "67734c4647fee24ac2c9f7b6a0fca2dfa9ebb009a7c90833e77738c25377518c",
+    "design_audit.md": "3be635ab372e4ec83ba98f96c6b4037c2ccf1ae6b56ac74ad4b1313cdffc886e",
+    "cases.json": "dbf00d5eab5d33f1e797bbf96b406305cb6a436d85e7abd83895e936c6012bb1",
+    "model_manifest.json": "e62f6a519934c7c103ecf78b3cf4dee3fce4673a5cd9efef0fe31a6523e0d942",
+    "prompt_plan.json": "0d19fba551c9c26d68eac68cabfbe04ec89e189163ac4646693788c88acc112a",
+    "prompt_diff_audit.md": "fc432986bfd3f01db367b48306a0b8bc210c85bb1ad47ab28d0d514d4a17b3ff",
+    "capability_checks.jsonl": "c5f0f78a3ad5eff04937f80c400cccb62e386015b87c6d88839ee05934d751de",
+    "outputs.jsonl": "fe474d6f4eff3d446e032ef14af982619715df72d44a41fa8da7744702f1f9a9",
+    "parsed_outcomes.jsonl": "480f17e525f44f50b04d5f9ca44bb9ced155021c44b750faaa17a3514eeb0f62",
+    "metrics.json": "97431d26470f94296f05410e74b29fac01fac78796a78fa66f2fde0904487f85",
+    "inspection.md": "b1af8b40da851f18b6a35e6f5aa99264bc479cc69c596d67e0c317a7673041c2",
+    "diagnosis.md": "79e80c391db869235698aeb3e393dd44bc0b66cfa9554dc8407e9693cbf9a096",
+    "gate.json": "71f07a8a92b68eb15191f951399a98fbbd9d12426eb457291005c64a2417d11a",
+    "CHANGELOG.md": "edba8c9ddb3d9904f590306e1a4d6aa57e25e878c5c06a2655ed43513981d660"
+  },
+  "frozen_inputs_and_prior_artifacts_unchanged": true,
+  "prior_artifacts": 284,
+  "main_calls": 72,
+  "auxiliary_calls": 16,
+  "classification_checked": true
+}

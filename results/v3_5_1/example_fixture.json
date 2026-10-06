@@ -1,0 +1,84 @@
+{
+  "prompts": {
+    "S0": {
+      "case_id": "illustrative-only",
+      "condition": "S0",
+      "injected_state": "Rolf Schübel",
+      "wrong_state": true,
+      "role": null,
+      "fact": null,
+      "question": "Based on the supplied context, what is the place of birth of the credited director of Film T64218?",
+      "downstream_block": "Reference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.",
+      "record_order_sha256": "34abc80270cafe2d1ab4f37bfa562dc7a247e97a7c0ca7ab906b2224c5b4f985",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film T64218.\n\nReference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.\n\n\n\nExternally supplied working intermediate state (not an earlier model answer):\nRolf Schübel\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film T64218?\nOutput only the city name.",
+      "text_sha256": "472bdd628cd2568ab850b005285087a928833f4e7ec9c20270a68e70a9d7cbef"
+    },
+    "G-CURRENT": {
+      "case_id": "illustrative-only",
+      "condition": "G-CURRENT",
+      "injected_state": "Rolf Schübel",
+      "wrong_state": true,
+      "role": "Current-task dossier",
+      "fact": "Film T64218 has credited director Helmut Käutner.",
+      "question": "Based on the supplied context, what is the place of birth of the credited director of Film T64218?",
+      "downstream_block": "Reference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.",
+      "record_order_sha256": "34abc80270cafe2d1ab4f37bfa562dc7a247e97a7c0ca7ab906b2224c5b4f985",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film T64218.\n\nReference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.\n\nCurrent-task dossier (source: project record set):\nFilm T64218 has credited director Helmut Käutner.\n\nExternally supplied working intermediate state (not an earlier model answer):\nRolf Schübel\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film T64218?\nOutput only the city name.",
+      "text_sha256": "2e014953a498e55b98188a9e6412e17c706226186bfed267ec121e3063806387"
+    },
+    "G-BACKGROUND": {
+      "case_id": "illustrative-only",
+      "condition": "G-BACKGROUND",
+      "injected_state": "Rolf Schübel",
+      "wrong_state": true,
+      "role": "Background/history dossier",
+      "fact": "Film T64218 has credited director Helmut Käutner.",
+      "question": "Based on the supplied context, what is the place of birth of the credited director of Film T64218?",
+      "downstream_block": "Reference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.",
+      "record_order_sha256": "34abc80270cafe2d1ab4f37bfa562dc7a247e97a7c0ca7ab906b2224c5b4f985",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film T64218.\n\nReference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.\n\nBackground/history dossier (source: project record set):\nFilm T64218 has credited director Helmut Käutner.\n\nExternally supplied working intermediate state (not an earlier model answer):\nRolf Schübel\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film T64218?\nOutput only the city name.",
+      "text_sha256": "f43a0867c19d1677bc30b1a1a8564df1438d32e8ff055a938b668cb81dfbf8b9"
+    },
+    "W-CURRENT": {
+      "case_id": "illustrative-only",
+      "condition": "W-CURRENT",
+      "injected_state": "Rolf Schübel",
+      "wrong_state": true,
+      "role": "Current-task dossier",
+      "fact": "Film T64218 has credited director Rolf Schübel.",
+      "question": "Based on the supplied context, what is the place of birth of the credited director of Film T64218?",
+      "downstream_block": "Reference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.",
+      "record_order_sha256": "34abc80270cafe2d1ab4f37bfa562dc7a247e97a7c0ca7ab906b2224c5b4f985",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film T64218.\n\nReference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.\n\nCurrent-task dossier (source: project record set):\nFilm T64218 has credited director Rolf Schübel.\n\nExternally supplied working intermediate state (not an earlier model answer):\nRolf Schübel\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film T64218?\nOutput only the city name.",
+      "text_sha256": "3c8100feb0dea13d1472e56ccdcdeb1be7f1deee092643bd20875389048d9fc4"
+    },
+    "C0": {
+      "case_id": "illustrative-only",
+      "condition": "C0",
+      "injected_state": "Helmut Käutner",
+      "wrong_state": false,
+      "role": null,
+      "fact": null,
+      "question": "Based on the supplied context, what is the place of birth of the credited director of Film T64218?",
+      "downstream_block": "Reference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.",
+      "record_order_sha256": "34abc80270cafe2d1ab4f37bfa562dc7a247e97a7c0ca7ab906b2224c5b4f985",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film T64218.\n\nReference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.\n\n\n\nExternally supplied working intermediate state (not an earlier model answer):\nHelmut Käutner\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film T64218?\nOutput only the city name.",
+      "text_sha256": "f72d143919e328402a97a2dbcea2c124481dfc0efdba54e0a3c662c3e60b21ab"
+    },
+    "C-WCURRENT": {
+      "case_id": "illustrative-only",
+      "condition": "C-WCURRENT",
+      "injected_state": "Helmut Käutner",
+      "wrong_state": false,
+      "role": "Current-task dossier",
+      "fact": "Film T64218 has credited director Rolf Schübel.",
+      "question": "Based on the supplied context, what is the place of birth of the credited director of Film T64218?",
+      "downstream_block": "Reference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.",
+      "record_order_sha256": "34abc80270cafe2d1ab4f37bfa562dc7a247e97a7c0ca7ab906b2224c5b4f985",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film T64218.\n\nReference notes (source: project record set):\nHelmut Käutner's place of birth is Düsseldorf.\nRolf Schübel's place of birth is Stuttgart.\n\nCurrent-task dossier (source: project record set):\nFilm T64218 has credited director Rolf Schübel.\n\nExternally supplied working intermediate state (not an earlier model answer):\nHelmut Käutner\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film T64218?\nOutput only the city name.",
+      "text_sha256": "432a6ab49f9a16a59d26128b2493523dd1f1654a43b7493ce81402fdada29591"
+    }
+  },
+  "literal_cities_source_verified": true,
+  "queried": false
+}

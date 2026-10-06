@@ -1,0 +1,127 @@
+{
+  "smoke": [
+    {
+      "check_id": "format-1",
+      "prompt": "Reference note: Ava Mire's place of birth is Luma.\nQuestion: What is Ava Mire's place of birth?\nOutput only the city name.",
+      "expected": "Luma"
+    },
+    {
+      "check_id": "format-2",
+      "prompt": "Reference note: Bo Vell's place of birth is Vela.\nQuestion: What is Bo Vell's place of birth?\nOutput only the city name.",
+      "expected": "Vela"
+    },
+    {
+      "check_id": "format-3",
+      "prompt": "Reference note: Cia Norr's place of birth is Naro.\nQuestion: What is Cia Norr's place of birth?\nOutput only the city name.",
+      "expected": "Naro"
+    },
+    {
+      "check_id": "format-4",
+      "prompt": "Reference note: Dax Penn's place of birth is Sora.\nQuestion: What is Dax Penn's place of birth?\nOutput only the city name.",
+      "expected": "Sora"
+    }
+  ],
+  "capability": [
+    {
+      "check_id": "lookup-1",
+      "kind": "real_direct_lookup",
+      "prompt": "Reference note (source: project record set): Anil Das's place of birth is Kottayam.\nQuestion: What is Anil Das's place of birth?\nOutput only the city name.",
+      "expected": "Kottayam",
+      "aliases": [
+        "Kottayam"
+      ]
+    },
+    {
+      "check_id": "lookup-2",
+      "kind": "real_direct_lookup",
+      "prompt": "Reference note (source: project record set): Feng Xiaoning's place of birth is Xi'an.\nQuestion: What is Feng Xiaoning's place of birth?\nOutput only the city name.",
+      "expected": "Xi'an",
+      "aliases": [
+        "Xi'an"
+      ]
+    },
+    {
+      "check_id": "lookup-3",
+      "kind": "real_direct_lookup",
+      "prompt": "Reference note (source: project record set): Fridrikh Ermler's place of birth is Rēzekne.\nQuestion: What is Fridrikh Ermler's place of birth?\nOutput only the city name.",
+      "expected": "Rēzekne",
+      "aliases": [
+        "Rezekne",
+        "Rēzekne"
+      ]
+    },
+    {
+      "check_id": "lookup-4",
+      "kind": "real_direct_lookup",
+      "prompt": "Reference note (source: project record set): Gu Changwei's place of birth is Xi'an.\nQuestion: What is Gu Changwei's place of birth?\nOutput only the city name.",
+      "expected": "Xi'an",
+      "aliases": [
+        "Xi'an"
+      ]
+    },
+    {
+      "check_id": "lookup-5",
+      "kind": "real_direct_lookup",
+      "prompt": "Reference note (source: project record set): Helmut Käutner's place of birth is Düsseldorf.\nQuestion: What is Helmut Käutner's place of birth?\nOutput only the city name.",
+      "expected": "Düsseldorf",
+      "aliases": [
+        "Dusseldorf",
+        "Düsseldorf"
+      ]
+    },
+    {
+      "check_id": "lookup-6",
+      "kind": "real_direct_lookup",
+      "prompt": "Reference note (source: project record set): Rodrigo Grande's place of birth is Rosario.\nQuestion: What is Rodrigo Grande's place of birth?\nOutput only the city name.",
+      "expected": "Rosario",
+      "aliases": [
+        "Rosario"
+      ]
+    },
+    {
+      "check_id": "lookup-7",
+      "kind": "real_direct_lookup",
+      "prompt": "Reference note (source: project record set): Rolf Schübel's place of birth is Stuttgart.\nQuestion: What is Rolf Schübel's place of birth?\nOutput only the city name.",
+      "expected": "Stuttgart",
+      "aliases": [
+        "Stuttgart"
+      ]
+    },
+    {
+      "check_id": "context-1",
+      "kind": "fictional_context_lookup",
+      "prompt": "For this fictional record set, Ena Dorr's place of birth is Toma.\nQuestion: What is Ena Dorr's place of birth?\nOutput only the city name.",
+      "expected": "Toma",
+      "aliases": [
+        "Toma"
+      ]
+    },
+    {
+      "check_id": "context-2",
+      "kind": "fictional_context_lookup",
+      "prompt": "For this fictional record set, Fay Voss's place of birth is Rina.\nQuestion: What is Fay Voss's place of birth?\nOutput only the city name.",
+      "expected": "Rina",
+      "aliases": [
+        "Rina"
+      ]
+    },
+    {
+      "check_id": "state-S0",
+      "kind": "fictional_state_control",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film AUX351.\n\nReference notes (source: project record set):\nHia Tern's place of birth is Dora.\nGio Marr's place of birth is Pela.\n\n\n\nExternally supplied working intermediate state (not an earlier model answer):\nHia Tern\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film AUX351?\nOutput only the city name.",
+      "expected": "Dora",
+      "aliases": [
+        "Dora"
+      ]
+    },
+    {
+      "check_id": "state-C0",
+      "kind": "fictional_state_control",
+      "prompt": "This is a synthetic catalog task. Film identifiers and credited-director associations are constructed for this task. Use the supplied context.\n\nTask: The current question concerns Film AUX351.\n\nReference notes (source: project record set):\nHia Tern's place of birth is Dora.\nGio Marr's place of birth is Pela.\n\n\n\nExternally supplied working intermediate state (not an earlier model answer):\nGio Marr\n\nQuestion: Based on the supplied context, what is the place of birth of the credited director of Film AUX351?\nOutput only the city name.",
+      "expected": "Pela",
+      "aliases": [
+        "Pela"
+      ]
+    }
+  ]
+}

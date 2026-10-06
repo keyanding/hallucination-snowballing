@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "main_calls": 72,
+  "auxiliary_calls": 16,
+  "case_pairs": 12,
+  "mapping_checks": 24,
+  "unique_people": 7,
+  "exact_case_condition_matrix": true,
+  "headings_only": true,
+  "raw_and_parsed_outcomes_match": true,
+  "gate_recomputed": true,
+  "environment_matches_v3_4_4": true,
+  "chat_template_unchanged": true,
+  "shared_harness_source_unchanged": true,
+  "source_syntax_and_whitespace": true,
+  "unit_tests": 81,
+  "prior_artifacts_preserved": 284,
+  "interpretation_boundary": "Same fact, same semantic relevance, different task-role heading; perceived authority not independently isolated.",
+  "reporting_code_sha256": "c0c99d843d9f051384be566d3f2d685c76185e38de4eaacac02bde5a6d621418"
+}

@@ -2,7 +2,17 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.4.4 answer interfaces and record order
+## Current experiment: v3.5.1 task-role framing pilot
+
+Completed **72 main calls +16 independent auxiliary checks**, with **81 tests passing**. The intervention is an externally supplied erroneous state, not a spontaneous first-hop hallucination. Twelve anonymous film targets and twelve distinct person pairs use frozen source-backed birth-city mappings.
+
+**STOP_INVALID:** S0 propagated 9/12 (minimum 8/12), but C0 followed the correct state only 9/12 (minimum 10/12). Both G-CURRENT and G-BACKGROUND returned gold 12/12; paired ΔOR=0/12 and ΔPR=0/12. This descriptive equality does not rescue the failed state-adherence control. No labels, cases or thresholds were revised and no follow-up ran.
+
+Same fact, same semantic relevance, different task-role heading; perceived authority not independently isolated.
+
+See [diagnosis](results/v3_5_1/diagnosis.md), [case inspection](results/v3_5_1/inspection.md), [preregistration](results/v3_5_1/pre_registration.md), and [gate](results/v3_5_1/gate.json). Reproduce the audit with `python scripts/present_v3_5_1.py`; the model runner refuses to overwrite an existing run.
+
+## Previous experiment: v3.4.4 answer interfaces and record order
 
 Completed **882 renderings / 2116 main channel evaluations**, plus 11 independent smoke/harness evaluations. The frozen study contains 24 new development cases, six separate old diagnostic cases, and 16 confirmation cases. N is unconstrained no-list generation; R rotates complete name records; L rotates listed answer options and uses constrained selection as primary. Reused people are logged; new target IDs, graph nodes and candidate bundles are disjoint.
 
