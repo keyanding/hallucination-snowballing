@@ -1,0 +1,548 @@
+{
+  "tasks": [
+    {
+      "cap": 96,
+      "F": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE1 has credited-director link X1.\nWho is the credited director of Film SMOKE1? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE1 has credited-director link X1.\nWho is the credited director of Film SMOKE1? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "37c7e181594067790f35d39784f6817065454f8b05e1d6d2e0bb39d712c78340",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "raw_text": "Ada Vale",
+        "raw_sha256": "7781ef99d4f4a2ff504d1decb5f8f56c96764f3b4bb20e48afb00c52ce49093b",
+        "output_token_ids": [
+          95347,
+          53969,
+          151645
+        ],
+        "output_tokens": 3,
+        "latency_seconds": 1.511483700000099,
+        "truncated": false,
+        "exact_candidate_only": true,
+        "strict_candidate": "Ada Vale",
+        "contains_exactly_one_candidate": true,
+        "contains_multiple_candidates": false,
+        "mentioned_candidates": [
+          "Ada Vale"
+        ],
+        "extractable_candidate": "Ada Vale",
+        "out_of_set_name": null,
+        "category": "IN_SET_VALID",
+        "strict_valid": true,
+        "identity": "Ada Vale",
+        "supplementary_identity": "Ada Vale",
+        "max_new_tokens": 96,
+        "stop_reason": "EOS"
+      },
+      "S": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE1 has credited-director link X1.\nWho is the credited director of Film SMOKE1? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE1 has credited-director link X1.\nWho is the credited director of Film SMOKE1? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "37c7e181594067790f35d39784f6817065454f8b05e1d6d2e0bb39d712c78340",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "scores": [
+          {
+            "candidate": "Ada Vale",
+            "token_ids": [
+              95347,
+              53969
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              -5.960446742392378e-06,
+              -2.3841830625315197e-06
+            ],
+            "sum_logprob": -8.344629804923898e-06,
+            "mean_logprob_per_token": -4.172314902461949e-06,
+            "rank": 1
+          },
+          {
+            "candidate": "Ben Cove",
+            "token_ids": [
+              24566,
+              64379
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              -29.1640682220459,
+              -5.602820692729438e-06
+            ],
+            "sum_logprob": -29.16407382486659,
+            "mean_logprob_per_token": -14.582036912433296,
+            "rank": 4
+          },
+          {
+            "candidate": "Cara Reed",
+            "token_ids": [
+              34,
+              5059,
+              35421
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              -24.9062557220459,
+              -0.000200609109015204,
+              -4.768370445162873e-07
+            ],
+            "sum_logprob": -24.906456807991958,
+            "mean_logprob_per_token": -8.302152269330653,
+            "rank": 2
+          },
+          {
+            "candidate": "Dion Lake",
+            "token_ids": [
+              35,
+              290,
+              11678
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              -27.7734432220459,
+              -6.258291978156194e-05,
+              -3.6954811548639555e-06
+            ],
+            "sum_logprob": -27.773509500446835,
+            "mean_logprob_per_token": -9.257836500148946,
+            "rank": 3
+          }
+        ],
+        "top_candidate_by_mean_logprob": "Ada Vale",
+        "runner_up": "Cara Reed",
+        "margin_mean_logprob": 8.30214809701575,
+        "scoring": "Teacher forcing; canonical prompt+candidate tokenization; candidate tokens only, EOS excluded; right-padding masked",
+        "latency_seconds": 0.2689983000018401
+      }
+    },
+    {
+      "cap": 96,
+      "F": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE2 has credited-director link X2.\nWho is the credited director of Film SMOKE2? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE2 has credited-director link X2.\nWho is the credited director of Film SMOKE2? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "8c214e93934d9bc7511b0c7ba8e7ec4f546d30756e636a698df3255fcb04eca2",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "raw_text": "Ben Cove",
+        "raw_sha256": "f2d2408765239ef80169ee9368443242b9aeeac4200c6fded4011d9c7fd5b4b4",
+        "output_token_ids": [
+          24566,
+          64379,
+          151645
+        ],
+        "output_tokens": 3,
+        "latency_seconds": 0.3683630000014091,
+        "truncated": false,
+        "exact_candidate_only": true,
+        "strict_candidate": "Ben Cove",
+        "contains_exactly_one_candidate": true,
+        "contains_multiple_candidates": false,
+        "mentioned_candidates": [
+          "Ben Cove"
+        ],
+        "extractable_candidate": "Ben Cove",
+        "out_of_set_name": null,
+        "category": "IN_SET_VALID",
+        "strict_valid": true,
+        "identity": "Ben Cove",
+        "supplementary_identity": "Ben Cove",
+        "max_new_tokens": 96,
+        "stop_reason": "EOS"
+      },
+      "S": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE2 has credited-director link X2.\nWho is the credited director of Film SMOKE2? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE2 has credited-director link X2.\nWho is the credited director of Film SMOKE2? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "8c214e93934d9bc7511b0c7ba8e7ec4f546d30756e636a698df3255fcb04eca2",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "scores": [
+          {
+            "candidate": "Ada Vale",
+            "token_ids": [
+              95347,
+              53969
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              -35.765625,
+              -1.4662635294371285e-05
+            ],
+            "sum_logprob": -35.765639662635294,
+            "mean_logprob_per_token": -17.882819831317647,
+            "rank": 4
+          },
+          {
+            "candidate": "Ben Cove",
+            "token_ids": [
+              24566,
+              64379
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              0.0,
+              -2.3841855067985307e-07
+            ],
+            "sum_logprob": -2.3841855067985307e-07,
+            "mean_logprob_per_token": -1.1920927533992653e-07,
+            "rank": 1
+          },
+          {
+            "candidate": "Cara Reed",
+            "token_ids": [
+              34,
+              5059,
+              35421
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              -25.109375,
+              -0.0014560346025973558,
+              -7.152555099310121e-07
+            ],
+            "sum_logprob": -25.110831749858107,
+            "mean_logprob_per_token": -8.370277249952702,
+            "rank": 2
+          },
+          {
+            "candidate": "Dion Lake",
+            "token_ids": [
+              35,
+              290,
+              11678
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              -28.625,
+              -2.861018856492592e-06,
+              -9.65590606938349e-06
+            ],
+            "sum_logprob": -28.625012516924926,
+            "mean_logprob_per_token": -9.541670838974975,
+            "rank": 3
+          }
+        ],
+        "top_candidate_by_mean_logprob": "Ben Cove",
+        "runner_up": "Cara Reed",
+        "margin_mean_logprob": 8.370277130743426,
+        "scoring": "Teacher forcing; canonical prompt+candidate tokenization; candidate tokens only, EOS excluded; right-padding masked",
+        "latency_seconds": 0.21679639999638312
+      }
+    },
+    {
+      "cap": 96,
+      "F": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE3 has credited-director link X3.\nWho is the credited director of Film SMOKE3? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE3 has credited-director link X3.\nWho is the credited director of Film SMOKE3? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "df8d15bbb8c5dfd581a7dc04679f3eaa6becca21c226ba26c6d5acbcbaa94d43",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "raw_text": "Cara Reed",
+        "raw_sha256": "090152431c5dcde6af84e0071a7709f3b3cb74279c02a4eb48cd389dcf4443ff",
+        "output_token_ids": [
+          34,
+          5059,
+          35421,
+          151645
+        ],
+        "output_tokens": 4,
+        "latency_seconds": 0.39224510000349255,
+        "truncated": false,
+        "exact_candidate_only": true,
+        "strict_candidate": "Cara Reed",
+        "contains_exactly_one_candidate": true,
+        "contains_multiple_candidates": false,
+        "mentioned_candidates": [
+          "Cara Reed"
+        ],
+        "extractable_candidate": "Cara Reed",
+        "out_of_set_name": null,
+        "category": "IN_SET_VALID",
+        "strict_valid": true,
+        "identity": "Cara Reed",
+        "supplementary_identity": "Cara Reed",
+        "max_new_tokens": 96,
+        "stop_reason": "EOS"
+      },
+      "S": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE3 has credited-director link X3.\nWho is the credited director of Film SMOKE3? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE3 has credited-director link X3.\nWho is the credited director of Film SMOKE3? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "df8d15bbb8c5dfd581a7dc04679f3eaa6becca21c226ba26c6d5acbcbaa94d43",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "scores": [
+          {
+            "candidate": "Ada Vale",
+            "token_ids": [
+              95347,
+              53969
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              -24.28125,
+              -2.622600959512056e-06
+            ],
+            "sum_logprob": -24.28125262260096,
+            "mean_logprob_per_token": -12.14062631130048,
+            "rank": 3
+          },
+          {
+            "candidate": "Ben Cove",
+            "token_ids": [
+              24566,
+              64379
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              -28.125,
+              -8.22540732769994e-06
+            ],
+            "sum_logprob": -28.125008225407328,
+            "mean_logprob_per_token": -14.062504112703664,
+            "rank": 4
+          },
+          {
+            "candidate": "Cara Reed",
+            "token_ids": [
+              34,
+              5059,
+              35421
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              0.0,
+              0.0,
+              -2.3841855067985307e-07
+            ],
+            "sum_logprob": -2.3841855067985307e-07,
+            "mean_logprob_per_token": -7.94728502266177e-08,
+            "rank": 1
+          },
+          {
+            "candidate": "Dion Lake",
+            "token_ids": [
+              35,
+              290,
+              11678
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              -21.8125,
+              -4.6491513785440475e-06,
+              -3.3378546504536644e-06
+            ],
+            "sum_logprob": -21.81250798700603,
+            "mean_logprob_per_token": -7.270835995668676,
+            "rank": 2
+          }
+        ],
+        "top_candidate_by_mean_logprob": "Cara Reed",
+        "runner_up": "Dion Lake",
+        "margin_mean_logprob": 7.270835916195826,
+        "scoring": "Teacher forcing; canonical prompt+candidate tokenization; candidate tokens only, EOS excluded; right-padding masked",
+        "latency_seconds": 0.20373409999592695
+      }
+    },
+    {
+      "cap": 96,
+      "F": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE4 has credited-director link X4.\nWho is the credited director of Film SMOKE4? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE4 has credited-director link X4.\nWho is the credited director of Film SMOKE4? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "8c31efeda5e879b31b59c13b57598aa9f971718f791cebc308e25c5bf4350b06",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "raw_text": "Dion Lake",
+        "raw_sha256": "f58ed6f6c9c40acffea3a63f8bee70216bc3fe9ab83edd1dabfefc2f858f9149",
+        "output_token_ids": [
+          35,
+          290,
+          11678,
+          151645
+        ],
+        "output_tokens": 4,
+        "latency_seconds": 0.3710778000022401,
+        "truncated": false,
+        "exact_candidate_only": true,
+        "strict_candidate": "Dion Lake",
+        "contains_exactly_one_candidate": true,
+        "contains_multiple_candidates": false,
+        "mentioned_candidates": [
+          "Dion Lake"
+        ],
+        "extractable_candidate": "Dion Lake",
+        "out_of_set_name": null,
+        "category": "IN_SET_VALID",
+        "strict_valid": true,
+        "identity": "Dion Lake",
+        "supplementary_identity": "Dion Lake",
+        "max_new_tokens": 96,
+        "stop_reason": "EOS"
+      },
+      "S": {
+        "prompt": "Record X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE4 has credited-director link X4.\nWho is the credited director of Film SMOKE4? Output only the person's name.",
+        "rendered_prompt": "<|im_start|>user\nRecord X1 names Ada Vale.\nRecord X2 names Ben Cove.\nRecord X3 names Cara Reed.\nRecord X4 names Dion Lake.\nFilm SMOKE4 has credited-director link X4.\nWho is the credited director of Film SMOKE4? Output only the person's name.<|im_end|>\n<|im_start|>assistant\n",
+        "prompt_sha256": "8c31efeda5e879b31b59c13b57598aa9f971718f791cebc308e25c5bf4350b06",
+        "candidate_order": [
+          "Ada Vale",
+          "Ben Cove",
+          "Cara Reed",
+          "Dion Lake"
+        ],
+        "isolation": {
+          "fresh_input": true,
+          "cross_call_history": false,
+          "use_cache": false
+        },
+        "seed": 42,
+        "input_tokens": 68,
+        "scores": [
+          {
+            "candidate": "Ada Vale",
+            "token_ids": [
+              95347,
+              53969
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              -34.703125,
+              -5.006777428206988e-06
+            ],
+            "sum_logprob": -34.70313000677743,
+            "mean_logprob_per_token": -17.351565003388714,
+            "rank": 4
+          },
+          {
+            "candidate": "Ben Cove",
+            "token_ids": [
+              24566,
+              64379
+            ],
+            "token_count": 2,
+            "token_logprobs": [
+              -30.015625,
+              -1.8596476365928538e-05
+            ],
+            "sum_logprob": -30.015643596476366,
+            "mean_logprob_per_token": -15.007821798238183,
+            "rank": 3
+          },
+          {
+            "candidate": "Cara Reed",
+            "token_ids": [
+              34,
+              5059,
+              35421
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              -21.34375,
+              -0.006685745436698198,
+              -2.50339189733495e-06
+            ],
+            "sum_logprob": -21.350438248828596,
+            "mean_logprob_per_token": -7.116812749609532,
+            "rank": 2
+          },
+          {
+            "candidate": "Dion Lake",
+            "token_ids": [
+              35,
+              290,
+              11678
+            ],
+            "token_count": 3,
+            "token_logprobs": [
+              0.0,
+              0.0,
+              -2.0265558760002023e-06
+            ],
+            "sum_logprob": -2.0265558760002023e-06,
+            "mean_logprob_per_token": -6.755186253334008e-07,
+            "rank": 1
+          }
+        ],
+        "top_candidate_by_mean_logprob": "Dion Lake",
+        "runner_up": "Cara Reed",
+        "margin_mean_logprob": 7.116812074090907,
+        "scoring": "Teacher forcing; canonical prompt+candidate tokenization; candidate tokens only, EOS excluded; right-padding masked",
+        "latency_seconds": 0.2057896000042092
+      }
+    }
+  ],
+  "selected_NR_cap": 96,
+  "decision_rule": "Four independent format tasks at 96. If any truncated, repeat all four at 192. Choose 192 only in that case. No experimental case enters smoke. L always 96."
+}

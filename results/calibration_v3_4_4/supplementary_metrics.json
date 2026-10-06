@@ -1,0 +1,790 @@
+{
+  "descriptive_only": true,
+  "strata": [
+    {
+      "cohort": "development",
+      "difficulty": "EASY",
+      "interface": "L",
+      "categories": {
+        "IN_SET_VALID": 96,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 96,
+      "F_valid": 96,
+      "F_S_disagree": 0,
+      "F_C_disagree": 0,
+      "C_S_disagree": 0,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        229,
+        251
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "EASY",
+      "interface": "N",
+      "categories": {
+        "IN_SET_VALID": 24,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 24,
+      "F_valid": 24,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        199,
+        210
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "EASY",
+      "interface": "R",
+      "categories": {
+        "IN_SET_VALID": 96,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 96,
+      "F_valid": 96,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        199,
+        210
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "MID",
+      "interface": "L",
+      "categories": {
+        "IN_SET_VALID": 94,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 2
+      },
+      "n": 96,
+      "F_valid": 94,
+      "F_S_disagree": 1,
+      "F_C_disagree": 0,
+      "C_S_disagree": 1,
+      "S_sum_mean_disagree": 1,
+      "Wait_outputs": 2,
+      "input_tokens_range": [
+        267,
+        289
+      ],
+      "graph_tokens_range": [
+        57,
+        57
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "MID",
+      "interface": "N",
+      "categories": {
+        "IN_SET_VALID": 24,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 24,
+      "F_valid": 24,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        237,
+        248
+      ],
+      "graph_tokens_range": [
+        57,
+        57
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "MID",
+      "interface": "R",
+      "categories": {
+        "IN_SET_VALID": 96,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 96,
+      "F_valid": 96,
+      "F_S_disagree": 1,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        237,
+        248
+      ],
+      "graph_tokens_range": [
+        57,
+        57
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "HARD",
+      "interface": "L",
+      "categories": {
+        "IN_SET_VALID": 93,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 3
+      },
+      "n": 96,
+      "F_valid": 93,
+      "F_S_disagree": 2,
+      "F_C_disagree": 0,
+      "C_S_disagree": 2,
+      "S_sum_mean_disagree": 1,
+      "Wait_outputs": 1,
+      "input_tokens_range": [
+        438,
+        460
+      ],
+      "graph_tokens_range": [
+        228,
+        228
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "HARD",
+      "interface": "N",
+      "categories": {
+        "IN_SET_VALID": 24,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 24,
+      "F_valid": 24,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        408,
+        419
+      ],
+      "graph_tokens_range": [
+        228,
+        228
+      ]
+    },
+    {
+      "cohort": "development",
+      "difficulty": "HARD",
+      "interface": "R",
+      "categories": {
+        "IN_SET_VALID": 95,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 1
+      },
+      "n": 96,
+      "F_valid": 95,
+      "F_S_disagree": 1,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 1,
+      "input_tokens_range": [
+        408,
+        419
+      ],
+      "graph_tokens_range": [
+        228,
+        228
+      ]
+    },
+    {
+      "cohort": "old",
+      "difficulty": "EASY",
+      "interface": "N",
+      "categories": {
+        "IN_SET_VALID": 6,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 6,
+      "F_valid": 6,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        198,
+        207
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    },
+    {
+      "cohort": "old",
+      "difficulty": "EASY",
+      "interface": "R",
+      "categories": {
+        "IN_SET_VALID": 23,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 1,
+        "TRUNCATED": 0
+      },
+      "n": 24,
+      "F_valid": 23,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        198,
+        207
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    },
+    {
+      "cohort": "old",
+      "difficulty": "MID",
+      "interface": "N",
+      "categories": {
+        "IN_SET_VALID": 6,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 6,
+      "F_valid": 6,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        236,
+        245
+      ],
+      "graph_tokens_range": [
+        57,
+        57
+      ]
+    },
+    {
+      "cohort": "old",
+      "difficulty": "MID",
+      "interface": "R",
+      "categories": {
+        "IN_SET_VALID": 24,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 24,
+      "F_valid": 24,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        236,
+        245
+      ],
+      "graph_tokens_range": [
+        57,
+        57
+      ]
+    },
+    {
+      "cohort": "old",
+      "difficulty": "HARD",
+      "interface": "N",
+      "categories": {
+        "IN_SET_VALID": 6,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 6,
+      "F_valid": 6,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        407,
+        416
+      ],
+      "graph_tokens_range": [
+        228,
+        228
+      ]
+    },
+    {
+      "cohort": "old",
+      "difficulty": "HARD",
+      "interface": "R",
+      "categories": {
+        "IN_SET_VALID": 24,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 24,
+      "F_valid": 24,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        407,
+        416
+      ],
+      "graph_tokens_range": [
+        228,
+        228
+      ]
+    },
+    {
+      "cohort": "confirmation",
+      "difficulty": "EASY",
+      "interface": "L",
+      "categories": {
+        "IN_SET_VALID": 64,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 64,
+      "F_valid": 64,
+      "F_S_disagree": 1,
+      "F_C_disagree": 0,
+      "C_S_disagree": 1,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        229,
+        253
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    },
+    {
+      "cohort": "confirmation",
+      "difficulty": "EASY",
+      "interface": "N",
+      "categories": {
+        "IN_SET_VALID": 16,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 0,
+        "TRUNCATED": 0
+      },
+      "n": 16,
+      "F_valid": 16,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        199,
+        211
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    },
+    {
+      "cohort": "confirmation",
+      "difficulty": "EASY",
+      "interface": "R",
+      "categories": {
+        "IN_SET_VALID": 63,
+        "OUT_OF_SET": 0,
+        "AMBIGUOUS": 0,
+        "NONCOMPLIANT": 1,
+        "TRUNCATED": 0
+      },
+      "n": 64,
+      "F_valid": 63,
+      "F_S_disagree": 0,
+      "F_C_disagree": null,
+      "C_S_disagree": null,
+      "S_sum_mean_disagree": 0,
+      "Wait_outputs": 0,
+      "input_tokens_range": [
+        199,
+        211
+      ],
+      "graph_tokens_range": [
+        19,
+        19
+      ]
+    }
+  ],
+  "margin_distributions": [
+    {
+      "cohort": "confirmation",
+      "difficulty": "EASY",
+      "interface": "L",
+      "gold_margin_five_number": [
+        -0.5687525302039589,
+        1.9362713562980947,
+        2.6083085480414603,
+        3.264509338884763,
+        5.59062638280394
+      ],
+      "first_position_shift": {
+        "mean": 1.3663445745420977,
+        "lower": 1.0710939699604816,
+        "upper": 1.6566787218163874
+      }
+    },
+    {
+      "cohort": "confirmation",
+      "difficulty": "EASY",
+      "interface": "N",
+      "gold_margin_five_number": [
+        0.4226266898145802,
+        3.129972018341691,
+        3.2616540954374997,
+        3.5325632910992577,
+        4.659374642464922
+      ],
+      "first_position_shift": null
+    },
+    {
+      "cohort": "confirmation",
+      "difficulty": "EASY",
+      "interface": "R",
+      "gold_margin_five_number": [
+        0.4226266898145802,
+        2.7799202639045473,
+        3.158991877604856,
+        3.7376430301831682,
+        5.050669829601539
+      ],
+      "first_position_shift": {
+        "mean": 0.8585982752790391,
+        "lower": 0.6947426185087189,
+        "upper": 1.0501564777381314
+      }
+    },
+    {
+      "cohort": "development",
+      "difficulty": "EASY",
+      "interface": "L",
+      "gold_margin_five_number": [
+        -2.0423138054358936,
+        2.095761186920668,
+        3.1064755483168565,
+        4.083670544712524,
+        5.6750037908139115
+      ],
+      "first_position_shift": {
+        "mean": 1.3864985896099875,
+        "lower": 1.1446335525159903,
+        "upper": 1.646776309361492
+      }
+    },
+    {
+      "cohort": "development",
+      "difficulty": "EASY",
+      "interface": "N",
+      "gold_margin_five_number": [
+        1.7304452163577593,
+        3.2675651323408115,
+        3.729934157688402,
+        4.303648502325663,
+        4.957766042459461
+      ],
+      "first_position_shift": null
+    },
+    {
+      "cohort": "development",
+      "difficulty": "EASY",
+      "interface": "R",
+      "gold_margin_five_number": [
+        1.171898025614648,
+        2.9898418680031456,
+        3.567576497821895,
+        4.184445288009045,
+        6.479821330998089
+      ],
+      "first_position_shift": {
+        "mean": 0.7438213598934883,
+        "lower": 0.6278295388919745,
+        "upper": 0.8538697946883544
+      }
+    },
+    {
+      "cohort": "development",
+      "difficulty": "MID",
+      "interface": "L",
+      "gold_margin_five_number": [
+        -4.1160181967450615,
+        -0.004862186380728311,
+        1.4868346976800653,
+        3.066576490395918,
+        4.942730719004037
+      ],
+      "first_position_shift": {
+        "mean": 2.00343651053108,
+        "lower": 1.6825614599739713,
+        "upper": 2.321757745974457
+      }
+    },
+    {
+      "cohort": "development",
+      "difficulty": "MID",
+      "interface": "N",
+      "gold_margin_five_number": [
+        -2.2125048876489686,
+        2.0830413373931655,
+        2.832350441615236,
+        3.4710597292377696,
+        4.0251862765297
+      ],
+      "first_position_shift": null
+    },
+    {
+      "cohort": "development",
+      "difficulty": "MID",
+      "interface": "R",
+      "gold_margin_five_number": [
+        -2.415795576137365,
+        2.1644289727469044,
+        2.7406387387649254,
+        3.2819949723713537,
+        4.253127980186255
+      ],
+      "first_position_shift": {
+        "mean": 0.8557222255554784,
+        "lower": 0.662555522198977,
+        "upper": 1.0499733983936348
+      }
+    },
+    {
+      "cohort": "development",
+      "difficulty": "HARD",
+      "interface": "L",
+      "gold_margin_five_number": [
+        -5.068767016714744,
+        -1.990629638318484,
+        -0.28003241426047115,
+        1.9707122226554565,
+        4.846353844801763
+      ],
+      "first_position_shift": {
+        "mean": 2.746962645621977,
+        "lower": 2.4032262804858906,
+        "upper": 3.0620716423507144
+      }
+    },
+    {
+      "cohort": "development",
+      "difficulty": "HARD",
+      "interface": "N",
+      "gold_margin_five_number": [
+        -3.9037441899988323,
+        1.2425801942065902,
+        2.84221956295068,
+        3.412123704463946,
+        4.221412504907101
+      ],
+      "first_position_shift": null
+    },
+    {
+      "cohort": "development",
+      "difficulty": "HARD",
+      "interface": "R",
+      "gold_margin_five_number": [
+        -3.9037441899988323,
+        0.514688281764115,
+        2.4548214156861214,
+        3.4075593025141675,
+        5.171893681286712
+      ],
+      "first_position_shift": {
+        "mean": 1.6647436969731662,
+        "lower": 1.405434788250463,
+        "upper": 1.9293059523696992
+      }
+    },
+    {
+      "cohort": "old",
+      "difficulty": "EASY",
+      "interface": "N",
+      "gold_margin_five_number": [
+        2.4305905754479395,
+        2.9224926052924958,
+        3.6824298735060417,
+        4.278909374203656,
+        4.797925861674877
+      ],
+      "first_position_shift": null
+    },
+    {
+      "cohort": "old",
+      "difficulty": "EASY",
+      "interface": "R",
+      "gold_margin_five_number": [
+        1.2427757241388553,
+        2.767666608237114,
+        3.6824298735060417,
+        4.186552289146288,
+        6.183470924695284
+      ],
+      "first_position_shift": {
+        "mean": 0.7562224564443996,
+        "lower": 0.5587762096335338,
+        "upper": 0.9604779538879974
+      }
+    },
+    {
+      "cohort": "old",
+      "difficulty": "MID",
+      "interface": "N",
+      "gold_margin_five_number": [
+        1.6584896007364378,
+        2.80872687737329,
+        3.269746333869046,
+        3.482038070273789,
+        3.8687839470224925
+      ],
+      "first_position_shift": null
+    },
+    {
+      "cohort": "old",
+      "difficulty": "MID",
+      "interface": "R",
+      "gold_margin_five_number": [
+        -0.9874954296842106,
+        2.2103170605574087,
+        2.7977930715872743,
+        3.4210949472451673,
+        3.95134789785995
+      ],
+      "first_position_shift": {
+        "mean": 0.8084583766372133,
+        "lower": 0.5297819763030087,
+        "upper": 1.089586192190935
+      }
+    },
+    {
+      "cohort": "old",
+      "difficulty": "HARD",
+      "interface": "N",
+      "gold_margin_five_number": [
+        -0.59139498341028,
+        0.4632665184118333,
+        2.8995097311135547,
+        3.583374096427875,
+        4.263544672682754
+      ],
+      "first_position_shift": null
+    },
+    {
+      "cohort": "old",
+      "difficulty": "HARD",
+      "interface": "R",
+      "gold_margin_five_number": [
+        -1.4296866357529452,
+        0.1854536412653527,
+        2.3243107559032845,
+        3.5438108287313153,
+        4.62251831393106
+      ],
+      "first_position_shift": {
+        "mean": 1.4543132180592453,
+        "lower": 0.9721291344080419,
+        "upper": 1.9670731214312214
+      }
+    }
+  ],
+  "hypotheses": {
+    "H1": {
+      "supported": true,
+      "criterion": "Identity changes on new L rotations plus positive aggregate identity-matched first-position score shift."
+    },
+    "H2": {
+      "supported": true,
+      "criterion": "At least two strict identities across equivalent R presentations, separately from invalid outputs."
+    },
+    "H3": {
+      "supported": true,
+      "criterion": "Paired HARD minus EASY positive for both L sensitivity and L first fraction; intervals and mixed cases reported, not a significance claim."
+    },
+    "H4": {
+      "supported": false,
+      "criterion": "Requires both 4/4 same-wrong sets and identity-changing sets within L or R, analyzed separately. A 3/4 wrong aggregate is not 4/4 robustness."
+    }
+  },
+  "exploratory_all_interface_wrong_persistence": []
+}

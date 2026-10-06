@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "development_renderings": 648,
+  "old_renderings": 90,
+  "confirmation_renderings": 144,
+  "total_renderings": 882,
+  "main_channel_evaluations": 2116,
+  "smoke_channel_evaluations": 8,
+  "harness_channel_evaluations": 3
+}

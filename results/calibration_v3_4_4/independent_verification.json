@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "all_1170_graphs_checked": true,
+  "mappings": 184,
+  "old_canonical_exact_matches": 18,
+  "exact_N_R1_repeats": 106,
+  "executed_renderings": 882,
+  "original_frozen_files_verified": true,
+  "prior_artifacts_preserved": 241,
+  "strict_parse_and_score_checks": true,
+  "selection_reproduced": true,
+  "confirmation_untuned": true,
+  "audit_lifecycle": "design_audit.md is required to append a post-run table; original frozen bytes survive as its prefix and in design_audit.pre_inference.md. All other frozen files retain exact hashes."
+}

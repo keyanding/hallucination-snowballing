@@ -1,0 +1,307 @@
+{
+  "plan": {
+    "case_id": "dev-04",
+    "difficulty": "EASY",
+    "depth": 1,
+    "branches": 0,
+    "permutation": 1,
+    "prompt": "This is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.",
+    "candidate_order": [
+      "Tinnu Anand",
+      "Armando Robles Godoy",
+      "Leopoldo Torre Nilsson",
+      "Rahul Rawail"
+    ],
+    "gold": "Leopoldo Torre Nilsson",
+    "gold_position": 3,
+    "original_pos1": "Tinnu Anand",
+    "invariant_prefix_sha256": "d86d694c219da7ab683fbb5aa454aa12bc02d85508b807b77e979c09c28747ee",
+    "invariant_suffix_sha256": "201d1047dfe1485ac9c476af89282c8a69c826b6fc0a381da4cb19e87c732e2b",
+    "prior_prompt_sha256": "ca388f293757a9707b9ab9d3b4fb4b5706424deb720269253b3ef32f54305b18",
+    "prior_rendered_prompt": "<|im_start|>user\nThis is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.<|im_end|>\n<|im_start|>assistant\n",
+    "graph_audit": {
+      "unique_queried_endpoint": "Leopoldo Torre Nilsson",
+      "path_depth": 1,
+      "branch_endpoints": [
+        "Leopoldo Torre Nilsson"
+      ],
+      "link_count": 1,
+      "mapping_count": 4
+    },
+    "rendered_prompt": "<|im_start|>user\nThis is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.<|im_end|>\n<|im_start|>assistant\n",
+    "prompt_sha256": "ca388f293757a9707b9ab9d3b4fb4b5706424deb720269253b3ef32f54305b18",
+    "input_tokens": 245,
+    "candidate_token_ids": [
+      [
+        51,
+        6130,
+        84,
+        1527,
+        437
+      ],
+      [
+        6953,
+        79744,
+        4892,
+        642,
+        4264,
+        2253
+      ],
+      [
+        2304,
+        453,
+        813,
+        78,
+        8444,
+        265,
+        32274,
+        29931
+      ],
+      [
+        49,
+        1466,
+        360,
+        23022,
+        604
+      ]
+    ],
+    "all_candidates_reachable": true
+  },
+  "comparisons": {
+    "rendered": true,
+    "F": true,
+    "C": true,
+    "scores": true
+  },
+  "F": {
+    "prompt": "This is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.",
+    "rendered_prompt": "<|im_start|>user\nThis is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.<|im_end|>\n<|im_start|>assistant\n",
+    "prompt_sha256": "ca388f293757a9707b9ab9d3b4fb4b5706424deb720269253b3ef32f54305b18",
+    "candidate_order": [
+      "Tinnu Anand",
+      "Armando Robles Godoy",
+      "Leopoldo Torre Nilsson",
+      "Rahul Rawail"
+    ],
+    "isolation": {
+      "fresh_input": true,
+      "cross_call_history": false,
+      "use_cache": false
+    },
+    "seed": 42,
+    "input_tokens": 245,
+    "raw_text": "Tinnu Anand",
+    "raw_sha256": "d50b4a33381d3d2af33d5953478587b7f14907b9bd104b6a6ab4d40a0c4f8d7e",
+    "output_token_ids": [
+      51,
+      6130,
+      84,
+      1527,
+      437,
+      151645
+    ],
+    "output_tokens": 6,
+    "latency_seconds": 0.9355971000040881,
+    "truncated": false,
+    "exact_candidate_only": true,
+    "strict_candidate": "Tinnu Anand",
+    "contains_exactly_one_candidate": true,
+    "contains_multiple_candidates": false,
+    "mentioned_candidates": [
+      "Tinnu Anand"
+    ],
+    "extractable_candidate": "Tinnu Anand",
+    "out_of_set_name": null,
+    "category": "IN_SET_VALID",
+    "strict_valid": true,
+    "identity": "Tinnu Anand",
+    "supplementary_identity": "Tinnu Anand",
+    "max_new_tokens": 96,
+    "stop_reason": "EOS"
+  },
+  "C": {
+    "prompt": "This is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.",
+    "rendered_prompt": "<|im_start|>user\nThis is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.<|im_end|>\n<|im_start|>assistant\n",
+    "prompt_sha256": "ca388f293757a9707b9ab9d3b4fb4b5706424deb720269253b3ef32f54305b18",
+    "candidate_order": [
+      "Tinnu Anand",
+      "Armando Robles Godoy",
+      "Leopoldo Torre Nilsson",
+      "Rahul Rawail"
+    ],
+    "isolation": {
+      "fresh_input": true,
+      "cross_call_history": false,
+      "use_cache": false
+    },
+    "seed": 42,
+    "input_tokens": 245,
+    "raw_text": "Tinnu Anand",
+    "raw_sha256": "d50b4a33381d3d2af33d5953478587b7f14907b9bd104b6a6ab4d40a0c4f8d7e",
+    "output_token_ids": [
+      51,
+      6130,
+      84,
+      1527,
+      437,
+      151645
+    ],
+    "output_tokens": 6,
+    "latency_seconds": 0.957402899999579,
+    "truncated": false,
+    "selected_candidate": "Tinnu Anand",
+    "exact_allowed_candidate": true,
+    "all_candidates_reachable": true,
+    "candidate_token_ids": [
+      [
+        51,
+        6130,
+        84,
+        1527,
+        437
+      ],
+      [
+        6953,
+        79744,
+        4892,
+        642,
+        4264,
+        2253
+      ],
+      [
+        2304,
+        453,
+        813,
+        78,
+        8444,
+        265,
+        32274,
+        29931
+      ],
+      [
+        49,
+        1466,
+        360,
+        23022,
+        604
+      ]
+    ]
+  },
+  "S": {
+    "prompt": "This is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.",
+    "rendered_prompt": "<|im_start|>user\nThis is a synthetic catalog task. Film identifiers and graph links are constructed for this task; the candidate names refer to real people. Use only the records below. The relation vocabulary is credited-director, comparison-director, associated-director. Starting at the named Film, follow only credited-director links until reaching a record that names a candidate. Comparison-director and associated-director links describe separate catalog relations. The credited director means the candidate reached by that traversal.\n\nCandidate names:\n1. Tinnu Anand\n2. Armando Robles Godoy\n3. Leopoldo Torre Nilsson\n4. Rahul Rawail\n\nCandidate-name records:\nRecord R48842 names Armando Robles Godoy.\nRecord R22273 names Rahul Rawail.\nRecord R34060 names Leopoldo Torre Nilsson.\nRecord R31383 names Tinnu Anand.\n\nGraph-link records:\nFilm T34217 has credited-director link R34060.\n\nWhich candidate is the credited director of Film T34217?\n\nAnswer with only one candidate name.<|im_end|>\n<|im_start|>assistant\n",
+    "prompt_sha256": "ca388f293757a9707b9ab9d3b4fb4b5706424deb720269253b3ef32f54305b18",
+    "candidate_order": [
+      "Tinnu Anand",
+      "Armando Robles Godoy",
+      "Leopoldo Torre Nilsson",
+      "Rahul Rawail"
+    ],
+    "isolation": {
+      "fresh_input": true,
+      "cross_call_history": false,
+      "use_cache": false
+    },
+    "seed": 42,
+    "input_tokens": 245,
+    "scores": [
+      {
+        "candidate": "Tinnu Anand",
+        "token_ids": [
+          51,
+          6130,
+          84,
+          1527,
+          437
+        ],
+        "token_count": 5,
+        "token_logprobs": [
+          -0.15565992891788483,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sum_logprob": -0.15565992891788483,
+        "mean_logprob_per_token": -0.031131985783576965,
+        "rank": 1
+      },
+      {
+        "candidate": "Armando Robles Godoy",
+        "token_ids": [
+          6953,
+          79744,
+          4892,
+          642,
+          4264,
+          2253
+        ],
+        "token_count": 6,
+        "token_logprobs": [
+          -24.39003562927246,
+          -1.1920928244535389e-07,
+          0.0,
+          0.0,
+          -1.1920928244535389e-07,
+          0.0
+        ],
+        "sum_logprob": -24.390035867691026,
+        "mean_logprob_per_token": -4.065005977948505,
+        "rank": 4
+      },
+      {
+        "candidate": "Leopoldo Torre Nilsson",
+        "token_ids": [
+          2304,
+          453,
+          813,
+          78,
+          8444,
+          265,
+          32274,
+          29931
+        ],
+        "token_count": 8,
+        "token_logprobs": [
+          -1.9369099140167236,
+          -2.3841855067985307e-07,
+          -7.152555099310121e-07,
+          0.0,
+          -8.344646857949556e-07,
+          0.0,
+          -7.152555099310121e-07,
+          0.0
+        ],
+        "sum_logprob": -1.93691241741098,
+        "mean_logprob_per_token": -0.2421140521763725,
+        "rank": 2
+      },
+      {
+        "candidate": "Rahul Rawail",
+        "token_ids": [
+          49,
+          1466,
+          360,
+          23022,
+          604
+        ],
+        "token_count": 5,
+        "token_logprobs": [
+          -19.32753562927246,
+          -0.26681485772132874,
+          -1.1920928244535389e-07,
+          -1.1920928244535389e-07,
+          -5.960462772236497e-07
+        ],
+        "sum_logprob": -19.594351321458632,
+        "mean_logprob_per_token": -3.9188702642917264,
+        "rank": 3
+      }
+    ],
+    "top_candidate_by_mean_logprob": "Tinnu Anand",
+    "runner_up": "Leopoldo Torre Nilsson",
+    "margin_mean_logprob": 0.21098206639279554,
+    "scoring": "Teacher forcing; canonical prompt+candidate tokenization; candidate tokens only, EOS excluded; right-padding masked",
+    "latency_seconds": 0.4583500000007916
+  }
+}

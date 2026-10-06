@@ -1,0 +1,9 @@
+{
+  "source_syntax_and_whitespace_pass": true,
+  "source_files": 10,
+  "required_artifact_hashes_pass": true,
+  "reporting_source_hashes_pass": true,
+  "unit_tests": 77,
+  "historical_artifacts_preserved": 241,
+  "original_parent_project_unchanged": true
+}

@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-06T06:06:03.941053+00:00",
+  "NR_max_new_tokens": 96,
+  "L_max_new_tokens": 96,
+  "smoke_sha256": "491535ae465271688dae2b8054a05c272ad6c5e7e176c134a71469aa08af5e06",
+  "harness_sha256": "105c6758dea26a4003de2be64478b8fe4e8971a2c1e6080aaf4fe34437262bc1",
+  "aliases": {},
+  "completed_before_experimental_calls": true
+}

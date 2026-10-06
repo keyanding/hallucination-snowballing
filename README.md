@@ -2,7 +2,23 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.4.3 candidate-order counterfactual control
+## Current experiment: v3.4.4 answer interfaces and record order
+
+Completed **882 renderings / 2116 main channel evaluations**, plus 11 independent smoke/harness evaluations. The frozen study contains 24 new development cases, six separate old diagnostic cases, and 16 confirmation cases. N is unconstrained no-list generation; R rotates complete name records; L rotates listed answer options and uses constrained selection as primary. Reused people are logged; new target IDs, graph nodes and candidate bundles are disjoint.
+
+| Development difficulty | L first selection | L identity-sensitive cells | N strict coverage | N wrong / valid | R record-first selection |
+|---|---|---|---|---|---|
+| EASY | 25/96 | 2/24 | 24/24 | 0/24 | 24/96 |
+| MID | 45/96 | 14/24 | 24/24 | 1/24 | 28/96 |
+| HARD | 67/96 | 20/24 | 24/24 | 5/24 | 41/95 |
+
+Development selected **N / EASY**; confirmation passed: **True**. natural single-trajectory first-hop selection Error-yield insufficient: **True**. These engineering checks do not prove no residual bias. **No downstream experiment or v3.5 was executed.**
+
+See [experiment README](results/calibration_v3_4_4/README.md), [diagnosis](results/calibration_v3_4_4/diagnosis.md), [paired inspection](results/calibration_v3_4_4/inspection.md), [supplementary diagnostics](results/calibration_v3_4_4/supplementary_diagnostics.md), and [verification](results/calibration_v3_4_4/independent_verification.json).
+
+Post-report audit: `python scripts/verify_calibration_v3_4_4.py`. Model runs are one-shot and refuse to overwrite prior records. The original pre-inference design-audit bytes are retained separately; the completed audit appends its required results table.
+
+## Previous experiment: v3.4.3 candidate-order counterfactual control
 
 V3.4.3 completed **6 specified cases × 3 frozen difficulties × 4 cyclic candidate-list rotations × 3 channels = 216 channel evaluations** (72 prompts). The repeated units are eighteen case-condition sets nested within six deliberately selected cases, not 72 independent observations. The graphs, candidate-name record order, questions, relation labels, IDs, template, and decoding settings are unchanged. Only the four numbered candidate options rotate. All eighteen P1 prompts, new free outputs, constrained choices, and mean candidate scores exactly reproduce v3.4.2.
 
