@@ -1,0 +1,17 @@
+{
+  "status": "STOP_TWO_HOP_CALIBRATION_INVALID",
+  "counts": {
+    "calibration": 80,
+    "main_upstream": 0,
+    "main_propagation": 0,
+    "pipeline_generated": 0,
+    "integrated": 0,
+    "order_diagnostic": 0
+  },
+  "memory": {
+    "peak_allocated_bytes": 3430942720,
+    "peak_reserved_bytes": 3498049536,
+    "free_bytes": 3714056192,
+    "total_bytes": 8546484224
+  }
+}

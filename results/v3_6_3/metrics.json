@@ -1,0 +1,348 @@
+{
+  "calibration": {
+    "complete": true,
+    "correct": {
+      "U-GOLD": 20,
+      "U-ALT": 20,
+      "P-GOLD": 18,
+      "P-ALT": 19
+    },
+    "pairs": {
+      "U": 20,
+      "P": 17
+    },
+    "tables": {
+      "U": {
+        "B": {
+          "B": 0,
+          "Bp": 20,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        },
+        "Bp": {
+          "B": 0,
+          "Bp": 0,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        },
+        "OTHER_STATE": {
+          "B": 0,
+          "Bp": 0,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "B": 0,
+          "Bp": 0,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        }
+      },
+      "P": {
+        "C": {
+          "C": 0,
+          "Cp": 17,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 1
+        },
+        "Cp": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "OTHER_OUTCOME": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "C": 0,
+          "Cp": 2,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        }
+      }
+    },
+    "permitted": 77,
+    "off_target": 3,
+    "categories": {
+      "U-GOLD": {
+        "B": 20,
+        "Bp": 0,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      },
+      "U-ALT": {
+        "B": 0,
+        "Bp": 20,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      },
+      "P-GOLD": {
+        "C": 18,
+        "Cp": 0,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 2
+      },
+      "P-ALT": {
+        "C": 0,
+        "Cp": 19,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 1
+      }
+    },
+    "gates": {
+      "A": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0,
+        "minimum": 19,
+        "passed": true
+      },
+      "B": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0,
+        "minimum": 19,
+        "passed": true
+      },
+      "C": {
+        "count": 18,
+        "denominator": 20,
+        "rate": 0.9,
+        "minimum": 19,
+        "passed": false
+      },
+      "D": {
+        "count": 19,
+        "denominator": 20,
+        "rate": 0.95,
+        "minimum": 19,
+        "passed": true
+      },
+      "E": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0,
+        "minimum": 19,
+        "passed": true
+      },
+      "F": {
+        "count": 17,
+        "denominator": 20,
+        "rate": 0.85,
+        "minimum": 19,
+        "passed": false
+      },
+      "G": {
+        "count": 77,
+        "denominator": 80,
+        "rate": 0.9625,
+        "minimum": 79,
+        "passed": false
+      }
+    },
+    "passed": false
+  },
+  "main": {
+    "complete": false,
+    "correct": {
+      "U-GOLD": 0,
+      "U-ALT": 0,
+      "P-GOLD": 0,
+      "P-ALT": 0
+    },
+    "pairs": {
+      "U": 0,
+      "P": 0
+    },
+    "tables": {
+      "U": {
+        "B": {
+          "B": 0,
+          "Bp": 0,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        },
+        "Bp": {
+          "B": 0,
+          "Bp": 0,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        },
+        "OTHER_STATE": {
+          "B": 0,
+          "Bp": 0,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "B": 0,
+          "Bp": 0,
+          "OTHER_STATE": 0,
+          "INVALID": 0
+        }
+      },
+      "P": {
+        "C": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "Cp": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "OTHER_OUTCOME": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "C": 0,
+          "Cp": 0,
+          "OTHER_OUTCOME": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        }
+      }
+    },
+    "permitted": 0,
+    "off_target": 0,
+    "categories": {
+      "U-GOLD": {
+        "B": 0,
+        "Bp": 0,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      },
+      "U-ALT": {
+        "B": 0,
+        "Bp": 0,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      },
+      "P-GOLD": {
+        "C": 0,
+        "Cp": 0,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      },
+      "P-ALT": {
+        "C": 0,
+        "Cp": 0,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      }
+    },
+    "metrics": {
+      "A_U_G": {
+        "count": 0,
+        "denominator": 40,
+        "rate": null,
+        "wilson_95": null
+      },
+      "A_U_A": {
+        "count": 0,
+        "denominator": 40,
+        "rate": null,
+        "wilson_95": null
+      },
+      "A_P_G": {
+        "count": 0,
+        "denominator": 40,
+        "rate": null,
+        "wilson_95": null
+      },
+      "A_P_A": {
+        "count": 0,
+        "denominator": 40,
+        "rate": null,
+        "wilson_95": null
+      },
+      "S_P": {
+        "count": 0,
+        "denominator": 40,
+        "rate": null,
+        "wilson_95": null
+      },
+      "E2E": {
+        "count": 0,
+        "denominator": 40,
+        "rate": null,
+        "wilson_95": null
+      }
+    },
+    "gates": {
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "G5": false,
+      "G6": false,
+      "G7": false
+    },
+    "passed": false,
+    "conditional_downstream": {
+      "count": 0,
+      "denominator": 0,
+      "rate": null
+    },
+    "pipeline_calls": 0,
+    "pipeline_skipped": 0,
+    "pipeline_failures": [],
+    "pipeline_category_counts": {
+      "C": 0,
+      "Cp": 0,
+      "OTHER_OUTCOME": 0,
+      "UNKNOWN": 0,
+      "INVALID": 0
+    },
+    "G7_off_target": {
+      "count": 0,
+      "denominator": 160,
+      "rate": null
+    }
+  },
+  "order_diagnostic": {
+    "complete": false,
+    "unchanged_correct": {
+      "count": 0,
+      "denominator": 20,
+      "rate": null
+    },
+    "passed": false,
+    "pairs": []
+  }
+}

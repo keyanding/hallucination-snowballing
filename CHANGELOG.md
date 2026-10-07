@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-07 — v3.6.3 two-hop propagation assay
+
+Added symmetric upstream lookup, recorded-state counterfactual propagation, actual unrepaired generated-state pipeline, separate integrated readiness and optional order diagnostic. Frozen 20 calibration and 40 main cases before inference. Calibration stopped after 80 calls: C=18/20, F=17/20 and G=77/80 failed; both upstream arms20/20. STOP_TWO_HOP_CALIBRATION_INVALID. No main or secondary calls. All 124 tests and independent verification pass; 410 historical artifacts unchanged.
+
 ## 2026-10-07 — v3.6.2 context accumulation robustness
 
 Added 40 fresh cases with nested K0/K4/K12/K24 distractors, fixed balanced position bands, exact state-only prompt differences and 72 position diagnostics. User-defined decision priority and monotonic-collapse/off-target criteria were frozen before inference. All 320 main outputs and 72 secondary outputs were correct: ROBUST_CONTEXT_ASSAY. All 113 tests and independent verification passed; 380 historical artifacts remain unchanged. No upstream layer or next phase was run.

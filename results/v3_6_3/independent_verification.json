@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "historical_artifacts_unchanged": 410,
+  "frozen_files": 42,
+  "candidate_tokenizations": 7800,
+  "exact_output_token_roundtrips": 80,
+  "unrepaired_pipeline_calls_verified": 0,
+  "independently_counted_calibration": {
+    "A": 20,
+    "B": 20,
+    "C": 18,
+    "D": 19,
+    "E": 20,
+    "F": 17,
+    "G": 77
+  },
+  "final_decision": "STOP_TWO_HOP_CALIBRATION_INVALID",
+  "INTEGRATED_TWO_HOP_READY": false
+}

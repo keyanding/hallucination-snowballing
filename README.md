@@ -2,7 +2,15 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.6.2 context accumulation robustness
+## Current experiment: v3.6.3 two-hop propagation assay
+
+**STOP_TWO_HOP_CALIBRATION_INVALID.** Completed exactly 80 calibration calls. U-GOLD and U-ALT were each 20/20; P-GOLD was 18/20, P-ALT 19/20, paired downstream 17/20, and permitted parses 77/80. Gates C, F and G failed because three downstream outputs violated the exact-identifier format. Main, generated-pipeline, integrated and order-diagnostic calls were not run. Integrated readiness is false with evaluated=false, not a failed integrated test.
+
+The implementation freezes 20 calibration and 40 fresh main cases, actual normalized upstream-state forwarding without repair, and separate integrated/order diagnostics. No failed case was replaced, no output was repaired and no token cap was changed. These observations do not establish a main propagation result or an internal failure mechanism.
+
+All 124 tests pass. Independent verification checked 7800 candidate tokenizations and 80 exact output/token round trips; 410 historical result files are unchanged. See [report](results/v3_6_3/README.md), [failure interpretation](results/v3_6_3/interpretation.md), [full prompt inspection](results/v3_6_3/inspection.md), [preregistration](results/v3_6_3/pre_registration.md), and [gate](results/v3_6_3/gate.json). Recompute reporting with `python -m experiments.v3_6_3.report`, then `python scripts/verify_v3_6_3.py`. Preparation and inference refuse to overwrite the existing run.
+
+## Previous experiment: v3.6.2 context accumulation robustness
 
 **ROBUST_CONTEXT_ASSAY.** Completed 320 main calls and 72 separate position diagnostics. At K0, K4, K12 and K24, C0, W0 and paired state-following were each 40/40. UNKNOWN, OTHER and INVALID were all zero. All paired degradation contrasts were zero. The 12-case K24 position diagnostic was correct 24/24 at each of beginning, middle and end.
 

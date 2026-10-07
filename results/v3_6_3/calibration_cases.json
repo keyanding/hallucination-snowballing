@@ -1,0 +1,362 @@
+[
+  {
+    "case_id": "v363-calibration-001",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_A40",
+    "alt_entity": "ENTITY_J46",
+    "gold_state": "STATE_F88",
+    "alt_state": "STATE_Y10",
+    "gold_outcome": "OUTCOME_X13",
+    "alt_outcome": "OUTCOME_L16"
+  },
+  {
+    "case_id": "v363-calibration-002",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_L54",
+    "alt_entity": "ENTITY_A05",
+    "gold_state": "STATE_K70",
+    "alt_state": "STATE_E72",
+    "gold_outcome": "OUTCOME_B75",
+    "alt_outcome": "OUTCOME_N02"
+  },
+  {
+    "case_id": "v363-calibration-003",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_N19",
+    "alt_entity": "ENTITY_F87",
+    "gold_state": "STATE_L16",
+    "alt_state": "STATE_U86",
+    "gold_outcome": "OUTCOME_J87",
+    "alt_outcome": "OUTCOME_D63"
+  },
+  {
+    "case_id": "v363-calibration-004",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_Z70",
+    "alt_entity": "ENTITY_P94",
+    "gold_state": "STATE_R97",
+    "alt_state": "STATE_U27",
+    "gold_outcome": "OUTCOME_M14",
+    "alt_outcome": "OUTCOME_M40"
+  },
+  {
+    "case_id": "v363-calibration-005",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_T23",
+    "alt_entity": "ENTITY_B01",
+    "gold_state": "STATE_J73",
+    "alt_state": "STATE_N15",
+    "gold_outcome": "OUTCOME_N73",
+    "alt_outcome": "OUTCOME_G85"
+  },
+  {
+    "case_id": "v363-calibration-006",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_J10",
+    "alt_entity": "ENTITY_D46",
+    "gold_state": "STATE_R23",
+    "alt_state": "STATE_W72",
+    "gold_outcome": "OUTCOME_G57",
+    "alt_outcome": "OUTCOME_W24"
+  },
+  {
+    "case_id": "v363-calibration-007",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_O55",
+    "alt_entity": "ENTITY_M30",
+    "gold_state": "STATE_D55",
+    "alt_state": "STATE_J78",
+    "gold_outcome": "OUTCOME_R77",
+    "alt_outcome": "OUTCOME_C54"
+  },
+  {
+    "case_id": "v363-calibration-008",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_B76",
+    "alt_entity": "ENTITY_T95",
+    "gold_state": "STATE_Y45",
+    "alt_state": "STATE_J36",
+    "gold_outcome": "OUTCOME_S51",
+    "alt_outcome": "OUTCOME_G83"
+  },
+  {
+    "case_id": "v363-calibration-009",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_S32",
+    "alt_entity": "ENTITY_W58",
+    "gold_state": "STATE_B40",
+    "alt_state": "STATE_Z93",
+    "gold_outcome": "OUTCOME_C25",
+    "alt_outcome": "OUTCOME_O29"
+  },
+  {
+    "case_id": "v363-calibration-010",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_Y93",
+    "alt_entity": "ENTITY_M84",
+    "gold_state": "STATE_W07",
+    "alt_state": "STATE_K31",
+    "gold_outcome": "OUTCOME_E02",
+    "alt_outcome": "OUTCOME_B47"
+  },
+  {
+    "case_id": "v363-calibration-011",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_P41",
+    "alt_entity": "ENTITY_T07",
+    "gold_state": "STATE_H59",
+    "alt_state": "STATE_P42",
+    "gold_outcome": "OUTCOME_Z50",
+    "alt_outcome": "OUTCOME_K85"
+  },
+  {
+    "case_id": "v363-calibration-012",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_S17",
+    "alt_entity": "ENTITY_U07",
+    "gold_state": "STATE_G20",
+    "alt_state": "STATE_Q97",
+    "gold_outcome": "OUTCOME_M84",
+    "alt_outcome": "OUTCOME_E90"
+  },
+  {
+    "case_id": "v363-calibration-013",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_I91",
+    "alt_entity": "ENTITY_F03",
+    "gold_state": "STATE_E29",
+    "alt_state": "STATE_M55",
+    "gold_outcome": "OUTCOME_F38",
+    "alt_outcome": "OUTCOME_X26"
+  },
+  {
+    "case_id": "v363-calibration-014",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_M07",
+    "alt_entity": "ENTITY_Q03",
+    "gold_state": "STATE_I05",
+    "alt_state": "STATE_I55",
+    "gold_outcome": "OUTCOME_M55",
+    "alt_outcome": "OUTCOME_O51"
+  },
+  {
+    "case_id": "v363-calibration-015",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_N98",
+    "alt_entity": "ENTITY_S12",
+    "gold_state": "STATE_J01",
+    "alt_state": "STATE_W97",
+    "gold_outcome": "OUTCOME_C56",
+    "alt_outcome": "OUTCOME_U13"
+  },
+  {
+    "case_id": "v363-calibration-016",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_E48",
+    "alt_entity": "ENTITY_X41",
+    "gold_state": "STATE_P11",
+    "alt_state": "STATE_J09",
+    "gold_outcome": "OUTCOME_F26",
+    "alt_outcome": "OUTCOME_W04"
+  },
+  {
+    "case_id": "v363-calibration-017",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_V68",
+    "alt_entity": "ENTITY_P10",
+    "gold_state": "STATE_M80",
+    "alt_state": "STATE_H28",
+    "gold_outcome": "OUTCOME_A88",
+    "alt_outcome": "OUTCOME_H00"
+  },
+  {
+    "case_id": "v363-calibration-018",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_A24",
+    "alt_entity": "ENTITY_L36",
+    "gold_state": "STATE_D93",
+    "alt_state": "STATE_X50",
+    "gold_outcome": "OUTCOME_J01",
+    "alt_outcome": "OUTCOME_Q85"
+  },
+  {
+    "case_id": "v363-calibration-019",
+    "split": "calibration",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_E46",
+    "alt_entity": "ENTITY_U10",
+    "gold_state": "STATE_L28",
+    "alt_state": "STATE_E66",
+    "gold_outcome": "OUTCOME_L59",
+    "alt_outcome": "OUTCOME_V49"
+  },
+  {
+    "case_id": "v363-calibration-020",
+    "split": "calibration",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_E52",
+    "alt_entity": "ENTITY_L76",
+    "gold_state": "STATE_H52",
+    "alt_state": "STATE_E82",
+    "gold_outcome": "OUTCOME_J14",
+    "alt_outcome": "OUTCOME_T48"
+  }
+]

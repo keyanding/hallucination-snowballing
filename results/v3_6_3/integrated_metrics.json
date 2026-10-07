@@ -1,0 +1,19 @@
+{
+  "evaluated": false,
+  "I_G": {
+    "count": 0,
+    "denominator": 20,
+    "rate": null
+  },
+  "I_A": {
+    "count": 0,
+    "denominator": 20,
+    "rate": null
+  },
+  "paired": {
+    "count": 0,
+    "denominator": 20,
+    "rate": null
+  },
+  "ready": false
+}

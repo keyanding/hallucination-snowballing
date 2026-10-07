@@ -1,0 +1,722 @@
+[
+  {
+    "case_id": "v363-main-001",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_Y16",
+    "alt_entity": "ENTITY_U08",
+    "gold_state": "STATE_Z66",
+    "alt_state": "STATE_T43",
+    "gold_outcome": "OUTCOME_M15",
+    "alt_outcome": "OUTCOME_Z33"
+  },
+  {
+    "case_id": "v363-main-002",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_K12",
+    "alt_entity": "ENTITY_P52",
+    "gold_state": "STATE_X39",
+    "alt_state": "STATE_X64",
+    "gold_outcome": "OUTCOME_Q33",
+    "alt_outcome": "OUTCOME_C63"
+  },
+  {
+    "case_id": "v363-main-003",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_U30",
+    "alt_entity": "ENTITY_Z54",
+    "gold_state": "STATE_O78",
+    "alt_state": "STATE_Q64",
+    "gold_outcome": "OUTCOME_H65",
+    "alt_outcome": "OUTCOME_K38"
+  },
+  {
+    "case_id": "v363-main-004",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_U36",
+    "alt_entity": "ENTITY_I31",
+    "gold_state": "STATE_Z98",
+    "alt_state": "STATE_W89",
+    "gold_outcome": "OUTCOME_T08",
+    "alt_outcome": "OUTCOME_M19"
+  },
+  {
+    "case_id": "v363-main-005",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_U48",
+    "alt_entity": "ENTITY_D71",
+    "gold_state": "STATE_C74",
+    "alt_state": "STATE_E22",
+    "gold_outcome": "OUTCOME_W42",
+    "alt_outcome": "OUTCOME_S64"
+  },
+  {
+    "case_id": "v363-main-006",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_A54",
+    "alt_entity": "ENTITY_F29",
+    "gold_state": "STATE_N11",
+    "alt_state": "STATE_J85",
+    "gold_outcome": "OUTCOME_V22",
+    "alt_outcome": "OUTCOME_Q60"
+  },
+  {
+    "case_id": "v363-main-007",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_O41",
+    "alt_entity": "ENTITY_J22",
+    "gold_state": "STATE_W55",
+    "alt_state": "STATE_C63",
+    "gold_outcome": "OUTCOME_V27",
+    "alt_outcome": "OUTCOME_Y62"
+  },
+  {
+    "case_id": "v363-main-008",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_U24",
+    "alt_entity": "ENTITY_B49",
+    "gold_state": "STATE_R13",
+    "alt_state": "STATE_L44",
+    "gold_outcome": "OUTCOME_T00",
+    "alt_outcome": "OUTCOME_Z71"
+  },
+  {
+    "case_id": "v363-main-009",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_R18",
+    "alt_entity": "ENTITY_K77",
+    "gold_state": "STATE_A28",
+    "alt_state": "STATE_G41",
+    "gold_outcome": "OUTCOME_M92",
+    "alt_outcome": "OUTCOME_G56"
+  },
+  {
+    "case_id": "v363-main-010",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_F25",
+    "alt_entity": "ENTITY_S81",
+    "gold_state": "STATE_R08",
+    "alt_state": "STATE_Q93",
+    "gold_outcome": "OUTCOME_H63",
+    "alt_outcome": "OUTCOME_S15"
+  },
+  {
+    "case_id": "v363-main-011",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_G04",
+    "alt_entity": "ENTITY_J36",
+    "gold_state": "STATE_Z01",
+    "alt_state": "STATE_E81",
+    "gold_outcome": "OUTCOME_S56",
+    "alt_outcome": "OUTCOME_K39"
+  },
+  {
+    "case_id": "v363-main-012",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_T87",
+    "alt_entity": "ENTITY_L74",
+    "gold_state": "STATE_V80",
+    "alt_state": "STATE_O60",
+    "gold_outcome": "OUTCOME_P36",
+    "alt_outcome": "OUTCOME_O19"
+  },
+  {
+    "case_id": "v363-main-013",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_F09",
+    "alt_entity": "ENTITY_O56",
+    "gold_state": "STATE_Q61",
+    "alt_state": "STATE_W19",
+    "gold_outcome": "OUTCOME_O80",
+    "alt_outcome": "OUTCOME_E70"
+  },
+  {
+    "case_id": "v363-main-014",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_Q74",
+    "alt_entity": "ENTITY_P43",
+    "gold_state": "STATE_H85",
+    "alt_state": "STATE_D71",
+    "gold_outcome": "OUTCOME_V24",
+    "alt_outcome": "OUTCOME_N96"
+  },
+  {
+    "case_id": "v363-main-015",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_K69",
+    "alt_entity": "ENTITY_Z83",
+    "gold_state": "STATE_S48",
+    "alt_state": "STATE_C26",
+    "gold_outcome": "OUTCOME_X68",
+    "alt_outcome": "OUTCOME_X14"
+  },
+  {
+    "case_id": "v363-main-016",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_K45",
+    "alt_entity": "ENTITY_V94",
+    "gold_state": "STATE_U37",
+    "alt_state": "STATE_Z94",
+    "gold_outcome": "OUTCOME_M33",
+    "alt_outcome": "OUTCOME_R58"
+  },
+  {
+    "case_id": "v363-main-017",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_Z51",
+    "alt_entity": "ENTITY_G72",
+    "gold_state": "STATE_D22",
+    "alt_state": "STATE_D76",
+    "gold_outcome": "OUTCOME_A55",
+    "alt_outcome": "OUTCOME_C15"
+  },
+  {
+    "case_id": "v363-main-018",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_S64",
+    "alt_entity": "ENTITY_P95",
+    "gold_state": "STATE_B81",
+    "alt_state": "STATE_I46",
+    "gold_outcome": "OUTCOME_O71",
+    "alt_outcome": "OUTCOME_G21"
+  },
+  {
+    "case_id": "v363-main-019",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_D42",
+    "alt_entity": "ENTITY_C10",
+    "gold_state": "STATE_M19",
+    "alt_state": "STATE_B21",
+    "gold_outcome": "OUTCOME_E83",
+    "alt_outcome": "OUTCOME_Y44"
+  },
+  {
+    "case_id": "v363-main-020",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_W48",
+    "alt_entity": "ENTITY_H74",
+    "gold_state": "STATE_Y36",
+    "alt_state": "STATE_H03",
+    "gold_outcome": "OUTCOME_F20",
+    "alt_outcome": "OUTCOME_L64"
+  },
+  {
+    "case_id": "v363-main-021",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_X65",
+    "alt_entity": "ENTITY_P25",
+    "gold_state": "STATE_V72",
+    "alt_state": "STATE_Z30",
+    "gold_outcome": "OUTCOME_C17",
+    "alt_outcome": "OUTCOME_S08"
+  },
+  {
+    "case_id": "v363-main-022",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_Z64",
+    "alt_entity": "ENTITY_Y34",
+    "gold_state": "STATE_M07",
+    "alt_state": "STATE_D13",
+    "gold_outcome": "OUTCOME_Y04",
+    "alt_outcome": "OUTCOME_Z53"
+  },
+  {
+    "case_id": "v363-main-023",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_H28",
+    "alt_entity": "ENTITY_X46",
+    "gold_state": "STATE_Z95",
+    "alt_state": "STATE_S05",
+    "gold_outcome": "OUTCOME_C02",
+    "alt_outcome": "OUTCOME_D66"
+  },
+  {
+    "case_id": "v363-main-024",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_R85",
+    "alt_entity": "ENTITY_E27",
+    "gold_state": "STATE_U63",
+    "alt_state": "STATE_B56",
+    "gold_outcome": "OUTCOME_C03",
+    "alt_outcome": "OUTCOME_W39"
+  },
+  {
+    "case_id": "v363-main-025",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_Y61",
+    "alt_entity": "ENTITY_S91",
+    "gold_state": "STATE_D14",
+    "alt_state": "STATE_K91",
+    "gold_outcome": "OUTCOME_K45",
+    "alt_outcome": "OUTCOME_J99"
+  },
+  {
+    "case_id": "v363-main-026",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_S88",
+    "alt_entity": "ENTITY_U50",
+    "gold_state": "STATE_L43",
+    "alt_state": "STATE_P56",
+    "gold_outcome": "OUTCOME_J54",
+    "alt_outcome": "OUTCOME_Z34"
+  },
+  {
+    "case_id": "v363-main-027",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_A49",
+    "alt_entity": "ENTITY_N71",
+    "gold_state": "STATE_W36",
+    "alt_state": "STATE_B30",
+    "gold_outcome": "OUTCOME_I33",
+    "alt_outcome": "OUTCOME_P26"
+  },
+  {
+    "case_id": "v363-main-028",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_Y54",
+    "alt_entity": "ENTITY_K55",
+    "gold_state": "STATE_L41",
+    "alt_state": "STATE_L34",
+    "gold_outcome": "OUTCOME_R95",
+    "alt_outcome": "OUTCOME_D75"
+  },
+  {
+    "case_id": "v363-main-029",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_G46",
+    "alt_entity": "ENTITY_I18",
+    "gold_state": "STATE_A95",
+    "alt_state": "STATE_L48",
+    "gold_outcome": "OUTCOME_J74",
+    "alt_outcome": "OUTCOME_D90"
+  },
+  {
+    "case_id": "v363-main-030",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_X67",
+    "alt_entity": "ENTITY_K60",
+    "gold_state": "STATE_X14",
+    "alt_state": "STATE_Z27",
+    "gold_outcome": "OUTCOME_B69",
+    "alt_outcome": "OUTCOME_P18"
+  },
+  {
+    "case_id": "v363-main-031",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_P35",
+    "alt_entity": "ENTITY_W34",
+    "gold_state": "STATE_N41",
+    "alt_state": "STATE_A73",
+    "gold_outcome": "OUTCOME_O87",
+    "alt_outcome": "OUTCOME_W67"
+  },
+  {
+    "case_id": "v363-main-032",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_V67",
+    "alt_entity": "ENTITY_H66",
+    "gold_state": "STATE_D01",
+    "alt_state": "STATE_W41",
+    "gold_outcome": "OUTCOME_V47",
+    "alt_outcome": "OUTCOME_G03"
+  },
+  {
+    "case_id": "v363-main-033",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_G83",
+    "alt_entity": "ENTITY_Z22",
+    "gold_state": "STATE_O65",
+    "alt_state": "STATE_G26",
+    "gold_outcome": "OUTCOME_J30",
+    "alt_outcome": "OUTCOME_X76"
+  },
+  {
+    "case_id": "v363-main-034",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_O82",
+    "alt_entity": "ENTITY_Z00",
+    "gold_state": "STATE_J86",
+    "alt_state": "STATE_Y31",
+    "gold_outcome": "OUTCOME_M64",
+    "alt_outcome": "OUTCOME_V52"
+  },
+  {
+    "case_id": "v363-main-035",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_R03",
+    "alt_entity": "ENTITY_A29",
+    "gold_state": "STATE_J14",
+    "alt_state": "STATE_C06",
+    "gold_outcome": "OUTCOME_P67",
+    "alt_outcome": "OUTCOME_B42"
+  },
+  {
+    "case_id": "v363-main-036",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_W18",
+    "alt_entity": "ENTITY_B04",
+    "gold_state": "STATE_G02",
+    "alt_state": "STATE_I81",
+    "gold_outcome": "OUTCOME_C44",
+    "alt_outcome": "OUTCOME_Z94"
+  },
+  {
+    "case_id": "v363-main-037",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_M16",
+    "alt_entity": "ENTITY_M36",
+    "gold_state": "STATE_P06",
+    "alt_state": "STATE_O25",
+    "gold_outcome": "OUTCOME_J12",
+    "alt_outcome": "OUTCOME_Q59"
+  },
+  {
+    "case_id": "v363-main-038",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_K80",
+    "alt_entity": "ENTITY_C71",
+    "gold_state": "STATE_I80",
+    "alt_state": "STATE_C52",
+    "gold_outcome": "OUTCOME_I89",
+    "alt_outcome": "OUTCOME_S61"
+  },
+  {
+    "case_id": "v363-main-039",
+    "split": "main",
+    "up_order": [
+      "gold",
+      "alt"
+    ],
+    "down_order": [
+      "gold",
+      "alt"
+    ],
+    "gold_entity": "ENTITY_J01",
+    "alt_entity": "ENTITY_B95",
+    "gold_state": "STATE_H34",
+    "alt_state": "STATE_H15",
+    "gold_outcome": "OUTCOME_F84",
+    "alt_outcome": "OUTCOME_T90"
+  },
+  {
+    "case_id": "v363-main-040",
+    "split": "main",
+    "up_order": [
+      "alt",
+      "gold"
+    ],
+    "down_order": [
+      "alt",
+      "gold"
+    ],
+    "gold_entity": "ENTITY_S73",
+    "alt_entity": "ENTITY_K98",
+    "gold_state": "STATE_W91",
+    "alt_state": "STATE_N77",
+    "gold_outcome": "OUTCOME_Y08",
+    "alt_outcome": "OUTCOME_E67"
+  }
+]

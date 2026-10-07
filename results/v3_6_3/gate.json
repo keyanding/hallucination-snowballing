@@ -1,0 +1,19 @@
+{
+  "final_decision": "STOP_TWO_HOP_CALIBRATION_INVALID",
+  "calibration_pass": false,
+  "main_evaluated": false,
+  "main_pass": null,
+  "INTEGRATED_TWO_HOP_READY": false,
+  "integrated_evaluated": false,
+  "order_diagnostic_evaluated": false,
+  "order_diagnostic_pass": null,
+  "counts": {
+    "calibration": 80,
+    "main_upstream": 0,
+    "main_propagation": 0,
+    "pipeline_generated": 0,
+    "integrated": 0,
+    "order_diagnostic": 0
+  },
+  "pipeline_skipped": 0
+}
