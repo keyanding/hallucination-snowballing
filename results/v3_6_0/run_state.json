@@ -1,0 +1,11 @@
+{
+  "status": "STOP_ASSAY_INVALID",
+  "calibration_calls": 160,
+  "main_calls": 0,
+  "memory": {
+    "peak_allocated_bytes": 3430942720,
+    "peak_reserved_bytes": 3500146688,
+    "free_bytes": 3711959040,
+    "total_bytes": 8546484224
+  }
+}

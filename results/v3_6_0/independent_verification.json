@@ -1,0 +1,23 @@
+{
+  "frozen_files": 20,
+  "prior_artifacts": 312,
+  "raw_token_roundtrips": 160,
+  "independent_calibration_counts": {
+    "A": 39,
+    "B": 17,
+    "C": 20,
+    "D": 19,
+    "E": 15,
+    "F": 20,
+    "G": 160,
+    "H": 17
+  },
+  "failed_calibration_gates": [
+    "B",
+    "E",
+    "H"
+  ],
+  "main_calls": 0,
+  "tests": 90,
+  "all_checks_passed": true
+}

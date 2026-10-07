@@ -1,0 +1,762 @@
+[
+  {
+    "case_id": "v360-main-001",
+    "split": "main",
+    "entity": "Entity_T28",
+    "alternate_entity": "Entity_A68",
+    "unmapped_state": "State_C62",
+    "gold_state": "State_X34",
+    "wrong_state": "State_A76",
+    "gold_outcome": "Outcome_C28",
+    "wrong_outcome": "Outcome_I00",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-002",
+    "split": "main",
+    "entity": "Entity_B67",
+    "alternate_entity": "Entity_Q96",
+    "unmapped_state": "State_D35",
+    "gold_state": "State_J47",
+    "wrong_state": "State_F16",
+    "gold_outcome": "Outcome_N37",
+    "wrong_outcome": "Outcome_O16",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-003",
+    "split": "main",
+    "entity": "Entity_P88",
+    "alternate_entity": "Entity_D62",
+    "unmapped_state": "State_C55",
+    "gold_state": "State_Z10",
+    "wrong_state": "State_R98",
+    "gold_outcome": "Outcome_L77",
+    "wrong_outcome": "Outcome_K24",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-004",
+    "split": "main",
+    "entity": "Entity_B72",
+    "alternate_entity": "Entity_H77",
+    "unmapped_state": "State_Z13",
+    "gold_state": "State_F22",
+    "wrong_state": "State_Z05",
+    "gold_outcome": "Outcome_Q12",
+    "wrong_outcome": "Outcome_K86",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-005",
+    "split": "main",
+    "entity": "Entity_Q02",
+    "alternate_entity": "Entity_U86",
+    "unmapped_state": "State_B35",
+    "gold_state": "State_Q37",
+    "wrong_state": "State_X16",
+    "gold_outcome": "Outcome_Y63",
+    "wrong_outcome": "Outcome_T74",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-006",
+    "split": "main",
+    "entity": "Entity_V25",
+    "alternate_entity": "Entity_S59",
+    "unmapped_state": "State_D20",
+    "gold_state": "State_K30",
+    "wrong_state": "State_V83",
+    "gold_outcome": "Outcome_O96",
+    "wrong_outcome": "Outcome_C72",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-007",
+    "split": "main",
+    "entity": "Entity_T29",
+    "alternate_entity": "Entity_F44",
+    "unmapped_state": "State_G15",
+    "gold_state": "State_T36",
+    "wrong_state": "State_T76",
+    "gold_outcome": "Outcome_V21",
+    "wrong_outcome": "Outcome_L69",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-008",
+    "split": "main",
+    "entity": "Entity_G01",
+    "alternate_entity": "Entity_R16",
+    "unmapped_state": "State_S54",
+    "gold_state": "State_V63",
+    "wrong_state": "State_W29",
+    "gold_outcome": "Outcome_E32",
+    "wrong_outcome": "Outcome_D47",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-009",
+    "split": "main",
+    "entity": "Entity_Q81",
+    "alternate_entity": "Entity_F15",
+    "unmapped_state": "State_F85",
+    "gold_state": "State_C08",
+    "wrong_state": "State_R67",
+    "gold_outcome": "Outcome_E15",
+    "wrong_outcome": "Outcome_R99",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-010",
+    "split": "main",
+    "entity": "Entity_F78",
+    "alternate_entity": "Entity_W52",
+    "unmapped_state": "State_G58",
+    "gold_state": "State_F69",
+    "wrong_state": "State_M05",
+    "gold_outcome": "Outcome_B65",
+    "wrong_outcome": "Outcome_S91",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-011",
+    "split": "main",
+    "entity": "Entity_K15",
+    "alternate_entity": "Entity_C74",
+    "unmapped_state": "State_K58",
+    "gold_state": "State_O17",
+    "wrong_state": "State_C99",
+    "gold_outcome": "Outcome_Y98",
+    "wrong_outcome": "Outcome_O56",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-012",
+    "split": "main",
+    "entity": "Entity_J97",
+    "alternate_entity": "Entity_A91",
+    "unmapped_state": "State_X79",
+    "gold_state": "State_U19",
+    "wrong_state": "State_Y94",
+    "gold_outcome": "Outcome_L62",
+    "wrong_outcome": "Outcome_H19",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-013",
+    "split": "main",
+    "entity": "Entity_B22",
+    "alternate_entity": "Entity_V27",
+    "unmapped_state": "State_W96",
+    "gold_state": "State_M98",
+    "wrong_state": "State_N50",
+    "gold_outcome": "Outcome_X10",
+    "wrong_outcome": "Outcome_B24",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-014",
+    "split": "main",
+    "entity": "Entity_Q52",
+    "alternate_entity": "Entity_L10",
+    "unmapped_state": "State_A08",
+    "gold_state": "State_X33",
+    "wrong_state": "State_P75",
+    "gold_outcome": "Outcome_D53",
+    "wrong_outcome": "Outcome_H69",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-015",
+    "split": "main",
+    "entity": "Entity_B29",
+    "alternate_entity": "Entity_P74",
+    "unmapped_state": "State_I57",
+    "gold_state": "State_V16",
+    "wrong_state": "State_Q53",
+    "gold_outcome": "Outcome_S17",
+    "wrong_outcome": "Outcome_P28",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-016",
+    "split": "main",
+    "entity": "Entity_I10",
+    "alternate_entity": "Entity_B06",
+    "unmapped_state": "State_J76",
+    "gold_state": "State_X13",
+    "wrong_state": "State_K28",
+    "gold_outcome": "Outcome_P66",
+    "wrong_outcome": "Outcome_E21",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-017",
+    "split": "main",
+    "entity": "Entity_O45",
+    "alternate_entity": "Entity_M32",
+    "unmapped_state": "State_Q06",
+    "gold_state": "State_V18",
+    "wrong_state": "State_L98",
+    "gold_outcome": "Outcome_Q01",
+    "wrong_outcome": "Outcome_Z29",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-018",
+    "split": "main",
+    "entity": "Entity_T82",
+    "alternate_entity": "Entity_M10",
+    "unmapped_state": "State_D03",
+    "gold_state": "State_R72",
+    "wrong_state": "State_L32",
+    "gold_outcome": "Outcome_S25",
+    "wrong_outcome": "Outcome_K67",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-019",
+    "split": "main",
+    "entity": "Entity_Y10",
+    "alternate_entity": "Entity_X18",
+    "unmapped_state": "State_P82",
+    "gold_state": "State_V07",
+    "wrong_state": "State_K50",
+    "gold_outcome": "Outcome_H47",
+    "wrong_outcome": "Outcome_L51",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-020",
+    "split": "main",
+    "entity": "Entity_Z44",
+    "alternate_entity": "Entity_L00",
+    "unmapped_state": "State_I97",
+    "gold_state": "State_U92",
+    "wrong_state": "State_I26",
+    "gold_outcome": "Outcome_K20",
+    "wrong_outcome": "Outcome_R97",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-021",
+    "split": "main",
+    "entity": "Entity_T61",
+    "alternate_entity": "Entity_B58",
+    "unmapped_state": "State_N12",
+    "gold_state": "State_F17",
+    "wrong_state": "State_H02",
+    "gold_outcome": "Outcome_N46",
+    "wrong_outcome": "Outcome_R35",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-022",
+    "split": "main",
+    "entity": "Entity_X43",
+    "alternate_entity": "Entity_O23",
+    "unmapped_state": "State_C70",
+    "gold_state": "State_S88",
+    "wrong_state": "State_V11",
+    "gold_outcome": "Outcome_C98",
+    "wrong_outcome": "Outcome_Y54",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-023",
+    "split": "main",
+    "entity": "Entity_P38",
+    "alternate_entity": "Entity_O72",
+    "unmapped_state": "State_C13",
+    "gold_state": "State_V97",
+    "wrong_state": "State_K75",
+    "gold_outcome": "Outcome_B31",
+    "wrong_outcome": "Outcome_U68",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-024",
+    "split": "main",
+    "entity": "Entity_E03",
+    "alternate_entity": "Entity_S09",
+    "unmapped_state": "State_T94",
+    "gold_state": "State_C21",
+    "wrong_state": "State_Z19",
+    "gold_outcome": "Outcome_W00",
+    "wrong_outcome": "Outcome_Y71",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-025",
+    "split": "main",
+    "entity": "Entity_V95",
+    "alternate_entity": "Entity_Q15",
+    "unmapped_state": "State_V69",
+    "gold_state": "State_M17",
+    "wrong_state": "State_C19",
+    "gold_outcome": "Outcome_Q00",
+    "wrong_outcome": "Outcome_A94",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-026",
+    "split": "main",
+    "entity": "Entity_M88",
+    "alternate_entity": "Entity_R77",
+    "unmapped_state": "State_A55",
+    "gold_state": "State_E25",
+    "wrong_state": "State_S64",
+    "gold_outcome": "Outcome_Q65",
+    "wrong_outcome": "Outcome_G29",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-027",
+    "split": "main",
+    "entity": "Entity_S83",
+    "alternate_entity": "Entity_W98",
+    "unmapped_state": "State_T65",
+    "gold_state": "State_P41",
+    "wrong_state": "State_E20",
+    "gold_outcome": "Outcome_M44",
+    "wrong_outcome": "Outcome_H08",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-028",
+    "split": "main",
+    "entity": "Entity_G77",
+    "alternate_entity": "Entity_V20",
+    "unmapped_state": "State_R87",
+    "gold_state": "State_Z84",
+    "wrong_state": "State_T40",
+    "gold_outcome": "Outcome_H37",
+    "wrong_outcome": "Outcome_X96",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-029",
+    "split": "main",
+    "entity": "Entity_M95",
+    "alternate_entity": "Entity_M59",
+    "unmapped_state": "State_R85",
+    "gold_state": "State_F26",
+    "wrong_state": "State_H27",
+    "gold_outcome": "Outcome_A83",
+    "wrong_outcome": "Outcome_G60",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-030",
+    "split": "main",
+    "entity": "Entity_M82",
+    "alternate_entity": "Entity_B84",
+    "unmapped_state": "State_M64",
+    "gold_state": "State_X05",
+    "wrong_state": "State_X48",
+    "gold_outcome": "Outcome_A66",
+    "wrong_outcome": "Outcome_W28",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-031",
+    "split": "main",
+    "entity": "Entity_A53",
+    "alternate_entity": "Entity_M01",
+    "unmapped_state": "State_C88",
+    "gold_state": "State_O14",
+    "wrong_state": "State_G05",
+    "gold_outcome": "Outcome_Q11",
+    "wrong_outcome": "Outcome_X92",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-032",
+    "split": "main",
+    "entity": "Entity_S57",
+    "alternate_entity": "Entity_S87",
+    "unmapped_state": "State_U50",
+    "gold_state": "State_I40",
+    "wrong_state": "State_Y89",
+    "gold_outcome": "Outcome_Q34",
+    "wrong_outcome": "Outcome_G88",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-033",
+    "split": "main",
+    "entity": "Entity_J53",
+    "alternate_entity": "Entity_V70",
+    "unmapped_state": "State_M97",
+    "gold_state": "State_S84",
+    "wrong_state": "State_B77",
+    "gold_outcome": "Outcome_O99",
+    "wrong_outcome": "Outcome_M16",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-034",
+    "split": "main",
+    "entity": "Entity_T53",
+    "alternate_entity": "Entity_T32",
+    "unmapped_state": "State_W24",
+    "gold_state": "State_N39",
+    "wrong_state": "State_C27",
+    "gold_outcome": "Outcome_E24",
+    "wrong_outcome": "Outcome_W31",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-035",
+    "split": "main",
+    "entity": "Entity_B87",
+    "alternate_entity": "Entity_U99",
+    "unmapped_state": "State_J84",
+    "gold_state": "State_E41",
+    "wrong_state": "State_Y83",
+    "gold_outcome": "Outcome_P11",
+    "wrong_outcome": "Outcome_R93",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-036",
+    "split": "main",
+    "entity": "Entity_J81",
+    "alternate_entity": "Entity_D50",
+    "unmapped_state": "State_R58",
+    "gold_state": "State_D11",
+    "wrong_state": "State_Z60",
+    "gold_outcome": "Outcome_E31",
+    "wrong_outcome": "Outcome_Z46",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-037",
+    "split": "main",
+    "entity": "Entity_Q93",
+    "alternate_entity": "Entity_X09",
+    "unmapped_state": "State_U31",
+    "gold_state": "State_O88",
+    "wrong_state": "State_V54",
+    "gold_outcome": "Outcome_Q71",
+    "wrong_outcome": "Outcome_K49",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-038",
+    "split": "main",
+    "entity": "Entity_C77",
+    "alternate_entity": "Entity_A37",
+    "unmapped_state": "State_W51",
+    "gold_state": "State_G31",
+    "wrong_state": "State_Z00",
+    "gold_outcome": "Outcome_S60",
+    "wrong_outcome": "Outcome_Y58",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-039",
+    "split": "main",
+    "entity": "Entity_C51",
+    "alternate_entity": "Entity_M87",
+    "unmapped_state": "State_R83",
+    "gold_state": "State_T10",
+    "wrong_state": "State_B63",
+    "gold_outcome": "Outcome_V61",
+    "wrong_outcome": "Outcome_E85",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-main-040",
+    "split": "main",
+    "entity": "Entity_U38",
+    "alternate_entity": "Entity_J08",
+    "unmapped_state": "State_O15",
+    "gold_state": "State_T63",
+    "wrong_state": "State_N47",
+    "gold_outcome": "Outcome_Q16",
+    "wrong_outcome": "Outcome_H87",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  }
+]

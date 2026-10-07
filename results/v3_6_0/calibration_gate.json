@@ -1,0 +1,80 @@
+{
+  "complete": true,
+  "gates": {
+    "A": {
+      "count": 39,
+      "denominator": 40,
+      "rate": 0.975,
+      "minimum": 38,
+      "passed": true
+    },
+    "B": {
+      "count": 17,
+      "denominator": 20,
+      "rate": 0.85,
+      "minimum": 19,
+      "passed": false
+    },
+    "C": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 19,
+      "passed": true
+    },
+    "D": {
+      "count": 19,
+      "denominator": 20,
+      "rate": 0.95,
+      "minimum": 19,
+      "passed": true
+    },
+    "E": {
+      "count": 15,
+      "denominator": 20,
+      "rate": 0.75,
+      "minimum": 19,
+      "passed": false
+    },
+    "F": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 18,
+      "passed": true
+    },
+    "G": {
+      "count": 160,
+      "denominator": 160,
+      "rate": 1.0,
+      "minimum": 159,
+      "passed": true
+    },
+    "H": {
+      "count": 17,
+      "denominator": 20,
+      "rate": 0.85,
+      "minimum": 19,
+      "passed": false
+    }
+  },
+  "passed": false,
+  "category_counts": {
+    "C": 75,
+    "Cp": 58,
+    "UNKNOWN": 27,
+    "OTHER": 0,
+    "INVALID": 0
+  },
+  "correct_by_condition": {
+    "REVERSE": 18,
+    "C0": 17,
+    "LOOKUP_WRONG": 19,
+    "ENTITY_LABEL": 20,
+    "LOOKUP_GOLD": 20,
+    "SWAP": 19,
+    "UNMAPPED": 20,
+    "W0": 20
+  },
+  "unchanged_def": "Both parsed outputs permitted and normalized-identical to same-case C0; correctness separately reported."
+}

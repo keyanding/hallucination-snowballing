@@ -2,7 +2,15 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.5.1 task-role framing pilot
+## Current experiment: v3.6.0 propagation assay validation
+
+**STOP_ASSAY_INVALID.** Completed 160 formal calibration calls; main experiment was not run (0/80). Before inference, the user-approved entity-label control was added as gate H and the exact uniform UNKNOWN instruction was frozen. B=17/20, E=15/20 and H=17/20 failed their 19/20 minima. A=39/40, C=20/20, D=19/20, F=20/20 and G=160/160 passed. No cases, prompts or thresholds were changed after inference.
+
+The synthetic assay did not meet its validity gate, so no propagation conclusion or Phase II/SHAR test follows. All 90 tests pass; independent token/prompt/gate verification passes and 312 previous result files are unchanged.
+
+See [report](results/v3_6_0/README.md), [diagnosis](results/v3_6_0/diagnosis.md), [full prompt inspection](results/v3_6_0/inspection.md), [pre-registration](results/v3_6_0/pre_registration.md) and [gate](results/v3_6_0/gate.json). Recompute reporting with `python -m experiments.v3_6_0.report` and independently verify with `python scripts/verify_v3_6_0.py`. Preparation and inference refuse to overwrite an existing experiment.
+
+## Previous experiment: v3.5.1 task-role framing pilot
 
 Completed **72 main calls +16 independent auxiliary checks**, with **81 tests passing**. The intervention is an externally supplied erroneous state, not a spontaneous first-hop hallucination. Twelve anonymous film targets and twelve distinct person pairs use frozen source-backed birth-city mappings.
 

@@ -1,0 +1,8 @@
+{
+  "decision": "STOP_ASSAY_INVALID",
+  "calibration_pass": false,
+  "main_run": false,
+  "main_pass": null,
+  "calibration_calls": 160,
+  "main_calls": 0
+}

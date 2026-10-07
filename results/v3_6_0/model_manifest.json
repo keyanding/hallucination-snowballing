@@ -1,0 +1,16 @@
+{
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "compute_dtype": "torch.bfloat16",
+  "device_map": {
+    "": "0"
+  },
+  "offload": false,
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "transformers": "4.51.3",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "numpy": "2.4.6"
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU"
+}
