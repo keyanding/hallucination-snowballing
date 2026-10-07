@@ -1,0 +1,7 @@
+{
+  "status": "STRONGER_MODEL_DIAGNOSTIC_NOT_RUN",
+  "stage_c_invalid_trigger": false,
+  "stage_b_P3": false,
+  "reason": "Only the existing Qwen3-4B checkpoint is available in configured/default caches; no stronger-model endpoint is configured in the existing inference adapter. No download or ad hoc infrastructure.",
+  "failed_mapped_prompts": []
+}

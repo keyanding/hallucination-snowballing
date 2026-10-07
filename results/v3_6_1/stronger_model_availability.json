@@ -1,0 +1,13 @@
+{
+  "checked_local_model_caches": {
+    ".cache\\huggingface": [
+      "models--Qwen--Qwen3-4B-Instruct-2507"
+    ],
+    "C:\\Users\\kding\\.cache\\huggingface\\hub": []
+  },
+  "compatible_stronger_model_available": false,
+  "reason": "Only the existing Qwen3-4B checkpoint is available in configured/default caches; no stronger-model endpoint is configured in the existing inference adapter. No download or ad hoc infrastructure.",
+  "conditional_status": "STRONGER_MODEL_DIAGNOSTIC_NOT_RUN",
+  "selection_seed": 1361,
+  "selection_rule": "If Stage C fails and a compatible stronger model is available: all incorrect Stage C mapped calls plus equal-size seeded sample of correct mapped calls. No replacement, no new prompts. If fewer correct calls than failures, report design infeasible instead of silently reducing or duplicating controls."
+}

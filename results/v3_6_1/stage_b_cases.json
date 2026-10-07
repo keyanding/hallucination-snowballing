@@ -1,0 +1,382 @@
+[
+  {
+    "case_id": "v360-calibration-001",
+    "split": "calibration",
+    "entity": "Entity_J44",
+    "alternate_entity": "Entity_M55",
+    "unmapped_state": "State_W42",
+    "gold_state": "State_D49",
+    "wrong_state": "State_J94",
+    "gold_outcome": "Outcome_F93",
+    "wrong_outcome": "Outcome_I48",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-002",
+    "split": "calibration",
+    "entity": "Entity_H61",
+    "alternate_entity": "Entity_D22",
+    "unmapped_state": "State_S67",
+    "gold_state": "State_C68",
+    "wrong_state": "State_K13",
+    "gold_outcome": "Outcome_E87",
+    "wrong_outcome": "Outcome_N34",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-003",
+    "split": "calibration",
+    "entity": "Entity_F60",
+    "alternate_entity": "Entity_W16",
+    "unmapped_state": "State_T72",
+    "gold_state": "State_Z38",
+    "wrong_state": "State_Z43",
+    "gold_outcome": "Outcome_L24",
+    "wrong_outcome": "Outcome_P70",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-004",
+    "split": "calibration",
+    "entity": "Entity_G19",
+    "alternate_entity": "Entity_L30",
+    "unmapped_state": "State_S38",
+    "gold_state": "State_O94",
+    "wrong_state": "State_M06",
+    "gold_outcome": "Outcome_N09",
+    "wrong_outcome": "Outcome_I15",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-005",
+    "split": "calibration",
+    "entity": "Entity_D18",
+    "alternate_entity": "Entity_I24",
+    "unmapped_state": "State_E86",
+    "gold_state": "State_R64",
+    "wrong_state": "State_R00",
+    "gold_outcome": "Outcome_M36",
+    "wrong_outcome": "Outcome_Z51",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-006",
+    "split": "calibration",
+    "entity": "Entity_V79",
+    "alternate_entity": "Entity_G37",
+    "unmapped_state": "State_N95",
+    "gold_state": "State_Y82",
+    "wrong_state": "State_W27",
+    "gold_outcome": "Outcome_M73",
+    "wrong_outcome": "Outcome_A15",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-007",
+    "split": "calibration",
+    "entity": "Entity_N53",
+    "alternate_entity": "Entity_G54",
+    "unmapped_state": "State_X38",
+    "gold_state": "State_T18",
+    "wrong_state": "State_E40",
+    "gold_outcome": "Outcome_R32",
+    "wrong_outcome": "Outcome_A64",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-008",
+    "split": "calibration",
+    "entity": "Entity_E79",
+    "alternate_entity": "Entity_Z91",
+    "unmapped_state": "State_N96",
+    "gold_state": "State_H25",
+    "wrong_state": "State_P32",
+    "gold_outcome": "Outcome_C61",
+    "wrong_outcome": "Outcome_H92",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-009",
+    "split": "calibration",
+    "entity": "Entity_E83",
+    "alternate_entity": "Entity_Q05",
+    "unmapped_state": "State_U03",
+    "gold_state": "State_J02",
+    "wrong_state": "State_H06",
+    "gold_outcome": "Outcome_S45",
+    "wrong_outcome": "Outcome_D81",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-010",
+    "split": "calibration",
+    "entity": "Entity_E59",
+    "alternate_entity": "Entity_L13",
+    "unmapped_state": "State_U30",
+    "gold_state": "State_Y20",
+    "wrong_state": "State_A36",
+    "gold_outcome": "Outcome_V88",
+    "wrong_outcome": "Outcome_X40",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-011",
+    "split": "calibration",
+    "entity": "Entity_L33",
+    "alternate_entity": "Entity_S16",
+    "unmapped_state": "State_F89",
+    "gold_state": "State_J91",
+    "wrong_state": "State_I31",
+    "gold_outcome": "Outcome_B21",
+    "wrong_outcome": "Outcome_C69",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-012",
+    "split": "calibration",
+    "entity": "Entity_R10",
+    "alternate_entity": "Entity_X55",
+    "unmapped_state": "State_O89",
+    "gold_state": "State_M41",
+    "wrong_state": "State_E16",
+    "gold_outcome": "Outcome_W11",
+    "wrong_outcome": "Outcome_A20",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-013",
+    "split": "calibration",
+    "entity": "Entity_A61",
+    "alternate_entity": "Entity_X07",
+    "unmapped_state": "State_F29",
+    "gold_state": "State_Z41",
+    "wrong_state": "State_V34",
+    "gold_outcome": "Outcome_D95",
+    "wrong_outcome": "Outcome_L31",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-014",
+    "split": "calibration",
+    "entity": "Entity_U55",
+    "alternate_entity": "Entity_T09",
+    "unmapped_state": "State_N21",
+    "gold_state": "State_F19",
+    "wrong_state": "State_L73",
+    "gold_outcome": "Outcome_B00",
+    "wrong_outcome": "Outcome_A74",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-015",
+    "split": "calibration",
+    "entity": "Entity_I23",
+    "alternate_entity": "Entity_F24",
+    "unmapped_state": "State_L96",
+    "gold_state": "State_R43",
+    "wrong_state": "State_X78",
+    "gold_outcome": "Outcome_T88",
+    "wrong_outcome": "Outcome_K40",
+    "record_order": [
+      "gold",
+      "wrong"
+    ],
+    "template": "gold-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-016",
+    "split": "calibration",
+    "entity": "Entity_R01",
+    "alternate_entity": "Entity_P78",
+    "unmapped_state": "State_D90",
+    "gold_state": "State_B20",
+    "wrong_state": "State_D05",
+    "gold_outcome": "Outcome_X89",
+    "wrong_outcome": "Outcome_Q30",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-017",
+    "split": "calibration",
+    "entity": "Entity_K46",
+    "alternate_entity": "Entity_B59",
+    "unmapped_state": "State_V08",
+    "gold_state": "State_J32",
+    "wrong_state": "State_I11",
+    "gold_outcome": "Outcome_E53",
+    "wrong_outcome": "Outcome_H41",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 2,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-018",
+    "split": "calibration",
+    "entity": "Entity_P02",
+    "alternate_entity": "Entity_W35",
+    "unmapped_state": "State_L86",
+    "gold_state": "State_D36",
+    "wrong_state": "State_Q80",
+    "gold_outcome": "Outcome_M04",
+    "wrong_outcome": "Outcome_J28",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-019",
+    "split": "calibration",
+    "entity": "Entity_A34",
+    "alternate_entity": "Entity_O18",
+    "unmapped_state": "State_D75",
+    "gold_state": "State_M70",
+    "wrong_state": "State_T91",
+    "gold_outcome": "Outcome_V51",
+    "wrong_outcome": "Outcome_W79",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 1,
+    "seed": 360
+  },
+  {
+    "case_id": "v360-calibration-020",
+    "split": "calibration",
+    "entity": "Entity_P81",
+    "alternate_entity": "Entity_U89",
+    "unmapped_state": "State_G69",
+    "gold_state": "State_D25",
+    "wrong_state": "State_M13",
+    "gold_outcome": "Outcome_K93",
+    "wrong_outcome": "Outcome_G48",
+    "record_order": [
+      "wrong",
+      "gold"
+    ],
+    "template": "wrong-record-first",
+    "gold_state_lexical_rank": 1,
+    "gold_outcome_lexical_rank": 2,
+    "seed": 360
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "case_id": "v361-main-001",
+    "gold_state": "STATE_P60",
+    "wrong_state": "STATE_U18",
+    "gold_outcome": "OUTCOME_V72",
+    "wrong_outcome": "OUTCOME_B39",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-002",
+    "gold_state": "STATE_S66",
+    "wrong_state": "STATE_P21",
+    "gold_outcome": "OUTCOME_T04",
+    "wrong_outcome": "OUTCOME_J58",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-003",
+    "gold_state": "STATE_K43",
+    "wrong_state": "STATE_C38",
+    "gold_outcome": "OUTCOME_M90",
+    "wrong_outcome": "OUTCOME_D61",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-004",
+    "gold_state": "STATE_U70",
+    "wrong_state": "STATE_Z06",
+    "gold_outcome": "OUTCOME_J82",
+    "wrong_outcome": "OUTCOME_D45",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-005",
+    "gold_state": "STATE_D87",
+    "wrong_state": "STATE_E97",
+    "gold_outcome": "OUTCOME_C60",
+    "wrong_outcome": "OUTCOME_Y42",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-006",
+    "gold_state": "STATE_T44",
+    "wrong_state": "STATE_Y80",
+    "gold_outcome": "OUTCOME_U36",
+    "wrong_outcome": "OUTCOME_O92",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-007",
+    "gold_state": "STATE_G78",
+    "wrong_state": "STATE_X76",
+    "gold_outcome": "OUTCOME_H10",
+    "wrong_outcome": "OUTCOME_O44",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-008",
+    "gold_state": "STATE_C39",
+    "wrong_state": "STATE_I82",
+    "gold_outcome": "OUTCOME_M07",
+    "wrong_outcome": "OUTCOME_Z65",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-009",
+    "gold_state": "STATE_T90",
+    "wrong_state": "STATE_C96",
+    "gold_outcome": "OUTCOME_S53",
+    "wrong_outcome": "OUTCOME_Y84",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-010",
+    "gold_state": "STATE_T56",
+    "wrong_state": "STATE_E52",
+    "gold_outcome": "OUTCOME_H89",
+    "wrong_outcome": "OUTCOME_O77",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-011",
+    "gold_state": "STATE_S78",
+    "wrong_state": "STATE_X28",
+    "gold_outcome": "OUTCOME_A49",
+    "wrong_outcome": "OUTCOME_C50",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-012",
+    "gold_state": "STATE_L40",
+    "wrong_state": "STATE_B09",
+    "gold_outcome": "OUTCOME_V86",
+    "wrong_outcome": "OUTCOME_T52",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-013",
+    "gold_state": "STATE_W75",
+    "wrong_state": "STATE_I09",
+    "gold_outcome": "OUTCOME_H86",
+    "wrong_outcome": "OUTCOME_U42",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-014",
+    "gold_state": "STATE_V40",
+    "wrong_state": "STATE_K32",
+    "gold_outcome": "OUTCOME_S89",
+    "wrong_outcome": "OUTCOME_R76",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-015",
+    "gold_state": "STATE_I07",
+    "wrong_state": "STATE_Z88",
+    "gold_outcome": "OUTCOME_E36",
+    "wrong_outcome": "OUTCOME_K21",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-016",
+    "gold_state": "STATE_V52",
+    "wrong_state": "STATE_L56",
+    "gold_outcome": "OUTCOME_T83",
+    "wrong_outcome": "OUTCOME_O40",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-017",
+    "gold_state": "STATE_H31",
+    "wrong_state": "STATE_J55",
+    "gold_outcome": "OUTCOME_N82",
+    "wrong_outcome": "OUTCOME_Q90",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-018",
+    "gold_state": "STATE_P27",
+    "wrong_state": "STATE_H36",
+    "gold_outcome": "OUTCOME_Y18",
+    "wrong_outcome": "OUTCOME_I90",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-019",
+    "gold_state": "STATE_U24",
+    "wrong_state": "STATE_O11",
+    "gold_outcome": "OUTCOME_F86",
+    "wrong_outcome": "OUTCOME_D33",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-020",
+    "gold_state": "STATE_K17",
+    "wrong_state": "STATE_W60",
+    "gold_outcome": "OUTCOME_G22",
+    "wrong_outcome": "OUTCOME_D54",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-021",
+    "gold_state": "STATE_I03",
+    "wrong_state": "STATE_L88",
+    "gold_outcome": "OUTCOME_X27",
+    "wrong_outcome": "OUTCOME_G65",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-022",
+    "gold_state": "STATE_D59",
+    "wrong_state": "STATE_H65",
+    "gold_outcome": "OUTCOME_F72",
+    "wrong_outcome": "OUTCOME_G10",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-023",
+    "gold_state": "STATE_V55",
+    "wrong_state": "STATE_K88",
+    "gold_outcome": "OUTCOME_A01",
+    "wrong_outcome": "OUTCOME_T69",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-024",
+    "gold_state": "STATE_O50",
+    "wrong_state": "STATE_K68",
+    "gold_outcome": "OUTCOME_R21",
+    "wrong_outcome": "OUTCOME_W47",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-025",
+    "gold_state": "STATE_Y95",
+    "wrong_state": "STATE_O64",
+    "gold_outcome": "OUTCOME_Z01",
+    "wrong_outcome": "OUTCOME_I38",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-026",
+    "gold_state": "STATE_Y28",
+    "wrong_state": "STATE_R61",
+    "gold_outcome": "OUTCOME_L55",
+    "wrong_outcome": "OUTCOME_Z93",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-027",
+    "gold_state": "STATE_P79",
+    "wrong_state": "STATE_U34",
+    "gold_outcome": "OUTCOME_S06",
+    "wrong_outcome": "OUTCOME_O22",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-028",
+    "gold_state": "STATE_Q45",
+    "wrong_state": "STATE_T45",
+    "gold_outcome": "OUTCOME_Y23",
+    "wrong_outcome": "OUTCOME_B96",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-029",
+    "gold_state": "STATE_J49",
+    "wrong_state": "STATE_U84",
+    "gold_outcome": "OUTCOME_Q61",
+    "wrong_outcome": "OUTCOME_I70",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-030",
+    "gold_state": "STATE_W82",
+    "wrong_state": "STATE_A17",
+    "gold_outcome": "OUTCOME_Q64",
+    "wrong_outcome": "OUTCOME_C95",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-031",
+    "gold_state": "STATE_M28",
+    "wrong_state": "STATE_D84",
+    "gold_outcome": "OUTCOME_L67",
+    "wrong_outcome": "OUTCOME_O95",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-032",
+    "gold_state": "STATE_K26",
+    "wrong_state": "STATE_B12",
+    "gold_outcome": "OUTCOME_X54",
+    "wrong_outcome": "OUTCOME_W78",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-033",
+    "gold_state": "STATE_H71",
+    "wrong_state": "STATE_U66",
+    "gold_outcome": "OUTCOME_J43",
+    "wrong_outcome": "OUTCOME_P58",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-034",
+    "gold_state": "STATE_D51",
+    "wrong_state": "STATE_S24",
+    "gold_outcome": "OUTCOME_R86",
+    "wrong_outcome": "OUTCOME_H70",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-035",
+    "gold_state": "STATE_K73",
+    "wrong_state": "STATE_J77",
+    "gold_outcome": "OUTCOME_D21",
+    "wrong_outcome": "OUTCOME_A06",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-036",
+    "gold_state": "STATE_L39",
+    "wrong_state": "STATE_F91",
+    "gold_outcome": "OUTCOME_Q74",
+    "wrong_outcome": "OUTCOME_B25",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-037",
+    "gold_state": "STATE_E90",
+    "wrong_state": "STATE_Q95",
+    "gold_outcome": "OUTCOME_P87",
+    "wrong_outcome": "OUTCOME_L22",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-038",
+    "gold_state": "STATE_N54",
+    "wrong_state": "STATE_W77",
+    "gold_outcome": "OUTCOME_D89",
+    "wrong_outcome": "OUTCOME_U60",
+    "record_order": [
+      "wrong",
+      "gold"
+    ]
+  },
+  {
+    "case_id": "v361-main-039",
+    "gold_state": "STATE_T13",
+    "wrong_state": "STATE_B80",
+    "gold_outcome": "OUTCOME_M54",
+    "wrong_outcome": "OUTCOME_L26",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  },
+  {
+    "case_id": "v361-main-040",
+    "gold_state": "STATE_D39",
+    "wrong_state": "STATE_Z23",
+    "gold_outcome": "OUTCOME_N57",
+    "wrong_outcome": "OUTCOME_B40",
+    "record_order": [
+      "gold",
+      "wrong"
+    ]
+  }
+]

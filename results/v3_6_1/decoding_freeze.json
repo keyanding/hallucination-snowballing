@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "transformers": "4.51.3",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "numpy": "2.4.6"
+  },
+  "cap": 16,
+  "max_expected_tokens_with_eos": 6,
+  "seed": 42,
+  "do_sample": false,
+  "use_cache": false,
+  "enable_thinking": false,
+  "quantization": "4bit-nf4 double quantization",
+  "compute_dtype": "torch.bfloat16",
+  "chat_template_sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+}

@@ -1,0 +1,462 @@
+[
+  {
+    "case_id": "v361-main-024",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_O50",
+    "expected": "OUTCOME_R21",
+    "mappings": [
+      [
+        "STATE_K68",
+        "OUTCOME_W47"
+      ],
+      [
+        "STATE_O50",
+        "OUTCOME_R21"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_K68 -> OUTCOME_W47\nSTATE_O50 -> OUTCOME_R21\n\nCurrent state:\nSTATE_O50\n\nReturn only the mapped outcome.",
+    "text_sha256": "a8093e6efee3808af7db9ce65b97a8b30b665205c7263a7b59eb6a4e00c6bb38",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_K68 -> OUTCOME_W47\nSTATE_O50 -> OUTCOME_R21\n\nCurrent state:\nSTATE_O50\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "074435f14d1fb24448b400d2d4ed05a520a52b8a2d5bb98347e02fa29127281d",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-016",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_V52",
+    "expected": "OUTCOME_T83",
+    "mappings": [
+      [
+        "STATE_L56",
+        "OUTCOME_O40"
+      ],
+      [
+        "STATE_V52",
+        "OUTCOME_T83"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_L56 -> OUTCOME_O40\nSTATE_V52 -> OUTCOME_T83\n\nCurrent state:\nSTATE_V52\n\nReturn only the mapped outcome.",
+    "text_sha256": "8fce5574acc79092947637fe2de509765ff85c76a161e4c8e673261f6b570827",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_L56 -> OUTCOME_O40\nSTATE_V52 -> OUTCOME_T83\n\nCurrent state:\nSTATE_V52\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "0a19ca9dae0f53e022368c3157e542d79fecae12b7ee6a9d6b2cf662fb2285df",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-033",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_U66",
+    "expected": "OUTCOME_P58",
+    "mappings": [
+      [
+        "STATE_U66",
+        "OUTCOME_P58"
+      ],
+      [
+        "STATE_H71",
+        "OUTCOME_J43"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_U66 -> OUTCOME_P58\nSTATE_H71 -> OUTCOME_J43\n\nCurrent state:\nSTATE_U66\n\nReturn only the mapped outcome.",
+    "text_sha256": "ba4cde5b1a32e660c650be56d2db9a9f753b97097ccaf8e572fc548491f07dca",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_U66 -> OUTCOME_P58\nSTATE_H71 -> OUTCOME_J43\n\nCurrent state:\nSTATE_U66\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "c841a2db6b1118cce0a10a800307d2b629459ca634861bcf77227a6bb04e031c",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-016",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_L56",
+    "expected": "OUTCOME_O40",
+    "mappings": [
+      [
+        "STATE_L56",
+        "OUTCOME_O40"
+      ],
+      [
+        "STATE_V52",
+        "OUTCOME_T83"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_L56 -> OUTCOME_O40\nSTATE_V52 -> OUTCOME_T83\n\nCurrent state:\nSTATE_L56\n\nReturn only the mapped outcome.",
+    "text_sha256": "e244da17a221bef5f7a1c7b70231a47189445f2d39abee486eb9320620759c80",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_L56 -> OUTCOME_O40\nSTATE_V52 -> OUTCOME_T83\n\nCurrent state:\nSTATE_L56\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "049e233875d6da668db91cf5fb2e2514914bf2686628a2ee8ca5fe965318391e",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-034",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_S24",
+    "expected": "OUTCOME_H70",
+    "mappings": [
+      [
+        "STATE_D51",
+        "OUTCOME_R86"
+      ],
+      [
+        "STATE_S24",
+        "OUTCOME_H70"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_D51 -> OUTCOME_R86\nSTATE_S24 -> OUTCOME_H70\n\nCurrent state:\nSTATE_S24\n\nReturn only the mapped outcome.",
+    "text_sha256": "a4b42b4ce56d20f92655401ef2bd2a19a2e3e7293a39916af06a6578e8d9998c",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_D51 -> OUTCOME_R86\nSTATE_S24 -> OUTCOME_H70\n\nCurrent state:\nSTATE_S24\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "b43672b5d11ca1c186f12e8dbdbf226bb79e295d23cc490faed137a3983c08c5",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-023",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_V55",
+    "expected": "OUTCOME_A01",
+    "mappings": [
+      [
+        "STATE_V55",
+        "OUTCOME_A01"
+      ],
+      [
+        "STATE_K88",
+        "OUTCOME_T69"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_V55 -> OUTCOME_A01\nSTATE_K88 -> OUTCOME_T69\n\nCurrent state:\nSTATE_V55\n\nReturn only the mapped outcome.",
+    "text_sha256": "20e6429bb36cc21c657964fd3432e3b41792b2b7b285fbecbba5346299617d7d",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_V55 -> OUTCOME_A01\nSTATE_K88 -> OUTCOME_T69\n\nCurrent state:\nSTATE_V55\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "36055cc25436deb7d5ea07a5f3a012b16d0adcc2451b3917103b5ee155a70fd3",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-039",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_B80",
+    "expected": "OUTCOME_L26",
+    "mappings": [
+      [
+        "STATE_B80",
+        "OUTCOME_L26"
+      ],
+      [
+        "STATE_T13",
+        "OUTCOME_M54"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_B80 -> OUTCOME_L26\nSTATE_T13 -> OUTCOME_M54\n\nCurrent state:\nSTATE_B80\n\nReturn only the mapped outcome.",
+    "text_sha256": "f57f823e903a6699c88cb9e1c4bdde3358c5c5fa08f307379c982e96d2cbca36",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_B80 -> OUTCOME_L26\nSTATE_T13 -> OUTCOME_M54\n\nCurrent state:\nSTATE_B80\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "a2605f52506327de3954ca0c10b4e89b39095b4715385590ee05fe341273b16e",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-035",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_J77",
+    "expected": "OUTCOME_A06",
+    "mappings": [
+      [
+        "STATE_J77",
+        "OUTCOME_A06"
+      ],
+      [
+        "STATE_K73",
+        "OUTCOME_D21"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_J77 -> OUTCOME_A06\nSTATE_K73 -> OUTCOME_D21\n\nCurrent state:\nSTATE_J77\n\nReturn only the mapped outcome.",
+    "text_sha256": "633d4e6a6913359c1d2fbae515610b2c22bad8894acb6844064d00b18a1d1b85",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_J77 -> OUTCOME_A06\nSTATE_K73 -> OUTCOME_D21\n\nCurrent state:\nSTATE_J77\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "8cf642c174fea70f17d7827721cfa57cc14bc663d694b7ea615aff78d516b822",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-023",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_K88",
+    "expected": "OUTCOME_T69",
+    "mappings": [
+      [
+        "STATE_V55",
+        "OUTCOME_A01"
+      ],
+      [
+        "STATE_K88",
+        "OUTCOME_T69"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_V55 -> OUTCOME_A01\nSTATE_K88 -> OUTCOME_T69\n\nCurrent state:\nSTATE_K88\n\nReturn only the mapped outcome.",
+    "text_sha256": "0e9be5fb3cb4dc4330efeb61f31d785ba7171c465c9b9d19344459f2983b68fb",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_V55 -> OUTCOME_A01\nSTATE_K88 -> OUTCOME_T69\n\nCurrent state:\nSTATE_K88\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "f30ebc10c82fd48a526dc2423e6bd2407de821d1163015fc24ee4768a0e33610",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-039",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_T13",
+    "expected": "OUTCOME_M54",
+    "mappings": [
+      [
+        "STATE_B80",
+        "OUTCOME_L26"
+      ],
+      [
+        "STATE_T13",
+        "OUTCOME_M54"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_B80 -> OUTCOME_L26\nSTATE_T13 -> OUTCOME_M54\n\nCurrent state:\nSTATE_T13\n\nReturn only the mapped outcome.",
+    "text_sha256": "204b73dbc714269ae2ac49836aca93ab36b560902b605b4a11ad77b3048bea6e",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_B80 -> OUTCOME_L26\nSTATE_T13 -> OUTCOME_M54\n\nCurrent state:\nSTATE_T13\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "49dc2ecac022f9ed183c3a04d77a2f0b421caee35c91d1c958b16d92a2c0cbd5",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-033",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_H71",
+    "expected": "OUTCOME_J43",
+    "mappings": [
+      [
+        "STATE_U66",
+        "OUTCOME_P58"
+      ],
+      [
+        "STATE_H71",
+        "OUTCOME_J43"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_U66 -> OUTCOME_P58\nSTATE_H71 -> OUTCOME_J43\n\nCurrent state:\nSTATE_H71\n\nReturn only the mapped outcome.",
+    "text_sha256": "b58c68d2f16336f23b9bd525e9a5980b034f6dd2a03f633f75d69734360da822",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_U66 -> OUTCOME_P58\nSTATE_H71 -> OUTCOME_J43\n\nCurrent state:\nSTATE_H71\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "d59b563cab48d1b0221c3494b56a3d603cb15d7db041bccbbdb2b1f958df018c",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-020",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_K17",
+    "expected": "OUTCOME_G22",
+    "mappings": [
+      [
+        "STATE_K17",
+        "OUTCOME_G22"
+      ],
+      [
+        "STATE_W60",
+        "OUTCOME_D54"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_K17 -> OUTCOME_G22\nSTATE_W60 -> OUTCOME_D54\n\nCurrent state:\nSTATE_K17\n\nReturn only the mapped outcome.",
+    "text_sha256": "eb2d5e70908085680b0b2204c48d2f421e58c087a1ea72cb64d90a89e4bdf345",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_K17 -> OUTCOME_G22\nSTATE_W60 -> OUTCOME_D54\n\nCurrent state:\nSTATE_K17\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "715a4d3d5a86731b0422e50993206d25471be1e9fef3eea596b7403009624390",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-040",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_Z23",
+    "expected": "OUTCOME_B40",
+    "mappings": [
+      [
+        "STATE_Z23",
+        "OUTCOME_B40"
+      ],
+      [
+        "STATE_D39",
+        "OUTCOME_N57"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_Z23 -> OUTCOME_B40\nSTATE_D39 -> OUTCOME_N57\n\nCurrent state:\nSTATE_Z23\n\nReturn only the mapped outcome.",
+    "text_sha256": "4505daceff66edb9e571a5fcbbc5f920b7a7ce690908d538ddff6f01768a4184",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_Z23 -> OUTCOME_B40\nSTATE_D39 -> OUTCOME_N57\n\nCurrent state:\nSTATE_Z23\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "beb9601606dd23aba936967a537f4330f14805648d0dd4fb4f3f533acdd3f073",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-024",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_K68",
+    "expected": "OUTCOME_W47",
+    "mappings": [
+      [
+        "STATE_K68",
+        "OUTCOME_W47"
+      ],
+      [
+        "STATE_O50",
+        "OUTCOME_R21"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_K68 -> OUTCOME_W47\nSTATE_O50 -> OUTCOME_R21\n\nCurrent state:\nSTATE_K68\n\nReturn only the mapped outcome.",
+    "text_sha256": "d6aa2b10a863b1ff8367776c89e43c3417ce915c696e54c964120217f79cc94c",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_K68 -> OUTCOME_W47\nSTATE_O50 -> OUTCOME_R21\n\nCurrent state:\nSTATE_K68\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "fd71ba2192d23994c620a152177913fd1b84871511253576989cbefef364605d",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-029",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_J49",
+    "expected": "OUTCOME_Q61",
+    "mappings": [
+      [
+        "STATE_J49",
+        "OUTCOME_Q61"
+      ],
+      [
+        "STATE_U84",
+        "OUTCOME_I70"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_J49 -> OUTCOME_Q61\nSTATE_U84 -> OUTCOME_I70\n\nCurrent state:\nSTATE_J49\n\nReturn only the mapped outcome.",
+    "text_sha256": "9665ee3b3f0ee2ff2aa804ca9de0f0fb59263876eeea0690dab01471c23068b6",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_J49 -> OUTCOME_Q61\nSTATE_U84 -> OUTCOME_I70\n\nCurrent state:\nSTATE_J49\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "c7d10fd1455f7c18c6fdbc954d954d058db06536fd7b3ba920ec904f50c028df",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-035",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_K73",
+    "expected": "OUTCOME_D21",
+    "mappings": [
+      [
+        "STATE_J77",
+        "OUTCOME_A06"
+      ],
+      [
+        "STATE_K73",
+        "OUTCOME_D21"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_J77 -> OUTCOME_A06\nSTATE_K73 -> OUTCOME_D21\n\nCurrent state:\nSTATE_K73\n\nReturn only the mapped outcome.",
+    "text_sha256": "edb809523dbeb70a3021811e0931f1d697bd0cc6fedb503908119a37c1e44dcf",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_J77 -> OUTCOME_A06\nSTATE_K73 -> OUTCOME_D21\n\nCurrent state:\nSTATE_K73\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "18fddafe76194c473b82dffd7c3c192e6f8408a3563e498956b5ffbf0b12beb9",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-029",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_U84",
+    "expected": "OUTCOME_I70",
+    "mappings": [
+      [
+        "STATE_J49",
+        "OUTCOME_Q61"
+      ],
+      [
+        "STATE_U84",
+        "OUTCOME_I70"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_J49 -> OUTCOME_Q61\nSTATE_U84 -> OUTCOME_I70\n\nCurrent state:\nSTATE_U84\n\nReturn only the mapped outcome.",
+    "text_sha256": "d0ed31948b4e370d3a3d03f6ae19140aaa7161f7f805ab7605d5bb3e45597bfc",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_J49 -> OUTCOME_Q61\nSTATE_U84 -> OUTCOME_I70\n\nCurrent state:\nSTATE_U84\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "3313b5f84e7f40a48859afdb71f7ba434d9d565a908fbae4009a5b0958296bbf",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-020",
+    "condition": "W0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_W60",
+    "expected": "OUTCOME_D54",
+    "mappings": [
+      [
+        "STATE_K17",
+        "OUTCOME_G22"
+      ],
+      [
+        "STATE_W60",
+        "OUTCOME_D54"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_K17 -> OUTCOME_G22\nSTATE_W60 -> OUTCOME_D54\n\nCurrent state:\nSTATE_W60\n\nReturn only the mapped outcome.",
+    "text_sha256": "6e38b732cfa41889799f16b52067a69837844487de29c3415fb9503c87d69386",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_K17 -> OUTCOME_G22\nSTATE_W60 -> OUTCOME_D54\n\nCurrent state:\nSTATE_W60\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "43acc5d45bab0b565a0204b6a25be86ff2458363449139a2952aadfc3c772b56",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-040",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_D39",
+    "expected": "OUTCOME_N57",
+    "mappings": [
+      [
+        "STATE_Z23",
+        "OUTCOME_B40"
+      ],
+      [
+        "STATE_D39",
+        "OUTCOME_N57"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_Z23 -> OUTCOME_B40\nSTATE_D39 -> OUTCOME_N57\n\nCurrent state:\nSTATE_D39\n\nReturn only the mapped outcome.",
+    "text_sha256": "2ae955ac3775e45caff8b02365bcc90b734d6dda60b3f7e6d3a8c3e533927d0d",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_Z23 -> OUTCOME_B40\nSTATE_D39 -> OUTCOME_N57\n\nCurrent state:\nSTATE_D39\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "8238ae8a469f5e426e740ad881ac7e6fa0de5550d652f6db77a240568ef425fb",
+    "stage": "record_order"
+  },
+  {
+    "case_id": "v361-main-034",
+    "condition": "C0",
+    "family": "MINIMAL_NO_UNKNOWN",
+    "reverse": true,
+    "supplied_state": "STATE_D51",
+    "expected": "OUTCOME_R86",
+    "mappings": [
+      [
+        "STATE_D51",
+        "OUTCOME_R86"
+      ],
+      [
+        "STATE_S24",
+        "OUTCOME_H70"
+      ]
+    ],
+    "prompt": "Synthetic mapping task.\n\nMappings:\nSTATE_D51 -> OUTCOME_R86\nSTATE_S24 -> OUTCOME_H70\n\nCurrent state:\nSTATE_D51\n\nReturn only the mapped outcome.",
+    "text_sha256": "2b7a12b2629963803c6a54cad1ac35083aab84f23f0ea6021c466077de54211c",
+    "rendered_prompt": "<|im_start|>user\nSynthetic mapping task.\n\nMappings:\nSTATE_D51 -> OUTCOME_R86\nSTATE_S24 -> OUTCOME_H70\n\nCurrent state:\nSTATE_D51\n\nReturn only the mapped outcome.<|im_end|>\n<|im_start|>assistant\n",
+    "rendered_sha256": "217a135bece62095f0623906e8093839d2df3f96600e9475156f5640934359f5",
+    "stage": "record_order"
+  }
+]

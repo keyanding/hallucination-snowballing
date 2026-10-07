@@ -1,0 +1,3158 @@
+{
+  "complete": true,
+  "families": {
+    "FULL_UNKNOWN": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 19,
+          "denominator": 20,
+          "rate": 0.95,
+          "wilson_95": [
+            0.763868806553258,
+            0.9911185511992047
+          ]
+        },
+        "A_W": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 19,
+          "denominator": 20,
+          "rate": 0.95,
+          "wilson_95": [
+            0.763868806553258,
+            0.9911185511992047
+          ]
+        },
+        "U": {
+          "count": 1,
+          "denominator": 40,
+          "rate": 0.025
+        },
+        "OTHER_INVALID": {
+          "count": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "mapped_correct": {
+          "count": 39,
+          "denominator": 40,
+          "rate": 0.975
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 19,
+          "Cp": 0,
+          "UNKNOWN": 1,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 20,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      }
+    },
+    "FULL_NO_UNKNOWN": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "A_W": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "U": {
+          "count": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "OTHER_INVALID": {
+          "count": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "mapped_correct": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 20,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 20,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      }
+    },
+    "MINIMAL_UNKNOWN": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "A_W": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "U": {
+          "count": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "OTHER_INVALID": {
+          "count": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "mapped_correct": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 20,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 20,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      }
+    },
+    "MINIMAL_NO_UNKNOWN": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "A_W": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 20,
+          "denominator": 20,
+          "rate": 1.0,
+          "wilson_95": [
+            0.8388748419471806,
+            1.0
+          ]
+        },
+        "U": {
+          "count": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "OTHER_INVALID": {
+          "count": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "mapped_correct": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 20,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 20,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      }
+    }
+  },
+  "paired_transitions": {
+    "FULL_UNKNOWN -> FULL_NO_UNKNOWN": {
+      "matrix": {
+        "C0": {
+          "C": {
+            "C": 19,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 1,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        },
+        "W0": {
+          "C": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 20,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        }
+      },
+      "cases": [
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_F93",
+          "after_output": "Outcome_F93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I48",
+          "after_output": "Outcome_I48",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E87",
+          "after_output": "Outcome_E87",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_N34",
+          "after_output": "Outcome_N34",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_L24",
+          "after_output": "Outcome_L24",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_P70",
+          "after_output": "Outcome_P70",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_N09",
+          "after_output": "Outcome_N09",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I15",
+          "after_output": "Outcome_I15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M36",
+          "after_output": "Outcome_M36",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Z51",
+          "after_output": "Outcome_Z51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M73",
+          "after_output": "Outcome_M73",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A15",
+          "after_output": "Outcome_A15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_R32",
+          "after_output": "Outcome_R32",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A64",
+          "after_output": "Outcome_A64",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_C61",
+          "after_output": "Outcome_C61",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H92",
+          "after_output": "Outcome_H92",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_S45",
+          "after_output": "Outcome_S45",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_D81",
+          "after_output": "Outcome_D81",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V88",
+          "after_output": "Outcome_V88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_X40",
+          "after_output": "Outcome_X40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B21",
+          "after_output": "Outcome_B21",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_C69",
+          "after_output": "Outcome_C69",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_W11",
+          "after_output": "Outcome_W11",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A20",
+          "after_output": "Outcome_A20",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_D95",
+          "after_output": "Outcome_D95",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_L31",
+          "after_output": "Outcome_L31",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B00",
+          "after_output": "Outcome_B00",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A74",
+          "after_output": "Outcome_A74",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_T88",
+          "after_output": "Outcome_T88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_K40",
+          "after_output": "Outcome_K40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_X89",
+          "after_output": "Outcome_X89",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Q30",
+          "after_output": "Outcome_Q30",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "C0",
+          "before": "UNKNOWN",
+          "after": "C",
+          "before_output": "UNKNOWN",
+          "after_output": "Outcome_E53",
+          "correct_before": false,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H41",
+          "after_output": "Outcome_H41",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M04",
+          "after_output": "Outcome_M04",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_J28",
+          "after_output": "Outcome_J28",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V51",
+          "after_output": "Outcome_V51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_W79",
+          "after_output": "Outcome_W79",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_K93",
+          "after_output": "Outcome_K93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_G48",
+          "after_output": "Outcome_G48",
+          "correct_before": true,
+          "correct_after": true
+        }
+      ],
+      "corrected": 1,
+      "broken": 0
+    },
+    "FULL_UNKNOWN -> MINIMAL_UNKNOWN": {
+      "matrix": {
+        "C0": {
+          "C": {
+            "C": 19,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 1,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        },
+        "W0": {
+          "C": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 20,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        }
+      },
+      "cases": [
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_F93",
+          "after_output": "Outcome_F93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I48",
+          "after_output": "Outcome_I48",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E87",
+          "after_output": "Outcome_E87",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_N34",
+          "after_output": "Outcome_N34",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_L24",
+          "after_output": "Outcome_L24",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_P70",
+          "after_output": "Outcome_P70",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_N09",
+          "after_output": "Outcome_N09",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I15",
+          "after_output": "Outcome_I15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M36",
+          "after_output": "Outcome_M36",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Z51",
+          "after_output": "Outcome_Z51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M73",
+          "after_output": "Outcome_M73",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A15",
+          "after_output": "Outcome_A15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_R32",
+          "after_output": "Outcome_R32",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A64",
+          "after_output": "Outcome_A64",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_C61",
+          "after_output": "Outcome_C61",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H92",
+          "after_output": "Outcome_H92",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_S45",
+          "after_output": "Outcome_S45",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_D81",
+          "after_output": "Outcome_D81",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V88",
+          "after_output": "Outcome_V88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_X40",
+          "after_output": "Outcome_X40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B21",
+          "after_output": "Outcome_B21",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_C69",
+          "after_output": "Outcome_C69",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_W11",
+          "after_output": "Outcome_W11",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A20",
+          "after_output": "Outcome_A20",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_D95",
+          "after_output": "Outcome_D95",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_L31",
+          "after_output": "Outcome_L31",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B00",
+          "after_output": "Outcome_B00",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A74",
+          "after_output": "Outcome_A74",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_T88",
+          "after_output": "Outcome_T88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_K40",
+          "after_output": "Outcome_K40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_X89",
+          "after_output": "Outcome_X89",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Q30",
+          "after_output": "Outcome_Q30",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "C0",
+          "before": "UNKNOWN",
+          "after": "C",
+          "before_output": "UNKNOWN",
+          "after_output": "Outcome_E53",
+          "correct_before": false,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H41",
+          "after_output": "Outcome_H41",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M04",
+          "after_output": "Outcome_M04",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_J28",
+          "after_output": "Outcome_J28",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V51",
+          "after_output": "Outcome_V51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_W79",
+          "after_output": "Outcome_W79",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_K93",
+          "after_output": "Outcome_K93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_G48",
+          "after_output": "Outcome_G48",
+          "correct_before": true,
+          "correct_after": true
+        }
+      ],
+      "corrected": 1,
+      "broken": 0
+    },
+    "FULL_UNKNOWN -> MINIMAL_NO_UNKNOWN": {
+      "matrix": {
+        "C0": {
+          "C": {
+            "C": 19,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 1,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        },
+        "W0": {
+          "C": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 20,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        }
+      },
+      "cases": [
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_F93",
+          "after_output": "Outcome_F93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I48",
+          "after_output": "Outcome_I48",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E87",
+          "after_output": "Outcome_E87",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_N34",
+          "after_output": "Outcome_N34",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_L24",
+          "after_output": "Outcome_L24",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_P70",
+          "after_output": "Outcome_P70",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_N09",
+          "after_output": "Outcome_N09",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I15",
+          "after_output": "Outcome_I15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M36",
+          "after_output": "Outcome_M36",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Z51",
+          "after_output": "Outcome_Z51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M73",
+          "after_output": "Outcome_M73",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A15",
+          "after_output": "Outcome_A15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_R32",
+          "after_output": "Outcome_R32",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A64",
+          "after_output": "Outcome_A64",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_C61",
+          "after_output": "Outcome_C61",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H92",
+          "after_output": "Outcome_H92",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_S45",
+          "after_output": "Outcome_S45",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_D81",
+          "after_output": "Outcome_D81",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V88",
+          "after_output": "Outcome_V88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_X40",
+          "after_output": "Outcome_X40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B21",
+          "after_output": "Outcome_B21",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_C69",
+          "after_output": "Outcome_C69",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_W11",
+          "after_output": "Outcome_W11",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A20",
+          "after_output": "Outcome_A20",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_D95",
+          "after_output": "Outcome_D95",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_L31",
+          "after_output": "Outcome_L31",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B00",
+          "after_output": "Outcome_B00",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A74",
+          "after_output": "Outcome_A74",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_T88",
+          "after_output": "Outcome_T88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_K40",
+          "after_output": "Outcome_K40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_X89",
+          "after_output": "Outcome_X89",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Q30",
+          "after_output": "Outcome_Q30",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "C0",
+          "before": "UNKNOWN",
+          "after": "C",
+          "before_output": "UNKNOWN",
+          "after_output": "Outcome_E53",
+          "correct_before": false,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H41",
+          "after_output": "Outcome_H41",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M04",
+          "after_output": "Outcome_M04",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_J28",
+          "after_output": "Outcome_J28",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V51",
+          "after_output": "Outcome_V51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_W79",
+          "after_output": "Outcome_W79",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_K93",
+          "after_output": "Outcome_K93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_G48",
+          "after_output": "Outcome_G48",
+          "correct_before": true,
+          "correct_after": true
+        }
+      ],
+      "corrected": 1,
+      "broken": 0
+    },
+    "FULL_NO_UNKNOWN -> MINIMAL_UNKNOWN": {
+      "matrix": {
+        "C0": {
+          "C": {
+            "C": 20,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        },
+        "W0": {
+          "C": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 20,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        }
+      },
+      "cases": [
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_F93",
+          "after_output": "Outcome_F93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I48",
+          "after_output": "Outcome_I48",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E87",
+          "after_output": "Outcome_E87",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_N34",
+          "after_output": "Outcome_N34",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_L24",
+          "after_output": "Outcome_L24",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_P70",
+          "after_output": "Outcome_P70",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_N09",
+          "after_output": "Outcome_N09",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I15",
+          "after_output": "Outcome_I15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M36",
+          "after_output": "Outcome_M36",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Z51",
+          "after_output": "Outcome_Z51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M73",
+          "after_output": "Outcome_M73",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A15",
+          "after_output": "Outcome_A15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_R32",
+          "after_output": "Outcome_R32",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A64",
+          "after_output": "Outcome_A64",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_C61",
+          "after_output": "Outcome_C61",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H92",
+          "after_output": "Outcome_H92",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_S45",
+          "after_output": "Outcome_S45",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_D81",
+          "after_output": "Outcome_D81",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V88",
+          "after_output": "Outcome_V88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_X40",
+          "after_output": "Outcome_X40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B21",
+          "after_output": "Outcome_B21",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_C69",
+          "after_output": "Outcome_C69",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_W11",
+          "after_output": "Outcome_W11",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A20",
+          "after_output": "Outcome_A20",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_D95",
+          "after_output": "Outcome_D95",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_L31",
+          "after_output": "Outcome_L31",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B00",
+          "after_output": "Outcome_B00",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A74",
+          "after_output": "Outcome_A74",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_T88",
+          "after_output": "Outcome_T88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_K40",
+          "after_output": "Outcome_K40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_X89",
+          "after_output": "Outcome_X89",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Q30",
+          "after_output": "Outcome_Q30",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E53",
+          "after_output": "Outcome_E53",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H41",
+          "after_output": "Outcome_H41",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M04",
+          "after_output": "Outcome_M04",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_J28",
+          "after_output": "Outcome_J28",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V51",
+          "after_output": "Outcome_V51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_W79",
+          "after_output": "Outcome_W79",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_K93",
+          "after_output": "Outcome_K93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_G48",
+          "after_output": "Outcome_G48",
+          "correct_before": true,
+          "correct_after": true
+        }
+      ],
+      "corrected": 0,
+      "broken": 0
+    },
+    "FULL_NO_UNKNOWN -> MINIMAL_NO_UNKNOWN": {
+      "matrix": {
+        "C0": {
+          "C": {
+            "C": 20,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        },
+        "W0": {
+          "C": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 20,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        }
+      },
+      "cases": [
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_F93",
+          "after_output": "Outcome_F93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I48",
+          "after_output": "Outcome_I48",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E87",
+          "after_output": "Outcome_E87",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_N34",
+          "after_output": "Outcome_N34",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_L24",
+          "after_output": "Outcome_L24",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_P70",
+          "after_output": "Outcome_P70",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_N09",
+          "after_output": "Outcome_N09",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I15",
+          "after_output": "Outcome_I15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M36",
+          "after_output": "Outcome_M36",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Z51",
+          "after_output": "Outcome_Z51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M73",
+          "after_output": "Outcome_M73",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A15",
+          "after_output": "Outcome_A15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_R32",
+          "after_output": "Outcome_R32",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A64",
+          "after_output": "Outcome_A64",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_C61",
+          "after_output": "Outcome_C61",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H92",
+          "after_output": "Outcome_H92",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_S45",
+          "after_output": "Outcome_S45",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_D81",
+          "after_output": "Outcome_D81",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V88",
+          "after_output": "Outcome_V88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_X40",
+          "after_output": "Outcome_X40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B21",
+          "after_output": "Outcome_B21",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_C69",
+          "after_output": "Outcome_C69",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_W11",
+          "after_output": "Outcome_W11",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A20",
+          "after_output": "Outcome_A20",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_D95",
+          "after_output": "Outcome_D95",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_L31",
+          "after_output": "Outcome_L31",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B00",
+          "after_output": "Outcome_B00",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A74",
+          "after_output": "Outcome_A74",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_T88",
+          "after_output": "Outcome_T88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_K40",
+          "after_output": "Outcome_K40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_X89",
+          "after_output": "Outcome_X89",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Q30",
+          "after_output": "Outcome_Q30",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E53",
+          "after_output": "Outcome_E53",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H41",
+          "after_output": "Outcome_H41",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M04",
+          "after_output": "Outcome_M04",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_J28",
+          "after_output": "Outcome_J28",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V51",
+          "after_output": "Outcome_V51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_W79",
+          "after_output": "Outcome_W79",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_K93",
+          "after_output": "Outcome_K93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_G48",
+          "after_output": "Outcome_G48",
+          "correct_before": true,
+          "correct_after": true
+        }
+      ],
+      "corrected": 0,
+      "broken": 0
+    },
+    "MINIMAL_UNKNOWN -> MINIMAL_NO_UNKNOWN": {
+      "matrix": {
+        "C0": {
+          "C": {
+            "C": 20,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        },
+        "W0": {
+          "C": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "Cp": {
+            "C": 0,
+            "Cp": 20,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "UNKNOWN": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "OTHER": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          },
+          "INVALID": {
+            "C": 0,
+            "Cp": 0,
+            "UNKNOWN": 0,
+            "OTHER": 0,
+            "INVALID": 0
+          }
+        }
+      },
+      "cases": [
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_F93",
+          "after_output": "Outcome_F93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-001",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I48",
+          "after_output": "Outcome_I48",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E87",
+          "after_output": "Outcome_E87",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-002",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_N34",
+          "after_output": "Outcome_N34",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_L24",
+          "after_output": "Outcome_L24",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-003",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_P70",
+          "after_output": "Outcome_P70",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_N09",
+          "after_output": "Outcome_N09",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-004",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_I15",
+          "after_output": "Outcome_I15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M36",
+          "after_output": "Outcome_M36",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-005",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Z51",
+          "after_output": "Outcome_Z51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M73",
+          "after_output": "Outcome_M73",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-006",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A15",
+          "after_output": "Outcome_A15",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_R32",
+          "after_output": "Outcome_R32",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-007",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A64",
+          "after_output": "Outcome_A64",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_C61",
+          "after_output": "Outcome_C61",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-008",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H92",
+          "after_output": "Outcome_H92",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_S45",
+          "after_output": "Outcome_S45",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-009",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_D81",
+          "after_output": "Outcome_D81",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V88",
+          "after_output": "Outcome_V88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-010",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_X40",
+          "after_output": "Outcome_X40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B21",
+          "after_output": "Outcome_B21",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-011",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_C69",
+          "after_output": "Outcome_C69",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_W11",
+          "after_output": "Outcome_W11",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-012",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A20",
+          "after_output": "Outcome_A20",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_D95",
+          "after_output": "Outcome_D95",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-013",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_L31",
+          "after_output": "Outcome_L31",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_B00",
+          "after_output": "Outcome_B00",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-014",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_A74",
+          "after_output": "Outcome_A74",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_T88",
+          "after_output": "Outcome_T88",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-015",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_K40",
+          "after_output": "Outcome_K40",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_X89",
+          "after_output": "Outcome_X89",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-016",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_Q30",
+          "after_output": "Outcome_Q30",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_E53",
+          "after_output": "Outcome_E53",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-017",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_H41",
+          "after_output": "Outcome_H41",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_M04",
+          "after_output": "Outcome_M04",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-018",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_J28",
+          "after_output": "Outcome_J28",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_V51",
+          "after_output": "Outcome_V51",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-019",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_W79",
+          "after_output": "Outcome_W79",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "C0",
+          "before": "C",
+          "after": "C",
+          "before_output": "Outcome_K93",
+          "after_output": "Outcome_K93",
+          "correct_before": true,
+          "correct_after": true
+        },
+        {
+          "case_id": "v360-calibration-020",
+          "condition": "W0",
+          "before": "Cp",
+          "after": "Cp",
+          "before_output": "Outcome_G48",
+          "after_output": "Outcome_G48",
+          "correct_before": true,
+          "correct_after": true
+        }
+      ],
+      "corrected": 0,
+      "broken": 0
+    }
+  },
+  "best_descriptive_conditions": [
+    "FULL_NO_UNKNOWN",
+    "MINIMAL_UNKNOWN",
+    "MINIMAL_NO_UNKNOWN"
+  ],
+  "tie_rule": "All ties by mapped correct /40; no selected family changes Stage C.",
+  "P3": false
+}

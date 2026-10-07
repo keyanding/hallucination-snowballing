@@ -1,0 +1,17 @@
+{
+  "all_checks_passed": true,
+  "frozen_files": 36,
+  "old_artifacts_unchanged": 339,
+  "candidate_tokenizations": 5200,
+  "exact_output_token_roundtrips": 270,
+  "independently_counted_gates": {
+    "C1": 40,
+    "C2": 40,
+    "C3": 40,
+    "C4": 0,
+    "C5": 0,
+    "C6": 10
+  },
+  "record_order_unchanged": 20,
+  "final_decision": "MINIMAL_ASSAY_VALIDATED"
+}

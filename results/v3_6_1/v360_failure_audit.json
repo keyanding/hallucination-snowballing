@@ -1,0 +1,3769 @@
+{
+  "cases": [
+    {
+      "case_id": "v360-calibration-001",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_J44",
+          "token_ids": [
+            3030,
+            10598,
+            19,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Entity_M55",
+          "token_ids": [
+            3030,
+            1245,
+            20,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_D49",
+          "token_ids": [
+            1397,
+            1557,
+            19,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_J94",
+          "token_ids": [
+            1397,
+            10598,
+            24,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_F93",
+          "token_ids": [
+            73380,
+            1400,
+            24,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_I48",
+          "token_ids": [
+            73380,
+            7959,
+            19,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_W42",
+          "token_ids": [
+            1397,
+            2763,
+            19,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        }
+      ],
+      "flags": {
+        "C0_failed": true,
+        "REVERSE_failed": true,
+        "ENTITY_LABEL_failed": true,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": true
+      },
+      "C0": "UNKNOWN",
+      "REVERSE": "Outcome_F93",
+      "ENTITY_LABEL": "Outcome_F93",
+      "gold_outcome": "Outcome_F93"
+    },
+    {
+      "case_id": "v360-calibration-002",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_H61",
+          "token_ids": [
+            3030,
+            2039,
+            21,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_D22",
+          "token_ids": [
+            3030,
+            1557,
+            17,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_C68",
+          "token_ids": [
+            1397,
+            920,
+            21,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_K13",
+          "token_ids": [
+            1397,
+            10102,
+            16,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_E87",
+          "token_ids": [
+            73380,
+            2089,
+            23,
+            22
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_N34",
+          "token_ids": [
+            73380,
+            1604,
+            18,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_S67",
+          "token_ids": [
+            1397,
+            1098,
+            21,
+            22
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_E87",
+      "REVERSE": "Outcome_E87",
+      "ENTITY_LABEL": "Outcome_E87",
+      "gold_outcome": "Outcome_E87"
+    },
+    {
+      "case_id": "v360-calibration-003",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_F60",
+          "token_ids": [
+            3030,
+            1400,
+            21,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_W16",
+          "token_ids": [
+            3030,
+            2763,
+            16,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_Z38",
+          "token_ids": [
+            1397,
+            12302,
+            18,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_Z43",
+          "token_ids": [
+            1397,
+            12302,
+            19,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_L24",
+          "token_ids": [
+            73380,
+            2351,
+            17,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_P70",
+          "token_ids": [
+            73380,
+            1088,
+            22,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_T72",
+          "token_ids": [
+            1397,
+            1139,
+            22,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_L24",
+      "REVERSE": "Outcome_L24",
+      "ENTITY_LABEL": "Outcome_L24",
+      "gold_outcome": "Outcome_L24"
+    },
+    {
+      "case_id": "v360-calibration-004",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_G19",
+          "token_ids": [
+            3030,
+            2646,
+            16,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_L30",
+          "token_ids": [
+            3030,
+            2351,
+            18,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_O94",
+          "token_ids": [
+            1397,
+            2232,
+            24,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_M06",
+          "token_ids": [
+            1397,
+            1245,
+            15,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_N09",
+          "token_ids": [
+            73380,
+            1604,
+            15,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_I15",
+          "token_ids": [
+            73380,
+            7959,
+            16,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_S38",
+          "token_ids": [
+            1397,
+            1098,
+            18,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_N09",
+      "REVERSE": "Outcome_N09",
+      "ENTITY_LABEL": "Outcome_N09",
+      "gold_outcome": "Outcome_N09"
+    },
+    {
+      "case_id": "v360-calibration-005",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_D18",
+          "token_ids": [
+            3030,
+            1557,
+            16,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_I24",
+          "token_ids": [
+            3030,
+            7959,
+            17,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_R64",
+          "token_ids": [
+            1397,
+            2568,
+            21,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_R00",
+          "token_ids": [
+            1397,
+            2568,
+            15,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_M36",
+          "token_ids": [
+            73380,
+            1245,
+            18,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_Z51",
+          "token_ids": [
+            73380,
+            12302,
+            20,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_E86",
+          "token_ids": [
+            1397,
+            2089,
+            23,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_M36",
+      "REVERSE": "Outcome_M36",
+      "ENTITY_LABEL": "Outcome_M36",
+      "gold_outcome": "Outcome_M36"
+    },
+    {
+      "case_id": "v360-calibration-006",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_V79",
+          "token_ids": [
+            3030,
+            2334,
+            22,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Entity_G37",
+          "token_ids": [
+            3030,
+            2646,
+            18,
+            22
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_Y82",
+          "token_ids": [
+            1397,
+            10626,
+            23,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_W27",
+          "token_ids": [
+            1397,
+            2763,
+            17,
+            22
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_M73",
+          "token_ids": [
+            73380,
+            1245,
+            22,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_A15",
+          "token_ids": [
+            73380,
+            1566,
+            16,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_N95",
+          "token_ids": [
+            1397,
+            1604,
+            24,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": true,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": true,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": true
+      },
+      "C0": "Outcome_M73",
+      "REVERSE": "UNKNOWN",
+      "ENTITY_LABEL": "Outcome_M73",
+      "gold_outcome": "Outcome_M73"
+    },
+    {
+      "case_id": "v360-calibration-007",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_N53",
+          "token_ids": [
+            3030,
+            1604,
+            20,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_G54",
+          "token_ids": [
+            3030,
+            2646,
+            20,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_T18",
+          "token_ids": [
+            1397,
+            1139,
+            16,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_E40",
+          "token_ids": [
+            1397,
+            2089,
+            19,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_R32",
+          "token_ids": [
+            73380,
+            2568,
+            18,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_A64",
+          "token_ids": [
+            73380,
+            1566,
+            21,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_X38",
+          "token_ids": [
+            1397,
+            6859,
+            18,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_R32",
+      "REVERSE": "Outcome_R32",
+      "ENTITY_LABEL": "Outcome_R32",
+      "gold_outcome": "Outcome_R32"
+    },
+    {
+      "case_id": "v360-calibration-008",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_E79",
+          "token_ids": [
+            3030,
+            2089,
+            22,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_Z91",
+          "token_ids": [
+            3030,
+            12302,
+            24,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_H25",
+          "token_ids": [
+            1397,
+            2039,
+            17,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_P32",
+          "token_ids": [
+            1397,
+            1088,
+            18,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_C61",
+          "token_ids": [
+            73380,
+            920,
+            21,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_H92",
+          "token_ids": [
+            73380,
+            2039,
+            24,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_N96",
+          "token_ids": [
+            1397,
+            1604,
+            24,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_C61",
+      "REVERSE": "Outcome_C61",
+      "ENTITY_LABEL": "Outcome_C61",
+      "gold_outcome": "Outcome_C61"
+    },
+    {
+      "case_id": "v360-calibration-009",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_E83",
+          "token_ids": [
+            3030,
+            2089,
+            23,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_Q05",
+          "token_ids": [
+            3030,
+            13337,
+            15,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_J02",
+          "token_ids": [
+            1397,
+            10598,
+            15,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_H06",
+          "token_ids": [
+            1397,
+            2039,
+            15,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_S45",
+          "token_ids": [
+            73380,
+            1098,
+            19,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_D81",
+          "token_ids": [
+            73380,
+            1557,
+            23,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_U03",
+          "token_ids": [
+            1397,
+            6665,
+            15,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_S45",
+      "REVERSE": "Outcome_S45",
+      "ENTITY_LABEL": "Outcome_S45",
+      "gold_outcome": "Outcome_S45"
+    },
+    {
+      "case_id": "v360-calibration-010",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_E59",
+          "token_ids": [
+            3030,
+            2089,
+            20,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Entity_L13",
+          "token_ids": [
+            3030,
+            2351,
+            16,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_Y20",
+          "token_ids": [
+            1397,
+            10626,
+            17,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_A36",
+          "token_ids": [
+            1397,
+            1566,
+            18,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_V88",
+          "token_ids": [
+            73380,
+            2334,
+            23,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_X40",
+          "token_ids": [
+            73380,
+            6859,
+            19,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_U30",
+          "token_ids": [
+            1397,
+            6665,
+            18,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": true,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": true,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": true,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": true
+      },
+      "C0": "Outcome_V88",
+      "REVERSE": "UNKNOWN",
+      "ENTITY_LABEL": "Outcome_V88",
+      "gold_outcome": "Outcome_V88"
+    },
+    {
+      "case_id": "v360-calibration-011",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_L33",
+          "token_ids": [
+            3030,
+            2351,
+            18,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_S16",
+          "token_ids": [
+            3030,
+            1098,
+            16,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_J91",
+          "token_ids": [
+            1397,
+            10598,
+            24,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_I31",
+          "token_ids": [
+            1397,
+            7959,
+            18,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_B21",
+          "token_ids": [
+            73380,
+            1668,
+            17,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_C69",
+          "token_ids": [
+            73380,
+            920,
+            21,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_F89",
+          "token_ids": [
+            1397,
+            1400,
+            23,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_B21",
+      "REVERSE": "Outcome_B21",
+      "ENTITY_LABEL": "Outcome_B21",
+      "gold_outcome": "Outcome_B21"
+    },
+    {
+      "case_id": "v360-calibration-012",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_R10",
+          "token_ids": [
+            3030,
+            2568,
+            16,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Entity_X55",
+          "token_ids": [
+            3030,
+            6859,
+            20,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_M41",
+          "token_ids": [
+            1397,
+            1245,
+            19,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_E16",
+          "token_ids": [
+            1397,
+            2089,
+            16,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_W11",
+          "token_ids": [
+            73380,
+            2763,
+            16,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_A20",
+          "token_ids": [
+            73380,
+            1566,
+            17,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_O89",
+          "token_ids": [
+            1397,
+            2232,
+            23,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        }
+      ],
+      "flags": {
+        "C0_failed": true,
+        "REVERSE_failed": true,
+        "ENTITY_LABEL_failed": true,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": true
+      },
+      "C0": "UNKNOWN",
+      "REVERSE": "Outcome_W11",
+      "ENTITY_LABEL": "Outcome_W11",
+      "gold_outcome": "Outcome_W11"
+    },
+    {
+      "case_id": "v360-calibration-013",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_A61",
+          "token_ids": [
+            3030,
+            1566,
+            21,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_X07",
+          "token_ids": [
+            3030,
+            6859,
+            15,
+            22
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_Z41",
+          "token_ids": [
+            1397,
+            12302,
+            19,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_V34",
+          "token_ids": [
+            1397,
+            2334,
+            18,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_D95",
+          "token_ids": [
+            73380,
+            1557,
+            24,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_L31",
+          "token_ids": [
+            73380,
+            2351,
+            18,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_F29",
+          "token_ids": [
+            1397,
+            1400,
+            17,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_D95",
+      "REVERSE": "Outcome_D95",
+      "ENTITY_LABEL": "Outcome_D95",
+      "gold_outcome": "Outcome_D95"
+    },
+    {
+      "case_id": "v360-calibration-014",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_U55",
+          "token_ids": [
+            3030,
+            6665,
+            20,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_T09",
+          "token_ids": [
+            3030,
+            1139,
+            15,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_F19",
+          "token_ids": [
+            1397,
+            1400,
+            16,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_L73",
+          "token_ids": [
+            1397,
+            2351,
+            22,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_B00",
+          "token_ids": [
+            73380,
+            1668,
+            15,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_A74",
+          "token_ids": [
+            73380,
+            1566,
+            22,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_N21",
+          "token_ids": [
+            1397,
+            1604,
+            17,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_B00",
+      "REVERSE": "Outcome_B00",
+      "ENTITY_LABEL": "Outcome_B00",
+      "gold_outcome": "Outcome_B00"
+    },
+    {
+      "case_id": "v360-calibration-015",
+      "gold_mapping_position": 1,
+      "identifiers": [
+        {
+          "raw": "Entity_I23",
+          "token_ids": [
+            3030,
+            7959,
+            17,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_F24",
+          "token_ids": [
+            3030,
+            1400,
+            17,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_R43",
+          "token_ids": [
+            1397,
+            2568,
+            19,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_X78",
+          "token_ids": [
+            1397,
+            6859,
+            22,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_T88",
+          "token_ids": [
+            73380,
+            1139,
+            23,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_K40",
+          "token_ids": [
+            73380,
+            10102,
+            19,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_L96",
+          "token_ids": [
+            1397,
+            2351,
+            24,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_T88",
+      "REVERSE": "Outcome_T88",
+      "ENTITY_LABEL": "Outcome_T88",
+      "gold_outcome": "Outcome_T88"
+    },
+    {
+      "case_id": "v360-calibration-016",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_R01",
+          "token_ids": [
+            3030,
+            2568,
+            15,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_P78",
+          "token_ids": [
+            3030,
+            1088,
+            22,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_B20",
+          "token_ids": [
+            1397,
+            1668,
+            17,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_D05",
+          "token_ids": [
+            1397,
+            1557,
+            15,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_X89",
+          "token_ids": [
+            73380,
+            6859,
+            23,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_Q30",
+          "token_ids": [
+            73380,
+            13337,
+            18,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_D90",
+          "token_ids": [
+            1397,
+            1557,
+            24,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_X89",
+      "REVERSE": "Outcome_X89",
+      "ENTITY_LABEL": "Outcome_X89",
+      "gold_outcome": "Outcome_X89"
+    },
+    {
+      "case_id": "v360-calibration-017",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_K46",
+          "token_ids": [
+            3030,
+            10102,
+            19,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Entity_B59",
+          "token_ids": [
+            3030,
+            1668,
+            20,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_J32",
+          "token_ids": [
+            1397,
+            10598,
+            18,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_I11",
+          "token_ids": [
+            1397,
+            7959,
+            16,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_E53",
+          "token_ids": [
+            73380,
+            2089,
+            20,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "Outcome_H41",
+          "token_ids": [
+            73380,
+            2039,
+            19,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        },
+        {
+          "raw": "State_V08",
+          "token_ids": [
+            1397,
+            2334,
+            15,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": true,
+          "REVERSE_failed": true,
+          "ENTITY_LABEL_failed": true,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": true
+        }
+      ],
+      "flags": {
+        "C0_failed": true,
+        "REVERSE_failed": true,
+        "ENTITY_LABEL_failed": true,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": true
+      },
+      "C0": "UNKNOWN",
+      "REVERSE": "Outcome_E53",
+      "ENTITY_LABEL": "Outcome_E53",
+      "gold_outcome": "Outcome_E53"
+    },
+    {
+      "case_id": "v360-calibration-018",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_P02",
+          "token_ids": [
+            3030,
+            1088,
+            15,
+            17
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_W35",
+          "token_ids": [
+            3030,
+            2763,
+            18,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_D36",
+          "token_ids": [
+            1397,
+            1557,
+            18,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_Q80",
+          "token_ids": [
+            1397,
+            13337,
+            23,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_M04",
+          "token_ids": [
+            73380,
+            1245,
+            15,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_J28",
+          "token_ids": [
+            73380,
+            10598,
+            17,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_L86",
+          "token_ids": [
+            1397,
+            2351,
+            23,
+            21
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_M04",
+      "REVERSE": "Outcome_M04",
+      "ENTITY_LABEL": "Outcome_M04",
+      "gold_outcome": "Outcome_M04"
+    },
+    {
+      "case_id": "v360-calibration-019",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_A34",
+          "token_ids": [
+            3030,
+            1566,
+            18,
+            19
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_O18",
+          "token_ids": [
+            3030,
+            2232,
+            16,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_M70",
+          "token_ids": [
+            1397,
+            1245,
+            22,
+            15
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_T91",
+          "token_ids": [
+            1397,
+            1139,
+            24,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_V51",
+          "token_ids": [
+            73380,
+            2334,
+            20,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_W79",
+          "token_ids": [
+            73380,
+            2763,
+            22,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_D75",
+          "token_ids": [
+            1397,
+            1557,
+            22,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_V51",
+      "REVERSE": "Outcome_V51",
+      "ENTITY_LABEL": "Outcome_V51",
+      "gold_outcome": "Outcome_V51"
+    },
+    {
+      "case_id": "v360-calibration-020",
+      "gold_mapping_position": 2,
+      "identifiers": [
+        {
+          "raw": "Entity_P81",
+          "token_ids": [
+            3030,
+            1088,
+            23,
+            16
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Entity_U89",
+          "token_ids": [
+            3030,
+            6665,
+            23,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 10,
+          "field": "alternate_entity",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_D25",
+          "token_ids": [
+            1397,
+            1557,
+            17,
+            20
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "gold_state",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_M13",
+          "token_ids": [
+            1397,
+            1245,
+            16,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "wrong_state",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_K93",
+          "token_ids": [
+            73380,
+            10102,
+            24,
+            18
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "gold_outcome",
+          "mapping_line_position": 2,
+          "reversed_mapping_line_position": 1,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "Outcome_G48",
+          "token_ids": [
+            73380,
+            2646,
+            19,
+            23
+          ],
+          "token_count": 4,
+          "character_length": 11,
+          "field": "wrong_outcome",
+          "mapping_line_position": 1,
+          "reversed_mapping_line_position": 2,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        },
+        {
+          "raw": "State_G69",
+          "token_ids": [
+            1397,
+            2646,
+            21,
+            24
+          ],
+          "token_count": 4,
+          "character_length": 9,
+          "field": "unmapped_state",
+          "mapping_line_position": null,
+          "reversed_mapping_line_position": null,
+          "entity_token_count": 4,
+          "C0_failed": false,
+          "REVERSE_failed": false,
+          "ENTITY_LABEL_failed": false,
+          "REVERSE_incorrect": false,
+          "ENTITY_LABEL_incorrect": false,
+          "any_mapped_UNKNOWN": false
+        }
+      ],
+      "flags": {
+        "C0_failed": false,
+        "REVERSE_failed": false,
+        "ENTITY_LABEL_failed": false,
+        "REVERSE_incorrect": false,
+        "ENTITY_LABEL_incorrect": false,
+        "any_mapped_UNKNOWN": false
+      },
+      "C0": "Outcome_K93",
+      "REVERSE": "Outcome_K93",
+      "ENTITY_LABEL": "Outcome_K93",
+      "gold_outcome": "Outcome_K93"
+    }
+  ],
+  "C0_failure_positions": {
+    "1": {
+      "total": 10,
+      "failures": 1
+    },
+    "2": {
+      "total": 10,
+      "failures": 2
+    }
+  },
+  "token_count_groups": {
+    "gold_state": {
+      "passed": {
+        "4": 17
+      },
+      "failed": {
+        "4": 3
+      }
+    },
+    "gold_outcome": {
+      "passed": {
+        "4": 17
+      },
+      "failed": {
+        "4": 3
+      }
+    },
+    "entity": {
+      "passed": {
+        "4": 17
+      },
+      "failed": {
+        "4": 3
+      }
+    }
+  },
+  "lexical_contingencies": {
+    "gold_state": {
+      "letter": {
+        "B": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "C": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "D": {
+          "total": 3,
+          "C0_failures": 1
+        },
+        "F": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "H": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "J": {
+          "total": 3,
+          "C0_failures": 1
+        },
+        "M": {
+          "total": 2,
+          "C0_failures": 1
+        },
+        "O": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "R": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "T": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "Y": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "Z": {
+          "total": 2,
+          "C0_failures": 0
+        }
+      },
+      "tens": {
+        "0": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "1": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "2": {
+          "total": 4,
+          "C0_failures": 0
+        },
+        "3": {
+          "total": 3,
+          "C0_failures": 1
+        },
+        "4": {
+          "total": 4,
+          "C0_failures": 2
+        },
+        "6": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "7": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "8": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "9": {
+          "total": 2,
+          "C0_failures": 0
+        }
+      },
+      "units": {
+        "0": {
+          "total": 3,
+          "C0_failures": 0
+        },
+        "1": {
+          "total": 3,
+          "C0_failures": 1
+        },
+        "2": {
+          "total": 3,
+          "C0_failures": 1
+        },
+        "3": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "4": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "5": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "6": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "8": {
+          "total": 3,
+          "C0_failures": 0
+        },
+        "9": {
+          "total": 2,
+          "C0_failures": 1
+        }
+      }
+    },
+    "gold_outcome": {
+      "letter": {
+        "B": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "C": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "D": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "E": {
+          "total": 2,
+          "C0_failures": 1
+        },
+        "F": {
+          "total": 1,
+          "C0_failures": 1
+        },
+        "K": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "L": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "M": {
+          "total": 3,
+          "C0_failures": 0
+        },
+        "N": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "R": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "S": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "T": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "V": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "W": {
+          "total": 1,
+          "C0_failures": 1
+        },
+        "X": {
+          "total": 1,
+          "C0_failures": 0
+        }
+      },
+      "tens": {
+        "0": {
+          "total": 3,
+          "C0_failures": 0
+        },
+        "1": {
+          "total": 1,
+          "C0_failures": 1
+        },
+        "2": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "3": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "4": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "5": {
+          "total": 2,
+          "C0_failures": 1
+        },
+        "6": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "7": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "8": {
+          "total": 4,
+          "C0_failures": 0
+        },
+        "9": {
+          "total": 3,
+          "C0_failures": 1
+        }
+      },
+      "units": {
+        "0": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "1": {
+          "total": 4,
+          "C0_failures": 1
+        },
+        "2": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "3": {
+          "total": 4,
+          "C0_failures": 2
+        },
+        "4": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "5": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "6": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "7": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "8": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "9": {
+          "total": 2,
+          "C0_failures": 0
+        }
+      }
+    },
+    "entity": {
+      "letter": {
+        "A": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "D": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "E": {
+          "total": 3,
+          "C0_failures": 0
+        },
+        "F": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "G": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "H": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "I": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "J": {
+          "total": 1,
+          "C0_failures": 1
+        },
+        "K": {
+          "total": 1,
+          "C0_failures": 1
+        },
+        "L": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "N": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "P": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "R": {
+          "total": 2,
+          "C0_failures": 1
+        },
+        "U": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "V": {
+          "total": 1,
+          "C0_failures": 0
+        }
+      },
+      "tens": {
+        "0": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "1": {
+          "total": 3,
+          "C0_failures": 1
+        },
+        "2": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "3": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "4": {
+          "total": 2,
+          "C0_failures": 2
+        },
+        "5": {
+          "total": 3,
+          "C0_failures": 0
+        },
+        "6": {
+          "total": 3,
+          "C0_failures": 0
+        },
+        "7": {
+          "total": 2,
+          "C0_failures": 0
+        },
+        "8": {
+          "total": 2,
+          "C0_failures": 0
+        }
+      },
+      "units": {
+        "0": {
+          "total": 2,
+          "C0_failures": 1
+        },
+        "1": {
+          "total": 4,
+          "C0_failures": 0
+        },
+        "2": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "3": {
+          "total": 4,
+          "C0_failures": 0
+        },
+        "4": {
+          "total": 2,
+          "C0_failures": 1
+        },
+        "5": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "6": {
+          "total": 1,
+          "C0_failures": 1
+        },
+        "8": {
+          "total": 1,
+          "C0_failures": 0
+        },
+        "9": {
+          "total": 4,
+          "C0_failures": 0
+        }
+      }
+    }
+  },
+  "reversal": {
+    "total_invariance_failures": 5,
+    "C0_wrong_reverse_correct": 3,
+    "C0_correct_reverse_wrong": 2
+  },
+  "entity_label": {
+    "total_invariance_failures": 3,
+    "C0_wrong_entity_correct": 3,
+    "C0_correct_entity_wrong": 0
+  },
+  "note": "Descriptive associations among 20 cases, not causal tests. Failure flags distinguish invariance from correctness."
+}

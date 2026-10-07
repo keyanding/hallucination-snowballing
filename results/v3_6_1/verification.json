@@ -1,0 +1,11 @@
+{
+  "frozen_inputs_unchanged": true,
+  "prior_artifacts_unchanged": 339,
+  "exact_output_plan_match": true,
+  "calls": {
+    "stage_b": 160,
+    "stage_c": 80,
+    "unmapped": 10,
+    "record_order": 20
+  }
+}

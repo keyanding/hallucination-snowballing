@@ -2,7 +2,15 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.6.0 propagation assay validation
+## Current experiment: v3.6.1 minimal propagation diagnosis
+
+**MINIMAL_ASSAY_VALIDATED.** Completed 270 calls: 160 four-family old-case replays, 80 fresh mapped calls, 10 independent unmapped controls and 20 record-order calls. All C1–C6 gates passed: gold 40/40, wrong 40/40, paired 40/40, false UNKNOWN 0/80, OTHER+INVALID 0/80, fallback 10/10. Reversed mapping identity was unchanged 20/20.
+
+Stage B: FULL_UNKNOWN 39/40; FULL_NO_UNKNOWN, MINIMAL_UNKNOWN and MINIMAL_NO_UNKNOWN each 40/40. This is a small descriptive prompt-sensitivity signal, not a unique explanation of v3.6.0 failures. FULL_UNKNOWN uses the new shorter fallback sentence and is not an exact old-prompt replay. The result validates only explicit symbolic state-to-outcome following; no natural-hallucination, SHAR or internal-mechanism conclusion. No stronger-model diagnostic or subsequent phase ran.
+
+All 101 tests pass. Independent verification checked 5200 candidate tokenizations and 270 exact output/token round trips; 339 previous result files are unchanged. See [report](results/v3_6_1/README.md), [interpretation](results/v3_6_1/interpretation.md), [static audit](results/v3_6_1/v360_failure_audit.md), [paired diagnosis](results/v3_6_1/diagnosis.md), [exact prompt inspection](results/v3_6_1/inspection.md), and [gate](results/v3_6_1/gate.json). Recompute generated reporting with `python -m experiments.v3_6_1.report`, then `python scripts/verify_v3_6_1.py`. Interpretation.md is the separately written synthesis. Inputs and thresholds remain frozen.
+
+## Previous experiment: v3.6.0 propagation assay validation
 
 **STOP_ASSAY_INVALID.** Completed 160 formal calibration calls; main experiment was not run (0/80). Before inference, the user-approved entity-label control was added as gate H and the exact uniform UNKNOWN instruction was frozen. B=17/20, E=15/20 and H=17/20 failed their 19/20 minima. A=39/40, C=20/20, D=19/20, F=20/20 and G=160/160 passed. No cases, prompts or thresholds were changed after inference.
 

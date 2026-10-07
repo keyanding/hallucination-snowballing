@@ -1,0 +1,12 @@
+{
+  "stage_b_completed": true,
+  "stage_b_best_descriptive_condition": [
+    "FULL_NO_UNKNOWN",
+    "MINIMAL_UNKNOWN",
+    "MINIMAL_NO_UNKNOWN"
+  ],
+  "stage_c_pass": true,
+  "record_order_diagnostic_pass": true,
+  "stronger_model_diagnostic_status": "STRONGER_MODEL_DIAGNOSTIC_NOT_RUN",
+  "final_decision": "MINIMAL_ASSAY_VALIDATED"
+}

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-07 — v3.6.1 minimal propagation diagnosis
+
+Added static audit of all 20 old calibration cases, frozen 2×2 prompt replay, 5200-candidate tokenizer audit, 40 fresh minimal cases, 10 separate unmapped controls and 10 seeded reversed-mapping cases. Completed 270 calls: Stage C 40/40 gold, 40/40 wrong, 40/40 paired; 0/80 false UNKNOWN or invalid; fallback 10/10; order 20/20. MINIMAL_ASSAY_VALIDATED. Stage B FULL_UNKNOWN 39/40 and other families 40/40; no unique causal or mechanism attribution. 101 tests and independent verification pass; 339 previous artifacts unchanged.
+
 ## 2026-10-07 — v3.6.0 propagation assay validation
 
 Added the isolated synthetic state-dependent assay with 20 calibration and 40 frozen main cases, exact state-only prompt differences, eight calibration controls and strict parsing. User amendments were frozen before inference: formal entity-label gate H and uniform UNKNOWN rule; 160 calibration calls, 80 conditional main calls. B=17/20, E=15/20 and H=17/20 failed: STOP_ASSAY_INVALID. Main remained untouched. All 90 tests and independent output checks pass; 312 previous result files remain unchanged.
