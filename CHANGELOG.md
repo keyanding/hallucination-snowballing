@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-07 — v3.6.3.1 frozen-interface two-hop pipeline
+
+Restored exact v3.6.1/v3.6.2 downstream shell and reused v3.6.3 upstream/parser/decoding. Frozen70 cases and conditional360-call maximum before inference; added executable validated-inheritance workflow. Completed360 calls. Calibration80/80 permitted and all component/pair gates passed. Main adherence, paired switch and strict actual-output pipeline each40/40; OTHER+INVALID0/160: TWO_HOP_PIPELINE_VALIDATED. Independent shell diagnostic20/20 validated versus17/20 recorded (three explanatory truncations). Integrated I-A7/20, I-B9/20, paired2/20: INTEGRATED_TWO_HOP_READY=false. All137 tests and independent verification passed; 446 historical artifacts unchanged. No subsequent phase.
+
 ## 2026-10-07 — v3.6.3 two-hop propagation assay
 
 Added symmetric upstream lookup, recorded-state counterfactual propagation, actual unrepaired generated-state pipeline, separate integrated readiness and optional order diagnostic. Frozen 20 calibration and 40 main cases before inference. Calibration stopped after 80 calls: C=18/20, F=17/20 and G=77/80 failed; both upstream arms20/20. STOP_TWO_HOP_CALIBRATION_INVALID. No main or secondary calls. All 124 tests and independent verification pass; 410 historical artifacts unchanged.

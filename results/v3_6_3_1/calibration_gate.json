@@ -1,0 +1,160 @@
+{
+  "complete": true,
+  "correct": {
+    "U-A": 20,
+    "U-B": 20,
+    "D-A": 20,
+    "D-B": 20
+  },
+  "pairs": {
+    "U": 20,
+    "D": 20
+  },
+  "tables": {
+    "U": {
+      "B": {
+        "B": 0,
+        "Bp": 20,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      },
+      "Bp": {
+        "B": 0,
+        "Bp": 0,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      },
+      "OTHER_STATE": {
+        "B": 0,
+        "Bp": 0,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      },
+      "INVALID": {
+        "B": 0,
+        "Bp": 0,
+        "OTHER_STATE": 0,
+        "INVALID": 0
+      }
+    },
+    "D": {
+      "C": {
+        "C": 0,
+        "Cp": 20,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      },
+      "Cp": {
+        "C": 0,
+        "Cp": 0,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      },
+      "OTHER_OUTCOME": {
+        "C": 0,
+        "Cp": 0,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      },
+      "UNKNOWN": {
+        "C": 0,
+        "Cp": 0,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      },
+      "INVALID": {
+        "C": 0,
+        "Cp": 0,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      }
+    }
+  },
+  "permitted": 80,
+  "off_target": 0,
+  "categories": {
+    "U-A": {
+      "B": 20,
+      "Bp": 0,
+      "OTHER_STATE": 0,
+      "INVALID": 0
+    },
+    "U-B": {
+      "B": 0,
+      "Bp": 20,
+      "OTHER_STATE": 0,
+      "INVALID": 0
+    },
+    "D-A": {
+      "C": 20,
+      "Cp": 0,
+      "OTHER_OUTCOME": 0,
+      "UNKNOWN": 0,
+      "INVALID": 0
+    },
+    "D-B": {
+      "C": 0,
+      "Cp": 20,
+      "OTHER_OUTCOME": 0,
+      "UNKNOWN": 0,
+      "INVALID": 0
+    }
+  },
+  "gates": {
+    "A": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 19,
+      "passed": true
+    },
+    "B": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 19,
+      "passed": true
+    },
+    "C": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 19,
+      "passed": true
+    },
+    "D": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 19,
+      "passed": true
+    },
+    "E": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 19,
+      "passed": true
+    },
+    "F": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "minimum": 19,
+      "passed": true
+    },
+    "G": {
+      "count": 80,
+      "denominator": 80,
+      "rate": 1.0,
+      "minimum": 79,
+      "passed": true
+    }
+  },
+  "passed": true
+}

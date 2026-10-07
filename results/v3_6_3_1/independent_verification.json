@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "tokenizer_candidates_verified": 7800,
+  "fresh_identifiers": 420,
+  "static_prompts_verified": 320,
+  "output_roundtrips": 360,
+  "actual_pipeline_states_verified": 40,
+  "historical_artifacts_unchanged": 446,
+  "frozen_hashes_unchanged": true,
+  "independent_gate": "TWO_HOP_PIPELINE_VALIDATED",
+  "calibration_counts": {
+    "A": 20,
+    "B": 20,
+    "C": 20,
+    "D": 20,
+    "E": 20,
+    "F": 20,
+    "G": 80
+  }
+}

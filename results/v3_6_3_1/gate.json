@@ -1,0 +1,18 @@
+{
+  "final_decision": "TWO_HOP_PIPELINE_VALIDATED",
+  "calibration_pass": true,
+  "main_evaluated": true,
+  "main_pass": true,
+  "INTEGRATED_TWO_HOP_READY": false,
+  "integrated_evaluated": true,
+  "shell_diagnostic_evaluated": true,
+  "counts": {
+    "calibration": 80,
+    "main_upstream": 80,
+    "main_downstream": 80,
+    "pipeline_generated": 40,
+    "shell_diagnostic": 40,
+    "integrated": 40
+  },
+  "pipeline_skipped": 0
+}

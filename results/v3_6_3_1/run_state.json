@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "counts": {
+    "calibration": 80,
+    "main_upstream": 80,
+    "main_downstream": 80,
+    "pipeline_generated": 40,
+    "shell_diagnostic": 40,
+    "integrated": 40
+  },
+  "memory": {
+    "peak_allocated_bytes": 3430942720,
+    "peak_reserved_bytes": 3500146688,
+    "free_bytes": 3711959040,
+    "total_bytes": 8546484224
+  }
+}

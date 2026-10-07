@@ -1,0 +1,722 @@
+[
+  {
+    "case_id": "v3631-main-001",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Q36",
+    "entity_b": "ENTITY_Q69",
+    "state_a": "STATE_W81",
+    "state_b": "STATE_B67",
+    "outcome_a": "OUTCOME_Z66",
+    "outcome_b": "OUTCOME_Y82"
+  },
+  {
+    "case_id": "v3631-main-002",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_X68",
+    "entity_b": "ENTITY_Q40",
+    "state_a": "STATE_Y55",
+    "state_b": "STATE_D31",
+    "outcome_a": "OUTCOME_J13",
+    "outcome_b": "OUTCOME_H84"
+  },
+  {
+    "case_id": "v3631-main-003",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_R48",
+    "entity_b": "ENTITY_O77",
+    "state_a": "STATE_X71",
+    "state_b": "STATE_U99",
+    "outcome_a": "OUTCOME_J71",
+    "outcome_b": "OUTCOME_A45"
+  },
+  {
+    "case_id": "v3631-main-004",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Z92",
+    "entity_b": "ENTITY_G79",
+    "state_a": "STATE_F27",
+    "state_b": "STATE_G63",
+    "outcome_a": "OUTCOME_T42",
+    "outcome_b": "OUTCOME_I27"
+  },
+  {
+    "case_id": "v3631-main-005",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_S45",
+    "entity_b": "ENTITY_L64",
+    "state_a": "STATE_E93",
+    "state_b": "STATE_S95",
+    "outcome_a": "OUTCOME_N40",
+    "outcome_b": "OUTCOME_P61"
+  },
+  {
+    "case_id": "v3631-main-006",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_E69",
+    "entity_b": "ENTITY_Y72",
+    "state_a": "STATE_Y65",
+    "state_b": "STATE_B47",
+    "outcome_a": "OUTCOME_G74",
+    "outcome_b": "OUTCOME_N38"
+  },
+  {
+    "case_id": "v3631-main-007",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_W19",
+    "entity_b": "ENTITY_S37",
+    "state_a": "STATE_B90",
+    "state_b": "STATE_H47",
+    "outcome_a": "OUTCOME_H51",
+    "outcome_b": "OUTCOME_N83"
+  },
+  {
+    "case_id": "v3631-main-008",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Y48",
+    "entity_b": "ENTITY_I96",
+    "state_a": "STATE_P50",
+    "state_b": "STATE_Q31",
+    "outcome_a": "OUTCOME_W70",
+    "outcome_b": "OUTCOME_T75"
+  },
+  {
+    "case_id": "v3631-main-009",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_I19",
+    "entity_b": "ENTITY_J90",
+    "state_a": "STATE_M20",
+    "state_b": "STATE_X67",
+    "outcome_a": "OUTCOME_W69",
+    "outcome_b": "OUTCOME_B06"
+  },
+  {
+    "case_id": "v3631-main-010",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_C88",
+    "entity_b": "ENTITY_K93",
+    "state_a": "STATE_G98",
+    "state_b": "STATE_Q50",
+    "outcome_a": "OUTCOME_T50",
+    "outcome_b": "OUTCOME_I69"
+  },
+  {
+    "case_id": "v3631-main-011",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_K52",
+    "entity_b": "ENTITY_T85",
+    "state_a": "STATE_K45",
+    "state_b": "STATE_H19",
+    "outcome_a": "OUTCOME_C65",
+    "outcome_b": "OUTCOME_I61"
+  },
+  {
+    "case_id": "v3631-main-012",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_X69",
+    "entity_b": "ENTITY_V76",
+    "state_a": "STATE_G86",
+    "state_b": "STATE_C34",
+    "outcome_a": "OUTCOME_T79",
+    "outcome_b": "OUTCOME_B01"
+  },
+  {
+    "case_id": "v3631-main-013",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_D77",
+    "entity_b": "ENTITY_V73",
+    "state_a": "STATE_F09",
+    "state_b": "STATE_D27",
+    "outcome_a": "OUTCOME_P22",
+    "outcome_b": "OUTCOME_H38"
+  },
+  {
+    "case_id": "v3631-main-014",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_U53",
+    "entity_b": "ENTITY_Y82",
+    "state_a": "STATE_C91",
+    "state_b": "STATE_T66",
+    "outcome_a": "OUTCOME_Y64",
+    "outcome_b": "OUTCOME_N80"
+  },
+  {
+    "case_id": "v3631-main-015",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_X89",
+    "entity_b": "ENTITY_G00",
+    "state_a": "STATE_L71",
+    "state_b": "STATE_H74",
+    "outcome_a": "OUTCOME_V84",
+    "outcome_b": "OUTCOME_O58"
+  },
+  {
+    "case_id": "v3631-main-016",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_H47",
+    "entity_b": "ENTITY_I86",
+    "state_a": "STATE_F60",
+    "state_b": "STATE_M92",
+    "outcome_a": "OUTCOME_I16",
+    "outcome_b": "OUTCOME_I39"
+  },
+  {
+    "case_id": "v3631-main-017",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_Z61",
+    "entity_b": "ENTITY_H54",
+    "state_a": "STATE_K06",
+    "state_b": "STATE_W65",
+    "outcome_a": "OUTCOME_G26",
+    "outcome_b": "OUTCOME_W49"
+  },
+  {
+    "case_id": "v3631-main-018",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_H70",
+    "entity_b": "ENTITY_Y99",
+    "state_a": "STATE_D12",
+    "state_b": "STATE_A46",
+    "outcome_a": "OUTCOME_Z23",
+    "outcome_b": "OUTCOME_P62"
+  },
+  {
+    "case_id": "v3631-main-019",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_N99",
+    "entity_b": "ENTITY_D49",
+    "state_a": "STATE_P59",
+    "state_b": "STATE_H57",
+    "outcome_a": "OUTCOME_E29",
+    "outcome_b": "OUTCOME_F94"
+  },
+  {
+    "case_id": "v3631-main-020",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_H64",
+    "entity_b": "ENTITY_X15",
+    "state_a": "STATE_F95",
+    "state_b": "STATE_U07",
+    "outcome_a": "OUTCOME_X35",
+    "outcome_b": "OUTCOME_N61"
+  },
+  {
+    "case_id": "v3631-main-021",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Z60",
+    "entity_b": "ENTITY_J39",
+    "state_a": "STATE_J95",
+    "state_b": "STATE_U80",
+    "outcome_a": "OUTCOME_Q39",
+    "outcome_b": "OUTCOME_D98"
+  },
+  {
+    "case_id": "v3631-main-022",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_S06",
+    "entity_b": "ENTITY_T67",
+    "state_a": "STATE_I13",
+    "state_b": "STATE_F38",
+    "outcome_a": "OUTCOME_K76",
+    "outcome_b": "OUTCOME_P05"
+  },
+  {
+    "case_id": "v3631-main-023",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_C59",
+    "entity_b": "ENTITY_B82",
+    "state_a": "STATE_N75",
+    "state_b": "STATE_C82",
+    "outcome_a": "OUTCOME_O54",
+    "outcome_b": "OUTCOME_T56"
+  },
+  {
+    "case_id": "v3631-main-024",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_X25",
+    "entity_b": "ENTITY_G33",
+    "state_a": "STATE_Q11",
+    "state_b": "STATE_R93",
+    "outcome_a": "OUTCOME_X78",
+    "outcome_b": "OUTCOME_P93"
+  },
+  {
+    "case_id": "v3631-main-025",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_Z65",
+    "entity_b": "ENTITY_Q25",
+    "state_a": "STATE_M65",
+    "state_b": "STATE_V28",
+    "outcome_a": "OUTCOME_V76",
+    "outcome_b": "OUTCOME_Z40"
+  },
+  {
+    "case_id": "v3631-main-026",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Y20",
+    "entity_b": "ENTITY_V05",
+    "state_a": "STATE_E98",
+    "state_b": "STATE_S44",
+    "outcome_a": "OUTCOME_U78",
+    "outcome_b": "OUTCOME_R43"
+  },
+  {
+    "case_id": "v3631-main-027",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Z16",
+    "entity_b": "ENTITY_D17",
+    "state_a": "STATE_W37",
+    "state_b": "STATE_C67",
+    "outcome_a": "OUTCOME_G41",
+    "outcome_b": "OUTCOME_L32"
+  },
+  {
+    "case_id": "v3631-main-028",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_O06",
+    "entity_b": "ENTITY_H53",
+    "state_a": "STATE_B92",
+    "state_b": "STATE_X77",
+    "outcome_a": "OUTCOME_F90",
+    "outcome_b": "OUTCOME_K66"
+  },
+  {
+    "case_id": "v3631-main-029",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_X56",
+    "entity_b": "ENTITY_X63",
+    "state_a": "STATE_N19",
+    "state_b": "STATE_U43",
+    "outcome_a": "OUTCOME_M37",
+    "outcome_b": "OUTCOME_B22"
+  },
+  {
+    "case_id": "v3631-main-030",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_U13",
+    "entity_b": "ENTITY_C93",
+    "state_a": "STATE_S34",
+    "state_b": "STATE_X69",
+    "outcome_a": "OUTCOME_L99",
+    "outcome_b": "OUTCOME_P01"
+  },
+  {
+    "case_id": "v3631-main-031",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_K28",
+    "entity_b": "ENTITY_B35",
+    "state_a": "STATE_D57",
+    "state_b": "STATE_S81",
+    "outcome_a": "OUTCOME_Q93",
+    "outcome_b": "OUTCOME_E42"
+  },
+  {
+    "case_id": "v3631-main-032",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_O61",
+    "entity_b": "ENTITY_K19",
+    "state_a": "STATE_U48",
+    "state_b": "STATE_S79",
+    "outcome_a": "OUTCOME_Q22",
+    "outcome_b": "OUTCOME_O35"
+  },
+  {
+    "case_id": "v3631-main-033",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_Q14",
+    "entity_b": "ENTITY_P96",
+    "state_a": "STATE_S13",
+    "state_b": "STATE_R16",
+    "outcome_a": "OUTCOME_J37",
+    "outcome_b": "OUTCOME_X87"
+  },
+  {
+    "case_id": "v3631-main-034",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_P14",
+    "entity_b": "ENTITY_O84",
+    "state_a": "STATE_C78",
+    "state_b": "STATE_C92",
+    "outcome_a": "OUTCOME_A04",
+    "outcome_b": "OUTCOME_W87"
+  },
+  {
+    "case_id": "v3631-main-035",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_B88",
+    "entity_b": "ENTITY_Y29",
+    "state_a": "STATE_I94",
+    "state_b": "STATE_X46",
+    "outcome_a": "OUTCOME_N68",
+    "outcome_b": "OUTCOME_C21"
+  },
+  {
+    "case_id": "v3631-main-036",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_X12",
+    "entity_b": "ENTITY_S97",
+    "state_a": "STATE_Q15",
+    "state_b": "STATE_G32",
+    "outcome_a": "OUTCOME_W27",
+    "outcome_b": "OUTCOME_S05"
+  },
+  {
+    "case_id": "v3631-main-037",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_G06",
+    "entity_b": "ENTITY_A81",
+    "state_a": "STATE_Y30",
+    "state_b": "STATE_N79",
+    "outcome_a": "OUTCOME_O33",
+    "outcome_b": "OUTCOME_U74"
+  },
+  {
+    "case_id": "v3631-main-038",
+    "split": "main",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_M34",
+    "entity_b": "ENTITY_W56",
+    "state_a": "STATE_S63",
+    "state_b": "STATE_S96",
+    "outcome_a": "OUTCOME_M57",
+    "outcome_b": "OUTCOME_O73"
+  },
+  {
+    "case_id": "v3631-main-039",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_N38",
+    "entity_b": "ENTITY_U98",
+    "state_a": "STATE_J99",
+    "state_b": "STATE_N37",
+    "outcome_a": "OUTCOME_Y97",
+    "outcome_b": "OUTCOME_Y14"
+  },
+  {
+    "case_id": "v3631-main-040",
+    "split": "main",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_R33",
+    "entity_b": "ENTITY_K94",
+    "state_a": "STATE_F55",
+    "state_b": "STATE_F15",
+    "outcome_a": "OUTCOME_A81",
+    "outcome_b": "OUTCOME_K72"
+  }
+]

@@ -2,7 +2,17 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.6.3 two-hop propagation assay
+## Current experiment: v3.6.3.1 frozen-interface two-hop pipeline
+
+**TWO_HOP_PIPELINE_VALIDATED; INTEGRATED_TWO_HOP_READY=false.** Completed exactly 360 calls: 80 calibration, 200 modular main, 40 independent shell diagnostics and 40 integrated diagnostics. Calibration A–F were each20/20 and G80/80. Main U-A, U-B, D-A, D-B, paired downstream switching and strict actual-state E2E were each40/40; G7 OTHER+INVALID0/160. All40 actual upstream outputs were forwarded unchanged, with no skips or repair.
+
+The matched shell diagnostic yielded **Current state20/20 versus Recorded intermediate result17/20**. The three recorded-shell failures were explanatory outputs truncated at the unchanged16-token cap. The whole-shell contrast does not isolate the heading or prove a unique cause of historical failures. Integrated exact-output accuracy was **I-A7/20, I-B9/20, paired2/20**; it failed the separate readiness threshold without changing the modular main result. All 24 integrated failures were INVALID; 17 were truncated. See [diagnostic output observations](results/v3_6_3_1/diagnostic_observations.md) for the distinction between exact-output compliance and underlying mapping ability. No natural-error study or subsequent phase was run.
+
+The upstream and integrated prompts reuse v3.6.3 exactly; main downstream prompts match both v3.6.1 minimal and v3.6.2 K0 byte for byte. The parser, model, tokenizer and decoding remain frozen. The [experimental inheritance workflow](EXPERIMENT_WORKFLOW.md) now requires explicit component classifications and executable pre-inference validation.
+
+All137 tests and independent verification pass: 7800 candidate tokenizations, 420 fresh identifiers, 320 frozen static prompts, 360 output/token round trips and 40 actual-state transfers checked; 446 historical result files unchanged. See [report](results/v3_6_3_1/README.md), [interpretation](results/v3_6_3_1/interpretation.md), [full prompt inspection](results/v3_6_3_1/inspection.md), [preregistration](results/v3_6_3_1/pre_registration.md), and [gate](results/v3_6_3_1/gate.json). Recompute reporting with `python -m experiments.v3_6_3_1.report`, then `python scripts/verify_v3_6_3_1.py`. Preparation and inference refuse overwriting the run.
+
+## Previous experiment: v3.6.3 two-hop propagation assay
 
 **STOP_TWO_HOP_CALIBRATION_INVALID.** Completed exactly 80 calibration calls. U-GOLD and U-ALT were each 20/20; P-GOLD was 18/20, P-ALT 19/20, paired downstream 17/20, and permitted parses 77/80. Gates C, F and G failed because three downstream outputs violated the exact-identifier format. Main, generated-pipeline, integrated and order-diagnostic calls were not run. Integrated readiness is false with evaluated=false, not a failed integrated test.
 

@@ -1,0 +1,271 @@
+{
+  "evaluated": true,
+  "shells": {
+    "VALIDATED": {
+      "exact_accuracy": {
+        "count": 20,
+        "denominator": 20,
+        "rate": 1.0
+      },
+      "by_state": {
+        "D-A": {
+          "count": 10,
+          "denominator": 10,
+          "rate": 1.0
+        },
+        "D-B": {
+          "count": 10,
+          "denominator": 10,
+          "rate": 1.0
+        }
+      },
+      "invalid_count": 0,
+      "explanation_format_count": 0,
+      "prefix_omission_count": 0,
+      "truncation_count": 0,
+      "category_counts": {
+        "C": 10,
+        "Cp": 10,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 0
+      }
+    },
+    "RECORDED": {
+      "exact_accuracy": {
+        "count": 17,
+        "denominator": 20,
+        "rate": 0.85
+      },
+      "by_state": {
+        "D-A": {
+          "count": 9,
+          "denominator": 10,
+          "rate": 0.9
+        },
+        "D-B": {
+          "count": 8,
+          "denominator": 10,
+          "rate": 0.8
+        }
+      },
+      "invalid_count": 3,
+      "explanation_format_count": 3,
+      "prefix_omission_count": 0,
+      "truncation_count": 3,
+      "category_counts": {
+        "C": 9,
+        "Cp": 8,
+        "OTHER_OUTCOME": 0,
+        "UNKNOWN": 0,
+        "INVALID": 3
+      }
+    }
+  },
+  "paired_transitions": [
+    {
+      "case_id": "v3631-diagnostic-001",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_B38",
+      "recorded_output": "OUTCOME_B38",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-001",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_M93",
+      "recorded_output": "OUTCOME_M93",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-002",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "INVALID",
+      "validated_output": "OUTCOME_W41",
+      "recorded_output": "The outcome implied by the recorded intermediate result STATE_Q22 is OUTCOME_W",
+      "validated_correct": true,
+      "recorded_correct": false
+    },
+    {
+      "case_id": "v3631-diagnostic-002",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_Y35",
+      "recorded_output": "OUTCOME_Y35",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-003",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_O42",
+      "recorded_output": "OUTCOME_O42",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-003",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_V68",
+      "recorded_output": "OUTCOME_V68",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-004",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_R47",
+      "recorded_output": "OUTCOME_R47",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-004",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_K06",
+      "recorded_output": "OUTCOME_K06",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-005",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_C85",
+      "recorded_output": "OUTCOME_C85",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-005",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_F00",
+      "recorded_output": "OUTCOME_F00",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-006",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_S50",
+      "recorded_output": "OUTCOME_S50",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-006",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_D48",
+      "recorded_output": "OUTCOME_D48",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-007",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_L28",
+      "recorded_output": "OUTCOME_L28",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-007",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "INVALID",
+      "validated_output": "OUTCOME_L17",
+      "recorded_output": "The outcome implied by the recorded intermediate result STATE_R02 is OUTCOME_L",
+      "validated_correct": true,
+      "recorded_correct": false
+    },
+    {
+      "case_id": "v3631-diagnostic-008",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_A27",
+      "recorded_output": "OUTCOME_A27",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-008",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_D92",
+      "recorded_output": "OUTCOME_D92",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-009",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_Q04",
+      "recorded_output": "OUTCOME_Q04",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-009",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "INVALID",
+      "validated_output": "OUTCOME_D06",
+      "recorded_output": "The recorded intermediate result is STATE_O28.  \n\nDownstream mapping: STATE",
+      "validated_correct": true,
+      "recorded_correct": false
+    },
+    {
+      "case_id": "v3631-diagnostic-010",
+      "condition": "D-A",
+      "validated": "C",
+      "recorded": "C",
+      "validated_output": "OUTCOME_H48",
+      "recorded_output": "OUTCOME_H48",
+      "validated_correct": true,
+      "recorded_correct": true
+    },
+    {
+      "case_id": "v3631-diagnostic-010",
+      "condition": "D-B",
+      "validated": "Cp",
+      "recorded": "Cp",
+      "validated_output": "OUTCOME_X63",
+      "recorded_output": "OUTCOME_X63",
+      "validated_correct": true,
+      "recorded_correct": true
+    }
+  ],
+  "recorded_only_failures": 3,
+  "validated_only_failures": 0,
+  "non_gating": true,
+  "counts_may_overlap": true
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "case_id": "v3631-diagnostic-001",
+    "split": "diagnostic",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_L38",
+    "entity_b": "ENTITY_Q04",
+    "state_a": "STATE_L79",
+    "state_b": "STATE_Q39",
+    "outcome_a": "OUTCOME_B38",
+    "outcome_b": "OUTCOME_M93"
+  },
+  {
+    "case_id": "v3631-diagnostic-002",
+    "split": "diagnostic",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_O68",
+    "entity_b": "ENTITY_N31",
+    "state_a": "STATE_Q22",
+    "state_b": "STATE_O80",
+    "outcome_a": "OUTCOME_W41",
+    "outcome_b": "OUTCOME_Y35"
+  },
+  {
+    "case_id": "v3631-diagnostic-003",
+    "split": "diagnostic",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Y66",
+    "entity_b": "ENTITY_Z56",
+    "state_a": "STATE_Q68",
+    "state_b": "STATE_W69",
+    "outcome_a": "OUTCOME_O42",
+    "outcome_b": "OUTCOME_V68"
+  },
+  {
+    "case_id": "v3631-diagnostic-004",
+    "split": "diagnostic",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Q65",
+    "entity_b": "ENTITY_M66",
+    "state_a": "STATE_D40",
+    "state_b": "STATE_L59",
+    "outcome_a": "OUTCOME_R47",
+    "outcome_b": "OUTCOME_K06"
+  },
+  {
+    "case_id": "v3631-diagnostic-005",
+    "split": "diagnostic",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_X22",
+    "entity_b": "ENTITY_K87",
+    "state_a": "STATE_R18",
+    "state_b": "STATE_K61",
+    "outcome_a": "OUTCOME_C85",
+    "outcome_b": "OUTCOME_F00"
+  },
+  {
+    "case_id": "v3631-diagnostic-006",
+    "split": "diagnostic",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_U28",
+    "entity_b": "ENTITY_J23",
+    "state_a": "STATE_L14",
+    "state_b": "STATE_V88",
+    "outcome_a": "OUTCOME_S50",
+    "outcome_b": "OUTCOME_D48"
+  },
+  {
+    "case_id": "v3631-diagnostic-007",
+    "split": "diagnostic",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_A28",
+    "entity_b": "ENTITY_R31",
+    "state_a": "STATE_T32",
+    "state_b": "STATE_R02",
+    "outcome_a": "OUTCOME_L28",
+    "outcome_b": "OUTCOME_L17"
+  },
+  {
+    "case_id": "v3631-diagnostic-008",
+    "split": "diagnostic",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_M18",
+    "entity_b": "ENTITY_O39",
+    "state_a": "STATE_Y77",
+    "state_b": "STATE_W16",
+    "outcome_a": "OUTCOME_A27",
+    "outcome_b": "OUTCOME_D92"
+  },
+  {
+    "case_id": "v3631-diagnostic-009",
+    "split": "diagnostic",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_J61",
+    "entity_b": "ENTITY_S67",
+    "state_a": "STATE_J23",
+    "state_b": "STATE_O28",
+    "outcome_a": "OUTCOME_Q04",
+    "outcome_b": "OUTCOME_D06"
+  },
+  {
+    "case_id": "v3631-diagnostic-010",
+    "split": "diagnostic",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_H96",
+    "entity_b": "ENTITY_R52",
+    "state_a": "STATE_Q29",
+    "state_b": "STATE_M60",
+    "outcome_a": "OUTCOME_H48",
+    "outcome_b": "OUTCOME_X63"
+  }
+]

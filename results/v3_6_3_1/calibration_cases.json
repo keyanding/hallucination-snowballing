@@ -1,0 +1,362 @@
+[
+  {
+    "case_id": "v3631-calibration-001",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_P05",
+    "entity_b": "ENTITY_C91",
+    "state_a": "STATE_Y68",
+    "state_b": "STATE_C54",
+    "outcome_a": "OUTCOME_X25",
+    "outcome_b": "OUTCOME_F65"
+  },
+  {
+    "case_id": "v3631-calibration-002",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_C69",
+    "entity_b": "ENTITY_K86",
+    "state_a": "STATE_V89",
+    "state_b": "STATE_G71",
+    "outcome_a": "OUTCOME_V07",
+    "outcome_b": "OUTCOME_R84"
+  },
+  {
+    "case_id": "v3631-calibration-003",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_P39",
+    "entity_b": "ENTITY_B44",
+    "state_a": "STATE_Z89",
+    "state_b": "STATE_G47",
+    "outcome_a": "OUTCOME_Z04",
+    "outcome_b": "OUTCOME_C92"
+  },
+  {
+    "case_id": "v3631-calibration-004",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_R06",
+    "entity_b": "ENTITY_N61",
+    "state_a": "STATE_L97",
+    "state_b": "STATE_G91",
+    "outcome_a": "OUTCOME_P79",
+    "outcome_b": "OUTCOME_J36"
+  },
+  {
+    "case_id": "v3631-calibration-005",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_I66",
+    "entity_b": "ENTITY_F79",
+    "state_a": "STATE_A64",
+    "state_b": "STATE_O38",
+    "outcome_a": "OUTCOME_W76",
+    "outcome_b": "OUTCOME_L27"
+  },
+  {
+    "case_id": "v3631-calibration-006",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_N24",
+    "entity_b": "ENTITY_C68",
+    "state_a": "STATE_O41",
+    "state_b": "STATE_S85",
+    "outcome_a": "OUTCOME_W40",
+    "outcome_b": "OUTCOME_R46"
+  },
+  {
+    "case_id": "v3631-calibration-007",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_J95",
+    "entity_b": "ENTITY_V60",
+    "state_a": "STATE_G07",
+    "state_b": "STATE_N93",
+    "outcome_a": "OUTCOME_V81",
+    "outcome_b": "OUTCOME_I81"
+  },
+  {
+    "case_id": "v3631-calibration-008",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_A03",
+    "entity_b": "ENTITY_R11",
+    "state_a": "STATE_Q16",
+    "state_b": "STATE_Q13",
+    "outcome_a": "OUTCOME_C24",
+    "outcome_b": "OUTCOME_X47"
+  },
+  {
+    "case_id": "v3631-calibration-009",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_D60",
+    "entity_b": "ENTITY_G76",
+    "state_a": "STATE_N02",
+    "state_b": "STATE_E69",
+    "outcome_a": "OUTCOME_W06",
+    "outcome_b": "OUTCOME_J67"
+  },
+  {
+    "case_id": "v3631-calibration-010",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_A21",
+    "entity_b": "ENTITY_L99",
+    "state_a": "STATE_D64",
+    "state_b": "STATE_O23",
+    "outcome_a": "OUTCOME_H01",
+    "outcome_b": "OUTCOME_V82"
+  },
+  {
+    "case_id": "v3631-calibration-011",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_W86",
+    "entity_b": "ENTITY_E26",
+    "state_a": "STATE_P95",
+    "state_b": "STATE_D28",
+    "outcome_a": "OUTCOME_J90",
+    "outcome_b": "OUTCOME_I13"
+  },
+  {
+    "case_id": "v3631-calibration-012",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_Q47",
+    "entity_b": "ENTITY_D38",
+    "state_a": "STATE_N09",
+    "state_b": "STATE_K15",
+    "outcome_a": "OUTCOME_D44",
+    "outcome_b": "OUTCOME_C41"
+  },
+  {
+    "case_id": "v3631-calibration-013",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_U59",
+    "entity_b": "ENTITY_W37",
+    "state_a": "STATE_N25",
+    "state_b": "STATE_O29",
+    "outcome_a": "OUTCOME_Z17",
+    "outcome_b": "OUTCOME_I74"
+  },
+  {
+    "case_id": "v3631-calibration-014",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_A85",
+    "entity_b": "ENTITY_U43",
+    "state_a": "STATE_N28",
+    "state_b": "STATE_I71",
+    "outcome_a": "OUTCOME_Z15",
+    "outcome_b": "OUTCOME_S84"
+  },
+  {
+    "case_id": "v3631-calibration-015",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_M72",
+    "entity_b": "ENTITY_W06",
+    "state_a": "STATE_Y05",
+    "state_b": "STATE_C56",
+    "outcome_a": "OUTCOME_K68",
+    "outcome_b": "OUTCOME_X57"
+  },
+  {
+    "case_id": "v3631-calibration-016",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_Q18",
+    "entity_b": "ENTITY_M53",
+    "state_a": "STATE_A22",
+    "state_b": "STATE_C44",
+    "outcome_a": "OUTCOME_D03",
+    "outcome_b": "OUTCOME_S68"
+  },
+  {
+    "case_id": "v3631-calibration-017",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "a",
+      "b"
+    ],
+    "entity_a": "ENTITY_W69",
+    "entity_b": "ENTITY_N64",
+    "state_a": "STATE_X21",
+    "state_b": "STATE_E60",
+    "outcome_a": "OUTCOME_Y36",
+    "outcome_b": "OUTCOME_D15"
+  },
+  {
+    "case_id": "v3631-calibration-018",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_N87",
+    "entity_b": "ENTITY_Z30",
+    "state_a": "STATE_M83",
+    "state_b": "STATE_P81",
+    "outcome_a": "OUTCOME_B12",
+    "outcome_b": "OUTCOME_U88"
+  },
+  {
+    "case_id": "v3631-calibration-019",
+    "split": "calibration",
+    "up_order": [
+      "a",
+      "b"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_Y22",
+    "entity_b": "ENTITY_M81",
+    "state_a": "STATE_G24",
+    "state_b": "STATE_I58",
+    "outcome_a": "OUTCOME_U66",
+    "outcome_b": "OUTCOME_O75"
+  },
+  {
+    "case_id": "v3631-calibration-020",
+    "split": "calibration",
+    "up_order": [
+      "b",
+      "a"
+    ],
+    "down_order": [
+      "b",
+      "a"
+    ],
+    "entity_a": "ENTITY_F54",
+    "entity_b": "ENTITY_L22",
+    "state_a": "STATE_N64",
+    "state_b": "STATE_H00",
+    "outcome_a": "OUTCOME_G77",
+    "outcome_b": "OUTCOME_F64"
+  }
+]
