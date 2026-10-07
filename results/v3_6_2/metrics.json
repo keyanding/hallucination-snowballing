@@ -1,0 +1,3872 @@
+{
+  "complete": true,
+  "levels": {
+    "0": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "A_W": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "U": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        },
+        "O": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 40,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "state_pair_transitions": {
+        "C": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "Cp": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "OTHER": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "case_pairs": [
+        {
+          "case_id": "v362-001",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-002",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-003",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-004",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-005",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-006",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-007",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-008",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-009",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-010",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-011",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-012",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-013",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-014",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-015",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-016",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-017",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-018",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-019",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-020",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-021",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-022",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-023",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-024",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-025",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-026",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-027",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-028",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-029",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-030",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-031",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-032",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-033",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-034",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-035",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-036",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-037",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-038",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-039",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-040",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        }
+      ]
+    },
+    "4": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "A_W": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "U": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        },
+        "O": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 40,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "state_pair_transitions": {
+        "C": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "Cp": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "OTHER": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "case_pairs": [
+        {
+          "case_id": "v362-001",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-002",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-003",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-004",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-005",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-006",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-007",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-008",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-009",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-010",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-011",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-012",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-013",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-014",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-015",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-016",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-017",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-018",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-019",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-020",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-021",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-022",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-023",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-024",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-025",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-026",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-027",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-028",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-029",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-030",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-031",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-032",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-033",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-034",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-035",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-036",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-037",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-038",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-039",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-040",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        }
+      ]
+    },
+    "12": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "A_W": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "U": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        },
+        "O": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 40,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "state_pair_transitions": {
+        "C": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "Cp": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "OTHER": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "case_pairs": [
+        {
+          "case_id": "v362-001",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-002",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-003",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-004",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-005",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-006",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-007",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-008",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-009",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-010",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-011",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-012",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-013",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-014",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-015",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-016",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-017",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-018",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-019",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-020",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-021",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-022",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-023",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-024",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-025",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-026",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-027",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-028",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-029",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-030",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-031",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-032",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-033",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-034",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-035",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-036",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-037",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-038",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-039",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-040",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        }
+      ]
+    },
+    "24": {
+      "complete": true,
+      "metrics": {
+        "A_C": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "A_W": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "S": {
+          "count": 40,
+          "denominator": 40,
+          "rate": 1.0,
+          "wilson_95": [
+            0.9123783988027135,
+            1.0
+          ]
+        },
+        "U": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        },
+        "O": {
+          "count": 0,
+          "denominator": 80,
+          "rate": 0.0
+        }
+      },
+      "condition_counts": {
+        "C0": {
+          "C": 40,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "W0": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "state_pair_transitions": {
+        "C": {
+          "C": 0,
+          "Cp": 40,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "Cp": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "OTHER": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        },
+        "INVALID": {
+          "C": 0,
+          "Cp": 0,
+          "UNKNOWN": 0,
+          "OTHER": 0,
+          "INVALID": 0
+        }
+      },
+      "case_pairs": [
+        {
+          "case_id": "v362-001",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-002",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-003",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-004",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-005",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-006",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-007",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-008",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-009",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-010",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-011",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-012",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-013",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-014",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-015",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-016",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-017",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-018",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-019",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-020",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-021",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-022",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-023",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-024",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-025",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-026",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-027",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-028",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-029",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-030",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-031",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-032",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-033",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-034",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-035",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-036",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-037",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-038",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-039",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        },
+        {
+          "case_id": "v362-040",
+          "C0": "C",
+          "W0": "Cp",
+          "both_correct": true
+        }
+      ]
+    }
+  },
+  "degradation": {
+    "4": {
+      "complete": true,
+      "arms": {
+        "C0": {
+          "case_transitions": [
+            {
+              "case_id": "v362-001",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_V44",
+              "after_output": "OUTCOME_V44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-002",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_R91",
+              "after_output": "OUTCOME_R91",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-003",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_H21",
+              "after_output": "OUTCOME_H21",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-004",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N39",
+              "after_output": "OUTCOME_N39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-005",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_G62",
+              "after_output": "OUTCOME_G62",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-006",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F09",
+              "after_output": "OUTCOME_F09",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-007",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I67",
+              "after_output": "OUTCOME_I67",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-008",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_A99",
+              "after_output": "OUTCOME_A99",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-009",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_W32",
+              "after_output": "OUTCOME_W32",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-010",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_X55",
+              "after_output": "OUTCOME_X55",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-011",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_V35",
+              "after_output": "OUTCOME_V35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-012",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L05",
+              "after_output": "OUTCOME_L05",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-013",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_S33",
+              "after_output": "OUTCOME_S33",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-014",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F95",
+              "after_output": "OUTCOME_F95",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-015",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N44",
+              "after_output": "OUTCOME_N44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-016",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I97",
+              "after_output": "OUTCOME_I97",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-017",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y69",
+              "after_output": "OUTCOME_Y69",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-018",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L07",
+              "after_output": "OUTCOME_L07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-019",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L42",
+              "after_output": "OUTCOME_L42",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-020",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_X99",
+              "after_output": "OUTCOME_X99",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-021",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_M24",
+              "after_output": "OUTCOME_M24",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-022",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_K15",
+              "after_output": "OUTCOME_K15",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-023",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F06",
+              "after_output": "OUTCOME_F06",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-024",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Q96",
+              "after_output": "OUTCOME_Q96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-025",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N56",
+              "after_output": "OUTCOME_N56",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-026",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_K41",
+              "after_output": "OUTCOME_K41",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-027",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B74",
+              "after_output": "OUTCOME_B74",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-028",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_O79",
+              "after_output": "OUTCOME_O79",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-029",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_D59",
+              "after_output": "OUTCOME_D59",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-030",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B87",
+              "after_output": "OUTCOME_B87",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-031",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_W29",
+              "after_output": "OUTCOME_W29",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-032",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N35",
+              "after_output": "OUTCOME_N35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-033",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y37",
+              "after_output": "OUTCOME_Y37",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-034",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F71",
+              "after_output": "OUTCOME_F71",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-035",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B83",
+              "after_output": "OUTCOME_B83",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-036",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y61",
+              "after_output": "OUTCOME_Y61",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-037",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I71",
+              "after_output": "OUTCOME_I71",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-038",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L92",
+              "after_output": "OUTCOME_L92",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-039",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_P95",
+              "after_output": "OUTCOME_P95",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-040",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_S16",
+              "after_output": "OUTCOME_S16",
+              "before_correct": true,
+              "after_correct": true
+            }
+          ],
+          "category_transitions": {
+            "C": {
+              "C": 40,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "Cp": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "UNKNOWN": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "OTHER": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "INVALID": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            }
+          },
+          "correct_to_incorrect": 0,
+          "incorrect_to_correct": 0,
+          "correct_to_wrong_or_unknown": 0
+        },
+        "W0": {
+          "case_transitions": [
+            {
+              "case_id": "v362-001",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_I44",
+              "after_output": "OUTCOME_I44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-002",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P02",
+              "after_output": "OUTCOME_P02",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-003",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P45",
+              "after_output": "OUTCOME_P45",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-004",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_B88",
+              "after_output": "OUTCOME_B88",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-005",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_Q28",
+              "after_output": "OUTCOME_Q28",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-006",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D96",
+              "after_output": "OUTCOME_D96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-007",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D56",
+              "after_output": "OUTCOME_D56",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-008",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F88",
+              "after_output": "OUTCOME_F88",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-009",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_H07",
+              "after_output": "OUTCOME_H07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-010",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P65",
+              "after_output": "OUTCOME_P65",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-011",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N55",
+              "after_output": "OUTCOME_N55",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-012",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O57",
+              "after_output": "OUTCOME_O57",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-013",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X07",
+              "after_output": "OUTCOME_X07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-014",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N90",
+              "after_output": "OUTCOME_N90",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-015",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O26",
+              "after_output": "OUTCOME_O26",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-016",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F32",
+              "after_output": "OUTCOME_F32",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-017",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_Q86",
+              "after_output": "OUTCOME_Q86",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-018",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_K34",
+              "after_output": "OUTCOME_K34",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-019",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O39",
+              "after_output": "OUTCOME_O39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-020",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X22",
+              "after_output": "OUTCOME_X22",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-021",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X36",
+              "after_output": "OUTCOME_X36",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-022",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_W75",
+              "after_output": "OUTCOME_W75",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-023",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P39",
+              "after_output": "OUTCOME_P39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-024",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F96",
+              "after_output": "OUTCOME_F96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-025",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_I22",
+              "after_output": "OUTCOME_I22",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-026",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T10",
+              "after_output": "OUTCOME_T10",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-027",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_H14",
+              "after_output": "OUTCOME_H14",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-028",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F11",
+              "after_output": "OUTCOME_F11",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-029",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_R44",
+              "after_output": "OUTCOME_R44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-030",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T21",
+              "after_output": "OUTCOME_T21",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-031",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D82",
+              "after_output": "OUTCOME_D82",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-032",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_A61",
+              "after_output": "OUTCOME_A61",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-033",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_S73",
+              "after_output": "OUTCOME_S73",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-034",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D78",
+              "after_output": "OUTCOME_D78",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-035",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T38",
+              "after_output": "OUTCOME_T38",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-036",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_R60",
+              "after_output": "OUTCOME_R60",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-037",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_C73",
+              "after_output": "OUTCOME_C73",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-038",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_G35",
+              "after_output": "OUTCOME_G35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-039",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N26",
+              "after_output": "OUTCOME_N26",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-040",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D58",
+              "after_output": "OUTCOME_D58",
+              "before_correct": true,
+              "after_correct": true
+            }
+          ],
+          "category_transitions": {
+            "C": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "Cp": {
+              "C": 0,
+              "Cp": 40,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "UNKNOWN": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "OTHER": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "INVALID": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            }
+          },
+          "correct_to_incorrect": 0,
+          "incorrect_to_correct": 0,
+          "correct_to_wrong_or_unknown": 0
+        }
+      },
+      "paired_lost": [],
+      "paired_gained": [],
+      "lost_count": 0,
+      "gained_count": 0,
+      "deltas": {
+        "delta_C": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "delta_W": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "delta_S": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        }
+      }
+    },
+    "12": {
+      "complete": true,
+      "arms": {
+        "C0": {
+          "case_transitions": [
+            {
+              "case_id": "v362-001",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_V44",
+              "after_output": "OUTCOME_V44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-002",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_R91",
+              "after_output": "OUTCOME_R91",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-003",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_H21",
+              "after_output": "OUTCOME_H21",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-004",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N39",
+              "after_output": "OUTCOME_N39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-005",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_G62",
+              "after_output": "OUTCOME_G62",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-006",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F09",
+              "after_output": "OUTCOME_F09",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-007",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I67",
+              "after_output": "OUTCOME_I67",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-008",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_A99",
+              "after_output": "OUTCOME_A99",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-009",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_W32",
+              "after_output": "OUTCOME_W32",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-010",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_X55",
+              "after_output": "OUTCOME_X55",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-011",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_V35",
+              "after_output": "OUTCOME_V35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-012",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L05",
+              "after_output": "OUTCOME_L05",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-013",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_S33",
+              "after_output": "OUTCOME_S33",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-014",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F95",
+              "after_output": "OUTCOME_F95",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-015",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N44",
+              "after_output": "OUTCOME_N44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-016",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I97",
+              "after_output": "OUTCOME_I97",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-017",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y69",
+              "after_output": "OUTCOME_Y69",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-018",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L07",
+              "after_output": "OUTCOME_L07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-019",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L42",
+              "after_output": "OUTCOME_L42",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-020",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_X99",
+              "after_output": "OUTCOME_X99",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-021",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_M24",
+              "after_output": "OUTCOME_M24",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-022",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_K15",
+              "after_output": "OUTCOME_K15",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-023",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F06",
+              "after_output": "OUTCOME_F06",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-024",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Q96",
+              "after_output": "OUTCOME_Q96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-025",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N56",
+              "after_output": "OUTCOME_N56",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-026",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_K41",
+              "after_output": "OUTCOME_K41",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-027",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B74",
+              "after_output": "OUTCOME_B74",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-028",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_O79",
+              "after_output": "OUTCOME_O79",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-029",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_D59",
+              "after_output": "OUTCOME_D59",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-030",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B87",
+              "after_output": "OUTCOME_B87",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-031",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_W29",
+              "after_output": "OUTCOME_W29",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-032",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N35",
+              "after_output": "OUTCOME_N35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-033",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y37",
+              "after_output": "OUTCOME_Y37",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-034",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F71",
+              "after_output": "OUTCOME_F71",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-035",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B83",
+              "after_output": "OUTCOME_B83",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-036",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y61",
+              "after_output": "OUTCOME_Y61",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-037",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I71",
+              "after_output": "OUTCOME_I71",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-038",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L92",
+              "after_output": "OUTCOME_L92",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-039",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_P95",
+              "after_output": "OUTCOME_P95",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-040",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_S16",
+              "after_output": "OUTCOME_S16",
+              "before_correct": true,
+              "after_correct": true
+            }
+          ],
+          "category_transitions": {
+            "C": {
+              "C": 40,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "Cp": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "UNKNOWN": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "OTHER": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "INVALID": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            }
+          },
+          "correct_to_incorrect": 0,
+          "incorrect_to_correct": 0,
+          "correct_to_wrong_or_unknown": 0
+        },
+        "W0": {
+          "case_transitions": [
+            {
+              "case_id": "v362-001",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_I44",
+              "after_output": "OUTCOME_I44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-002",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P02",
+              "after_output": "OUTCOME_P02",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-003",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P45",
+              "after_output": "OUTCOME_P45",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-004",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_B88",
+              "after_output": "OUTCOME_B88",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-005",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_Q28",
+              "after_output": "OUTCOME_Q28",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-006",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D96",
+              "after_output": "OUTCOME_D96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-007",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D56",
+              "after_output": "OUTCOME_D56",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-008",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F88",
+              "after_output": "OUTCOME_F88",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-009",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_H07",
+              "after_output": "OUTCOME_H07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-010",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P65",
+              "after_output": "OUTCOME_P65",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-011",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N55",
+              "after_output": "OUTCOME_N55",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-012",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O57",
+              "after_output": "OUTCOME_O57",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-013",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X07",
+              "after_output": "OUTCOME_X07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-014",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N90",
+              "after_output": "OUTCOME_N90",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-015",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O26",
+              "after_output": "OUTCOME_O26",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-016",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F32",
+              "after_output": "OUTCOME_F32",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-017",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_Q86",
+              "after_output": "OUTCOME_Q86",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-018",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_K34",
+              "after_output": "OUTCOME_K34",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-019",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O39",
+              "after_output": "OUTCOME_O39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-020",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X22",
+              "after_output": "OUTCOME_X22",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-021",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X36",
+              "after_output": "OUTCOME_X36",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-022",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_W75",
+              "after_output": "OUTCOME_W75",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-023",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P39",
+              "after_output": "OUTCOME_P39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-024",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F96",
+              "after_output": "OUTCOME_F96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-025",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_I22",
+              "after_output": "OUTCOME_I22",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-026",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T10",
+              "after_output": "OUTCOME_T10",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-027",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_H14",
+              "after_output": "OUTCOME_H14",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-028",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F11",
+              "after_output": "OUTCOME_F11",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-029",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_R44",
+              "after_output": "OUTCOME_R44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-030",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T21",
+              "after_output": "OUTCOME_T21",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-031",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D82",
+              "after_output": "OUTCOME_D82",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-032",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_A61",
+              "after_output": "OUTCOME_A61",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-033",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_S73",
+              "after_output": "OUTCOME_S73",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-034",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D78",
+              "after_output": "OUTCOME_D78",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-035",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T38",
+              "after_output": "OUTCOME_T38",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-036",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_R60",
+              "after_output": "OUTCOME_R60",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-037",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_C73",
+              "after_output": "OUTCOME_C73",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-038",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_G35",
+              "after_output": "OUTCOME_G35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-039",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N26",
+              "after_output": "OUTCOME_N26",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-040",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D58",
+              "after_output": "OUTCOME_D58",
+              "before_correct": true,
+              "after_correct": true
+            }
+          ],
+          "category_transitions": {
+            "C": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "Cp": {
+              "C": 0,
+              "Cp": 40,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "UNKNOWN": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "OTHER": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "INVALID": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            }
+          },
+          "correct_to_incorrect": 0,
+          "incorrect_to_correct": 0,
+          "correct_to_wrong_or_unknown": 0
+        }
+      },
+      "paired_lost": [],
+      "paired_gained": [],
+      "lost_count": 0,
+      "gained_count": 0,
+      "deltas": {
+        "delta_C": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "delta_W": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "delta_S": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        }
+      }
+    },
+    "24": {
+      "complete": true,
+      "arms": {
+        "C0": {
+          "case_transitions": [
+            {
+              "case_id": "v362-001",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_V44",
+              "after_output": "OUTCOME_V44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-002",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_R91",
+              "after_output": "OUTCOME_R91",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-003",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_H21",
+              "after_output": "OUTCOME_H21",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-004",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N39",
+              "after_output": "OUTCOME_N39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-005",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_G62",
+              "after_output": "OUTCOME_G62",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-006",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F09",
+              "after_output": "OUTCOME_F09",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-007",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I67",
+              "after_output": "OUTCOME_I67",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-008",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_A99",
+              "after_output": "OUTCOME_A99",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-009",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_W32",
+              "after_output": "OUTCOME_W32",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-010",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_X55",
+              "after_output": "OUTCOME_X55",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-011",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_V35",
+              "after_output": "OUTCOME_V35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-012",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L05",
+              "after_output": "OUTCOME_L05",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-013",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_S33",
+              "after_output": "OUTCOME_S33",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-014",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F95",
+              "after_output": "OUTCOME_F95",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-015",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N44",
+              "after_output": "OUTCOME_N44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-016",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I97",
+              "after_output": "OUTCOME_I97",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-017",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y69",
+              "after_output": "OUTCOME_Y69",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-018",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L07",
+              "after_output": "OUTCOME_L07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-019",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L42",
+              "after_output": "OUTCOME_L42",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-020",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_X99",
+              "after_output": "OUTCOME_X99",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-021",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_M24",
+              "after_output": "OUTCOME_M24",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-022",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_K15",
+              "after_output": "OUTCOME_K15",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-023",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F06",
+              "after_output": "OUTCOME_F06",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-024",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Q96",
+              "after_output": "OUTCOME_Q96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-025",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N56",
+              "after_output": "OUTCOME_N56",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-026",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_K41",
+              "after_output": "OUTCOME_K41",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-027",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B74",
+              "after_output": "OUTCOME_B74",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-028",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_O79",
+              "after_output": "OUTCOME_O79",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-029",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_D59",
+              "after_output": "OUTCOME_D59",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-030",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B87",
+              "after_output": "OUTCOME_B87",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-031",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_W29",
+              "after_output": "OUTCOME_W29",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-032",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_N35",
+              "after_output": "OUTCOME_N35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-033",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y37",
+              "after_output": "OUTCOME_Y37",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-034",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_F71",
+              "after_output": "OUTCOME_F71",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-035",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_B83",
+              "after_output": "OUTCOME_B83",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-036",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_Y61",
+              "after_output": "OUTCOME_Y61",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-037",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_I71",
+              "after_output": "OUTCOME_I71",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-038",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_L92",
+              "after_output": "OUTCOME_L92",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-039",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_P95",
+              "after_output": "OUTCOME_P95",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-040",
+              "before": "C",
+              "after": "C",
+              "before_output": "OUTCOME_S16",
+              "after_output": "OUTCOME_S16",
+              "before_correct": true,
+              "after_correct": true
+            }
+          ],
+          "category_transitions": {
+            "C": {
+              "C": 40,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "Cp": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "UNKNOWN": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "OTHER": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "INVALID": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            }
+          },
+          "correct_to_incorrect": 0,
+          "incorrect_to_correct": 0,
+          "correct_to_wrong_or_unknown": 0
+        },
+        "W0": {
+          "case_transitions": [
+            {
+              "case_id": "v362-001",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_I44",
+              "after_output": "OUTCOME_I44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-002",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P02",
+              "after_output": "OUTCOME_P02",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-003",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P45",
+              "after_output": "OUTCOME_P45",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-004",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_B88",
+              "after_output": "OUTCOME_B88",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-005",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_Q28",
+              "after_output": "OUTCOME_Q28",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-006",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D96",
+              "after_output": "OUTCOME_D96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-007",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D56",
+              "after_output": "OUTCOME_D56",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-008",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F88",
+              "after_output": "OUTCOME_F88",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-009",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_H07",
+              "after_output": "OUTCOME_H07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-010",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P65",
+              "after_output": "OUTCOME_P65",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-011",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N55",
+              "after_output": "OUTCOME_N55",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-012",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O57",
+              "after_output": "OUTCOME_O57",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-013",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X07",
+              "after_output": "OUTCOME_X07",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-014",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N90",
+              "after_output": "OUTCOME_N90",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-015",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O26",
+              "after_output": "OUTCOME_O26",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-016",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F32",
+              "after_output": "OUTCOME_F32",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-017",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_Q86",
+              "after_output": "OUTCOME_Q86",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-018",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_K34",
+              "after_output": "OUTCOME_K34",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-019",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_O39",
+              "after_output": "OUTCOME_O39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-020",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X22",
+              "after_output": "OUTCOME_X22",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-021",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_X36",
+              "after_output": "OUTCOME_X36",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-022",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_W75",
+              "after_output": "OUTCOME_W75",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-023",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_P39",
+              "after_output": "OUTCOME_P39",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-024",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F96",
+              "after_output": "OUTCOME_F96",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-025",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_I22",
+              "after_output": "OUTCOME_I22",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-026",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T10",
+              "after_output": "OUTCOME_T10",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-027",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_H14",
+              "after_output": "OUTCOME_H14",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-028",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_F11",
+              "after_output": "OUTCOME_F11",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-029",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_R44",
+              "after_output": "OUTCOME_R44",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-030",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T21",
+              "after_output": "OUTCOME_T21",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-031",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D82",
+              "after_output": "OUTCOME_D82",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-032",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_A61",
+              "after_output": "OUTCOME_A61",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-033",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_S73",
+              "after_output": "OUTCOME_S73",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-034",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D78",
+              "after_output": "OUTCOME_D78",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-035",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_T38",
+              "after_output": "OUTCOME_T38",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-036",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_R60",
+              "after_output": "OUTCOME_R60",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-037",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_C73",
+              "after_output": "OUTCOME_C73",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-038",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_G35",
+              "after_output": "OUTCOME_G35",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-039",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_N26",
+              "after_output": "OUTCOME_N26",
+              "before_correct": true,
+              "after_correct": true
+            },
+            {
+              "case_id": "v362-040",
+              "before": "Cp",
+              "after": "Cp",
+              "before_output": "OUTCOME_D58",
+              "after_output": "OUTCOME_D58",
+              "before_correct": true,
+              "after_correct": true
+            }
+          ],
+          "category_transitions": {
+            "C": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "Cp": {
+              "C": 0,
+              "Cp": 40,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "UNKNOWN": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "OTHER": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            },
+            "INVALID": {
+              "C": 0,
+              "Cp": 0,
+              "UNKNOWN": 0,
+              "OTHER": 0,
+              "INVALID": 0
+            }
+          },
+          "correct_to_incorrect": 0,
+          "incorrect_to_correct": 0,
+          "correct_to_wrong_or_unknown": 0
+        }
+      },
+      "paired_lost": [],
+      "paired_gained": [],
+      "lost_count": 0,
+      "gained_count": 0,
+      "deltas": {
+        "delta_C": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "delta_W": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        },
+        "delta_S": {
+          "numerator": 0,
+          "denominator": 40,
+          "rate": 0.0
+        }
+      }
+    }
+  },
+  "monotonic_collapse": false,
+  "paired_success_counts": [
+    40,
+    40,
+    40,
+    40
+  ],
+  "off_target_by_k": {
+    "0": 0,
+    "4": 0,
+    "12": 0,
+    "24": 0
+  },
+  "total_off_target": 0,
+  "statistical_unit": "40 paired base cases; report C0/W0 separately; 320 calls are not 320 independent populations."
+}

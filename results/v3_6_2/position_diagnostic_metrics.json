@@ -1,0 +1,802 @@
+{
+  "complete": true,
+  "bands": {
+    "beginning": {
+      "C0": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "W0": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "UNKNOWN": {
+        "count": 0,
+        "denominator": 24,
+        "rate": 0.0
+      },
+      "OTHER_INVALID": {
+        "count": 0,
+        "denominator": 24,
+        "rate": 0.0
+      }
+    },
+    "middle": {
+      "C0": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "W0": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "UNKNOWN": {
+        "count": 0,
+        "denominator": 24,
+        "rate": 0.0
+      },
+      "OTHER_INVALID": {
+        "count": 0,
+        "denominator": 24,
+        "rate": 0.0
+      }
+    },
+    "end": {
+      "C0": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "W0": {
+        "count": 12,
+        "denominator": 12,
+        "rate": 1.0
+      },
+      "UNKNOWN": {
+        "count": 0,
+        "denominator": 24,
+        "rate": 0.0
+      },
+      "OTHER_INVALID": {
+        "count": 0,
+        "denominator": 24,
+        "rate": 0.0
+      }
+    }
+  },
+  "paired_position_transitions": {
+    "beginning -> middle": [
+      {
+        "case_id": "v362-039",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-039",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-004",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-004",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-036",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-036",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-005",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-005",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-026",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-026",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-014",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-014",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-009",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-009",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-006",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-006",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-016",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-016",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-038",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-038",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-029",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-029",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-024",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-024",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      }
+    ],
+    "beginning -> end": [
+      {
+        "case_id": "v362-039",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-039",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-004",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-004",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-036",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-036",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-005",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-005",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-026",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-026",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-014",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-014",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-009",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-009",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-006",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-006",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-016",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-016",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-038",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-038",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-029",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-029",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-024",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-024",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      }
+    ],
+    "middle -> end": [
+      {
+        "case_id": "v362-039",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-039",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-004",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-004",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-036",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-036",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-005",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-005",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-026",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-026",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-014",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-014",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-009",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-009",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-006",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-006",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-016",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-016",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-038",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-038",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-029",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-029",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-024",
+        "condition": "C0",
+        "before": "C",
+        "after": "C",
+        "before_correct": true,
+        "after_correct": true
+      },
+      {
+        "case_id": "v362-024",
+        "condition": "W0",
+        "before": "Cp",
+        "after": "Cp",
+        "before_correct": true,
+        "after_correct": true
+      }
+    ]
+  },
+  "primary_identical_prompt_repeats": [
+    {
+      "case_id": "v362-006",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-026",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-029",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-016",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-006",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-024",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-004",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-026",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-036",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-038",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-029",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-009",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-004",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-005",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-014",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-024",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-039",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-009",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-005",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-039",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-014",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-038",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-036",
+      "condition": "W0",
+      "raw_identical": true,
+      "token_identical": true
+    },
+    {
+      "case_id": "v362-016",
+      "condition": "C0",
+      "raw_identical": true,
+      "token_identical": true
+    }
+  ],
+  "secondary_only": true
+}

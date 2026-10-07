@@ -1,0 +1,27 @@
+{
+  "final_decision": "ROBUST_CONTEXT_ASSAY",
+  "context_interpretation_allowed": true,
+  "triggers": {
+    "K24_gold": false,
+    "K24_wrong": false,
+    "K24_paired": false,
+    "paired_lost_at_least_four": false,
+    "monotonic_collapse": false,
+    "off_target_over_two": false
+  },
+  "main_calls": 320,
+  "diagnostic_calls": 72,
+  "off_target_by_k": {
+    "0": 0,
+    "4": 0,
+    "12": 0,
+    "24": 0
+  },
+  "monotonic_collapse": false,
+  "paired_success_counts": [
+    40,
+    40,
+    40,
+    40
+  ]
+}

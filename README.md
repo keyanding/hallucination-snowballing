@@ -2,7 +2,15 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
-## Current experiment: v3.6.1 minimal propagation diagnosis
+## Current experiment: v3.6.2 context accumulation robustness
+
+**ROBUST_CONTEXT_ASSAY.** Completed 320 main calls and 72 separate position diagnostics. At K0, K4, K12 and K24, C0, W0 and paired state-following were each 40/40. UNKNOWN, OTHER and INVALID were all zero. All paired degradation contrasts were zero. The 12-case K24 position diagnostic was correct 24/24 at each of beginning, middle and end.
+
+All cases, nested distractors, exact prompts, balanced position schedules and user-amended gate definitions were frozen before inference. The primary prompt remained the validated minimal template. This demonstrates reliability up to 24 irrelevant records in the tested synthetic setting; it does not establish natural hallucination snowballing, SHAR behavior or an internal mechanism. No subsequent phase ran.
+
+All 113 tests pass. Independent verification checked 5200 candidate tokenizations, 2080 fresh selected IDs, 392 exact token/output round trips and the decision hierarchy. All 380 historical result files are unchanged. See [report](results/v3_6_2/README.md), [interpretation](results/v3_6_2/interpretation.md), [paired diagnosis](results/v3_6_2/diagnosis.md), [full inspection](results/v3_6_2/inspection.md), [preregistration](results/v3_6_2/pre_registration.md), and [gate](results/v3_6_2/gate.json). Recompute analysis with `python -m experiments.v3_6_2.report`, then `python scripts/verify_v3_6_2.py`. Preserve the frozen experiment directory; do not rerun preparation or inference.
+
+## Previous experiment: v3.6.1 minimal propagation diagnosis
 
 **MINIMAL_ASSAY_VALIDATED.** Completed 270 calls: 160 four-family old-case replays, 80 fresh mapped calls, 10 independent unmapped controls and 20 record-order calls. All C1–C6 gates passed: gold 40/40, wrong 40/40, paired 40/40, false UNKNOWN 0/80, OTHER+INVALID 0/80, fallback 10/10. Reversed mapping identity was unchanged 20/20.
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-07 — v3.6.2 context accumulation robustness
+
+Added 40 fresh cases with nested K0/K4/K12/K24 distractors, fixed balanced position bands, exact state-only prompt differences and 72 position diagnostics. User-defined decision priority and monotonic-collapse/off-target criteria were frozen before inference. All 320 main outputs and 72 secondary outputs were correct: ROBUST_CONTEXT_ASSAY. All 113 tests and independent verification passed; 380 historical artifacts remain unchanged. No upstream layer or next phase was run.
+
 ## 2026-10-07 — v3.6.1 minimal propagation diagnosis
 
 Added static audit of all 20 old calibration cases, frozen 2×2 prompt replay, 5200-candidate tokenizer audit, 40 fresh minimal cases, 10 separate unmapped controls and 10 seeded reversed-mapping cases. Completed 270 calls: Stage C 40/40 gold, 40/40 wrong, 40/40 paired; 0/80 false UNKNOWN or invalid; fallback 10/10; order 20/20. MINIMAL_ASSAY_VALIDATED. Stage B FULL_UNKNOWN 39/40 and other families 40/40; no unique causal or mechanism attribution. 101 tests and independent verification pass; 339 previous artifacts unchanged.

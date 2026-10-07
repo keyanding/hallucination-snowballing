@@ -1,0 +1,39 @@
+{
+  "all_checks_passed": true,
+  "frozen_files": 35,
+  "historical_artifacts_unchanged": 380,
+  "candidate_tokenizations": 5200,
+  "selected_identifiers": 2080,
+  "token_output_roundtrips": 392,
+  "per_k_counts": {
+    "0": {
+      "A_C": 40,
+      "A_W": 40,
+      "S": 40,
+      "U": 0,
+      "O": 0
+    },
+    "4": {
+      "A_C": 40,
+      "A_W": 40,
+      "S": 40,
+      "U": 0,
+      "O": 0
+    },
+    "12": {
+      "A_C": 40,
+      "A_W": 40,
+      "S": 40,
+      "U": 0,
+      "O": 0
+    },
+    "24": {
+      "A_C": 40,
+      "A_W": 40,
+      "S": 40,
+      "U": 0,
+      "O": 0
+    }
+  },
+  "final_decision": "ROBUST_CONTEXT_ASSAY"
+}
