@@ -2,6 +2,14 @@
 
 Standalone research project staged inside the existing checkout. Original SHARS source files are not modified or copied. Move this directory elsewhere and supply `--shar-repo` to keep running it independently.
 
+## Project research ledger and future experiment contract
+
+The [validated findings ledger](docs/validated_findings.md) consolidates all 18 completed versions, including failed measurements and unrun stages. Its [JSON companion](docs/validated_findings.json), [audit](docs/validated_findings_audit.md), and [ledger changelog](docs/validated_findings_CHANGELOG.md) are maintained together. The current evidence validates the explicit synthetic modular pipeline; natural-error propagation and underlying integrated two-hop capability remain unresolved.
+
+Every future spec must begin with **Prior Findings Review**, reference both ledger formats, and explicitly review findings/components before its Validated Inheritance and new manipulation sections. All active warnings must be avoided or intentionally retested; modified frozen components need prior evidence, a rationale and a new validation gate. Run `python scripts/validated_findings.py review-spec --spec PATH --review PATH` before preparation; the ledger describes the review schema. This adds to the frozen historical inheritance workflow without modifying it. After each experiment, update the ledger before designing the next one.
+
+Verify evidence links, historical hashes, critical raw counts, and Markdown/JSON consistency with `python scripts/validated_findings.py verify`. Update the canonical JSON and regenerate its documents using the `render` action. This is a research summary, with no new inference.
+
 ## Current experiment: v3.6.3.1 frozen-interface two-hop pipeline
 
 **TWO_HOP_PIPELINE_VALIDATED; INTEGRATED_TWO_HOP_READY=false.** Completed exactly 360 calls: 80 calibration, 200 modular main, 40 independent shell diagnostics and 40 integrated diagnostics. Calibration A–F were each20/20 and G80/80. Main U-A, U-B, D-A, D-B, paired downstream switching and strict actual-state E2E were each40/40; G7 OTHER+INVALID0/160. All40 actual upstream outputs were forwarded unchanged, with no skips or repair.
