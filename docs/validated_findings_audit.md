@@ -4,13 +4,13 @@
 
 ## 1. 扫描范围
 
-来源提交：`165b522384ef242a18bedc3534dc456756c18dc7`；18实验版本、19结果目录；可达Git提交19个。
+来源提交：`7e1b765af51e0f59c8e134f6e5760ed626c9831b + uncommitted v3.6.4 frozen attempt (manifest hashes)`；19实验版本、20结果目录；可达Git提交20个。
 
-v1, v2, v2.1, v3, v3.1, v3.2, v3.3, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.5.1, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.3.1。
+v1, v2, v2.1, v3, v3.1, v3.2, v3.3, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.5.1, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.3.1, v3.6.4。
 
-枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。
+枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。 2026-10-09补充读取v3.6.4全部文件并检查零调用、原生崩溃记录与168提示重建；此目录尚未提交，history目录集包括待提交失败记录，历史旧目录未变。 单独核验attempt_02的72条输出token解码、完整文本分类及停止门槛；首次失败文件全部哈希不变。
 
-完整读取并解析467份结果文本；保存485份历史结果文件和104份旧实现/数据/测试/工作流文件的SHA256。Git历史结果目录与现存目录全集一致；所有experiments/v*均映射入台账。
+完整读取并解析541份结果文本；保存559份历史结果文件和113份旧实现/数据/测试/工作流文件的SHA256。Git历史结果目录与现存目录全集一致；所有experiments/v*均映射入台账。
 
 ## 2. 缺少哪些常见产物
 
@@ -37,6 +37,7 @@ v1, v2, v2.1, v3, v3.1, v3.2, v3.3, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.5.1
 | results/v3_6_2 | 30 | calibration_gate.json |
 | results/v3_6_3 | 36 | original_spec.md |
 | results/v3_6_3_1 | 40 | original_spec.md |
+| results/v3_6_4 | 74 | metrics.json, calibration_gate.json, verification.json, original_spec.md |
 
 准备草稿无gate/推理文件是预期；独立v3.5/v3.5.2未发现。v1/v2未保存独立spec副本，但有实际prompt、protocol/inspection与gate。部分早期gate仍写human review pending，本台账不把代码/代理审计升级为独立人工科学批准。
 
@@ -91,6 +92,6 @@ Markdown、audit、CHANGELOG均由JSON确定性生成；verify要求全文一致
 | RETIRED | 0 | 0 |
 | SUPERSEDED | 0 | 0 |
 
-全套145项测试通过，其中新增协议测试8项。记录：[docs/validated_findings_tests.log](../docs/validated_findings_tests.log)。新增模型调用：0。
+全套157项测试通过，其中新增协议测试8项。记录：[docs/validated_findings_tests.log](../docs/validated_findings_tests.log)。新增模型调用：0。
 
 这些是F条目计数，不包含C/M/Q。未新增模型调用、未改历史结果或冻结代码；只新增研究台账/检查工具/测试并链接入口。台账检查不能替代人工科学判断，更新时须重新核实证据，而不能只让文本与JSON互相一致。

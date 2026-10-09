@@ -1,0 +1,28 @@
+{
+  "final_decision": "INFRASTRUCTURE_FAILURE",
+  "selected_level": null,
+  "ORDER_SENSITIVE_FRONTIER": false,
+  "order_diagnostic_evaluated": false,
+  "calls": {
+    "development": 0,
+    "confirmation": 0,
+    "order_diagnostic": 0
+  },
+  "maximum_calls": 104,
+  "downstream_calls": 0,
+  "policy": {
+    "approved_by_user": true,
+    "valid_includes_out_of_universe": false,
+    "valid_definition": "Only GOLD or TRACEABLE_WRONG, and only when TRUNCATED=false. OUT_OF_UNIVERSE and INVALID are excluded.",
+    "truncation_rule": "Even an exact GOLD or TRACEABLE_WRONG state is excluded from Valid and qualified wrong yield when TRUNCATED=true. Count truncation as an independent measurement failure.",
+    "state_universe": {
+      "EASY": 3,
+      "MID": 5,
+      "HARD": 8
+    },
+    "state_universe_rule": "Exactly the legal states explicitly present in that case/difficulty's pre-inference frozen prompt.",
+    "traceable_wrong_rule": "Exact non-gold state identifier inside the frozen case/difficulty state universe, with an existing pre-defined mapping in downstream_compatibility.json.",
+    "shared_counting_rule": "Development and confirmation use identical counting rules.",
+    "freeze_rule": "Write these definitions into spec.md, pre_registration.md and metrics implementation, and freeze before inference."
+  }
+}

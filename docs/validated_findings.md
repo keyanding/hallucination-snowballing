@@ -2,7 +2,7 @@
 
 ## How to use this file
 
-截至 2026-10-08（Asia/Shanghai），来源提交 `165b522384ef242a18bedc3534dc456756c18dc7`。零新模型调用；信心等级针对注明范围内陈述，非总体效应或假说真值概率。
+截至 2026-10-09（Asia/Shanghai），来源提交 `7e1b765af51e0f59c8e134f6e5760ed626c9831b + uncommitted v3.6.4 frozen attempt (manifest hashes)`。登记19个实验版本，均已有模型调用；v3.6.4首次0调用加载失败记录仍保留，用户随后授权同配置单次重试并完成72次开发调用。台账维护和独立核验本身零模型调用；信心等级限于注明范围。
 
 JSON是规范数据源；本Markdown、audit和CHANGELOG由同一数据源生成。F为发现、C为可复用组件、M为测量失败视图、Q为待解决问题。HIGH表示范围内有直接且较强记录支撑，不表示跨模型/总体普适；LOW的开放问题仍是假说。
 
@@ -16,13 +16,13 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 ## Current research boundary
 
-已验证显式符号跟随、至24条无关映射已测鲁棒性、上游查表与正确实际状态模块管线；未验证自然错误传播、集成底层能力或SHAR/HalluSE作用。
+已验证显式符号跟随、至24条无关映射已测鲁棒性、上游查表与正确实际状态模块管线；未验证自然错误传播、集成底层能力或SHAR/HalluSE作用。 v3.6.4授权重试后完成开发72次，三个难度合格自然错误均0/24；未触发确认或传播。
 
 当前最强正结论是**模块化显式符号管线通过**；最重要限制是**自然错误传播仍未测，集成底层能力仍不确定**。所有百分比须保留分母；同一案例的条件/顺序重复不当作独立样本。
 
 ## Version-by-version evidence map
 
-共18个已执行版本；另1个准备草稿不计实验。早期目录使用smoke/calibration前缀，同样纳入。
+共19个已执行版本；另1个准备草稿不计实验。早期目录使用smoke/calibration前缀，同样纳入。
 
 | 版本 | 阶段 | 冻结门槛/研究状态 |
 |---|---|---|
@@ -44,6 +44,7 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 | v3.6.2 | 无关映射累积 | ROBUST_CONTEXT_ASSAY |
 | v3.6.3 | 上游+新下游shell | STOP_TWO_HOP_CALIBRATION_INVALID |
 | v3.6.3.1 | 冻结接口真实状态管线 | TWO_HOP_PIPELINE_VALIDATED；集成未就绪 |
+| v3.6.4 | 自然第一跳错误前沿资格；首次加载失败后用户授权单次重试 | NO_NATURAL_ERROR_FRONTIER；首次INFRASTRUCTURE_FAILURE保留 |
 
 ### v1 — 语义依赖smoke
 
@@ -405,6 +406,26 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 证据：[results/v3_6_3_1/README.md](../results/v3_6_3_1/README.md)；[results/v3_6_3_1/gate.json](../results/v3_6_3_1/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/v3_6_3_1/integrated_metrics.json](../results/v3_6_3_1/integrated_metrics.json)；[results/v3_6_3_1/shell_diagnostic_metrics.json](../results/v3_6_3_1/shell_diagnostic_metrics.json)；[results/v3_6_3_1/diagnostic_observations.md](../results/v3_6_3_1/diagnostic_observations.md)；[results/v3_6_3_1/parsed_outcomes.jsonl](../results/v3_6_3_1/parsed_outcomes.jsonl)
 
+### v3.6.4 — 自然第一跳错误前沿资格；首次加载失败后用户授权单次重试
+
+**状态：NO_NATURAL_ERROR_FRONTIER；首次INFRASTRUCTURE_FAILURE保留**
+
+**研究问题：** 自由生成的两关系上游任务能否产生独立确认的有效可追溯自然错误？
+
+**最小设计：** 24开发基础案例×3/5/8路径的EASY/MID/HARD=72计划调用；通过后24独立确认+8顺序诊断，最多104。48案例及全部168备选提示预冻结。
+
+**关键结果（保留分母）：** 首次加载失败0调用。用户授权同配置重试完成72开发调用：EASY GOLD/Valid24/24，MID23/24，HARD23/24；三个难度TRACEABLE_WRONG均0/24；MID/HARD各1个前缀缺失INVALID；OUT_OF_UNIVERSE和截断均0/72。确认/顺序/下游0调用。
+
+**有效结论：** 冻结两关系任务在本次开发集没有产生达到门槛的有效可追溯自然错误，按预注册停止；成功重试证明本次可加载执行，未定位首次崩溃根因。
+
+**未建立：** 未建立自然错误前沿、顺序稳定性或自然传播；零合格错误不等于所有任务不能产错，也不等于零传播率。
+
+**测量问题：** 第一次torch_cpu.dll原生访问冲突0xc0000005。重试无崩溃、无截断；两条只输出后缀的回答按冻结parser记INVALID，不修复为正确状态。
+
+**后续设计含义：** 保持自然错误资格和独立确认门槛，不把格式错误计作可追溯语义错误；后续设计须另行预注册。首次失败和重试独立保留。
+
+证据：[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/windows_crash_event.json](../results/v3_6_4/windows_crash_event.json)；[results/v3_6_4/pre_registration.md](../results/v3_6_4/pre_registration.md)；[results/v3_6_4/development_metrics.json](../results/v3_6_4/development_metrics.json)；[results/v3_6_4/independent_verification.json](../results/v3_6_4/independent_verification.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)；[results/v3_6_4/attempt_02/development_outputs.jsonl](../results/v3_6_4/attempt_02/development_outputs.jsonl)；[results/v3_6_4/attempt_02/independent_verification.json](../results/v3_6_4/attempt_02/independent_verification.json)；[results/v3_6_4/attempt_02/retry_authorization.json](../results/v3_6_4/attempt_02/retry_authorization.json)
+
 准备草稿：[results/calibration_v3_4_1_preparation_draft/README.md](../results/calibration_v3_4_1_preparation_draft/README.md)；War标题误作genre在推理前修正，未运行模型，不计第二次实验。
 
 ## Consolidated findings
@@ -601,11 +622,11 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 #### F18 — 未建立稳定可用的自然错误前沿
 
-状态：**INCONCLUSIVE**；信心：**HIGH**；版本：v3.4.1, v3.4.2, v3.4.3, v3.4.4。
+状态：**INCONCLUSIVE**；信心：**HIGH**；版本：v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.6.4。
 
 **范围：** 各自开发/诊断/确认设计，不是统一连续难度标尺。
 
-**精确结果：** v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。
+**精确结果：** v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。 v3.6.4是模型加载失败、零推理，故自然错误yield未评估，不能算作又一次零错误观察。 随后用户授权同配置单次重试：EASY/MID/HARD合格错误各0/24，Valid24/24、23/24、23/24，无截断；未选择难度、未确认。
 
 **设计含义：** 需新独立前沿与错误yield确认，不能按错挑例或放宽阈值。
 
@@ -613,15 +634,15 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 替代：无；被替代：无；开放跟进：Q01。
 
-证据：[results/calibration_v3_4_1/gate.json](../results/calibration_v3_4_1/gate.json)；[results/calibration_v3_4_1/diagnosis.md](../results/calibration_v3_4_1/diagnosis.md)；[results/calibration_v3_4_2/gate.json](../results/calibration_v3_4_2/gate.json)；[results/calibration_v3_4_2/diagnosis.md](../results/calibration_v3_4_2/diagnosis.md)；[results/calibration_v3_4_3/frontier_salvage.md](../results/calibration_v3_4_3/frontier_salvage.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)
+证据：[results/calibration_v3_4_1/gate.json](../results/calibration_v3_4_1/gate.json)；[results/calibration_v3_4_1/diagnosis.md](../results/calibration_v3_4_1/diagnosis.md)；[results/calibration_v3_4_2/gate.json](../results/calibration_v3_4_2/gate.json)；[results/calibration_v3_4_2/diagnosis.md](../results/calibration_v3_4_2/diagnosis.md)；[results/calibration_v3_4_3/frontier_salvage.md](../results/calibration_v3_4_3/frontier_salvage.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)
 
 #### F19 — 合格自然错误产出持续不足
 
-状态：**ACTIVE_WARNING**；信心：**HIGH**；版本：v3.3, v3.4, v3.4.4, v3.6.3.1。
+状态：**ACTIVE_WARNING**；信心：**HIGH**；版本：v3.3, v3.4, v3.4.4, v3.6.3.1, v3.6.4。
 
 **范围：** 已执行传播分支及被选择/确认的路线；自然状态需未强制生成、有效、错误且关系证据可追溯，不表示所有开发条件都没有错选。
 
-**精确结果：** v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。
+**精确结果：** v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。 v3.6.4是模型加载失败、零推理，故自然错误yield未评估，不能算作又一次零错误观察。 随后用户授权同配置单次重试：EASY/MID/HARD合格错误各0/24，Valid24/24、23/24、23/24，无截断；未选择难度、未确认。
 
 **设计含义：** 自然错误yield与证据资格前置；零合格传播率null。
 
@@ -629,7 +650,7 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 替代：无；被替代：无；开放跟进：Q01。
 
-证据：[results/smoke_v3_3/eligibility_review.json](../results/smoke_v3_3/eligibility_review.json)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/smoke_v3_4/metrics.json](../results/smoke_v3_4/metrics.json)；[results/smoke_v3_4/diagnosis.md](../results/smoke_v3_4/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)
+证据：[results/smoke_v3_3/eligibility_review.json](../results/smoke_v3_3/eligibility_review.json)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/smoke_v3_4/metrics.json](../results/smoke_v3_4/metrics.json)；[results/smoke_v3_4/diagnosis.md](../results/smoke_v3_4/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)
 
 ### Prompt / presentation brittleness
 
@@ -930,11 +951,11 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 **为何重要：** 核心目标未被注入实验替代。
 
-**当前证据：** 自然关系分母0；候选任务错误yield不足；最新U-A全对。
+**当前证据：** 自然关系分母0；候选任务错误yield不足；最新U-A全对。 v3.6.4冻结后加载崩溃，零推理；没有新增自然错误或传播证据。 授权重试完成72开发调用，合格错误0，故确认与自然传播仍未执行。
 
 **解决标准：** 独立确认足够未强制、严格有效、错误且关系可追溯的状态，原样转发；报告条件分母/正确上游对照。
 
-证据：[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)
+证据：[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)
 
 ### Q02 — 分离格式/截断后集成两跳是否可靠？
 
@@ -1078,3 +1099,5 @@ EXPERIMENT_WORKFLOW.md和experiments/inheritance.py在旧manifest冻结，本次
 ## Change Log
 
 - 2026-10-08：创建项目级研究台账，扫描18实验版本/19结果目录（含1个推理前草稿），提取27发现，激活未来spec继承协议；零新模型调用，历史不变。
+- 2026-10-09：纳入v3.6.4冻结后模型加载失败：INFRASTRUCTURE_FAILURE，0调用，所有科学指标未评估。用户明确Valid=未截断GOLD/TRACEABLE_WRONG，状态全集为提示中的3/5/8个状态且预有下游映射。保留27项发现及原状态，不将工程崩溃升级为能力/错误yield结论；F18/F19/Q01注明未获得新观察。扩展文件清单及哈希，历史结果和冻结代码不变。
+- 2026-10-09：用户明确授权v3.6.4单次重试；原始失败记录逐字保留，attempt_02复用原科学冻结。72调用正常完成，EASY/MID/HARD Valid24/24、23/24、23/24，合格错误均0/24，2个前缀缺失INVALID、0截断。NO_NATURAL_ERROR_FRONTIER，按预注册不运行确认/顺序/下游；27项发现状态不变，F18/F19/Q01补入实际开发观察。

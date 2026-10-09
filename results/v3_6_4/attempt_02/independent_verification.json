@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "original_attempt_unchanged": true,
+  "scientific_freeze_unchanged": true,
+  "decoded_output_round_trips": 72,
+  "counts": {
+    "EASY": {
+      "GOLD": 24,
+      "TRUNCATED": 0
+    },
+    "MID": {
+      "GOLD": 23,
+      "TRUNCATED": 0,
+      "INVALID": 1
+    },
+    "HARD": {
+      "GOLD": 23,
+      "TRUNCATED": 0,
+      "INVALID": 1
+    }
+  },
+  "first_attempt_calls": 0,
+  "retry_calls": 72,
+  "additional_model_calls_for_verification": 0
+}

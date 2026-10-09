@@ -1,0 +1,6 @@
+{
+  "TimeCreated": "2026-10-09T08:56:47.468639+08:00",
+  "ProviderName": "Application Error",
+  "Id": 1000,
+  "Message": "出错应用程序名称： python.exe，版本： 3.11.9150.1013，时间戳： 0x660bda91\r\n出错模块名称： torch_cpu.dll， 版本： 0.0.0.0，时间戳： 0x6837cbfa\r\n异常代码： 0xc0000005\r\n错误偏移： 0x0000000006013f94\r\n出错进程 ID： 0x8004\r\n出错应用程序开始时间： 0x1DD57890717BA70\r\nFaulting 应用程序路径： C:\\Users\\kding\\AppData\\Local\\Programs\\Python\\Python311\\python.exe\r\nFaulting 模块路径： C:\\Users\\kding\\Documents\\Git_Projects\\hallucination-rejection-sampling\\.venv\\Lib\\site-packages\\torch\\lib\\torch_cpu.dll\r\nReport ID： 2708fc14-68a6-49a0-b1f4-13528ad5e2df\r\nFaulting 包全名： \r\nFaulting 程序包相对应用程序 ID：  个"
+}

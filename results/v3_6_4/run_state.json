@@ -1,0 +1,11 @@
+{
+  "status": "INFRASTRUCTURE_FAILURE",
+  "counts": {
+    "development": 0,
+    "confirmation": 0,
+    "order_diagnostic": 0
+  },
+  "failure_phase": "model_loading",
+  "native_crash": true,
+  "closed_after_observed_process_exit": true
+}

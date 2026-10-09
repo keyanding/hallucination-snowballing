@@ -1,0 +1,13 @@
+{
+  "kind": "NATIVE_PROCESS_CRASH",
+  "phase": "model_loading",
+  "process_exit_code": 1,
+  "windows_module": "torch_cpu.dll",
+  "windows_exception_code": "0xc0000005",
+  "windows_event": "windows_crash_event.json",
+  "python_traceback_available": false,
+  "generated_calls": 0,
+  "retried": false,
+  "root_cause": "Unknown; Windows reports native access violation. No evidence identifies OOM, GPU shortage or model-data corruption.",
+  "observed_utc": "2026-10-09T00:59:27.601418+00:00"
+}

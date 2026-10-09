@@ -1,0 +1,1826 @@
+[
+  {
+    "case_id": "v364-confirmation-001",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_E33",
+        "state": "STATE_Q12",
+        "outcome": "OUTCOME_D05",
+        "marker": "G"
+      },
+      {
+        "entity": "ENTITY_H23",
+        "state": "STATE_R22",
+        "outcome": "OUTCOME_F34",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_D96",
+        "state": "STATE_C73",
+        "outcome": "OUTCOME_A21",
+        "marker": "Z"
+      },
+      {
+        "entity": "ENTITY_H76",
+        "state": "STATE_V09",
+        "outcome": "OUTCOME_L89",
+        "marker": "M"
+      },
+      {
+        "entity": "ENTITY_Z76",
+        "state": "STATE_K71",
+        "outcome": "OUTCOME_Q76",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_K16",
+        "state": "STATE_Y63",
+        "outcome": "OUTCOME_V73",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_E78",
+        "state": "STATE_P70",
+        "outcome": "OUTCOME_O02",
+        "marker": "N"
+      },
+      {
+        "entity": "ENTITY_N62",
+        "state": "STATE_Z37",
+        "outcome": "OUTCOME_J93",
+        "marker": "R"
+      }
+    ],
+    "entity_order": [
+      2,
+      3,
+      1,
+      7,
+      6,
+      4,
+      0,
+      5
+    ],
+    "mapping_order": [
+      3,
+      4,
+      2,
+      7,
+      5,
+      0,
+      1,
+      6
+    ],
+    "query": "ENTITY_E33",
+    "gold": "STATE_Q12"
+  },
+  {
+    "case_id": "v364-confirmation-002",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_G58",
+        "state": "STATE_B95",
+        "outcome": "OUTCOME_F55",
+        "marker": "E"
+      },
+      {
+        "entity": "ENTITY_T69",
+        "state": "STATE_Z15",
+        "outcome": "OUTCOME_N52",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_E17",
+        "state": "STATE_M74",
+        "outcome": "OUTCOME_J88",
+        "marker": "M"
+      },
+      {
+        "entity": "ENTITY_D75",
+        "state": "STATE_S90",
+        "outcome": "OUTCOME_R68",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_V07",
+        "state": "STATE_Y12",
+        "outcome": "OUTCOME_O34",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_P23",
+        "state": "STATE_A48",
+        "outcome": "OUTCOME_G34",
+        "marker": "B"
+      },
+      {
+        "entity": "ENTITY_Y83",
+        "state": "STATE_J80",
+        "outcome": "OUTCOME_N93",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_Z18",
+        "state": "STATE_O03",
+        "outcome": "OUTCOME_E52",
+        "marker": "L"
+      }
+    ],
+    "entity_order": [
+      0,
+      2,
+      7,
+      5,
+      4,
+      1,
+      3,
+      6
+    ],
+    "mapping_order": [
+      3,
+      7,
+      6,
+      5,
+      4,
+      0,
+      1,
+      2
+    ],
+    "query": "ENTITY_G58",
+    "gold": "STATE_B95"
+  },
+  {
+    "case_id": "v364-confirmation-003",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_M25",
+        "state": "STATE_J88",
+        "outcome": "OUTCOME_K31",
+        "marker": "U"
+      },
+      {
+        "entity": "ENTITY_E28",
+        "state": "STATE_K92",
+        "outcome": "OUTCOME_D70",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_B10",
+        "state": "STATE_Q58",
+        "outcome": "OUTCOME_S40",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_D81",
+        "state": "STATE_L87",
+        "outcome": "OUTCOME_V50",
+        "marker": "T"
+      },
+      {
+        "entity": "ENTITY_T51",
+        "state": "STATE_J58",
+        "outcome": "OUTCOME_P40",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_S23",
+        "state": "STATE_L01",
+        "outcome": "OUTCOME_L50",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_U73",
+        "state": "STATE_A51",
+        "outcome": "OUTCOME_J57",
+        "marker": "L"
+      },
+      {
+        "entity": "ENTITY_S56",
+        "state": "STATE_Y00",
+        "outcome": "OUTCOME_Y24",
+        "marker": "D"
+      }
+    ],
+    "entity_order": [
+      2,
+      3,
+      6,
+      5,
+      0,
+      7,
+      1,
+      4
+    ],
+    "mapping_order": [
+      6,
+      3,
+      1,
+      2,
+      0,
+      4,
+      5,
+      7
+    ],
+    "query": "ENTITY_M25",
+    "gold": "STATE_J88"
+  },
+  {
+    "case_id": "v364-confirmation-004",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_Y15",
+        "state": "STATE_F07",
+        "outcome": "OUTCOME_V09",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_A69",
+        "state": "STATE_P91",
+        "outcome": "OUTCOME_R62",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_O05",
+        "state": "STATE_Q40",
+        "outcome": "OUTCOME_K50",
+        "marker": "O"
+      },
+      {
+        "entity": "ENTITY_U12",
+        "state": "STATE_Q60",
+        "outcome": "OUTCOME_G45",
+        "marker": "N"
+      },
+      {
+        "entity": "ENTITY_A70",
+        "state": "STATE_U85",
+        "outcome": "OUTCOME_C40",
+        "marker": "E"
+      },
+      {
+        "entity": "ENTITY_X31",
+        "state": "STATE_H89",
+        "outcome": "OUTCOME_J59",
+        "marker": "J"
+      },
+      {
+        "entity": "ENTITY_Q43",
+        "state": "STATE_Q19",
+        "outcome": "OUTCOME_V14",
+        "marker": "D"
+      },
+      {
+        "entity": "ENTITY_M24",
+        "state": "STATE_H20",
+        "outcome": "OUTCOME_H88",
+        "marker": "Y"
+      }
+    ],
+    "entity_order": [
+      0,
+      6,
+      7,
+      1,
+      3,
+      5,
+      4,
+      2
+    ],
+    "mapping_order": [
+      6,
+      1,
+      2,
+      5,
+      4,
+      7,
+      3,
+      0
+    ],
+    "query": "ENTITY_Y15",
+    "gold": "STATE_F07"
+  },
+  {
+    "case_id": "v364-confirmation-005",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_N56",
+        "state": "STATE_G19",
+        "outcome": "OUTCOME_N01",
+        "marker": "W"
+      },
+      {
+        "entity": "ENTITY_Y58",
+        "state": "STATE_U91",
+        "outcome": "OUTCOME_V43",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_C72",
+        "state": "STATE_I73",
+        "outcome": "OUTCOME_K18",
+        "marker": "L"
+      },
+      {
+        "entity": "ENTITY_T84",
+        "state": "STATE_X57",
+        "outcome": "OUTCOME_V10",
+        "marker": "Y"
+      },
+      {
+        "entity": "ENTITY_N27",
+        "state": "STATE_S17",
+        "outcome": "OUTCOME_S94",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_S85",
+        "state": "STATE_B37",
+        "outcome": "OUTCOME_X46",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_J35",
+        "state": "STATE_B97",
+        "outcome": "OUTCOME_G68",
+        "marker": "U"
+      },
+      {
+        "entity": "ENTITY_N34",
+        "state": "STATE_E23",
+        "outcome": "OUTCOME_Z41",
+        "marker": "I"
+      }
+    ],
+    "entity_order": [
+      0,
+      1,
+      5,
+      3,
+      4,
+      6,
+      7,
+      2
+    ],
+    "mapping_order": [
+      4,
+      7,
+      3,
+      0,
+      6,
+      1,
+      2,
+      5
+    ],
+    "query": "ENTITY_N56",
+    "gold": "STATE_G19"
+  },
+  {
+    "case_id": "v364-confirmation-006",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_S63",
+        "state": "STATE_Z35",
+        "outcome": "OUTCOME_M98",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_G94",
+        "state": "STATE_M16",
+        "outcome": "OUTCOME_J40",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_Q85",
+        "state": "STATE_Y47",
+        "outcome": "OUTCOME_A33",
+        "marker": "T"
+      },
+      {
+        "entity": "ENTITY_R30",
+        "state": "STATE_A23",
+        "outcome": "OUTCOME_H57",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_Q66",
+        "state": "STATE_K59",
+        "outcome": "OUTCOME_X56",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_M19",
+        "state": "STATE_Y86",
+        "outcome": "OUTCOME_Q07",
+        "marker": "Q"
+      },
+      {
+        "entity": "ENTITY_A44",
+        "state": "STATE_E47",
+        "outcome": "OUTCOME_A95",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_N76",
+        "state": "STATE_C07",
+        "outcome": "OUTCOME_P96",
+        "marker": "O"
+      }
+    ],
+    "entity_order": [
+      1,
+      5,
+      4,
+      3,
+      6,
+      7,
+      2,
+      0
+    ],
+    "mapping_order": [
+      3,
+      4,
+      6,
+      7,
+      1,
+      5,
+      0,
+      2
+    ],
+    "query": "ENTITY_S63",
+    "gold": "STATE_Z35"
+  },
+  {
+    "case_id": "v364-confirmation-007",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_R32",
+        "state": "STATE_B89",
+        "outcome": "OUTCOME_J22",
+        "marker": "Z"
+      },
+      {
+        "entity": "ENTITY_D02",
+        "state": "STATE_R33",
+        "outcome": "OUTCOME_P80",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_N39",
+        "state": "STATE_N49",
+        "outcome": "OUTCOME_X21",
+        "marker": "B"
+      },
+      {
+        "entity": "ENTITY_J47",
+        "state": "STATE_N92",
+        "outcome": "OUTCOME_E43",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_T93",
+        "state": "STATE_I10",
+        "outcome": "OUTCOME_R08",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_X08",
+        "state": "STATE_W71",
+        "outcome": "OUTCOME_T86",
+        "marker": "X"
+      },
+      {
+        "entity": "ENTITY_J67",
+        "state": "STATE_P10",
+        "outcome": "OUTCOME_T57",
+        "marker": "N"
+      },
+      {
+        "entity": "ENTITY_B24",
+        "state": "STATE_I68",
+        "outcome": "OUTCOME_X33",
+        "marker": "D"
+      }
+    ],
+    "entity_order": [
+      7,
+      6,
+      4,
+      5,
+      0,
+      2,
+      3,
+      1
+    ],
+    "mapping_order": [
+      5,
+      7,
+      1,
+      2,
+      4,
+      0,
+      6,
+      3
+    ],
+    "query": "ENTITY_R32",
+    "gold": "STATE_B89"
+  },
+  {
+    "case_id": "v364-confirmation-008",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_E66",
+        "state": "STATE_O09",
+        "outcome": "OUTCOME_G95",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_M33",
+        "state": "STATE_D23",
+        "outcome": "OUTCOME_O20",
+        "marker": "L"
+      },
+      {
+        "entity": "ENTITY_H50",
+        "state": "STATE_Y85",
+        "outcome": "OUTCOME_E03",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_O40",
+        "state": "STATE_Z70",
+        "outcome": "OUTCOME_S99",
+        "marker": "W"
+      },
+      {
+        "entity": "ENTITY_M93",
+        "state": "STATE_G54",
+        "outcome": "OUTCOME_V85",
+        "marker": "Q"
+      },
+      {
+        "entity": "ENTITY_R27",
+        "state": "STATE_W11",
+        "outcome": "OUTCOME_U85",
+        "marker": "D"
+      },
+      {
+        "entity": "ENTITY_V86",
+        "state": "STATE_T98",
+        "outcome": "OUTCOME_L72",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_I62",
+        "state": "STATE_F79",
+        "outcome": "OUTCOME_Q58",
+        "marker": "O"
+      }
+    ],
+    "entity_order": [
+      6,
+      3,
+      5,
+      0,
+      7,
+      1,
+      2,
+      4
+    ],
+    "mapping_order": [
+      4,
+      5,
+      7,
+      2,
+      1,
+      6,
+      3,
+      0
+    ],
+    "query": "ENTITY_E66",
+    "gold": "STATE_O09"
+  },
+  {
+    "case_id": "v364-confirmation-009",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_B02",
+        "state": "STATE_I93",
+        "outcome": "OUTCOME_X88",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_O62",
+        "state": "STATE_T37",
+        "outcome": "OUTCOME_B34",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_E93",
+        "state": "STATE_O22",
+        "outcome": "OUTCOME_L20",
+        "marker": "J"
+      },
+      {
+        "entity": "ENTITY_T77",
+        "state": "STATE_A71",
+        "outcome": "OUTCOME_B71",
+        "marker": "X"
+      },
+      {
+        "entity": "ENTITY_V53",
+        "state": "STATE_U98",
+        "outcome": "OUTCOME_B27",
+        "marker": "O"
+      },
+      {
+        "entity": "ENTITY_G88",
+        "state": "STATE_L13",
+        "outcome": "OUTCOME_J62",
+        "marker": "E"
+      },
+      {
+        "entity": "ENTITY_R78",
+        "state": "STATE_K64",
+        "outcome": "OUTCOME_N45",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_L15",
+        "state": "STATE_P04",
+        "outcome": "OUTCOME_R70",
+        "marker": "G"
+      }
+    ],
+    "entity_order": [
+      2,
+      4,
+      6,
+      7,
+      0,
+      3,
+      1,
+      5
+    ],
+    "mapping_order": [
+      2,
+      7,
+      6,
+      1,
+      5,
+      4,
+      3,
+      0
+    ],
+    "query": "ENTITY_B02",
+    "gold": "STATE_I93"
+  },
+  {
+    "case_id": "v364-confirmation-010",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_H94",
+        "state": "STATE_U57",
+        "outcome": "OUTCOME_U81",
+        "marker": "E"
+      },
+      {
+        "entity": "ENTITY_X71",
+        "state": "STATE_N88",
+        "outcome": "OUTCOME_A13",
+        "marker": "Y"
+      },
+      {
+        "entity": "ENTITY_X85",
+        "state": "STATE_Z02",
+        "outcome": "OUTCOME_H12",
+        "marker": "U"
+      },
+      {
+        "entity": "ENTITY_M96",
+        "state": "STATE_P36",
+        "outcome": "OUTCOME_I23",
+        "marker": "Q"
+      },
+      {
+        "entity": "ENTITY_T86",
+        "state": "STATE_I60",
+        "outcome": "OUTCOME_Y32",
+        "marker": "B"
+      },
+      {
+        "entity": "ENTITY_T80",
+        "state": "STATE_U05",
+        "outcome": "OUTCOME_V30",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_H86",
+        "state": "STATE_Q90",
+        "outcome": "OUTCOME_X51",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_X40",
+        "state": "STATE_L17",
+        "outcome": "OUTCOME_O64",
+        "marker": "L"
+      }
+    ],
+    "entity_order": [
+      0,
+      4,
+      2,
+      1,
+      6,
+      7,
+      5,
+      3
+    ],
+    "mapping_order": [
+      6,
+      0,
+      7,
+      2,
+      1,
+      5,
+      4,
+      3
+    ],
+    "query": "ENTITY_H94",
+    "gold": "STATE_U57"
+  },
+  {
+    "case_id": "v364-confirmation-011",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_A31",
+        "state": "STATE_X08",
+        "outcome": "OUTCOME_O91",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_L46",
+        "state": "STATE_Q94",
+        "outcome": "OUTCOME_H26",
+        "marker": "U"
+      },
+      {
+        "entity": "ENTITY_L53",
+        "state": "STATE_Y99",
+        "outcome": "OUTCOME_U82",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_T12",
+        "state": "STATE_P07",
+        "outcome": "OUTCOME_T94",
+        "marker": "N"
+      },
+      {
+        "entity": "ENTITY_U39",
+        "state": "STATE_T87",
+        "outcome": "OUTCOME_N92",
+        "marker": "Y"
+      },
+      {
+        "entity": "ENTITY_N66",
+        "state": "STATE_J75",
+        "outcome": "OUTCOME_K10",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_R60",
+        "state": "STATE_W44",
+        "outcome": "OUTCOME_V37",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_N43",
+        "state": "STATE_N86",
+        "outcome": "OUTCOME_U61",
+        "marker": "P"
+      }
+    ],
+    "entity_order": [
+      1,
+      2,
+      4,
+      3,
+      0,
+      5,
+      7,
+      6
+    ],
+    "mapping_order": [
+      6,
+      4,
+      3,
+      7,
+      5,
+      2,
+      0,
+      1
+    ],
+    "query": "ENTITY_A31",
+    "gold": "STATE_X08"
+  },
+  {
+    "case_id": "v364-confirmation-012",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_P32",
+        "state": "STATE_F93",
+        "outcome": "OUTCOME_L98",
+        "marker": "U"
+      },
+      {
+        "entity": "ENTITY_I59",
+        "state": "STATE_J82",
+        "outcome": "OUTCOME_O90",
+        "marker": "Q"
+      },
+      {
+        "entity": "ENTITY_S69",
+        "state": "STATE_Y24",
+        "outcome": "OUTCOME_M11",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_E21",
+        "state": "STATE_S62",
+        "outcome": "OUTCOME_D42",
+        "marker": "J"
+      },
+      {
+        "entity": "ENTITY_L93",
+        "state": "STATE_B10",
+        "outcome": "OUTCOME_E33",
+        "marker": "D"
+      },
+      {
+        "entity": "ENTITY_X49",
+        "state": "STATE_W38",
+        "outcome": "OUTCOME_D04",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_L23",
+        "state": "STATE_Y17",
+        "outcome": "OUTCOME_E44",
+        "marker": "T"
+      },
+      {
+        "entity": "ENTITY_P21",
+        "state": "STATE_Z42",
+        "outcome": "OUTCOME_G18",
+        "marker": "H"
+      }
+    ],
+    "entity_order": [
+      0,
+      7,
+      3,
+      4,
+      6,
+      5,
+      1,
+      2
+    ],
+    "mapping_order": [
+      1,
+      5,
+      3,
+      0,
+      6,
+      7,
+      4,
+      2
+    ],
+    "query": "ENTITY_P32",
+    "gold": "STATE_F93"
+  },
+  {
+    "case_id": "v364-confirmation-013",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_S93",
+        "state": "STATE_X43",
+        "outcome": "OUTCOME_C33",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_W94",
+        "state": "STATE_B58",
+        "outcome": "OUTCOME_O27",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_L70",
+        "state": "STATE_R32",
+        "outcome": "OUTCOME_K32",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_P04",
+        "state": "STATE_I83",
+        "outcome": "OUTCOME_C84",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_X05",
+        "state": "STATE_E17",
+        "outcome": "OUTCOME_U97",
+        "marker": "U"
+      },
+      {
+        "entity": "ENTITY_I61",
+        "state": "STATE_Z67",
+        "outcome": "OUTCOME_I73",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_Y05",
+        "state": "STATE_B57",
+        "outcome": "OUTCOME_F87",
+        "marker": "D"
+      },
+      {
+        "entity": "ENTITY_Y50",
+        "state": "STATE_R29",
+        "outcome": "OUTCOME_Q55",
+        "marker": "P"
+      }
+    ],
+    "entity_order": [
+      6,
+      2,
+      0,
+      3,
+      5,
+      4,
+      7,
+      1
+    ],
+    "mapping_order": [
+      6,
+      0,
+      2,
+      1,
+      3,
+      5,
+      4,
+      7
+    ],
+    "query": "ENTITY_S93",
+    "gold": "STATE_X43"
+  },
+  {
+    "case_id": "v364-confirmation-014",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_E14",
+        "state": "STATE_I44",
+        "outcome": "OUTCOME_P04",
+        "marker": "M"
+      },
+      {
+        "entity": "ENTITY_U46",
+        "state": "STATE_K12",
+        "outcome": "OUTCOME_E01",
+        "marker": "L"
+      },
+      {
+        "entity": "ENTITY_E25",
+        "state": "STATE_J42",
+        "outcome": "OUTCOME_I35",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_S01",
+        "state": "STATE_Y34",
+        "outcome": "OUTCOME_L08",
+        "marker": "T"
+      },
+      {
+        "entity": "ENTITY_C34",
+        "state": "STATE_R75",
+        "outcome": "OUTCOME_N89",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_A23",
+        "state": "STATE_A50",
+        "outcome": "OUTCOME_E89",
+        "marker": "X"
+      },
+      {
+        "entity": "ENTITY_N05",
+        "state": "STATE_F14",
+        "outcome": "OUTCOME_J77",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_Q54",
+        "state": "STATE_Q88",
+        "outcome": "OUTCOME_P52",
+        "marker": "E"
+      }
+    ],
+    "entity_order": [
+      7,
+      3,
+      6,
+      1,
+      0,
+      5,
+      2,
+      4
+    ],
+    "mapping_order": [
+      4,
+      5,
+      7,
+      3,
+      6,
+      1,
+      0,
+      2
+    ],
+    "query": "ENTITY_E14",
+    "gold": "STATE_I44"
+  },
+  {
+    "case_id": "v364-confirmation-015",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_E55",
+        "state": "STATE_T25",
+        "outcome": "OUTCOME_Y30",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_V38",
+        "state": "STATE_H38",
+        "outcome": "OUTCOME_N13",
+        "marker": "T"
+      },
+      {
+        "entity": "ENTITY_P59",
+        "state": "STATE_B69",
+        "outcome": "OUTCOME_Y86",
+        "marker": "X"
+      },
+      {
+        "entity": "ENTITY_I48",
+        "state": "STATE_G16",
+        "outcome": "OUTCOME_M02",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_D43",
+        "state": "STATE_E37",
+        "outcome": "OUTCOME_Q05",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_T72",
+        "state": "STATE_Q67",
+        "outcome": "OUTCOME_I17",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_D48",
+        "state": "STATE_B41",
+        "outcome": "OUTCOME_E22",
+        "marker": "Z"
+      },
+      {
+        "entity": "ENTITY_A19",
+        "state": "STATE_Y71",
+        "outcome": "OUTCOME_Q20",
+        "marker": "F"
+      }
+    ],
+    "entity_order": [
+      7,
+      4,
+      6,
+      2,
+      0,
+      3,
+      1,
+      5
+    ],
+    "mapping_order": [
+      2,
+      7,
+      4,
+      5,
+      3,
+      6,
+      1,
+      0
+    ],
+    "query": "ENTITY_E55",
+    "gold": "STATE_T25"
+  },
+  {
+    "case_id": "v364-confirmation-016",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_O14",
+        "state": "STATE_J00",
+        "outcome": "OUTCOME_H27",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_E45",
+        "state": "STATE_V12",
+        "outcome": "OUTCOME_G16",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_E08",
+        "state": "STATE_U56",
+        "outcome": "OUTCOME_W37",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_B37",
+        "state": "STATE_M22",
+        "outcome": "OUTCOME_V23",
+        "marker": "M"
+      },
+      {
+        "entity": "ENTITY_R72",
+        "state": "STATE_Y81",
+        "outcome": "OUTCOME_V58",
+        "marker": "N"
+      },
+      {
+        "entity": "ENTITY_R51",
+        "state": "STATE_U68",
+        "outcome": "OUTCOME_W85",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_V01",
+        "state": "STATE_T88",
+        "outcome": "OUTCOME_Q52",
+        "marker": "G"
+      },
+      {
+        "entity": "ENTITY_G67",
+        "state": "STATE_G90",
+        "outcome": "OUTCOME_K94",
+        "marker": "L"
+      }
+    ],
+    "entity_order": [
+      2,
+      1,
+      7,
+      4,
+      0,
+      5,
+      6,
+      3
+    ],
+    "mapping_order": [
+      5,
+      0,
+      6,
+      4,
+      7,
+      2,
+      1,
+      3
+    ],
+    "query": "ENTITY_O14",
+    "gold": "STATE_J00"
+  },
+  {
+    "case_id": "v364-confirmation-017",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_F42",
+        "state": "STATE_J33",
+        "outcome": "OUTCOME_A18",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_X47",
+        "state": "STATE_J07",
+        "outcome": "OUTCOME_X65",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_J03",
+        "state": "STATE_S35",
+        "outcome": "OUTCOME_R54",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_N90",
+        "state": "STATE_L66",
+        "outcome": "OUTCOME_D37",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_T31",
+        "state": "STATE_B48",
+        "outcome": "OUTCOME_P15",
+        "marker": "T"
+      },
+      {
+        "entity": "ENTITY_M56",
+        "state": "STATE_W92",
+        "outcome": "OUTCOME_K04",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_C56",
+        "state": "STATE_G09",
+        "outcome": "OUTCOME_C67",
+        "marker": "Z"
+      },
+      {
+        "entity": "ENTITY_Z48",
+        "state": "STATE_G18",
+        "outcome": "OUTCOME_B51",
+        "marker": "L"
+      }
+    ],
+    "entity_order": [
+      7,
+      6,
+      1,
+      2,
+      4,
+      5,
+      3,
+      0
+    ],
+    "mapping_order": [
+      3,
+      7,
+      5,
+      2,
+      0,
+      4,
+      6,
+      1
+    ],
+    "query": "ENTITY_F42",
+    "gold": "STATE_J33"
+  },
+  {
+    "case_id": "v364-confirmation-018",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_L73",
+        "state": "STATE_Z82",
+        "outcome": "OUTCOME_F13",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_O27",
+        "state": "STATE_Z57",
+        "outcome": "OUTCOME_B60",
+        "marker": "K"
+      },
+      {
+        "entity": "ENTITY_Q48",
+        "state": "STATE_P16",
+        "outcome": "OUTCOME_J85",
+        "marker": "R"
+      },
+      {
+        "entity": "ENTITY_L94",
+        "state": "STATE_V22",
+        "outcome": "OUTCOME_I30",
+        "marker": "H"
+      },
+      {
+        "entity": "ENTITY_B53",
+        "state": "STATE_H73",
+        "outcome": "OUTCOME_O28",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_N17",
+        "state": "STATE_R86",
+        "outcome": "OUTCOME_S74",
+        "marker": "M"
+      },
+      {
+        "entity": "ENTITY_J99",
+        "state": "STATE_P47",
+        "outcome": "OUTCOME_A11",
+        "marker": "D"
+      },
+      {
+        "entity": "ENTITY_S26",
+        "state": "STATE_T74",
+        "outcome": "OUTCOME_D19",
+        "marker": "U"
+      }
+    ],
+    "entity_order": [
+      1,
+      5,
+      4,
+      7,
+      6,
+      2,
+      0,
+      3
+    ],
+    "mapping_order": [
+      4,
+      3,
+      5,
+      1,
+      2,
+      7,
+      6,
+      0
+    ],
+    "query": "ENTITY_L73",
+    "gold": "STATE_Z82"
+  },
+  {
+    "case_id": "v364-confirmation-019",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_S36",
+        "state": "STATE_M30",
+        "outcome": "OUTCOME_L41",
+        "marker": "X"
+      },
+      {
+        "entity": "ENTITY_W51",
+        "state": "STATE_K46",
+        "outcome": "OUTCOME_J72",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_J17",
+        "state": "STATE_M23",
+        "outcome": "OUTCOME_J19",
+        "marker": "W"
+      },
+      {
+        "entity": "ENTITY_W90",
+        "state": "STATE_E58",
+        "outcome": "OUTCOME_O81",
+        "marker": "S"
+      },
+      {
+        "entity": "ENTITY_X98",
+        "state": "STATE_X11",
+        "outcome": "OUTCOME_U72",
+        "marker": "J"
+      },
+      {
+        "entity": "ENTITY_C04",
+        "state": "STATE_Z87",
+        "outcome": "OUTCOME_L48",
+        "marker": "E"
+      },
+      {
+        "entity": "ENTITY_H39",
+        "state": "STATE_Z46",
+        "outcome": "OUTCOME_I82",
+        "marker": "Y"
+      },
+      {
+        "entity": "ENTITY_Z47",
+        "state": "STATE_A60",
+        "outcome": "OUTCOME_F15",
+        "marker": "O"
+      }
+    ],
+    "entity_order": [
+      6,
+      0,
+      1,
+      4,
+      3,
+      2,
+      5,
+      7
+    ],
+    "mapping_order": [
+      2,
+      6,
+      5,
+      0,
+      4,
+      1,
+      3,
+      7
+    ],
+    "query": "ENTITY_S36",
+    "gold": "STATE_M30"
+  },
+  {
+    "case_id": "v364-confirmation-020",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_T36",
+        "state": "STATE_T47",
+        "outcome": "OUTCOME_J39",
+        "marker": "T"
+      },
+      {
+        "entity": "ENTITY_O86",
+        "state": "STATE_T52",
+        "outcome": "OUTCOME_A90",
+        "marker": "G"
+      },
+      {
+        "entity": "ENTITY_N60",
+        "state": "STATE_K56",
+        "outcome": "OUTCOME_D84",
+        "marker": "M"
+      },
+      {
+        "entity": "ENTITY_D37",
+        "state": "STATE_G79",
+        "outcome": "OUTCOME_V67",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_H38",
+        "state": "STATE_P51",
+        "outcome": "OUTCOME_Q06",
+        "marker": "Y"
+      },
+      {
+        "entity": "ENTITY_F36",
+        "state": "STATE_S33",
+        "outcome": "OUTCOME_Y39",
+        "marker": "F"
+      },
+      {
+        "entity": "ENTITY_P08",
+        "state": "STATE_K11",
+        "outcome": "OUTCOME_V26",
+        "marker": "E"
+      },
+      {
+        "entity": "ENTITY_W92",
+        "state": "STATE_I06",
+        "outcome": "OUTCOME_V16",
+        "marker": "A"
+      }
+    ],
+    "entity_order": [
+      0,
+      7,
+      1,
+      6,
+      5,
+      3,
+      4,
+      2
+    ],
+    "mapping_order": [
+      1,
+      3,
+      2,
+      5,
+      7,
+      0,
+      4,
+      6
+    ],
+    "query": "ENTITY_T36",
+    "gold": "STATE_T47"
+  },
+  {
+    "case_id": "v364-confirmation-021",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_V71",
+        "state": "STATE_X99",
+        "outcome": "OUTCOME_J38",
+        "marker": "L"
+      },
+      {
+        "entity": "ENTITY_I63",
+        "state": "STATE_B13",
+        "outcome": "OUTCOME_V99",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_T89",
+        "state": "STATE_D58",
+        "outcome": "OUTCOME_D09",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_W04",
+        "state": "STATE_J52",
+        "outcome": "OUTCOME_E74",
+        "marker": "Q"
+      },
+      {
+        "entity": "ENTITY_D89",
+        "state": "STATE_Q01",
+        "outcome": "OUTCOME_M27",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_Y81",
+        "state": "STATE_H50",
+        "outcome": "OUTCOME_R13",
+        "marker": "W"
+      },
+      {
+        "entity": "ENTITY_H15",
+        "state": "STATE_W85",
+        "outcome": "OUTCOME_I02",
+        "marker": "X"
+      },
+      {
+        "entity": "ENTITY_Y32",
+        "state": "STATE_C60",
+        "outcome": "OUTCOME_U67",
+        "marker": "U"
+      }
+    ],
+    "entity_order": [
+      1,
+      6,
+      7,
+      5,
+      2,
+      4,
+      0,
+      3
+    ],
+    "mapping_order": [
+      6,
+      2,
+      0,
+      7,
+      1,
+      3,
+      4,
+      5
+    ],
+    "query": "ENTITY_V71",
+    "gold": "STATE_X99"
+  },
+  {
+    "case_id": "v364-confirmation-022",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_T21",
+        "state": "STATE_Z36",
+        "outcome": "OUTCOME_J92",
+        "marker": "Q"
+      },
+      {
+        "entity": "ENTITY_R84",
+        "state": "STATE_V64",
+        "outcome": "OUTCOME_S10",
+        "marker": "R"
+      },
+      {
+        "entity": "ENTITY_D86",
+        "state": "STATE_L33",
+        "outcome": "OUTCOME_E56",
+        "marker": "L"
+      },
+      {
+        "entity": "ENTITY_W49",
+        "state": "STATE_B46",
+        "outcome": "OUTCOME_V00",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_K68",
+        "state": "STATE_M53",
+        "outcome": "OUTCOME_B13",
+        "marker": "B"
+      },
+      {
+        "entity": "ENTITY_N54",
+        "state": "STATE_J28",
+        "outcome": "OUTCOME_W55",
+        "marker": "I"
+      },
+      {
+        "entity": "ENTITY_W43",
+        "state": "STATE_O46",
+        "outcome": "OUTCOME_F03",
+        "marker": "P"
+      },
+      {
+        "entity": "ENTITY_L17",
+        "state": "STATE_B62",
+        "outcome": "OUTCOME_R83",
+        "marker": "W"
+      }
+    ],
+    "entity_order": [
+      4,
+      2,
+      6,
+      7,
+      1,
+      0,
+      3,
+      5
+    ],
+    "mapping_order": [
+      4,
+      1,
+      7,
+      0,
+      2,
+      6,
+      5,
+      3
+    ],
+    "query": "ENTITY_T21",
+    "gold": "STATE_Z36"
+  },
+  {
+    "case_id": "v364-confirmation-023",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_A06",
+        "state": "STATE_E48",
+        "outcome": "OUTCOME_G86",
+        "marker": "G"
+      },
+      {
+        "entity": "ENTITY_S42",
+        "state": "STATE_L62",
+        "outcome": "OUTCOME_O98",
+        "marker": "E"
+      },
+      {
+        "entity": "ENTITY_H08",
+        "state": "STATE_C41",
+        "outcome": "OUTCOME_Q73",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_N84",
+        "state": "STATE_D99",
+        "outcome": "OUTCOME_H93",
+        "marker": "M"
+      },
+      {
+        "entity": "ENTITY_U37",
+        "state": "STATE_X44",
+        "outcome": "OUTCOME_U54",
+        "marker": "J"
+      },
+      {
+        "entity": "ENTITY_R49",
+        "state": "STATE_X20",
+        "outcome": "OUTCOME_C29",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_P47",
+        "state": "STATE_W66",
+        "outcome": "OUTCOME_A44",
+        "marker": "D"
+      },
+      {
+        "entity": "ENTITY_H43",
+        "state": "STATE_D48",
+        "outcome": "OUTCOME_H39",
+        "marker": "K"
+      }
+    ],
+    "entity_order": [
+      7,
+      1,
+      2,
+      6,
+      5,
+      4,
+      0,
+      3
+    ],
+    "mapping_order": [
+      0,
+      1,
+      3,
+      2,
+      6,
+      7,
+      4,
+      5
+    ],
+    "query": "ENTITY_A06",
+    "gold": "STATE_E48"
+  },
+  {
+    "case_id": "v364-confirmation-024",
+    "split": "confirmation",
+    "members": [
+      {
+        "entity": "ENTITY_C76",
+        "state": "STATE_X00",
+        "outcome": "OUTCOME_Z27",
+        "marker": "V"
+      },
+      {
+        "entity": "ENTITY_J15",
+        "state": "STATE_A84",
+        "outcome": "OUTCOME_Q21",
+        "marker": "X"
+      },
+      {
+        "entity": "ENTITY_U97",
+        "state": "STATE_S83",
+        "outcome": "OUTCOME_C96",
+        "marker": "C"
+      },
+      {
+        "entity": "ENTITY_I32",
+        "state": "STATE_V57",
+        "outcome": "OUTCOME_K92",
+        "marker": "W"
+      },
+      {
+        "entity": "ENTITY_U75",
+        "state": "STATE_P93",
+        "outcome": "OUTCOME_N43",
+        "marker": "A"
+      },
+      {
+        "entity": "ENTITY_N37",
+        "state": "STATE_I18",
+        "outcome": "OUTCOME_O05",
+        "marker": "N"
+      },
+      {
+        "entity": "ENTITY_Z77",
+        "state": "STATE_U28",
+        "outcome": "OUTCOME_L56",
+        "marker": "Z"
+      },
+      {
+        "entity": "ENTITY_E71",
+        "state": "STATE_C57",
+        "outcome": "OUTCOME_J08",
+        "marker": "D"
+      }
+    ],
+    "entity_order": [
+      6,
+      7,
+      0,
+      4,
+      3,
+      5,
+      1,
+      2
+    ],
+    "mapping_order": [
+      5,
+      0,
+      2,
+      6,
+      3,
+      7,
+      1,
+      4
+    ],
+    "query": "ENTITY_C76",
+    "gold": "STATE_X00"
+  }
+]

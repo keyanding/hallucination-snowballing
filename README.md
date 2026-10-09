@@ -4,13 +4,21 @@ Standalone research project staged inside the existing checkout. Original SHARS 
 
 ## Project research ledger and future experiment contract
 
-The [validated findings ledger](docs/validated_findings.md) consolidates all 18 completed versions, including failed measurements and unrun stages. Its [JSON companion](docs/validated_findings.json), [audit](docs/validated_findings_audit.md), and [ledger changelog](docs/validated_findings_CHANGELOG.md) are maintained together. The current evidence validates the explicit synthetic modular pipeline; natural-error propagation and underlying integrated two-hop capability remain unresolved.
+The [validated findings ledger](docs/validated_findings.md) consolidates 19 versions with model calls, retaining the initial v3.6.4 zero-call infrastructure failure, including failed measurements and unrun stages. Its [JSON companion](docs/validated_findings.json), [audit](docs/validated_findings_audit.md), and [ledger changelog](docs/validated_findings_CHANGELOG.md) are maintained together. The current evidence validates the explicit synthetic modular pipeline; natural-error propagation and underlying integrated two-hop capability remain unresolved.
 
 Every future spec must begin with **Prior Findings Review**, reference both ledger formats, and explicitly review findings/components before its Validated Inheritance and new manipulation sections. All active warnings must be avoided or intentionally retested; modified frozen components need prior evidence, a rationale and a new validation gate. Run `python scripts/validated_findings.py review-spec --spec PATH --review PATH` before preparation; the ledger describes the review schema. This adds to the frozen historical inheritance workflow without modifying it. After each experiment, update the ledger before designing the next one.
 
 Verify evidence links, historical hashes, critical raw counts, and Markdown/JSON consistency with `python scripts/validated_findings.py verify`. Update the canonical JSON and regenerate its documents using the `render` action. This is a research summary, with no new inference.
 
-## Current experiment: v3.6.3.1 frozen-interface two-hop pipeline
+## Current experiment: v3.6.4 natural first-hop error frontier
+
+**NO_NATURAL_ERROR_FRONTIER.** After an initial zero-call native model-loading crash, the user authorized one retry with identical frozen cases, prompts, model settings and counting rules. The retry completed72 development calls: EASY GOLD/Valid24/24, MID23/24, HARD23/24; TRACEABLE_WRONG0/24 at every level. MID and HARD each had one prefix-omission INVALID. There were no out-of-universe states or truncated calls. No level qualified, so confirmation, order diagnostics and downstream propagation were not run.
+
+The initial INFRASTRUCTURE_FAILURE and all its artifacts remain unchanged. Retry outputs are isolated in [attempt_02](results/v3_6_4/attempt_02/README.md), with [raw prompts/answers](results/v3_6_4/attempt_02/inspection.md), [metrics](results/v3_6_4/attempt_02/development_metrics.json), [explicit retry authorization](results/v3_6_4/attempt_02/retry_authorization.json), and [independent verification](results/v3_6_4/attempt_02/independent_verification.json). All72 outputs passed independent token round-trip and category checks. The first crash's root cause remains undetermined.
+
+Valid counts only untruncated GOLD or TRACEABLE_WRONG; the difficulty-specific universe is exactly the3/5/8 states explicitly shown in the prompt. Wrong states must have frozen downstream mappings. No prefix repair or extraction was applied. This result does not establish the impossibility of natural errors or a zero natural propagation rate. The runner refuses additional retries; no further experiment was started.
+
+## Previous experiment: v3.6.3.1 frozen-interface two-hop pipeline
 
 **TWO_HOP_PIPELINE_VALIDATED; INTEGRATED_TWO_HOP_READY=false.** Completed exactly 360 calls: 80 calibration, 200 modular main, 40 independent shell diagnostics and 40 integrated diagnostics. Calibration A–F were each20/20 and G80/80. Main U-A, U-B, D-A, D-B, paired downstream switching and strict actual-state E2E were each40/40; G7 OTHER+INVALID0/160. All40 actual upstream outputs were forwarded unchanged, with no skips or repair.
 

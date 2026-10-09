@@ -1,0 +1,26 @@
+{
+  "evaluated": false,
+  "complete": false,
+  "calls": 0,
+  "denominator": 24,
+  "counts": {
+    "GOLD": 0,
+    "TRACEABLE_WRONG": 0,
+    "OUT_OF_UNIVERSE": 0,
+    "INVALID": 0
+  },
+  "valid": 0,
+  "qualified_traceable_wrong": 0,
+  "distinct_wrong_cases": 0,
+  "truncated": 0,
+  "qualified_wrong_rate": null,
+  "checks": {
+    "valid": false,
+    "traceable_wrong": false,
+    "invalid": true,
+    "truncated": true,
+    "distinct_wrong_cases": false
+  },
+  "passed": false,
+  "parsed": []
+}

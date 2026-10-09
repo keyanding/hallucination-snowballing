@@ -1,0 +1,13 @@
+{
+  "frozen_inputs_unchanged": true,
+  "prior_result_files_unchanged": 486,
+  "potential_prompts_rebuilt": 168,
+  "tokenizer_only_no_model_loaded": true,
+  "required_artifacts_present": 26,
+  "raw_model_calls": 0,
+  "scientific_outcomes_evaluated": false,
+  "stop": "INFRASTRUCTURE_FAILURE",
+  "tests_passed_before_inference": 157,
+  "post_run_presentation_supplement": "C:\\Users\\kding\\Documents\\Git_Projects\\hallucination-rejection-sampling\\hallucination-snowballing\\scripts\\finalize_v364_failure.py",
+  "frozen_report_source_unchanged": true
+}
