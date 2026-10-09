@@ -1,0 +1,290 @@
+{
+  "evaluated": true,
+  "complete": true,
+  "calls": 8,
+  "denominator": 8,
+  "pairs": [
+    {
+      "case_id": "v365-development-15",
+      "original": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Rolf Schübel",
+        "mentioned_candidates": [
+          "Rolf Schübel"
+        ],
+        "supplementary_identity": "Rolf Schübel",
+        "case_id": "v365-development-15",
+        "call_id": "v365-development-15/N",
+        "traceable_wrong": false
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Rolf Schübel",
+        "mentioned_candidates": [
+          "Rolf Schübel"
+        ],
+        "supplementary_identity": "Rolf Schübel",
+        "case_id": "v365-development-15",
+        "call_id": "v365-development-15/R2",
+        "traceable_wrong": false
+      },
+      "comparable": true,
+      "same_identity": true,
+      "changed_identity": false,
+      "gold_to_wrong": false,
+      "wrong_to_gold": false,
+      "wrong_to_different_wrong": false,
+      "same_wrong_identity": false
+    },
+    {
+      "case_id": "v365-development-02",
+      "original": {
+        "category": "IN_SET_VALID_WRONG",
+        "strict_valid": true,
+        "identity": "Gu Changwei",
+        "mentioned_candidates": [
+          "Gu Changwei"
+        ],
+        "supplementary_identity": "Gu Changwei",
+        "case_id": "v365-development-02",
+        "call_id": "v365-development-02/N",
+        "traceable_wrong": true
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_WRONG",
+        "strict_valid": true,
+        "identity": "Rolf Schübel",
+        "mentioned_candidates": [
+          "Rolf Schübel"
+        ],
+        "supplementary_identity": "Rolf Schübel",
+        "case_id": "v365-development-02",
+        "call_id": "v365-development-02/R2",
+        "traceable_wrong": true
+      },
+      "comparable": true,
+      "same_identity": false,
+      "changed_identity": true,
+      "gold_to_wrong": false,
+      "wrong_to_gold": false,
+      "wrong_to_different_wrong": true,
+      "same_wrong_identity": false
+    },
+    {
+      "case_id": "v365-development-01",
+      "original": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Ildikó Enyedi",
+        "mentioned_candidates": [
+          "Ildikó Enyedi"
+        ],
+        "supplementary_identity": "Ildikó Enyedi",
+        "case_id": "v365-development-01",
+        "call_id": "v365-development-01/N",
+        "traceable_wrong": false
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Ildikó Enyedi",
+        "mentioned_candidates": [
+          "Ildikó Enyedi"
+        ],
+        "supplementary_identity": "Ildikó Enyedi",
+        "case_id": "v365-development-01",
+        "call_id": "v365-development-01/R2",
+        "traceable_wrong": false
+      },
+      "comparable": true,
+      "same_identity": true,
+      "changed_identity": false,
+      "gold_to_wrong": false,
+      "wrong_to_gold": false,
+      "wrong_to_different_wrong": false,
+      "same_wrong_identity": false
+    },
+    {
+      "case_id": "v365-development-11",
+      "original": {
+        "category": "IN_SET_VALID_WRONG",
+        "strict_valid": true,
+        "identity": "Rahul Rawail",
+        "mentioned_candidates": [
+          "Rahul Rawail"
+        ],
+        "supplementary_identity": "Rahul Rawail",
+        "case_id": "v365-development-11",
+        "call_id": "v365-development-11/N",
+        "traceable_wrong": true
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Leopoldo Torre Nilsson",
+        "mentioned_candidates": [
+          "Leopoldo Torre Nilsson"
+        ],
+        "supplementary_identity": "Leopoldo Torre Nilsson",
+        "case_id": "v365-development-11",
+        "call_id": "v365-development-11/R2",
+        "traceable_wrong": false
+      },
+      "comparable": true,
+      "same_identity": false,
+      "changed_identity": true,
+      "gold_to_wrong": false,
+      "wrong_to_gold": true,
+      "wrong_to_different_wrong": false,
+      "same_wrong_identity": false
+    },
+    {
+      "case_id": "v365-development-17",
+      "original": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Rahul Rawail",
+        "mentioned_candidates": [
+          "Rahul Rawail"
+        ],
+        "supplementary_identity": "Rahul Rawail",
+        "case_id": "v365-development-17",
+        "call_id": "v365-development-17/N",
+        "traceable_wrong": false
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Rahul Rawail",
+        "mentioned_candidates": [
+          "Rahul Rawail"
+        ],
+        "supplementary_identity": "Rahul Rawail",
+        "case_id": "v365-development-17",
+        "call_id": "v365-development-17/R2",
+        "traceable_wrong": false
+      },
+      "comparable": true,
+      "same_identity": true,
+      "changed_identity": false,
+      "gold_to_wrong": false,
+      "wrong_to_gold": false,
+      "wrong_to_different_wrong": false,
+      "same_wrong_identity": false
+    },
+    {
+      "case_id": "v365-development-12",
+      "original": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Jan Svěrák",
+        "mentioned_candidates": [
+          "Jan Svěrák"
+        ],
+        "supplementary_identity": "Jan Svěrák",
+        "case_id": "v365-development-12",
+        "call_id": "v365-development-12/N",
+        "traceable_wrong": false
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_WRONG",
+        "strict_valid": true,
+        "identity": "Armando Robles Godoy",
+        "mentioned_candidates": [
+          "Armando Robles Godoy"
+        ],
+        "supplementary_identity": "Armando Robles Godoy",
+        "case_id": "v365-development-12",
+        "call_id": "v365-development-12/R2",
+        "traceable_wrong": true
+      },
+      "comparable": true,
+      "same_identity": false,
+      "changed_identity": true,
+      "gold_to_wrong": true,
+      "wrong_to_gold": false,
+      "wrong_to_different_wrong": false,
+      "same_wrong_identity": false
+    },
+    {
+      "case_id": "v365-development-04",
+      "original": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Jan Svěrák",
+        "mentioned_candidates": [
+          "Jan Svěrák"
+        ],
+        "supplementary_identity": "Jan Svěrák",
+        "case_id": "v365-development-04",
+        "call_id": "v365-development-04/N",
+        "traceable_wrong": false
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "Jan Svěrák",
+        "mentioned_candidates": [
+          "Jan Svěrák"
+        ],
+        "supplementary_identity": "Jan Svěrák",
+        "case_id": "v365-development-04",
+        "call_id": "v365-development-04/R2",
+        "traceable_wrong": false
+      },
+      "comparable": true,
+      "same_identity": true,
+      "changed_identity": false,
+      "gold_to_wrong": false,
+      "wrong_to_gold": false,
+      "wrong_to_different_wrong": false,
+      "same_wrong_identity": false
+    },
+    {
+      "case_id": "v365-development-20",
+      "original": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "León Klimovsky",
+        "mentioned_candidates": [
+          "León Klimovsky"
+        ],
+        "supplementary_identity": "León Klimovsky",
+        "case_id": "v365-development-20",
+        "call_id": "v365-development-20/N",
+        "traceable_wrong": false
+      },
+      "permuted": {
+        "category": "IN_SET_VALID_GOLD",
+        "strict_valid": true,
+        "identity": "León Klimovsky",
+        "mentioned_candidates": [
+          "León Klimovsky"
+        ],
+        "supplementary_identity": "León Klimovsky",
+        "case_id": "v365-development-20",
+        "call_id": "v365-development-20/R2",
+        "traceable_wrong": false
+      },
+      "comparable": true,
+      "same_identity": true,
+      "changed_identity": false,
+      "gold_to_wrong": false,
+      "wrong_to_gold": false,
+      "wrong_to_different_wrong": false,
+      "same_wrong_identity": false
+    }
+  ],
+  "primary_strict_valid": 8,
+  "diagnostic_strict_valid": 8,
+  "comparable": 8,
+  "same_identity": 5,
+  "changed_identity": 3,
+  "gold_to_wrong": 1,
+  "wrong_to_gold": 1,
+  "wrong_to_different_wrong": 1,
+  "same_wrong_identity": 0,
+  "PRESENTATION_SENSITIVE": false
+}

@@ -1,0 +1,270 @@
+{
+  "ledger_sha256": "7ccf8520aec0bbf098c71c1fced2c1c4d13162be9dacfb77f4dc37004a9f58b8",
+  "latest_completed_version": "v3.6.4",
+  "rows": [
+    {
+      "id": "F01",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Whole-output eligibility and independent confirmation; no denominator substitution.",
+      "modified": false
+    },
+    {
+      "id": "F02",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Synthetic explicit records avoid closed-book knowledge and birthplace granularity.",
+      "modified": false
+    },
+    {
+      "id": "F03",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F04",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F05",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No supporting prose that asserts a competing answer; exactly one gold path.",
+      "modified": false
+    },
+    {
+      "id": "F06",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No UNKNOWN instruction or fallback shell.",
+      "modified": false
+    },
+    {
+      "id": "F07",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No Recorded intermediate result shell or downstream inference.",
+      "modified": false
+    },
+    {
+      "id": "F08",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F09",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F10",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F11",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F12",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F13",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F14",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Keep historical N cap96, no sweep; truncated responses cannot be strict-valid.",
+      "modified": false
+    },
+    {
+      "id": "F15",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No answer options or numbered candidate list; records are relational evidence.",
+      "modified": false
+    },
+    {
+      "id": "F16",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "INTENTIONALLY_RETESTED",
+      "rationale": "Eight seeded complete name-record cyclic permutations; non-gating regardless of development pass.",
+      "modified": false
+    },
+    {
+      "id": "F17",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Only unconstrained greedy generation, no likelihood or constrained channel.",
+      "modified": false
+    },
+    {
+      "id": "F18",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "TARGETED",
+      "rationale": "Replicate historical HARD/N5/24 on fresh graphs, then independent confirmation if development passes.",
+      "modified": false
+    },
+    {
+      "id": "F19",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "INTENTIONALLY_RETESTED",
+      "rationale": "Fixed development4/24 and confirmation3/24 traceable wrong yield; no error-selected cases.",
+      "modified": false
+    },
+    {
+      "id": "F20",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F21",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F22",
+      "ledger_status": "OPEN_QUESTION",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F23",
+      "ledger_status": "OPEN_QUESTION",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F24",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F25",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F26",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "OVERRIDDEN",
+      "rationale": "Use exact v3.4.4 person-name parser, not later state parser; preserve raw text and no extraction.",
+      "modified": false
+    },
+    {
+      "id": "F27",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "OVERRIDDEN",
+      "rationale": "Same pinned greedy stack; cap96 matches historical N, explicitly differs from cap16 symbolic components.",
+      "modified": false
+    },
+    {
+      "id": "C01",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "C02",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "Do not run direct A-to-B shell; reuse historical D4B2 catalog graph task.",
+      "modified": false
+    },
+    {
+      "id": "C03",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No opaque-state ID task; retain historical T/R graph ID family and real-name candidates.",
+      "modified": false
+    },
+    {
+      "id": "C04",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "OVERRIDDEN",
+      "rationale": "Person-name parser is unchanged v3.4.4 implementation; later STATE normalization does not apply.",
+      "modified": true,
+      "modification": {
+        "component": "C04",
+        "prior_evidence": [
+          "experiments/v3_6_3/design.py",
+          "experiments/v3_6_3_1/design.py",
+          "results/v3_6_3_1/independent_verification.json",
+          "results/v3_6_3_1/tests.log",
+          "tests/test_v3_6_3_1.py"
+        ],
+        "reason": "Person-name parser is unchanged v3.4.4 implementation; later STATE normalization does not apply.",
+        "prior_conclusion_no_longer_applies": "Recent symbolic exact-output interface success does not validate real-name HARD/N yield.",
+        "revalidation_gate": "Zero-call historical parser/render audits; fixed Valid>=22/24 and natural-error development/confirmation gates."
+      }
+    },
+    {
+      "id": "C05",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "OVERRIDDEN",
+      "rationale": "Same model stack but cap96; historical HARD/N budget and new fixed validity/yield gates.",
+      "modified": true,
+      "modification": {
+        "component": "C05",
+        "prior_evidence": [
+          "experiments/v3_5_1/run_pilot.py",
+          "results/v3_6_3_1/chat_template.txt",
+          "results/v3_6_3_1/decoding_freeze.json",
+          "results/v3_6_3_1/independent_verification.json",
+          "results/v3_6_3_1/model_manifest.json"
+        ],
+        "reason": "Same model stack but cap96; historical HARD/N budget and new fixed validity/yield gates.",
+        "prior_conclusion_no_longer_applies": "Recent symbolic exact-output interface success does not validate real-name HARD/N yield.",
+        "revalidation_gate": "Zero-call historical parser/render audits; fixed Valid>=22/24 and natural-error development/confirmation gates."
+      }
+    },
+    {
+      "id": "C06",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "C07",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    }
+  ]
+}

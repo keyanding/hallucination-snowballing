@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "generated_on": "2026-10-09",
   "timezone": "Asia/Shanghai",
-  "generated_from_repository_state": "9e3a39e3b7f612f7dd7360336319164072626fdf + frozen v3.6.5 working-tree artifacts (manifest hashes)",
-  "scope": "登记20个已有模型调用的实验版本；v3.6.4首次零调用故障及授权重试均保留。v3.6.5完成24开发+8诊断，确认未运行。台账维护/历史复现审计/独立核验本身零模型调用；信心等级限于注明范围。",
+  "generated_from_repository_state": "9e3a39e3b7f612f7dd7360336319164072626fdf",
+  "scope": "登记19个实验版本，均已有模型调用；v3.6.4首次0调用加载失败记录仍保留，用户随后授权同配置单次重试并完成72次开发调用。台账维护和独立核验本身零模型调用；信心等级限于注明范围。",
   "project_question": "模型自然产生的错误中间状态是否传播为下游被接受的错误，何种干预能减少它？",
-  "current_boundary": "已验证显式符号跟随、至24条无关映射已测鲁棒性、上游查表与正确实际状态模块管线；未验证自然错误传播、集成底层能力或SHAR/HalluSE作用。 v3.6.4授权重试后完成开发72次，三个难度合格自然错误均0/24；未触发确认或传播。 v3.6.5复用历史HARD/N后获得3/24有效可追溯错误，但低于4/24开发门槛，未进入独立确认；自然传播依然未测。",
+  "current_boundary": "已验证显式符号跟随、至24条无关映射已测鲁棒性、上游查表与正确实际状态模块管线；未验证自然错误传播、集成底层能力或SHAR/HalluSE作用。 v3.6.4授权重试后完成开发72次，三个难度合格自然错误均0/24；未触发确认或传播。",
   "versions_scanned": [
     {
       "version": "v1",
@@ -1682,113 +1682,6 @@
           "user_authorized": true
         }
       ]
-    },
-    {
-      "version": "v3.6.5",
-      "phase": "历史HARD/N自然错误信号的定向复现",
-      "status": "HARD_N_SIGNAL_NOT_REPLICATED",
-      "research_question": "v3.4.4 HARD/N开发5/24自然错选能否在新图案例复现并通过独立确认？",
-      "minimal_design": "直接复用历史D4B2/N renderer及人名parser；24开发+24预冻结确认，8预选名称记录循环置换诊断。实际32调用=24开发+8诊断。21人物复用，48新图/目标，40新组合+8历史组合；两split组合互不重复。",
-      "exact_key_results": "历史24 HARD/N提示/图/聊天渲染逐字重建，零模型调用。新开发Valid24/24、gold21/24、可追溯错误3/24（3案例、3身份），out-of-set/ambiguous/noncompliant/truncated均0。仅错误产出未达4/24；确认未运行。诊断严格有效成对8/8，same5/8、changed3/8；gold→wrong1、wrong→gold1、wrong→different wrong1，同一错误身份保持0/2原始错误。PRESENTATION_SENSITIVE=false，因为未超过>3/8阈值，非顺序稳定。",
-      "valid_conclusion": "出现3个严格有效且预有下游证据的自由生成错选，但未达预注册复现门槛，未形成独立确认错误来源。呈现顺序变化确实改变3/8答案，单独标记未触发不抹去此观察。",
-      "not_established": "未确认自然错误信号、未测下游传播；不能证明真实错误率显著低于历史5/24，也不能推广到未见人物、真实世界知识幻觉、注入/自然等价或SHAR/HalluSE。",
-      "measurement_artifacts": "本次无格式失败或截断。开发门槛失败后依用户推理前决议仍运行8诊断；没有额外评分/约束/辅助模型调用。",
-      "design_implication": "保留3个真实开发错选及未过门槛结论，不挑例传播、不追加难度搜索；顺序标志与实际变化/覆盖并报。",
-      "evidence_files": [
-        "results/v3_6_5/README.md",
-        "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json",
-        "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/historical_interface_audit.json",
-        "results/v3_6_5/independent_verification.json",
-        "results/v3_6_5/diagnostic_observations.md",
-        "results/v3_6_5/inspection.md"
-      ],
-      "result_directory": "results/v3_6_5",
-      "artifact_inventory": {
-        "directory": "results/v3_6_5",
-        "files": 41,
-        "text_artifacts_parsed": [
-          "results/v3_6_5/alias_registry.json",
-          "results/v3_6_5/case_reuse_audit.json",
-          "results/v3_6_5/CHANGELOG.md",
-          "results/v3_6_5/chat_template.txt",
-          "results/v3_6_5/confirmation_cases.json",
-          "results/v3_6_5/confirmation_metrics.json",
-          "results/v3_6_5/confirmation_outputs.jsonl",
-          "results/v3_6_5/decoding_freeze.json",
-          "results/v3_6_5/design_audit.md",
-          "results/v3_6_5/design_audit.pre_inference.md",
-          "results/v3_6_5/development_cases.json",
-          "results/v3_6_5/development_classification.before_diagnostic.json",
-          "results/v3_6_5/development_metrics.json",
-          "results/v3_6_5/development_outputs.jsonl",
-          "results/v3_6_5/diagnosis.md",
-          "results/v3_6_5/diagnostic_observations.md",
-          "results/v3_6_5/downstream_compatibility.json",
-          "results/v3_6_5/gate.json",
-          "results/v3_6_5/historical_anchor.md",
-          "results/v3_6_5/historical_interface_audit.json",
-          "results/v3_6_5/historical_interface_audit.md",
-          "results/v3_6_5/independent_verification.json",
-          "results/v3_6_5/inspection.md",
-          "results/v3_6_5/interpretation.md",
-          "results/v3_6_5/manifest.json",
-          "results/v3_6_5/model_manifest.json",
-          "results/v3_6_5/parsed_outcomes.jsonl",
-          "results/v3_6_5/pre_registration.md",
-          "results/v3_6_5/presentation_diagnostic_metrics.json",
-          "results/v3_6_5/presentation_diagnostic_outputs.jsonl",
-          "results/v3_6_5/prior_findings_review.audit.json",
-          "results/v3_6_5/prior_findings_review.json",
-          "results/v3_6_5/prior_findings_review.md",
-          "results/v3_6_5/prior_ledger_snapshot.json",
-          "results/v3_6_5/prompt_diff_audit.md",
-          "results/v3_6_5/prompt_plan.json",
-          "results/v3_6_5/README.md",
-          "results/v3_6_5/run_state.json",
-          "results/v3_6_5/spec.md",
-          "results/v3_6_5/spec.original.md",
-          "results/v3_6_5/tests.pre_inference.log"
-        ],
-        "expected_present": [
-          "spec.md",
-          "pre_registration.md",
-          "README.md",
-          "diagnosis.md",
-          "interpretation.md",
-          "inspection.md",
-          "gate.json",
-          "design_audit.md",
-          "design_audit.pre_inference.md",
-          "CHANGELOG.md",
-          "independent_verification.json",
-          "prompt_diff_audit.md"
-        ],
-        "expected_absent": [
-          "metrics.json",
-          "calibration_gate.json",
-          "verification.json",
-          "original_spec.md"
-        ]
-      },
-      "gate_scalar_snapshot": {
-        "final_decision": "HARD_N_SIGNAL_NOT_REPLICATED",
-        "PRESENTATION_SENSITIVE": false,
-        "development_passed": false,
-        "confirmation_evaluated": false,
-        "confirmation_passed": false,
-        "presentation_evaluated": true,
-        "downstream_calls": 0,
-        "maximum_calls": 56
-      },
-      "implementation_files": [
-        "experiments/v3_6_5/analyze.py",
-        "experiments/v3_6_5/design.py",
-        "experiments/v3_6_5/prepare.py",
-        "experiments/v3_6_5/report.py",
-        "experiments/v3_6_5/run.py"
-      ]
     }
   ],
   "findings": [
@@ -2213,22 +2106,16 @@
       "evidence_versions": [
         "v3.3",
         "v3.4.4",
-        "v3.6.0",
-        "v3.6.5"
+        "v3.6.0"
       ],
       "evidence_files": [
         "results/smoke_v3_3/diagnosis.md",
         "results/calibration_v3_4_4/diagnosis.md",
         "results/calibration_v3_4_4/record_rotation_free.jsonl",
-        "results/v3_6_1/v360_failure_audit.json",
-        "results/v3_6_5/README.md",
-        "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json",
-        "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md"
+        "results/v3_6_1/v360_failure_audit.json"
       ],
-      "scope": "各版操纵分别解释；v3.6.5为完整名称记录块的单次循环置换。",
-      "exact_result": "v3.3冲突wrong8/12、gold5/12变更；v3.4.4 HARD R14/23敏感、最早41/95；v3.6.0反序5/20差异。 v3.6.5诊断3/8身份变化、8/8严格有效成对；gold→wrong1、wrong→gold1、wrong→different wrong1。PRESENTATION_SENSITIVE=false仅因阈值>3/8未触发，不表示稳定。",
+      "scope": "三类操纵分开解释。",
+      "exact_result": "v3.3冲突wrong8/12、gold5/12变更；v3.4.4 HARD R14/23敏感、最早41/95；v3.6.0反序5/20差异。",
       "design_implication": "复杂/竞争证据设置order对照，不借F09免检。",
       "do_not_infer": "不与最小位置稳定矛盾，也非统一primacy机制。",
       "supersedes": [],
@@ -2275,8 +2162,7 @@
         "v3.4.2",
         "v3.4.3",
         "v3.4.4",
-        "v3.6.4",
-        "v3.6.5"
+        "v3.6.4"
       ],
       "evidence_files": [
         "results/v3_6_4/attempt_02/README.md",
@@ -2291,15 +2177,10 @@
         "results/calibration_v3_4_4/README.md",
         "results/v3_6_4/README.md",
         "results/v3_6_4/gate.json",
-        "results/v3_6_4/failure.json",
-        "results/v3_6_5/README.md",
-        "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json",
-        "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md"
+        "results/v3_6_4/failure.json"
       ],
       "scope": "各自开发/诊断/确认设计，不是统一连续难度标尺。",
-      "exact_result": "v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。",
+      "exact_result": "v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。",
       "design_implication": "需新独立前沿与错误yield确认，不能按错挑例或放宽阈值。",
       "do_not_infer": "不是已取得顺序稳定错误状态，也非所有任务均不能产错。",
       "supersedes": [],
@@ -2319,8 +2200,7 @@
         "v3.4",
         "v3.4.4",
         "v3.6.3.1",
-        "v3.6.4",
-        "v3.6.5"
+        "v3.6.4"
       ],
       "evidence_files": [
         "results/v3_6_4/attempt_02/README.md",
@@ -2335,15 +2215,10 @@
         "results/calibration_v3_4_4/README.md",
         "results/v3_6_4/README.md",
         "results/v3_6_4/gate.json",
-        "results/v3_6_4/failure.json",
-        "results/v3_6_5/README.md",
-        "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json",
-        "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md"
+        "results/v3_6_4/failure.json"
       ],
-      "scope": "已执行传播分支及被选择/确认的路线；自然状态需未强制生成、有效、错误且关系证据可追溯，不表示所有开发条件都没有错选。 v3.6.5纳入独立确认前的预注册错误来源资格；允许存在尚未达到产出门槛的有效开发错误。",
-      "exact_result": "v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。",
+      "scope": "已执行传播分支及被选择/确认的路线；自然状态需未强制生成、有效、错误且关系证据可追溯，不表示所有开发条件都没有错选。",
+      "exact_result": "v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。",
       "design_implication": "自然错误yield与证据资格前置；零合格传播率null。",
       "do_not_infer": "注入B′不补自然分母；零合格不等于零传播。",
       "supersedes": [],
@@ -2919,13 +2794,10 @@
         "results/smoke_v3_4/diagnosis.md",
         "results/calibration_v3_4_4/gate.json",
         "results/v3_6_3_1/metrics.json",
-        "results/calibration_v3_4_4/README.md",
-        "results/v3_6_5/README.md",
-        "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json"
+        "results/calibration_v3_4_4/README.md"
       ],
-      "symptom": "错误缺关系、无效或全对；v3.6.5有3/24有效错误但不足预注册4/24产出门槛",
-      "why_it_matters": "尚未建立通过独立确认、可供后续自然传播实验使用的错误来源；有效开发错误不自动变成已确认传播分母。",
+      "symptom": "错误缺关系、无效或全对",
+      "why_it_matters": "没有自然传播分母",
       "prevention_rule": "自然错误yield与证据资格前置；零合格传播率null。",
       "status": "ACTIVE_WARNING"
     }
@@ -2935,7 +2807,7 @@
       "id": "Q01",
       "question": "合格自然第一跳错误是否沿实际状态传播？",
       "why_important": "核心目标未被注入实验替代。",
-      "current_evidence": "自然错误传播仍未测。v3.6.3.1的U-A全部正确；v3.6.4授权重试完成72次开发调用，EASY/MID/HARD合格自然错误均0/24，未选择难度，确认与自然传播均未执行。首次加载失败的0调用记录不是错误yield观察。 v3.6.5得到3/24有效可追溯自然错选，但未达4/24门槛，未确认、未传播。",
+      "current_evidence": "自然错误传播仍未测。v3.6.3.1的U-A全部正确；v3.6.4授权重试完成72次开发调用，EASY/MID/HARD合格自然错误均0/24，未选择难度，确认与自然传播均未执行。首次加载失败的0调用记录不是错误yield观察。",
       "what_would_resolve_it": "独立确认足够未强制、严格有效、错误且关系可追溯的状态，原样转发；报告条件分母/正确上游对照。",
       "dependencies": [
         "C01",
@@ -2953,10 +2825,7 @@
         "results/v3_6_4/failure.json",
         "results/v3_6_4/attempt_02/README.md",
         "results/v3_6_4/attempt_02/gate.json",
-        "results/v3_6_4/attempt_02/development_metrics.json",
-        "results/v3_6_5/README.md",
-        "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json"
+        "results/v3_6_4/attempt_02/development_metrics.json"
       ]
     },
     {
@@ -3060,7 +2929,7 @@
       "id": "Q08",
       "question": "顺序及背景效应的边界在哪里？",
       "why_important": "简单稳定，复杂/冲突敏感。",
-      "current_evidence": "简单三位置24/24；HARD R14/23敏感；冲突wrong8/12改变。 v3.6.5名称记录置换改变3/8身份（严格有效覆盖8/8）；未超标记阈值不代表稳定。",
+      "current_evidence": "简单三位置24/24；HARD R14/23敏感；冲突wrong8/12改变。",
       "what_would_resolve_it": "分别控制列表、记录、竞争证据和语义背景，检验交互。",
       "dependencies": [
         "F08",
@@ -3072,9 +2941,7 @@
       "evidence_files": [
         "results/v3_6_2/position_diagnostic_metrics.json",
         "results/calibration_v3_4_4/diagnosis.md",
-        "results/smoke_v3_3/diagnosis.md",
-        "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md"
+        "results/smoke_v3_3/diagnosis.md"
       ]
     },
     {
@@ -3264,7 +3131,7 @@
       "追加CHANGELOG",
       "再设计下一实验"
     ],
-    "latest_incorporated_version": "v3.6.5",
+    "latest_incorporated_version": "v3.6.4",
     "historical_rule_resolution": "新协议补充全项目review入口；旧三分类保留为组件层映射。ACTIVE_WARNING必须AVOIDED说明规避/不适用路径，或INTENTIONALLY_RETESTED。旧cap16只冻结旧实验，新集成设计可声明有理由的改变与重验证，禁止追改旧结果。",
     "frozen_legacy_files": "EXPERIMENT_WORKFLOW.md和experiments/inheritance.py在旧manifest冻结，本次不修改；README和新审查脚本激活新协议。"
   },
@@ -3289,8 +3156,7 @@
       "results/v3_6_2",
       "results/v3_6_3",
       "results/v3_6_3_1",
-      "results/v3_6_4",
-      "results/v3_6_5"
+      "results/v3_6_4"
     ],
     "history_results_directories": [
       "results/calibration_v3_4_1",
@@ -3312,8 +3178,7 @@
       "results/v3_6_2",
       "results/v3_6_3",
       "results/v3_6_3_1",
-      "results/v3_6_4",
-      "results/v3_6_5"
+      "results/v3_6_4"
     ],
     "experiments_directories": [
       "experiments/v3_5_1",
@@ -3322,8 +3187,7 @@
       "experiments/v3_6_2",
       "experiments/v3_6_3",
       "experiments/v3_6_3_1",
-      "experiments/v3_6_4",
-      "experiments/v3_6_5"
+      "experiments/v3_6_4"
     ],
     "reachable_commits": [
       "7e1b765af51e0f59c8e134f6e5760ed626c9831b",
@@ -3906,48 +3770,7 @@
       "results/v3_6_4/attempt_02/run_state.json": "f5663df263689bb39604baa94108f4f55e6338e76dafb7aefe5e9e02ced5f8e4",
       "results/v3_6_4/attempt_02/spec.md": "a6796ddf30ace929acfadb5b1bbc738a2f2fffb17fde3ad2eb38fbc1fff93671",
       "results/v3_6_4/attempt_02/spec.original.md": "878bc06a3c1d41929d4864973cb15be780a927a07d4616e25f955bd7ef77648e",
-      "results/v3_6_4/attempt_02/user_resolution.json": "80f67d92003bc2eb3f33fd136e3a6da2bcf3a1df3de17505c11599dac9760bab",
-      "results/v3_6_5/alias_registry.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
-      "results/v3_6_5/case_reuse_audit.json": "e09eb98aa1d373c854439a804d4673532ac5259dfd5c2a77ad585bd901770f25",
-      "results/v3_6_5/CHANGELOG.md": "ad70ab8a99bea8c5b13df606e90dba156295078393b2dbd453ffc5761ad7535b",
-      "results/v3_6_5/chat_template.txt": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
-      "results/v3_6_5/confirmation_cases.json": "450edc4d9ede440554dd77bb30c8e36742e1208375f8e3ba4ac0aad8e07200b2",
-      "results/v3_6_5/confirmation_metrics.json": "c82a931d1b8e98b70363877a5f64023bec3adaa7379a7a2d4d887d3ab0bf09de",
-      "results/v3_6_5/confirmation_outputs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "results/v3_6_5/decoding_freeze.json": "645715497de09d7976ec55835289c25b6bc0baaa0791f057282a4c798bcdcbe1",
-      "results/v3_6_5/design_audit.md": "d60d96590692777fe0934f8e8b259abf5078017577f4d49710e17196413e73d6",
-      "results/v3_6_5/design_audit.pre_inference.md": "6a78731d86719e05b7add54713fdb6a1cb094b124487b42a06f1f0e28b2b94ce",
-      "results/v3_6_5/development_cases.json": "23d3fcc1dc9f92bf035f59d31f36477b5c2497a46eae9b827bb9948d0e6260dd",
-      "results/v3_6_5/development_classification.before_diagnostic.json": "1ab9591f0dac88d05362b27ce33328555e871085f153e5791fe44fe49d51cb59",
-      "results/v3_6_5/development_metrics.json": "1ab9591f0dac88d05362b27ce33328555e871085f153e5791fe44fe49d51cb59",
-      "results/v3_6_5/development_outputs.jsonl": "e102373d6fe6466c637268bf28dde58262d7c09f57d75936acb108765b79b51f",
-      "results/v3_6_5/diagnosis.md": "3c10afbad1ac09d6de654e3df833a4c97eeeabb21c702ed87b2f546f09e335e6",
-      "results/v3_6_5/diagnostic_observations.md": "b91bcb53e538090e2afe2869a559bfb5786c9a7a4430c698e501621b2291ee33",
-      "results/v3_6_5/downstream_compatibility.json": "afdfebfa2953a8eb54a2a25a676a5fa3064d67e8b02a737847a013f08d6fdf13",
-      "results/v3_6_5/gate.json": "4b038ff9ca14f8ad49a0150349be41b63b9f992a875d111b4d30a98759388bd1",
-      "results/v3_6_5/historical_anchor.md": "9110a6bf3210271122b7b9e847d98f7e42c99a1e20afbac2bed9d9d06d041d57",
-      "results/v3_6_5/historical_interface_audit.json": "cb84306267768d9190b7cdbbb027d2fcf07b863b1c97bcd440cd392d91592430",
-      "results/v3_6_5/historical_interface_audit.md": "8422e0d802cfc28dc832ca030e45b7864303b6511d6b4e2c93ad8170ef1df942",
-      "results/v3_6_5/independent_verification.json": "41a8b71d82795113d3fb7596583f46da8aa2319413adac01c7130a016613624e",
-      "results/v3_6_5/inspection.md": "126ed11643bcf3bb3e9ffe0f2d01d62b8f27fba3cc0ef215750eadafa1dede54",
-      "results/v3_6_5/interpretation.md": "2b6897f82fca81372feb32771f67a75000e025310dbc94f8f79c483d7572abb9",
-      "results/v3_6_5/manifest.json": "0ddd5f747d2d0261c02242f0ee05b432d8a89a5dd2a465b7fbf71c8b23342540",
-      "results/v3_6_5/model_manifest.json": "9571d441688a55f8f456429720d48c9ca5cfac0ba769f5d3b75b113cf382f614",
-      "results/v3_6_5/parsed_outcomes.jsonl": "f060360ded2d7c8c52de7145d1d3addc0eaefd1756cf4252b1bf81a36aa27257",
-      "results/v3_6_5/pre_registration.md": "bff928f19da0f891ad24c91b87b49f22309f1d81c54c462b514bb229d80b2c94",
-      "results/v3_6_5/presentation_diagnostic_metrics.json": "5e39b553afd5a2d6113f296d614b6e595c8f8f5e779a6c28f043c690b26d9bbd",
-      "results/v3_6_5/presentation_diagnostic_outputs.jsonl": "b13266c60b4995829ed3b74b8857a7aca7675cd2eaf247c71739c0d44c083068",
-      "results/v3_6_5/prior_findings_review.audit.json": "a949a4202f67c6515c1ff01677e4b2c010af08c9ef2d6dc63a27bfe5c4119e37",
-      "results/v3_6_5/prior_findings_review.json": "bfce21c9d2b328bd9f379bf89e2ac7d1d843dce5b9c41b92fd27ae5ff71452b8",
-      "results/v3_6_5/prior_findings_review.md": "baddf6ddb66ab961888401452d502738caa593d3ebf4cf08991ffc2abd270a87",
-      "results/v3_6_5/prior_ledger_snapshot.json": "7ccf8520aec0bbf098c71c1fced2c1c4d13162be9dacfb77f4dc37004a9f58b8",
-      "results/v3_6_5/prompt_diff_audit.md": "6e3b5c5a758c08fbad2a446afadaf684ae98777dd42d9222637d7ef0d678cee5",
-      "results/v3_6_5/prompt_plan.json": "23e68b040328d73ed58be4424893eb507adee216b8a4445a0fccad45f7ecb9ae",
-      "results/v3_6_5/README.md": "2b6897f82fca81372feb32771f67a75000e025310dbc94f8f79c483d7572abb9",
-      "results/v3_6_5/run_state.json": "703268de259c343c8f40d0e84b25b2b1bcc0b43710b950a1e1c408eaf11a8e76",
-      "results/v3_6_5/spec.md": "21dcd73a8ba50cdd5912bfa308dd7ea70a411d69cef10ae8957650b06b0f99d4",
-      "results/v3_6_5/spec.original.md": "7d5855560adfd7f05dca5e79b7eb60f2314e246313dea8a32a55dff1a3fd9ddc",
-      "results/v3_6_5/tests.pre_inference.log": "3a206f091276f21782ee70ef5c6ba304b12a4df3c3c453bd60ae7568de15faba"
+      "results/v3_6_4/attempt_02/user_resolution.json": "80f67d92003bc2eb3f33fd136e3a6da2bcf3a1df3de17505c11599dac9760bab"
     },
     "implementation_and_data_sha256": {
       "EXPERIMENT_WORKFLOW.md": "13ec71df37ce49303ddabef4a4802ea50c37b97f678ed5ef1248735a19e39f62",
@@ -4062,14 +3885,7 @@
       "tests/test_v3_6_4.py": "f735cee3674be11eef06b0661924913ea0d98d78641c43451417e0ddf477873f",
       "experiments/v3_6_4/user_resolution.json": "d94d110dcd91214bf092f5d40fdfe0b12cf02114249393807e83d9fa0dc25949",
       "scripts/finalize_v364_failure.py": "ba40783172fade5b10c9ba25f204798be673149f63313da535444091d575baf4",
-      "scripts/retry_v364.py": "3a8c8e2d6ac602b1b8f90c745ec59984e389f61a049e02e9beab1565c51fdc88",
-      "experiments/v3_6_5/analyze.py": "c45f32c44049bf52e7f55a5c985e2f3f6492b2feb8c6e90d4799500faddb5c92",
-      "experiments/v3_6_5/design.py": "d72afea17ca7ade4c47c869414719908bd37380ea547b64186c1760b6762d389",
-      "experiments/v3_6_5/prepare.py": "70ed0bb6fdfb131669c7392fe0e69837dc4289235183eb7dae70e2e3aba39c55",
-      "experiments/v3_6_5/report.py": "fe105c4ab57f4fb7395b40ba68bace3b726d8027c9ae0c10f93d356cbd3fdbcf",
-      "experiments/v3_6_5/run.py": "87da601ef5b695c8166f6b78484b65efe8ecd5c7f98bbeca56b6e025b77ead58",
-      "tests/test_v3_6_5.py": "103496d1e3e2d6efe1c5141251371b7578fc465d94c61b39c5e1e483098468dd",
-      "scripts/verify_v3_6_5.py": "2bfe68ae78f9f019e3db7341b372c78d85c4e0cce37caefb20ba45c7fd78f118"
+      "scripts/retry_v364.py": "3a8c8e2d6ac602b1b8f90c745ec59984e389f61a049e02e9beab1565c51fdc88"
     },
     "archived_preparation_drafts": [
       {
@@ -5142,76 +4958,9 @@
           "verification.json",
           "original_spec.md"
         ]
-      },
-      {
-        "directory": "results/v3_6_5",
-        "files": 41,
-        "text_artifacts_parsed": [
-          "results/v3_6_5/alias_registry.json",
-          "results/v3_6_5/case_reuse_audit.json",
-          "results/v3_6_5/CHANGELOG.md",
-          "results/v3_6_5/chat_template.txt",
-          "results/v3_6_5/confirmation_cases.json",
-          "results/v3_6_5/confirmation_metrics.json",
-          "results/v3_6_5/confirmation_outputs.jsonl",
-          "results/v3_6_5/decoding_freeze.json",
-          "results/v3_6_5/design_audit.md",
-          "results/v3_6_5/design_audit.pre_inference.md",
-          "results/v3_6_5/development_cases.json",
-          "results/v3_6_5/development_classification.before_diagnostic.json",
-          "results/v3_6_5/development_metrics.json",
-          "results/v3_6_5/development_outputs.jsonl",
-          "results/v3_6_5/diagnosis.md",
-          "results/v3_6_5/diagnostic_observations.md",
-          "results/v3_6_5/downstream_compatibility.json",
-          "results/v3_6_5/gate.json",
-          "results/v3_6_5/historical_anchor.md",
-          "results/v3_6_5/historical_interface_audit.json",
-          "results/v3_6_5/historical_interface_audit.md",
-          "results/v3_6_5/independent_verification.json",
-          "results/v3_6_5/inspection.md",
-          "results/v3_6_5/interpretation.md",
-          "results/v3_6_5/manifest.json",
-          "results/v3_6_5/model_manifest.json",
-          "results/v3_6_5/parsed_outcomes.jsonl",
-          "results/v3_6_5/pre_registration.md",
-          "results/v3_6_5/presentation_diagnostic_metrics.json",
-          "results/v3_6_5/presentation_diagnostic_outputs.jsonl",
-          "results/v3_6_5/prior_findings_review.audit.json",
-          "results/v3_6_5/prior_findings_review.json",
-          "results/v3_6_5/prior_findings_review.md",
-          "results/v3_6_5/prior_ledger_snapshot.json",
-          "results/v3_6_5/prompt_diff_audit.md",
-          "results/v3_6_5/prompt_plan.json",
-          "results/v3_6_5/README.md",
-          "results/v3_6_5/run_state.json",
-          "results/v3_6_5/spec.md",
-          "results/v3_6_5/spec.original.md",
-          "results/v3_6_5/tests.pre_inference.log"
-        ],
-        "expected_present": [
-          "spec.md",
-          "pre_registration.md",
-          "README.md",
-          "diagnosis.md",
-          "interpretation.md",
-          "inspection.md",
-          "gate.json",
-          "design_audit.md",
-          "design_audit.pre_inference.md",
-          "CHANGELOG.md",
-          "independent_verification.json",
-          "prompt_diff_audit.md"
-        ],
-        "expected_absent": [
-          "metrics.json",
-          "calibration_gate.json",
-          "verification.json",
-          "original_spec.md"
-        ]
       }
     ],
-    "inspection_method": "枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。 2026-10-09补充读取v3.6.4全部文件并检查零调用、原生崩溃记录与168提示重建；此目录尚未提交，history目录集包括待提交失败记录，历史旧目录未变。 单独核验attempt_02的72条输出token解码、完整文本分类及停止门槛；首次失败文件全部哈希不变。 v3.6.5新增目录为待提交冻结实验；完整读取其结果，重建24历史fixture、独立核验32输出和192映射。",
+    "inspection_method": "枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。 2026-10-09补充读取v3.6.4全部文件并检查零调用、原生崩溃记录与168提示重建；此目录尚未提交，history目录集包括待提交失败记录，历史旧目录未变。 单独核验attempt_02的72条输出token解码、完整文本分类及停止门槛；首次失败文件全部哈希不变。",
     "omitted_version_labels": [
       "未发现独立v3.5/v3.5.2目录或提交；将来版本提议不算已执行。"
     ]
@@ -5232,21 +4981,15 @@
     {
       "date": "2026-10-09",
       "entry": "按用户要求突出v3.6.4最终研究结果：新增三难度计数表，明确有效性门槛通过而错误产出不足；统一F18/F19/Q01叙述，消除“整个v3.6.4零推理”的歧义。优先链接attempt_02科学证据，另保留首次加载失败记录；来源更新为已推送提交9e3a39e。未更改实验结果、阈值或发现状态。"
-    },
-    {
-      "date": "2026-10-09",
-      "entry": "纳入v3.6.5历史HARD/N定向复现：24/24有效、21/24正确、3/24可追溯错误，仅错误产出未达4/24门槛；HARD_N_SIGNAL_NOT_REPLICATED，确认0调用。依推理前用户决议执行8诊断，3/8身份改变、覆盖8/8；未超>3/8标记阈值不等于稳定。更新F16/F18/F19、M10、Q01/Q08，保留27项发现状态及历史结果；169测试和独立32输出核验通过。"
     }
   ],
   "build_validation": {
-    "full_suite_tests_passed": 169,
+    "full_suite_tests_passed": 157,
     "new_protocol_tests": 8,
     "test_command": "python -m unittest discover -s tests -v",
     "test_log": "docs/validated_findings_tests.log",
     "new_model_calls": 0,
     "new_frontier_tests": 12,
-    "experiment_model_calls_added_by_authorized_retry": 72,
-    "new_hard_n_tests": 12,
-    "hard_n_model_calls": 32
+    "experiment_model_calls_added_by_authorized_retry": 72
   }
 }

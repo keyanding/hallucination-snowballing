@@ -1,0 +1,12 @@
+# Prompt diff audit
+
+HARD/N only. All8 rotations move complete name-record lines by one cyclic step; graph/query/instruction bytes identical. No answer list or downstream endpoints shown.
+
+- v365-development-01: 0c3d5af70a298cf2c39a3e2255fdeee7defdc602d176ff371e102f0f8cf5d2ee -> 5d07ff88b5828896a90868412e74c1e72407f3deee916eecb78a2ed12a756807; record multiset unchanged.
+- v365-development-02: 6ed5c69f26bd50b0491f3b54aa97dea20fc3f930b9dc308899d5a5d16ce2be2a -> 32dd06e0991ab404b99dd3bb640137c80ccff94d3f399a9ba078420403a911a0; record multiset unchanged.
+- v365-development-04: 53d81b210b0f50d6780d1018692837df950a69aad27a85778d303600474e343d -> fa80c95102337786a68029c538007962bff14a43cc4320cb3cfdef5cb2546ddb; record multiset unchanged.
+- v365-development-11: 577ff33c69613f77b7c9b6de340c02af4d07b7a7a9ada89d1fe3c3030bbafc8d -> e7e52dd08b03ca2d93c7b49c46b86fcef6e3fd7d7ebf8993c93898c554db9b3c; record multiset unchanged.
+- v365-development-12: b2e2d1665f9537ac76eddaa67b6ece4ce8cd17fb8fc6c5fe3592862ca932a5b2 -> da546f58620a358c500b8e6249b5831f2b8acb43053f0449e22d678db66cc2bf; record multiset unchanged.
+- v365-development-15: ea1b34fe86609a27751d98f0e6a51fb697da97ec0071520180d16ba0697f0472 -> f319cf73c2ec9f4c32f03add54ff2cf79ed376b841de23d33d7542f459273c63; record multiset unchanged.
+- v365-development-17: 9e9728ba808de1d8931ae2fad0b42f3ba61d4ebefc6b1e094f278fa794abcb63 -> ce621908b3291112c8b2a3482ff1f5c6a2d179ce7b73d74526271278a5d7474e; record multiset unchanged.
+- v365-development-20: 28cd56b0c0b393fd1ac8d286c1350aabfedcc6786fc46fb1c6561a1322e7bd79 -> b92c6be5a3683fcaffcd30fbfce24136ba7f0214a69edeef1c2f00afce790c0d; record multiset unchanged.

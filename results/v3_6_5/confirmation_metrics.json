@@ -1,0 +1,30 @@
+{
+  "evaluated": false,
+  "complete": false,
+  "calls": 0,
+  "denominator": 24,
+  "valid": 0,
+  "counts": {
+    "IN_SET_VALID_GOLD": 0,
+    "IN_SET_VALID_WRONG": 0,
+    "OUT_OF_SET": 0,
+    "AMBIGUOUS": 0,
+    "NONCOMPLIANT": 0,
+    "TRUNCATED": 0
+  },
+  "traceable_wrong": 0,
+  "distinct_wrong_cases": 0,
+  "distinct_wrong_identities": 0,
+  "wrong_case_ids": [],
+  "wrong_identities": [],
+  "wrong_rate": null,
+  "checks": {
+    "valid": false,
+    "traceable_wrong": false,
+    "distinct_wrong_cases": false,
+    "format_failures": true,
+    "all_wrong_traceable": true
+  },
+  "passed": false,
+  "parsed": []
+}

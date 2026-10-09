@@ -1,0 +1,39 @@
+{
+  "seed": 365,
+  "people_reused": [
+    "Anil Das",
+    "Armando Robles Godoy",
+    "Bhappi Sonie",
+    "Feng Xiaoning",
+    "Fridrikh Ermler",
+    "Gu Changwei",
+    "Helmut Käutner",
+    "Ildikó Enyedi",
+    "James Goldstone",
+    "Jan Svěrák",
+    "Leopoldo Torre Nilsson",
+    "León Klimovsky",
+    "Marcello Fondato",
+    "Rahul Rawail",
+    "Robert P. Kerr",
+    "Rodrigo Grande",
+    "Rolf Schübel",
+    "Tinnu Anand",
+    "Vojtěch Jasný",
+    "Walter Hugo Khouri",
+    "Yuen Woo-ping"
+  ],
+  "fresh_bundles": 40,
+  "reused_bundles": [
+    "v365-development-07",
+    "v365-development-20",
+    "v365-development-21",
+    "v365-confirmation-10",
+    "v365-confirmation-11",
+    "v365-confirmation-14",
+    "v365-confirmation-16",
+    "v365-confirmation-21"
+  ],
+  "historical_targets_excluded": 60,
+  "historical_nodes_excluded": 780
+}

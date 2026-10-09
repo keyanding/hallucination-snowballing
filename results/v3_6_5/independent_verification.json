@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "model_calls_for_verification": 0,
+  "raw_output_round_trips": 32,
+  "downstream_source_mappings_checked": 192,
+  "diagnostic_identity_changes": 3,
+  "diagnostic_comparable_pairs": 8,
+  "prior_artifacts_unchanged": 560,
+  "all_frozen_hashes_unchanged": true,
+  "final_decision": "HARD_N_SIGNAL_NOT_REPLICATED"
+}

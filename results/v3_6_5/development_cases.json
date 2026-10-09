@@ -1,0 +1,2765 @@
+[
+  {
+    "case_id": "v365-development-01",
+    "split": "development",
+    "target": "T37900",
+    "gold": "Ildikó Enyedi",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Ildikó Enyedi": "R30517",
+      "Jan Svěrák": "R85180",
+      "Leopoldo Torre Nilsson": "R27460",
+      "Armando Robles Godoy": "R99220"
+    },
+    "name_record_order": [
+      "Armando Robles Godoy",
+      "Ildikó Enyedi",
+      "Leopoldo Torre Nilsson",
+      "Jan Svěrák"
+    ],
+    "paths": [
+      {
+        "endpoint": "Ildikó Enyedi",
+        "nodes": [
+          "R15328",
+          "R68643",
+          "R71138"
+        ]
+      },
+      {
+        "endpoint": "Leopoldo Torre Nilsson",
+        "nodes": [
+          "R40255",
+          "R51367",
+          "R79584"
+        ]
+      },
+      {
+        "endpoint": "Jan Svěrák",
+        "nodes": [
+          "R66381",
+          "R43776",
+          "R47858"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      0,
+      2
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "03d58ee8ff515c8069593015f906ccbfec6ea186dbe7c2e201018760df1d61b9"
+  },
+  {
+    "case_id": "v365-development-02",
+    "split": "development",
+    "target": "T60677",
+    "gold": "Anil Das",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Gu Changwei": "R38526",
+      "Rolf Schübel": "R11924",
+      "Fridrikh Ermler": "R20168",
+      "Anil Das": "R66550"
+    },
+    "name_record_order": [
+      "Gu Changwei",
+      "Rolf Schübel",
+      "Anil Das",
+      "Fridrikh Ermler"
+    ],
+    "paths": [
+      {
+        "endpoint": "Anil Das",
+        "nodes": [
+          "R56100",
+          "R23108",
+          "R46066"
+        ]
+      },
+      {
+        "endpoint": "Rolf Schübel",
+        "nodes": [
+          "R17128",
+          "R38252",
+          "R96156"
+        ]
+      },
+      {
+        "endpoint": "Gu Changwei",
+        "nodes": [
+          "R49897",
+          "R97490",
+          "R51467"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      1,
+      2
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "8d0fd1aae5477180bd36b8d2fd872525a2b751a3daaa60e652fa2dfb4d184c8c"
+  },
+  {
+    "case_id": "v365-development-03",
+    "split": "development",
+    "target": "T46536",
+    "gold": "León Klimovsky",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Bhappi Sonie": "R55936",
+      "León Klimovsky": "R16343",
+      "Marcello Fondato": "R50492",
+      "James Goldstone": "R69663"
+    },
+    "name_record_order": [
+      "Bhappi Sonie",
+      "Marcello Fondato",
+      "James Goldstone",
+      "León Klimovsky"
+    ],
+    "paths": [
+      {
+        "endpoint": "León Klimovsky",
+        "nodes": [
+          "R61485",
+          "R82100",
+          "R76639"
+        ]
+      },
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R50338",
+          "R61421",
+          "R24378"
+        ]
+      },
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R71413",
+          "R25059",
+          "R70761"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      1,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "42b97e0e0b74d271de5200d9059823a3d76807330a1cf5dd597c4f33a6f96b01"
+  },
+  {
+    "case_id": "v365-development-04",
+    "split": "development",
+    "target": "T65604",
+    "gold": "Jan Svěrák",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Tinnu Anand": "R32372",
+      "Ildikó Enyedi": "R42541",
+      "Jan Svěrák": "R76868",
+      "Armando Robles Godoy": "R21553"
+    },
+    "name_record_order": [
+      "Jan Svěrák",
+      "Ildikó Enyedi",
+      "Tinnu Anand",
+      "Armando Robles Godoy"
+    ],
+    "paths": [
+      {
+        "endpoint": "Jan Svěrák",
+        "nodes": [
+          "R74482",
+          "R96497",
+          "R77672"
+        ]
+      },
+      {
+        "endpoint": "Tinnu Anand",
+        "nodes": [
+          "R45915",
+          "R49965",
+          "R57051"
+        ]
+      },
+      {
+        "endpoint": "Armando Robles Godoy",
+        "nodes": [
+          "R17144",
+          "R99480",
+          "R10243"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      2,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "dbb0f64ecf245d24cefaab78469733c6b0f2a6554c366d2a8318289da825f494"
+  },
+  {
+    "case_id": "v365-development-05",
+    "split": "development",
+    "target": "T57743",
+    "gold": "Vojtěch Jasný",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Robert P. Kerr",
+        "relation": "place of death",
+        "target": "Porterville",
+        "target_aliases": [
+          "Porterville",
+          "Porterville, California"
+        ],
+        "downstream_evidence": {
+          "title": "Robert P. Kerr",
+          "sentence_id": 2,
+          "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+        },
+        "downstream_source_id": "8dfa2e9e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Vojtěch Jasný": "R14753",
+      "Robert P. Kerr": "R96674",
+      "Bhappi Sonie": "R34925",
+      "Walter Hugo Khouri": "R92314"
+    },
+    "name_record_order": [
+      "Vojtěch Jasný",
+      "Robert P. Kerr",
+      "Walter Hugo Khouri",
+      "Bhappi Sonie"
+    ],
+    "paths": [
+      {
+        "endpoint": "Vojtěch Jasný",
+        "nodes": [
+          "R99621",
+          "R36949",
+          "R82954"
+        ]
+      },
+      {
+        "endpoint": "Bhappi Sonie",
+        "nodes": [
+          "R17541",
+          "R67235",
+          "R10834"
+        ]
+      },
+      {
+        "endpoint": "Walter Hugo Khouri",
+        "nodes": [
+          "R51363",
+          "R62999",
+          "R70256"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      1,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "34bb0146c4dcb77644e8fb33310b5fbbc872af5bcf1894ba127a31a5fa719e1b"
+  },
+  {
+    "case_id": "v365-development-06",
+    "split": "development",
+    "target": "T64641",
+    "gold": "James Goldstone",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Robert P. Kerr",
+        "relation": "place of death",
+        "target": "Porterville",
+        "target_aliases": [
+          "Porterville",
+          "Porterville, California"
+        ],
+        "downstream_evidence": {
+          "title": "Robert P. Kerr",
+          "sentence_id": 2,
+          "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+        },
+        "downstream_source_id": "8dfa2e9e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Robert P. Kerr": "R36266",
+      "James Goldstone": "R41066",
+      "Walter Hugo Khouri": "R44784",
+      "Marcello Fondato": "R94845"
+    },
+    "name_record_order": [
+      "Walter Hugo Khouri",
+      "Robert P. Kerr",
+      "James Goldstone",
+      "Marcello Fondato"
+    ],
+    "paths": [
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R30925",
+          "R28068",
+          "R44154"
+        ]
+      },
+      {
+        "endpoint": "Walter Hugo Khouri",
+        "nodes": [
+          "R29646",
+          "R72651",
+          "R18313"
+        ]
+      },
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R21206",
+          "R44052",
+          "R85041"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      2,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "446bfc9616b119665b9bc6297d9d54dc7803b797bf34c4a3aad3fd479009e753"
+  },
+  {
+    "case_id": "v365-development-07",
+    "split": "development",
+    "target": "T69477",
+    "gold": "Rodrigo Grande",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Helmut Käutner": "R77265",
+      "Gu Changwei": "R80693",
+      "Rodrigo Grande": "R50895",
+      "Rolf Schübel": "R80158"
+    },
+    "name_record_order": [
+      "Gu Changwei",
+      "Helmut Käutner",
+      "Rolf Schübel",
+      "Rodrigo Grande"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rodrigo Grande",
+        "nodes": [
+          "R68179",
+          "R20072",
+          "R28105"
+        ]
+      },
+      {
+        "endpoint": "Helmut Käutner",
+        "nodes": [
+          "R12365",
+          "R77895",
+          "R77238"
+        ]
+      },
+      {
+        "endpoint": "Gu Changwei",
+        "nodes": [
+          "R89988",
+          "R81033",
+          "R32662"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      1,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": true,
+    "candidate_list_sha256": "6559bfe7c24ca6b735f9a886dd82751af91b1ca33529db9ffb46bb3f191e5218"
+  },
+  {
+    "case_id": "v365-development-08",
+    "split": "development",
+    "target": "T61497",
+    "gold": "Rodrigo Grande",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Fridrikh Ermler": "R16092",
+      "Rodrigo Grande": "R49112",
+      "Helmut Käutner": "R46941",
+      "Anil Das": "R67173"
+    },
+    "name_record_order": [
+      "Rodrigo Grande",
+      "Helmut Käutner",
+      "Fridrikh Ermler",
+      "Anil Das"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rodrigo Grande",
+        "nodes": [
+          "R66459",
+          "R11652",
+          "R62525"
+        ]
+      },
+      {
+        "endpoint": "Anil Das",
+        "nodes": [
+          "R70419",
+          "R49666",
+          "R91787"
+        ]
+      },
+      {
+        "endpoint": "Fridrikh Ermler",
+        "nodes": [
+          "R35702",
+          "R47960",
+          "R60550"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      2,
+      1
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "15a2cfca463d95790abef49f0cca5b72f6c054381255f1dc3ee8196964eb387f"
+  },
+  {
+    "case_id": "v365-development-09",
+    "split": "development",
+    "target": "T38072",
+    "gold": "Fridrikh Ermler",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Fridrikh Ermler": "R49765",
+      "Rolf Schübel": "R35261",
+      "Rodrigo Grande": "R96622",
+      "Helmut Käutner": "R95515"
+    },
+    "name_record_order": [
+      "Rolf Schübel",
+      "Fridrikh Ermler",
+      "Rodrigo Grande",
+      "Helmut Käutner"
+    ],
+    "paths": [
+      {
+        "endpoint": "Fridrikh Ermler",
+        "nodes": [
+          "R49662",
+          "R37906",
+          "R36860"
+        ]
+      },
+      {
+        "endpoint": "Rodrigo Grande",
+        "nodes": [
+          "R79436",
+          "R26757",
+          "R83279"
+        ]
+      },
+      {
+        "endpoint": "Rolf Schübel",
+        "nodes": [
+          "R43381",
+          "R38182",
+          "R26253"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      2,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "931e161af3eb2c4646e9d630fa971cf5a9ff1b5a04c7b4a879b2c3af14bdbe5d"
+  },
+  {
+    "case_id": "v365-development-10",
+    "split": "development",
+    "target": "T70951",
+    "gold": "Rodrigo Grande",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Fridrikh Ermler": "R24250",
+      "Anil Das": "R28457",
+      "Rodrigo Grande": "R43176",
+      "Feng Xiaoning": "R92802"
+    },
+    "name_record_order": [
+      "Rodrigo Grande",
+      "Feng Xiaoning",
+      "Fridrikh Ermler",
+      "Anil Das"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rodrigo Grande",
+        "nodes": [
+          "R27383",
+          "R77897",
+          "R95007"
+        ]
+      },
+      {
+        "endpoint": "Anil Das",
+        "nodes": [
+          "R74398",
+          "R42108",
+          "R67266"
+        ]
+      },
+      {
+        "endpoint": "Fridrikh Ermler",
+        "nodes": [
+          "R98909",
+          "R78960",
+          "R90469"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      1,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "dd7378b125c461e42e0093b3a980b70e6a7a034d2980f12bcf47ee8e1ca4b8b2"
+  },
+  {
+    "case_id": "v365-development-11",
+    "split": "development",
+    "target": "T66257",
+    "gold": "Leopoldo Torre Nilsson",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Rahul Rawail": "R79145",
+      "Leopoldo Torre Nilsson": "R66787",
+      "Jan Svěrák": "R61846",
+      "Ildikó Enyedi": "R13111"
+    },
+    "name_record_order": [
+      "Rahul Rawail",
+      "Leopoldo Torre Nilsson",
+      "Ildikó Enyedi",
+      "Jan Svěrák"
+    ],
+    "paths": [
+      {
+        "endpoint": "Leopoldo Torre Nilsson",
+        "nodes": [
+          "R63618",
+          "R53202",
+          "R81595"
+        ]
+      },
+      {
+        "endpoint": "Rahul Rawail",
+        "nodes": [
+          "R17937",
+          "R63313",
+          "R51614"
+        ]
+      },
+      {
+        "endpoint": "Jan Svěrák",
+        "nodes": [
+          "R45688",
+          "R38949",
+          "R29160"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      1,
+      2
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "1affbabecb0b3290dc906181f760c812c39baa99d137c2b7979efa3a9de653de"
+  },
+  {
+    "case_id": "v365-development-12",
+    "split": "development",
+    "target": "T59096",
+    "gold": "Jan Svěrák",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Jan Svěrák": "R76750",
+      "Yuen Woo-ping": "R14829",
+      "Armando Robles Godoy": "R77019",
+      "Rahul Rawail": "R59351"
+    },
+    "name_record_order": [
+      "Rahul Rawail",
+      "Armando Robles Godoy",
+      "Yuen Woo-ping",
+      "Jan Svěrák"
+    ],
+    "paths": [
+      {
+        "endpoint": "Jan Svěrák",
+        "nodes": [
+          "R99821",
+          "R63379",
+          "R23375"
+        ]
+      },
+      {
+        "endpoint": "Armando Robles Godoy",
+        "nodes": [
+          "R69341",
+          "R44331",
+          "R48936"
+        ]
+      },
+      {
+        "endpoint": "Rahul Rawail",
+        "nodes": [
+          "R98295",
+          "R76731",
+          "R41309"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      0,
+      2
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "2362de172d22e8d9f371c742c61706d1152f8733822a11638d59a4f6511f85f9"
+  },
+  {
+    "case_id": "v365-development-13",
+    "split": "development",
+    "target": "T76103",
+    "gold": "Yuen Woo-ping",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Jan Svěrák",
+        "relation": "father",
+        "target": "Zdeněk Svěrák",
+        "target_aliases": [
+          "Zdenek Sverak",
+          "Zdeněk Svěrák"
+        ],
+        "downstream_evidence": {
+          "title": "Jan Svěrák",
+          "sentence_id": 1,
+          "text": "He is the son of screenwriter and actor Zdeněk Svěrák."
+        },
+        "downstream_source_id": "022a3dd40bdd11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Leopoldo Torre Nilsson": "R92244",
+      "Yuen Woo-ping": "R33151",
+      "Ildikó Enyedi": "R29533",
+      "Jan Svěrák": "R80996"
+    },
+    "name_record_order": [
+      "Jan Svěrák",
+      "Ildikó Enyedi",
+      "Yuen Woo-ping",
+      "Leopoldo Torre Nilsson"
+    ],
+    "paths": [
+      {
+        "endpoint": "Yuen Woo-ping",
+        "nodes": [
+          "R43853",
+          "R86914",
+          "R28116"
+        ]
+      },
+      {
+        "endpoint": "Leopoldo Torre Nilsson",
+        "nodes": [
+          "R70711",
+          "R17863",
+          "R14630"
+        ]
+      },
+      {
+        "endpoint": "Ildikó Enyedi",
+        "nodes": [
+          "R55120",
+          "R34585",
+          "R40482"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      2,
+      1
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "55d47bcbe31433117d96685f9cb973e78da8de38cd5310f44a2034764b06707e"
+  },
+  {
+    "case_id": "v365-development-14",
+    "split": "development",
+    "target": "T97862",
+    "gold": "Yuen Woo-ping",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Leopoldo Torre Nilsson",
+        "relation": "father",
+        "target": "Leopoldo Torres Ríos",
+        "target_aliases": [
+          "Leopoldo Torres Rios",
+          "Leopoldo Torres Ríos"
+        ],
+        "downstream_evidence": {
+          "title": "Leopoldo Torre Nilsson",
+          "sentence_id": 1,
+          "text": "Born as Leopoldo Torres Nilsson (he later changed his paternal surname from Torres to Torre) was the son of Argentine pioneer film director Leopoldo Torres Ríos, with whom he collaborated between 1939 and 1949."
+        },
+        "downstream_source_id": "5b1e1f240bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Yuen Woo-ping",
+        "relation": "father",
+        "target": "Yuen Siu-tien",
+        "target_aliases": [
+          "Yuen Siu-tien"
+        ],
+        "downstream_evidence": {
+          "title": "Yuen Woo-ping",
+          "sentence_id": 4,
+          "text": "Yuen is also a son of Yuen Siu-tien, a renowned martial arts film actor."
+        },
+        "downstream_source_id": "4772896e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Ildikó Enyedi": "R43578",
+      "Leopoldo Torre Nilsson": "R17892",
+      "Yuen Woo-ping": "R13749",
+      "Armando Robles Godoy": "R61204"
+    },
+    "name_record_order": [
+      "Armando Robles Godoy",
+      "Yuen Woo-ping",
+      "Ildikó Enyedi",
+      "Leopoldo Torre Nilsson"
+    ],
+    "paths": [
+      {
+        "endpoint": "Yuen Woo-ping",
+        "nodes": [
+          "R77009",
+          "R37118",
+          "R78760"
+        ]
+      },
+      {
+        "endpoint": "Ildikó Enyedi",
+        "nodes": [
+          "R63057",
+          "R79316",
+          "R70928"
+        ]
+      },
+      {
+        "endpoint": "Armando Robles Godoy",
+        "nodes": [
+          "R39137",
+          "R73791",
+          "R18808"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      0,
+      1
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "58c1002441e139bb73c84c095856158f8229a319475ffe693c07e1be1b11f9d0"
+  },
+  {
+    "case_id": "v365-development-15",
+    "split": "development",
+    "target": "T42912",
+    "gold": "Rolf Schübel",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Gu Changwei",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Gu Changwei",
+          "sentence_id": 1,
+          "text": "Gu was born in Xi'an, Shaanxi in the People's Republic of China."
+        },
+        "downstream_source_id": "0bd60cfa0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Rodrigo Grande": "R42978",
+      "Gu Changwei": "R90987",
+      "Fridrikh Ermler": "R83009",
+      "Rolf Schübel": "R74319"
+    },
+    "name_record_order": [
+      "Fridrikh Ermler",
+      "Rolf Schübel",
+      "Gu Changwei",
+      "Rodrigo Grande"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rolf Schübel",
+        "nodes": [
+          "R15374",
+          "R81343",
+          "R46896"
+        ]
+      },
+      {
+        "endpoint": "Gu Changwei",
+        "nodes": [
+          "R14250",
+          "R72596",
+          "R38784"
+        ]
+      },
+      {
+        "endpoint": "Fridrikh Ermler",
+        "nodes": [
+          "R32565",
+          "R33019",
+          "R86828"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      1,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "80e6cd3a48a4719c3b042eb1498b67c758c965f934a85876fdd37cb707b8d769"
+  },
+  {
+    "case_id": "v365-development-16",
+    "split": "development",
+    "target": "T86246",
+    "gold": "Bhappi Sonie",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Bhappi Sonie": "R89910",
+      "Marcello Fondato": "R29016",
+      "Vojtěch Jasný": "R95470",
+      "Walter Hugo Khouri": "R44295"
+    },
+    "name_record_order": [
+      "Marcello Fondato",
+      "Bhappi Sonie",
+      "Walter Hugo Khouri",
+      "Vojtěch Jasný"
+    ],
+    "paths": [
+      {
+        "endpoint": "Bhappi Sonie",
+        "nodes": [
+          "R94922",
+          "R44483",
+          "R27764"
+        ]
+      },
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R18178",
+          "R97271",
+          "R84460"
+        ]
+      },
+      {
+        "endpoint": "Walter Hugo Khouri",
+        "nodes": [
+          "R42065",
+          "R25200",
+          "R50369"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      0,
+      2
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "af6db33af9dd443dd96a64aabbb110776dd49b853c7c2405ab6808ebf58552f1"
+  },
+  {
+    "case_id": "v365-development-17",
+    "split": "development",
+    "target": "T55040",
+    "gold": "Rahul Rawail",
+    "gold_position": 1,
+    "candidates": [
+      {
+        "name": "Rahul Rawail",
+        "relation": "father",
+        "target": "H. S. Rawail",
+        "target_aliases": [
+          "H S Rawail",
+          "H. S. Rawail",
+          "H.S. Rawail"
+        ],
+        "downstream_evidence": {
+          "title": "Rahul Rawail",
+          "sentence_id": 3,
+          "text": "He is son of film director H. S. Rawail and his son Bharat is an upcoming director."
+        },
+        "downstream_source_id": "ba289b440bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Armando Robles Godoy",
+        "relation": "father",
+        "target": "Daniel Alomía Robles",
+        "target_aliases": [
+          "Daniel Alomia Robles",
+          "Daniel Alomía Robles"
+        ],
+        "downstream_evidence": {
+          "title": "Armando Robles Godoy",
+          "sentence_id": 1,
+          "text": "He was son of the Peruvian composer Daniel Alomía Robles and Carmela Godoy."
+        },
+        "downstream_source_id": "b26e04e80bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Tinnu Anand",
+        "relation": "father",
+        "target": "Inder Raj Anand",
+        "target_aliases": [
+          "Inder Raj Anand"
+        ],
+        "downstream_evidence": {
+          "title": "Tinnu Anand",
+          "sentence_id": 1,
+          "text": "He is the son of veteran writer Inder Raj Anand, brother of producer Bittu Anand and uncle of director Siddharth Anand."
+        },
+        "downstream_source_id": "f0faeb9a0bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Ildikó Enyedi",
+        "relation": "father",
+        "target": "György Enyedi",
+        "target_aliases": [
+          "Gyorgy Enyedi",
+          "György Enyedi"
+        ],
+        "downstream_evidence": {
+          "title": "Ildikó Enyedi",
+          "sentence_id": 2,
+          "text": "Her father, György Enyedi, was a geographer and economist who played a major role in the long- term development of regional science."
+        },
+        "downstream_source_id": "52376a780bdc11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Rahul Rawail": "R24910",
+      "Armando Robles Godoy": "R40242",
+      "Tinnu Anand": "R94559",
+      "Ildikó Enyedi": "R84804"
+    },
+    "name_record_order": [
+      "Tinnu Anand",
+      "Armando Robles Godoy",
+      "Ildikó Enyedi",
+      "Rahul Rawail"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rahul Rawail",
+        "nodes": [
+          "R15160",
+          "R95403",
+          "R58288"
+        ]
+      },
+      {
+        "endpoint": "Armando Robles Godoy",
+        "nodes": [
+          "R61191",
+          "R84121",
+          "R77636"
+        ]
+      },
+      {
+        "endpoint": "Ildikó Enyedi",
+        "nodes": [
+          "R46996",
+          "R74131",
+          "R92126"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      1,
+      2
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "42393559a8113344cf1561b3fc998f6ae9edb227c800b0dc6882c0e971102b91"
+  },
+  {
+    "case_id": "v365-development-18",
+    "split": "development",
+    "target": "T86441",
+    "gold": "Rolf Schübel",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Fridrikh Ermler",
+        "relation": "place of birth",
+        "target": "Rēzekne",
+        "target_aliases": [
+          "Rezekne",
+          "Rēzekne"
+        ],
+        "downstream_evidence": {
+          "title": "Fridrikh Ermler",
+          "sentence_id": 0,
+          "text": "Fridrikh Markovich Ermler (born Vladimir Markovich Breslav; 13 May 1898 in Rēzekne – 12 July 1967 in Leningrad) was a Soviet film director, actor, and screenwriter."
+        },
+        "downstream_source_id": "751ba0980bd911eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Anil Das": "R80847",
+      "Fridrikh Ermler": "R18280",
+      "Helmut Käutner": "R34698",
+      "Rolf Schübel": "R80368"
+    },
+    "name_record_order": [
+      "Fridrikh Ermler",
+      "Helmut Käutner",
+      "Anil Das",
+      "Rolf Schübel"
+    ],
+    "paths": [
+      {
+        "endpoint": "Rolf Schübel",
+        "nodes": [
+          "R73815",
+          "R14643",
+          "R11297"
+        ]
+      },
+      {
+        "endpoint": "Helmut Käutner",
+        "nodes": [
+          "R12425",
+          "R65433",
+          "R82679"
+        ]
+      },
+      {
+        "endpoint": "Anil Das",
+        "nodes": [
+          "R46577",
+          "R95143",
+          "R36874"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      0,
+      1
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "43a3f33427886257e8f3b9d40e7c18835c6b92604cb0eb375906df309be4c0b8"
+  },
+  {
+    "case_id": "v365-development-19",
+    "split": "development",
+    "target": "T52693",
+    "gold": "Helmut Käutner",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Rolf Schübel",
+        "relation": "place of birth",
+        "target": "Stuttgart",
+        "target_aliases": [
+          "Stuttgart",
+          "Stuttgart, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Rolf Schübel",
+          "sentence_id": 0,
+          "text": "Rolf Schübel (born 11 November 1942 in Stuttgart, Germany) is a German film director and screenwriter."
+        },
+        "downstream_source_id": "78249bea0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Anil Das": "R42330",
+      "Rodrigo Grande": "R36699",
+      "Rolf Schübel": "R32164",
+      "Helmut Käutner": "R35432"
+    },
+    "name_record_order": [
+      "Helmut Käutner",
+      "Anil Das",
+      "Rodrigo Grande",
+      "Rolf Schübel"
+    ],
+    "paths": [
+      {
+        "endpoint": "Helmut Käutner",
+        "nodes": [
+          "R61370",
+          "R70984",
+          "R41159"
+        ]
+      },
+      {
+        "endpoint": "Anil Das",
+        "nodes": [
+          "R96271",
+          "R23630",
+          "R45214"
+        ]
+      },
+      {
+        "endpoint": "Rodrigo Grande",
+        "nodes": [
+          "R63546",
+          "R37589",
+          "R25945"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      0,
+      2
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "17b23857960efe4c522cf2c4b6083c5ca936761c4d126ffc985e6e4184d3a4c1"
+  },
+  {
+    "case_id": "v365-development-20",
+    "split": "development",
+    "target": "T26615",
+    "gold": "León Klimovsky",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "León Klimovsky",
+        "relation": "place of death",
+        "target": "Madrid",
+        "target_aliases": [
+          "Madrid"
+        ],
+        "downstream_evidence": {
+          "title": "León Klimovsky",
+          "sentence_id": 16,
+          "text": "He died the following year in Madrid from a heart attack."
+        },
+        "downstream_source_id": "c5e7570c0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Bhappi Sonie": "R72323",
+      "James Goldstone": "R51845",
+      "León Klimovsky": "R84049",
+      "Vojtěch Jasný": "R70435"
+    },
+    "name_record_order": [
+      "Vojtěch Jasný",
+      "James Goldstone",
+      "León Klimovsky",
+      "Bhappi Sonie"
+    ],
+    "paths": [
+      {
+        "endpoint": "León Klimovsky",
+        "nodes": [
+          "R10549",
+          "R84080",
+          "R38140"
+        ]
+      },
+      {
+        "endpoint": "Bhappi Sonie",
+        "nodes": [
+          "R64024",
+          "R61725",
+          "R18677"
+        ]
+      },
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R56082",
+          "R18662",
+          "R57337"
+        ]
+      }
+    ],
+    "path_order": [
+      0,
+      2,
+      1
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": true,
+    "candidate_list_sha256": "3758aaa5a15cb574450b1b92be41489c09b79556624807a353ced8afdf5399e5"
+  },
+  {
+    "case_id": "v365-development-21",
+    "split": "development",
+    "target": "T28375",
+    "gold": "Vojtěch Jasný",
+    "gold_position": 2,
+    "candidates": [
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Robert P. Kerr",
+        "relation": "place of death",
+        "target": "Porterville",
+        "target_aliases": [
+          "Porterville",
+          "Porterville, California"
+        ],
+        "downstream_evidence": {
+          "title": "Robert P. Kerr",
+          "sentence_id": 2,
+          "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+        },
+        "downstream_source_id": "8dfa2e9e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Marcello Fondato": "R95062",
+      "Vojtěch Jasný": "R25144",
+      "Robert P. Kerr": "R12045",
+      "Bhappi Sonie": "R23124"
+    },
+    "name_record_order": [
+      "Vojtěch Jasný",
+      "Robert P. Kerr",
+      "Bhappi Sonie",
+      "Marcello Fondato"
+    ],
+    "paths": [
+      {
+        "endpoint": "Vojtěch Jasný",
+        "nodes": [
+          "R42902",
+          "R70477",
+          "R42458"
+        ]
+      },
+      {
+        "endpoint": "Bhappi Sonie",
+        "nodes": [
+          "R49519",
+          "R65789",
+          "R35733"
+        ]
+      },
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R84127",
+          "R14796",
+          "R42085"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      1,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": true,
+    "candidate_list_sha256": "f32aa734f3cb935c4990e706054989b350f0f5ca3d490c810e6e5f558087eab4"
+  },
+  {
+    "case_id": "v365-development-22",
+    "split": "development",
+    "target": "T18498",
+    "gold": "Bhappi Sonie",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Robert P. Kerr",
+        "relation": "place of death",
+        "target": "Porterville",
+        "target_aliases": [
+          "Porterville",
+          "Porterville, California"
+        ],
+        "downstream_evidence": {
+          "title": "Robert P. Kerr",
+          "sentence_id": 2,
+          "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+        },
+        "downstream_source_id": "8dfa2e9e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Walter Hugo Khouri",
+        "relation": "place of death",
+        "target": "São Paulo",
+        "target_aliases": [
+          "Sao Paulo",
+          "São Paulo"
+        ],
+        "downstream_evidence": {
+          "title": "Walter Hugo Khouri",
+          "sentence_id": 0,
+          "text": "Walter Hugo Khouri (São Paulo, 21 October 1929 – São Paulo, 27 June 2003) was a Brazilian film director and producer of Lebanese and Italian descent."
+        },
+        "downstream_source_id": "06c74c8c0bde11eba7f7acde48001122"
+      },
+      {
+        "name": "Bhappi Sonie",
+        "relation": "place of death",
+        "target": "Mumbai",
+        "target_aliases": [
+          "Mumbai"
+        ],
+        "downstream_evidence": {
+          "title": "Bhappi Sonie",
+          "sentence_id": 1,
+          "text": "He died on 5 September 2001, while undergoing a heart bypass surgery at Nanavati Hospital, in Mumbai, at the age of 73."
+        },
+        "downstream_source_id": "b0a2e8ba0bd911eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "James Goldstone": "R78951",
+      "Robert P. Kerr": "R42254",
+      "Walter Hugo Khouri": "R57295",
+      "Bhappi Sonie": "R11077"
+    },
+    "name_record_order": [
+      "James Goldstone",
+      "Robert P. Kerr",
+      "Bhappi Sonie",
+      "Walter Hugo Khouri"
+    ],
+    "paths": [
+      {
+        "endpoint": "Bhappi Sonie",
+        "nodes": [
+          "R26691",
+          "R65186",
+          "R89281"
+        ]
+      },
+      {
+        "endpoint": "James Goldstone",
+        "nodes": [
+          "R10702",
+          "R80095",
+          "R45027"
+        ]
+      },
+      {
+        "endpoint": "Walter Hugo Khouri",
+        "nodes": [
+          "R65823",
+          "R79710",
+          "R28592"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      2,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "47c5421634a158a1afb2bbdb799d298fc0809a4bcc34ed7d2f0e623b5777c266"
+  },
+  {
+    "case_id": "v365-development-23",
+    "split": "development",
+    "target": "T59822",
+    "gold": "Helmut Käutner",
+    "gold_position": 4,
+    "candidates": [
+      {
+        "name": "Anil Das",
+        "relation": "place of birth",
+        "target": "Kottayam",
+        "target_aliases": [
+          "Kottayam"
+        ],
+        "downstream_evidence": {
+          "title": "Anil Das",
+          "sentence_id": 1,
+          "text": "Born in Kottayam and settled in Kollam."
+        },
+        "downstream_source_id": "35aaea880bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Feng Xiaoning",
+        "relation": "place of birth",
+        "target": "Xi'an",
+        "target_aliases": [
+          "Xi'an",
+          "Xi'an, China",
+          "Xi'an, Shaanxi"
+        ],
+        "downstream_evidence": {
+          "title": "Feng Xiaoning",
+          "sentence_id": 4,
+          "text": "Feng was born in Xi'an to a family of teachers."
+        },
+        "downstream_source_id": "df66ea220bdc11eba7f7acde48001122"
+      },
+      {
+        "name": "Rodrigo Grande",
+        "relation": "place of birth",
+        "target": "Rosario",
+        "target_aliases": [
+          "Rosario",
+          "Rosario, Santa Fe",
+          "Rosario, Santa Fe Province"
+        ],
+        "downstream_evidence": {
+          "title": "Rodrigo Grande",
+          "sentence_id": 0,
+          "text": "Rodrigo Grande (born February 10, 1974 in Rosario, Santa Fe Province) is an Argentine film director and screenplay writer."
+        },
+        "downstream_source_id": "c40d35580bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Helmut Käutner",
+        "relation": "place of birth",
+        "target": "Düsseldorf",
+        "target_aliases": [
+          "Dusseldorf",
+          "Dusseldorf, Germany",
+          "Düsseldorf",
+          "Düsseldorf, Germany"
+        ],
+        "downstream_evidence": {
+          "title": "Helmut Käutner",
+          "sentence_id": 0,
+          "text": "Helmut Käutner (born 25 March 1908 in Düsseldorf, Germany; died 20 April 1980 in Castellina in Chianti, Italy) was a German film director active mainly in the 1940s and 1950s."
+        },
+        "downstream_source_id": "97d5e6f00bdb11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Anil Das": "R56294",
+      "Feng Xiaoning": "R92856",
+      "Rodrigo Grande": "R95607",
+      "Helmut Käutner": "R32463"
+    },
+    "name_record_order": [
+      "Feng Xiaoning",
+      "Rodrigo Grande",
+      "Anil Das",
+      "Helmut Käutner"
+    ],
+    "paths": [
+      {
+        "endpoint": "Helmut Käutner",
+        "nodes": [
+          "R21457",
+          "R95347",
+          "R63318"
+        ]
+      },
+      {
+        "endpoint": "Feng Xiaoning",
+        "nodes": [
+          "R93219",
+          "R12661",
+          "R45413"
+        ]
+      },
+      {
+        "endpoint": "Rodrigo Grande",
+        "nodes": [
+          "R91920",
+          "R41461",
+          "R67920"
+        ]
+      }
+    ],
+    "path_order": [
+      1,
+      2,
+      0
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "ea47ae76410bce712b3edfd3647102c287759331f16e7d0df4da65cce9bad7d6"
+  },
+  {
+    "case_id": "v365-development-24",
+    "split": "development",
+    "target": "T47175",
+    "gold": "Robert P. Kerr",
+    "gold_position": 3,
+    "candidates": [
+      {
+        "name": "Vojtěch Jasný",
+        "relation": "place of death",
+        "target": "Přerov",
+        "target_aliases": [
+          "Prerov",
+          "Přerov"
+        ],
+        "downstream_evidence": {
+          "title": "Vojtěch Jasný",
+          "sentence_id": 8,
+          "text": "He died in Přerov in November 2019, fifteen days shy of his 94th birthday."
+        },
+        "downstream_source_id": "73def83e0bdd11eba7f7acde48001122"
+      },
+      {
+        "name": "Marcello Fondato",
+        "relation": "place of death",
+        "target": "San Felice Circeo",
+        "target_aliases": [
+          "San Felice Circeo"
+        ],
+        "downstream_evidence": {
+          "title": "Marcello Fondato",
+          "sentence_id": 4,
+          "text": "He was born in Rome, Italy and died in San Felice Circeo of a cerebral hemorrhage aged 84."
+        },
+        "downstream_source_id": "e043b86e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "Robert P. Kerr",
+        "relation": "place of death",
+        "target": "Porterville",
+        "target_aliases": [
+          "Porterville",
+          "Porterville, California"
+        ],
+        "downstream_evidence": {
+          "title": "Robert P. Kerr",
+          "sentence_id": 2,
+          "text": "He was born in Burlington, Colorado and died in Porterville, California from a heart attack."
+        },
+        "downstream_source_id": "8dfa2e9e0bda11eba7f7acde48001122"
+      },
+      {
+        "name": "James Goldstone",
+        "relation": "place of death",
+        "target": "Shaftsbury, Vermont",
+        "target_aliases": [
+          "Shaftsbury",
+          "Shaftsbury, Vermont"
+        ],
+        "downstream_evidence": {
+          "title": "James Goldstone",
+          "sentence_id": 0,
+          "text": "James Goldstone (born June 8, 1931 in Los Angeles, California; died November 5, 1999 in Shaftsbury, Vermont) was an American film and television director whose career spanned over thirty years."
+        },
+        "downstream_source_id": "e1cfab340bda11eba7f7acde48001122"
+      }
+    ],
+    "name_nodes": {
+      "Vojtěch Jasný": "R84795",
+      "Marcello Fondato": "R93463",
+      "Robert P. Kerr": "R69562",
+      "James Goldstone": "R68211"
+    },
+    "name_record_order": [
+      "Vojtěch Jasný",
+      "Marcello Fondato",
+      "Robert P. Kerr",
+      "James Goldstone"
+    ],
+    "paths": [
+      {
+        "endpoint": "Robert P. Kerr",
+        "nodes": [
+          "R26846",
+          "R54754",
+          "R20115"
+        ]
+      },
+      {
+        "endpoint": "Marcello Fondato",
+        "nodes": [
+          "R79805",
+          "R48319",
+          "R79968"
+        ]
+      },
+      {
+        "endpoint": "Vojtěch Jasný",
+        "nodes": [
+          "R55968",
+          "R90271",
+          "R33466"
+        ]
+      }
+    ],
+    "path_order": [
+      2,
+      0,
+      1
+    ],
+    "candidate_source_case": "Same21 audited real people as v3.4.4; reused identities explicitly logged",
+    "entity_bundle_previously_used": false,
+    "candidate_list_sha256": "c0dde45c91b7aeb6a65757ab374508c664b0d9aa7eb417049da8b085b8b6e934"
+  }
+]

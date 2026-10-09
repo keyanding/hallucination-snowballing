@@ -1,0 +1,20 @@
+{
+  "final_decision": "HARD_N_SIGNAL_NOT_REPLICATED",
+  "PRESENTATION_SENSITIVE": false,
+  "development_passed": false,
+  "confirmation_evaluated": false,
+  "confirmation_passed": false,
+  "presentation_evaluated": true,
+  "calls": {
+    "development": 24,
+    "presentation_diagnostic": 8,
+    "confirmation": 0
+  },
+  "downstream_calls": 0,
+  "maximum_calls": 56,
+  "policy": {
+    "diagnostic_on_development_failure": true,
+    "approved_by_user": true,
+    "user_resolution": "开发失败也运行8次诊断；确认集仍仅开发通过时运行，诊断不改变主结论。"
+  }
+}

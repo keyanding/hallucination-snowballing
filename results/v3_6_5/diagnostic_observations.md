@@ -1,0 +1,5 @@
+# Presentation diagnostic interpretation
+
+PRESENTATION_SENSITIVE=false means only that3/8 changes did not exceed the pre-registered >3/8 flag threshold. It is not evidence of record-order invariance: three exact candidate identities changed despite unchanged graph facts, query and mapping identity. Strict-valid paired coverage was8/8. Gold-to-wrong1, wrong-to-gold1, wrong-to-different-wrong1. The diagnostic subset had two primary wrong answers; neither retained the same wrong identity. The third primary wrong case was not in this seeded subset. Do not generalize this subset to all primary errors or use it to exclude them.
+
+Development produced3 valid, pre-traceable wrong answers in3 distinct cases and3 identities. Only the >=4/24 wrong-yield criterion failed; Valid, distinct-case count, format-failure limit and traceability criteria passed. This threshold failure is not statistical proof that the underlying error rate differs from the historical5/24. No independent confirmation was run.

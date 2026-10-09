@@ -2,7 +2,7 @@
 
 ## How to use this file
 
-截至 2026-10-09（Asia/Shanghai），来源提交 `7e1b765af51e0f59c8e134f6e5760ed626c9831b + uncommitted v3.6.4 frozen attempt (manifest hashes)`。登记19个实验版本，均已有模型调用；v3.6.4首次0调用加载失败记录仍保留，用户随后授权同配置单次重试并完成72次开发调用。台账维护和独立核验本身零模型调用；信心等级限于注明范围。
+截至 2026-10-09（Asia/Shanghai），来源提交 `9e3a39e3b7f612f7dd7360336319164072626fdf + frozen v3.6.5 working-tree artifacts (manifest hashes)`。登记20个已有模型调用的实验版本；v3.6.4首次零调用故障及授权重试均保留。v3.6.5完成24开发+8诊断，确认未运行。台账维护/历史复现审计/独立核验本身零模型调用；信心等级限于注明范围。
 
 JSON是规范数据源；本Markdown、audit和CHANGELOG由同一数据源生成。F为发现、C为可复用组件、M为测量失败视图、Q为待解决问题。HIGH表示范围内有直接且较强记录支撑，不表示跨模型/总体普适；LOW的开放问题仍是假说。
 
@@ -16,13 +16,13 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 ## Current research boundary
 
-已验证显式符号跟随、至24条无关映射已测鲁棒性、上游查表与正确实际状态模块管线；未验证自然错误传播、集成底层能力或SHAR/HalluSE作用。 v3.6.4授权重试后完成开发72次，三个难度合格自然错误均0/24；未触发确认或传播。
+已验证显式符号跟随、至24条无关映射已测鲁棒性、上游查表与正确实际状态模块管线；未验证自然错误传播、集成底层能力或SHAR/HalluSE作用。 v3.6.4授权重试后完成开发72次，三个难度合格自然错误均0/24；未触发确认或传播。 v3.6.5复用历史HARD/N后获得3/24有效可追溯错误，但低于4/24开发门槛，未进入独立确认；自然传播依然未测。
 
 当前最强正结论是**模块化显式符号管线通过**；最重要限制是**自然错误传播仍未测，集成底层能力仍不确定**。所有百分比须保留分母；同一案例的条件/顺序重复不当作独立样本。
 
 ## Version-by-version evidence map
 
-共19个已执行版本；另1个准备草稿不计实验。早期目录使用smoke/calibration前缀，同样纳入。
+共20个已执行版本；另1个准备草稿不计实验。早期目录使用smoke/calibration前缀，同样纳入。
 
 | 版本 | 阶段 | 冻结门槛/研究状态 |
 |---|---|---|
@@ -44,7 +44,8 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 | v3.6.2 | 无关映射累积 | ROBUST_CONTEXT_ASSAY |
 | v3.6.3 | 上游+新下游shell | STOP_TWO_HOP_CALIBRATION_INVALID |
 | v3.6.3.1 | 冻结接口真实状态管线 | TWO_HOP_PIPELINE_VALIDATED；集成未就绪 |
-| v3.6.4 | 自然第一跳错误前沿资格；首次加载失败后用户授权单次重试 | NO_NATURAL_ERROR_FRONTIER；首次INFRASTRUCTURE_FAILURE保留 |
+| v3.6.4 | 自然第一跳错误前沿资格 | NO_NATURAL_ERROR_FRONTIER（授权重试完成72次开发调用） |
+| v3.6.5 | 历史HARD/N自然错误信号的定向复现 | HARD_N_SIGNAL_NOT_REPLICATED |
 
 ### v1 — 语义依赖smoke
 
@@ -406,17 +407,25 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 证据：[results/v3_6_3_1/README.md](../results/v3_6_3_1/README.md)；[results/v3_6_3_1/gate.json](../results/v3_6_3_1/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/v3_6_3_1/integrated_metrics.json](../results/v3_6_3_1/integrated_metrics.json)；[results/v3_6_3_1/shell_diagnostic_metrics.json](../results/v3_6_3_1/shell_diagnostic_metrics.json)；[results/v3_6_3_1/diagnostic_observations.md](../results/v3_6_3_1/diagnostic_observations.md)；[results/v3_6_3_1/parsed_outcomes.jsonl](../results/v3_6_3_1/parsed_outcomes.jsonl)
 
-### v3.6.4 — 自然第一跳错误前沿资格；首次加载失败后用户授权单次重试
+### v3.6.4 — 自然第一跳错误前沿资格
 
-**状态：NO_NATURAL_ERROR_FRONTIER；首次INFRASTRUCTURE_FAILURE保留**
+**状态：NO_NATURAL_ERROR_FRONTIER（授权重试完成72次开发调用）**
 
 **研究问题：** 自由生成的两关系上游任务能否产生独立确认的有效可追溯自然错误？
 
 **最小设计：** 24开发基础案例×3/5/8路径的EASY/MID/HARD=72计划调用；通过后24独立确认+8顺序诊断，最多104。48案例及全部168备选提示预冻结。
 
-**关键结果（保留分母）：** 首次加载失败0调用。用户授权同配置重试完成72开发调用：EASY GOLD/Valid24/24，MID23/24，HARD23/24；三个难度TRACEABLE_WRONG均0/24；MID/HARD各1个前缀缺失INVALID；OUT_OF_UNIVERSE和截断均0/72。确认/顺序/下游0调用。
+**关键结果（保留分母）：** 授权重试正常完成72次开发调用，三个难度均未达到≥4/24合格错误的开发门槛。其余有效性门槛均通过；停止原因是可追溯错误产出不足。
 
-**有效结论：** 冻结两关系任务在本次开发集没有产生达到门槛的有效可追溯自然错误，按预注册停止；成功重试证明本次可加载执行，未定位首次崩溃根因。
+| 难度 | GOLD / Valid | TRACEABLE_WRONG | OUT_OF_UNIVERSE | INVALID | TRUNCATED |
+|---|---:|---:|---:|---:|---:|
+| EASY | 24/24 | 0/24 | 0/24 | 0/24 | 0/24 |
+| MID | 23/24 | 0/24 | 0/24 | 1/24 | 0/24 |
+| HARD | 23/24 | 0/24 | 0/24 | 1/24 | 0/24 |
+
+MID/HARD各有1条只输出状态后缀的回答，按冻结规则记为INVALID，未修复为正确状态。确认集、顺序诊断、下游传播均为0调用；未运行不代表失败或顺序稳定。首次尝试在加载阶段崩溃、0调用，原记录保留，不能与重试结果混为一谈。
+
+**有效结论：** 在本模型、冻结两关系任务及24个开发基础案例上，三个难度均未产生有效可追溯的自然错误。该设计尚不能提供自然错误传播实验所需的错误来源；这不是传播率为零的结论。
 
 **未建立：** 未建立自然错误前沿、顺序稳定性或自然传播；零合格错误不等于所有任务不能产错，也不等于零传播率。
 
@@ -424,7 +433,27 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 **后续设计含义：** 保持自然错误资格和独立确认门槛，不把格式错误计作可追溯语义错误；后续设计须另行预注册。首次失败和重试独立保留。
 
-证据：[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/windows_crash_event.json](../results/v3_6_4/windows_crash_event.json)；[results/v3_6_4/pre_registration.md](../results/v3_6_4/pre_registration.md)；[results/v3_6_4/development_metrics.json](../results/v3_6_4/development_metrics.json)；[results/v3_6_4/independent_verification.json](../results/v3_6_4/independent_verification.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)；[results/v3_6_4/attempt_02/development_outputs.jsonl](../results/v3_6_4/attempt_02/development_outputs.jsonl)；[results/v3_6_4/attempt_02/independent_verification.json](../results/v3_6_4/attempt_02/independent_verification.json)；[results/v3_6_4/attempt_02/retry_authorization.json](../results/v3_6_4/attempt_02/retry_authorization.json)
+证据：[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)；[results/v3_6_4/attempt_02/development_outputs.jsonl](../results/v3_6_4/attempt_02/development_outputs.jsonl)；[results/v3_6_4/attempt_02/independent_verification.json](../results/v3_6_4/attempt_02/independent_verification.json)；[results/v3_6_4/attempt_02/retry_authorization.json](../results/v3_6_4/attempt_02/retry_authorization.json)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/windows_crash_event.json](../results/v3_6_4/windows_crash_event.json)；[results/v3_6_4/pre_registration.md](../results/v3_6_4/pre_registration.md)；[results/v3_6_4/development_metrics.json](../results/v3_6_4/development_metrics.json)；[results/v3_6_4/independent_verification.json](../results/v3_6_4/independent_verification.json)
+
+### v3.6.5 — 历史HARD/N自然错误信号的定向复现
+
+**状态：HARD_N_SIGNAL_NOT_REPLICATED**
+
+**研究问题：** v3.4.4 HARD/N开发5/24自然错选能否在新图案例复现并通过独立确认？
+
+**最小设计：** 直接复用历史D4B2/N renderer及人名parser；24开发+24预冻结确认，8预选名称记录循环置换诊断。实际32调用=24开发+8诊断。21人物复用，48新图/目标，40新组合+8历史组合；两split组合互不重复。
+
+**关键结果（保留分母）：** 历史24 HARD/N提示/图/聊天渲染逐字重建，零模型调用。新开发Valid24/24、gold21/24、可追溯错误3/24（3案例、3身份），out-of-set/ambiguous/noncompliant/truncated均0。仅错误产出未达4/24；确认未运行。诊断严格有效成对8/8，same5/8、changed3/8；gold→wrong1、wrong→gold1、wrong→different wrong1，同一错误身份保持0/2原始错误。PRESENTATION_SENSITIVE=false，因为未超过>3/8阈值，非顺序稳定。
+
+**有效结论：** 出现3个严格有效且预有下游证据的自由生成错选，但未达预注册复现门槛，未形成独立确认错误来源。呈现顺序变化确实改变3/8答案，单独标记未触发不抹去此观察。
+
+**未建立：** 未确认自然错误信号、未测下游传播；不能证明真实错误率显著低于历史5/24，也不能推广到未见人物、真实世界知识幻觉、注入/自然等价或SHAR/HalluSE。
+
+**测量问题：** 本次无格式失败或截断。开发门槛失败后依用户推理前决议仍运行8诊断；没有额外评分/约束/辅助模型调用。
+
+**后续设计含义：** 保留3个真实开发错选及未过门槛结论，不挑例传播、不追加难度搜索；顺序标志与实际变化/覆盖并报。
+
+证据：[results/v3_6_5/README.md](../results/v3_6_5/README.md)；[results/v3_6_5/gate.json](../results/v3_6_5/gate.json)；[results/v3_6_5/development_metrics.json](../results/v3_6_5/development_metrics.json)；[results/v3_6_5/presentation_diagnostic_metrics.json](../results/v3_6_5/presentation_diagnostic_metrics.json)；[results/v3_6_5/historical_interface_audit.json](../results/v3_6_5/historical_interface_audit.json)；[results/v3_6_5/independent_verification.json](../results/v3_6_5/independent_verification.json)；[results/v3_6_5/diagnostic_observations.md](../results/v3_6_5/diagnostic_observations.md)；[results/v3_6_5/inspection.md](../results/v3_6_5/inspection.md)
 
 准备草稿：[results/calibration_v3_4_1_preparation_draft/README.md](../results/calibration_v3_4_1_preparation_draft/README.md)；War标题误作genre在推理前修正，未运行模型，不计第二次实验。
 
@@ -622,11 +651,11 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 #### F18 — 未建立稳定可用的自然错误前沿
 
-状态：**INCONCLUSIVE**；信心：**HIGH**；版本：v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.6.4。
+状态：**INCONCLUSIVE**；信心：**HIGH**；版本：v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.6.4, v3.6.5。
 
 **范围：** 各自开发/诊断/确认设计，不是统一连续难度标尺。
 
-**精确结果：** v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。 v3.6.4是模型加载失败、零推理，故自然错误yield未评估，不能算作又一次零错误观察。 随后用户授权同配置单次重试：EASY/MID/HARD合格错误各0/24，Valid24/24、23/24、23/24，无截断；未选择难度、未确认。
+**精确结果：** v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。
 
 **设计含义：** 需新独立前沿与错误yield确认，不能按错挑例或放宽阈值。
 
@@ -634,15 +663,15 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 替代：无；被替代：无；开放跟进：Q01。
 
-证据：[results/calibration_v3_4_1/gate.json](../results/calibration_v3_4_1/gate.json)；[results/calibration_v3_4_1/diagnosis.md](../results/calibration_v3_4_1/diagnosis.md)；[results/calibration_v3_4_2/gate.json](../results/calibration_v3_4_2/gate.json)；[results/calibration_v3_4_2/diagnosis.md](../results/calibration_v3_4_2/diagnosis.md)；[results/calibration_v3_4_3/frontier_salvage.md](../results/calibration_v3_4_3/frontier_salvage.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)
+证据：[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)；[results/calibration_v3_4_1/gate.json](../results/calibration_v3_4_1/gate.json)；[results/calibration_v3_4_1/diagnosis.md](../results/calibration_v3_4_1/diagnosis.md)；[results/calibration_v3_4_2/gate.json](../results/calibration_v3_4_2/gate.json)；[results/calibration_v3_4_2/diagnosis.md](../results/calibration_v3_4_2/diagnosis.md)；[results/calibration_v3_4_3/frontier_salvage.md](../results/calibration_v3_4_3/frontier_salvage.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_5/README.md](../results/v3_6_5/README.md)；[results/v3_6_5/gate.json](../results/v3_6_5/gate.json)；[results/v3_6_5/development_metrics.json](../results/v3_6_5/development_metrics.json)；[results/v3_6_5/presentation_diagnostic_metrics.json](../results/v3_6_5/presentation_diagnostic_metrics.json)；[results/v3_6_5/diagnostic_observations.md](../results/v3_6_5/diagnostic_observations.md)
 
 #### F19 — 合格自然错误产出持续不足
 
-状态：**ACTIVE_WARNING**；信心：**HIGH**；版本：v3.3, v3.4, v3.4.4, v3.6.3.1, v3.6.4。
+状态：**ACTIVE_WARNING**；信心：**HIGH**；版本：v3.3, v3.4, v3.4.4, v3.6.3.1, v3.6.4, v3.6.5。
 
-**范围：** 已执行传播分支及被选择/确认的路线；自然状态需未强制生成、有效、错误且关系证据可追溯，不表示所有开发条件都没有错选。
+**范围：** 已执行传播分支及被选择/确认的路线；自然状态需未强制生成、有效、错误且关系证据可追溯，不表示所有开发条件都没有错选。 v3.6.5纳入独立确认前的预注册错误来源资格；允许存在尚未达到产出门槛的有效开发错误。
 
-**精确结果：** v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。 v3.6.4是模型加载失败、零推理，故自然错误yield未评估，不能算作又一次零错误观察。 随后用户授权同配置单次重试：EASY/MID/HARD合格错误各0/24，Valid24/24、23/24、23/24，无截断；未选择难度、未确认。
+**精确结果：** v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。
 
 **设计含义：** 自然错误yield与证据资格前置；零合格传播率null。
 
@@ -650,7 +679,7 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 替代：无；被替代：无；开放跟进：Q01。
 
-证据：[results/smoke_v3_3/eligibility_review.json](../results/smoke_v3_3/eligibility_review.json)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/smoke_v3_4/metrics.json](../results/smoke_v3_4/metrics.json)；[results/smoke_v3_4/diagnosis.md](../results/smoke_v3_4/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)
+证据：[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)；[results/smoke_v3_3/eligibility_review.json](../results/smoke_v3_3/eligibility_review.json)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/smoke_v3_4/metrics.json](../results/smoke_v3_4/metrics.json)；[results/smoke_v3_4/diagnosis.md](../results/smoke_v3_4/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_5/README.md](../results/v3_6_5/README.md)；[results/v3_6_5/gate.json](../results/v3_6_5/gate.json)；[results/v3_6_5/development_metrics.json](../results/v3_6_5/development_metrics.json)；[results/v3_6_5/presentation_diagnostic_metrics.json](../results/v3_6_5/presentation_diagnostic_metrics.json)；[results/v3_6_5/diagnostic_observations.md](../results/v3_6_5/diagnostic_observations.md)
 
 ### Prompt / presentation brittleness
 
@@ -774,11 +803,11 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 #### F16 — 复杂记录/冲突证据顺序并非无害
 
-状态：**ACTIVE_WARNING**；信心：**HIGH**；版本：v3.3, v3.4.4, v3.6.0。
+状态：**ACTIVE_WARNING**；信心：**HIGH**；版本：v3.3, v3.4.4, v3.6.0, v3.6.5。
 
-**范围：** 三类操纵分开解释。
+**范围：** 各版操纵分别解释；v3.6.5为完整名称记录块的单次循环置换。
 
-**精确结果：** v3.3冲突wrong8/12、gold5/12变更；v3.4.4 HARD R14/23敏感、最早41/95；v3.6.0反序5/20差异。
+**精确结果：** v3.3冲突wrong8/12、gold5/12变更；v3.4.4 HARD R14/23敏感、最早41/95；v3.6.0反序5/20差异。 v3.6.5诊断3/8身份变化、8/8严格有效成对；gold→wrong1、wrong→gold1、wrong→different wrong1。PRESENTATION_SENSITIVE=false仅因阈值>3/8未触发，不表示稳定。
 
 **设计含义：** 复杂/竞争证据设置order对照，不借F09免检。
 
@@ -786,7 +815,7 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 替代：无；被替代：无；开放跟进：Q08。
 
-证据：[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/calibration_v3_4_4/diagnosis.md](../results/calibration_v3_4_4/diagnosis.md)；[results/calibration_v3_4_4/record_rotation_free.jsonl](../results/calibration_v3_4_4/record_rotation_free.jsonl)；[results/v3_6_1/v360_failure_audit.json](../results/v3_6_1/v360_failure_audit.json)
+证据：[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/calibration_v3_4_4/diagnosis.md](../results/calibration_v3_4_4/diagnosis.md)；[results/calibration_v3_4_4/record_rotation_free.jsonl](../results/calibration_v3_4_4/record_rotation_free.jsonl)；[results/v3_6_1/v360_failure_audit.json](../results/v3_6_1/v360_failure_audit.json)；[results/v3_6_5/README.md](../results/v3_6_5/README.md)；[results/v3_6_5/gate.json](../results/v3_6_5/gate.json)；[results/v3_6_5/development_metrics.json](../results/v3_6_5/development_metrics.json)；[results/v3_6_5/presentation_diagnostic_metrics.json](../results/v3_6_5/presentation_diagnostic_metrics.json)；[results/v3_6_5/diagnostic_observations.md](../results/v3_6_5/diagnostic_observations.md)
 
 ### Model capability limits
 
@@ -939,7 +968,7 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 | M07 / F15 | 候选列表位置偏差 | [results/calibration_v3_4_2/position_audit.md](../results/calibration_v3_4_2/position_audit.md)；[results/calibration_v3_4_3/diagnosis.md](../results/calibration_v3_4_3/diagnosis.md)；[results/calibration_v3_4_3/prompt_diff_audit.md](../results/calibration_v3_4_3/prompt_diff_audit.md)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/calibration_v3_4_4/supplementary_diagnostics.md](../results/calibration_v3_4_4/supplementary_diagnostics.md) | 仅旋转列表即改身份 | 错误可能不代表稳定错误状态 | 避开未校准列表或明确重测完整order控制；按基础例分析。 | ACTIVE_WARNING |
 | M08 / F16 | 复杂记录/竞争证据顺序敏感 | [results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/calibration_v3_4_4/diagnosis.md](../results/calibration_v3_4_4/diagnosis.md)；[results/calibration_v3_4_4/record_rotation_free.jsonl](../results/calibration_v3_4_4/record_rotation_free.jsonl)；[results/v3_6_1/v360_failure_audit.json](../results/v3_6_1/v360_failure_audit.json) | 旋转/倒置引起输出变化 | 简单位置稳定不能免除复杂任务控制 | 复杂/竞争证据设置order对照，不借F09免检。 | ACTIVE_WARNING |
 | M09 / F17 | 通道测量不等价 | [results/calibration_v3_4_1/diagnosis.md](../results/calibration_v3_4_1/diagnosis.md)；[results/calibration_v3_4_3/diagnosis.md](../results/calibration_v3_4_3/diagnosis.md)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/calibration_v3_4_4/supplementary_diagnostics.md](../results/calibration_v3_4_4/supplementary_diagnostics.md) | C有效而F截断，N与L差异 | 受限选择不是完成的自然第一跳 | 显式分母/通道/valid条件；自然轨迹不可由受限选择代替。 | ACTIVE_WARNING |
-| M10 / F19 | 缺乏合格自然错误 | [results/smoke_v3_3/eligibility_review.json](../results/smoke_v3_3/eligibility_review.json)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/smoke_v3_4/metrics.json](../results/smoke_v3_4/metrics.json)；[results/smoke_v3_4/diagnosis.md](../results/smoke_v3_4/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md) | 错误缺关系、无效或全对 | 没有自然传播分母 | 自然错误yield与证据资格前置；零合格传播率null。 | ACTIVE_WARNING |
+| M10 / F19 | 缺乏合格自然错误 | [results/smoke_v3_3/eligibility_review.json](../results/smoke_v3_3/eligibility_review.json)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/smoke_v3_4/metrics.json](../results/smoke_v3_4/metrics.json)；[results/smoke_v3_4/diagnosis.md](../results/smoke_v3_4/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/calibration_v3_4_4/README.md](../results/calibration_v3_4_4/README.md)；[results/v3_6_5/README.md](../results/v3_6_5/README.md)；[results/v3_6_5/gate.json](../results/v3_6_5/gate.json)；[results/v3_6_5/development_metrics.json](../results/v3_6_5/development_metrics.json) | 错误缺关系、无效或全对；v3.6.5有3/24有效错误但不足预注册4/24产出门槛 | 尚未建立通过独立确认、可供后续自然传播实验使用的错误来源；有效开发错误不自动变成已确认传播分母。 | 自然错误yield与证据资格前置；零合格传播率null。 | ACTIVE_WARNING |
 
 证据只支持风险存在及注明范围，不一定识别唯一因果。未发现“事后改题修复”已发生的证据；禁止后验修复作为预防纪律保留，但不伪造observed失败条目。注入/自然混淆的防范由F12/F20与协议承担，没有把未发生的误用登记成观测事件。
 
@@ -951,11 +980,11 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 **为何重要：** 核心目标未被注入实验替代。
 
-**当前证据：** 自然关系分母0；候选任务错误yield不足；最新U-A全对。 v3.6.4冻结后加载崩溃，零推理；没有新增自然错误或传播证据。 授权重试完成72开发调用，合格错误0，故确认与自然传播仍未执行。
+**当前证据：** 自然错误传播仍未测。v3.6.3.1的U-A全部正确；v3.6.4授权重试完成72次开发调用，EASY/MID/HARD合格自然错误均0/24，未选择难度，确认与自然传播均未执行。首次加载失败的0调用记录不是错误yield观察。 v3.6.5得到3/24有效可追溯自然错选，但未达4/24门槛，未确认、未传播。
 
 **解决标准：** 独立确认足够未强制、严格有效、错误且关系可追溯的状态，原样转发；报告条件分母/正确上游对照。
 
-证据：[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)
+证据：[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/calibration_v3_4_4/gate.json](../results/calibration_v3_4_4/gate.json)；[results/v3_6_3_1/metrics.json](../results/v3_6_3_1/metrics.json)；[results/v3_6_4/README.md](../results/v3_6_4/README.md)；[results/v3_6_4/gate.json](../results/v3_6_4/gate.json)；[results/v3_6_4/failure.json](../results/v3_6_4/failure.json)；[results/v3_6_4/attempt_02/README.md](../results/v3_6_4/attempt_02/README.md)；[results/v3_6_4/attempt_02/gate.json](../results/v3_6_4/attempt_02/gate.json)；[results/v3_6_4/attempt_02/development_metrics.json](../results/v3_6_4/attempt_02/development_metrics.json)；[results/v3_6_5/README.md](../results/v3_6_5/README.md)；[results/v3_6_5/gate.json](../results/v3_6_5/gate.json)；[results/v3_6_5/development_metrics.json](../results/v3_6_5/development_metrics.json)
 
 ### Q02 — 分离格式/截断后集成两跳是否可靠？
 
@@ -1035,11 +1064,11 @@ FROZEN_REUSE仍受scope约束；ACTIVE_WARNING是有观察依据的设计约束�
 
 **为何重要：** 简单稳定，复杂/冲突敏感。
 
-**当前证据：** 简单三位置24/24；HARD R14/23敏感；冲突wrong8/12改变。
+**当前证据：** 简单三位置24/24；HARD R14/23敏感；冲突wrong8/12改变。 v3.6.5名称记录置换改变3/8身份（严格有效覆盖8/8）；未超标记阈值不代表稳定。
 
 **解决标准：** 分别控制列表、记录、竞争证据和语义背景，检验交互。
 
-证据：[results/v3_6_2/position_diagnostic_metrics.json](../results/v3_6_2/position_diagnostic_metrics.json)；[results/calibration_v3_4_4/diagnosis.md](../results/calibration_v3_4_4/diagnosis.md)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)
+证据：[results/v3_6_2/position_diagnostic_metrics.json](../results/v3_6_2/position_diagnostic_metrics.json)；[results/calibration_v3_4_4/diagnosis.md](../results/calibration_v3_4_4/diagnosis.md)；[results/smoke_v3_3/diagnosis.md](../results/smoke_v3_3/diagnosis.md)；[results/v3_6_5/presentation_diagnostic_metrics.json](../results/v3_6_5/presentation_diagnostic_metrics.json)；[results/v3_6_5/diagnostic_observations.md](../results/v3_6_5/diagnostic_observations.md)
 
 ### Q09 — 能否推广到其他模型/量化/真实任务？
 
@@ -1101,3 +1130,5 @@ EXPERIMENT_WORKFLOW.md和experiments/inheritance.py在旧manifest冻结，本次
 - 2026-10-08：创建项目级研究台账，扫描18实验版本/19结果目录（含1个推理前草稿），提取27发现，激活未来spec继承协议；零新模型调用，历史不变。
 - 2026-10-09：纳入v3.6.4冻结后模型加载失败：INFRASTRUCTURE_FAILURE，0调用，所有科学指标未评估。用户明确Valid=未截断GOLD/TRACEABLE_WRONG，状态全集为提示中的3/5/8个状态且预有下游映射。保留27项发现及原状态，不将工程崩溃升级为能力/错误yield结论；F18/F19/Q01注明未获得新观察。扩展文件清单及哈希，历史结果和冻结代码不变。
 - 2026-10-09：用户明确授权v3.6.4单次重试；原始失败记录逐字保留，attempt_02复用原科学冻结。72调用正常完成，EASY/MID/HARD Valid24/24、23/24、23/24，合格错误均0/24，2个前缀缺失INVALID、0截断。NO_NATURAL_ERROR_FRONTIER，按预注册不运行确认/顺序/下游；27项发现状态不变，F18/F19/Q01补入实际开发观察。
+- 2026-10-09：按用户要求突出v3.6.4最终研究结果：新增三难度计数表，明确有效性门槛通过而错误产出不足；统一F18/F19/Q01叙述，消除“整个v3.6.4零推理”的歧义。优先链接attempt_02科学证据，另保留首次加载失败记录；来源更新为已推送提交9e3a39e。未更改实验结果、阈值或发现状态。
+- 2026-10-09：纳入v3.6.5历史HARD/N定向复现：24/24有效、21/24正确、3/24可追溯错误，仅错误产出未达4/24门槛；HARD_N_SIGNAL_NOT_REPLICATED，确认0调用。依推理前用户决议执行8诊断，3/8身份改变、覆盖8/8；未超>3/8标记阈值不等于稳定。更新F16/F18/F19、M10、Q01/Q08，保留27项发现状态及历史结果；169测试和独立32输出核验通过。
