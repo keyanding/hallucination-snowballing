@@ -1,0 +1,35 @@
+{
+  "model_calls": 0,
+  "baseline_commit": "135968464958840259bdb6b4c6ced2951afe2e03",
+  "baseline_matches": true,
+  "v344": {
+    "valid": 24,
+    "wrong": 5,
+    "denominator": 24
+  },
+  "v365": {
+    "valid": 24,
+    "gold": 21,
+    "wrong": 3,
+    "denominator": 24,
+    "confirmation_calls": 0,
+    "status": "HARD_N_SIGNAL_NOT_REPLICATED",
+    "diagnostic": {
+      "comparable": 8,
+      "changed": 3,
+      "gold_to_wrong": 1,
+      "wrong_to_gold": 1,
+      "wrong_to_different_wrong": 1,
+      "same_wrong": 0
+    }
+  },
+  "v3631": {
+    "D_A": 40,
+    "D_B": 40,
+    "paired_switch": 40,
+    "actual_correct_pipeline": 40,
+    "denominator": 40,
+    "actual_upstream_all_correct": true
+  },
+  "historical_fixture_count": 24
+}

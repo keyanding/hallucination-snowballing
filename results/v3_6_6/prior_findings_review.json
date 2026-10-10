@@ -1,0 +1,259 @@
+{
+  "ledger_sha256": "69bb8456e98cb2bc77974672b10bdaf6ba426d81ed52e399c4ac0e0734ae40da",
+  "latest_completed_version": "v3.6.5",
+  "rows": [
+    {
+      "id": "F01",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Fixed120 denominators, invalid/skipped/missing separated; never replace primary cases.",
+      "modified": false
+    },
+    {
+      "id": "F02",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Synthetic explicit records avoid closed-book knowledge and birthplace granularity.",
+      "modified": false
+    },
+    {
+      "id": "F03",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F04",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "FROZEN_REUSE",
+      "rationale": "Exact two-row Current state shell and cap16; all360 modules compared byte for byte.",
+      "modified": false
+    },
+    {
+      "id": "F05",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No supporting prose that asserts a competing answer; exactly one gold path.",
+      "modified": false
+    },
+    {
+      "id": "F06",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No UNKNOWN instruction or fallback shell.",
+      "modified": false
+    },
+    {
+      "id": "F07",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No Recorded intermediate result shell or downstream inference.",
+      "modified": false
+    },
+    {
+      "id": "F08",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F09",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F10",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F11",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "INTENTIONALLY_RETESTED",
+      "rationale": "New lossless person encoding and routed natural wrong states; previous actual pipeline tested correct states only.",
+      "modified": false
+    },
+    {
+      "id": "F12",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "INTENTIONALLY_RETESTED",
+      "rationale": "Paired controls on current routed modules estimate RD; never count controls as natural errors.",
+      "modified": false
+    },
+    {
+      "id": "F13",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F14",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Historical upstream cap96/downstream16 unchanged; truncation never repaired or retried.",
+      "modified": false
+    },
+    {
+      "id": "F15",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "No answer options or numbered candidate list; records are relational evidence.",
+      "modified": false
+    },
+    {
+      "id": "F16",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "INTENTIONALLY_RETESTED",
+      "rationale": "24 seeded independent diagnostics; no gating or error supplementation.",
+      "modified": false
+    },
+    {
+      "id": "F17",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "AVOIDED",
+      "rationale": "Only unconstrained greedy generation, no likelihood or constrained channel.",
+      "modified": false
+    },
+    {
+      "id": "F18",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "TARGETED",
+      "rationale": "Prospective collection replaces frontier selection; prior failure remains unchanged.",
+      "modified": false
+    },
+    {
+      "id": "F19",
+      "ledger_status": "ACTIVE_WARNING",
+      "treatment": "INTENTIONALLY_RETESTED",
+      "rationale": "No yield gate; report all trajectories with actual W and information labels, never add cases to reach20.",
+      "modified": false
+    },
+    {
+      "id": "F20",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "TARGETED",
+      "rationale": "Measure natural wrong identities routed into synthetic opaque modules, without claiming natural/injected equivalence.",
+      "modified": false
+    },
+    {
+      "id": "F21",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F22",
+      "ledger_status": "OPEN_QUESTION",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F23",
+      "ledger_status": "OPEN_QUESTION",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F24",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F25",
+      "ledger_status": "INCONCLUSIVE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    },
+    {
+      "id": "F26",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "FROZEN_REUSE",
+      "rationale": "Use unchanged historical name parser upstream and v3.6.3 outcome parser downstream; no parser mixing.",
+      "modified": false
+    },
+    {
+      "id": "F27",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "FROZEN_REUSE",
+      "rationale": "Same model/runtime, task-specific inherited cap96 and16; no new stack experiment.",
+      "modified": false
+    },
+    {
+      "id": "C01",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "FROZEN_REUSE",
+      "rationale": "Exact validated two-row Current state mapping shell.",
+      "modified": false
+    },
+    {
+      "id": "C02",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "Do not run direct A-to-B shell; reuse historical D4B2 catalog graph task.",
+      "modified": false
+    },
+    {
+      "id": "C03",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "FROZEN_REUSE",
+      "rationale": "Same STATE/OUTCOME families; fresh IDs, matched role token counts, eight distinct suffixes within case.",
+      "modified": false
+    },
+    {
+      "id": "C04",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "FROZEN_REUSE",
+      "rationale": "Unchanged inherited downstream outcome parser; upstream names use distinct historical parser.",
+      "modified": false
+    },
+    {
+      "id": "C05",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "FROZEN_REUSE",
+      "rationale": "Exact stack/seed/cache/template; downstream cap16 and historical HARD/N cap96 retained by task.",
+      "modified": false
+    },
+    {
+      "id": "C06",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "INTENTIONALLY_RETESTED",
+      "rationale": "New deterministic person-state encoding and identity-dependent selection of pre-frozen two-row modules.",
+      "modified": true,
+      "modification": {
+        "component": "C06",
+        "prior_evidence": [
+          "experiments/v3_6_3_1/analyze.py",
+          "experiments/v3_6_3_1/design.py",
+          "experiments/v3_6_3_1/run.py",
+          "results/v3_6_3_1/independent_verification.json",
+          "results/v3_6_3_1/metrics.json",
+          "results/v3_6_3_1/pipeline_generated_outputs.jsonl",
+          "results/v3_6_3_1/pipeline_log.jsonl"
+        ],
+        "reason": "New deterministic person-state encoding and identity-dependent selection of pre-frozen two-row modules.",
+        "prior_conclusion_no_longer_applies": "Old actual-state pipeline used correct opaque states only, not natural wrong names or identity-dependent modules.",
+        "revalidation_gate": "Static bijection/all-branch routing and exact byte audits, complete120-case trajectory collection, terminal capability and information labels."
+      }
+    },
+    {
+      "id": "C07",
+      "ledger_status": "FROZEN_REUSE",
+      "treatment": "NOT_RELEVANT",
+      "rationale": "No call tests this component or question; prior scope is preserved without claiming new validation.",
+      "modified": false
+    }
+  ]
+}

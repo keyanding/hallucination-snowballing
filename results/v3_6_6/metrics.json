@@ -1,0 +1,4341 @@
+{
+  "technical_status": "NONE",
+  "collection_status": "PROSPECTIVE_COLLECTION_COMPLETE",
+  "N_planned": 120,
+  "N_attempted": 120,
+  "N_observed": 120,
+  "V": 118,
+  "G": 98,
+  "W": 20,
+  "stage_counts": {
+    "first_hop": 120,
+    "natural_downstream": 118,
+    "controlled": 240,
+    "order_diagnostic": 24
+  },
+  "first_hop": {
+    "GOLD": {
+      "count": 98,
+      "denominator": 120,
+      "rate": 0.8166666666666667,
+      "wilson95": [
+        0.7379908648282967,
+        0.8756969964398578
+      ]
+    },
+    "WRONG": {
+      "count": 20,
+      "denominator": 120,
+      "rate": 0.16666666666666666,
+      "wilson95": [
+        0.11055996367984616,
+        0.24345281393262286
+      ]
+    },
+    "TRUNCATED": {
+      "count": 2,
+      "denominator": 120,
+      "rate": 0.016666666666666666,
+      "wilson95": [
+        0.004582564565921141,
+        0.0587359629721589
+      ]
+    },
+    "AMBIGUOUS": {
+      "count": 0,
+      "denominator": 120,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.031019166418703486
+      ]
+    },
+    "OUT_OF_SET": {
+      "count": 0,
+      "denominator": 120,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.031019166418703486
+      ]
+    },
+    "NONCOMPLIANT": {
+      "count": 0,
+      "denominator": 120,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.031019166418703486
+      ]
+    },
+    "MISSING": {
+      "count": 0,
+      "denominator": 120,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.031019166418703486
+      ]
+    }
+  },
+  "natural_wrong_counts": {
+    "PROPAGATION": 20
+  },
+  "natural_gold_counts": {
+    "GOLD_RETAINED": 98
+  },
+  "natural_wrong_rates": {
+    "PROPAGATION": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1.0
+      ]
+    },
+    "OVERRIDE": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "OTHER": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "MISSING": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "OTHER_OUTCOME": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "UNKNOWN": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "INVALID": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "TRUNCATED": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    }
+  },
+  "natural_gold_rates": {
+    "GOLD_RETAINED": {
+      "count": 98,
+      "denominator": 98,
+      "rate": 1.0,
+      "wilson95": [
+        0.9622800098783192,
+        0.9999999999999999
+      ]
+    },
+    "ALTERNATE_OUTCOME": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    },
+    "OTHER": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    },
+    "MISSING": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    },
+    "OTHER_OUTCOME": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    },
+    "UNKNOWN": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    },
+    "INVALID": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    },
+    "TRUNCATED": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    }
+  },
+  "proportions": {
+    "natural_wrong_yield": {
+      "count": 20,
+      "denominator": 120,
+      "rate": 0.16666666666666666,
+      "wilson95": [
+        0.11055996367984616,
+        0.24345281393262286
+      ]
+    },
+    "wrong_given_valid": {
+      "count": 20,
+      "denominator": 118,
+      "rate": 0.1694915254237288,
+      "wilson95": [
+        0.11248310046569439,
+        0.2473407168542595
+      ]
+    },
+    "valid_coverage": {
+      "count": 118,
+      "denominator": 120,
+      "rate": 0.9833333333333333,
+      "wilson95": [
+        0.941264037027841,
+        0.9954174354340789
+      ]
+    },
+    "conditional_propagation": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1.0
+      ]
+    },
+    "conditional_override": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "conditional_other": {
+      "count": 0,
+      "denominator": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "UCR": {
+      "count": 20,
+      "denominator": 120,
+      "rate": 0.16666666666666666,
+      "wilson95": [
+        0.11055996367984616,
+        0.24345281393262286
+      ]
+    },
+    "strict_end_to_end_success": {
+      "count": 98,
+      "denominator": 120,
+      "rate": 0.8166666666666667,
+      "wilson95": [
+        0.7379908648282967,
+        0.8756969964398578
+      ]
+    },
+    "final_gold_rate": {
+      "count": 98,
+      "denominator": 120,
+      "rate": 0.8166666666666667,
+      "wilson95": [
+        0.7379908648282967,
+        0.8756969964398578
+      ]
+    },
+    "gold_to_alternate": {
+      "count": 0,
+      "denominator": 98,
+      "rate": 0.0,
+      "wilson95": [
+        3.469446951953614e-18,
+        0.037719990121680605
+      ]
+    },
+    "legal_forwarding_rate": {
+      "count": 118,
+      "denominator": 118,
+      "rate": 1.0,
+      "wilson95": [
+        0.9684716609775057,
+        1.0
+      ]
+    },
+    "complete_trajectory_coverage": {
+      "count": 120,
+      "denominator": 120,
+      "rate": 1.0,
+      "wilson95": [
+        0.9689808335812966,
+        1.0
+      ]
+    },
+    "completed_wrong_propagation": {
+      "count": 20,
+      "denominator": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388748419471806,
+        1.0
+      ]
+    }
+  },
+  "cascade_missing_bounds": {
+    "observed_P": 20,
+    "uncertain_cases": 0,
+    "denominator": 120,
+    "lower": 0.16666666666666666,
+    "upper": 0.16666666666666666,
+    "final": true
+  },
+  "capability": {
+    "status": "CURRENT_COHORT_CAPABILITY_SUPPORTED",
+    "checks": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4_G": true,
+      "C4_A": true
+    },
+    "counts": {
+      "G": {
+        "C": 120
+      },
+      "A": {
+        "Cp": 120
+      }
+    },
+    "truncation_rates": {
+      "G": {
+        "count": 0,
+        "denominator": 120,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.031019166418703486
+        ]
+      },
+      "A": {
+        "count": 0,
+        "denominator": 120,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.031019166418703486
+        ]
+      }
+    },
+    "category_rates": {
+      "G": {
+        "C": {
+          "count": 120,
+          "denominator": 120,
+          "rate": 1.0,
+          "wilson95": [
+            0.9689808335812966,
+            1.0
+          ]
+        },
+        "Cp": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "OTHER_OUTCOME": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "UNKNOWN": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "INVALID": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "MISSING": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        }
+      },
+      "A": {
+        "C": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "Cp": {
+          "count": 120,
+          "denominator": 120,
+          "rate": 1.0,
+          "wilson95": [
+            0.9689808335812966,
+            1.0
+          ]
+        },
+        "OTHER_OUTCOME": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "UNKNOWN": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "INVALID": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        },
+        "MISSING": {
+          "count": 0,
+          "denominator": 120,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.031019166418703486
+          ]
+        }
+      }
+    },
+    "paired_both_correct": {
+      "count": 120,
+      "denominator": 120,
+      "rate": 1.0,
+      "wilson95": [
+        0.9689808335812966,
+        1.0
+      ]
+    },
+    "G_adherence": {
+      "count": 120,
+      "denominator": 120,
+      "rate": 1.0,
+      "wilson95": [
+        0.9689808335812966,
+        1.0
+      ]
+    },
+    "A_adherence": {
+      "count": 120,
+      "denominator": 120,
+      "rate": 1.0,
+      "wilson95": [
+        0.9689808335812966,
+        1.0
+      ]
+    },
+    "G_permitted": {
+      "count": 120,
+      "denominator": 120,
+      "rate": 1.0,
+      "wilson95": [
+        0.9689808335812966,
+        1.0
+      ]
+    },
+    "A_permitted": {
+      "count": 120,
+      "denominator": 120,
+      "rate": 1.0,
+      "wilson95": [
+        0.9689808335812966,
+        1.0
+      ]
+    }
+  },
+  "information": {
+    "status": "MINIMUM_DESCRIPTIVE_INFORMATION_MET",
+    "n_eff_natural": 20,
+    "n_eff_paired_wrong": 20,
+    "W": 20,
+    "all_wrong_identities": 9,
+    "all_wrong_bundles": 20,
+    "jointly_complete_wrong_identities": 9,
+    "jointly_complete_wrong_bundles": 20
+  },
+  "concentration": {
+    "distinct_gold_identities": 21,
+    "wrong_identity_counts": {
+      "Helmut Käutner": 1,
+      "Walter Hugo Khouri": 2,
+      "Yuen Woo-ping": 4,
+      "Rahul Rawail": 7,
+      "Marcello Fondato": 1,
+      "Rolf Schübel": 1,
+      "Bhappi Sonie": 1,
+      "Rodrigo Grande": 1,
+      "Gu Changwei": 2
+    },
+    "maximum_wrong_identity_share": {
+      "count": 7,
+      "denominator": 20,
+      "rate": 0.35,
+      "wilson95": [
+        0.18119182410108206,
+        0.5671457233147638
+      ]
+    },
+    "bundles": {
+      "aefd054c8d676da2": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "39a526efa1b04bd4": {
+        "cases": 2,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "8cf0cc7079fa090e": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "b2ccb8b5be920d20": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "c9079a943fa3f2ce": {
+        "cases": 2,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "24ef24f588441794": {
+        "cases": 2,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "9652fafb26be3a5d": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "35c38b8472dcc1a3": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "e9f24837a7e0d5e4": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "7bbc393046be7817": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "3724df19bace5eca": {
+        "cases": 2,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "939c81ba00511a70": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "01818f36259323a5": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "988c14e8e5ce3f9d": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "f38ba80877cc3d82": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "f157b6feddc8ce90": {
+        "cases": 2,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "e059d237b463f43f": {
+        "cases": 2,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "8cab952f1b740d60": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "4b0cb4806bb211e9": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "ed9bfb5e25892fcc": {
+        "cases": 2,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "c98035df52ab7476": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "50e15f69ccd05036": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "23734286c69277ab": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "b08877a4ea6b6fb4": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "c355939a1f708715": {
+        "cases": 2,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "b32ee8aa8c723d12": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "dda400b52df40a38": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "41bf19c881d46068": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "02235ce29d4f8bc9": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "0f8a87ad8de3c19a": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "ba85267fcb61d5ff": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "4352c8d19e833e67": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "d66df066d3d9ac7f": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "ea5096d5932f314a": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "979af69a2da4b650": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "aa4c09f9c2f854a4": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "438abcbd4b546900": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "4d9f87a7c5477931": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "b88609cfec0bc8ea": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "9e33750d40726166": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "232f03a7c5788257": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "e5c75c0141a537ed": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "8dcc87ac91ebda1a": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "8bb45870925b991f": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "7b8b64a45302fec3": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "fe60dd2a8faf7987": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "26c22f18dbd3d13a": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "1f341f77df471d71": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "296de540122eef0a": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "10ef3f36f0333aa9": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "9961bf22e4f7f480": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "72c9a110fa9c8220": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "e60b65a80cb765b7": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "d6d7ff164d324bf9": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "9ea1fb1b02e3b5d8": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "265dcdef6636eba4": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "66ee8e0b93ebe133": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "310f79b291bfc3fd": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "7b870f33c01f0370": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "65ea7b5916541fe0": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "b08eb544d944f5ed": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "9f001b4c2bf85e58": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "9958d7267e4f6de7": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "005571bad6257bb4": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "a263df72133bec18": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "5fb12cf626be40f9": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "c9fbb3989f033ee3": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "d79861b04442927d": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "bf221e1b5d60e045": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "072b782b8799ea96": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "26def672328c1658": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "50abb85dec1096f6": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "2ed5c0fda8a81dcf": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "036efc2bad643e46": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "21906c4367fff164": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "6da74aba73cfa9c9": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "5e71428bb5790122": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "8bd7f14b674a8ac2": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "84fb85430b99aeee": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "03ad9ef859f1d0fd": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "b68ed8ccf4be773e": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "d51d9938fdfad083": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "0635e699dfc62961": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "ee8a0209da5db682": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "3d23ec5ff90d95a0": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "cdf42caa0272eab6": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "6d7fc7d16f305d0c": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "b39493c7251fa298": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "78bee8f178d403ef": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "988a5e673c2aed46": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "695b14df31324351": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "c5b9674e757e0159": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "b12feacb50650c34": {
+        "cases": 1,
+        "wrong": 0,
+        "propagation": 0
+      },
+      "37e5f95570b17673": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      },
+      "bb9602115f479ce0": {
+        "cases": 1,
+        "wrong": 1,
+        "propagation": 1
+      }
+    }
+  },
+  "routed_order_counts": {
+    "GOLD": {
+      "gold_first": 48,
+      "gold_second": 50
+    },
+    "WRONG": {
+      "gold_first": 11,
+      "gold_second": 9
+    },
+    "TRUNCATED": {
+      "gold_second": 1,
+      "gold_first": 1
+    }
+  },
+  "diagnostic": {
+    "calls": 24,
+    "planned": 24,
+    "pairs": [
+      {
+        "case_id": "v366-main-091",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Tinnu Anand",
+          "mentioned_candidates": [
+            "Tinnu Anand"
+          ],
+          "supplementary_identity": "Tinnu Anand"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Tinnu Anand",
+          "mentioned_candidates": [
+            "Tinnu Anand"
+          ],
+          "supplementary_identity": "Tinnu Anand"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-076",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "León Klimovsky",
+          "mentioned_candidates": [
+            "León Klimovsky"
+          ],
+          "supplementary_identity": "León Klimovsky"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "León Klimovsky",
+          "mentioned_candidates": [
+            "León Klimovsky"
+          ],
+          "supplementary_identity": "León Klimovsky"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-113",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Armando Robles Godoy",
+          "mentioned_candidates": [
+            "Armando Robles Godoy"
+          ],
+          "supplementary_identity": "Armando Robles Godoy"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Armando Robles Godoy",
+          "mentioned_candidates": [
+            "Armando Robles Godoy"
+          ],
+          "supplementary_identity": "Armando Robles Godoy"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-099",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Fridrikh Ermler",
+          "mentioned_candidates": [
+            "Fridrikh Ermler"
+          ],
+          "supplementary_identity": "Fridrikh Ermler"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Fridrikh Ermler",
+          "mentioned_candidates": [
+            "Fridrikh Ermler"
+          ],
+          "supplementary_identity": "Fridrikh Ermler"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-053",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Robert P. Kerr",
+          "mentioned_candidates": [
+            "Robert P. Kerr"
+          ],
+          "supplementary_identity": "Robert P. Kerr"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Robert P. Kerr",
+          "mentioned_candidates": [
+            "Robert P. Kerr"
+          ],
+          "supplementary_identity": "Robert P. Kerr"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-060",
+        "primary": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "Rahul Rawail",
+          "mentioned_candidates": [
+            "Rahul Rawail"
+          ],
+          "supplementary_identity": "Rahul Rawail"
+        },
+        "diagnostic": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "Ildikó Enyedi",
+          "mentioned_candidates": [
+            "Ildikó Enyedi"
+          ],
+          "supplementary_identity": "Ildikó Enyedi"
+        },
+        "comparable": true,
+        "same": false,
+        "changed": true,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": true,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-034",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "James Goldstone",
+          "mentioned_candidates": [
+            "James Goldstone"
+          ],
+          "supplementary_identity": "James Goldstone"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "James Goldstone",
+          "mentioned_candidates": [
+            "James Goldstone"
+          ],
+          "supplementary_identity": "James Goldstone"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-102",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "James Goldstone",
+          "mentioned_candidates": [
+            "James Goldstone"
+          ],
+          "supplementary_identity": "James Goldstone"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "James Goldstone",
+          "mentioned_candidates": [
+            "James Goldstone"
+          ],
+          "supplementary_identity": "James Goldstone"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-054",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "James Goldstone",
+          "mentioned_candidates": [
+            "James Goldstone"
+          ],
+          "supplementary_identity": "James Goldstone"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "James Goldstone",
+          "mentioned_candidates": [
+            "James Goldstone"
+          ],
+          "supplementary_identity": "James Goldstone"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-117",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Helmut Käutner",
+          "mentioned_candidates": [
+            "Helmut Käutner"
+          ],
+          "supplementary_identity": "Helmut Käutner"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Helmut Käutner",
+          "mentioned_candidates": [
+            "Helmut Käutner"
+          ],
+          "supplementary_identity": "Helmut Käutner"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-062",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Armando Robles Godoy",
+          "mentioned_candidates": [
+            "Armando Robles Godoy"
+          ],
+          "supplementary_identity": "Armando Robles Godoy"
+        },
+        "diagnostic": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "Jan Svěrák",
+          "mentioned_candidates": [
+            "Jan Svěrák"
+          ],
+          "supplementary_identity": "Jan Svěrák"
+        },
+        "comparable": true,
+        "same": false,
+        "changed": true,
+        "gold_to_wrong": true,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-055",
+        "primary": {
+          "category": "TRUNCATED",
+          "strict_valid": false,
+          "identity": null,
+          "mentioned_candidates": [
+            "Leopoldo Torre Nilsson"
+          ],
+          "supplementary_identity": "Leopoldo Torre Nilsson"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Tinnu Anand",
+          "mentioned_candidates": [
+            "Tinnu Anand"
+          ],
+          "supplementary_identity": "Tinnu Anand"
+        },
+        "comparable": false,
+        "same": false,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-024",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Gu Changwei",
+          "mentioned_candidates": [
+            "Gu Changwei"
+          ],
+          "supplementary_identity": "Gu Changwei"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Gu Changwei",
+          "mentioned_candidates": [
+            "Gu Changwei"
+          ],
+          "supplementary_identity": "Gu Changwei"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-027",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Vojtěch Jasný",
+          "mentioned_candidates": [
+            "Vojtěch Jasný"
+          ],
+          "supplementary_identity": "Vojtěch Jasný"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Vojtěch Jasný",
+          "mentioned_candidates": [
+            "Vojtěch Jasný"
+          ],
+          "supplementary_identity": "Vojtěch Jasný"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-020",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Gu Changwei",
+          "mentioned_candidates": [
+            "Gu Changwei"
+          ],
+          "supplementary_identity": "Gu Changwei"
+        },
+        "diagnostic": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "Rodrigo Grande",
+          "mentioned_candidates": [
+            "Rodrigo Grande"
+          ],
+          "supplementary_identity": "Rodrigo Grande"
+        },
+        "comparable": true,
+        "same": false,
+        "changed": true,
+        "gold_to_wrong": true,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-119",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Rodrigo Grande",
+          "mentioned_candidates": [
+            "Rodrigo Grande"
+          ],
+          "supplementary_identity": "Rodrigo Grande"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Rodrigo Grande",
+          "mentioned_candidates": [
+            "Rodrigo Grande"
+          ],
+          "supplementary_identity": "Rodrigo Grande"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-029",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Jan Svěrák",
+          "mentioned_candidates": [
+            "Jan Svěrák"
+          ],
+          "supplementary_identity": "Jan Svěrák"
+        },
+        "diagnostic": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "Rahul Rawail",
+          "mentioned_candidates": [
+            "Rahul Rawail"
+          ],
+          "supplementary_identity": "Rahul Rawail"
+        },
+        "comparable": true,
+        "same": false,
+        "changed": true,
+        "gold_to_wrong": true,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-017",
+        "primary": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "Yuen Woo-ping",
+          "mentioned_candidates": [
+            "Yuen Woo-ping"
+          ],
+          "supplementary_identity": "Yuen Woo-ping"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Jan Svěrák",
+          "mentioned_candidates": [
+            "Jan Svěrák"
+          ],
+          "supplementary_identity": "Jan Svěrák"
+        },
+        "comparable": true,
+        "same": false,
+        "changed": true,
+        "gold_to_wrong": false,
+        "wrong_to_gold": true,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-043",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Yuen Woo-ping",
+          "mentioned_candidates": [
+            "Yuen Woo-ping"
+          ],
+          "supplementary_identity": "Yuen Woo-ping"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Yuen Woo-ping",
+          "mentioned_candidates": [
+            "Yuen Woo-ping"
+          ],
+          "supplementary_identity": "Yuen Woo-ping"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-006",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Rahul Rawail",
+          "mentioned_candidates": [
+            "Rahul Rawail"
+          ],
+          "supplementary_identity": "Rahul Rawail"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Rahul Rawail",
+          "mentioned_candidates": [
+            "Rahul Rawail"
+          ],
+          "supplementary_identity": "Rahul Rawail"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-019",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Marcello Fondato",
+          "mentioned_candidates": [
+            "Marcello Fondato"
+          ],
+          "supplementary_identity": "Marcello Fondato"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Marcello Fondato",
+          "mentioned_candidates": [
+            "Marcello Fondato"
+          ],
+          "supplementary_identity": "Marcello Fondato"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-118",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Rolf Schübel",
+          "mentioned_candidates": [
+            "Rolf Schübel"
+          ],
+          "supplementary_identity": "Rolf Schübel"
+        },
+        "diagnostic": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Rolf Schübel",
+          "mentioned_candidates": [
+            "Rolf Schübel"
+          ],
+          "supplementary_identity": "Rolf Schübel"
+        },
+        "comparable": true,
+        "same": true,
+        "changed": false,
+        "gold_to_wrong": false,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-042",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Bhappi Sonie",
+          "mentioned_candidates": [
+            "Bhappi Sonie"
+          ],
+          "supplementary_identity": "Bhappi Sonie"
+        },
+        "diagnostic": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "James Goldstone",
+          "mentioned_candidates": [
+            "James Goldstone"
+          ],
+          "supplementary_identity": "James Goldstone"
+        },
+        "comparable": true,
+        "same": false,
+        "changed": true,
+        "gold_to_wrong": true,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      },
+      {
+        "case_id": "v366-main-012",
+        "primary": {
+          "category": "GOLD",
+          "strict_valid": true,
+          "identity": "Tinnu Anand",
+          "mentioned_candidates": [
+            "Tinnu Anand"
+          ],
+          "supplementary_identity": "Tinnu Anand"
+        },
+        "diagnostic": {
+          "category": "WRONG",
+          "strict_valid": true,
+          "identity": "Armando Robles Godoy",
+          "mentioned_candidates": [
+            "Armando Robles Godoy"
+          ],
+          "supplementary_identity": "Armando Robles Godoy"
+        },
+        "comparable": true,
+        "same": false,
+        "changed": true,
+        "gold_to_wrong": true,
+        "wrong_to_gold": false,
+        "wrong_to_different_wrong": false,
+        "same_wrong_identity": false
+      }
+    ],
+    "counts": {
+      "comparable": 23,
+      "same": 16,
+      "changed": 7,
+      "gold_to_wrong": 5,
+      "wrong_to_gold": 1,
+      "wrong_to_different_wrong": 1,
+      "same_wrong_identity": 0
+    },
+    "transitions": {
+      "GOLD->GOLD": 16,
+      "WRONG->WRONG": 1,
+      "GOLD->WRONG": 5,
+      "TRUNCATED->GOLD": 1,
+      "WRONG->GOLD": 1
+    },
+    "fixed_proportions": {
+      "comparable": {
+        "count": 23,
+        "denominator": 24,
+        "rate": 0.9583333333333334,
+        "wilson95": [
+          0.7975819352134406,
+          0.9926065438344942
+        ]
+      },
+      "same": {
+        "count": 16,
+        "denominator": 24,
+        "rate": 0.6666666666666666,
+        "wilson95": [
+          0.4670631683813174,
+          0.8202780967270225
+        ]
+      },
+      "changed": {
+        "count": 7,
+        "denominator": 24,
+        "rate": 0.2916666666666667,
+        "wilson95": [
+          0.14914648196960875,
+          0.49167693664496637
+        ]
+      },
+      "gold_to_wrong": {
+        "count": 5,
+        "denominator": 24,
+        "rate": 0.20833333333333334,
+        "wilson95": [
+          0.09244825352851857,
+          0.40470453253188665
+        ]
+      },
+      "wrong_to_gold": {
+        "count": 1,
+        "denominator": 24,
+        "rate": 0.041666666666666664,
+        "wilson95": [
+          0.0073934561655057685,
+          0.20241806478655938
+        ]
+      },
+      "wrong_to_different_wrong": {
+        "count": 1,
+        "denominator": 24,
+        "rate": 0.041666666666666664,
+        "wilson95": [
+          0.0073934561655057685,
+          0.20241806478655938
+        ]
+      },
+      "same_wrong_identity": {
+        "count": 0,
+        "denominator": 24,
+        "rate": 0.0,
+        "wilson95": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ]
+      }
+    },
+    "changed_fixed": {
+      "count": 7,
+      "denominator": 24,
+      "rate": 0.2916666666666667,
+      "wilson95": [
+        0.14914648196960875,
+        0.49167693664496637
+      ]
+    },
+    "changed_comparable": {
+      "count": 7,
+      "denominator": 23,
+      "rate": 0.30434782608695654,
+      "wilson95": [
+        0.15604024453214022,
+        0.508657562687592
+      ]
+    },
+    "comparable_coverage": {
+      "count": 23,
+      "denominator": 24,
+      "rate": 0.9583333333333334,
+      "wilson95": [
+        0.7975819352134406,
+        0.9926065438344942
+      ]
+    },
+    "same_wrong_persistence": {
+      "count": 0,
+      "denominator": 2,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.6576197724933469
+      ]
+    },
+    "no_threshold_or_qualification_flag": true
+  },
+  "paired": {
+    "all_controlled": {
+      "n_pairs": 120,
+      "table": {
+        "00": 0,
+        "01": 0,
+        "10": 120,
+        "11": 0
+      },
+      "RD": 1.0,
+      "paired95": [
+        0.9282836214639123,
+        1
+      ],
+      "interval": "Bonferroni difference of97.5% CP discordant-cell intervals; tails0.0125"
+    },
+    "natural_wrong_subset": {
+      "n_pairs": 20,
+      "table": {
+        "00": 0,
+        "01": 0,
+        "10": 20,
+        "11": 0
+      },
+      "RD": 1.0,
+      "paired95": [
+        0.606480640590749,
+        1
+      ],
+      "interval": "Bonferroni difference of97.5% CP discordant-cell intervals; tails0.0125"
+    },
+    "natural_wrong_total": 20,
+    "missing_all": 0,
+    "missing_wrong": 0,
+    "natural_vs_controlled": [
+      {
+        "case_id": "v366-main-002",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-005",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-017",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-028",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-031",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-032",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-039",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-060",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-067",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-069",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-071",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-074",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-080",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-082",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-094",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-095",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-101",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-106",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-111",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      },
+      {
+        "case_id": "v366-main-115",
+        "natural_propagation": true,
+        "controlled_alternate": true,
+        "same_normalized": true,
+        "same_raw_hash": true
+      }
+    ],
+    "natural_vs_controlled_table": {
+      "11": 20
+    }
+  },
+  "case_outcomes": [
+    {
+      "case_id": "v366-main-001",
+      "bundle_id": "aefd054c8d676da2",
+      "first_status": "GOLD",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Walter Hugo Khouri",
+      "state": "STATE_P28",
+      "module_id": "v366-main-001/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-002",
+      "bundle_id": "39a526efa1b04bd4",
+      "first_status": "WRONG",
+      "actual_identity": "Helmut Käutner",
+      "gold": "Anil Das",
+      "state": "STATE_E96",
+      "module_id": "v366-main-002/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-003",
+      "bundle_id": "8cf0cc7079fa090e",
+      "first_status": "GOLD",
+      "actual_identity": "León Klimovsky",
+      "gold": "León Klimovsky",
+      "state": "STATE_W21",
+      "module_id": "v366-main-003/person-36bc59b8712a2fd1",
+      "alternate": "Bhappi Sonie",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-004",
+      "bundle_id": "b2ccb8b5be920d20",
+      "first_status": "GOLD",
+      "actual_identity": "Fridrikh Ermler",
+      "gold": "Fridrikh Ermler",
+      "state": "STATE_E71",
+      "module_id": "v366-main-004/person-797c4c86ec640fcb",
+      "alternate": "Rodrigo Grande",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-005",
+      "bundle_id": "c9079a943fa3f2ce",
+      "first_status": "WRONG",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Robert P. Kerr",
+      "state": "STATE_E35",
+      "module_id": "v366-main-005/person-1b45e8f69996231e",
+      "alternate": "Walter Hugo Khouri",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-006",
+      "bundle_id": "24ef24f588441794",
+      "first_status": "GOLD",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Rahul Rawail",
+      "state": "STATE_G22",
+      "module_id": "v366-main-006/person-57d35fcb5505ad1a",
+      "alternate": "Jan Svěrák",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-007",
+      "bundle_id": "9652fafb26be3a5d",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_L94",
+      "module_id": "v366-main-007/person-b3f877a30ce36367",
+      "alternate": "Marcello Fondato",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-008",
+      "bundle_id": "35c38b8472dcc1a3",
+      "first_status": "GOLD",
+      "actual_identity": "Fridrikh Ermler",
+      "gold": "Fridrikh Ermler",
+      "state": "STATE_J50",
+      "module_id": "v366-main-008/person-32dd5b190adc7d7e",
+      "alternate": "Rolf Schübel",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-009",
+      "bundle_id": "e9f24837a7e0d5e4",
+      "first_status": "GOLD",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Walter Hugo Khouri",
+      "state": "STATE_P34",
+      "module_id": "v366-main-009/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-010",
+      "bundle_id": "7bbc393046be7817",
+      "first_status": "GOLD",
+      "actual_identity": "Fridrikh Ermler",
+      "gold": "Fridrikh Ermler",
+      "state": "STATE_U67",
+      "module_id": "v366-main-010/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-011",
+      "bundle_id": "3724df19bace5eca",
+      "first_status": "GOLD",
+      "actual_identity": "Anil Das",
+      "gold": "Anil Das",
+      "state": "STATE_X55",
+      "module_id": "v366-main-011/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-012",
+      "bundle_id": "939c81ba00511a70",
+      "first_status": "GOLD",
+      "actual_identity": "Tinnu Anand",
+      "gold": "Tinnu Anand",
+      "state": "STATE_K90",
+      "module_id": "v366-main-012/person-3d3913057548aa01",
+      "alternate": "Ildikó Enyedi",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-013",
+      "bundle_id": "01818f36259323a5",
+      "first_status": "GOLD",
+      "actual_identity": "Helmut Käutner",
+      "gold": "Helmut Käutner",
+      "state": "STATE_Q54",
+      "module_id": "v366-main-013/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-014",
+      "bundle_id": "988c14e8e5ce3f9d",
+      "first_status": "GOLD",
+      "actual_identity": "Jan Svěrák",
+      "gold": "Jan Svěrák",
+      "state": "STATE_F31",
+      "module_id": "v366-main-014/person-0bb2a29e69c84b81",
+      "alternate": "Leopoldo Torre Nilsson",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-015",
+      "bundle_id": "f38ba80877cc3d82",
+      "first_status": "GOLD",
+      "actual_identity": "Marcello Fondato",
+      "gold": "Marcello Fondato",
+      "state": "STATE_U00",
+      "module_id": "v366-main-015/person-349a79da778b411f",
+      "alternate": "Vojtěch Jasný",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-016",
+      "bundle_id": "f157b6feddc8ce90",
+      "first_status": "GOLD",
+      "actual_identity": "Helmut Käutner",
+      "gold": "Helmut Käutner",
+      "state": "STATE_E01",
+      "module_id": "v366-main-016/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-017",
+      "bundle_id": "e059d237b463f43f",
+      "first_status": "WRONG",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Jan Svěrák",
+      "state": "STATE_F32",
+      "module_id": "v366-main-017/person-5304495dd99fce08",
+      "alternate": "Yuen Woo-ping",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-018",
+      "bundle_id": "8cab952f1b740d60",
+      "first_status": "GOLD",
+      "actual_identity": "Armando Robles Godoy",
+      "gold": "Armando Robles Godoy",
+      "state": "STATE_F97",
+      "module_id": "v366-main-018/person-0bb2a29e69c84b81",
+      "alternate": "Leopoldo Torre Nilsson",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-019",
+      "bundle_id": "4b0cb4806bb211e9",
+      "first_status": "GOLD",
+      "actual_identity": "Marcello Fondato",
+      "gold": "Marcello Fondato",
+      "state": "STATE_S30",
+      "module_id": "v366-main-019/person-36bc59b8712a2fd1",
+      "alternate": "Bhappi Sonie",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-020",
+      "bundle_id": "ed9bfb5e25892fcc",
+      "first_status": "GOLD",
+      "actual_identity": "Gu Changwei",
+      "gold": "Gu Changwei",
+      "state": "STATE_Z69",
+      "module_id": "v366-main-020/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-021",
+      "bundle_id": "c98035df52ab7476",
+      "first_status": "GOLD",
+      "actual_identity": "Feng Xiaoning",
+      "gold": "Feng Xiaoning",
+      "state": "STATE_H75",
+      "module_id": "v366-main-021/person-8e06f6856e70d26e",
+      "alternate": "Anil Das",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-022",
+      "bundle_id": "50e15f69ccd05036",
+      "first_status": "GOLD",
+      "actual_identity": "Anil Das",
+      "gold": "Anil Das",
+      "state": "STATE_N90",
+      "module_id": "v366-main-022/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-023",
+      "bundle_id": "23734286c69277ab",
+      "first_status": "GOLD",
+      "actual_identity": "Rolf Schübel",
+      "gold": "Rolf Schübel",
+      "state": "STATE_C76",
+      "module_id": "v366-main-023/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-024",
+      "bundle_id": "b08877a4ea6b6fb4",
+      "first_status": "GOLD",
+      "actual_identity": "Gu Changwei",
+      "gold": "Gu Changwei",
+      "state": "STATE_W48",
+      "module_id": "v366-main-024/person-8e06f6856e70d26e",
+      "alternate": "Anil Das",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-025",
+      "bundle_id": "c355939a1f708715",
+      "first_status": "GOLD",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Rahul Rawail",
+      "state": "STATE_C77",
+      "module_id": "v366-main-025/person-57d35fcb5505ad1a",
+      "alternate": "Jan Svěrák",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-026",
+      "bundle_id": "b32ee8aa8c723d12",
+      "first_status": "GOLD",
+      "actual_identity": "Robert P. Kerr",
+      "gold": "Robert P. Kerr",
+      "state": "STATE_B33",
+      "module_id": "v366-main-026/person-c82959b4ba56a7fe",
+      "alternate": "James Goldstone",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-027",
+      "bundle_id": "dda400b52df40a38",
+      "first_status": "GOLD",
+      "actual_identity": "Vojtěch Jasný",
+      "gold": "Vojtěch Jasný",
+      "state": "STATE_H22",
+      "module_id": "v366-main-027/person-c82959b4ba56a7fe",
+      "alternate": "James Goldstone",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-028",
+      "bundle_id": "41bf19c881d46068",
+      "first_status": "WRONG",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Jan Svěrák",
+      "state": "STATE_F80",
+      "module_id": "v366-main-028/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-029",
+      "bundle_id": "02235ce29d4f8bc9",
+      "first_status": "GOLD",
+      "actual_identity": "Jan Svěrák",
+      "gold": "Jan Svěrák",
+      "state": "STATE_Y78",
+      "module_id": "v366-main-029/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-030",
+      "bundle_id": "0f8a87ad8de3c19a",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_W84",
+      "module_id": "v366-main-030/person-36bc59b8712a2fd1",
+      "alternate": "Bhappi Sonie",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-031",
+      "bundle_id": "ba85267fcb61d5ff",
+      "first_status": "WRONG",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Marcello Fondato",
+      "state": "STATE_D07",
+      "module_id": "v366-main-031/person-1b45e8f69996231e",
+      "alternate": "Walter Hugo Khouri",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-032",
+      "bundle_id": "4352c8d19e833e67",
+      "first_status": "WRONG",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Armando Robles Godoy",
+      "state": "STATE_V53",
+      "module_id": "v366-main-032/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-033",
+      "bundle_id": "d66df066d3d9ac7f",
+      "first_status": "GOLD",
+      "actual_identity": "Rolf Schübel",
+      "gold": "Rolf Schübel",
+      "state": "STATE_C81",
+      "module_id": "v366-main-033/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-034",
+      "bundle_id": "ea5096d5932f314a",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_K98",
+      "module_id": "v366-main-034/person-1b45e8f69996231e",
+      "alternate": "Walter Hugo Khouri",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-035",
+      "bundle_id": "979af69a2da4b650",
+      "first_status": "GOLD",
+      "actual_identity": "León Klimovsky",
+      "gold": "León Klimovsky",
+      "state": "STATE_A89",
+      "module_id": "v366-main-035/person-c82959b4ba56a7fe",
+      "alternate": "James Goldstone",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-036",
+      "bundle_id": "aa4c09f9c2f854a4",
+      "first_status": "GOLD",
+      "actual_identity": "Vojtěch Jasný",
+      "gold": "Vojtěch Jasný",
+      "state": "STATE_A38",
+      "module_id": "v366-main-036/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-037",
+      "bundle_id": "438abcbd4b546900",
+      "first_status": "GOLD",
+      "actual_identity": "Tinnu Anand",
+      "gold": "Tinnu Anand",
+      "state": "STATE_W88",
+      "module_id": "v366-main-037/person-3d3913057548aa01",
+      "alternate": "Ildikó Enyedi",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-038",
+      "bundle_id": "4d9f87a7c5477931",
+      "first_status": "GOLD",
+      "actual_identity": "Anil Das",
+      "gold": "Anil Das",
+      "state": "STATE_J87",
+      "module_id": "v366-main-038/person-797c4c86ec640fcb",
+      "alternate": "Rodrigo Grande",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-039",
+      "bundle_id": "b88609cfec0bc8ea",
+      "first_status": "WRONG",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Ildikó Enyedi",
+      "state": "STATE_K77",
+      "module_id": "v366-main-039/person-5304495dd99fce08",
+      "alternate": "Yuen Woo-ping",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-040",
+      "bundle_id": "9e33750d40726166",
+      "first_status": "GOLD",
+      "actual_identity": "Rolf Schübel",
+      "gold": "Rolf Schübel",
+      "state": "STATE_D73",
+      "module_id": "v366-main-040/person-797c4c86ec640fcb",
+      "alternate": "Rodrigo Grande",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-041",
+      "bundle_id": "232f03a7c5788257",
+      "first_status": "GOLD",
+      "actual_identity": "Bhappi Sonie",
+      "gold": "Bhappi Sonie",
+      "state": "STATE_U82",
+      "module_id": "v366-main-041/person-b3f877a30ce36367",
+      "alternate": "Marcello Fondato",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-042",
+      "bundle_id": "e5c75c0141a537ed",
+      "first_status": "GOLD",
+      "actual_identity": "Bhappi Sonie",
+      "gold": "Bhappi Sonie",
+      "state": "STATE_A63",
+      "module_id": "v366-main-042/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-043",
+      "bundle_id": "8dcc87ac91ebda1a",
+      "first_status": "GOLD",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Yuen Woo-ping",
+      "state": "STATE_V98",
+      "module_id": "v366-main-043/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-044",
+      "bundle_id": "8bb45870925b991f",
+      "first_status": "GOLD",
+      "actual_identity": "León Klimovsky",
+      "gold": "León Klimovsky",
+      "state": "STATE_H76",
+      "module_id": "v366-main-044/person-36bc59b8712a2fd1",
+      "alternate": "Bhappi Sonie",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-045",
+      "bundle_id": "7b8b64a45302fec3",
+      "first_status": "GOLD",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Yuen Woo-ping",
+      "state": "STATE_E57",
+      "module_id": "v366-main-045/person-78fb1f3e1c591463",
+      "alternate": "Armando Robles Godoy",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-046",
+      "bundle_id": "fe60dd2a8faf7987",
+      "first_status": "GOLD",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Yuen Woo-ping",
+      "state": "STATE_F43",
+      "module_id": "v366-main-046/person-3d3913057548aa01",
+      "alternate": "Ildikó Enyedi",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-047",
+      "bundle_id": "26c22f18dbd3d13a",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_Y84",
+      "module_id": "v366-main-047/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-048",
+      "bundle_id": "1f341f77df471d71",
+      "first_status": "GOLD",
+      "actual_identity": "Feng Xiaoning",
+      "gold": "Feng Xiaoning",
+      "state": "STATE_H45",
+      "module_id": "v366-main-048/person-8e06f6856e70d26e",
+      "alternate": "Anil Das",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-049",
+      "bundle_id": "296de540122eef0a",
+      "first_status": "GOLD",
+      "actual_identity": "Rolf Schübel",
+      "gold": "Rolf Schübel",
+      "state": "STATE_O54",
+      "module_id": "v366-main-049/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-050",
+      "bundle_id": "10ef3f36f0333aa9",
+      "first_status": "GOLD",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Walter Hugo Khouri",
+      "state": "STATE_J15",
+      "module_id": "v366-main-050/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-051",
+      "bundle_id": "9961bf22e4f7f480",
+      "first_status": "GOLD",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Walter Hugo Khouri",
+      "state": "STATE_S28",
+      "module_id": "v366-main-051/person-349a79da778b411f",
+      "alternate": "Vojtěch Jasný",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-052",
+      "bundle_id": "72c9a110fa9c8220",
+      "first_status": "GOLD",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Rahul Rawail",
+      "state": "STATE_G83",
+      "module_id": "v366-main-052/person-57d35fcb5505ad1a",
+      "alternate": "Jan Svěrák",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-053",
+      "bundle_id": "e60b65a80cb765b7",
+      "first_status": "GOLD",
+      "actual_identity": "Robert P. Kerr",
+      "gold": "Robert P. Kerr",
+      "state": "STATE_W61",
+      "module_id": "v366-main-053/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-054",
+      "bundle_id": "d6d7ff164d324bf9",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_P85",
+      "module_id": "v366-main-054/person-36bc59b8712a2fd1",
+      "alternate": "Bhappi Sonie",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-055",
+      "bundle_id": "9ea1fb1b02e3b5d8",
+      "first_status": "TRUNCATED",
+      "actual_identity": null,
+      "gold": "Tinnu Anand",
+      "state": null,
+      "module_id": "v366-main-055/person-78fb1f3e1c591463",
+      "alternate": "Armando Robles Godoy",
+      "natural_outcome": "SKIPPED_TRUNCATED",
+      "natural_parser": "MISSING",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-056",
+      "bundle_id": "265dcdef6636eba4",
+      "first_status": "GOLD",
+      "actual_identity": "Tinnu Anand",
+      "gold": "Tinnu Anand",
+      "state": "STATE_X41",
+      "module_id": "v366-main-056/person-3d3913057548aa01",
+      "alternate": "Ildikó Enyedi",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-057",
+      "bundle_id": "66ee8e0b93ebe133",
+      "first_status": "GOLD",
+      "actual_identity": "Rodrigo Grande",
+      "gold": "Rodrigo Grande",
+      "state": "STATE_U97",
+      "module_id": "v366-main-057/person-32dd5b190adc7d7e",
+      "alternate": "Rolf Schübel",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-058",
+      "bundle_id": "310f79b291bfc3fd",
+      "first_status": "GOLD",
+      "actual_identity": "Ildikó Enyedi",
+      "gold": "Ildikó Enyedi",
+      "state": "STATE_I16",
+      "module_id": "v366-main-058/person-0bb2a29e69c84b81",
+      "alternate": "Leopoldo Torre Nilsson",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-059",
+      "bundle_id": "7b870f33c01f0370",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_Y73",
+      "module_id": "v366-main-059/person-b3f877a30ce36367",
+      "alternate": "Marcello Fondato",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-060",
+      "bundle_id": "65ea7b5916541fe0",
+      "first_status": "WRONG",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Leopoldo Torre Nilsson",
+      "state": "STATE_U12",
+      "module_id": "v366-main-060/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-061",
+      "bundle_id": "b08eb544d944f5ed",
+      "first_status": "GOLD",
+      "actual_identity": "Ildikó Enyedi",
+      "gold": "Ildikó Enyedi",
+      "state": "STATE_N33",
+      "module_id": "v366-main-061/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-062",
+      "bundle_id": "9f001b4c2bf85e58",
+      "first_status": "GOLD",
+      "actual_identity": "Armando Robles Godoy",
+      "gold": "Armando Robles Godoy",
+      "state": "STATE_A16",
+      "module_id": "v366-main-062/person-5304495dd99fce08",
+      "alternate": "Yuen Woo-ping",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-063",
+      "bundle_id": "9958d7267e4f6de7",
+      "first_status": "GOLD",
+      "actual_identity": "Rolf Schübel",
+      "gold": "Rolf Schübel",
+      "state": "STATE_S22",
+      "module_id": "v366-main-063/person-1ffa0b42c86be39f",
+      "alternate": "Feng Xiaoning",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-064",
+      "bundle_id": "005571bad6257bb4",
+      "first_status": "GOLD",
+      "actual_identity": "Ildikó Enyedi",
+      "gold": "Ildikó Enyedi",
+      "state": "STATE_V01",
+      "module_id": "v366-main-064/person-57d35fcb5505ad1a",
+      "alternate": "Jan Svěrák",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-065",
+      "bundle_id": "a263df72133bec18",
+      "first_status": "GOLD",
+      "actual_identity": "Vojtěch Jasný",
+      "gold": "Vojtěch Jasný",
+      "state": "STATE_F63",
+      "module_id": "v366-main-065/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-066",
+      "bundle_id": "5fb12cf626be40f9",
+      "first_status": "GOLD",
+      "actual_identity": "Anil Das",
+      "gold": "Anil Das",
+      "state": "STATE_X91",
+      "module_id": "v366-main-066/person-797c4c86ec640fcb",
+      "alternate": "Rodrigo Grande",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-067",
+      "bundle_id": "c9fbb3989f033ee3",
+      "first_status": "WRONG",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Leopoldo Torre Nilsson",
+      "state": "STATE_X83",
+      "module_id": "v366-main-067/person-5304495dd99fce08",
+      "alternate": "Yuen Woo-ping",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-068",
+      "bundle_id": "d79861b04442927d",
+      "first_status": "GOLD",
+      "actual_identity": "Marcello Fondato",
+      "gold": "Marcello Fondato",
+      "state": "STATE_N52",
+      "module_id": "v366-main-068/person-349a79da778b411f",
+      "alternate": "Vojtěch Jasný",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-069",
+      "bundle_id": "bf221e1b5d60e045",
+      "first_status": "WRONG",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Jan Svěrák",
+      "state": "STATE_W83",
+      "module_id": "v366-main-069/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-070",
+      "bundle_id": "072b782b8799ea96",
+      "first_status": "GOLD",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Yuen Woo-ping",
+      "state": "STATE_K00",
+      "module_id": "v366-main-070/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-071",
+      "bundle_id": "26def672328c1658",
+      "first_status": "WRONG",
+      "actual_identity": "Marcello Fondato",
+      "gold": "Robert P. Kerr",
+      "state": "STATE_T95",
+      "module_id": "v366-main-071/person-b3f877a30ce36367",
+      "alternate": "Marcello Fondato",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-072",
+      "bundle_id": "50abb85dec1096f6",
+      "first_status": "GOLD",
+      "actual_identity": "Leopoldo Torre Nilsson",
+      "gold": "Leopoldo Torre Nilsson",
+      "state": "STATE_B87",
+      "module_id": "v366-main-072/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-073",
+      "bundle_id": "2ed5c0fda8a81dcf",
+      "first_status": "GOLD",
+      "actual_identity": "Robert P. Kerr",
+      "gold": "Robert P. Kerr",
+      "state": "STATE_F51",
+      "module_id": "v366-main-073/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-074",
+      "bundle_id": "036efc2bad643e46",
+      "first_status": "WRONG",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Rahul Rawail",
+      "state": "STATE_K54",
+      "module_id": "v366-main-074/person-5304495dd99fce08",
+      "alternate": "Yuen Woo-ping",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-075",
+      "bundle_id": "21906c4367fff164",
+      "first_status": "GOLD",
+      "actual_identity": "Jan Svěrák",
+      "gold": "Jan Svěrák",
+      "state": "STATE_J93",
+      "module_id": "v366-main-075/person-0bb2a29e69c84b81",
+      "alternate": "Leopoldo Torre Nilsson",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-076",
+      "bundle_id": "6da74aba73cfa9c9",
+      "first_status": "GOLD",
+      "actual_identity": "León Klimovsky",
+      "gold": "León Klimovsky",
+      "state": "STATE_J16",
+      "module_id": "v366-main-076/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-077",
+      "bundle_id": "5e71428bb5790122",
+      "first_status": "GOLD",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Walter Hugo Khouri",
+      "state": "STATE_J54",
+      "module_id": "v366-main-077/person-36bc59b8712a2fd1",
+      "alternate": "Bhappi Sonie",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-078",
+      "bundle_id": "8bd7f14b674a8ac2",
+      "first_status": "GOLD",
+      "actual_identity": "Ildikó Enyedi",
+      "gold": "Ildikó Enyedi",
+      "state": "STATE_F86",
+      "module_id": "v366-main-078/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-079",
+      "bundle_id": "84fb85430b99aeee",
+      "first_status": "GOLD",
+      "actual_identity": "Vojtěch Jasný",
+      "gold": "Vojtěch Jasný",
+      "state": "STATE_E18",
+      "module_id": "v366-main-079/person-b3f877a30ce36367",
+      "alternate": "Marcello Fondato",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-080",
+      "bundle_id": "03ad9ef859f1d0fd",
+      "first_status": "WRONG",
+      "actual_identity": "Rolf Schübel",
+      "gold": "Gu Changwei",
+      "state": "STATE_G33",
+      "module_id": "v366-main-080/person-32dd5b190adc7d7e",
+      "alternate": "Rolf Schübel",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-081",
+      "bundle_id": "b68ed8ccf4be773e",
+      "first_status": "TRUNCATED",
+      "actual_identity": null,
+      "gold": "Feng Xiaoning",
+      "state": null,
+      "module_id": "v366-main-081/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "SKIPPED_TRUNCATED",
+      "natural_parser": "MISSING",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-082",
+      "bundle_id": "d51d9938fdfad083",
+      "first_status": "WRONG",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Yuen Woo-ping",
+      "state": "STATE_P61",
+      "module_id": "v366-main-082/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-083",
+      "bundle_id": "0635e699dfc62961",
+      "first_status": "GOLD",
+      "actual_identity": "Leopoldo Torre Nilsson",
+      "gold": "Leopoldo Torre Nilsson",
+      "state": "STATE_R41",
+      "module_id": "v366-main-083/person-57d35fcb5505ad1a",
+      "alternate": "Jan Svěrák",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-084",
+      "bundle_id": "ee8a0209da5db682",
+      "first_status": "GOLD",
+      "actual_identity": "Leopoldo Torre Nilsson",
+      "gold": "Leopoldo Torre Nilsson",
+      "state": "STATE_U64",
+      "module_id": "v366-main-084/person-3d3913057548aa01",
+      "alternate": "Ildikó Enyedi",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-085",
+      "bundle_id": "3d23ec5ff90d95a0",
+      "first_status": "GOLD",
+      "actual_identity": "Robert P. Kerr",
+      "gold": "Robert P. Kerr",
+      "state": "STATE_W58",
+      "module_id": "v366-main-085/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-086",
+      "bundle_id": "cdf42caa0272eab6",
+      "first_status": "GOLD",
+      "actual_identity": "Anil Das",
+      "gold": "Anil Das",
+      "state": "STATE_S11",
+      "module_id": "v366-main-086/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-087",
+      "bundle_id": "6d7fc7d16f305d0c",
+      "first_status": "GOLD",
+      "actual_identity": "Gu Changwei",
+      "gold": "Gu Changwei",
+      "state": "STATE_P62",
+      "module_id": "v366-main-087/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-088",
+      "bundle_id": "b39493c7251fa298",
+      "first_status": "GOLD",
+      "actual_identity": "Marcello Fondato",
+      "gold": "Marcello Fondato",
+      "state": "STATE_P45",
+      "module_id": "v366-main-088/person-1b45e8f69996231e",
+      "alternate": "Walter Hugo Khouri",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-089",
+      "bundle_id": "78bee8f178d403ef",
+      "first_status": "GOLD",
+      "actual_identity": "Gu Changwei",
+      "gold": "Gu Changwei",
+      "state": "STATE_Y52",
+      "module_id": "v366-main-089/person-8e06f6856e70d26e",
+      "alternate": "Anil Das",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-090",
+      "bundle_id": "988a5e673c2aed46",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_E13",
+      "module_id": "v366-main-090/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-091",
+      "bundle_id": "695b14df31324351",
+      "first_status": "GOLD",
+      "actual_identity": "Tinnu Anand",
+      "gold": "Tinnu Anand",
+      "state": "STATE_Q79",
+      "module_id": "v366-main-091/person-5304495dd99fce08",
+      "alternate": "Yuen Woo-ping",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-092",
+      "bundle_id": "c5b9674e757e0159",
+      "first_status": "GOLD",
+      "actual_identity": "Jan Svěrák",
+      "gold": "Jan Svěrák",
+      "state": "STATE_G61",
+      "module_id": "v366-main-092/person-78fb1f3e1c591463",
+      "alternate": "Armando Robles Godoy",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-093",
+      "bundle_id": "b12feacb50650c34",
+      "first_status": "GOLD",
+      "actual_identity": "Vojtěch Jasný",
+      "gold": "Vojtěch Jasný",
+      "state": "STATE_T39",
+      "module_id": "v366-main-093/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-094",
+      "bundle_id": "37e5f95570b17673",
+      "first_status": "WRONG",
+      "actual_identity": "Bhappi Sonie",
+      "gold": "León Klimovsky",
+      "state": "STATE_S47",
+      "module_id": "v366-main-094/person-36bc59b8712a2fd1",
+      "alternate": "Bhappi Sonie",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-095",
+      "bundle_id": "bb9602115f479ce0",
+      "first_status": "WRONG",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Armando Robles Godoy",
+      "state": "STATE_M63",
+      "module_id": "v366-main-095/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-096",
+      "bundle_id": "aefd054c8d676da2",
+      "first_status": "GOLD",
+      "actual_identity": "León Klimovsky",
+      "gold": "León Klimovsky",
+      "state": "STATE_F33",
+      "module_id": "v366-main-096/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-097",
+      "bundle_id": "39a526efa1b04bd4",
+      "first_status": "GOLD",
+      "actual_identity": "Rodrigo Grande",
+      "gold": "Rodrigo Grande",
+      "state": "STATE_Z24",
+      "module_id": "v366-main-097/person-8cd44efe9914b3a6",
+      "alternate": "Fridrikh Ermler",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-098",
+      "bundle_id": "8cf0cc7079fa090e",
+      "first_status": "GOLD",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Walter Hugo Khouri",
+      "state": "STATE_M54",
+      "module_id": "v366-main-098/person-2583402f83e46cbc",
+      "alternate": "León Klimovsky",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-099",
+      "bundle_id": "b2ccb8b5be920d20",
+      "first_status": "GOLD",
+      "actual_identity": "Fridrikh Ermler",
+      "gold": "Fridrikh Ermler",
+      "state": "STATE_U69",
+      "module_id": "v366-main-099/person-797c4c86ec640fcb",
+      "alternate": "Rodrigo Grande",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-100",
+      "bundle_id": "c9079a943fa3f2ce",
+      "first_status": "GOLD",
+      "actual_identity": "Walter Hugo Khouri",
+      "gold": "Walter Hugo Khouri",
+      "state": "STATE_P78",
+      "module_id": "v366-main-100/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-101",
+      "bundle_id": "24ef24f588441794",
+      "first_status": "WRONG",
+      "actual_identity": "Rahul Rawail",
+      "gold": "Leopoldo Torre Nilsson",
+      "state": "STATE_O05",
+      "module_id": "v366-main-101/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-102",
+      "bundle_id": "9652fafb26be3a5d",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_M66",
+      "module_id": "v366-main-102/person-1b45e8f69996231e",
+      "alternate": "Walter Hugo Khouri",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-103",
+      "bundle_id": "35c38b8472dcc1a3",
+      "first_status": "GOLD",
+      "actual_identity": "Fridrikh Ermler",
+      "gold": "Fridrikh Ermler",
+      "state": "STATE_S42",
+      "module_id": "v366-main-103/person-32dd5b190adc7d7e",
+      "alternate": "Rolf Schübel",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-104",
+      "bundle_id": "e9f24837a7e0d5e4",
+      "first_status": "GOLD",
+      "actual_identity": "León Klimovsky",
+      "gold": "León Klimovsky",
+      "state": "STATE_C79",
+      "module_id": "v366-main-104/person-de491f77823b63c8",
+      "alternate": "Robert P. Kerr",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-105",
+      "bundle_id": "7bbc393046be7817",
+      "first_status": "GOLD",
+      "actual_identity": "Anil Das",
+      "gold": "Anil Das",
+      "state": "STATE_B88",
+      "module_id": "v366-main-105/person-1ffa0b42c86be39f",
+      "alternate": "Feng Xiaoning",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-106",
+      "bundle_id": "3724df19bace5eca",
+      "first_status": "WRONG",
+      "actual_identity": "Rodrigo Grande",
+      "gold": "Fridrikh Ermler",
+      "state": "STATE_T80",
+      "module_id": "v366-main-106/person-797c4c86ec640fcb",
+      "alternate": "Rodrigo Grande",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-107",
+      "bundle_id": "939c81ba00511a70",
+      "first_status": "GOLD",
+      "actual_identity": "Ildikó Enyedi",
+      "gold": "Ildikó Enyedi",
+      "state": "STATE_U02",
+      "module_id": "v366-main-107/person-78fb1f3e1c591463",
+      "alternate": "Armando Robles Godoy",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-108",
+      "bundle_id": "01818f36259323a5",
+      "first_status": "GOLD",
+      "actual_identity": "Fridrikh Ermler",
+      "gold": "Fridrikh Ermler",
+      "state": "STATE_E83",
+      "module_id": "v366-main-108/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-109",
+      "bundle_id": "988c14e8e5ce3f9d",
+      "first_status": "GOLD",
+      "actual_identity": "Ildikó Enyedi",
+      "gold": "Ildikó Enyedi",
+      "state": "STATE_N46",
+      "module_id": "v366-main-109/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-110",
+      "bundle_id": "f38ba80877cc3d82",
+      "first_status": "GOLD",
+      "actual_identity": "James Goldstone",
+      "gold": "James Goldstone",
+      "state": "STATE_Y92",
+      "module_id": "v366-main-110/person-349a79da778b411f",
+      "alternate": "Vojtěch Jasný",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-111",
+      "bundle_id": "f157b6feddc8ce90",
+      "first_status": "WRONG",
+      "actual_identity": "Gu Changwei",
+      "gold": "Helmut Käutner",
+      "state": "STATE_Q32",
+      "module_id": "v366-main-111/person-2b8e9beb2b07d505",
+      "alternate": "Gu Changwei",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-112",
+      "bundle_id": "e059d237b463f43f",
+      "first_status": "GOLD",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Yuen Woo-ping",
+      "state": "STATE_A15",
+      "module_id": "v366-main-112/person-3d3913057548aa01",
+      "alternate": "Ildikó Enyedi",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-113",
+      "bundle_id": "8cab952f1b740d60",
+      "first_status": "GOLD",
+      "actual_identity": "Armando Robles Godoy",
+      "gold": "Armando Robles Godoy",
+      "state": "STATE_Y75",
+      "module_id": "v366-main-113/person-0a93fa936bf52673",
+      "alternate": "Rahul Rawail",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-114",
+      "bundle_id": "4b0cb4806bb211e9",
+      "first_status": "GOLD",
+      "actual_identity": "Marcello Fondato",
+      "gold": "Marcello Fondato",
+      "state": "STATE_R76",
+      "module_id": "v366-main-114/person-1b45e8f69996231e",
+      "alternate": "Walter Hugo Khouri",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-115",
+      "bundle_id": "ed9bfb5e25892fcc",
+      "first_status": "WRONG",
+      "actual_identity": "Gu Changwei",
+      "gold": "Rolf Schübel",
+      "state": "STATE_O31",
+      "module_id": "v366-main-115/person-2b8e9beb2b07d505",
+      "alternate": "Gu Changwei",
+      "natural_outcome": "PROPAGATION",
+      "natural_parser": "Cp",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-116",
+      "bundle_id": "c98035df52ab7476",
+      "first_status": "GOLD",
+      "actual_identity": "Anil Das",
+      "gold": "Anil Das",
+      "state": "STATE_B18",
+      "module_id": "v366-main-116/person-1ffa0b42c86be39f",
+      "alternate": "Feng Xiaoning",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-117",
+      "bundle_id": "50e15f69ccd05036",
+      "first_status": "GOLD",
+      "actual_identity": "Helmut Käutner",
+      "gold": "Helmut Käutner",
+      "state": "STATE_A52",
+      "module_id": "v366-main-117/person-8e06f6856e70d26e",
+      "alternate": "Anil Das",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-118",
+      "bundle_id": "23734286c69277ab",
+      "first_status": "GOLD",
+      "actual_identity": "Rolf Schübel",
+      "gold": "Rolf Schübel",
+      "state": "STATE_N35",
+      "module_id": "v366-main-118/person-3aff2bf8504ece70",
+      "alternate": "Helmut Käutner",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-119",
+      "bundle_id": "b08877a4ea6b6fb4",
+      "first_status": "GOLD",
+      "actual_identity": "Rodrigo Grande",
+      "gold": "Rodrigo Grande",
+      "state": "STATE_B54",
+      "module_id": "v366-main-119/person-8e06f6856e70d26e",
+      "alternate": "Anil Das",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": true,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    },
+    {
+      "case_id": "v366-main-120",
+      "bundle_id": "c355939a1f708715",
+      "first_status": "GOLD",
+      "actual_identity": "Yuen Woo-ping",
+      "gold": "Yuen Woo-ping",
+      "state": "STATE_R34",
+      "module_id": "v366-main-120/person-b5fdc00d9dd320db",
+      "alternate": "Tinnu Anand",
+      "natural_outcome": "GOLD_RETAINED",
+      "natural_parser": "C",
+      "natural_other_detail": null,
+      "control_G": "C",
+      "control_A": "Cp",
+      "diagnostic_selected": false,
+      "first_missing": false,
+      "natural_missing": false,
+      "controlled_pair_missing": false
+    }
+  ]
+}

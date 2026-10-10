@@ -1,0 +1,121 @@
+case_id,bundle_id,first_status,actual_identity,gold,state,module_id,alternate,natural_outcome,natural_parser,natural_other_detail,control_G,control_A,diagnostic_selected,first_missing,natural_missing,controlled_pair_missing
+v366-main-001,aefd054c8d676da2,GOLD,Walter Hugo Khouri,Walter Hugo Khouri,STATE_P28,v366-main-001/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-002,39a526efa1b04bd4,WRONG,Helmut Käutner,Anil Das,STATE_E96,v366-main-002/person-3aff2bf8504ece70,Helmut Käutner,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-003,8cf0cc7079fa090e,GOLD,León Klimovsky,León Klimovsky,STATE_W21,v366-main-003/person-36bc59b8712a2fd1,Bhappi Sonie,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-004,b2ccb8b5be920d20,GOLD,Fridrikh Ermler,Fridrikh Ermler,STATE_E71,v366-main-004/person-797c4c86ec640fcb,Rodrigo Grande,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-005,c9079a943fa3f2ce,WRONG,Walter Hugo Khouri,Robert P. Kerr,STATE_E35,v366-main-005/person-1b45e8f69996231e,Walter Hugo Khouri,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-006,24ef24f588441794,GOLD,Rahul Rawail,Rahul Rawail,STATE_G22,v366-main-006/person-57d35fcb5505ad1a,Jan Svěrák,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-007,9652fafb26be3a5d,GOLD,James Goldstone,James Goldstone,STATE_L94,v366-main-007/person-b3f877a30ce36367,Marcello Fondato,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-008,35c38b8472dcc1a3,GOLD,Fridrikh Ermler,Fridrikh Ermler,STATE_J50,v366-main-008/person-32dd5b190adc7d7e,Rolf Schübel,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-009,e9f24837a7e0d5e4,GOLD,Walter Hugo Khouri,Walter Hugo Khouri,STATE_P34,v366-main-009/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-010,7bbc393046be7817,GOLD,Fridrikh Ermler,Fridrikh Ermler,STATE_U67,v366-main-010/person-3aff2bf8504ece70,Helmut Käutner,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-011,3724df19bace5eca,GOLD,Anil Das,Anil Das,STATE_X55,v366-main-011/person-8cd44efe9914b3a6,Fridrikh Ermler,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-012,939c81ba00511a70,GOLD,Tinnu Anand,Tinnu Anand,STATE_K90,v366-main-012/person-3d3913057548aa01,Ildikó Enyedi,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-013,01818f36259323a5,GOLD,Helmut Käutner,Helmut Käutner,STATE_Q54,v366-main-013/person-8cd44efe9914b3a6,Fridrikh Ermler,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-014,988c14e8e5ce3f9d,GOLD,Jan Svěrák,Jan Svěrák,STATE_F31,v366-main-014/person-0bb2a29e69c84b81,Leopoldo Torre Nilsson,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-015,f38ba80877cc3d82,GOLD,Marcello Fondato,Marcello Fondato,STATE_U00,v366-main-015/person-349a79da778b411f,Vojtěch Jasný,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-016,f157b6feddc8ce90,GOLD,Helmut Käutner,Helmut Käutner,STATE_E01,v366-main-016/person-8cd44efe9914b3a6,Fridrikh Ermler,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-017,e059d237b463f43f,WRONG,Yuen Woo-ping,Jan Svěrák,STATE_F32,v366-main-017/person-5304495dd99fce08,Yuen Woo-ping,PROPAGATION,Cp,,C,Cp,True,False,False,False
+v366-main-018,8cab952f1b740d60,GOLD,Armando Robles Godoy,Armando Robles Godoy,STATE_F97,v366-main-018/person-0bb2a29e69c84b81,Leopoldo Torre Nilsson,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-019,4b0cb4806bb211e9,GOLD,Marcello Fondato,Marcello Fondato,STATE_S30,v366-main-019/person-36bc59b8712a2fd1,Bhappi Sonie,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-020,ed9bfb5e25892fcc,GOLD,Gu Changwei,Gu Changwei,STATE_Z69,v366-main-020/person-3aff2bf8504ece70,Helmut Käutner,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-021,c98035df52ab7476,GOLD,Feng Xiaoning,Feng Xiaoning,STATE_H75,v366-main-021/person-8e06f6856e70d26e,Anil Das,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-022,50e15f69ccd05036,GOLD,Anil Das,Anil Das,STATE_N90,v366-main-022/person-8cd44efe9914b3a6,Fridrikh Ermler,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-023,23734286c69277ab,GOLD,Rolf Schübel,Rolf Schübel,STATE_C76,v366-main-023/person-3aff2bf8504ece70,Helmut Käutner,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-024,b08877a4ea6b6fb4,GOLD,Gu Changwei,Gu Changwei,STATE_W48,v366-main-024/person-8e06f6856e70d26e,Anil Das,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-025,c355939a1f708715,GOLD,Rahul Rawail,Rahul Rawail,STATE_C77,v366-main-025/person-57d35fcb5505ad1a,Jan Svěrák,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-026,b32ee8aa8c723d12,GOLD,Robert P. Kerr,Robert P. Kerr,STATE_B33,v366-main-026/person-c82959b4ba56a7fe,James Goldstone,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-027,dda400b52df40a38,GOLD,Vojtěch Jasný,Vojtěch Jasný,STATE_H22,v366-main-027/person-c82959b4ba56a7fe,James Goldstone,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-028,41bf19c881d46068,WRONG,Rahul Rawail,Jan Svěrák,STATE_F80,v366-main-028/person-0a93fa936bf52673,Rahul Rawail,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-029,02235ce29d4f8bc9,GOLD,Jan Svěrák,Jan Svěrák,STATE_Y78,v366-main-029/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-030,0f8a87ad8de3c19a,GOLD,James Goldstone,James Goldstone,STATE_W84,v366-main-030/person-36bc59b8712a2fd1,Bhappi Sonie,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-031,ba85267fcb61d5ff,WRONG,Walter Hugo Khouri,Marcello Fondato,STATE_D07,v366-main-031/person-1b45e8f69996231e,Walter Hugo Khouri,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-032,4352c8d19e833e67,WRONG,Rahul Rawail,Armando Robles Godoy,STATE_V53,v366-main-032/person-0a93fa936bf52673,Rahul Rawail,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-033,d66df066d3d9ac7f,GOLD,Rolf Schübel,Rolf Schübel,STATE_C81,v366-main-033/person-3aff2bf8504ece70,Helmut Käutner,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-034,ea5096d5932f314a,GOLD,James Goldstone,James Goldstone,STATE_K98,v366-main-034/person-1b45e8f69996231e,Walter Hugo Khouri,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-035,979af69a2da4b650,GOLD,León Klimovsky,León Klimovsky,STATE_A89,v366-main-035/person-c82959b4ba56a7fe,James Goldstone,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-036,aa4c09f9c2f854a4,GOLD,Vojtěch Jasný,Vojtěch Jasný,STATE_A38,v366-main-036/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-037,438abcbd4b546900,GOLD,Tinnu Anand,Tinnu Anand,STATE_W88,v366-main-037/person-3d3913057548aa01,Ildikó Enyedi,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-038,4d9f87a7c5477931,GOLD,Anil Das,Anil Das,STATE_J87,v366-main-038/person-797c4c86ec640fcb,Rodrigo Grande,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-039,b88609cfec0bc8ea,WRONG,Yuen Woo-ping,Ildikó Enyedi,STATE_K77,v366-main-039/person-5304495dd99fce08,Yuen Woo-ping,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-040,9e33750d40726166,GOLD,Rolf Schübel,Rolf Schübel,STATE_D73,v366-main-040/person-797c4c86ec640fcb,Rodrigo Grande,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-041,232f03a7c5788257,GOLD,Bhappi Sonie,Bhappi Sonie,STATE_U82,v366-main-041/person-b3f877a30ce36367,Marcello Fondato,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-042,e5c75c0141a537ed,GOLD,Bhappi Sonie,Bhappi Sonie,STATE_A63,v366-main-042/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-043,8dcc87ac91ebda1a,GOLD,Yuen Woo-ping,Yuen Woo-ping,STATE_V98,v366-main-043/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-044,8bb45870925b991f,GOLD,León Klimovsky,León Klimovsky,STATE_H76,v366-main-044/person-36bc59b8712a2fd1,Bhappi Sonie,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-045,7b8b64a45302fec3,GOLD,Yuen Woo-ping,Yuen Woo-ping,STATE_E57,v366-main-045/person-78fb1f3e1c591463,Armando Robles Godoy,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-046,fe60dd2a8faf7987,GOLD,Yuen Woo-ping,Yuen Woo-ping,STATE_F43,v366-main-046/person-3d3913057548aa01,Ildikó Enyedi,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-047,26c22f18dbd3d13a,GOLD,James Goldstone,James Goldstone,STATE_Y84,v366-main-047/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-048,1f341f77df471d71,GOLD,Feng Xiaoning,Feng Xiaoning,STATE_H45,v366-main-048/person-8e06f6856e70d26e,Anil Das,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-049,296de540122eef0a,GOLD,Rolf Schübel,Rolf Schübel,STATE_O54,v366-main-049/person-8cd44efe9914b3a6,Fridrikh Ermler,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-050,10ef3f36f0333aa9,GOLD,Walter Hugo Khouri,Walter Hugo Khouri,STATE_J15,v366-main-050/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-051,9961bf22e4f7f480,GOLD,Walter Hugo Khouri,Walter Hugo Khouri,STATE_S28,v366-main-051/person-349a79da778b411f,Vojtěch Jasný,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-052,72c9a110fa9c8220,GOLD,Rahul Rawail,Rahul Rawail,STATE_G83,v366-main-052/person-57d35fcb5505ad1a,Jan Svěrák,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-053,e60b65a80cb765b7,GOLD,Robert P. Kerr,Robert P. Kerr,STATE_W61,v366-main-053/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-054,d6d7ff164d324bf9,GOLD,James Goldstone,James Goldstone,STATE_P85,v366-main-054/person-36bc59b8712a2fd1,Bhappi Sonie,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-055,9ea1fb1b02e3b5d8,TRUNCATED,,Tinnu Anand,,v366-main-055/person-78fb1f3e1c591463,Armando Robles Godoy,SKIPPED_TRUNCATED,MISSING,,C,Cp,True,False,False,False
+v366-main-056,265dcdef6636eba4,GOLD,Tinnu Anand,Tinnu Anand,STATE_X41,v366-main-056/person-3d3913057548aa01,Ildikó Enyedi,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-057,66ee8e0b93ebe133,GOLD,Rodrigo Grande,Rodrigo Grande,STATE_U97,v366-main-057/person-32dd5b190adc7d7e,Rolf Schübel,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-058,310f79b291bfc3fd,GOLD,Ildikó Enyedi,Ildikó Enyedi,STATE_I16,v366-main-058/person-0bb2a29e69c84b81,Leopoldo Torre Nilsson,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-059,7b870f33c01f0370,GOLD,James Goldstone,James Goldstone,STATE_Y73,v366-main-059/person-b3f877a30ce36367,Marcello Fondato,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-060,65ea7b5916541fe0,WRONG,Rahul Rawail,Leopoldo Torre Nilsson,STATE_U12,v366-main-060/person-0a93fa936bf52673,Rahul Rawail,PROPAGATION,Cp,,C,Cp,True,False,False,False
+v366-main-061,b08eb544d944f5ed,GOLD,Ildikó Enyedi,Ildikó Enyedi,STATE_N33,v366-main-061/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-062,9f001b4c2bf85e58,GOLD,Armando Robles Godoy,Armando Robles Godoy,STATE_A16,v366-main-062/person-5304495dd99fce08,Yuen Woo-ping,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-063,9958d7267e4f6de7,GOLD,Rolf Schübel,Rolf Schübel,STATE_S22,v366-main-063/person-1ffa0b42c86be39f,Feng Xiaoning,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-064,005571bad6257bb4,GOLD,Ildikó Enyedi,Ildikó Enyedi,STATE_V01,v366-main-064/person-57d35fcb5505ad1a,Jan Svěrák,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-065,a263df72133bec18,GOLD,Vojtěch Jasný,Vojtěch Jasný,STATE_F63,v366-main-065/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-066,5fb12cf626be40f9,GOLD,Anil Das,Anil Das,STATE_X91,v366-main-066/person-797c4c86ec640fcb,Rodrigo Grande,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-067,c9fbb3989f033ee3,WRONG,Yuen Woo-ping,Leopoldo Torre Nilsson,STATE_X83,v366-main-067/person-5304495dd99fce08,Yuen Woo-ping,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-068,d79861b04442927d,GOLD,Marcello Fondato,Marcello Fondato,STATE_N52,v366-main-068/person-349a79da778b411f,Vojtěch Jasný,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-069,bf221e1b5d60e045,WRONG,Rahul Rawail,Jan Svěrák,STATE_W83,v366-main-069/person-0a93fa936bf52673,Rahul Rawail,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-070,072b782b8799ea96,GOLD,Yuen Woo-ping,Yuen Woo-ping,STATE_K00,v366-main-070/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-071,26def672328c1658,WRONG,Marcello Fondato,Robert P. Kerr,STATE_T95,v366-main-071/person-b3f877a30ce36367,Marcello Fondato,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-072,50abb85dec1096f6,GOLD,Leopoldo Torre Nilsson,Leopoldo Torre Nilsson,STATE_B87,v366-main-072/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-073,2ed5c0fda8a81dcf,GOLD,Robert P. Kerr,Robert P. Kerr,STATE_F51,v366-main-073/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-074,036efc2bad643e46,WRONG,Yuen Woo-ping,Rahul Rawail,STATE_K54,v366-main-074/person-5304495dd99fce08,Yuen Woo-ping,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-075,21906c4367fff164,GOLD,Jan Svěrák,Jan Svěrák,STATE_J93,v366-main-075/person-0bb2a29e69c84b81,Leopoldo Torre Nilsson,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-076,6da74aba73cfa9c9,GOLD,León Klimovsky,León Klimovsky,STATE_J16,v366-main-076/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-077,5e71428bb5790122,GOLD,Walter Hugo Khouri,Walter Hugo Khouri,STATE_J54,v366-main-077/person-36bc59b8712a2fd1,Bhappi Sonie,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-078,8bd7f14b674a8ac2,GOLD,Ildikó Enyedi,Ildikó Enyedi,STATE_F86,v366-main-078/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-079,84fb85430b99aeee,GOLD,Vojtěch Jasný,Vojtěch Jasný,STATE_E18,v366-main-079/person-b3f877a30ce36367,Marcello Fondato,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-080,03ad9ef859f1d0fd,WRONG,Rolf Schübel,Gu Changwei,STATE_G33,v366-main-080/person-32dd5b190adc7d7e,Rolf Schübel,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-081,b68ed8ccf4be773e,TRUNCATED,,Feng Xiaoning,,v366-main-081/person-8cd44efe9914b3a6,Fridrikh Ermler,SKIPPED_TRUNCATED,MISSING,,C,Cp,False,False,False,False
+v366-main-082,d51d9938fdfad083,WRONG,Rahul Rawail,Yuen Woo-ping,STATE_P61,v366-main-082/person-0a93fa936bf52673,Rahul Rawail,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-083,0635e699dfc62961,GOLD,Leopoldo Torre Nilsson,Leopoldo Torre Nilsson,STATE_R41,v366-main-083/person-57d35fcb5505ad1a,Jan Svěrák,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-084,ee8a0209da5db682,GOLD,Leopoldo Torre Nilsson,Leopoldo Torre Nilsson,STATE_U64,v366-main-084/person-3d3913057548aa01,Ildikó Enyedi,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-085,3d23ec5ff90d95a0,GOLD,Robert P. Kerr,Robert P. Kerr,STATE_W58,v366-main-085/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-086,cdf42caa0272eab6,GOLD,Anil Das,Anil Das,STATE_S11,v366-main-086/person-8cd44efe9914b3a6,Fridrikh Ermler,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-087,6d7fc7d16f305d0c,GOLD,Gu Changwei,Gu Changwei,STATE_P62,v366-main-087/person-3aff2bf8504ece70,Helmut Käutner,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-088,b39493c7251fa298,GOLD,Marcello Fondato,Marcello Fondato,STATE_P45,v366-main-088/person-1b45e8f69996231e,Walter Hugo Khouri,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-089,78bee8f178d403ef,GOLD,Gu Changwei,Gu Changwei,STATE_Y52,v366-main-089/person-8e06f6856e70d26e,Anil Das,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-090,988a5e673c2aed46,GOLD,James Goldstone,James Goldstone,STATE_E13,v366-main-090/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-091,695b14df31324351,GOLD,Tinnu Anand,Tinnu Anand,STATE_Q79,v366-main-091/person-5304495dd99fce08,Yuen Woo-ping,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-092,c5b9674e757e0159,GOLD,Jan Svěrák,Jan Svěrák,STATE_G61,v366-main-092/person-78fb1f3e1c591463,Armando Robles Godoy,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-093,b12feacb50650c34,GOLD,Vojtěch Jasný,Vojtěch Jasný,STATE_T39,v366-main-093/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-094,37e5f95570b17673,WRONG,Bhappi Sonie,León Klimovsky,STATE_S47,v366-main-094/person-36bc59b8712a2fd1,Bhappi Sonie,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-095,bb9602115f479ce0,WRONG,Rahul Rawail,Armando Robles Godoy,STATE_M63,v366-main-095/person-0a93fa936bf52673,Rahul Rawail,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-096,aefd054c8d676da2,GOLD,León Klimovsky,León Klimovsky,STATE_F33,v366-main-096/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-097,39a526efa1b04bd4,GOLD,Rodrigo Grande,Rodrigo Grande,STATE_Z24,v366-main-097/person-8cd44efe9914b3a6,Fridrikh Ermler,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-098,8cf0cc7079fa090e,GOLD,Walter Hugo Khouri,Walter Hugo Khouri,STATE_M54,v366-main-098/person-2583402f83e46cbc,León Klimovsky,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-099,b2ccb8b5be920d20,GOLD,Fridrikh Ermler,Fridrikh Ermler,STATE_U69,v366-main-099/person-797c4c86ec640fcb,Rodrigo Grande,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-100,c9079a943fa3f2ce,GOLD,Walter Hugo Khouri,Walter Hugo Khouri,STATE_P78,v366-main-100/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-101,24ef24f588441794,WRONG,Rahul Rawail,Leopoldo Torre Nilsson,STATE_O05,v366-main-101/person-0a93fa936bf52673,Rahul Rawail,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-102,9652fafb26be3a5d,GOLD,James Goldstone,James Goldstone,STATE_M66,v366-main-102/person-1b45e8f69996231e,Walter Hugo Khouri,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-103,35c38b8472dcc1a3,GOLD,Fridrikh Ermler,Fridrikh Ermler,STATE_S42,v366-main-103/person-32dd5b190adc7d7e,Rolf Schübel,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-104,e9f24837a7e0d5e4,GOLD,León Klimovsky,León Klimovsky,STATE_C79,v366-main-104/person-de491f77823b63c8,Robert P. Kerr,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-105,7bbc393046be7817,GOLD,Anil Das,Anil Das,STATE_B88,v366-main-105/person-1ffa0b42c86be39f,Feng Xiaoning,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-106,3724df19bace5eca,WRONG,Rodrigo Grande,Fridrikh Ermler,STATE_T80,v366-main-106/person-797c4c86ec640fcb,Rodrigo Grande,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-107,939c81ba00511a70,GOLD,Ildikó Enyedi,Ildikó Enyedi,STATE_U02,v366-main-107/person-78fb1f3e1c591463,Armando Robles Godoy,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-108,01818f36259323a5,GOLD,Fridrikh Ermler,Fridrikh Ermler,STATE_E83,v366-main-108/person-3aff2bf8504ece70,Helmut Käutner,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-109,988c14e8e5ce3f9d,GOLD,Ildikó Enyedi,Ildikó Enyedi,STATE_N46,v366-main-109/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-110,f38ba80877cc3d82,GOLD,James Goldstone,James Goldstone,STATE_Y92,v366-main-110/person-349a79da778b411f,Vojtěch Jasný,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-111,f157b6feddc8ce90,WRONG,Gu Changwei,Helmut Käutner,STATE_Q32,v366-main-111/person-2b8e9beb2b07d505,Gu Changwei,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-112,e059d237b463f43f,GOLD,Yuen Woo-ping,Yuen Woo-ping,STATE_A15,v366-main-112/person-3d3913057548aa01,Ildikó Enyedi,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-113,8cab952f1b740d60,GOLD,Armando Robles Godoy,Armando Robles Godoy,STATE_Y75,v366-main-113/person-0a93fa936bf52673,Rahul Rawail,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-114,4b0cb4806bb211e9,GOLD,Marcello Fondato,Marcello Fondato,STATE_R76,v366-main-114/person-1b45e8f69996231e,Walter Hugo Khouri,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-115,ed9bfb5e25892fcc,WRONG,Gu Changwei,Rolf Schübel,STATE_O31,v366-main-115/person-2b8e9beb2b07d505,Gu Changwei,PROPAGATION,Cp,,C,Cp,False,False,False,False
+v366-main-116,c98035df52ab7476,GOLD,Anil Das,Anil Das,STATE_B18,v366-main-116/person-1ffa0b42c86be39f,Feng Xiaoning,GOLD_RETAINED,C,,C,Cp,False,False,False,False
+v366-main-117,50e15f69ccd05036,GOLD,Helmut Käutner,Helmut Käutner,STATE_A52,v366-main-117/person-8e06f6856e70d26e,Anil Das,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-118,23734286c69277ab,GOLD,Rolf Schübel,Rolf Schübel,STATE_N35,v366-main-118/person-3aff2bf8504ece70,Helmut Käutner,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-119,b08877a4ea6b6fb4,GOLD,Rodrigo Grande,Rodrigo Grande,STATE_B54,v366-main-119/person-8e06f6856e70d26e,Anil Das,GOLD_RETAINED,C,,C,Cp,True,False,False,False
+v366-main-120,c355939a1f708715,GOLD,Yuen Woo-ping,Yuen Woo-ping,STATE_R34,v366-main-120/person-b5fdc00d9dd320db,Tinnu Anand,GOLD_RETAINED,C,,C,Cp,False,False,False,False

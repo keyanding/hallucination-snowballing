@@ -4,13 +4,13 @@
 
 ## 1. 扫描范围
 
-来源提交：`9e3a39e3b7f612f7dd7360336319164072626fdf + frozen v3.6.5 working-tree artifacts (manifest hashes)`；20实验版本、21结果目录；可达Git提交20个。
+来源提交：`135968464958840259bdb6b4c6ced2951afe2e03 + uncommitted v3.6.6 frozen collection`；21实验版本、22结果目录；可达Git提交20个。
 
-v1, v2, v2.1, v3, v3.1, v3.2, v3.3, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.5.1, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.3.1, v3.6.4, v3.6.5。
+v1, v2, v2.1, v3, v3.1, v3.2, v3.3, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.5.1, v3.6.0, v3.6.1, v3.6.2, v3.6.3, v3.6.3.1, v3.6.4, v3.6.5, v3.6.6。
 
-枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。 2026-10-09补充读取v3.6.4全部文件并检查零调用、原生崩溃记录与168提示重建；此目录尚未提交，history目录集包括待提交失败记录，历史旧目录未变。 单独核验attempt_02的72条输出token解码、完整文本分类及停止门槛；首次失败文件全部哈希不变。 v3.6.5新增目录为待提交冻结实验；完整读取其结果，重建24历史fixture、独立核验32输出和192映射。
+枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。 2026-10-09补充读取v3.6.4全部文件并检查零调用、原生崩溃记录与168提示重建；此目录尚未提交，history目录集包括待提交失败记录，历史旧目录未变。 单独核验attempt_02的72条输出token解码、完整文本分类及停止门槛；首次失败文件全部哈希不变。 v3.6.5新增目录为待提交冻结实验；完整读取其结果，重建24历史fixture、独立核验32输出和192映射。 原始台账生成器中的固定旧摘要保留为历史模板：当前自然编码后传播证据以v3.6.6/F28/Q01为准；原C06仍限定旧正确状态接口。维护本身零调用，不是说本版实验零调用。
 
-完整读取并解析582份结果文本；保存600份历史结果文件和120份旧实现/数据/测试/工作流文件的SHA256。Git历史结果目录与现存目录全集一致；所有experiments/v*均映射入台账。
+完整读取并解析623份结果文本；保存641份历史结果文件和128份旧实现/数据/测试/工作流文件的SHA256。Git历史结果目录与现存目录全集一致；所有experiments/v*均映射入台账。
 
 ## 2. 缺少哪些常见产物
 
@@ -39,12 +39,13 @@ v1, v2, v2.1, v3, v3.1, v3.2, v3.3, v3.4, v3.4.1, v3.4.2, v3.4.3, v3.4.4, v3.5.1
 | results/v3_6_3_1 | 40 | original_spec.md |
 | results/v3_6_4 | 74 | metrics.json, calibration_gate.json, verification.json, original_spec.md |
 | results/v3_6_5 | 41 | metrics.json, calibration_gate.json, verification.json, original_spec.md |
+| results/v3_6_6 | 41 | calibration_gate.json, diagnosis.md, interpretation.md, original_spec.md, prompt_diff_audit.md, verification.json |
 
 准备草稿无gate/推理文件是预期；独立v3.5/v3.5.2未发现。v1/v2未保存独立spec副本，但有实际prompt、protocol/inspection与gate。部分早期gate仍写human review pending，本台账不把代码/代理审计升级为独立人工科学批准。
 
 ## 3. 信心等级
 
-- HIGH（19）：F01, F03, F04, F05, F07, F08, F10, F11, F12, F13, F14, F15, F16, F18, F19, F20, F21, F26, F27。
+- HIGH（20）：F01, F03, F04, F05, F07, F08, F10, F11, F12, F13, F14, F15, F16, F18, F19, F20, F21, F26, F27, F28。
 - MEDIUM（6）：F02, F06, F09, F17, F24, F25。
 - LOW（2）：F22, F23。
 
@@ -88,11 +89,11 @@ Markdown、audit、CHANGELOG均由JSON确定性生成；verify要求全文一致
 |---|---|---|
 | FROZEN_REUSE | 9 | 9 |
 | ACTIVE_WARNING | 10 | 10 |
-| INCONCLUSIVE | 6 | 6 |
+| INCONCLUSIVE | 7 | 7 |
 | OPEN_QUESTION | 2 | 2 |
 | RETIRED | 0 | 0 |
 | SUPERSEDED | 0 | 0 |
 
-全套169项测试通过，其中新增协议测试8项。记录：[docs/validated_findings_tests.log](../docs/validated_findings_tests.log)。新增模型调用：0。
+全套183项测试通过，其中新增协议测试8项。记录：[docs/validated_findings_tests.log](../docs/validated_findings_tests.log)。新增模型调用：0。
 
 这些是F条目计数，不包含C/M/Q。未新增模型调用、未改历史结果或冻结代码；只新增研究台账/检查工具/测试并链接入口。台账检查不能替代人工科学判断，更新时须重新核实证据，而不能只让文本与JSON互相一致。

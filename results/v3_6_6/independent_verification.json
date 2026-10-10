@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "model_calls_for_verification": 0,
+  "token_round_trips": 502,
+  "independent_counts": {
+    "V": 118,
+    "W": 20,
+    "G": 98,
+    "control_G_correct": 120,
+    "control_A_correct": 120,
+    "paired_correct": 120,
+    "P": 20,
+    "O": 0,
+    "T": 0,
+    "E2E": 98,
+    "final_gold": 98
+  },
+  "all_controlled_table": {
+    "10": 120
+  },
+  "wrong_controlled_table": {
+    "10": 20
+  },
+  "wrong_identity_counts": {
+    "Helmut Käutner": 1,
+    "Walter Hugo Khouri": 2,
+    "Yuen Woo-ping": 4,
+    "Rahul Rawail": 7,
+    "Marcello Fondato": 1,
+    "Rolf Schübel": 1,
+    "Bhappi Sonie": 1,
+    "Rodrigo Grande": 1,
+    "Gu Changwei": 2
+  },
+  "wrong_bundles": 20,
+  "diagnostic_changes": 7,
+  "diagnostic_comparable": 23,
+  "prior_artifacts_unchanged": 601,
+  "original_freeze_unchanged": true
+}

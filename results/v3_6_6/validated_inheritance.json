@@ -1,0 +1,90 @@
+[
+  {
+    "component": "HARD/N and name parser",
+    "prior_version": "v3.4.4/v3.6.5",
+    "classification": "FROZEN_REUSE",
+    "prior_result": "Historical24/24 valid5/24 wrong; recent3/24 wrong",
+    "treatment": "Exact no_list D4B2 and parse_natural; zero-call fixtures",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": false,
+    "reason": "",
+    "prior_conclusion_no_longer_applies": ""
+  },
+  {
+    "component": "Downstream shell/parser",
+    "prior_version": "v3.6.3.1",
+    "classification": "FROZEN_REUSE",
+    "prior_result": "D-A/D-B/paired40/40",
+    "treatment": "Exact two-row VALIDATED renderer, cap16 and inherited parser",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": false,
+    "reason": "",
+    "prior_conclusion_no_longer_applies": ""
+  },
+  {
+    "component": "Runtime and opaque lexical constraints",
+    "prior_version": "v3.6.3.1/v3.6.5",
+    "classification": "FROZEN_REUSE",
+    "prior_result": "Pinned stack and opaque family in validated interfaces",
+    "treatment": "Same task caps, ID families, token matching, fresh suffix constraints",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": false,
+    "reason": "",
+    "prior_conclusion_no_longer_applies": ""
+  },
+  {
+    "component": "120 fresh graphs",
+    "prior_version": "v3.6.5",
+    "classification": "INTENTIONALLY_RETESTED",
+    "prior_result": "No independently confirmed frontier",
+    "treatment": "Prospective fixed cohort; no yield gate",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": true,
+    "reason": "Prospective fixed cohort; no yield gate",
+    "prior_conclusion_no_longer_applies": "Prior successful component evidence does not establish the new cohort/bridge/natural-wrong response"
+  },
+  {
+    "component": "Identity bridge and natural routing",
+    "prior_version": "v3.6.3.1",
+    "classification": "INTENTIONALLY_RETESTED",
+    "prior_result": "Actual pipeline tested correct states only",
+    "treatment": "Bijective encoding; three pre-frozen modules; every wrong branch retains its identity",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": true,
+    "reason": "Bijective encoding; three pre-frozen modules; every wrong branch retains its identity",
+    "prior_conclusion_no_longer_applies": "Prior successful component evidence does not establish the new cohort/bridge/natural-wrong response"
+  },
+  {
+    "component": "Paired controlled states",
+    "prior_version": "v3.6.3.1",
+    "classification": "INTENTIONALLY_RETESTED",
+    "prior_result": "External state switch validated",
+    "treatment": "Current-cohort paired RD, no extra old calibration",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": true,
+    "reason": "Current-cohort paired RD, no extra old calibration",
+    "prior_conclusion_no_longer_applies": "Prior successful component evidence does not establish the new cohort/bridge/natural-wrong response"
+  },
+  {
+    "component": "Record order diagnostic",
+    "prior_version": "v3.6.5",
+    "classification": "INTENTIONALLY_RETESTED",
+    "prior_result": "3/8 identity changes",
+    "treatment": "24 independent fixed diagnostics, no gates",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": true,
+    "reason": "24 independent fixed diagnostics, no gates",
+    "prior_conclusion_no_longer_applies": "Prior successful component evidence does not establish the new cohort/bridge/natural-wrong response"
+  },
+  {
+    "component": "Difficulty search and integrated task",
+    "prior_version": "v3.6.4/v3.6.3.1",
+    "classification": "NOT_RELEVANT",
+    "prior_result": "Separate questions",
+    "treatment": "No such calls",
+    "validation": "Frozen source hashes, byte comparisons, new-risk tests and complete namespace logs",
+    "modified": false,
+    "reason": "",
+    "prior_conclusion_no_longer_applies": ""
+  }
+]

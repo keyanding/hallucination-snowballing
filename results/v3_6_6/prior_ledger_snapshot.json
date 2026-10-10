@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "generated_on": "2026-10-10",
   "timezone": "Asia/Shanghai",
-  "generated_from_repository_state": "135968464958840259bdb6b4c6ced2951afe2e03 + uncommitted v3.6.6 frozen collection",
-  "scope": "登记21个已有模型调用的版本，保留所有失败与未运行阶段。v3.6.6共502次模型调用；台账维护和独立核验本身零模型调用。",
+  "generated_from_repository_state": "135968464958840259bdb6b4c6ced2951afe2e03",
+  "scope": "登记20个已有模型调用的实验版本；v3.6.4首次零调用故障及授权重试均保留。v3.6.5完成24开发+8诊断，确认未运行。台账维护/历史复现审计/独立核验本身零模型调用；信心等级限于注明范围。",
   "project_question": "模型自然产生的错误中间状态是否传播为下游被接受的错误，何种干预能减少它？",
-  "current_boundary": "固定120例；Valid118/120，GOLD98/120，WRONG20/120，TRUNCATED2/120。自然传播20/20=100.00%（Wilson95% 83.89%–100.00%）；总体UCR 20/120=16.67%（Wilson95% 11.06%–24.35%）；strict E2E 98/120=81.67%（Wilson95% 73.80%–87.57%）；final gold 98/120=81.67%（Wilson95% 73.80%–87.57%）。自然WRONG结局{'PROPAGATION': 20}；自然GOLD结局{'GOLD_RETAINED': 98}。 CURRENT_COHORT_CAPABILITY_SUPPORTED；MINIMUM_DESCRIPTIVE_INFORMATION_MET。这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。\n\n版本说明：生成器已被历史实验及本版推理前hash冻结，因此保留其固定模板。紧随本段的“自然错误传播仍未测”以及Open questions节“尚未执行”是截至v3.6.5的旧摘要，已由本段、F28和Q01更新；不能用这些旧模板句否认本版已测的编码后轨迹。C06仍专指旧正确状态组件，新身份桥接证据单列F28，不扩大旧验证范围。\n\n以下固定模板句仅作截至v3.6.5的历史摘要：",
+  "current_boundary": "已验证显式符号跟随、至24条无关映射已测鲁棒性、上游查表与正确实际状态模块管线；未验证自然错误传播、集成底层能力或SHAR/HalluSE作用。 v3.6.4授权重试后完成开发72次，三个难度合格自然错误均0/24；未触发确认或传播。 v3.6.5复用历史HARD/N后获得3/24有效可追溯错误，但低于4/24开发门槛，未进入独立确认；自然传播依然未测。",
   "versions_scanned": [
     {
       "version": "v1",
@@ -1789,120 +1789,6 @@
         "experiments/v3_6_5/report.py",
         "experiments/v3_6_5/run.py"
       ]
-    },
-    {
-      "version": "v3.6.6",
-      "phase": "固定120例前瞻性自然错选轨迹采集",
-      "status": "PROSPECTIVE_COLLECTION_COMPLETE / CURRENT_COHORT_CAPABILITY_SUPPORTED / MINIMUM_DESCRIPTIVE_INFORMATION_MET",
-      "research_question": "自然错选经冻结双射和模块路由后是否输出对应错误outcome；同模块state干预的配对风险差是多少？",
-      "minimal_design": "120主首跳+118合法自然下游+240配对对照+24独立顺序诊断=502次；无yield门槛或科学指标early stop。360模块/864潜在提示/960新ID推理前冻结。",
-      "exact_key_results": "固定120例；Valid118/120，GOLD98/120，WRONG20/120，TRUNCATED2/120。自然传播20/20=100.00%（Wilson95% 83.89%–100.00%）；总体UCR 20/120=16.67%（Wilson95% 11.06%–24.35%）；strict E2E 98/120=81.67%（Wilson95% 73.80%–87.57%）；final gold 98/120=81.67%（Wilson95% 73.80%–87.57%）。自然WRONG结局{'PROPAGATION': 20}；自然GOLD结局{'GOLD_RETAINED': 98}。 all_controlled: n=120, RD=1.0, conservative95%=[0.9282836214639123, 1], table={'00': 0, '01': 0, '10': 120, '11': 0}; natural_wrong_subset: n=20, RD=1.0, conservative95%=[0.606480640590749, 1], table={'00': 0, '01': 0, '10': 20, '11': 0} v3.6.6预选24例记录顺序诊断：严格有效可比23/24，changed 7/24=29.17%（Wilson95% 14.91%–49.17%）；可比条件下7/23=30.43%（Wilson95% 15.60%–50.87%）；转移计数{'comparable': 23, 'same': 16, 'changed': 7, 'gold_to_wrong': 5, 'wrong_to_gold': 1, 'wrong_to_different_wrong': 1, 'same_wrong_identity': 0}。无本版敏感性阈值，诊断不加入主WRONG集合。",
-      "valid_conclusion": "在该冻结模型/任务/路由策略下保存了20个实际自然错选的完整下游轨迹；MINIMUM_DESCRIPTIVE_INFORMATION_MET。这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。",
-      "not_established": "这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。",
-      "measurement_artifacts": "截断按独立失败计，不能提取首个人名。完整队列coverage包括有明确协议skip的不合法首跳；合法双跳coverage为V/120，转发率为returned/V。自然与control可能同prompt但分别调用。",
-      "design_implication": "以后同时评估固定队列cascade、实际WRONG条件率及有效样本多样性；不把capability终局标记或错误样本量改成运行gate。",
-      "evidence_files": [
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json",
-        "results/v3_6_6/case_outcomes.csv",
-        "results/v3_6_6/paired_tables.json",
-        "results/v3_6_6/independent_verification.json",
-        "results/v3_6_6/inspection.md",
-        "results/v3_6_6/limitations.md"
-      ],
-      "result_directory": "results/v3_6_6",
-      "artifact_inventory": {
-        "directory": "results/v3_6_6",
-        "files": 41,
-        "text_artifacts_parsed": [
-          "results/v3_6_6/alias_registry.json",
-          "results/v3_6_6/call_journal.jsonl",
-          "results/v3_6_6/call_schedule.json",
-          "results/v3_6_6/case_outcomes.csv",
-          "results/v3_6_6/cases.json",
-          "results/v3_6_6/CHANGELOG.md",
-          "results/v3_6_6/chat_template.txt",
-          "results/v3_6_6/controlled_raw.jsonl",
-          "results/v3_6_6/decoding_freeze.json",
-          "results/v3_6_6/design_audit.md",
-          "results/v3_6_6/design_audit.pre_inference.md",
-          "results/v3_6_6/downstream_modules.json",
-          "results/v3_6_6/first_hop_raw.jsonl",
-          "results/v3_6_6/freeze_manifest.json",
-          "results/v3_6_6/freshness_audit.json",
-          "results/v3_6_6/gate.json",
-          "results/v3_6_6/historical_interface_audit.json",
-          "results/v3_6_6/historical_raw_audit.json",
-          "results/v3_6_6/identifier_tokenization_audit.json",
-          "results/v3_6_6/identity_state_map.json",
-          "results/v3_6_6/independent_verification.json",
-          "results/v3_6_6/inheritance_audit.json",
-          "results/v3_6_6/inspection.md",
-          "results/v3_6_6/limitations.md",
-          "results/v3_6_6/metrics.json",
-          "results/v3_6_6/model_manifest.json",
-          "results/v3_6_6/natural_downstream_raw.jsonl",
-          "results/v3_6_6/order_diagnostic_raw.jsonl",
-          "results/v3_6_6/paired_tables.json",
-          "results/v3_6_6/pipeline_log.jsonl",
-          "results/v3_6_6/pre_registration.md",
-          "results/v3_6_6/prior_findings_review.json",
-          "results/v3_6_6/prior_ledger_snapshot.json",
-          "results/v3_6_6/prompt_plan.jsonl",
-          "results/v3_6_6/README.md",
-          "results/v3_6_6/run_state.json",
-          "results/v3_6_6/spec.md",
-          "results/v3_6_6/spec.original.md",
-          "results/v3_6_6/static_routing_audit.json",
-          "results/v3_6_6/tests.pre_inference.log",
-          "results/v3_6_6/validated_inheritance.json"
-        ],
-        "expected_present": [
-          "CHANGELOG.md",
-          "README.md",
-          "design_audit.md",
-          "design_audit.pre_inference.md",
-          "gate.json",
-          "independent_verification.json",
-          "inspection.md",
-          "metrics.json",
-          "pre_registration.md",
-          "spec.md"
-        ],
-        "expected_absent": [
-          "calibration_gate.json",
-          "diagnosis.md",
-          "interpretation.md",
-          "original_spec.md",
-          "prompt_diff_audit.md",
-          "verification.json"
-        ]
-      },
-      "gate_scalar_snapshot": {
-        "technical_status": "NONE",
-        "collection_status": "PROSPECTIVE_COLLECTION_COMPLETE",
-        "N_planned": 120,
-        "N_attempted": 120,
-        "N_observed": 120,
-        "V": 118,
-        "G": 98,
-        "W": 20,
-        "stage_counts": {
-          "first_hop": 120,
-          "natural_downstream": 118,
-          "controlled": 240,
-          "order_diagnostic": 24
-        },
-        "capability": "CURRENT_COHORT_CAPABILITY_SUPPORTED",
-        "information": "MINIMUM_DESCRIPTIVE_INFORMATION_MET"
-      },
-      "implementation_files": [
-        "experiments/v3_6_6/analyze.py",
-        "experiments/v3_6_6/design.py",
-        "experiments/v3_6_6/prepare.py",
-        "experiments/v3_6_6/report.py",
-        "experiments/v3_6_6/run.py"
-      ]
     }
   ],
   "findings": [
@@ -2011,7 +1897,7 @@
       ],
       "scope": "无entity、选项列表和mapped UNKNOWN句的完整minimal shell。",
       "exact_result": "新validated提示逐字匹配v3.6.1 minimal及v3.6.2 K0；主80/80、独立shell20/20。",
-      "design_implication": "按C01渲染器逐字复用；变化须声明和重验。 v3.6.6已按固定120例完成前瞻性采集；新桥接/路由及实际错误下游证据见F28，历史gate与旧接口范围不变。",
+      "design_implication": "按C01渲染器逐字复用；变化须声明和重验。 v3.6.6拟采用固定120例前瞻性采集，无frontier/yield运行门槛；这不改变旧gate结果或扩大旧正确状态管线证据，待测桥接/路由及自然错误下游须单列。",
       "do_not_infer": "不是Current state单独两个词的因果效应。",
       "supersedes": [],
       "superseded_by": [],
@@ -2193,7 +2079,7 @@
       ],
       "scope": "40fresh主例；独立U-A后原样转发归一化实际输出。",
       "exact_result": "严格E2E40/40；条件下游40/40；40实际状态核验，无skip/修复。",
-      "design_implication": "复用真实转发、invalid跳过、错上游不被末端偶然C掩盖的计分。 v3.6.6已按固定120例完成前瞻性采集；新桥接/路由及实际错误下游证据见F28，历史gate与旧接口范围不变。",
+      "design_implication": "复用真实转发、invalid跳过、错上游不被末端偶然C掩盖的计分。 v3.6.6拟采用固定120例前瞻性采集，无frontier/yield运行门槛；这不改变旧gate结果或扩大旧正确状态管线证据，待测桥接/路由及自然错误下游须单列。",
       "do_not_infer": "本次上游全对；wrong/unmapped只代码路径测试，未实测自然错误管线。",
       "supersedes": [],
       "superseded_by": [],
@@ -2268,8 +2154,7 @@
         "v3.4.1",
         "v3.4.3",
         "v3.4.4",
-        "v3.6.3.1",
-        "v3.6.6"
+        "v3.6.3.1"
       ],
       "evidence_files": [
         "results/smoke_v3_4/diagnosis.md",
@@ -2278,12 +2163,10 @@
         "results/calibration_v3_4_3/diagnosis.md",
         "results/calibration_v3_4_4/format_smoke.json",
         "results/calibration_v3_4_4/supplementary_diagnostics.md",
-        "results/v3_6_3_1/diagnostic_observations.md",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_3_1/diagnostic_observations.md"
       ],
       "scope": "观察cap/输出，不把不同设计当单因素cap比较。",
-      "exact_result": "v3.4 cap32截断9/20；v3.4.1 cap96零截断；v3.4.3 cap96仍4/72；最新集成cap16截断17/40。v3.4.4独立四题96均无截断，未触发192。 v3.6.6主首跳截断2/120，按协议不提取人名；其他类别见全120例表。",
+      "exact_result": "v3.4 cap32截断9/20；v3.4.1 cap96零截断；v3.4.3 cap96仍4/72；最新集成cap16截断17/40。v3.4.4独立四题96均无截断，未触发192。",
       "design_implication": "独立样本预检cap再冻结；格式/截断分列；刻意短cap须声明为接口重测。",
       "do_not_infer": "没有32→64→96同提示修复曲线；长cap不能保证exact；不重写旧结果。",
       "supersedes": [],
@@ -2331,8 +2214,7 @@
         "v3.3",
         "v3.4.4",
         "v3.6.0",
-        "v3.6.5",
-        "v3.6.6"
+        "v3.6.5"
       ],
       "evidence_files": [
         "results/smoke_v3_3/diagnosis.md",
@@ -2343,13 +2225,11 @@
         "results/v3_6_5/gate.json",
         "results/v3_6_5/development_metrics.json",
         "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_5/diagnostic_observations.md"
       ],
       "scope": "各版操纵分别解释；v3.6.5为完整名称记录块的单次循环置换。",
-      "exact_result": "v3.3冲突wrong8/12、gold5/12变更；v3.4.4 HARD R14/23敏感、最早41/95；v3.6.0反序5/20差异。 v3.6.5诊断3/8身份变化、8/8严格有效成对；gold→wrong1、wrong→gold1、wrong→different wrong1。PRESENTATION_SENSITIVE=false仅因阈值>3/8未触发，不表示稳定。 v3.6.6预选24例记录顺序诊断：严格有效可比23/24，changed 7/24=29.17%（Wilson95% 14.91%–49.17%）；可比条件下7/23=30.43%（Wilson95% 15.60%–50.87%）；转移计数{'comparable': 23, 'same': 16, 'changed': 7, 'gold_to_wrong': 5, 'wrong_to_gold': 1, 'wrong_to_different_wrong': 1, 'same_wrong_identity': 0}。无本版敏感性阈值，诊断不加入主WRONG集合。",
-      "design_implication": "复杂/竞争证据设置order对照，不借F09免检。 v3.6.6已按固定120例完成前瞻性采集；新桥接/路由及实际错误下游证据见F28，历史gate与旧接口范围不变。",
+      "exact_result": "v3.3冲突wrong8/12、gold5/12变更；v3.4.4 HARD R14/23敏感、最早41/95；v3.6.0反序5/20差异。 v3.6.5诊断3/8身份变化、8/8严格有效成对；gold→wrong1、wrong→gold1、wrong→different wrong1。PRESENTATION_SENSITIVE=false仅因阈值>3/8未触发，不表示稳定。",
+      "design_implication": "复杂/竞争证据设置order对照，不借F09免检。 v3.6.6拟采用固定120例前瞻性采集，无frontier/yield运行门槛；这不改变旧gate结果或扩大旧正确状态管线证据，待测桥接/路由及自然错误下游须单列。",
       "do_not_infer": "不与最小位置稳定矛盾，也非统一primacy机制。",
       "supersedes": [],
       "superseded_by": [],
@@ -2396,8 +2276,7 @@
         "v3.4.3",
         "v3.4.4",
         "v3.6.4",
-        "v3.6.5",
-        "v3.6.6"
+        "v3.6.5"
       ],
       "evidence_files": [
         "results/v3_6_4/attempt_02/README.md",
@@ -2417,13 +2296,11 @@
         "results/v3_6_5/gate.json",
         "results/v3_6_5/development_metrics.json",
         "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_5/diagnostic_observations.md"
       ],
       "scope": "各自开发/诊断/确认设计，不是统一连续难度标尺。",
-      "exact_result": "v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。 v3.6.6固定120例实际WRONG20/120；这不是独立frontier确认，不改写旧失败。",
-      "design_implication": "历史前沿未确认的事实保留。v3.6.6证明可采用无yield运行门槛的固定队列完整采集；不得继续将旧frontier资格当作所有新设计的运行前提。新设计必须明示选择机制、有效分母与外推范围。",
+      "exact_result": "v3.4.1无前沿；v3.4.2候选cell被position排除；最新确认错0/16，L/R同错4/4各0/72开发cells。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。",
+      "design_implication": "需新独立前沿与错误yield确认，不能按错挑例或放宽阈值。 v3.6.6拟采用固定120例前瞻性采集，无frontier/yield运行门槛；这不改变旧gate结果或扩大旧正确状态管线证据，待测桥接/路由及自然错误下游须单列。",
       "do_not_infer": "不是已取得顺序稳定错误状态，也非所有任务均不能产错。",
       "supersedes": [],
       "superseded_by": [],
@@ -2443,8 +2320,7 @@
         "v3.4.4",
         "v3.6.3.1",
         "v3.6.4",
-        "v3.6.5",
-        "v3.6.6"
+        "v3.6.5"
       ],
       "evidence_files": [
         "results/v3_6_4/attempt_02/README.md",
@@ -2464,13 +2340,11 @@
         "results/v3_6_5/gate.json",
         "results/v3_6_5/development_metrics.json",
         "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_5/diagnostic_observations.md"
       ],
       "scope": "已执行传播分支及被选择/确认的路线；自然状态需未强制生成、有效、错误且关系证据可追溯，不表示所有开发条件都没有错选。 v3.6.5纳入独立确认前的预注册错误来源资格；允许存在尚未达到产出门槛的有效开发错误。",
-      "exact_result": "v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。 固定120例；Valid118/120，GOLD98/120，WRONG20/120，TRUNCATED2/120。自然传播20/20=100.00%（Wilson95% 83.89%–100.00%）；总体UCR 20/120=16.67%（Wilson95% 11.06%–24.35%）；strict E2E 98/120=81.67%（Wilson95% 73.80%–87.57%）；final gold 98/120=81.67%（Wilson95% 73.80%–87.57%）。自然WRONG结局{'PROPAGATION': 20}；自然GOLD结局{'GOLD_RETAINED': 98}。 有效自然/配对WRONG样本分别20/20；MINIMUM_DESCRIPTIVE_INFORMATION_MET。",
-      "design_implication": "分别报告错误yield、合法覆盖和实际W；W=0条件率null，W不足时保留探索性区间，不追加样本、不借controlled成功扩自然分母。无yield gate的前瞻性设计可以完整运行；本版不推翻历史失败。",
+      "exact_result": "v3.3非gold12/12但关系资格0；v3.4 wrong0/20；v3.4.4确认错0/16；最新U-A错0/40。 v3.4.4 HARD N确有5/24自然错选，但不是被选中并确认的传播路线，且没有执行其下游传播。 v3.6.4授权重试完成72次开发调用：EASY/MID/HARD合格错误均0/24，Valid分别24/24、23/24、23/24；MID/HARD各1个前缀缺失INVALID，无截断。有效性门槛通过，但错误yield不足，NO_NATURAL_ERROR_FRONTIER；未运行确认/顺序/下游。首次加载失败0调用仅是另行保留的工程记录。 v3.6.5定向HARD/N复现：Valid24/24，3/24可追溯错误（3案例/3身份），低于开发4/24门槛；其他门槛通过、确认未运行。3个开发错误是实际观察，不能描述为零错误，也不能替代独立确认。",
+      "design_implication": "自然错误yield与证据资格前置；零合格传播率null。 v3.6.6拟采用固定120例前瞻性采集，无frontier/yield运行门槛；这不改变旧gate结果或扩大旧正确状态管线证据，待测桥接/路由及自然错误下游须单列。",
       "do_not_infer": "注入B′不补自然分母；零合格不等于零传播。",
       "supersedes": [],
       "superseded_by": [],
@@ -2480,29 +2354,26 @@
     },
     {
       "id": "F20",
-      "title": "编码后自然错选传播已有有界观察；未建立自然/注入等价",
+      "title": "自然传播率及注入/自然等价未建立",
       "status": "INCONCLUSIVE",
       "confidence": "HIGH",
       "theme": "Natural vs injected error distinction",
       "evidence_versions": [
         "v3.3",
         "v3.4",
-        "v3.6.3.1",
-        "v3.6.6"
+        "v3.6.3.1"
       ],
       "evidence_files": [
         "results/smoke_v3_3/metrics.json",
         "results/smoke_v3_3/diagnosis.md",
         "results/smoke_v3_4/gate.json",
         "results/v3_6_3_1/pipeline_log.jsonl",
-        "results/v3_6_3_1/metrics.json",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_3_1/metrics.json"
       ],
-      "scope": "区分历史零合格分母、v3.6.6编码后合成轨迹与未测的未经编码自然端到端过程。",
-      "exact_result": "历史v3.3 NPR分母0、v3.4下游0、v3.6.3.1实际上游40/40全对。v3.6.6新增：固定120例；Valid118/120，GOLD98/120，WRONG20/120，TRUNCATED2/120。自然传播20/20=100.00%（Wilson95% 83.89%–100.00%）；总体UCR 20/120=16.67%（Wilson95% 11.06%–24.35%）；strict E2E 98/120=81.67%（Wilson95% 73.80%–87.57%）；final gold 98/120=81.67%（Wilson95% 73.80%–87.57%）。自然WRONG结局{'PROPAGATION': 20}；自然GOLD结局{'GOLD_RETAINED': 98}。",
-      "design_implication": "采用F28的明确范围与信息量；同prompt自然/CONTROL_A一致不能证明隐状态或来源等价。",
-      "do_not_infer": "这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。",
+      "scope": "自然来源分支与注册反事实不同。",
+      "exact_result": "v3.3 NPR分母0；v3.4下游0；最新实际U-A全对40/40。",
+      "design_implication": "自然、注入、oracle分层，未来相同证据接口下比较。",
+      "do_not_infer": "不能将F12称为自然snowballing已验证。",
       "supersedes": [],
       "superseded_by": [],
       "open_follow_up": [
@@ -2694,35 +2565,6 @@
       "open_follow_up": [
         "Q02",
         "Q09"
-      ]
-    },
-    {
-      "id": "F28",
-      "title": "前瞻性队列中自然错选经编码进入合成下游的轨迹",
-      "status": "INCONCLUSIVE",
-      "confidence": "HIGH",
-      "theme": "State propagation",
-      "evidence_versions": [
-        "v3.6.6"
-      ],
-      "evidence_files": [
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json",
-        "results/v3_6_6/case_outcomes.csv",
-        "results/v3_6_6/paired_tables.json",
-        "results/v3_6_6/independent_verification.json",
-        "results/v3_6_6/inspection.md",
-        "results/v3_6_6/limitations.md"
-      ],
-      "scope": "HARD/N D4B2；120新图/目标、21复用人物，Qwen3-4B固定栈；无损人名→opaque state桥接、按实际身份选预冻结两行模块。HIGH仅表示保存的计数/可追溯性；INCONCLUSIVE指条件率及机制的推广。",
-      "exact_result": "固定120例；Valid118/120，GOLD98/120，WRONG20/120，TRUNCATED2/120。自然传播20/20=100.00%（Wilson95% 83.89%–100.00%）；总体UCR 20/120=16.67%（Wilson95% 11.06%–24.35%）；strict E2E 98/120=81.67%（Wilson95% 73.80%–87.57%）；final gold 98/120=81.67%（Wilson95% 73.80%–87.57%）。自然WRONG结局{'PROPAGATION': 20}；自然GOLD结局{'GOLD_RETAINED': 98}。 all_controlled: n=120, RD=1.0, conservative95%=[0.9282836214639123, 1], table={'00': 0, '01': 0, '10': 120, '11': 0}; natural_wrong_subset: n=20, RD=1.0, conservative95%=[0.606480640590749, 1], table={'00': 0, '01': 0, '10': 20, '11': 0} 能力CURRENT_COHORT_CAPABILITY_SUPPORTED；信息量{'status': 'MINIMUM_DESCRIPTIVE_INFORMATION_MET', 'n_eff_natural': 20, 'n_eff_paired_wrong': 20, 'W': 20, 'all_wrong_identities': 9, 'all_wrong_bundles': 20, 'jointly_complete_wrong_identities': 9, 'jointly_complete_wrong_bundles': 20}。",
-      "design_implication": "完整保留固定队列和分母；复用实现不等于把本样本条件率当保证。下一版须独立预注册并审查人物/组合依赖、路由选择与截断。",
-      "do_not_infer": "这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。",
-      "supersedes": [],
-      "superseded_by": [],
-      "open_follow_up": [
-        "Q01",
-        "Q08"
       ]
     }
   ],
@@ -3080,13 +2922,11 @@
         "results/calibration_v3_4_4/README.md",
         "results/v3_6_5/README.md",
         "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_5/development_metrics.json"
       ],
-      "symptom": "错误缺关系、无效或全对；v3.6.5有3/24有效错误但不足预注册4/24产出门槛 v3.6.6实际W=20/120且完成下游；不能把过往零分母写成最新仍为零。当前信息量标记MINIMUM_DESCRIPTIVE_INFORMATION_MET。",
+      "symptom": "错误缺关系、无效或全对；v3.6.5有3/24有效错误但不足预注册4/24产出门槛",
       "why_it_matters": "尚未建立通过独立确认、可供后续自然传播实验使用的错误来源；有效开发错误不自动变成已确认传播分母。",
-      "prevention_rule": "分别报告错误yield、合法覆盖和实际W；W=0条件率null，W不足时保留探索性区间，不追加样本、不借controlled成功扩自然分母。无yield gate的前瞻性设计可以完整运行；本版不推翻历史失败。",
+      "prevention_rule": "自然错误yield与证据资格前置；零合格传播率null。",
       "status": "ACTIVE_WARNING"
     }
   ],
@@ -3095,8 +2935,8 @@
       "id": "Q01",
       "question": "合格自然第一跳错误是否沿实际状态传播？",
       "why_important": "核心目标未被注入实验替代。",
-      "current_evidence": "截至v3.6.5自然传播未测；v3.6.6已取得编码后合成轨迹：固定120例；Valid118/120，GOLD98/120，WRONG20/120，TRUNCATED2/120。自然传播20/20=100.00%（Wilson95% 83.89%–100.00%）；总体UCR 20/120=16.67%（Wilson95% 11.06%–24.35%）；strict E2E 98/120=81.67%（Wilson95% 73.80%–87.57%）；final gold 98/120=81.67%（Wilson95% 73.80%–87.57%）。自然WRONG结局{'PROPAGATION': 20}；自然GOLD结局{'GOLD_RETAINED': 98}。 MINIMUM_DESCRIPTIVE_INFORMATION_MET。这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。",
-      "what_would_resolve_it": "已有有界描述，不再要求先复现旧frontier gate。后续独立预注册扩大有效错误样本和身份/组合覆盖，或验证不同桥接/真实语义接口；不能事后补本队列或混合注入分母。",
+      "current_evidence": "自然错误传播仍未测。v3.6.3.1的U-A全部正确；v3.6.4授权重试完成72次开发调用，EASY/MID/HARD合格自然错误均0/24，未选择难度，确认与自然传播均未执行。首次加载失败的0调用记录不是错误yield观察。 v3.6.5得到3/24有效可追溯自然错选，但未达4/24门槛，未确认、未传播。 v3.6.6处于设计实施前核对阶段，计划固定120例采集；尚无新观察。",
+      "what_would_resolve_it": "独立确认足够未强制、严格有效、错误且关系可追溯的状态，原样转发；报告条件分母/正确上游对照。",
       "dependencies": [
         "C01",
         "C06",
@@ -3116,9 +2956,7 @@
         "results/v3_6_4/attempt_02/development_metrics.json",
         "results/v3_6_5/README.md",
         "results/v3_6_5/gate.json",
-        "results/v3_6_5/development_metrics.json",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_5/development_metrics.json"
       ]
     },
     {
@@ -3222,7 +3060,7 @@
       "id": "Q08",
       "question": "顺序及背景效应的边界在哪里？",
       "why_important": "简单稳定，复杂/冲突敏感。",
-      "current_evidence": "简单三位置24/24；HARD R14/23敏感；冲突wrong8/12改变。 v3.6.5名称记录置换改变3/8身份（严格有效覆盖8/8）；未超标记阈值不代表稳定。 v3.6.6预选24例记录顺序诊断：严格有效可比23/24，changed 7/24=29.17%（Wilson95% 14.91%–49.17%）；可比条件下7/23=30.43%（Wilson95% 15.60%–50.87%）；转移计数{'comparable': 23, 'same': 16, 'changed': 7, 'gold_to_wrong': 5, 'wrong_to_gold': 1, 'wrong_to_different_wrong': 1, 'same_wrong_identity': 0}。无本版敏感性阈值，诊断不加入主WRONG集合。",
+      "current_evidence": "简单三位置24/24；HARD R14/23敏感；冲突wrong8/12改变。 v3.6.5名称记录置换改变3/8身份（严格有效覆盖8/8）；未超标记阈值不代表稳定。 v3.6.6处于设计实施前核对阶段，计划固定120例采集；尚无新观察。",
       "what_would_resolve_it": "分别控制列表、记录、竞争证据和语义背景，检验交互。",
       "dependencies": [
         "F08",
@@ -3236,9 +3074,7 @@
         "results/calibration_v3_4_4/diagnosis.md",
         "results/smoke_v3_3/diagnosis.md",
         "results/v3_6_5/presentation_diagnostic_metrics.json",
-        "results/v3_6_5/diagnostic_observations.md",
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
+        "results/v3_6_5/diagnostic_observations.md"
       ]
     },
     {
@@ -3367,15 +3203,6 @@
         "results/smoke_v3_3/eligibility_review.json"
       ],
       "resolution": "自动只匹配relation index；人工核实9身份但0下游关系；原始字段保持。"
-    },
-    {
-      "id": "X11",
-      "apparent_conflict": "旧台账未测自然传播与v3.6.6有编码后传播记录",
-      "resolution": "历史观察不改写。新前瞻性设计不使用旧yield gate，新增无损编码及条件模块路由；有界轨迹已测，不能继续一概称未测，也不能称真实对话snowballing或自然/注入等价已验证。冻结模板的旧摘要按current_boundary明确标为历史。",
-      "evidence_files": [
-        "results/v3_6_6/README.md",
-        "results/v3_6_6/metrics.json"
-      ]
     }
   ],
   "future_spec_protocol": {
@@ -3437,7 +3264,7 @@
       "追加CHANGELOG",
       "再设计下一实验"
     ],
-    "latest_incorporated_version": "v3.6.6",
+    "latest_incorporated_version": "v3.6.5",
     "historical_rule_resolution": "新协议补充全项目review入口；旧三分类保留为组件层映射。ACTIVE_WARNING必须AVOIDED说明规避/不适用路径，或INTENTIONALLY_RETESTED。旧cap16只冻结旧实验，新集成设计可声明有理由的改变与重验证，禁止追改旧结果。",
     "frozen_legacy_files": "EXPERIMENT_WORKFLOW.md和experiments/inheritance.py在旧manifest冻结，本次不修改；README和新审查脚本激活新协议。"
   },
@@ -3463,8 +3290,7 @@
       "results/v3_6_3",
       "results/v3_6_3_1",
       "results/v3_6_4",
-      "results/v3_6_5",
-      "results/v3_6_6"
+      "results/v3_6_5"
     ],
     "history_results_directories": [
       "results/calibration_v3_4_1",
@@ -3487,8 +3313,7 @@
       "results/v3_6_3",
       "results/v3_6_3_1",
       "results/v3_6_4",
-      "results/v3_6_5",
-      "results/v3_6_6"
+      "results/v3_6_5"
     ],
     "experiments_directories": [
       "experiments/v3_5_1",
@@ -3498,8 +3323,7 @@
       "experiments/v3_6_3",
       "experiments/v3_6_3_1",
       "experiments/v3_6_4",
-      "experiments/v3_6_5",
-      "experiments/v3_6_6"
+      "experiments/v3_6_5"
     ],
     "reachable_commits": [
       "7e1b765af51e0f59c8e134f6e5760ed626c9831b",
@@ -4123,48 +3947,7 @@
       "results/v3_6_5/run_state.json": "703268de259c343c8f40d0e84b25b2b1bcc0b43710b950a1e1c408eaf11a8e76",
       "results/v3_6_5/spec.md": "21dcd73a8ba50cdd5912bfa308dd7ea70a411d69cef10ae8957650b06b0f99d4",
       "results/v3_6_5/spec.original.md": "7d5855560adfd7f05dca5e79b7eb60f2314e246313dea8a32a55dff1a3fd9ddc",
-      "results/v3_6_5/tests.pre_inference.log": "3a206f091276f21782ee70ef5c6ba304b12a4df3c3c453bd60ae7568de15faba",
-      "results/v3_6_6/alias_registry.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
-      "results/v3_6_6/call_journal.jsonl": "93113861db9ca346795e91a0100eb9b1c8b3f7fcc74af41f20d258fd6f1c9c63",
-      "results/v3_6_6/call_schedule.json": "a94d172384a3c375e32ba9b1c703a0dac6b22a65b211fbf5ecefe7b797fb19e8",
-      "results/v3_6_6/case_outcomes.csv": "b0c0479aa3f4c0e681ac70774d483142236ebbcea58c67ef3b7dcef10a967fcf",
-      "results/v3_6_6/cases.json": "faa59c9b6dc42047b822557bc41bfaca4b1397e3aac5982e5227f4b9a4933056",
-      "results/v3_6_6/CHANGELOG.md": "35f3e00f5d5f451d7f3a2000746b47816c0cb7c8ef1ce2770ea5c2bb5765f634",
-      "results/v3_6_6/chat_template.txt": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
-      "results/v3_6_6/controlled_raw.jsonl": "0f429eb5d6c0a54cd1af2127018caf7c35b2c5158eb47c397ac188b50cb1673a",
-      "results/v3_6_6/decoding_freeze.json": "7e62b7738c058403038ba5503ac24ed0ddbab270a2f73f5c135733551ca778ce",
-      "results/v3_6_6/design_audit.md": "2a4b4dac2e2d37d09804e384d8dad1ad2979fa26831785e19c6449fa710a29e8",
-      "results/v3_6_6/design_audit.pre_inference.md": "ad675ada465d12a7bde3a4bd6d2279d22c948697f1d9c752425bdaeff0ae255f",
-      "results/v3_6_6/downstream_modules.json": "855a4e3809b9437c173800922edf5304bb71de78ee93cfc1b502a2cb25df3a4e",
-      "results/v3_6_6/first_hop_raw.jsonl": "8c26e8d741be6d6446e2c82b2c567cab8934576a927ee3bf6582ec4481cd2eb5",
-      "results/v3_6_6/freeze_manifest.json": "1d4d039c87364ee951be856d5c50f52e8998d18822047bf5422e89c98daea238",
-      "results/v3_6_6/freshness_audit.json": "7c3077f68169afb94fe4cdde2545ffe686d9cf0a9d937a2569c5431ff226ea63",
-      "results/v3_6_6/gate.json": "120a657f2a8b587861f79906473fdc8555c4608e47ecc9f68dd7ba04c588019d",
-      "results/v3_6_6/historical_interface_audit.json": "cb84306267768d9190b7cdbbb027d2fcf07b863b1c97bcd440cd392d91592430",
-      "results/v3_6_6/historical_raw_audit.json": "f4dc56740aca2d2497229c36ad5cbd2efad74dc57dbd1cdc0dba0296bfa9e662",
-      "results/v3_6_6/identifier_tokenization_audit.json": "bd450000348af07137bf80eaf41b3e9039f778b75ec06ddf6994c469a3c2f174",
-      "results/v3_6_6/identity_state_map.json": "fdc947e6e336a68450c13b69bd278d8af727194aa23aced95a15a3304f6fdf27",
-      "results/v3_6_6/independent_verification.json": "30966df9497913169e2b6520e4f86a9e4c8c25199f5c5d707564a00438e00c1a",
-      "results/v3_6_6/inheritance_audit.json": "9851b243a80a43be27821ff757489b90ba9efc4aaf2ac81d63067c8060760c89",
-      "results/v3_6_6/inspection.md": "fabdd694b1809938aad3ee185d273b67a6440378024a2df6fe2a54b3d9bf3395",
-      "results/v3_6_6/limitations.md": "283df0a757d5703ae8f6887f1c97e33217ab42892d31de3a0155327af3463537",
-      "results/v3_6_6/metrics.json": "2ec7178664cfbcaf49d5b2f1cecffc2aab90cf2033d74e533efa273f3b1303af",
-      "results/v3_6_6/model_manifest.json": "8d59e7700b476f6c44b2dc2d1d58b66a057393ed8710965d287570c1761cf2eb",
-      "results/v3_6_6/natural_downstream_raw.jsonl": "175c86bea4beb55c51e7b2d560492f944496c7bba95800bf5ba21998b42517b2",
-      "results/v3_6_6/order_diagnostic_raw.jsonl": "6a716310a4cca85f4376febd754b307e082474a14229ea267b81f64bae82219e",
-      "results/v3_6_6/paired_tables.json": "6d136a5168c21bfd95d785796a0e8b3c094415cf19c98965c931db21d947f101",
-      "results/v3_6_6/pipeline_log.jsonl": "46dccb507ba30d0ae4152a0c497d4c42bb97f4a76d9505a40b0097e15dc47d3c",
-      "results/v3_6_6/pre_registration.md": "c3efb174541eed565bc1db03876fbaa5a495fc5de9df2693e0b34cc0ac6c9524",
-      "results/v3_6_6/prior_findings_review.json": "bde6a59cdc4d1e7504676ce30da165e033900e564bc3715578ea5dc91b79bdd7",
-      "results/v3_6_6/prior_ledger_snapshot.json": "69bb8456e98cb2bc77974672b10bdaf6ba426d81ed52e399c4ac0e0734ae40da",
-      "results/v3_6_6/prompt_plan.jsonl": "37863dcf58f8d296911ab9bcb97bdaef4168a60dd9285bf588443283934b5102",
-      "results/v3_6_6/README.md": "def48f0351dc9788ae67295c3c9e12d41607430ca326a7619424997edad16778",
-      "results/v3_6_6/run_state.json": "56551866a0ee584c9b84e69c42ea87ba9f69fe1db40ab10de275b2699c102946",
-      "results/v3_6_6/spec.md": "7a96f5b09b9395925147f2256955d5b6effa1045c1e4922d4b5e686162dbbcc2",
-      "results/v3_6_6/spec.original.md": "0ec186026d7529b7432795c59696976b43bf7fc5a84fa67a71c068697c3ec254",
-      "results/v3_6_6/static_routing_audit.json": "85105950b8f21fa114d299780e97346e4b66789fa9c3a8351e873a11de5dd6ee",
-      "results/v3_6_6/tests.pre_inference.log": "ab8be5a47d872028de45e2a57770e79280400509a9e8b8879292397b93854a1e",
-      "results/v3_6_6/validated_inheritance.json": "4cc3217b374c24de291c6cefea161b75d42fd3db0700786ac60279e48e5282be"
+      "results/v3_6_5/tests.pre_inference.log": "3a206f091276f21782ee70ef5c6ba304b12a4df3c3c453bd60ae7568de15faba"
     },
     "implementation_and_data_sha256": {
       "EXPERIMENT_WORKFLOW.md": "13ec71df37ce49303ddabef4a4802ea50c37b97f678ed5ef1248735a19e39f62",
@@ -4286,15 +4069,7 @@
       "experiments/v3_6_5/report.py": "fe105c4ab57f4fb7395b40ba68bace3b726d8027c9ae0c10f93d356cbd3fdbcf",
       "experiments/v3_6_5/run.py": "87da601ef5b695c8166f6b78484b65efe8ecd5c7f98bbeca56b6e025b77ead58",
       "tests/test_v3_6_5.py": "103496d1e3e2d6efe1c5141251371b7578fc465d94c61b39c5e1e483098468dd",
-      "scripts/verify_v3_6_5.py": "2bfe68ae78f9f019e3db7341b372c78d85c4e0cce37caefb20ba45c7fd78f118",
-      "experiments/v3_6_6/analyze.py": "18b451ae71277aa059186d682bd48332e5ccabb5ec0e56541b238e345e54a76c",
-      "experiments/v3_6_6/design.py": "6c0c8a7b6d2338ca032a9cf13a7088a938c3cf784b99b88107654b04ad830547",
-      "experiments/v3_6_6/prepare.py": "dea528a77dfeacc291a32d4f4e68a1c8bc70ed178c06e1e2aee7ddebe83b60bd",
-      "experiments/v3_6_6/report.py": "9bfc0dee36fafd6a392f3bffd2ecd9c2214ad161ff9d8c73b863ff69a99f0df8",
-      "experiments/v3_6_6/run.py": "d5e31c96d95fc25fcd229fba5d2b61527056b2bdf990350c4d0b386dab013f09",
-      "tests/test_v3_6_6.py": "652d40b52855d115b25e42cac74077f9bfbeaf20e758fcfece891a33de3c6ff3",
-      "scripts/verify_v3_6_6.py": "422fe55dc7e27c512bc8426a204c92b8a8ed2b3965716e7d9e73ce3fa919b030",
-      "scripts/incorporate_v3_6_6.py": "2c26550f008ec2fce9812275988ad3a80878c4a723a2c26dd56109e801509d90"
+      "scripts/verify_v3_6_5.py": "2bfe68ae78f9f019e3db7341b372c78d85c4e0cce37caefb20ba45c7fd78f118"
     },
     "archived_preparation_drafts": [
       {
@@ -5434,76 +5209,9 @@
           "verification.json",
           "original_spec.md"
         ]
-      },
-      {
-        "directory": "results/v3_6_6",
-        "files": 41,
-        "text_artifacts_parsed": [
-          "results/v3_6_6/alias_registry.json",
-          "results/v3_6_6/call_journal.jsonl",
-          "results/v3_6_6/call_schedule.json",
-          "results/v3_6_6/case_outcomes.csv",
-          "results/v3_6_6/cases.json",
-          "results/v3_6_6/CHANGELOG.md",
-          "results/v3_6_6/chat_template.txt",
-          "results/v3_6_6/controlled_raw.jsonl",
-          "results/v3_6_6/decoding_freeze.json",
-          "results/v3_6_6/design_audit.md",
-          "results/v3_6_6/design_audit.pre_inference.md",
-          "results/v3_6_6/downstream_modules.json",
-          "results/v3_6_6/first_hop_raw.jsonl",
-          "results/v3_6_6/freeze_manifest.json",
-          "results/v3_6_6/freshness_audit.json",
-          "results/v3_6_6/gate.json",
-          "results/v3_6_6/historical_interface_audit.json",
-          "results/v3_6_6/historical_raw_audit.json",
-          "results/v3_6_6/identifier_tokenization_audit.json",
-          "results/v3_6_6/identity_state_map.json",
-          "results/v3_6_6/independent_verification.json",
-          "results/v3_6_6/inheritance_audit.json",
-          "results/v3_6_6/inspection.md",
-          "results/v3_6_6/limitations.md",
-          "results/v3_6_6/metrics.json",
-          "results/v3_6_6/model_manifest.json",
-          "results/v3_6_6/natural_downstream_raw.jsonl",
-          "results/v3_6_6/order_diagnostic_raw.jsonl",
-          "results/v3_6_6/paired_tables.json",
-          "results/v3_6_6/pipeline_log.jsonl",
-          "results/v3_6_6/pre_registration.md",
-          "results/v3_6_6/prior_findings_review.json",
-          "results/v3_6_6/prior_ledger_snapshot.json",
-          "results/v3_6_6/prompt_plan.jsonl",
-          "results/v3_6_6/README.md",
-          "results/v3_6_6/run_state.json",
-          "results/v3_6_6/spec.md",
-          "results/v3_6_6/spec.original.md",
-          "results/v3_6_6/static_routing_audit.json",
-          "results/v3_6_6/tests.pre_inference.log",
-          "results/v3_6_6/validated_inheritance.json"
-        ],
-        "expected_present": [
-          "CHANGELOG.md",
-          "README.md",
-          "design_audit.md",
-          "design_audit.pre_inference.md",
-          "gate.json",
-          "independent_verification.json",
-          "inspection.md",
-          "metrics.json",
-          "pre_registration.md",
-          "spec.md"
-        ],
-        "expected_absent": [
-          "calibration_gate.json",
-          "diagnosis.md",
-          "interpretation.md",
-          "original_spec.md",
-          "prompt_diff_audit.md",
-          "verification.json"
-        ]
       }
     ],
-    "inspection_method": "枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。 2026-10-09补充读取v3.6.4全部文件并检查零调用、原生崩溃记录与168提示重建；此目录尚未提交，history目录集包括待提交失败记录，历史旧目录未变。 单独核验attempt_02的72条输出token解码、完整文本分类及停止门槛；首次失败文件全部哈希不变。 v3.6.5新增目录为待提交冻结实验；完整读取其结果，重建24历史fixture、独立核验32输出和192映射。 原始台账生成器中的固定旧摘要保留为历史模板：当前自然编码后传播证据以v3.6.6/F28/Q01为准；原C06仍限定旧正确状态接口。维护本身零调用，不是说本版实验零调用。",
+    "inspection_method": "枚举全部可达Git提交和现存目录；所有结果文本完整读取、JSON/JSONL解析及哈希；人工综合主要报告、门槛、诊断和目标原始失败，并非逐行重新人工裁决所有历史输出。 2026-10-09补充读取v3.6.4全部文件并检查零调用、原生崩溃记录与168提示重建；此目录尚未提交，history目录集包括待提交失败记录，历史旧目录未变。 单独核验attempt_02的72条输出token解码、完整文本分类及停止门槛；首次失败文件全部哈希不变。 v3.6.5新增目录为待提交冻结实验；完整读取其结果，重建24历史fixture、独立核验32输出和192映射。",
     "omitted_version_labels": [
       "未发现独立v3.5/v3.5.2目录或提交；将来版本提议不算已执行。"
     ]
@@ -5532,14 +5240,10 @@
     {
       "date": "2026-10-10",
       "entry": "v3.6.6实施前零模型调用交叉核对：重算v3.4.4 HARD/N24有效/5错、v3.6.5开发24有效/21正确/3错与诊断3/8改变、v3.6.3.1两臂/paired/实际正确状态管线40/40。补充前瞻性120例设计的继承边界及待测桥接，不新增已执行版本、不改变v3.6.5门槛结论。"
-    },
-    {
-      "date": "2026-10-10",
-      "entry": "纳入v3.6.6：502次完整采集，新增F28及21号版本；更新F14/F16/F18/F19/F20、M10、Q01/Q08。固定120例；Valid118/120，GOLD98/120，WRONG20/120，TRUNCATED2/120。自然传播20/20=100.00%（Wilson95% 83.89%–100.00%）；总体UCR 20/120=16.67%（Wilson95% 11.06%–24.35%）；strict E2E 98/120=81.67%（Wilson95% 73.80%–87.57%）；final gold 98/120=81.67%（Wilson95% 73.80%–87.57%）。自然WRONG结局{'PROPAGATION': 20}；自然GOLD结局{'GOLD_RETAINED': 98}。 这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。 冻结模板保留但明确标注旧摘要；全部旧结果及冻结代码hash不变。"
     }
   ],
   "build_validation": {
-    "full_suite_tests_passed": 183,
+    "full_suite_tests_passed": 169,
     "new_protocol_tests": 8,
     "test_command": "python -m unittest discover -s tests -v",
     "test_log": "docs/validated_findings_tests.log",
@@ -5547,14 +5251,12 @@
     "new_frontier_tests": 12,
     "experiment_model_calls_added_by_authorized_retry": 72,
     "new_hard_n_tests": 12,
-    "hard_n_model_calls": 32,
-    "new_prospective_tests": 14,
-    "prospective_model_calls": 502
+    "hard_n_model_calls": 32
   },
   "preimplementation_v3_6_6": {
-    "status": "COMPLETED_WITH_FROZEN_PREIMPLEMENTATION_SNAPSHOT",
+    "status": "PLANNED_NOT_EXECUTED",
     "audit_file": "docs/v3_6_6_preimplementation_audit.json",
-    "design": "在该冻结模型/任务/路由策略下保存了20个实际自然错选的完整下游轨迹；MINIMUM_DESCRIPTIVE_INFORMATION_MET。这是自由生成目录错选经无损身份编码进入预建两行合成模块的观察；模块选择依赖实际错身份。未验证未经程序编码的自然对话传播、真实世界事实幻觉、自然/注入隐状态等价、集成底层能力或SHAR/HalluSE。复用21人物和组合，区间依赖case层工作独立性；不把受控调用当自然错误。",
+    "design": "Fixed120 prospective trajectories, no frontier or yield gate; all legal first hops forwarded via bijection into prebuilt two-row modules. New bridge/routing and actual natural-wrong downstream unvalidated.",
     "focus": [
       "F04",
       "F11",
@@ -5567,15 +5269,6 @@
       "C03",
       "C05",
       "C06"
-    ],
-    "result_evidence": [
-      "results/v3_6_6/README.md",
-      "results/v3_6_6/metrics.json",
-      "results/v3_6_6/case_outcomes.csv",
-      "results/v3_6_6/paired_tables.json",
-      "results/v3_6_6/independent_verification.json",
-      "results/v3_6_6/inspection.md",
-      "results/v3_6_6/limitations.md"
     ]
   }
 }

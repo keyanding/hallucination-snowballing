@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "technical_status": "NONE",
+  "counts": {
+    "first_hop": 120,
+    "natural_downstream": 118,
+    "controlled": 240,
+    "order_diagnostic": 24
+  },
+  "total_calls": 502,
+  "memory": {
+    "peak_allocated_bytes": 3430942720,
+    "peak_reserved_bytes": 3498049536,
+    "free_bytes": 3714056192,
+    "total_bytes": 8546484224
+  }
+}

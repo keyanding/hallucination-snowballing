@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "ledger_review": {
+    "passed": true,
+    "reviewed_findings_components": 34,
+    "warnings_addressed": 10
+  },
+  "legacy_validator": true,
+  "historical_fixtures": 24,
+  "downstream_module_byte_pairs": 360,
+  "all_person_routes": 480,
+  "baseline_commit": "135968464958840259bdb6b4c6ced2951afe2e03"
+}

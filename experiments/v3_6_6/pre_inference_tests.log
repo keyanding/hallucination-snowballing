@@ -183,6 +183,6 @@ test_stale_ledger_or_omitted_previous_experiment_rejected (test_validated_findin
 test_warning_cannot_be_ignored_or_overridden (test_validated_findings.LedgerProtocolTests.test_warning_cannot_be_ignored_or_overridden) ... ok
 
 ----------------------------------------------------------------------
-Ran 183 tests in 4.676s
+Ran 183 tests in 4.260s
 
 OK

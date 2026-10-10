@@ -1,0 +1,180 @@
+{
+  "all_controlled": {
+    "n_pairs": 120,
+    "table": {
+      "00": 0,
+      "01": 0,
+      "10": 120,
+      "11": 0
+    },
+    "RD": 1.0,
+    "paired95": [
+      0.9282836214639123,
+      1
+    ],
+    "interval": "Bonferroni difference of97.5% CP discordant-cell intervals; tails0.0125"
+  },
+  "natural_wrong_subset": {
+    "n_pairs": 20,
+    "table": {
+      "00": 0,
+      "01": 0,
+      "10": 20,
+      "11": 0
+    },
+    "RD": 1.0,
+    "paired95": [
+      0.606480640590749,
+      1
+    ],
+    "interval": "Bonferroni difference of97.5% CP discordant-cell intervals; tails0.0125"
+  },
+  "natural_wrong_total": 20,
+  "missing_all": 0,
+  "missing_wrong": 0,
+  "natural_vs_controlled": [
+    {
+      "case_id": "v366-main-002",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-005",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-017",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-028",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-031",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-032",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-039",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-060",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-067",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-069",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-071",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-074",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-080",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-082",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-094",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-095",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-101",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-106",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-111",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    },
+    {
+      "case_id": "v366-main-115",
+      "natural_propagation": true,
+      "controlled_alternate": true,
+      "same_normalized": true,
+      "same_raw_hash": true
+    }
+  ],
+  "natural_vs_controlled_table": {
+    "11": 20
+  }
+}
